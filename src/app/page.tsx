@@ -1,103 +1,50 @@
-import Image from "next/image";
+import { RestaurantList } from "@/components/restaurant-list";
+import { DELIVERY_FEE_PER_RESTAURANT, ORDER_CUTOFF_MINUTES } from "@/lib/config";
+import { allRestaurants, orderableRestaurants } from "@/lib/data";
+import { formatMoney } from "@/lib/pricing";
+import { localNow } from "@/lib/schedule";
+
+export const dynamic = "force-dynamic";
 
 export default function Home() {
-  return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+  const open = orderableRestaurants();
+  const openSlugs = new Set(open.map((o) => o.restaurant.slug));
+  const pending = allRestaurants().filter((r) => r.active && !openSlugs.has(r.slug));
+  const beforeCutoff = localNow(new Date()).minutes < ORDER_CUTOFF_MINUTES;
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+  return (
+    <div className="space-y-8">
+      <section className="rounded-2xl bg-brand px-6 py-8 text-white">
+        <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">Dinner from your JP favorites.</h1>
+        <p className="mt-3 max-w-2xl text-white/85">
+          Order by 4 PM and choose a delivery time between 5 and 9 PM. You pay the restaurant&apos;s own menu prices
+          and taxes, plus a flat {formatMoney(DELIVERY_FEE_PER_RESTAURANT)} delivery fee for each restaurant. Restaurants
+          pay nothing.
+        </p>
+        <p className="mt-4 inline-block rounded-full bg-white/15 px-3 py-1 text-sm">
+          {beforeCutoff ? "Ordering is open for tonight until 4:00 PM." : "Tonight's orders are closed. Pre-order for tomorrow or later."}
+        </p>
+      </section>
+
+      <RestaurantList
+        restaurants={open.map(({ restaurant, menu }) => ({
+          slug: restaurant.slug,
+          name: restaurant.name,
+          cuisine: restaurant.cuisine,
+          address: restaurant.address,
+          itemCount: menu.categories.reduce((n, c) => n + c.items.length, 0),
+        }))}
+      />
+
+      {pending.length > 0 && (
+        <section className="rounded-xl border border-line bg-card p-5">
+          <h2 className="font-semibold">Coming soon</h2>
+          <p className="mt-1 text-sm text-muted">
+            These JP restaurants take online orders, but their menus haven&apos;t loaded yet.
+          </p>
+          <p className="mt-3 text-sm">{pending.map((r) => r.name).join(" · ")}</p>
+        </section>
+      )}
     </div>
   );
 }

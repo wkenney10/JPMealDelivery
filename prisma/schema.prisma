@@ -1,0 +1,68 @@
+// SQLite for local development. For production, switch `provider` to
+// "postgresql" and point DATABASE_URL at a hosted Postgres database.
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Order {
+  id            String   @id @default(cuid())
+  code          String   @unique // short code shown to the customer
+  status        String   @default("received") // received | in_progress | out_for_delivery | delivered | cancelled
+  customerName  String
+  phone         String
+  email         String
+  street        String
+  unit          String?
+  zip           String
+  deliveryNotes String?
+  deliveryDate  String // YYYY-MM-DD, America/New_York
+  deliverySlot  String // HH:MM slot start
+  subtotal      Int
+  tax           Int
+  serviceFee    Int
+  deliveryFee   Int
+  total         Int
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  restaurantOrders RestaurantOrder[]
+
+  @@index([deliveryDate, deliverySlot])
+}
+
+// One takeout order we place with a restaurant on the customer's behalf.
+model RestaurantOrder {
+  id             String  @id @default(cuid())
+  orderId        String
+  order          Order   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  restaurantSlug String
+  restaurantName String
+  orderUrl       String
+  status         String  @default("to_place") // to_place | placed | picked_up
+  confirmation   String? // the restaurant's own order number
+  subtotal       Int
+  tax            Int
+  serviceFee     Int
+  deliveryFee    Int
+  total          Int
+
+  items OrderItem[]
+}
+
+model OrderItem {
+  id                String          @id @default(cuid())
+  restaurantOrderId String
+  restaurantOrder   RestaurantOrder @relation(fields: [restaurantOrderId], references: [id], onDelete: Cascade)
+  itemId            String
+  name              String
+  options           String // JSON array of option names
+  quantity          Int
+  unitPrice         Int
+  lineTotal         Int
+  notes             String?
+}

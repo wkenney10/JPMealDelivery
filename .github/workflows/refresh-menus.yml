@@ -1,0 +1,63 @@
+name: Refresh menus
+
+on:
+  schedule:
+    # 13:20 UTC = 9:20 AM EDT / 8:20 AM EST, well before the 4 PM order cutoff.
+    - cron: "20 13 * * *"
+  workflow_dispatch:
+    inputs:
+      restaurants:
+        description: "Space-separated restaurant slugs (blank = all)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-menus-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Scrape menus
+        env:
+          HEADED: "1"
+          SCRAPE_DEBUG_DIR: ${{ runner.temp }}/scrape-debug
+        run: xvfb-run -a npm run scrape -- ${{ github.event.inputs.restaurants }}
+
+      - name: Upload raw API captures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scrape-debug
+          path: ${{ runner.temp }}/scrape-debug
+          if-no-files-found: ignore
+          retention-days: 7
+
+      - name: Commit menu changes
+        run: |
+          git config user.name "jpmd-menu-bot"
+          git config user.email "jpmd-menu-bot@users.noreply.github.com"
+          git add data/menus data/scrape-report.json
+          if git diff --cached --quiet; then
+            echo "No menu changes."
+          else
+            git commit -m "Refresh menus $(date -u +%Y-%m-%d)"
+            git push
+          fi

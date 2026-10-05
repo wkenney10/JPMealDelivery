@@ -1,0 +1,32 @@
+{
+ "restaurant": "replace-with-restaurant-slug",
+ "source": "manual",
+ "platform": "manual",
+ "sourceUrl": "https://link-to-the-restaurants-online-ordering-page",
+ "fetchedAt": "2026-10-05T12:00:00.000Z",
+ "categories": [
+  {
+   "name": "Entrees",
+   "items": [
+    {
+     "id": "example-burrito",
+     "name": "Example Burrito",
+     "description": "Prices are integer cents: 1395 = $13.95.",
+     "price": 1395,
+     "optionGroups": [
+      {
+       "id": "example-burrito-protein",
+       "name": "Protein",
+       "min": 1,
+       "max": 1,
+       "options": [
+        { "id": "chicken", "name": "Chicken", "price": 0 },
+        { "id": "steak", "name": "Steak", "price": 200 }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
