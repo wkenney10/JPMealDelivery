@@ -1,0 +1,439 @@
+{
+ "restaurant": "top-mix",
+ "source": "scraped",
+ "platform": "doordash",
+ "sourceUrl": "https://order.online/store/top-mix-bar-&-kitchen-boston-522906/?pickup=true",
+ "fetchedAt": "2026-10-05T18:51:43.167Z",
+ "categories": [
+  {
+   "name": "Starters",
+   "items": [
+    {
+     "id": "23925645175",
+     "name": "Pastelillo",
+     "description": "Crispy empanadas with your choice of filling: Buffalo Chicken, Beef, Chicken & Cheese, Salami & Cheese, or Tuna Pastel.",
+     "price": 230
+    },
+    {
+     "id": "23925645176",
+     "name": "Chicken Wings",
+     "description": "Choice of Whiskey BBQ, Honey Hot, Garlic Parmesan Herb, Buffalo, Plain, Sweet Chili, or Mango Buffalo.",
+     "price": 1365
+    },
+    {
+     "id": "23925645177",
+     "name": "Chicken Tenders",
+     "description": "Crispy chicken tenders with a choice of seven sauces: Whiskey BBQ, Honey Hot, Sweet Chili, Garlic Parmesan Herb, Mango Buffalo, Buffalo, or Plain.",
+     "price": 1365
+    },
+    {
+     "id": "23925645178",
+     "name": "Sampler",
+     "description": "A variety of popular starters including wings, cheese sticks, onion rings, and fried pickles with assorted dipping sauces.",
+     "price": 2910
+    },
+    {
+     "id": "23925645180",
+     "name": "Plantian Chips w/ Fried Cheese",
+     "description": "Plantain chips typically served with fried cheese.",
+     "price": 1275
+    },
+    {
+     "id": "24057913895",
+     "name": "Steak & Cheese Eggrolls",
+     "description": "Shaved steak, peppers, onions, and American cheese, wrapped in a crispy egg roll. Typically served with a tangy dipping sauce.",
+     "price": 1275
+    },
+    {
+     "id": "23925645181",
+     "name": "Shrimp Guac Bites",
+     "description": "Marinated shrimp served atop handcrafted tortilla cups, filled with freshly made guacamole.",
+     "price": 1730
+    },
+    {
+     "id": "23925645182",
+     "name": "Caribbean Potato Wedges",
+     "description": "Freshly cut russet potatoes cooked to perfection. topped with ketchup and our signature sofrito aioli sauce.",
+     "price": 1000
+    },
+    {
+     "id": "23925645183",
+     "name": "Carne Frita",
+     "description": "Pork shoulder marinated in sofrito and fried until tender. served with fresh lime.",
+     "price": 1275
+    },
+    {
+     "id": "23925645184",
+     "name": "Coconut Chili Fried Shrimp",
+     "description": "Chili and lime marinated shrimp grilled to perfection. served atop crispy red cabbage.",
+     "price": 1730
+    },
+    {
+     "id": "23925645185",
+     "name": "Tortilla Chips & Guacamole",
+     "description": "Housemade guacamole with fresh tortilla chips, typically featuring avocado, lime, cilantro, and diced tomatoes.",
+     "price": 1275
+    },
+    {
+     "id": "23925645186",
+     "name": "Chicharron De Pollo",
+     "description": "Crispy fried chicken pieces typically seasoned with house spices, often served with a zesty dipping sauce.",
+     "price": 1275
+    },
+    {
+     "id": "24062962370",
+     "name": "Chicharron De Cerdo",
+     "description": "Crispy fried pork skin typically seasoned with house spices.",
+     "price": 1275
+    },
+    {
+     "id": "24063134388",
+     "name": "Chili Lime Grilled Shrimp",
+     "description": "Chili and lime marinated shrimp grilled to perfection. served atop crispy red cabbage.",
+     "price": 1730
+    }
+   ]
+  },
+  {
+   "name": "Plates",
+   "items": [
+    {
+     "id": "23925607455",
+     "name": "Steak Tips",
+     "description": "Sautéed steak tips with onions, bell peppers, and mushrooms.",
+     "price": 2090
+    },
+    {
+     "id": "23925607456",
+     "name": "Fried Chicken & Waffles",
+     "description": "Buttermilk fried chicken, Belgian waffle, maple syrup, and honey butter glaze.",
+     "price": 1730
+    },
+    {
+     "id": "23925607457",
+     "name": "Fish & Chips",
+     "description": "Crispy beer-battered fish with golden fries",
+     "price": 2000
+    },
+    {
+     "id": "23925607458",
+     "name": "Shrimp And Chips (Battered)",
+     "description": "Battered shrimp with fries and tartar sauce.",
+     "price": 2090
+    },
+    {
+     "id": "23925607462",
+     "name": "BBQ Chicken W/Baked Mac+Cheese",
+     "description": "Baked mac and cheese with bbq chicken.",
+     "price": 1910
+    }
+   ]
+  },
+  {
+   "name": "Sandwiches & Burgers",
+   "items": [
+    {
+     "id": "23925570812",
+     "name": "Top Mix Burger",
+     "description": "Grilled ground beef topped with shredded red cabbage, fried cheese, and our top mix sauce, served on a brioche bun.",
+     "price": 1640
+    },
+    {
+     "id": "23925570813",
+     "name": "Whisky BBQ Bacon & Onion Ring Cheeseburger",
+     "description": "Grilled beef patty topped with smoked bacon, melted American cheese, crispy onion rings, and house-made whisky BBQ sauce on a brioche bun.",
+     "price": 1640
+    },
+    {
+     "id": "23925570814",
+     "name": "Maple Bacon Burger",
+     "description": "Grilled beef patty topped with sharp white cheddar, caramelized onions, and maple bacon on a brioche bun.",
+     "price": 1640
+    },
+    {
+     "id": "23925570815",
+     "name": "Mango Buffalo Fried Chicken Sandwich",
+     "description": "Buttermilk fried chicken thigh, mango buffalo sauce, lettuce, tomato, pickles, and aioli on a brioche bun.",
+     "price": 1640
+    },
+    {
+     "id": "23925570816",
+     "name": "Grilled Chicken Plantain Avocado Sandwich",
+     "description": "Grilled chicken breast, plantains, avocado, lettuce, tomato, and red onion on a toasted bun.",
+     "price": 1640
+    },
+    {
+     "id": "23925570817",
+     "name": "Cheese Burger",
+     "description": "Classic beef patty topped with melted cheese, served on a grilled bun.",
+     "price": 1545
+    },
+    {
+     "id": "23925570818",
+     "name": "Regular Burger (No Cheese)",
+     "description": "Beef patty garnished with onions, lettuce, tomato, and pickles on a regular hamburger bun with mustard, mayo, and ketchup.",
+     "price": 1455
+    }
+   ]
+  },
+  {
+   "name": "Salads",
+   "items": [
+    {
+     "id": "23925170727",
+     "name": "Caesar Salad",
+     "description": "Classic Caesar Salad with Crisp Romaine, Parmesan, Croutons, and Signature Caesar Dressing.",
+     "price": 1185
+    },
+    {
+     "id": "23925170728",
+     "name": "Chopped Salad",
+     "description": "Chopped romaine, tomatoes, cucumbers, red onions, bacon, and blue cheese crumbles, tossed in a red wine vinaigrette.",
+     "price": 1185
+    },
+    {
+     "id": "24063233086",
+     "name": "BBQ Ranch Salad",
+     "description": "Romaine lettuce, black beans, corn, chopped tomatoes, tortilla strips, and BBQ ranch dressing.",
+     "price": 1185
+    },
+    {
+     "id": "24063187453",
+     "name": "Tropical Rice Bowl",
+     "description": "Cilantro lime rice, black beans, shredded lettuce, tomatoes, pico de gallo, guacamole, and fresh pineapple, typically includes a citrus dressing.",
+     "price": 1365
+    }
+   ]
+  },
+  {
+   "name": "Sides",
+   "items": [
+    {
+     "id": "23925595158",
+     "name": "French Fries",
+     "description": "Crispy golden strips of deliciousness served hot and seasoned to perfection.",
+     "price": 640
+    },
+    {
+     "id": "23925595159",
+     "name": "Plantains",
+     "description": "Sweet plantains sliced and fried until golden brown.",
+     "price": 730
+    },
+    {
+     "id": "23925595160",
+     "name": "Sweet Plantains",
+     "description": "Sweet yellow plantains, typically sliced and deep-fried until golden brown.",
+     "price": 640
+    },
+    {
+     "id": "23925595161",
+     "name": "Fried Cheese",
+     "description": "House-breaded cheese, deep-fried to a golden crisp, typically includes a variety of cheeses for a satisfying bite.",
+     "price": 545
+    },
+    {
+     "id": "23925595162",
+     "name": "Caribbean Fries",
+     "description": "Hand-cut fries typically seasoned with Caribbean spices.",
+     "price": 640
+    },
+    {
+     "id": "23925595163",
+     "name": "Mashed Potatoes",
+     "description": "Creamy, buttery whipped potatoes, perfectly seasoned for a comforting side dish.",
+     "price": 545
+    },
+    {
+     "id": "23925595164",
+     "name": "Beans",
+     "description": "Freshly simmered, seasoned beans, perfectly tender and flavorful.",
+     "price": 365
+    },
+    {
+     "id": "23925595165",
+     "name": "Asparagus",
+     "description": "Grilled asparagus with olive oil, salt, and pepper.",
+     "price": 545
+    },
+    {
+     "id": "23925595166",
+     "name": "Avocado",
+     "description": "Fresh and creamy fruit with a rich taste, perfect for adding a touch of luxury to any dish.",
+     "price": 455
+    },
+    {
+     "id": "23925595167",
+     "name": "Cole Slaw",
+     "description": "Crisp shredded cabbage in a creamy, tangy dressing.",
+     "price": 365
+    },
+    {
+     "id": "23925595168",
+     "name": "Rice",
+     "description": "Flavorful rice dish prepared to perfection, showcasing an ideal complement for any meal.",
+     "price": 545
+    },
+    {
+     "id": "23925595169",
+     "name": "Guacamole",
+     "description": "Fresh, creamy avocado dip, seasoned with lime and cilantro. Perfect for sharing.",
+     "price": 640
+    },
+    {
+     "id": "23925595170",
+     "name": "Mac & Cheese",
+     "description": "Creamy, classic macaroni in a rich, velvety cheese sauce.",
+     "price": 545
+    },
+    {
+     "id": "23925595171",
+     "name": "Corn Bread (2pcs)",
+     "description": "Corn bread: Sweet and moist cornbread, typically baked to a golden brown.",
+     "price": 455
+    }
+   ]
+  },
+  {
+   "name": "Sauces",
+   "items": [
+    {
+     "id": "23925667281",
+     "name": "Honey Hot",
+     "description": "A blend of honey and chili peppers, offering a balanced mix of sweetness and heat.",
+     "price": 45
+    },
+    {
+     "id": "23925667282",
+     "name": "Whisky BBQ",
+     "description": "A smoky and tangy barbecue sauce typically featuring whisky, tomatoes, vinegar, and spices.",
+     "price": 45
+    },
+    {
+     "id": "23925667283",
+     "name": "Garlic Parm",
+     "description": "Creamy blend of garlic and parmesan cheese, typically includes Italian herbs.",
+     "price": 45
+    },
+    {
+     "id": "23925667284",
+     "name": "Sofrito Aioli",
+     "description": "Creamy aioli typically includes a blend of garlic, olive oil, and sofrito—a mix of aromatic ingredients like onions, peppers, and tomatoes.",
+     "price": 45
+    },
+    {
+     "id": "23925667285",
+     "name": "Top Mix Sauce",
+     "description": "A versatile house-made sauce that typically includes a blend of savory and tangy ingredients for an all-purpose flavor enhancer.",
+     "price": 45
+    },
+    {
+     "id": "23925667286",
+     "name": "Buffalo",
+     "description": "Classic buffalo sauce, typically made with hot sauce and butter, offering a tangy and spicy flavor.",
+     "price": 45
+    },
+    {
+     "id": "23925667287",
+     "name": "Blue Cheese",
+     "description": "Creamy blue cheese dressing typically made with mayonnaise and buttermilk. Pairs well with salads and wings. Contains dairy.",
+     "price": 90
+    },
+    {
+     "id": "23925667288",
+     "name": "Ranch",
+     "description": "Buttermilk ranch made in-house with mayonnaise, sour cream, and a blend of herbs and spices.",
+     "price": 45
+    },
+    {
+     "id": "23925667289",
+     "name": "Syrup",
+     "description": "A classic, sweet syrup typically made from sugar or maple, perfect for pancakes, waffles, and other breakfast favorites.",
+     "price": 45
+    },
+    {
+     "id": "23925667290",
+     "name": "Honey Mustard",
+     "description": "A harmonious blend of sweet honey and tangy mustard, often featuring dijon mustard and clover honey.",
+     "price": 45
+    },
+    {
+     "id": "23925667291",
+     "name": "Mango Buffalo",
+     "description": "A blend of sweet mango and tangy buffalo sauce, offering a mildly spicy and fruity flavor, typically used for wings and dipping.",
+     "price": 45
+    }
+   ]
+  },
+  {
+   "name": "Na Beverages",
+   "items": [
+    {
+     "id": "23925691947",
+     "name": "Coca-Cola",
+     "description": "Coca-Cola Original Taste — the crisp, refreshing taste you know and love",
+     "price": 185
+    },
+    {
+     "id": "23925691948",
+     "name": "Bottle Water",
+     "description": "Pure and refreshing bottled water.",
+     "price": 185
+    },
+    {
+     "id": "23925691949",
+     "name": "Sprite",
+     "description": "Classic, cool, crisp lemon-lime flavored taste that's caffeine free",
+     "price": 185
+    },
+    {
+     "id": "23925691950",
+     "name": "Ginger Ale",
+     "description": "Refreshing, crisp ginger-flavored carbonated soft drink.",
+     "price": 185
+    },
+    {
+     "id": "23925691951",
+     "name": "Red Bull",
+     "description": "Invigorating Energy Surge: The Classic Red Bull Experience",
+     "price": 455
+    },
+    {
+     "id": "23925691952",
+     "name": "Jarrito",
+     "description": "Soda with flavors such as Passion Fruit, Mango, Pineapple, Guava, Mandarin, and more.",
+     "price": 320
+    },
+    {
+     "id": "44699043380",
+     "name": "Saratoga Sparkling Water",
+     "description": "Bottled in signature cobalt blue glass, Saratoga sparkling water offers a refreshing and crisp carbonated experience with premium domestic spring water.",
+     "price": 1000
+    },
+    {
+     "id": "44699043381",
+     "name": "Saratoga Sparkling Water (Small)",
+     "description": "Bottled in signature cobalt blue glass, this carbonated spring water offers a crisp and refreshing taste.",
+     "price": 545
+    }
+   ]
+  },
+  {
+   "name": "Catering",
+   "items": [
+    {
+     "id": "44702026386",
+     "name": "Chicken Wings",
+     "description": "Serves 10+.",
+     "price": 9500
+    },
+    {
+     "id": "44702026387",
+     "name": "Chicken Tenders",
+     "description": "Serves 10+.",
+     "price": 8500
+    }
+   ]
+  }
+ ]
+}

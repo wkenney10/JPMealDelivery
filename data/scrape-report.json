@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-05T17:33:50.176Z",
+ "generatedAt": "2026-10-05T18:52:11.155Z",
  "restaurants": {
   "achilitos-taqueria": {
    "slug": "achilitos-taqueria",
@@ -119,9 +119,13 @@
   },
   "marios-pizza": {
    "slug": "marios-pizza",
-   "status": "failed",
-   "checkedAt": "2026-10-05T17:29:57.214Z",
-   "error": "No menu found in 2 API responses"
+   "status": "ok",
+   "checkedAt": "2026-10-05T18:50:41.123Z",
+   "lastSuccessAt": "2026-10-05T18:50:41.123Z",
+   "itemCount": 38,
+   "changes": [
+    "New menu with 38 items"
+   ]
   },
   "mike-pattys-jp": {
    "slug": "mike-pattys-jp",
@@ -132,9 +136,13 @@
   },
   "noodle-barn": {
    "slug": "noodle-barn",
-   "status": "failed",
-   "checkedAt": "2026-10-05T17:30:06.666Z",
-   "error": "No menu found in 2 API responses"
+   "status": "ok",
+   "checkedAt": "2026-10-05T18:51:11.508Z",
+   "lastSuccessAt": "2026-10-05T18:51:11.508Z",
+   "itemCount": 118,
+   "changes": [
+    "New menu with 118 items"
+   ]
   },
   "real-deal-jp": {
    "slug": "real-deal-jp",
@@ -189,9 +197,13 @@
   },
   "top-mix": {
    "slug": "top-mix",
-   "status": "failed",
-   "checkedAt": "2026-10-05T17:33:01.781Z",
-   "error": "No menu found in 2 API responses"
+   "status": "ok",
+   "checkedAt": "2026-10-05T18:51:43.167Z",
+   "lastSuccessAt": "2026-10-05T18:51:43.167Z",
+   "itemCount": 65,
+   "changes": [
+    "New menu with 65 items"
+   ]
   },
   "tres-gatos": {
    "slug": "tres-gatos",

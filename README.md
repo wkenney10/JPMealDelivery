@@ -51,7 +51,7 @@ has an adapter for each one:
 | menu.app (Life Alive) | JSON API captured in a headless browser | Tested against live API (base prices only) |
 | Toast | GraphQL responses captured in a real browser, parsed generically | **Not yet verified.** See below. |
 | ChowNow | API responses captured in a real browser | **Not yet verified** |
-| DoorDash Storefront (order.online) | GraphQL responses captured in a real browser | **Not yet verified** |
+| DoorDash Storefront (order.online) | Menu data embedded in the server-rendered page (Next.js flight payload) | Tested against live pages (base prices only) |
 
 Toast, ChowNow and DoorDash Storefront sit behind Cloudflare bot protection, which blocked the
 cloud environment this was built in. Those adapters capture the platform's own API traffic and use a
@@ -79,11 +79,11 @@ instructions: [docs/local-menu-refresh.md](docs/local-menu-refresh.md).
 `data/menus-manual/<slug>.json` and fill it in (prices in cents). A successful scrape always takes
 precedence. Restaurants with no menu at all are listed as "Coming soon" and can't be ordered from.
 
-**Current state (first scrape, 2026-10-05):** 13 restaurants have live menus: 11 on Slice, plus Achilito's
-(Square), Don Tequeño (Clover) and Life Alive (menu.app). Mike & Patty's scraped fine but is hidden
-because it doesn't serve dinner. The 19 restaurants on Toast, ChowNow and DoorDash Storefront were
-blocked by bot protection from the build environment. They show as "Coming soon" until the GitHub
-Action (or a local `npm run scrape`) fetches them.
+**Current state (2026-10-05):** 16 restaurants have live menus: 11 on Slice, 3 on DoorDash Storefront
+(Mario's, Noodle Barn, Top Mix), plus Achilito's (Square), Don Tequeño (Clover) and Life Alive
+(menu.app). Mike & Patty's scraped fine but is hidden because it doesn't serve dinner. The 14 Toast and
+ChowNow restaurants and bb.q Chicken block cloud servers, so they show as "Coming soon" until the first
+local refresh (`npm run scrape:local`, see below).
 
 ## Restaurant coverage
 

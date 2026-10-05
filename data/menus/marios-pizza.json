@@ -1,0 +1,267 @@
+{
+ "restaurant": "marios-pizza",
+ "source": "scraped",
+ "platform": "doordash",
+ "sourceUrl": "https://order.online/business/marios-12648169",
+ "fetchedAt": "2026-10-05T18:50:41.123Z",
+ "categories": [
+  {
+   "name": "CREATE YOUR OWN PIZZA",
+   "items": [
+    {
+     "id": "11610478157",
+     "name": "Gluten Free 12\"",
+     "description": "Gluten Free crust - One 12inch size only",
+     "price": 1500
+    },
+    {
+     "id": "11610478156",
+     "name": "Create Your Own Pizza Small",
+     "description": "Red Sauce, Mozzarella (It already contains the regular mozzarella)",
+     "price": 1400
+    },
+    {
+     "id": "11610478155",
+     "name": "Create Your Own Pizza Large",
+     "description": "Red Sauce, Mozzarella ( It already comes with regular mozzarella)",
+     "price": 1900
+    }
+   ]
+  },
+  {
+   "name": "PIZZAS WITH MEAT",
+   "items": [
+    {
+     "id": "11610472070",
+     "name": "Piri-Piri Chicken Pizza - Large",
+     "description": "Red Sauce, Mozzarella, Portugese Piri Piri Sauce, Chicken",
+     "price": 2100
+    },
+    {
+     "id": "11610486274",
+     "name": "Piri-Piri Chicken Pizza - Small",
+     "description": "Red Sauce, Mozzarella, Portugese Piri Piri Sauce, Chicken",
+     "price": 1700
+    },
+    {
+     "id": "35437942823",
+     "name": "Prosciutto Large",
+     "description": "Mozzarella, fresh basil, and savory prosciutto on a base of rich red sauce.",
+     "price": 2100
+    },
+    {
+     "id": "35432943309",
+     "name": "Prosciutto Small",
+     "description": "Mozzarella, fresh basil, and savory prosciutto on a base of rich red sauce.",
+     "price": 1500
+    },
+    {
+     "id": "11610472068",
+     "name": "Pepperoni Pizza - Large",
+     "description": "Red Sauce, Mozzarella and Pepperoni",
+     "price": 2100
+    },
+    {
+     "id": "11610486273",
+     "name": "Pepperoni Pizza - Small",
+     "description": "Red Sauce, Mozzarella and Pepperoni",
+     "price": 1550
+    },
+    {
+     "id": "11610472072",
+     "name": "Portuguesa Pizza - Large",
+     "description": "Chouriço, onion, green peppers, garlic",
+     "price": 2500
+    },
+    {
+     "id": "11610486275",
+     "name": "Portuguesa Pizza - Small",
+     "description": "Sliced Chouriço, onion, green peppers, garlic",
+     "price": 1900
+    },
+    {
+     "id": "11610472069",
+     "name": "Salsiccia Pesto Pizza - Large",
+     "description": "Mozzarella, Sausage, Basil Pesto",
+     "price": 2200
+    },
+    {
+     "id": "11610486276",
+     "name": "Salsiccia Pesto Pizza - Small",
+     "description": "Savor a small pizza topped with mozzarella, and juicy sausage, finished with aromatic basil pesto.",
+     "price": 1750
+    },
+    {
+     "id": "11610472071",
+     "name": "Sweet & Savory Pizza - Large",
+     "description": "Red Sauce, Mozzarella, Ricotta, Bacon, Caramelized, Onions, Fig Glaze",
+     "price": 2500
+    },
+    {
+     "id": "11610486277",
+     "name": "Sweet & Savory Pizza - Small",
+     "description": "Tangy red sauce, creamy ricotta, savory bacon, sweet caramelized onions, fig glaze on a small pizza. Satisfying mix of flavors in every bite.",
+     "price": 1900
+    },
+    {
+     "id": "11610486278",
+     "name": "The Butcher - Small",
+     "description": "Red Sauce, Mozzarella, Ricotta, Pepperoni, Sausage, Beef Meatball",
+     "price": 2000
+    },
+    {
+     "id": "11610472067",
+     "name": "The Butcher Pizza - Large",
+     "description": "Savory pepperoni, juicy sausage, flavorful beef meatball, gooey Mozzarella, creamy Ricotta, red sauce on Large Butcher Pizza - combination of meats and cheeses.",
+     "price": 2600
+    }
+   ]
+  },
+  {
+   "name": "VEGETARIAN PIZZAS",
+   "items": [
+    {
+     "id": "11610486082",
+     "name": "Sicilian Pizza One Size",
+     "description": "Square Pizza, Thick Dough, Red Sauce, Mozzarella, Parmigiana, Fresh Mozzarella, fresh basil * Additional Cook time & Limited Daily Supply",
+     "price": 2800
+    },
+    {
+     "id": "12192003357",
+     "name": "Vegan Cheese Pizza - Large",
+     "description": "Red Sauce, Vegan Mozzarella",
+     "price": 2200
+    },
+    {
+     "id": "12191988197",
+     "name": "Vegan Cheese Pizza - Small",
+     "description": "Red Sauce , Vegan Mozzarella",
+     "price": 1700
+    },
+    {
+     "id": "11610486077",
+     "name": "Grego Pizza - Small",
+     "description": "Red Sauce, Mozzarella, Feta Cheese, Kalamata Olives, Spinach, Oregano",
+     "price": 1925
+    },
+    {
+     "id": "11610486080",
+     "name": "The JP Veggie Pizza - Large",
+     "description": "Loaded with creamy goat cheese, hearty eggplant, earthy mushrooms, and vibrant veggies like red onion, spinach, and cherry tomatoes on a bed of tangy red sauce and melty mozzarella.",
+     "price": 2500
+    },
+    {
+     "id": "11610472270",
+     "name": "Cheese Pizza - Large",
+     "description": "Melty mozzarella cheese on a crispy crust topped with a flavorful red sauce.",
+     "price": 1900
+    },
+    {
+     "id": "11610472271",
+     "name": "Cheese Pizza - Small",
+     "description": "Melty mozzarella cheese on a crispy crust topped with a flavorful red sauce.",
+     "price": 1400
+    },
+    {
+     "id": "11610472272",
+     "name": "Four Cheese Pizza - Large",
+     "description": "Indulge in a blend of Mozzarella, Goat, Ricotta, and Parmagiano cheeses on a large pizza crust. Cheesy, creamy, and savory flavors in every bite.",
+     "price": 2250
+    },
+    {
+     "id": "11610486073",
+     "name": "Four Cheese Pizza - Small",
+     "description": "Indulge in a blend of Mozzarella, Goat, Ricotta, and Parmagiano cheeses on a large pizza crust. Cheesy, creamy, and savory flavors in every bite.",
+     "price": 1650
+    },
+    {
+     "id": "11610486076",
+     "name": "Grego Pizza - Large",
+     "description": "Red Sauce, Mozzarella, Feta Cheese, Kalamata Olives, Spinach, Oregano",
+     "price": 2650
+    },
+    {
+     "id": "11610486074",
+     "name": "Margarita Pizza - Large",
+     "description": "Savor the flavors of San Marzano sauce, fresh mozzarella, Parmigiana, and basil on a crispy crust drizzled with olive oil. Juicy tomatoes, creamy cheese, and aromatic basil combine for a tantalizing bite.",
+     "price": 2100
+    },
+    {
+     "id": "11610486075",
+     "name": "Margarita Pizza - Small",
+     "description": "Savor the flavors of San Marzano sauce, fresh mozzarella, Parmigiana, and basil on a crispy crust drizzled with olive oil. Juicy tomatoes, creamy cheese, and aromatic basil combine for a tantalizing bite.",
+     "price": 1700
+    },
+    {
+     "id": "11610486081",
+     "name": "The JP Veggie Pizza- Small",
+     "description": "Loaded with creamy goat cheese, hearty eggplant, earthy mushrooms, and vibrant veggies like red onion, spinach, and cherry tomatoes on a bed of tangy red sauce and melty mozzarella.",
+     "price": 1900
+    }
+   ]
+  },
+  {
+   "name": "CREATE YOUR OWN CALZONE",
+   "items": [
+    {
+     "id": "11610482513",
+     "name": "Create Your Own Calzone - Large",
+     "description": "Mozzarella, Ricotta, Parmigiana and Red Sauce on the side",
+     "price": 1900
+    },
+    {
+     "id": "11610482512",
+     "name": "Create Your Own Calzone - Small",
+     "description": "Mozzarella, Ricotta, Parmigiana and Red Sauce on the side",
+     "price": 1400
+    }
+   ]
+  },
+  {
+   "name": "Beverages",
+   "items": [
+    {
+     "id": "11677608335",
+     "name": "Can of Coke",
+     "description": "The cold, refreshing, sparkling classic that America loves.",
+     "price": 200
+    },
+    {
+     "id": "11675251602",
+     "name": "Can of Ginger Ale",
+     "description": "A carbonated beverage offering the mild spice of ginger in a convenient can.",
+     "price": 200
+    },
+    {
+     "id": "11677584622",
+     "name": "Can of Sprite",
+     "description": "The cold, refreshing flavors of lemon and lime, perfectly blended.",
+     "price": 200
+    },
+    {
+     "id": "11677616759",
+     "name": "San Pellegrino Aranciata Rossa Can",
+     "description": "A sparkling beverage blending the juices of oranges and blood oranges from Italy for a uniquely refreshing taste.",
+     "price": 275
+    },
+    {
+     "id": "11676964281",
+     "name": "Can of Diet Coke",
+     "description": "A crisp, refreshing taste you know and love with zero calories.",
+     "price": 200
+    }
+   ]
+  },
+  {
+   "name": "Desserts",
+   "items": [
+    {
+     "id": "11610476400",
+     "name": "Pastel de Nata (Portuguese custard tart)",
+     "description": "Imported from Portugal egg custard tarts",
+     "price": 350
+    }
+   ]
+  }
+ ]
+}
