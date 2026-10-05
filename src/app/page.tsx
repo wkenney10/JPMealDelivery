@@ -47,7 +47,7 @@ export default function Home() {
         </div>
         <div className="border-t border-ink px-4 py-3 sm:border-t-0">
           <dt className="smallcaps text-xs text-muted">Delivery</dt>
-          <dd className="font-serif">{fee} per restaurant, flat</dd>
+          <dd className="font-serif">{fee} per restaurant, flat. 02130 only</dd>
         </div>
         <div className="border-t border-ink px-4 py-3 sm:border-t-0">
           <dt className="smallcaps text-xs text-muted">Restaurants</dt>
