@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-05T18:52:11.155Z",
+ "generatedAt": "2026-10-05T22:47:07.486Z",
  "restaurants": {
   "achilitos-taqueria": {
    "slug": "achilitos-taqueria",
@@ -11,14 +11,14 @@
   "bbq-chicken-jp": {
    "slug": "bbq-chicken-jp",
    "status": "failed",
-   "checkedAt": "2026-10-05T17:23:47.894Z",
+   "checkedAt": "2026-10-05T22:29:40.209Z",
    "error": "Couldn't find the 654 Centre St store on https://bbqchicken.order.online/business/82085"
   },
   "brassica-kitchen": {
    "slug": "brassica-kitchen",
    "status": "failed",
-   "checkedAt": "2026-10-05T17:24:32.333Z",
-   "error": "Blocked by bot protection at https://order.toasttab.com/online/brassica-kitchen-cafe-new-3712-washington-street"
+   "checkedAt": "2026-10-05T22:30:16.473Z",
+   "error": "No menu found in 19 API responses"
   },
   "burritos-pizzeria": {
    "slug": "burritos-pizzeria",
@@ -36,21 +36,33 @@
   },
   "casa-verde": {
    "slug": "casa-verde",
-   "status": "failed",
-   "checkedAt": "2026-10-05T17:25:10.548Z",
-   "error": "Blocked by bot protection at https://order.toasttab.com/online/casa-verde"
+   "status": "ok",
+   "checkedAt": "2026-10-05T22:31:14.030Z",
+   "lastSuccessAt": "2026-10-05T22:31:14.030Z",
+   "itemCount": 45,
+   "changes": [
+    "New menu with 45 items"
+   ]
   },
   "chilacates-amory": {
    "slug": "chilacates-amory",
-   "status": "failed",
-   "checkedAt": "2026-10-05T17:25:48.736Z",
-   "error": "Blocked by bot protection at https://order.toasttab.com/online/chilacates-amory-street-jamaica-plain-ma-224-amory-st"
+   "status": "ok",
+   "checkedAt": "2026-10-05T22:32:13.592Z",
+   "lastSuccessAt": "2026-10-05T22:32:13.592Z",
+   "itemCount": 407,
+   "changes": [
+    "New menu with 407 items"
+   ]
   },
   "costellos-tavern": {
    "slug": "costellos-tavern",
-   "status": "failed",
-   "checkedAt": "2026-10-05T17:26:26.935Z",
-   "error": "No menu found in 1 API responses"
+   "status": "ok",
+   "checkedAt": "2026-10-05T22:33:17.829Z",
+   "lastSuccessAt": "2026-10-05T22:33:17.829Z",
+   "itemCount": 200,
+   "changes": [
+    "New menu with 200 items"
+   ]
   },
   "don-tequeno": {
    "slug": "don-tequeno",
@@ -61,21 +73,29 @@
   },
   "evergreen-eatery": {
    "slug": "evergreen-eatery",
-   "status": "failed",
-   "checkedAt": "2026-10-05T17:27:06.820Z",
-   "error": "Blocked by bot protection at https://order.toasttab.com/online/evergreen-eatery"
+   "status": "ok",
+   "checkedAt": "2026-10-05T22:34:21.756Z",
+   "lastSuccessAt": "2026-10-05T22:34:21.756Z",
+   "itemCount": 177,
+   "changes": [
+    "New menu with 177 items"
+   ]
   },
   "gangnam-spice": {
    "slug": "gangnam-spice",
-   "status": "failed",
-   "checkedAt": "2026-10-05T17:27:44.983Z",
-   "error": "Blocked by bot protection at https://order.toasttab.com/online/gangnam-spice-jackson-square"
+   "status": "ok",
+   "checkedAt": "2026-10-05T22:35:24.661Z",
+   "lastSuccessAt": "2026-10-05T22:35:24.661Z",
+   "itemCount": 46,
+   "changes": [
+    "New menu with 46 items"
+   ]
   },
   "ideal-cafe-pizza": {
    "slug": "ideal-cafe-pizza",
    "status": "failed",
-   "checkedAt": "2026-10-05T17:28:23.166Z",
-   "error": "Blocked by bot protection at https://ordering.chownow.com/order/4695/locations"
+   "checkedAt": "2026-10-05T22:36:24.261Z",
+   "error": "No ChowNow location matching \"484 Centre St\"; set platformConfig.locationId"
   },
   "italian-pizza-and-subs": {
    "slug": "italian-pizza-and-subs",
@@ -100,15 +120,23 @@
   },
   "jp-seafood-cafe": {
    "slug": "jp-seafood-cafe",
-   "status": "failed",
-   "checkedAt": "2026-10-05T17:28:28.963Z",
-   "error": "Blocked by bot protection at https://order.toasttab.com/online/jp-seafood-cafe"
+   "status": "ok",
+   "checkedAt": "2026-10-05T22:37:15.598Z",
+   "lastSuccessAt": "2026-10-05T22:37:15.598Z",
+   "itemCount": 254,
+   "changes": [
+    "New menu with 254 items"
+   ]
   },
   "latino-restaurant": {
    "slug": "latino-restaurant",
-   "status": "failed",
-   "checkedAt": "2026-10-05T17:29:07.139Z",
-   "error": "Blocked by bot protection at https://order.toasttab.com/online/latino-restaurant-302-centre-st"
+   "status": "ok",
+   "checkedAt": "2026-10-05T22:38:19.284Z",
+   "lastSuccessAt": "2026-10-05T22:38:19.284Z",
+   "itemCount": 156,
+   "changes": [
+    "New menu with 156 items"
+   ]
   },
   "life-alive-jp": {
    "slug": "life-alive-jp",
@@ -119,13 +147,10 @@
   },
   "marios-pizza": {
    "slug": "marios-pizza",
-   "status": "ok",
-   "checkedAt": "2026-10-05T18:50:41.123Z",
-   "lastSuccessAt": "2026-10-05T18:50:41.123Z",
-   "itemCount": 38,
-   "changes": [
-    "New menu with 38 items"
-   ]
+   "status": "unchanged",
+   "checkedAt": "2026-10-05T22:39:25.212Z",
+   "lastSuccessAt": "2026-10-05T22:39:25.212Z",
+   "itemCount": 38
   },
   "mike-pattys-jp": {
    "slug": "mike-pattys-jp",
@@ -136,13 +161,10 @@
   },
   "noodle-barn": {
    "slug": "noodle-barn",
-   "status": "ok",
-   "checkedAt": "2026-10-05T18:51:11.508Z",
-   "lastSuccessAt": "2026-10-05T18:51:11.508Z",
-   "itemCount": 118,
-   "changes": [
-    "New menu with 118 items"
-   ]
+   "status": "unchanged",
+   "checkedAt": "2026-10-05T22:39:39.720Z",
+   "lastSuccessAt": "2026-10-05T22:39:39.720Z",
+   "itemCount": 118
   },
   "real-deal-jp": {
    "slug": "real-deal-jp",
@@ -167,49 +189,66 @@
   },
   "soup-shack-jp": {
    "slug": "soup-shack-jp",
-   "status": "failed",
-   "checkedAt": "2026-10-05T17:30:21.505Z",
-   "error": "Blocked by bot protection at https://ordering.chownow.com/order/12742/locations"
+   "status": "ok",
+   "checkedAt": "2026-10-05T22:39:58.047Z",
+   "lastSuccessAt": "2026-10-05T22:39:58.047Z",
+   "itemCount": 71,
+   "changes": [
+    "New menu with 71 items"
+   ]
   },
   "sweet-rice-jp": {
    "slug": "sweet-rice-jp",
-   "status": "failed",
-   "checkedAt": "2026-10-05T17:30:27.311Z",
-   "error": "Blocked by bot protection at https://order.toasttab.com/online/sweet-rice-jp"
+   "status": "ok",
+   "checkedAt": "2026-10-05T22:41:43.428Z",
+   "lastSuccessAt": "2026-10-05T22:41:43.428Z",
+   "itemCount": 246,
+   "changes": [
+    "New menu with 246 items"
+   ]
   },
   "the-haven": {
    "slug": "the-haven",
-   "status": "failed",
-   "checkedAt": "2026-10-05T17:31:05.477Z",
-   "error": "No menu found in 1 API responses"
+   "status": "ok",
+   "checkedAt": "2026-10-05T22:42:51.674Z",
+   "lastSuccessAt": "2026-10-05T22:42:51.674Z",
+   "itemCount": 46,
+   "changes": [
+    "New menu with 46 items"
+   ]
   },
   "the-joint": {
    "slug": "the-joint",
-   "status": "failed",
-   "checkedAt": "2026-10-05T17:31:45.362Z",
-   "error": "Blocked by bot protection at https://order.toasttab.com/online/the-joint"
+   "status": "ok",
+   "checkedAt": "2026-10-05T22:43:51.360Z",
+   "lastSuccessAt": "2026-10-05T22:43:51.360Z",
+   "itemCount": 163,
+   "changes": [
+    "New menu with 163 items"
+   ]
   },
   "tonino": {
    "slug": "tonino",
-   "status": "failed",
-   "checkedAt": "2026-10-05T17:32:23.560Z",
-   "error": "Blocked by bot protection at https://order.toasttab.com/online/toninojp"
+   "status": "ok",
+   "checkedAt": "2026-10-05T22:44:55.873Z",
+   "lastSuccessAt": "2026-10-05T22:44:55.873Z",
+   "itemCount": 16,
+   "changes": [
+    "New menu with 16 items"
+   ]
   },
   "top-mix": {
    "slug": "top-mix",
-   "status": "ok",
-   "checkedAt": "2026-10-05T18:51:43.167Z",
-   "lastSuccessAt": "2026-10-05T18:51:43.167Z",
-   "itemCount": 65,
-   "changes": [
-    "New menu with 65 items"
-   ]
+   "status": "unchanged",
+   "checkedAt": "2026-10-05T22:45:53.680Z",
+   "lastSuccessAt": "2026-10-05T22:45:53.680Z",
+   "itemCount": 65
   },
   "tres-gatos": {
    "slug": "tres-gatos",
    "status": "failed",
-   "checkedAt": "2026-10-05T17:33:11.774Z",
-   "error": "Blocked by bot protection at https://order.toasttab.com/online/tres-gatos"
+   "checkedAt": "2026-10-05T22:46:09.948Z",
+   "error": "No menu found in 18 API responses"
   },
   "zestos-pizza": {
    "slug": "zestos-pizza",

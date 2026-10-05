@@ -1,0 +1,277 @@
+{
+ "restaurant": "casa-verde",
+ "source": "scraped",
+ "platform": "toast",
+ "sourceUrl": "https://order.toasttab.com/online/casa-verde",
+ "fetchedAt": "2026-10-05T22:31:14.030Z",
+ "categories": [
+  {
+   "name": "Chips & Salsa & Dip",
+   "items": [
+    {
+     "id": "b45cc722-2c95-49a3-aa2c-ee78871f4c08",
+     "name": "Charred Corn & Black Bean Salsa w/ chips",
+     "price": 790
+    },
+    {
+     "id": "1722a5e6-5fcd-4d52-9199-638dc5ac4c0b",
+     "name": "Side Corn, Black Bean Salsa",
+     "price": 690
+    },
+    {
+     "id": "9ca52007-5c90-453f-a0ae-799f015dd37d",
+     "name": "Guacamole w/ chips",
+     "price": 1390
+    },
+    {
+     "id": "874ac9b4-d9c6-4014-b16e-4623eb15da3f",
+     "name": "Side Guacamole",
+     "price": 690
+    },
+    {
+     "id": "a4c0b991-7b92-42c0-8859-b1057b4822ec",
+     "name": "Queso Dip w/ chips",
+     "price": 890
+    },
+    {
+     "id": "37aa0805-f6d2-465f-831d-91cf269396ef",
+     "name": "Side Queso Dip",
+     "price": 760
+    },
+    {
+     "id": "2ee1a5e5-da96-480d-b4db-30fa4e53ca8e",
+     "name": "Side Queso Dip w/ Carnitas",
+     "price": 1090
+    },
+    {
+     "id": "7bc84d0a-ebe3-4395-8b37-6519dbc85d07",
+     "name": "Salsa Verde w/ chips",
+     "price": 790
+    },
+    {
+     "id": "8ceb275d-2e7f-4cd5-acf2-406054db36fd",
+     "name": "Side Salsa Verde",
+     "price": 690
+    },
+    {
+     "id": "30dc07cd-d28d-4d17-9651-bb800a934883",
+     "name": "White Bean & Chimichurri Dip w/ chips",
+     "price": 790
+    },
+    {
+     "id": "8141ba3a-d952-4c41-b22f-fcb7f83ab348",
+     "name": "Side White Bean & Chimichurri",
+     "price": 690
+    },
+    {
+     "id": "077c8521-fa72-4be7-b58c-ec59dc2a5083",
+     "name": "Extra Tortilla Chips",
+     "price": 250
+    },
+    {
+     "id": "be9e75c4-76f2-469c-8cd0-a105a785e112",
+     "name": "Salsa Roja W/Chips",
+     "price": 790
+    },
+    {
+     "id": "ef5604b4-27fa-4171-a193-ad8aa5b4725a",
+     "name": "Side Salsa Roja",
+     "price": 690
+    }
+   ]
+  },
+  {
+   "name": "Tacos",
+   "items": [
+    {
+     "id": "f7ce492e-115d-4bfe-9720-b032367bc348",
+     "name": "Birria Tacos",
+     "description": "ONE ORDER IS TWO TACOS braised beef, chihuahua, red onion, cilantro, consommé",
+     "price": 1790
+    },
+    {
+     "id": "f7cfa2ee-d8fa-416b-820d-16bd9d6ac272",
+     "name": "Brussels Taco",
+     "description": "pomegranate, cotija, pepitas, cilantro, salsa verde, crema",
+     "price": 690
+    },
+    {
+     "id": "19d7f9ab-790e-48d2-81ef-0a2199ff33d8",
+     "name": "Carnitas Taco",
+     "description": "queso, onions, pepitas, salsa verde, radish, cilantro, jalapeno, crema",
+     "price": 790
+    },
+    {
+     "id": "f1407147-1312-402f-8797-804ede63e73b",
+     "name": "Fried Chicken Taco",
+     "description": "lettuce, b & b pickles, chipotle ranch, scallions, crema",
+     "price": 790
+    },
+    {
+     "id": "504b7676-cb2d-45e5-968a-55997090f488",
+     "name": "Pescado Taco",
+     "description": "crispy tilapia, avocado crema, salsa matcha, red cabbage slaw, cilantro",
+     "price": 790
+    },
+    {
+     "id": "effdcaa0-1d9d-447f-8162-d4acb20d5490",
+     "name": "Shrimp Taco",
+     "description": "guacamole, pico de gallo, red cabbage slaw, salsa rosada",
+     "price": 790
+    },
+    {
+     "id": "3b022deb-3b21-44c4-9c96-067a71ccf251",
+     "name": "Yuca Taco",
+     "description": "kale curtido, chipotle ranch, cilantro, crema",
+     "price": 690
+    },
+    {
+     "id": "376dce12-09fc-472b-89ee-27099b621046",
+     "name": "Tofu Taco",
+     "price": 690
+    }
+   ]
+  },
+  {
+   "name": "Not Tacos",
+   "items": [
+    {
+     "id": "0c8a4f51-f2e3-4ead-8201-a7dd80ad238a",
+     "name": "Broccolini",
+     "description": "salsa matcha, pickled onions, cotija, crispy shallots, lemon-garlic crema",
+     "price": 1390
+    },
+    {
+     "id": "3266e85e-8ff1-40f6-9b5c-570c580976b8",
+     "name": "Elote",
+     "description": "‘special sauce’, pickled onion, salsa rosada, avocado crema, ‘pow-pow’, cotija, fried shallot",
+     "price": 1290
+    },
+    {
+     "id": "74ef381c-5fc2-4fcb-af6a-5acddb24d3df",
+     "name": "Enchiladas",
+     "description": "chicken, black beans, beef, or canitas, salsa verde, chihuahua cheese, avocado crema",
+     "price": 1790
+    },
+    {
+     "id": "f8a1c4b5-925f-462a-929b-cef566bc54d6",
+     "name": "Green Chili Wings",
+     "description": "grilled chicken wings tossed in a chili verde sauce, mild-medium spicy, served with jalapeno crema",
+     "price": 1590
+    },
+    {
+     "id": "41e5ed7e-0113-447e-b438-e0ee30c91114",
+     "name": "Loaded Patatas Bravas",
+     "description": "queso, corn & black bean salsa, radish, crema",
+     "price": 1290
+    },
+    {
+     "id": "da50ba38-cfad-4621-8587-f9fb34e0964a",
+     "name": "Nachos",
+     "description": "house-fried chips topped with three cheeses, charred corn & black bean salsa, pickled jalepeno, crema",
+     "price": 2490
+    },
+    {
+     "id": "d5c03d5a-2fe0-43d5-9977-54a3eece3a74",
+     "name": "Patatas Bravas",
+     "description": "crispy potatoes, spicy tomato sauce, lemon-garlic crema, scallion, cilantro",
+     "price": 990
+    },
+    {
+     "id": "c1fdde88-da00-4957-9bf7-d27ebac87401",
+     "name": "Quesadilla",
+     "description": "flour tortilla, chihuahua cheese, black beans",
+     "price": 1590
+    },
+    {
+     "id": "abdbeca1-6118-42da-afe8-208e2fc59391",
+     "name": "Torta",
+     "description": "sandwiches served on iggy‘s rolls with guacamole, chipotle aioli & side of patatas bravas with chipotle ketchup",
+     "price": 2190
+    },
+    {
+     "id": "e0d68485-df63-4b08-8f9d-673da0770944",
+     "name": "Rice Bowl",
+     "price": 1790
+    },
+    {
+     "id": "9c8b3413-8567-4fa1-b382-86ef67d3d9ef",
+     "name": "Casa Caesar",
+     "description": "romaine, tortilla crisps, scallion, cotija",
+     "price": 1190
+    },
+    {
+     "id": "267d9034-86b6-4409-8296-4208d201641c",
+     "name": "Happy Meal Tray",
+     "description": "two cheeseburgers, griddled onion, house pickles, chipotle ranch, & side of patatas bravas",
+     "price": 2190
+    }
+   ]
+  },
+  {
+   "name": "Kids",
+   "items": [
+    {
+     "id": "ea3a2572-e6cd-4d28-b297-399c49168439",
+     "name": "Kids Quesadilla",
+     "price": 500
+    },
+    {
+     "id": "746b8288-78d1-4a74-87de-081075b2da27",
+     "name": "Kids Rice and beans",
+     "price": 690
+    },
+    {
+     "id": "b14a33df-ca81-43dd-9d5b-d8bfb455abdc",
+     "name": "Kids Chicken Taco",
+     "price": 500
+    },
+    {
+     "id": "9edca998-19fb-4a68-a2fc-e3654a719ad1",
+     "name": "Kids Fish Stick Taco",
+     "price": 500
+    },
+    {
+     "id": "41f6c83a-aaad-484f-afe3-c8d6316be304",
+     "name": "Kids Bean & Cheese Taco",
+     "price": 600
+    }
+   ]
+  },
+  {
+   "name": "Drinks",
+   "items": [
+    {
+     "id": "8a4775a7-abea-40ee-95d3-cf087f3effc8",
+     "name": "Coke",
+     "price": 500
+    },
+    {
+     "id": "71ee555d-52d0-4090-949e-8ee724d3ea73",
+     "name": "Diet Coke",
+     "price": 400
+    },
+    {
+     "id": "ffb238b0-f94c-47fd-bd47-48517ff0dba0",
+     "name": "Jarritos Watermelon",
+     "price": 500
+    },
+    {
+     "id": "200fae15-df50-4eb9-afc6-996b992674e4",
+     "name": "Jarritos Grapefruit",
+     "price": 500
+    },
+    {
+     "id": "e06388c6-86c6-40ac-b2af-12de15cf12bf",
+     "name": "Topo Chico",
+     "price": 425
+    },
+    {
+     "id": "fcd9ddcd-877c-4b74-af2b-69b6b0878eaa",
+     "name": "Nitro Margarita Pitcher",
+     "price": 4800
+    }
+   ]
+  }
+ ]
+}

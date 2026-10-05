@@ -1,0 +1,1042 @@
+{
+ "restaurant": "evergreen-eatery",
+ "source": "scraped",
+ "platform": "toast",
+ "sourceUrl": "https://order.toasttab.com/online/evergreen-eatery",
+ "fetchedAt": "2026-10-05T22:34:21.756Z",
+ "categories": [
+  {
+   "name": "HOT COFFEE",
+   "items": [
+    {
+     "id": "b9bb29bc-e4fe-4aac-bb5f-38a521fabbc3",
+     "name": "Coffee (12 oz.)",
+     "price": 300
+    },
+    {
+     "id": "ce128f44-1c3c-45c3-96d5-ffb89b107efd",
+     "name": "Coffee (16 oz.)",
+     "price": 350
+    },
+    {
+     "id": "c4fccd37-ab88-4d9f-9c99-8daf1cf9c46a",
+     "name": "Red Eye (12 oz.)",
+     "price": 400
+    },
+    {
+     "id": "99612e18-10a2-490b-adb4-cad4973cad45",
+     "name": "Red Eye (16 oz.)",
+     "price": 500
+    },
+    {
+     "id": "031cf547-1272-47c5-a60e-d3ed2b691b7f",
+     "name": "Cafe Au Lait (12 oz.)",
+     "price": 450
+    },
+    {
+     "id": "18196208-5201-4374-aa9c-412b17fa7e0b",
+     "name": "Cafe Au Lait (16 oz.)",
+     "price": 500
+    },
+    {
+     "id": "87ca6795-b6df-43b6-b721-1aedadfe5d18",
+     "name": "Box of Coffee",
+     "price": 2200
+    }
+   ]
+  },
+  {
+   "name": "HOT ESPRESSO",
+   "items": [
+    {
+     "id": "97b27c6a-166f-4726-a6ed-81079e59db6f",
+     "name": "Espresso Double",
+     "price": 300
+    },
+    {
+     "id": "a52d54d7-a50e-4127-b48c-98eccf576ce3",
+     "name": "Espresso Triple",
+     "price": 400
+    },
+    {
+     "id": "9237ae8f-7d4d-4291-b6d2-43daae80174f",
+     "name": "Macchiato (3 oz.)",
+     "price": 400
+    },
+    {
+     "id": "dfb911bb-2c97-4d5b-840d-fdda1b76e0f4",
+     "name": "Cortado (4 oz.)",
+     "price": 400
+    },
+    {
+     "id": "a61cf128-9f69-4e81-a806-5251fcc10eb8",
+     "name": "Cappuccino",
+     "price": 450
+    },
+    {
+     "id": "45ecd5ba-53e1-460a-9fe5-694f70a83223",
+     "name": "Pumpkin Spiced Latte (12 oz.)",
+     "price": 550
+    },
+    {
+     "id": "e4e9277d-5271-477a-860e-7496b5107240",
+     "name": "Pumpkin Spiced Latte (16 oz.)",
+     "price": 600
+    },
+    {
+     "id": "fd06c3d2-514a-45ae-a03b-3a2b9bd275b6",
+     "name": "Gingerbread Spiced Latte (12 oz.)",
+     "price": 550
+    },
+    {
+     "id": "49d70d1e-9ed1-4609-b9ad-2c63d3e87815",
+     "name": "Gingerbread Spiced Latte (16 oz.)",
+     "price": 600
+    },
+    {
+     "id": "8c4ac1b6-a56d-495e-91a0-0ec677e38f05",
+     "name": "Peppermint Mocha Latte (12oz)",
+     "price": 550
+    },
+    {
+     "id": "74c585cc-5835-4259-8f3d-664bcb9d899b",
+     "name": "Peppermint Mocha Latte (16oz)",
+     "price": 600
+    },
+    {
+     "id": "0a745d3d-c8fa-469d-86f2-d726d1eb0904",
+     "name": "Vanilla Latte (12 oz.)",
+     "price": 525
+    },
+    {
+     "id": "0680eaa5-0f65-4fc3-8a8b-0ca67d068ee5",
+     "name": "Vanilla Latte (16 oz.)",
+     "price": 600
+    },
+    {
+     "id": "610dcd85-88bc-47d2-b713-c656935567bd",
+     "name": "Caramel Latte (12 oz.)",
+     "price": 550
+    },
+    {
+     "id": "66aa833d-acab-490f-9ba3-daad2a70ab07",
+     "name": "Caramel Latte (16 oz.)",
+     "price": 600
+    },
+    {
+     "id": "642d9258-f0e4-4e59-91d1-a65f627b1982",
+     "name": "Mocha Latte (12 oz.)",
+     "price": 550
+    },
+    {
+     "id": "629571c7-a569-406f-9f97-ed142b365124",
+     "name": "Mocha Latte (16 oz.)",
+     "price": 600
+    },
+    {
+     "id": "1205f566-0dd9-4ac5-8346-376917ce1f0d",
+     "name": "White Mocha Latte (12 oz.)",
+     "price": 550
+    },
+    {
+     "id": "2a7d820c-9843-4122-ae4a-0510ccda9621",
+     "name": "White Mocha Latte (16 oz.)",
+     "price": 600
+    },
+    {
+     "id": "622fcb44-a44f-4058-9fa6-3c1dedcae17d",
+     "name": "Hazel Nut Latte (12 oz.)",
+     "price": 550
+    },
+    {
+     "id": "155de4f5-2d00-4055-85b5-624930994a09",
+     "name": "Hazel Nut Latte (16 oz.)",
+     "price": 600
+    }
+   ]
+  },
+  {
+   "name": "FROZEN ESPRESSO",
+   "items": [
+    {
+     "id": "3d871492-9df8-4d10-883d-47e16af5e4e6",
+     "name": "Frozen Cappuccino",
+     "price": 600
+    },
+    {
+     "id": "91658173-dbbe-4a82-a826-efcd07353ecd",
+     "name": "Frozen Caramel Latte (16 oz.)",
+     "price": 650
+    },
+    {
+     "id": "d895be30-3faa-4e92-9463-fef0cc594f53",
+     "name": "Frozen Mocha (16 oz.)",
+     "price": 650
+    },
+    {
+     "id": "851b1494-1ab2-4375-b8ab-b332b19925d1",
+     "name": "Frozen White Chocolate Mocha (16 oz.)",
+     "price": 650
+    }
+   ]
+  },
+  {
+   "name": "HOT TEA",
+   "items": [
+    {
+     "id": "cb59012a-e3c7-4d98-821c-d03fd9462a0a",
+     "name": "Earl Grey",
+     "description": "Originally blended for Charles Grey, the 2nd Earl of Grey in the early 1930’s this tea is flavored with Oil of Bergamot an Italian citrus. The tea a favorite among the British is floral, citrusy and crisp. Earl Grey is often served with sugar and milk. Ingredients: Organic black tea, organic cornflowers, natural flavoring",
+     "price": 350
+    },
+    {
+     "id": "afdff4ae-12ff-4d45-b733-b5026bdb26a8",
+     "name": "Decaf Earl Grey",
+     "description": "Originally blended for Charles Grey, the 2nd Earl of Grey in the early 1930’s this tea is flavored with Oil of Bergamot an Italian citrus. The tea a favorite among the British is floral, citrusy and crisp. Earl Grey is often served with sugar and milk. Ingredients: Organic black tea, organic cornflowers, natural flavoring",
+     "price": 350
+    },
+    {
+     "id": "1c445d73-90e0-4060-b8d6-44df72bb6ec4",
+     "name": "English Breakfast",
+     "description": "A traditional full bodied, rich and robust combination of golden tipped Indian teas. This classic blend is enjoyed for its black or with milk and sugar. Ingredients: Organic Black Tea",
+     "price": 350
+    },
+    {
+     "id": "dcb3432b-9a0c-402b-b852-c7d23e257186",
+     "name": "Dragon Well Green",
+     "description": "For centuries this famous tea from China has been pleasing green tea lovers for its pure, clean delicate, sweet, smooth flavor and aroma. Ingredients: Organic Green Tea",
+     "price": 350
+    },
+    {
+     "id": "8c0b3a0a-c89d-49f0-9d4a-e3b1f1333a31",
+     "name": "Citrus Chamomile",
+     "description": "Refreshing and sweet this soothing tea is in harmony with its blend of chamomile blossoms, lemon peel and hibiscus. Ingredients: Organic chamomile, organic orange peel, organic hibiscus, natural flavoring.",
+     "price": 350
+    },
+    {
+     "id": "b35dc8b4-8e9b-4db4-a7f9-491e9ffa9bbe",
+     "name": "Moroccan Mint",
+     "description": "A sweet, soothing, refreshing blend of organic gunpowder green tea and organic peppermint leaves. Ingredients: Organic green tea, organic peppermint",
+     "price": 350
+    },
+    {
+     "id": "56da0e2e-811b-4402-8527-04b17521fde6",
+     "name": "Mountain High Chai",
+     "price": 350
+    },
+    {
+     "id": "6e0c0807-7e5c-4413-99b4-af450fa94573",
+     "name": "Hibiscus 16 oz",
+     "price": 350
+    },
+    {
+     "id": "04d2e8f7-d3b0-4db1-8c64-256b5d43a3ea",
+     "name": "London Fog",
+     "description": "Earl Grey Tea with Steamed Milk & Vanilla",
+     "price": 650
+    },
+    {
+     "id": "154c8b96-5ead-4ef2-8c6a-f0cd9a2f3aeb",
+     "name": "Matcha Latte",
+     "price": 650
+    }
+   ]
+  },
+  {
+   "name": "HOT SEASONAL BEVERAGES",
+   "items": [
+    {
+     "id": "a0b84bb0-d711-49e4-89c8-35e89ef2f5df",
+     "name": "Hot Cocoa (12 oz.)",
+     "price": 450
+    },
+    {
+     "id": "512cb567-6dfc-42ad-9b11-457e1fa2617b",
+     "name": "Hot White Chocolate (12 oz.)",
+     "price": 550
+    },
+    {
+     "id": "ce929a8e-2844-43af-a8f6-16e0f014fa1b",
+     "name": "Hot Peppermint Patty (16oz)",
+     "description": "Hot Cocoa, Peppermint Syrup, Whip Cream with Crushed Peppermint Candy on top",
+     "price": 600
+    },
+    {
+     "id": "acc61e6a-150e-4bcd-99c5-48275af09884",
+     "name": "hot apple cider w/cinnamon 12oz",
+     "price": 450
+    }
+   ]
+  },
+  {
+   "name": "JUICES",
+   "items": [
+    {
+     "id": "d4e83cfd-4b32-46c1-b033-f7533cd63973",
+     "name": "Orange, Tropicana House Pour (12oz)",
+     "price": 300
+    },
+    {
+     "id": "5065d957-e2a8-40a6-9dad-ac7378e0a4f9",
+     "name": "Orange, Natalie's Fresh Squeezed (12oz)",
+     "price": 500
+    },
+    {
+     "id": "359fb88a-bf6b-4c54-b224-0e073b739378",
+     "name": "Lemonade (24oz.)",
+     "price": 500
+    },
+    {
+     "id": "02940322-b3d3-425c-8b40-b665abd27d3d",
+     "name": "Cranberry Juice Cocktail, Ocean Spray (10oz)",
+     "price": 300
+    },
+    {
+     "id": "beae6290-f27c-4b30-b480-47250dbb3914",
+     "name": "Cold Apple Cider (12oz)",
+     "price": 275
+    },
+    {
+     "id": "f9867cc9-afdf-443c-8849-9d0b75a66bcc",
+     "name": "Kid's Juice, Organic Apple Juice",
+     "price": 250
+    },
+    {
+     "id": "3f5fffe8-6184-42d6-a5f8-9e3ae026d66c",
+     "name": "Kid's Juice, Organic Mango Nectar",
+     "price": 250
+    },
+    {
+     "id": "16f4ce87-028b-417f-beba-0ca63c79105f",
+     "name": "Watermelon Juice",
+     "price": 400
+    }
+   ]
+  },
+  {
+   "name": "SMOOTHIES",
+   "items": [
+    {
+     "id": "079f8778-6af1-4d3b-862a-894eb57eff5b",
+     "name": "Super Evergreen",
+     "description": "green mix, banana, pineapple, ginger",
+     "price": 800
+    },
+    {
+     "id": "2235bb52-4151-4572-8be0-6de0393a5219",
+     "name": "Wild Berry Passion",
+     "description": "wild berry, passion fruit juice, strawberry, banana, pineapple",
+     "price": 800
+    },
+    {
+     "id": "5c7315dd-711c-4cb9-ae10-a269f939233a",
+     "name": "Snow Flake",
+     "description": "organic dairy base, coconut cream, banana",
+     "price": 800
+    },
+    {
+     "id": "6ab436d8-b2b4-4438-a01f-2e2229b0db01",
+     "name": "Sweet Dream",
+     "description": "organic dairy base, cookies, banana, whipped cream",
+     "price": 800
+    },
+    {
+     "id": "a66d2eff-505a-44a2-be0a-2efb4a3ec9f2",
+     "name": "Mango Tropical",
+     "description": "mango juice, oj, banana, pineapple",
+     "price": 800
+    }
+   ]
+  },
+  {
+   "name": "COLD BEVERAGES - soda/tonic/water/milk",
+   "items": [
+    {
+     "id": "585a9b35-019d-4876-b6f3-6cb3e4f472a4",
+     "name": "Soda",
+     "description": "Enjoy a break with Diet Coke, the perfect no-sugar, no-calorie companion. With its bold taste and distinctive blend of flavors, Diet Coke is an everyday hero when it comes to refreshing your day. Every sip of Diet Coke delivers the same great taste that's delighted fans for over 40 years. When you want a sugar-free soda that doesn't sacrifice on taste, reach for a Diet Coke.",
+     "price": 250
+    },
+    {
+     "id": "e2f7aa1c-c454-4c44-8f8c-26c3c6bf9a8b",
+     "name": "Spindrift Soda",
+     "price": 280
+    },
+    {
+     "id": "b7b8a8a5-33a3-4f88-a1b7-e67a762f2477",
+     "name": "Polar Seltzer",
+     "price": 200
+    },
+    {
+     "id": "932a823d-31fb-4903-93b8-87ecde371143",
+     "name": "Health Aide Organic Kombucha, Pink Lady Apple",
+     "price": 600
+    },
+    {
+     "id": "34c7ed0a-4bf5-40c7-9664-a548e727ec94",
+     "name": "Health Aide Organic Kombucha, Mango Lemonade",
+     "price": 600
+    },
+    {
+     "id": "6d798cee-2f5f-4bb2-939e-3775cd02d3d2",
+     "name": "Health Aide Organic Kombucha, Passion Fruit Tangerine",
+     "price": 600
+    },
+    {
+     "id": "d20c120d-0b73-42b3-88bc-f4a2ac05f14b",
+     "name": "Poland Spring Water",
+     "price": 200
+    },
+    {
+     "id": "ffa43719-a859-48c3-82e9-c4fe0c56bc29",
+     "name": "Milk",
+     "price": 200
+    }
+   ]
+  },
+  {
+   "name": "BREAKFAST SPECIALTIES",
+   "items": [
+    {
+     "id": "368e8341-9cdd-44dc-a290-ff6b4f830a51",
+     "name": "Basics",
+     "description": "bacon or sausage with two eggs any style served with home fries and toast",
+     "price": 1200
+    },
+    {
+     "id": "017d9430-5000-4db9-98fd-a83deec13442",
+     "name": "Breakfast Wrap",
+     "description": "eggs, bacon and cheese in spinach tortilla served with tomato salsa and home fries",
+     "price": 1200
+    },
+    {
+     "id": "82ffe8ae-4fd8-45bd-8538-b25321ce8d5f",
+     "name": "Wake Up Burger",
+     "description": "smashed burger, American cheese, bacon, topped with sunny side up egg served with fries",
+     "price": 1200
+    },
+    {
+     "id": "eb63a905-948d-4c2a-8152-fe5b9f26bdd7",
+     "name": "Pancake",
+     "description": "three multigrain pancakes, syrup and butter",
+     "price": 1200
+    },
+    {
+     "id": "8bd72e09-2d22-46f7-b8f8-5a899668c210",
+     "name": "Brioche French Toast",
+     "description": "hand cut Fire King cinnamon brioche, syrup, powdered sugar, whipped cream",
+     "price": 1200
+    },
+    {
+     "id": "7b00d813-707a-4e70-af4b-1b963c4e8dde",
+     "name": "Naked BLT",
+     "description": "Vietnamese rice wrap with bacon, lettuce, tomato",
+     "price": 1200
+    },
+    {
+     "id": "faa9c40f-0db6-4e7a-81ad-15b0cb6a5e59",
+     "name": "Corned Beef Hash & Eggs",
+     "description": "two eggs any style on top of corned beef hash served with toast",
+     "price": 1700
+    },
+    {
+     "id": "8e9d795b-8b23-48a6-937f-fb538a4be217",
+     "name": "Pork Belly Steak & Eggs",
+     "description": "maple syrup caramelized smoked pork belly steak with two eggs any style served with home fries and toast",
+     "price": 1900
+    },
+    {
+     "id": "adc64267-1888-40b0-8c5c-35cf1a275a55",
+     "name": "Egg & Cheese",
+     "price": 450
+    },
+    {
+     "id": "045066cc-fb0f-4ca0-bdcf-4b08819b8110",
+     "name": "Bacon Egg & Cheese",
+     "price": 650
+    },
+    {
+     "id": "0c4283de-4dbf-47eb-9b37-8e0609a127b2",
+     "name": "Sausage Egg & Cheese",
+     "price": 650
+    },
+    {
+     "id": "da62a1c2-bf7a-4101-9064-5ef4e909c02f",
+     "name": "Turkey  Sausage Egg & Cheese",
+     "price": 650
+    },
+    {
+     "id": "5c4224db-c866-43b6-a04b-afd356c94b74",
+     "name": "Gluten Free Egg & Cheese",
+     "price": 600
+    },
+    {
+     "id": "f11117ba-134b-4d84-ba79-c55ef44d9e6b",
+     "name": "Croissant Egg & Cheese",
+     "price": 650
+    },
+    {
+     "id": "36c0a854-04da-4d98-a946-7e9791c5692b",
+     "name": "Bagel Egg and Cheese",
+     "price": 600
+    },
+    {
+     "id": "ea0a3b90-dfdc-4095-90ca-80b932595f6e",
+     "name": "Bagel with Cream Cheese",
+     "price": 450
+    },
+    {
+     "id": "f98a8846-be39-4286-a1fe-96ebe4674733",
+     "name": "Bagel Lox Sandwich",
+     "price": 1300
+    }
+   ]
+  },
+  {
+   "name": "AVOCADO TOAST",
+   "items": [
+    {
+     "id": "e54f5216-6bb6-40d9-8545-43a9975a80d1",
+     "name": "Evergreen Avocado Toast",
+     "description": "avocado, smoked salmon, ikura, capers, grape tomato, walnut, pesto on multigrain Please note our pesto contains walnuts.",
+     "price": 1400
+    },
+    {
+     "id": "45664b3d-8ee8-4182-80b0-cc2159783a01",
+     "name": "Golden Avocado Toast",
+     "description": "avocado, hard boiled eggs, fried pearl onions, grape tomato, pesto, balsamic glaze on sourdough Please note our pesto contains walnuts.",
+     "price": 1400
+    },
+    {
+     "id": "e1b489e6-9232-4eaf-8379-a895c780f826",
+     "name": "Vegan Avocado Toast",
+     "description": "avocado, grape tomato, basil, cilantro, vegan pesto, walnut, balsamic glaze on multigrain Please note our pesto contains walnuts.",
+     "price": 1200
+    }
+   ]
+  },
+  {
+   "name": "OMELETTES",
+   "items": [
+    {
+     "id": "a6beee12-9e83-4b40-b33c-1004234aa4d1",
+     "name": "Ultimate Evergreen",
+     "description": "kale, spinach, mushrooms, feta",
+     "price": 1300
+    },
+    {
+     "id": "b8a95e26-6a35-4951-bcb1-bf6ea5fdd9b3",
+     "name": "Western Omelet",
+     "description": "ham, bell pepper, onion, cheddar",
+     "price": 1300
+    },
+    {
+     "id": "b479163e-e21b-4b1e-880c-a35133c67bf9",
+     "name": "Just Cheese Omelet",
+     "description": "American, cheddar, feta or swiss",
+     "price": 1100
+    },
+    {
+     "id": "101039c4-610f-415c-98a1-2bbf7f235838",
+     "name": "You Pick Omelet",
+     "description": "your choice of any 3: tomato, pepper, mushroom, spinach, kale, onion, cheese, bacon, ham, sausage",
+     "price": 1300
+    },
+    {
+     "id": "02097ac8-51c9-4db6-84c0-840c6a3e2512",
+     "name": "Corned Beef Omelet",
+     "price": 1500
+    }
+   ]
+  },
+  {
+   "name": "BENNYS",
+   "items": [
+    {
+     "id": "892ba89b-b92d-4932-b663-bbeb923b5a19",
+     "name": "Classic Benny",
+     "description": "poached eggs, Canadian bacon",
+     "price": 1400
+    },
+    {
+     "id": "9e6e243f-b54e-4326-8d51-ffa3d775e154",
+     "name": "Florentine",
+     "description": "poached eggs, spinach, avocado, tomatos",
+     "price": 1500
+    },
+    {
+     "id": "3e4ee799-9cb1-4b23-b71b-7f54ee3bf76e",
+     "name": "Corned Beef Benny",
+     "description": "poached eggs, corned beef hash",
+     "price": 1600
+    },
+    {
+     "id": "f0bef59d-ce92-414f-a35a-5e7ce5df8f3b",
+     "name": "Benny the Scottish",
+     "description": "poached eggs, Scottish smoked salmon, capers",
+     "price": 1600
+    },
+    {
+     "id": "d4787bcc-0ab2-4e02-ab7b-3d108513c70e",
+     "name": "Fried Green Benny",
+     "price": 1500
+    }
+   ]
+  },
+  {
+   "name": "BURGERS-SANDWICHES",
+   "items": [
+    {
+     "id": "1e978e17-1f3f-475c-b1f2-10fcee9bf988",
+     "name": "Grilled Cheese Sandwich",
+     "description": "cheddar cheese on sourdough served with fries (not gluten-free)",
+     "price": 1100
+    },
+    {
+     "id": "e9155e9f-632b-41af-b2b2-f6d0c16da41d",
+     "name": "Classic BLT Club",
+     "description": "served with fries (not gluten-free)",
+     "price": 1300
+    },
+    {
+     "id": "d862ddbe-a635-45d0-81d8-0ce8076d33e9",
+     "name": "Forest Hills Triple Decker",
+     "description": "classic BLT with homemade egg salad served with fries (not gluten-free)",
+     "price": 1500
+    },
+    {
+     "id": "3c2623b6-91da-492c-92ce-8a15c7e20f30",
+     "name": "Green Street Veggie Burger",
+     "description": "Carrots, Onions, String Beans, Oat Bran, Soybeans, Zucchini, Canola Oil, Peas, Broccoli, Corn, Soy Flour, Spinach, Red Peppers, Arrowroot Powder, Corn Starch, Garlic, Corn Meal, Salt, Parsley, Black Pepper served with fries (not gluten-free)",
+     "price": 1400
+    },
+    {
+     "id": "7f9204dc-65c1-43c4-8fd0-f817e7175d41",
+     "name": "Chickpea Sandwich",
+     "description": "Smashed Chickpea, Hummus, Chives, Sweet Corns, Tomato, Cucumber, Vegan Mayo on Vegan Potato Bun.",
+     "price": 1500
+    },
+    {
+     "id": "b4c6f6cf-95ad-4e79-af1d-c18d88b1e72c",
+     "name": "Philly Cheese Steak",
+     "price": 1800
+    },
+    {
+     "id": "0d899c12-883b-4d95-9e3a-9c14863a672b",
+     "name": "JP Seafood Fish Sandwich",
+     "description": "golden dipt fried white fish, lettuce, tomato, red onion, burger sauce and tartar sauce served with fries (not gluten-free)",
+     "price": 1600
+    },
+    {
+     "id": "18370a21-255d-49c9-945a-d759dd3792af",
+     "name": "Salmon Burger",
+     "description": "sushi grade faroe island salmon, lettuce, tomato, mayo, picked red onion served with fries (not gluten-free)",
+     "price": 1800
+    },
+    {
+     "id": "2ed632b7-c824-4bdc-be31-dfa30cfcd2fc",
+     "name": "Ultimate Dinner Melt Sandwich",
+     "description": "smoked ham, sliced chicken breast, omelet style egg, swiss cheese, Honey mustard and mayo on sourdough bread served with fries (not gluten-free)",
+     "price": 1600
+    },
+    {
+     "id": "5576d1b6-b6e8-46d1-add2-fbabdcc08ed9",
+     "name": "Plant Based Smoke House BBQ Burger",
+     "price": 1600
+    },
+    {
+     "id": "045f9a3f-00bb-4a0b-8982-79ddfe103305",
+     "name": "Double Decker Smashed Burger",
+     "description": "double decked smashed burger, cheddar cheese, bacon, lettuce, tomato, onion served with fries (not gluten-free)",
+     "price": 1600
+    },
+    {
+     "id": "44e24231-29d2-4992-b99d-ea4d67c0fc2b",
+     "name": "Grilled Chicken Sandwich",
+     "price": 1500
+    },
+    {
+     "id": "5f808d4f-f427-4381-8e6b-63c1df86d6e9",
+     "name": "Crispy Fried Chicken Burger",
+     "price": 1600
+    }
+   ]
+  },
+  {
+   "name": "SALADS",
+   "items": [
+    {
+     "id": "02115d05-54d1-4683-abb2-aee2005b3598",
+     "name": "Evergreen Salad",
+     "description": "green mix, kale, spinach, tomato, feta, avocado, boiled egg with evergreen citrus avocado dressing",
+     "price": 1300
+    },
+    {
+     "id": "9ad36416-d7c2-4201-b4d6-9ffe32219cf3",
+     "name": "Falafel Salad",
+     "description": "Organic green mix, quinoa, garbanzo, green kale, edamame and Falafels. Served with homemade garlic humus dressing",
+     "price": 1300
+    },
+    {
+     "id": "7889fa5d-914a-4980-9855-0f83120ed5be",
+     "name": "Caesar Salad",
+     "description": "romaine, parmesan cheese, croutons",
+     "price": 1100
+    },
+    {
+     "id": "cfceb9fc-d7c9-419e-895a-b54438fbb76b",
+     "name": "Chef's Salad",
+     "description": "romaine, cucumber, tomato, carrot, hard boiled egg, ham, croutons, swiss cheese with ranch dressing on side",
+     "price": 1500
+    },
+    {
+     "id": "eac1f9f9-bc4d-426b-98d7-e0cac5a5ca82",
+     "name": "Pasta Salad",
+     "description": "tricolor pasta, olives, red onion, bell peppers, pesto sauce, fresh lime juice",
+     "price": 1000
+    }
+   ]
+  },
+  {
+   "name": "SIDES",
+   "items": [
+    {
+     "id": "f307bebf-8cfa-42c7-b197-2911b6878cf9",
+     "name": "1 Egg",
+     "price": 200
+    },
+    {
+     "id": "b7f707c7-e41f-4063-8425-1e87f6cbb5e4",
+     "name": "2 Eggs",
+     "price": 300
+    },
+    {
+     "id": "39df4a2d-5754-4658-a614-c236826ea40e",
+     "name": "Egg White Scrambled",
+     "price": 450
+    },
+    {
+     "id": "46b5cde0-f4da-4673-940d-af3fca6833e4",
+     "name": "Avocado Side",
+     "price": 300
+    },
+    {
+     "id": "304330ba-cf54-4075-b478-62c1990c816e",
+     "name": "Bacon",
+     "price": 300
+    },
+    {
+     "id": "a119396f-023a-4bb4-a84d-2e5c8a3b0302",
+     "name": "Sausage Patty",
+     "price": 300
+    },
+    {
+     "id": "127f4464-1089-4df1-94cc-879d8c58a2fc",
+     "name": "Turkey Sausage",
+     "price": 300
+    },
+    {
+     "id": "f2756afb-8244-4f23-beab-910513eeba12",
+     "name": "Veggie Sausage",
+     "price": 300
+    },
+    {
+     "id": "5d679b60-359a-4d9b-98c2-2d284e9cf36c",
+     "name": "French Fries",
+     "price": 300
+    },
+    {
+     "id": "d2a864e3-77e3-43b7-a89c-289fd95fae19",
+     "name": "French Fries, LG",
+     "price": 550
+    },
+    {
+     "id": "cab24982-6600-48f1-848c-0a6fd64f3705",
+     "name": "Home Fries",
+     "price": 300
+    },
+    {
+     "id": "2d8b5e3d-d519-468d-bb5b-6de84db3f235",
+     "name": "Sweet Potato Fries",
+     "price": 500
+    },
+    {
+     "id": "157026ec-ba81-4c21-9cb3-53e468accd6d",
+     "name": "Hash Brown (2pcs)",
+     "price": 300
+    },
+    {
+     "id": "f1e284b3-e70c-4726-b86f-be39158bc4e0",
+     "name": "Side Fruit",
+     "price": 600
+    },
+    {
+     "id": "1a815c25-327e-43ee-9423-9826e919a6a2",
+     "name": "Side Vegetables",
+     "price": 300
+    },
+    {
+     "id": "f8101d57-eb8b-4902-b207-729b38ee7258",
+     "name": "Pancake 1 pc.",
+     "price": 500
+    },
+    {
+     "id": "e5367b14-2560-44e3-a51e-8acd46966684",
+     "name": "1pc French Toast",
+     "price": 700
+    },
+    {
+     "id": "73caa815-1fb9-4771-9080-77c0a91d6476",
+     "name": "Organic Maple Syrup",
+     "price": 250
+    },
+    {
+     "id": "1ab1541f-4568-4437-ab7b-f2e3726092f1",
+     "name": "Side Corned Beef Hash",
+     "price": 1000
+    },
+    {
+     "id": "e5441c01-3148-4c15-acf5-e21053ecfd6c",
+     "name": "1 pc of grilled salmon",
+     "price": 1100
+    },
+    {
+     "id": "c5afb486-b8c6-475c-82a7-38f0c1991901",
+     "name": "Grilled Chicken",
+     "price": 600
+    },
+    {
+     "id": "78ba1ed9-3166-47d3-b5e8-e3e1bca7c5ad",
+     "name": "Grilled Shrimp",
+     "price": 800
+    },
+    {
+     "id": "309fd4be-7dbc-415f-b1a1-d0e5468f31c4",
+     "name": "Smoked Salmon",
+     "price": 600
+    },
+    {
+     "id": "ac59c435-960b-49ca-990d-4450debe56ab",
+     "name": "Chicken Tender (Plain)",
+     "price": 900
+    },
+    {
+     "id": "9a46b9b2-8079-449d-bf4b-8b40c299e813",
+     "name": "Fried Green Tomato (4 pc.)",
+     "price": 300
+    },
+    {
+     "id": "d9df7610-b7d5-4602-a99a-2bc7404799a1",
+     "name": "Banana",
+     "price": 150
+    },
+    {
+     "id": "6110dbb2-7c81-4523-b9d4-b8fe9e6291e3",
+     "name": "Cheese Burger (Burger Only, No Fries)",
+     "price": 600
+    },
+    {
+     "id": "b6b6ca5e-b310-4b92-b775-065d58c3339b",
+     "name": "Impossible Burger (Burger Only, No Fries)",
+     "price": 1300
+    },
+    {
+     "id": "d0bec1f3-c526-41b5-9169-d06dc2298ea9",
+     "name": "Hot Dog",
+     "price": 300
+    }
+   ]
+  },
+  {
+   "name": "PASTRY",
+   "items": [
+    {
+     "id": "0391f6dd-2cad-4ecc-b0c2-ca6f596c33fb",
+     "name": "Pumpkin Pie",
+     "price": 400
+    },
+    {
+     "id": "27468f47-7671-4f75-b3f7-d02733c2c9fb",
+     "name": "Apple Cider Donut",
+     "price": 250
+    },
+    {
+     "id": "830d1d7a-033b-4ca9-a317-05352a67953d",
+     "name": "Plain Croissant",
+     "price": 450
+    },
+    {
+     "id": "504ca97e-eb1f-4dc4-90e5-02bbcc5788fc",
+     "name": "Almond Croissant",
+     "price": 500
+    },
+    {
+     "id": "b90d0bd1-a5ae-4054-ac04-52c0219e44b2",
+     "name": "Coffee Cake, Cinnamon Walnut",
+     "price": 300
+    },
+    {
+     "id": "91dfcbf1-0697-4f73-9ae8-ce4518258ffc",
+     "name": "Coffee Cake, Blueberry",
+     "price": 300
+    },
+    {
+     "id": "6595e966-2ab1-493e-a4ec-58ad560ee7e0",
+     "name": "Coffee Cake, Old Fashioned",
+     "price": 300
+    },
+    {
+     "id": "f0bd08c6-9361-407e-974c-4061c7f606f8",
+     "name": "Scone, Lemon Ginger",
+     "price": 425
+    },
+    {
+     "id": "bff23ca8-704e-4b9c-97c8-9910a9a61049",
+     "name": "Scone, Butterscotch Pecan",
+     "price": 425
+    },
+    {
+     "id": "82a6099a-7ac2-4b16-8311-72842b88763c",
+     "name": "Scone, Maple Oat",
+     "price": 425
+    },
+    {
+     "id": "c7560c70-d75b-43bf-8804-5a7baf37f4a8",
+     "name": "Scone, Blueberry",
+     "price": 425
+    },
+    {
+     "id": "c3df4bf8-9441-4303-bb6a-0d2aacde9904",
+     "name": "Muffin, Blueberry",
+     "price": 375
+    },
+    {
+     "id": "0102c0f4-a725-49cc-9d97-16e98abf2fc5",
+     "name": "Muffin, Chocolate Chip",
+     "price": 375
+    },
+    {
+     "id": "7119ea50-05ba-471f-a807-61772c4783c6",
+     "name": "Muffin, Apple Cinnamon",
+     "price": 375
+    },
+    {
+     "id": "d2ca00f4-79f6-4e49-a202-ddca18987f1d",
+     "name": "Muffin, Lemon Poppy Seed",
+     "price": 375
+    },
+    {
+     "id": "1f4945e5-547e-4d5e-9f24-162a49e1ff7c",
+     "name": "Whoopie Pie",
+     "price": 300
+    },
+    {
+     "id": "0fe7bf95-529a-4532-8c4a-e6b475090633",
+     "name": "Chocolate Chip Cookie (2)",
+     "price": 300
+    },
+    {
+     "id": "6b8904c3-16e4-489c-b0a6-4d06555ea796",
+     "name": "Oatmeal Raisin Cookies(2)",
+     "price": 300
+    },
+    {
+     "id": "223cba90-be31-45bd-a02b-4a77193371aa",
+     "name": "Heath Bar Cookie",
+     "price": 300
+    },
+    {
+     "id": "5154eab3-16ad-457d-b8ef-4b97a6b21081",
+     "name": "M & M Cookie",
+     "price": 300
+    },
+    {
+     "id": "e343aa17-4864-4b28-ae49-64dd8973f28d",
+     "name": "Peanut Butter Cookie (1)",
+     "price": 300
+    },
+    {
+     "id": "14bec506-2b1c-4f29-901f-29f4ae7671d8",
+     "name": "Gluten Free Brownie",
+     "price": 650
+    },
+    {
+     "id": "1c8bf39a-a9cc-46f2-b39f-b96866789c15",
+     "name": "Gluten Free Blondie",
+     "price": 650
+    },
+    {
+     "id": "5bf2b775-bd06-4b39-9c95-9df7ceb80b49",
+     "name": "Gluten Free Whoopie Pies",
+     "price": 595
+    }
+   ]
+  },
+  {
+   "name": "Cakes",
+   "items": [
+    {
+     "id": "bb311493-98f1-4fe7-a832-ba7416ff2342",
+     "name": "Peanut Butter Chocolate Cake",
+     "description": "Peanut Butter Chocolate Cake Topped With Peanut Butter Cups",
+     "price": 750
+    },
+    {
+     "id": "a2cb206b-bb6d-4ac9-918c-f240fdc6b0ae",
+     "name": "Lemoncello Mascarpone Cake",
+     "price": 700
+    },
+    {
+     "id": "a298346b-85c8-4b4c-b55d-73ca23613b7c",
+     "name": "Triple Chocolate Mousse Cake",
+     "price": 675
+    },
+    {
+     "id": "ed941296-8d0b-406c-95b7-8843f50df9a1",
+     "name": "Chocolate Fudge Cake",
+     "price": 675
+    },
+    {
+     "id": "93324c8a-e9a5-42d5-aa3f-d73e2aee5355",
+     "name": "New York Style Turtle Cheesecake",
+     "price": 800
+    },
+    {
+     "id": "b418b500-f6b5-47a1-a0d0-4e0bf53871e1",
+     "name": "Rainbow Sprinkle Cake",
+     "price": 750
+    }
+   ]
+  },
+  {
+   "name": "French Macarons",
+   "items": [
+    {
+     "id": "d64b39c2-3312-4559-adc0-6a55f971d4b8",
+     "name": "French Macaron Medley",
+     "price": 600
+    }
+   ]
+  },
+  {
+   "name": "Belgian Chocolate Mousse By Delici 2.7oz Glass Jar",
+   "items": [
+    {
+     "id": "27e0e5e8-8909-4f5b-9e4d-25cd607b5963",
+     "name": "Belgian Chocolate Mousse",
+     "price": 600
+    }
+   ]
+  },
+  {
+   "name": "Tiramisu by Dessert Italiano, 3oz Glass Jar",
+   "items": [
+    {
+     "id": "a21f2249-a085-479a-8564-a60240cbe349",
+     "name": "Tiramisu",
+     "price": 700
+    }
+   ]
+  }
+ ]
+}

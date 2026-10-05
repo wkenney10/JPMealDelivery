@@ -1,0 +1,438 @@
+{
+ "restaurant": "soup-shack-jp",
+ "source": "scraped",
+ "platform": "chownow",
+ "sourceUrl": "https://ordering.chownow.com/order/12742/locations",
+ "fetchedAt": "2026-10-05T22:39:58.047Z",
+ "categories": [
+  {
+   "name": "Appetizers",
+   "items": [
+    {
+     "id": "1713842_2052740",
+     "name": "Agedashi Tofu",
+     "description": "Lightly battered-fried Japanese tofu in tsuyu broth. (Dashi + soy sauce). Topped with bonito flake and scallion.",
+     "price": 945
+    },
+    {
+     "id": "1713843_2052741",
+     "name": "Edamame",
+     "description": "Vegan. Gluten free. Lightly salt steamed soybean.",
+     "price": 845
+    },
+    {
+     "id": "1713844_2052742",
+     "name": "6 Piece Gyoza",
+     "description": "Steamed OR pan fried dumpling filled with a mixture of pork AND chicken, served with ginger dipping sauce.",
+     "price": 1045
+    },
+    {
+     "id": "1713847_2052745",
+     "name": "4 Piece Takoyaki",
+     "description": "Fried octopus ball with cabbage, green onion, yam and soy bean oil. Topped with bonito flake, scallion and katsu mayo sauce.",
+     "price": 1045
+    },
+    {
+     "id": "1713851_2052749",
+     "name": "1 Piece Steamed Buns",
+     "description": "Cucumber, scallion, pickled onion and hoisin and mayo sauce with your choice of protein.",
+     "price": 745
+    },
+    {
+     "id": "16975645_18356458",
+     "name": "Chicken Wing (6)",
+     "description": "Crispy chicken wing marinated with chef special herb sauce. Served with homemade sweet & sour sauce",
+     "price": 1145
+    },
+    {
+     "id": "17036407_18417655",
+     "name": "Veggie Rolls",
+     "description": "Fried veggie roll, filled with mushroom, carrot, cabbage and vermicelli. Served with sweet & sour sauce. Contain: soy, sesame oil.",
+     "price": 845
+    }
+   ]
+  },
+  {
+   "name": "Salad",
+   "items": [
+    {
+     "id": "1713904_2052806",
+     "name": "Seaweed Salad",
+     "description": "Vegan. Seasoned seaweed salad with ponzu sprinkled with sesame seeds.",
+     "price": 845
+    },
+    {
+     "id": "3225686_3859206",
+     "name": "Goi salad",
+     "description": "(contains peanut) Vietnamese shredded cabbage salad with cucumber, pickled, tomato, sweet corn, basil and peanut. Served with Vietnamese fish sauce.",
+     "price": 1045
+    }
+   ]
+  },
+  {
+   "name": "Thai Noodle Soup",
+   "items": [
+    {
+     "id": "1713860_2052758",
+     "name": "Duck Noodle Soup",
+     "description": "Contains egg. Roasted duck noodle soup with ramen noodle, bok choy sprinkled with scallion, cilantro and crispy fried garlic in duck both.",
+     "price": 1895
+    },
+    {
+     "id": "1713866_2052764",
+     "name": "Ba-Mi Heang (No broth)",
+     "description": "Contains egg and shellfish. Roasted pork and ramen noodle with pork and shrimp dumpling, bok chop sprinkled scallion, cilantro and crispy fried garlic. NOTE:NOT AVAILABLE Roast Pork",
+     "price": 1595
+    },
+    {
+     "id": "1713869_2052767",
+     "name": "Tom Yum Noodle Soup",
+     "description": "Spicy. Thai style hot and sour soup with rice noodle, roasted pork, home style ground pork, fish ball, bean sprouts, sprinkled with ground peanut, scallion, cilantro and crisply fried garlic in spicy tom yum broth (Contains peanuts).",
+     "price": 1695
+    },
+    {
+     "id": "1713863_2052761",
+     "name": "Kao Soi",
+     "description": "Contains egg. Spicy. Northern style curry noodle dish with chicken drumsticks, steamed ramen noodle, pickled green mustard, pickled red onion scallion, spicy chili oil and wedge of limes topped with crispy egg noodle in curry broth.",
+     "price": 1695
+    }
+   ]
+  },
+  {
+   "name": "Pho (Vietnamese Noodle Soup)",
+   "items": [
+    {
+     "id": "1713880_2052781",
+     "name": "Dac Biet",
+     "description": "Gluten-free. Famous Vietnamese beef noodle soup with rare steak, well done flank, tripe and beef ball. Served with sliced onion, scallion and cilantro. Served with fresh bean sprouts, basil leaves and wedge of limes on the side.",
+     "price": 1695
+    },
+    {
+     "id": "1713882_2052783",
+     "name": "Pho Tai",
+     "description": "Gluten-free. Beef noodle soup with rare steak. Served with sliced onion, scallion and cilantro. Served with fresh bean sprouts, basil leaves and wedge of limes on the side.",
+     "price": 1595
+    },
+    {
+     "id": "1713885_2052786",
+     "name": "Mi Hoanh Than",
+     "description": "Contains egg and shellfish. Pork and shrimp dumpling and ramen noodle with boy choy, sliced roasted pork in aromatic chicken broth. Served with sliced onion, scallion and cilantro. Served with fresh bean sprouts, basil leaves and wedge of limes on the side.",
+     "price": 1695
+    },
+    {
+     "id": "1713886_2052787",
+     "name": "Pho Sate",
+     "description": "Spicy. Spicy beef noodle soup combined with sliced rare steak, well done flank, beef ball and tomato in spicy chili oil beef broth. Served with sliced onion, scallion and cilantro. Served with fresh bean sprouts, basil leaves and wedge of limes on the side.",
+     "price": 1695
+    },
+    {
+     "id": "1713884_2052785",
+     "name": "Pho Ga",
+     "description": "Gluten-free. Shredded chicken in aromatic chicken broth. Served with sliced onion, scallion and cilantro. Served with fresh bean sprouts, basil leaves and wedge of limes on the side.",
+     "price": 1595
+    }
+   ]
+  },
+  {
+   "name": "Ramen",
+   "items": [
+    {
+     "id": "1713888_2052789",
+     "name": "Spicy Miso",
+     "description": "Contains eggs. Spicy. Spicy pork broth, miso, cha-shu pork, sweet corn, menma (Japanese bamboo), nori, wood ear mushrooms, sesame seed and scallions.",
+     "price": 1695
+    },
+    {
+     "id": "1713893_2052794",
+     "name": "Tonkotsu Ramen",
+     "description": "Contains eggs and dairy. Pork tonkotsu broth, cha-shu pork, menma (Japanese bamboo), nori, wood ear mushrooms, sesame seeds, sesame oil and scallions.",
+     "price": 1595
+    },
+    {
+     "id": "1713895_2052797",
+     "name": "Shoyu Ramen",
+     "description": "Contains eggs. Chicken broth with soy sauce, cha-shu pork, nori, bean sprouts, menma (Japanese bamboo), black garlic oil, sesame oil, and scallions.",
+     "price": 1695
+    },
+    {
+     "id": "1713898_2052800",
+     "name": "Tan Tan Men",
+     "description": "Contains eggs and dairy. Spicy. Pork broth, spicy sesame oil (rayu), cha-shu pork, spicy ground pork, bok choy, bean sprouts, nori, sesame seeds and scallions.",
+     "price": 1695
+    },
+    {
+     "id": "1713900_2052802",
+     "name": "Yasai Ramen",
+     "description": "Contains eggs. Vegetarian broth with soy sauce, steamed tofu, wood ear mushrooms, bok choy, wakame seaweed, sweet corn, menma (Japanese bamboo), bean sprouts, nori and scallions.",
+     "price": 1695
+    },
+    {
+     "id": "2578995_3094868",
+     "name": "Spicy Miso Beef Stew",
+     "description": "Spicy beef broth with miso, slow cooked beef flank, menma (Japanese bamboo), scallions, bean sprouts, sesame seeds and spicy chili vinegar.",
+     "price": 1895
+    }
+   ]
+  },
+  {
+   "name": "Side Order",
+   "items": [
+    {
+     "id": "1713916_2052819",
+     "name": "Ramen Noodle",
+     "price": 450
+    },
+    {
+     "id": "1713917_2052820",
+     "name": "Rice Noodle",
+     "price": 350
+    },
+    {
+     "id": "1713919_2052822",
+     "name": "Japanese Steamed Rice",
+     "price": 350
+    },
+    {
+     "id": "1713921_2052824",
+     "name": "Chicken Broth",
+     "description": "12 oz.",
+     "price": 495
+    },
+    {
+     "id": "1713922_2052825",
+     "name": "Beef Broth",
+     "description": "12 oz.",
+     "price": 495
+    },
+    {
+     "id": "1831137_2192412",
+     "name": "Side Roasted Duck",
+     "price": 1095
+    },
+    {
+     "id": "1831145_2192423",
+     "name": "Menma (Japanese Bamboo)",
+     "price": 350
+    },
+    {
+     "id": "1831148_2192428",
+     "name": "Pickled Ginger",
+     "price": 250
+    },
+    {
+     "id": "1831149_2192429",
+     "name": "Cha-shu Pork (2 Pieces)",
+     "price": 495
+    },
+    {
+     "id": "1831151_2192432",
+     "name": "Sweet Corn",
+     "price": 250
+    },
+    {
+     "id": "1831153_2192436",
+     "name": "Spicy Sesame Oil",
+     "price": 175
+    },
+    {
+     "id": "1831154_2192437",
+     "name": "Steamed Bok Choy",
+     "price": 395
+    },
+    {
+     "id": "1831155_2192438",
+     "name": "Wood Ear Mushrooms",
+     "price": 250
+    },
+    {
+     "id": "1831156_2192439",
+     "name": "Fried Garlic",
+     "price": 150
+    },
+    {
+     "id": "1831157_2192440",
+     "name": "Marinated Soft Boil Egg",
+     "price": 395
+    },
+    {
+     "id": "1831158_2192441",
+     "name": "Scallions",
+     "price": 175
+    },
+    {
+     "id": "1831159_2192442",
+     "name": "Chicken Drumsticks",
+     "price": 495
+    },
+    {
+     "id": "1831160_2192443",
+     "name": "Nori (2 Pieces)",
+     "price": 150
+    },
+    {
+     "id": "1831161_2192444",
+     "name": "Bean Sprouts",
+     "price": 250
+    },
+    {
+     "id": "1831162_2192445",
+     "name": "Steamed Tofu",
+     "price": 395
+    },
+    {
+     "id": "1831163_2192447",
+     "name": "Pickled Green Mushtard",
+     "price": 250
+    },
+    {
+     "id": "1831164_2192448",
+     "name": "Sliced Onion",
+     "price": 175
+    },
+    {
+     "id": "1831166_2192450",
+     "name": "Spicy Chili Oil",
+     "price": 175
+    },
+    {
+     "id": "2555158_3066240",
+     "name": "Roasted Pork",
+     "price": 795
+    },
+    {
+     "id": "4147462_4957458",
+     "name": "Cilantro",
+     "price": 175
+    },
+    {
+     "id": "1831165_2192449",
+     "name": "Crispy Egg Noodle",
+     "price": 295
+    },
+    {
+     "id": "4494433_5377421",
+     "name": "Beef Tripe",
+     "price": 395
+    }
+   ]
+  },
+  {
+   "name": "Beverages",
+   "items": [
+    {
+     "id": "1713836_2052734",
+     "name": "Soda",
+     "price": 295
+    },
+    {
+     "id": "1713837_2052735",
+     "name": "Sparkling Water",
+     "price": 450
+    },
+    {
+     "id": "1713838_2052736",
+     "name": "Unsweetened Ice Green Tea",
+     "price": 495
+    },
+    {
+     "id": "1713839_2052737",
+     "name": "Sping Water",
+     "price": 350
+    },
+    {
+     "id": "1713841_2052739",
+     "name": "Thai Ice Tea",
+     "price": 595
+    },
+    {
+     "id": "1713840_2052738",
+     "name": "Coconut Juice",
+     "price": 595
+    },
+    {
+     "id": "4380590_5238679",
+     "name": "Strawberry Ramune Soda",
+     "price": 450
+    },
+    {
+     "id": "20821718_22308158",
+     "name": "Lychee Soda",
+     "price": 450
+    },
+    {
+     "id": "27846822_29768890",
+     "name": "Vietnamese Ice Coffee",
+     "price": 595
+    },
+    {
+     "id": "27846999_29769067",
+     "name": "Coconut Coffee",
+     "price": 650
+    }
+   ]
+  },
+  {
+   "name": "Rice Bowls",
+   "items": [
+    {
+     "id": "1764663_2113585",
+     "name": "Fried Tofu Bowl",
+     "description": "Vegetarian. Light battered fried Japanese tofu, bok choy, cucumber, sesame seeds and scallion. Served with hot sweet soy sauce. Served over Japanese steamed rice.",
+     "price": 1595
+    },
+    {
+     "id": "3513200_4200136",
+     "name": "Spicy Cha Shu Rice Bowl",
+     "price": 1595
+    },
+    {
+     "id": "3533376_4223640",
+     "name": "Cha Shu Rice Bowl",
+     "price": 1595
+    },
+    {
+     "id": "1713914_2052817",
+     "name": "Roasted Duck Bowl",
+     "description": "Bok choy, pickled ginger sprinkled with scallion, crispy fried garlic. Served with hot sweet soy sauce. Served over Japanese steamed rice.",
+     "price": 1895
+    },
+    {
+     "id": "1713911_2052813",
+     "name": "Roasted Pork Bowl",
+     "description": "Marinated soft boil egg, bok choy, cucumber, sesame seeds and scallion. Served with hot sweet soy sauce. Served over Japanese steamed rice.",
+     "price": 1695
+    },
+    {
+     "id": "2436026_2922767",
+     "name": "Chicken Katsu Curry",
+     "description": "Breaded fried chicken with carrot, potato, onion, cabbage and scallions in spicy curry sauce. Served over Japanese steamed rice.",
+     "price": 1795
+    },
+    {
+     "id": "4735529_5671137",
+     "name": "Tofu Katsu Curry Rice Bowl",
+     "description": "Lightly battered-fried tofu with carrot, potato, onion, cabbage and scallion in spicy curry sauce. Served over Japanese rice.",
+     "price": 1795
+    },
+    {
+     "id": "27164202_29069026",
+     "name": "Crispy CH Yellow Curry Rice Bowl",
+     "description": "Crispy Chicken Yellow curry with coconut milk, pineapple, onions, tomatoes, and carrots. Served over Japanese steamed rice.",
+     "price": 1895
+    },
+    {
+     "id": "27164203_29069027",
+     "name": "Roasted Duck Yellow Curry Rice Bowl",
+     "description": "Roasted Duck Yellow curry with coconut milk, pineapple, onions, tomatoes, and carrots. Served over Japanese steamed rice.",
+     "price": 1995
+    },
+    {
+     "id": "27164204_29069028",
+     "name": "Shrimp Yellow Curry Rice Bowl",
+     "description": "Shrimp Yellow curry with coconut milk, pineapple, onions, tomatoes, and carrots. Served over Japanese steamed rice.",
+     "price": 1795
+    }
+   ]
+  }
+ ]
+}

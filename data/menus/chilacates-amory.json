@@ -1,0 +1,2508 @@
+{
+ "restaurant": "chilacates-amory",
+ "source": "scraped",
+ "platform": "toast",
+ "sourceUrl": "https://order.toasttab.com/online/chilacates-amory-street-jamaica-plain-ma-224-amory-st",
+ "fetchedAt": "2026-10-05T22:32:13.592Z",
+ "categories": [
+  {
+   "name": "BURRITOS",
+   "items": [
+    {
+     "id": "35a232b7-7045-40c2-9702-01978e51f2fa",
+     "name": "AL PASTOR BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico. Thin cut slices of roasted pork marinated in annatto and pinapple",
+     "price": 1099
+    },
+    {
+     "id": "df06d98d-70fd-4cc0-8a4d-31a7b1beb0b1",
+     "name": "BIRRIA BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico.",
+     "price": 1299
+    },
+    {
+     "id": "b14585c7-61d4-4bfc-afd5-974fe31f9b5d",
+     "name": "CARNE ASADA BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico. Grilled steak",
+     "price": 1299
+    },
+    {
+     "id": "589b3db0-4a24-49c8-a35a-2bbe1befee97",
+     "name": "CARNITAS BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico.",
+     "price": 1099
+    },
+    {
+     "id": "c3154428-b51a-41bf-b1b7-00547f7badb6",
+     "name": "CHICKEN TINGA BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico. Shredded Chicken & onions simmered in spicy chipotle sauce",
+     "price": 1099
+    },
+    {
+     "id": "790e46d5-7302-4639-8cbd-7fc22f66d8b2",
+     "name": "GRILLED CHICKEN BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico. Pollo a la parrilla",
+     "price": 1099
+    },
+    {
+     "id": "085576a7-6d4a-4684-a69b-5fe57f6b8add",
+     "name": "GRILLED FISH BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico. Pescado (seasonal)",
+     "price": 1299
+    },
+    {
+     "id": "19460140-0754-4c8d-a427-b7c2606effc5",
+     "name": "GRILLED SHRIMP BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico. Camarones a la parrilla",
+     "price": 1299
+    },
+    {
+     "id": "13211d15-c6ed-4095-9c5b-3bb6e1121c9b",
+     "name": "LENGUA BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico. Beef tongue",
+     "price": 1299
+    },
+    {
+     "id": "fc3d1ec0-d666-42ae-a4e9-fe492b400e30",
+     "name": "PAPAS CON CHORIZO BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico. Potatoes & Mexican chorizo comes with pico",
+     "price": 1099
+    },
+    {
+     "id": "455e6388-1519-4c25-a2bb-aacb2a68972f",
+     "name": "PORK EN CHILE VERDE BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico. Pork simmered in salsa verde",
+     "price": 1099
+    },
+    {
+     "id": "52c0ed4f-ccdb-496d-a422-0a72873d6c51",
+     "name": "VEGGIES BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico.",
+     "price": 1099
+    },
+    {
+     "id": "d6b9208a-bd9f-4a76-b63b-49e616d408ae",
+     "name": "NO MEAT BURRITO",
+     "price": 999
+    },
+    {
+     "id": "fc2a33aa-287f-4fe6-88b4-c3eb174056de",
+     "name": "GROUND BEEF BURRITO",
+     "price": 1199
+    }
+   ]
+  },
+  {
+   "name": "NAKED BURRITO (BOWL)",
+   "items": [
+    {
+     "id": "0378b72a-fd9b-4f67-8e9d-67161d7d1c95",
+     "name": "NO MEAT BOWL",
+     "price": 1199
+    },
+    {
+     "id": "6af76abe-c2cd-4757-8b4a-27a12cb0ea14",
+     "name": "AL PASTOR BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1199
+    },
+    {
+     "id": "beb765a3-ed88-4c02-ba5c-3ca6b1771696",
+     "name": "BIRRIA BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1399
+    },
+    {
+     "id": "a533ed96-0a4a-4635-9145-1c1de66093cb",
+     "name": "CARNE ASADA BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1399
+    },
+    {
+     "id": "4a4d18bf-3217-4332-98ab-7aa2ca328513",
+     "name": "CARNITAS BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1199
+    },
+    {
+     "id": "ce3e1044-5bd3-4eba-851a-e3c5d7dcf289",
+     "name": "CHICKEN TINGA BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1199
+    },
+    {
+     "id": "11c9ef71-6db3-4575-9bbd-42bb56235fe5",
+     "name": "GRILLED CHICKEN BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1199
+    },
+    {
+     "id": "c149aa1f-01c3-4639-bd9f-2691ae0fd2ab",
+     "name": "GRILLED FISH BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1399
+    },
+    {
+     "id": "5c6a0b10-99f8-44ad-8f0a-43c1e7e24b50",
+     "name": "GRILLED SHRIMP BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1399
+    },
+    {
+     "id": "124fb07e-2035-450f-8b70-329c3cfc56c1",
+     "name": "GROUND BEEF BOWL",
+     "price": 1199
+    },
+    {
+     "id": "2daa1c5c-956b-456b-a884-a76d4d6a90f1",
+     "name": "LENGUA BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1399
+    },
+    {
+     "id": "81452c68-b383-4492-85b2-01ea820e438b",
+     "name": "PAPAS CON CHORIZO BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1199
+    },
+    {
+     "id": "c90c3fe5-6cfc-408f-81fc-d12346cb165e",
+     "name": "PORK EN CHILE VERDE BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1199
+    },
+    {
+     "id": "17ad1cef-962d-471c-82db-9cf53182379d",
+     "name": "VEGGIES BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1199
+    }
+   ]
+  },
+  {
+   "name": "TACOS",
+   "items": [
+    {
+     "id": "ee9837e4-f042-4712-931b-a5e30b6f1a74",
+     "name": "AL PASTOR TACO",
+     "description": "1 soft HANDMADE corn tortilla. Comes with onion, cilantro, pico de pineapple and radish.Thin cut slices of roasted pork marinated in annatto and pineapple",
+     "price": 499
+    },
+    {
+     "id": "a0f1f438-7005-4fee-b18e-372a9c9d4bd0",
+     "name": "BIRRIA TACOS COMBO",
+     "description": "3 soft HANDMADE corn tortilla. Comes with onion, cilantro, melted cheese and broth.",
+     "price": 1699
+    },
+    {
+     "id": "305e4214-4987-478a-a24b-098628f96a79",
+     "name": "CARNE ASADA TACO",
+     "description": "1 soft HANDMADE corn tortilla. Comes with onion, cilantro and radish.Grilled steak",
+     "price": 599
+    },
+    {
+     "id": "14fe378e-fc92-482b-8e00-27e14629b085",
+     "name": "CARNITAS TACO",
+     "description": "1 soft HANDMADE corn tortilla. Comes with onion, cilantro and radish.",
+     "price": 499
+    },
+    {
+     "id": "9f43325c-996b-41d9-a46b-9b8f16dcfaa1",
+     "name": "CHICKEN TINGA TACO",
+     "description": "1 soft HANDMADE corn tortilla. Comes with onion, cilantro and radish.Shredded chicken and onions simmered in spicy chipotle sauce",
+     "price": 499
+    },
+    {
+     "id": "6256f748-d8b8-45df-84b7-f4824b6817fc",
+     "name": "GRILLED CHICKEN TACO",
+     "description": "1 soft HANDMADE corn tortilla. Comes with onion, cilantro and radish.Pollo a la parrilla",
+     "price": 499
+    },
+    {
+     "id": "376a74e3-0085-4cb4-a2a9-052f1904ab32",
+     "name": "GRILLED FISH TACO",
+     "description": "1 soft HANDMADE corn tortilla. Comes with onion, cilantro, pineapple, chipotle mayo and radish. Pescado (seasonal)",
+     "price": 599
+    },
+    {
+     "id": "acf5b3b5-3f85-4464-b434-21c830bfd778",
+     "name": "GRILLED SHRIMP TACO",
+     "description": "1 soft HANDMADE corn tortilla. Comes with onion, cilantro and radish. Camarones a la parrilla",
+     "price": 599
+    },
+    {
+     "id": "efb0664e-6928-4824-b65d-dce97a2e0700",
+     "name": "LENGUA TACO",
+     "description": "1 soft HANDMADE corn tortilla . Comes with onion, cilantro and radish.Beef tongue",
+     "price": 599
+    },
+    {
+     "id": "f68893f3-f5d5-489e-afd8-4d031b9ae1ad",
+     "name": "PAPAS CON CHORIZO TACO",
+     "description": "1 soft HANDMADE corn tortilla. Comes with onion, cilantro and radish and pico.Potatoes and Mexican chorizo comes with pico",
+     "price": 499
+    },
+    {
+     "id": "1c76ba10-5099-446a-bc7a-33e525f4e298",
+     "name": "PORK EN CHILE VERDE TACO",
+     "description": "1 soft HANDMADE corn tortilla. Comes with onion, cilantro and radish.Simmer in salsa verde",
+     "price": 499
+    },
+    {
+     "id": "88068e30-4248-49aa-8618-3d356a75dbee",
+     "name": "VEGGIES TACO",
+     "description": "1 soft HANDMADE corn tortilla. Comes with onion, cilantro and radish.",
+     "price": 499
+    },
+    {
+     "id": "cb128f7b-bf80-4082-bc9f-bac2389c2742",
+     "name": "GROUND BEEF TACO",
+     "description": "1 soft HANDMADE corn tortilla. Comes with onion, cilantro and radish.",
+     "price": 499
+    },
+    {
+     "id": "085a8b11-bcbc-49be-af91-cd86094a2e1d",
+     "name": "BLACK BEANS TACOS",
+     "price": 499
+    },
+    {
+     "id": "4dccf900-2f5a-4a22-b799-c7b46660e0e8",
+     "name": "BIRRIA TACO",
+     "price": 599
+    }
+   ]
+  },
+  {
+   "name": "GUEROS TACOS (CRUNCHY)",
+   "items": [
+    {
+     "id": "3e1a1dae-9ea1-4fd8-b480-67ea5ce098a1",
+     "name": "AL PASTOR GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico, lettuce, sour cream and cheese. Thin cut slices of roasted pork marinated in annatto and pineapple",
+     "price": 499
+    },
+    {
+     "id": "c918cd58-7c96-4d35-a9c7-1e7586546c0c",
+     "name": "CARNITAS GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico, lettuce, sour cream and cheese.",
+     "price": 499
+    },
+    {
+     "id": "0d483eeb-b07c-4b11-a778-59b692b35470",
+     "name": "CARNE ASADA GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico, lettuce, sour cream and cheese. Grilled steak",
+     "price": 599
+    },
+    {
+     "id": "4e0a0e2f-9704-47da-a6cd-38abc78cd673",
+     "name": "CHICKEN TINGA GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico, lettuce, sour cream and cheese. Shredded chicken and onions simmered in spicy chipotle sauce",
+     "price": 499
+    },
+    {
+     "id": "050a0384-4a59-444d-88db-b5c804dc8d4c",
+     "name": "GRILLED CHICKEN GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico, lettuce, sour cream and cheese. Pollo a la parrilla",
+     "price": 499
+    },
+    {
+     "id": "1bf4c428-aa09-4f84-8146-f324fef809a9",
+     "name": "GRILLED FISH GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico, lettuce, sour cream and cheese. Pescado (seasonal)",
+     "price": 599
+    },
+    {
+     "id": "86dd55fe-33e2-4827-98df-8ad36c24ffdb",
+     "name": "GRILLED SHRIMP GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico, lettuce, sour cream and cheese. Camarones a la parrilla",
+     "price": 599
+    },
+    {
+     "id": "e18d071c-7da8-4058-9c28-6e98bdad4769",
+     "name": "GROUND BEEF GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico., lettuce, sour cream and cheese",
+     "price": 499
+    },
+    {
+     "id": "9c279f49-0a83-4124-9809-bf15eda433d0",
+     "name": "LENGUA GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico, lettuce, sour cream and cheese. Beef tongue",
+     "price": 599
+    },
+    {
+     "id": "2bdcb429-761d-415c-b107-88f6b89fbb78",
+     "name": "PAPAS CON CHORIZO GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico, lettuce, sour cream and cheese. Potatoes and Mexican chorizo comes with pico",
+     "price": 499
+    },
+    {
+     "id": "c80ec024-9c78-473f-b0c9-cb1d8000d8b8",
+     "name": "PORK EN CHILE VERDE GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico, lettuce, sour cream and cheese. Simmer in salsa verde",
+     "price": 499
+    },
+    {
+     "id": "4cd5f20a-f49a-4e5f-9805-6b51a4ecc396",
+     "name": "VEGGIES GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico, lettuce, sour cream and cheese",
+     "price": 499
+    }
+   ]
+  },
+  {
+   "name": "QUESADILLA",
+   "items": [
+    {
+     "id": "fb97b96c-2000-4be4-b161-4b4fba79ec52",
+     "name": "CHEESE QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1399
+    },
+    {
+     "id": "56b5bdbc-0968-4a9d-9476-efcffeb5e1b8",
+     "name": "AL PASTOR QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1399
+    },
+    {
+     "id": "8b0e1ece-52fb-472a-962e-157463f33a88",
+     "name": "BIRRIA QUESADILLA (NO BROTH)",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce. NO BROTH",
+     "price": 1599
+    },
+    {
+     "id": "555ee4c8-5f63-4312-bf72-ccc867f7a64a",
+     "name": "CARNE ASADA QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1599
+    },
+    {
+     "id": "5028c37f-fe6f-4222-9c1b-1b12521e8b8b",
+     "name": "CARNITAS QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1399
+    },
+    {
+     "id": "aab80494-0bcb-498a-a05e-6f8ed73154d9",
+     "name": "CHICKEN TINGA QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1399
+    },
+    {
+     "id": "34b5ac76-1871-4f10-8819-eeee2b0fd09c",
+     "name": "GRILLED CHICKEN QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1399
+    },
+    {
+     "id": "55af0508-9867-4fd2-9474-ac506fec1efd",
+     "name": "GRILLED FISH QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1599
+    },
+    {
+     "id": "2a2473be-4766-4244-a8d5-e4b19d70f8e6",
+     "name": "GRILLED SHRIMP QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1599
+    },
+    {
+     "id": "6b5ebacc-f95b-41ca-abe1-4d3cb5e0a28c",
+     "name": "LENGUA QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1599
+    },
+    {
+     "id": "0a63a548-b5b1-4a8a-a552-08f09845e4df",
+     "name": "PAPAS CON CHORIZO QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1399
+    },
+    {
+     "id": "fab39be8-0dcd-419e-9ae6-ae3b359ed86d",
+     "name": "PORK EN CHILE VERDE QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1399
+    },
+    {
+     "id": "99f34e19-4529-4f0e-a2aa-6f786c09e9ca",
+     "name": "VEGGIES QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1399
+    },
+    {
+     "id": "1ecf232c-1a44-41fa-add9-dfa788794c54",
+     "name": "QUESABIRRIA",
+     "description": "12’ QUESABIRRIA WITH BROTH ONIONS AND CILANTRO INSIDE NO PICO,GUAC,SOUR CREAM, LETTUCE",
+     "price": 1600
+    },
+    {
+     "id": "104e924b-ec18-4535-9e98-79be14e32156",
+     "name": "GROUND BEEF QUESADILLA",
+     "price": 1399
+    }
+   ]
+  },
+  {
+   "name": "ENCHILADAS",
+   "items": [
+    {
+     "id": "f9b8519c-13f2-4f29-b377-8d06939a8521",
+     "name": "ENCHILADA TRIO",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 1599
+    },
+    {
+     "id": "c7a1b5f5-33d1-4311-8b66-021f692ed4b8",
+     "name": "AL PASTOR ENCHILADA",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 1599
+    },
+    {
+     "id": "e585a70a-8019-4e17-a0e2-e2c55fe79a21",
+     "name": "BIRRIA ENCHILADAS",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 1799
+    },
+    {
+     "id": "f5eb6902-ae06-4ffd-a687-4f0a1c065031",
+     "name": "CARNE ASADA ENCHILADAS",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 1799
+    },
+    {
+     "id": "540d363c-c2f1-4a6b-9511-81924ff2bb4c",
+     "name": "CARNITAS ENCHILADAS",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 1599
+    },
+    {
+     "id": "00bf1d21-26b9-4d98-8a93-d8d5d151fed1",
+     "name": "CHICKEN TINGA ENCHILADA",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 1599
+    },
+    {
+     "id": "de9394fc-3f41-4300-8c5e-b2904b2da615",
+     "name": "GRILLED CHICKEN ENCHILADAS",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 1599
+    },
+    {
+     "id": "8ac59962-74dc-4a3d-a5fc-f30632aac256",
+     "name": "GRILLED FISH ENCHILADAS",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 1799
+    },
+    {
+     "id": "d3130b60-7153-4674-a0d2-f3ebb5f8d2bd",
+     "name": "GRILLED SHRIMP ENCHILADAS",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 1799
+    },
+    {
+     "id": "74a2e4f2-da34-4aca-a5ae-193476aac4e9",
+     "name": "LENGUA ENCHILADAS",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 1799
+    },
+    {
+     "id": "f554e296-3593-4e84-9bdb-007d29bf7b62",
+     "name": "PAPAS CON CHORIZO ENCHILADA",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 1599
+    },
+    {
+     "id": "b07e0878-ec66-4770-a13c-f3d8d2ff6dd8",
+     "name": "PORK EN CHILE VERDE ENCHILADAS",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 1599
+    },
+    {
+     "id": "0f8f1f4d-8cee-46a6-baed-3c2f64da6078",
+     "name": "VEGGIES ENCHILADAS",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 1599
+    },
+    {
+     "id": "7b217dee-615e-4a3a-8c42-bbc92f6989e2",
+     "name": "GROUND BEEF ENCHILADAS",
+     "price": 1599
+    },
+    {
+     "id": "10e4fa1d-9c75-460b-a203-1bfbef300596",
+     "name": "CHEESE ENCHILADAS",
+     "price": 1599
+    }
+   ]
+  },
+  {
+   "name": "FLAUTAS",
+   "items": [
+    {
+     "id": "121d04fa-a8d9-4ac4-87cc-a1baf2b30d72",
+     "name": "FLAUTAS COMBO",
+     "description": "3 fried tacos with choice of meat, sour cream, avocado cream, lettuce, pico de gallo, and cheese. Combo comes with rice and refried beans.",
+     "price": 1399
+    },
+    {
+     "id": "9bef8d4c-4642-4d8b-8389-991ece9a241c",
+     "name": "FLAUTAS (ONLY)",
+     "description": "3 fried tacos with choice of meat, sour cream, avocado cream, lettuce, pico de gallo, and cheese.",
+     "price": 1199
+    }
+   ]
+  },
+  {
+   "name": "NACHOS CALLEJEROS",
+   "items": [
+    {
+     "id": "a37a9c01-418d-45b8-8b64-050cd99ffa3b",
+     "name": "NACHOS CALLEJEROS",
+     "price": 1499
+    }
+   ]
+  },
+  {
+   "name": "TACO PLATE",
+   "items": [
+    {
+     "id": "e8b085d0-e10c-47dc-8408-d5ad9d23d2a4",
+     "name": "NO MEAT TACO PLATE",
+     "price": 1499
+    },
+    {
+     "id": "983d6270-92c5-4b3e-a5ba-24f919b31c69",
+     "name": "AL PASTOR TACO PLATE",
+     "description": "3 Fresh handmade corn tortillas + side of rice & beans + onions + cilantro + radish",
+     "price": 1499
+    },
+    {
+     "id": "968915ec-8b78-454c-bf82-662694275503",
+     "name": "CARNE ASADA TACO PLATE",
+     "description": "3 Fresh handmade corn tortillas + side of rice & beans + onions + cilantro + radish",
+     "price": 1699
+    },
+    {
+     "id": "12a414d2-51fe-4888-b9cd-33b91c01c0da",
+     "name": "CARNITAS TACO PLATE",
+     "description": "3 Fresh handmade corn tortillas + side of rice & beans + onions + cilantro + radish",
+     "price": 1499
+    },
+    {
+     "id": "4e124eb0-8133-4210-bb0b-b25cadaaa5c0",
+     "name": "CHICKEN TINGA TACO PLATE",
+     "description": "3 Fresh handmade corn tortillas + side of rice & beans + onions + cilantro + radish",
+     "price": 1499
+    },
+    {
+     "id": "aa079308-9603-4494-b454-14e50a49627b",
+     "name": "GRILLED CHICKEN TACO PLATE",
+     "description": "3 Fresh handmade corn tortillas + side of rice & beans + onions + cilantro + radish",
+     "price": 1499
+    },
+    {
+     "id": "ae98c04b-82ee-44a7-b856-28f8ee68b262",
+     "name": "GRILLED FISH TACO PLATE",
+     "description": "3 Fresh handmade corn tortillas + side of rice & beans + onions + cilantro + radish",
+     "price": 1699
+    },
+    {
+     "id": "319a1a76-58ea-46dc-97d9-3ce3869fee7d",
+     "name": "GRILLED SHRIMP TACO PLATE",
+     "description": "3 Fresh handmade corn tortillas + side of rice & beans + onions + cilantro + radish",
+     "price": 1699
+    },
+    {
+     "id": "be28500d-e008-406c-b771-88475d466b7b",
+     "name": "LENGUA TACO PLATE",
+     "description": "3 Fresh handmade corn tortillas + side of rice & beans + onions + cilantro + radish",
+     "price": 1699
+    },
+    {
+     "id": "b7d480d9-908a-479f-863d-d5f594c52fa0",
+     "name": "PAPAS CON CHORIZO TACO PLATE",
+     "description": "3 Fresh handmade corn tortillas + side of rice & beans + onions + cilantro + radish",
+     "price": 1499
+    },
+    {
+     "id": "51abe69a-08b9-4d57-92d6-01a82e35d907",
+     "name": "PORK EN CHILE VERDE TACO PLATE",
+     "description": "3 Fresh handmade corn tortillas + side of rice & beans + onions + cilantro + radish",
+     "price": 1499
+    },
+    {
+     "id": "9bc275b7-4969-4431-97c7-aaa19dbb9469",
+     "name": "VEGGIES TACO PLATE",
+     "description": "3 Fresh handmade corn tortillas + side of rice & beans + onions + cilantro + radish",
+     "price": 1499
+    },
+    {
+     "id": "2dbfdaad-239a-4954-843d-55aa18dc09d5",
+     "name": "GROUND BEEF TACO PLATE",
+     "price": 1499
+    }
+   ]
+  },
+  {
+   "name": "TACO SALAD",
+   "items": [
+    {
+     "id": "1488bc31-18e5-4785-b7b4-56da4d33cdee",
+     "name": "NO MEAT TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 999
+    },
+    {
+     "id": "d9fa1761-c5e8-4f4c-83d0-c0ac703053d9",
+     "name": "AL PASTOR TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1250
+    },
+    {
+     "id": "5b4b98ad-3047-45d2-b025-c591a870991b",
+     "name": "BIRRIA TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1350
+    },
+    {
+     "id": "532179bf-b748-44c4-96e4-786f73bb3ef2",
+     "name": "CARNE ASADA TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1350
+    },
+    {
+     "id": "08771874-9db6-417c-8895-e9f1dbb11b9a",
+     "name": "CARNITAS TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1250
+    },
+    {
+     "id": "689cbfd7-4114-4703-89bf-3e3c4af647aa",
+     "name": "CHICKEN TINGA TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1250
+    },
+    {
+     "id": "abfb5539-beaa-4f47-bd3a-36d7f4b0b303",
+     "name": "GRILLED CHICKEN TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1250
+    },
+    {
+     "id": "c02bf1d3-7cb8-49f7-acd1-e4083bd30299",
+     "name": "GRILLED FISH TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1350
+    },
+    {
+     "id": "f8cefa96-7296-4e97-bc1d-fe9479c1c343",
+     "name": "GRILLED SHRIMP TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1350
+    },
+    {
+     "id": "5ff8bfb6-1312-441f-8811-6d94005fbfb5",
+     "name": "LENGUA TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1350
+    },
+    {
+     "id": "2e47bbcc-a501-4eb7-9c4d-7e005a4f2712",
+     "name": "PAPAS CON CHORIZO TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1250
+    },
+    {
+     "id": "05acb0b9-37c7-4050-9f15-a58aeb13c552",
+     "name": "PORK EN CHILE VERDE TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1250
+    },
+    {
+     "id": "bf5b394c-36d5-4fd3-9117-954af1418430",
+     "name": "VEGGIES TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1250
+    },
+    {
+     "id": "48bfd530-3041-4781-b293-75a3b997bea5",
+     "name": "GROUND BEEF TACO SALAD",
+     "price": 1250
+    }
+   ]
+  },
+  {
+   "name": "TORTA",
+   "items": [
+    {
+     "id": "80dd485c-8d99-47f6-8885-d17c2dd4a3b5",
+     "name": "AL PASTOR TORTA",
+     "description": "Rice, bean, cheese, pico de gallo",
+     "price": 1299
+    },
+    {
+     "id": "ca6ce218-bb3c-4977-af10-071d3e7f212f",
+     "name": "CARNE ASADA TORTA",
+     "description": "Rice, bean, cheese, pico de gallo",
+     "price": 1499
+    },
+    {
+     "id": "ab22a1bb-86ab-46c4-b4fb-874894cb1eee",
+     "name": "CARNITAS TORTA",
+     "description": "Rice, bean, cheese, pico de gallo",
+     "price": 1299
+    },
+    {
+     "id": "77c06bff-c8a3-4836-bd5e-f80078e2694a",
+     "name": "CHICKEN TINGA TORTA",
+     "description": "Rice, bean, cheese, pico de gallo",
+     "price": 1299
+    },
+    {
+     "id": "8adc9791-4fa1-47db-b59d-298e551cb235",
+     "name": "GRILLED CHICKEN TORTA",
+     "description": "Rice, bean, cheese, pico de gallo",
+     "price": 1299
+    },
+    {
+     "id": "03d5596c-a282-4a55-8cfb-cb2ba2b56091",
+     "name": "GRILLED FISH TORTA",
+     "description": "Rice, bean, cheese, pico de gallo",
+     "price": 1499
+    },
+    {
+     "id": "f6519a99-2857-4e4d-9a34-2cc314054a8f",
+     "name": "GRILLED SHRIMP TORTA",
+     "description": "Rice, bean, cheese, pico de gallo",
+     "price": 1499
+    },
+    {
+     "id": "d5fa8c0e-301a-443c-aa3c-7f59337d08e4",
+     "name": "LENGUA TORTA",
+     "description": "Rice, bean, cheese, pico de gallo",
+     "price": 1499
+    },
+    {
+     "id": "19d5fa9e-eb78-4417-b6f5-69186d59aba6",
+     "name": "PAPAS CON CHORIZO TORTA",
+     "description": "Rice, bean, cheese, pico de gallo",
+     "price": 1299
+    },
+    {
+     "id": "8fa75d97-739d-4826-a768-99ea9b845c46",
+     "name": "PORK EN CHILE VERDE TORTA",
+     "description": "Rice, bean, cheese, pico de gallo",
+     "price": 1299
+    },
+    {
+     "id": "459208f8-6e13-4756-9003-3b8cb3b6624e",
+     "name": "VEGGIES TORTA",
+     "description": "Rice, bean, cheese, pico de gallo",
+     "price": 1299
+    },
+    {
+     "id": "00ca4e2a-b781-4204-b133-ccb2a452f08a",
+     "name": "NO MEAT TORTA",
+     "price": 1199
+    },
+    {
+     "id": "283d1ae6-4ec3-4f72-80b2-f888f729aa3b",
+     "name": "GROUND BEEF TORTA",
+     "price": 1299
+    },
+    {
+     "id": "f82baf1c-512d-4799-b730-76ea7728a59a",
+     "name": "BIRRIA TORTA",
+     "price": 1499
+    }
+   ]
+  },
+  {
+   "name": "TOSTADA",
+   "items": [
+    {
+     "id": "4887ef28-aafc-4869-ab81-6db43ec885a0",
+     "name": "AL PASTOR TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 750
+    },
+    {
+     "id": "aa351356-05d6-43ca-9a2a-c5c212c5d08b",
+     "name": "BIRRIA TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 850
+    },
+    {
+     "id": "6a549ff2-fb6c-480e-9d9c-1841956dcf0c",
+     "name": "CARNE ASADA TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 850
+    },
+    {
+     "id": "f646d5b7-1cee-4a6d-ab9b-5f579ba06648",
+     "name": "CARNITAS TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 750
+    },
+    {
+     "id": "8996c687-cccc-4a6b-8d3f-50589b480f60",
+     "name": "CHICKEN TINGA TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 750
+    },
+    {
+     "id": "a037de91-ce77-44fa-a4c1-48f0350161e8",
+     "name": "GRILLED CHICKEN TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 750
+    },
+    {
+     "id": "ed3fbb75-f684-44d6-b4aa-bd821fe86c82",
+     "name": "GRILLED FISH TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 850
+    },
+    {
+     "id": "eaaddf95-dc7e-4304-ac22-0adcb61eb00f",
+     "name": "GRILLED SHRIMP TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 850
+    },
+    {
+     "id": "c8bcd271-2f34-4ffd-97f9-eebd86828fe8",
+     "name": "LENGUA TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 850
+    },
+    {
+     "id": "373d52e9-e443-4f0f-815d-f5d6cf452dfc",
+     "name": "PAPAS CON CHORIZO TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 750
+    },
+    {
+     "id": "94473fb9-c4b4-459b-8978-247064b93335",
+     "name": "PORK EN CHILE VERDE TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 750
+    },
+    {
+     "id": "2612a77d-210d-478a-a523-373a415fe550",
+     "name": "VEGGIES TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 750
+    },
+    {
+     "id": "2bdded54-22cf-4477-b7ae-1838defed46a",
+     "name": "NO MEAT TOSTADA",
+     "price": 750
+    },
+    {
+     "id": "e1fb8fdf-d405-421f-b28b-9c608723b3cd",
+     "name": "GROUND BEEF TOSTADA",
+     "price": 750
+    }
+   ]
+  },
+  {
+   "name": "SIDES",
+   "items": [
+    {
+     "id": "80cfdd1c-3532-4293-a45f-322f2400a9ea",
+     "name": "RICE 12 OZ",
+     "price": 499
+    },
+    {
+     "id": "1e53e7b9-dab4-4366-8d7b-f436e7da5ccd",
+     "name": "BLACK BEANS 12 OZ",
+     "price": 499
+    },
+    {
+     "id": "8897e404-90dc-4378-9046-3329935873d9",
+     "name": "REFRIED BEANS 12 OZ",
+     "price": 499
+    },
+    {
+     "id": "8ea8d0c9-e547-41af-b925-0eb53710966e",
+     "name": "RICE & BLACK BEANS 12 OZ",
+     "price": 499
+    },
+    {
+     "id": "5b52d01c-c444-418a-a36b-7a7c50b2f8c8",
+     "name": "RICE & REFRIED BEANS 12 OZ",
+     "price": 499
+    },
+    {
+     "id": "4d9c3468-b5ed-4de8-a48a-9d7d9db97e92",
+     "name": "12oz PREMIUM MEAT",
+     "price": 1500
+    },
+    {
+     "id": "e0e292c7-0d0d-4bf5-88b4-fda5b68afcd5",
+     "name": "12oz REG MEAT",
+     "price": 1200
+    },
+    {
+     "id": "32294768-ec04-4015-8937-81c9be0117e3",
+     "name": "LETTUCE (4oz)",
+     "price": 99
+    },
+    {
+     "id": "3a34dc11-4d1c-4847-ad42-d72b3c1bf164",
+     "name": "CHEESE",
+     "price": 150
+    },
+    {
+     "id": "1357525b-455f-48b1-92c0-b2f74877619d",
+     "name": "CHIPOTLE MAYO",
+     "price": 150
+    },
+    {
+     "id": "5fc34344-b306-48f0-bda2-7c323088bbd0",
+     "name": "CHIPS",
+     "price": 399
+    },
+    {
+     "id": "24851716-5e69-4007-bfb3-99bbbc659c03",
+     "name": "CHIPS & GUAC (4oz)",
+     "price": 750
+    },
+    {
+     "id": "8ef0c7a6-59ee-4fcb-a895-b9d8c7c72c6a",
+     "name": "CHIPS & QUESO (4oz)",
+     "price": 649
+    },
+    {
+     "id": "2fd08699-353c-4878-83ad-6507f5eb1a38",
+     "name": "CHIPS & SALSA (4oz)",
+     "price": 649
+    },
+    {
+     "id": "30671e8d-11d4-4617-8de2-b2c3bb9e7e6d",
+     "name": "CHURROS",
+     "price": 599
+    },
+    {
+     "id": "f7f8ca12-8367-4b62-9e9a-e40570c8657b",
+     "name": "ELOTES",
+     "description": "Corn comes with mayo, cotija cheese, and chili powder.",
+     "price": 599
+    },
+    {
+     "id": "15c34c2f-8855-4f76-9c0a-839416eed528",
+     "name": "GUACAMOLE",
+     "price": 200
+    },
+    {
+     "id": "180a6fbb-d887-4832-b20c-dd2e09e56add",
+     "name": "MADUROS",
+     "price": 600
+    },
+    {
+     "id": "85b2520e-e253-4458-9fb1-041e88339bd9",
+     "name": "PICO DE GALLO",
+     "price": 150
+    },
+    {
+     "id": "8ece1b60-cf63-40cb-b73f-d73fc3960c8a",
+     "name": "PICO DE PIÑA",
+     "price": 150
+    },
+    {
+     "id": "d4a3b8c7-2d01-4e43-853c-8855007cbaab",
+     "name": "QUESO",
+     "price": 299
+    },
+    {
+     "id": "cdb6c84e-e47b-4c16-b3b8-22055a587cc3",
+     "name": "SALSA",
+     "price": 299
+    },
+    {
+     "id": "790a91d2-c685-4f73-81f4-38bef18d3fd0",
+     "name": "SOFT HANDMADE CORN TORTILLA",
+     "price": 100
+    },
+    {
+     "id": "1e466669-9c58-446b-9fd5-275b9a7cec9b",
+     "name": "SOUR CREAM",
+     "price": 150
+    },
+    {
+     "id": "c2d9ff55-591e-4898-a007-fb567c3eceff",
+     "name": "TAMALES",
+     "description": "Tamales of your choice that come with a side of pico (2oz)",
+     "price": 599
+    },
+    {
+     "id": "8c171cc0-7807-4fbf-9b57-b782563cfcb6",
+     "name": "BIRRIA BROTH (SOPA)",
+     "price": 299
+    }
+   ]
+  },
+  {
+   "name": "KIDS",
+   "items": [
+    {
+     "id": "f4864195-7972-44cc-9845-abb067adec11",
+     "name": "CHAVITO BURRITO",
+     "price": 699
+    },
+    {
+     "id": "05ec9621-17f7-4f67-992f-00e92a78142c",
+     "name": "RICE & BEANS",
+     "price": 499
+    },
+    {
+     "id": "343ade6d-c804-4a5a-82f3-226b2f3d70d7",
+     "name": "CHAVITO QUESADILLA",
+     "price": 699
+    }
+   ]
+  },
+  {
+   "name": "DESSERTS",
+   "items": [
+    {
+     "id": "e87ec5ba-3906-49d6-8aac-ce609c191adf",
+     "name": "MEXICAN FLAN",
+     "price": 600
+    },
+    {
+     "id": "b0b18e13-a071-4ae5-9b6a-1d7dd513ffb9",
+     "name": "BISCOFF TRES LECHES CAKE",
+     "price": 600
+    },
+    {
+     "id": "3ca00c40-d3a2-462c-a3d0-8ce67354cb21",
+     "name": "PASSION FRUIT MOUSSE",
+     "price": 500
+    }
+   ]
+  },
+  {
+   "name": "DRINKS",
+   "items": [
+    {
+     "id": "ad392ae1-b0f1-4e89-84f8-e501e537f1ad",
+     "name": "MEXICAN SODA",
+     "price": 350
+    },
+    {
+     "id": "50b6b606-e59c-4770-83e0-5d942bb5c0d5",
+     "name": "HORCHATA",
+     "price": 450
+    },
+    {
+     "id": "5c2a85f3-335d-4427-a947-1774066ebb8f",
+     "name": "PASSION FRUIT",
+     "price": 450
+    },
+    {
+     "id": "c2e3cc7d-a5ca-48ec-8fbb-355ef13912df",
+     "name": "JAMAICA",
+     "price": 450
+    },
+    {
+     "id": "de23883d-df4f-4fdd-8f16-5474471b8e62",
+     "name": "WATER",
+     "price": 200
+    },
+    {
+     "id": "d82acbfb-448b-4879-bdfa-b95b851faaf5",
+     "name": "CAN SODAS",
+     "price": 200
+    },
+    {
+     "id": "a4cec323-dc68-4f78-ba0d-417151bf4e60",
+     "name": "MINERAGUA SPARKLING WATER",
+     "price": 350
+    }
+   ]
+  },
+  {
+   "name": "APPETIZERS",
+   "items": [
+    {
+     "id": "02e82288-8e9e-4e36-a137-7caf4f0921ba",
+     "name": "TAMALES",
+     "description": "Minimum order of 10. Steamed corn husk stuffed with cornmeal. Served with Pico de Gallo",
+     "price": 600
+    },
+    {
+     "id": "90fcd668-fedf-469b-abbc-37ea2112b87e",
+     "name": "ELOTES",
+     "description": "Mayo, Mexican Cheese & Chili Powder",
+     "price": 6000
+    },
+    {
+     "id": "7dcae3aa-cd99-4f30-b4a2-f17da9d0c743",
+     "name": "FULL TRAY CHIPS",
+     "description": "Full Chip Tray",
+     "price": 1500
+    },
+    {
+     "id": "460c13c9-3e53-4b7c-bf03-a888bde9fd79",
+     "name": "FULL TRAY CHIPS & SALSA",
+     "description": "Full Chip Tray & 32 oz Salsa",
+     "price": 3500
+    },
+    {
+     "id": "a5a181c0-6fb8-4d82-9124-719c706f3234",
+     "name": "FULL TRAY CHIPS & GUAC",
+     "description": "Full Chip Tray & 32 oz Guac",
+     "price": 4500
+    }
+   ]
+  },
+  {
+   "name": "BREAKFAST",
+   "items": [
+    {
+     "id": "d715326c-e1a4-4c84-81fe-0853468f2657",
+     "name": "BREAKFAST BURRITO",
+     "price": 899
+    },
+    {
+     "id": "034c2fde-eb9b-4035-bdeb-fcb40ce6bb83",
+     "name": "BREAKFAST TORTA",
+     "price": 1099
+    },
+    {
+     "id": "3d8b1e0f-38c1-45b8-9dc7-d454f4fd717d",
+     "name": "QUESADILLA SINCRONIZADA",
+     "price": 900
+    },
+    {
+     "id": "61f4ebc8-750c-4ec5-81ca-8d9aa5ed7e0c",
+     "name": "BREAKFAST TACO",
+     "price": 350
+    },
+    {
+     "id": "f33e1a03-450d-4cf4-a51b-0e95c3797f98",
+     "name": "HUEVOS DIVORCIADOS",
+     "price": 1099
+    },
+    {
+     "id": "92bb9390-7c58-4572-b4fe-42cb150a2263",
+     "name": "CHILAQUILES",
+     "price": 999
+    }
+   ]
+  },
+  {
+   "name": "EVENT PLATTERS",
+   "items": [
+    {
+     "id": "27c13353-0f9e-4f8a-ab2c-79dd56f14206",
+     "name": "CARNITAS",
+     "price": 9000
+    },
+    {
+     "id": "5123b907-6a02-44f6-b2f8-e7852d05c527",
+     "name": "PORK EN CHILE VERDE",
+     "price": 9000
+    },
+    {
+     "id": "cc7516a5-338a-4e5e-97cc-a3cdf9510be7",
+     "name": "CHICKEN TINGA",
+     "price": 9000
+    },
+    {
+     "id": "7ba45657-82b4-4cad-b022-f3a0c599b446",
+     "name": "GRILLED CHICKEN",
+     "price": 9000
+    },
+    {
+     "id": "f61ee0c3-3a2f-4e9f-8d4d-285e966766d6",
+     "name": "AL PASTOR",
+     "price": 9000
+    },
+    {
+     "id": "08a95324-a7cd-44c3-acfe-d4efe401ba1b",
+     "name": "STEAK",
+     "price": 12000
+    },
+    {
+     "id": "88435144-2780-4d8f-8579-0c9c12a83117",
+     "name": "SHRIMP",
+     "price": 12000
+    },
+    {
+     "id": "f14986a2-3889-4689-ad5b-45ac4b18a7a4",
+     "name": "FISH",
+     "price": 12000
+    },
+    {
+     "id": "e7db0e7a-7fe1-4f10-9aff-1ea244653890",
+     "name": "RICE",
+     "price": 4500
+    },
+    {
+     "id": "b54aee13-76a2-4eca-a50c-fbfe44e845fb",
+     "name": "BEANS",
+     "price": 4500
+    },
+    {
+     "id": "a0eb70d3-c984-463a-95d7-30be7ddde09d",
+     "name": "VEGGIES",
+     "price": 8000
+    },
+    {
+     "id": "9ec463d1-7ea3-4af2-b64d-151cf9154d64",
+     "name": "SALAD",
+     "price": 4500
+    }
+   ]
+  },
+  {
+   "name": "TAQUISA",
+   "items": [
+    {
+     "id": "f169118c-ff8b-4270-8386-46551cd1d3cf",
+     "name": "10 TACOS",
+     "price": 4990
+    },
+    {
+     "id": "84b05e1a-500f-4a06-9064-a99b73b9f40c",
+     "name": "20 TACOS",
+     "price": 9980
+    },
+    {
+     "id": "e762cd3c-e8c4-4d4f-91ca-f266dc003b48",
+     "name": "30 TACOS",
+     "price": 14970
+    },
+    {
+     "id": "49b3b8a9-70c2-48cf-8928-67a55aa1172a",
+     "name": "40 TACOS",
+     "price": 19960
+    },
+    {
+     "id": "1e078888-42b4-4695-b5ff-9a7326621912",
+     "name": "50 TACOS",
+     "price": 24950
+    },
+    {
+     "id": "0578abc1-6538-4dec-b5d6-5d5cbf1e3bd4",
+     "name": "60 TACOS",
+     "price": 29940
+    },
+    {
+     "id": "0f565a67-e6bc-462a-a794-74be60b1b6e7",
+     "name": "70 TACOS",
+     "price": 34930
+    },
+    {
+     "id": "743685cb-0ca8-46c7-a606-091ff6cd1b5c",
+     "name": "80 TACOS",
+     "price": 39900
+    },
+    {
+     "id": "da0dc7a9-c2a3-4468-b9f3-6acfc3bf7429",
+     "name": "90 TACOS",
+     "price": 44900
+    },
+    {
+     "id": "367b271a-e138-49b5-aaba-0c09f090f501",
+     "name": "100 TACOS",
+     "price": 49900
+    }
+   ]
+  },
+  {
+   "name": "BURRITOS",
+   "items": [
+    {
+     "id": "09549896-6441-41c5-acf7-3b5084acc7dd",
+     "name": "BURRITO TRAY REG",
+     "description": "MINIMUM ORDER OF 20. Guey size burrito With your choice of protein or vegetables, rice, beans, cheese, and pico de gallo",
+     "price": 1099
+    },
+    {
+     "id": "949a9b54-24ee-4955-967a-b651ce13a0d4",
+     "name": "PREMIUM BURRITO TRAY",
+     "description": "MINIMUM ORDER OF 20! Large size burritos With your choice of protein or vegetables, rice, beans, cheese, and pico de gallo",
+     "price": 1199
+    }
+   ]
+  },
+  {
+   "name": "ENCHILADAS",
+   "items": [
+    {
+     "id": "d1f25821-5389-4325-9e64-f4218d8498e7",
+     "name": "ENCHILADA TRAY",
+     "price": 9500
+    }
+   ]
+  },
+  {
+   "name": "QUESADILLAS",
+   "items": [
+    {
+     "id": "5971b4f5-44cb-4a38-87bf-e6149d528e1f",
+     "name": "QUESADILLA",
+     "description": "MINIMUM ORDER OF 20! Flour tortilla, comes with lettuce, guac, pico and sour cream.",
+     "price": 1399
+    }
+   ]
+  },
+  {
+   "name": "SIDES",
+   "items": [
+    {
+     "id": "6a09cc5b-4e44-4384-8876-fa363e952a50",
+     "name": "GUACAMOLE",
+     "price": 1500
+    },
+    {
+     "id": "bc654750-a1f0-4c39-99fd-e9851a33e4cc",
+     "name": "PICO DE GALLO",
+     "price": 1200
+    },
+    {
+     "id": "47451a35-d97d-4502-9c11-19609f4aa35f",
+     "name": "SOUR CREAM",
+     "price": 1000
+    },
+    {
+     "id": "16730dcc-c3bb-44f8-9faa-02ff6588f5b7",
+     "name": "CHEESE",
+     "price": 1000
+    },
+    {
+     "id": "bc87a06a-7bf8-4873-9092-229ac452fb41",
+     "name": "LIME",
+     "price": 700
+    },
+    {
+     "id": "27333fd6-223d-4615-92aa-1187f35b3449",
+     "name": "LETTUCE",
+     "price": 700
+    },
+    {
+     "id": "51b76f6a-2160-45eb-b213-909edce06519",
+     "name": "PICO DE PIÑA",
+     "price": 1000
+    },
+    {
+     "id": "059d18f3-13ae-4875-8447-9e98b018b9f5",
+     "name": "ROASTED TOMATO SALSA",
+     "price": 900
+    },
+    {
+     "id": "54647eb8-d942-42a5-a2d2-61ad9208f79a",
+     "name": "CHIPOTLE MAYO",
+     "price": 750
+    },
+    {
+     "id": "bf09ee80-bd45-4d40-a9d3-8fdf71fece89",
+     "name": "HANDMADE CORN TORTILLAS",
+     "price": 90
+    }
+   ]
+  },
+  {
+   "name": "DRINKS",
+   "items": [
+    {
+     "id": "b600f2f8-1e12-478e-9de0-57d94a4c71f4",
+     "name": "HORCHATA",
+     "price": 4800
+    },
+    {
+     "id": "422affa1-da04-49c5-be91-dd636b139339",
+     "name": "PASSION FRUIT",
+     "price": 4800
+    },
+    {
+     "id": "1d85f4b7-e948-49a8-b06e-35f28ab14c0f",
+     "name": "JAMAICA",
+     "price": 4800
+    },
+    {
+     "id": "d15dae66-0985-4455-bac1-f106948504c5",
+     "name": "WATER",
+     "price": 200
+    },
+    {
+     "id": "b0caf082-1c0a-4175-b6cd-3dba58a67286",
+     "name": "JARRITOS",
+     "price": 350
+    }
+   ]
+  },
+  {
+   "name": "BURRITOS",
+   "items": [
+    {
+     "id": "230d9f21-0b4d-4a3f-b4e7-8597d96ceb05",
+     "name": "NO MEAT BURRITO",
+     "price": 1460
+    },
+    {
+     "id": "7fdf9fea-27e5-4b85-8d03-13ddc4e25082",
+     "name": "AL PASTOR BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico. Thin cut slices of roasted pork marinated in annatto and pinapple",
+     "price": 1460
+    },
+    {
+     "id": "24602e34-492c-46f6-8433-c1784ac8af9c",
+     "name": "BIRRIA BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico.",
+     "price": 1699
+    },
+    {
+     "id": "7acbcaa1-dd63-492a-be1f-9bca402f76ae",
+     "name": "CARNE ASADA BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico. Grilled steak",
+     "price": 1699
+    },
+    {
+     "id": "ce6c5c3e-d5af-4947-be18-dd4ff094e6fe",
+     "name": "CARNITAS BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico.",
+     "price": 1460
+    },
+    {
+     "id": "e91b3122-9c39-486a-bdb2-7870b1023cab",
+     "name": "CHICKEN TINGA BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico. Shredded Chicken & onions simmered in spicy chipotle sauce",
+     "price": 1460
+    },
+    {
+     "id": "44202bc9-582b-431e-b864-ad775c06b39c",
+     "name": "GRILLED CHICKEN BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico. Pollo a la parrilla",
+     "price": 1460
+    },
+    {
+     "id": "8054f9ae-c4de-473c-bae2-c5fbb9cd763f",
+     "name": "GRILLED FISH BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico. Pescado (seasonal)",
+     "price": 1699
+    },
+    {
+     "id": "a7ed2656-d79b-4d01-9697-8317f9ffcc77",
+     "name": "GRILLED SHRIMP BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico. Camarones a la parrilla",
+     "price": 1699
+    },
+    {
+     "id": "69c2aa9d-32b5-4481-b3e8-52e579e6f251",
+     "name": "GROUND BEEF BURRITO",
+     "price": 1460
+    },
+    {
+     "id": "f40dab2a-8249-4fd1-a3ca-d82193328719",
+     "name": "LENGUA BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico. Beef tongue",
+     "price": 1699
+    },
+    {
+     "id": "607ecbbc-7641-41bf-bc77-0d2cdad307b6",
+     "name": "PAPAS CON CHORIZO BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico. Potatoes & Mexican chorizo comes with pico",
+     "price": 1460
+    },
+    {
+     "id": "0ecd8751-adff-4da2-b89a-4216e80bdc3c",
+     "name": "PORK EN CHILE VERDE BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico. Pork simmered in salsa verde",
+     "price": 1460
+    },
+    {
+     "id": "6bda507d-2cde-4a9e-ab34-6705c324cd4f",
+     "name": "VEGGIES BURRITO",
+     "description": "Flour tortilla, rice & beans, cheese, pico.",
+     "price": 1460
+    }
+   ]
+  },
+  {
+   "name": "NAKED BURRITO (BOWL)",
+   "items": [
+    {
+     "id": "93153b34-b7be-4b86-a92a-f464754a51e6",
+     "name": "NO MEAT BOWL",
+     "price": 1599
+    },
+    {
+     "id": "249add6b-072a-454b-9eed-73e586dab3fd",
+     "name": "AL PASTOR BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1599
+    },
+    {
+     "id": "83ee43b7-f5f1-4c7b-96e4-04c4deb06198",
+     "name": "BIRRIA BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1799
+    },
+    {
+     "id": "74e75bed-cdc7-49f4-bdf5-7c27e9eae2e2",
+     "name": "CARNE ASADA BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1799
+    },
+    {
+     "id": "0d6241f0-1b45-4117-a6ff-b9baa280b1a5",
+     "name": "CARNITAS BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1599
+    },
+    {
+     "id": "fcc6c408-760c-43d0-ac14-6e8188d0cebb",
+     "name": "CHICKEN TINGA BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1599
+    },
+    {
+     "id": "a5cd0fb6-a493-433e-8931-01331d1c62dd",
+     "name": "GRILLED CHICKEN BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1599
+    },
+    {
+     "id": "afd90282-f335-44dd-a8c2-f1bb52f5aeaa",
+     "name": "GRILLED FISH BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1799
+    },
+    {
+     "id": "c1e82d42-f44b-469f-b76a-17e79728406c",
+     "name": "GRILLED SHRIMP BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1799
+    },
+    {
+     "id": "10af05c3-62c6-4cf1-a3a9-f99eb3c41348",
+     "name": "GROUND BEEF BOWL",
+     "price": 1599
+    },
+    {
+     "id": "78b2feea-dc62-4c1a-a4a1-d7cb2852d198",
+     "name": "LENGUA BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1799
+    },
+    {
+     "id": "f6884c6a-5d80-4b14-a94b-1c469e2aa8f2",
+     "name": "PAPAS CON CHORIZO BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1599
+    },
+    {
+     "id": "76e3e714-9d21-4e29-9c2a-3ed9f3ed58f5",
+     "name": "PORK EN CHILE VERDE BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1599
+    },
+    {
+     "id": "a07ec37a-2fde-4a2a-8298-20d0d456689f",
+     "name": "VEGGIES BOWL",
+     "description": "Rice, beans, cheese and pico",
+     "price": 1599
+    }
+   ]
+  },
+  {
+   "name": "TACOS",
+   "items": [
+    {
+     "id": "09196997-e01f-493c-9881-6617cdd5054a",
+     "name": "AL PASTOR TACO",
+     "description": "1 soft HANDMADE corn tortilla. Comes with onion, cilantro, pico de pineapple and radish.Thin cut slices of roasted pork marinated in annatto and pineapple",
+     "price": 649
+    },
+    {
+     "id": "71e0973b-09d9-43b9-8527-063215d04035",
+     "name": "BIRRIA TACOS COMBO",
+     "description": "3 soft HANDMADE corn tortilla. Comes with onion, cilantro, melted cheese and broth.",
+     "price": 2209
+    },
+    {
+     "id": "6f1fc0f8-706f-4ac3-bd0c-dfd41dba5ce4",
+     "name": "CARNE ASADA TACO",
+     "description": "1 soft HANDMADE corn tortilla. Comes with onion, cilantro and radish.Grilled steak",
+     "price": 779
+    },
+    {
+     "id": "f250f957-6831-4015-aa6d-ca6ff865de61",
+     "name": "CARNITAS TACO",
+     "description": "1 soft HANDMADE corn tortilla. Comes with onion, cilantro and radish.",
+     "price": 649
+    },
+    {
+     "id": "4b606605-2a87-4e95-9d50-e9d40856be1d",
+     "name": "CHICKEN TINGA TACO",
+     "description": "1 soft HANDMADE corn tortilla. Comes with onion, cilantro and radish.Shredded chicken and onions simmered in spicy chipotle sauce",
+     "price": 649
+    },
+    {
+     "id": "a17c8249-2215-4166-bacd-05f502ac254c",
+     "name": "GRILLED CHICKEN TACO",
+     "description": "1 soft HANDMADE corn tortilla. Comes with onion, cilantro and radish.Pollo a la parrilla",
+     "price": 649
+    },
+    {
+     "id": "73095249-6733-4c08-9c54-476cf030e853",
+     "name": "GRILLED FISH TACO",
+     "description": "1 soft HANDMADE corn tortilla. Comes with onion, cilantro, pineapple, chipotle mayo and radish. Pescado (seasonal)",
+     "price": 779
+    },
+    {
+     "id": "27e08781-3007-4c5e-8f67-ba06870bd1f4",
+     "name": "GRILLED SHRIMP TACO",
+     "description": "1 soft HANDMADE corn tortilla. Comes with onion, cilantro and radish. Camarones a la parrilla",
+     "price": 779
+    },
+    {
+     "id": "6bf06e3d-cdc5-4c57-859c-3d753b84253b",
+     "name": "LENGUA TACO",
+     "description": "1 soft HANDMADE corn tortilla . Comes with onion, cilantro and radish.Beef tongue",
+     "price": 649
+    },
+    {
+     "id": "4ac21e9b-4343-490c-92d5-c48630739618",
+     "name": "PAPAS CON CHORIZO TACO",
+     "description": "1 soft HANDMADE corn tortilla. Comes with onion, cilantro and radish and pico.Potatoes and Mexican chorizo comes with pico",
+     "price": 649
+    },
+    {
+     "id": "e92a84b6-ba48-4379-961e-111b77fcf4a8",
+     "name": "PORK EN CHILE VERDE TACO",
+     "description": "1 soft HANDMADE corn tortilla. Comes with onion, cilantro and radish.Simmer in salsa verde",
+     "price": 649
+    },
+    {
+     "id": "6bcca37a-d571-444a-a622-f6c29080b3d8",
+     "name": "VEGGIES TACO",
+     "description": "1 soft HANDMADE corn tortilla. Comes with onion, cilantro and radish.",
+     "price": 649
+    },
+    {
+     "id": "a00775c2-174e-4c37-bec0-66b6983f951d",
+     "name": "GROUND BEEF TACO",
+     "description": "1 soft HANDMADE corn tortilla. Comes with onion, cilantro and radish.",
+     "price": 779
+    }
+   ]
+  },
+  {
+   "name": "GUEROS TACOS (CRUNCHY)",
+   "items": [
+    {
+     "id": "06eb20e7-77cb-471a-9ba4-757d833a5ce6",
+     "name": "AL PASTOR GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico, lettuce, sour cream and cheese. Thin cut slices of roasted pork marinated in annatto and pineapple",
+     "price": 649
+    },
+    {
+     "id": "c64f8593-4d1b-4936-bffe-199248039acf",
+     "name": "CANITA GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico, lettuce, sour cream and cheese.",
+     "price": 649
+    },
+    {
+     "id": "333dddd0-bc1b-4929-bc67-95faf7afb740",
+     "name": "CARNE ASADA GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico, lettuce, sour cream and cheese. Grilled steak",
+     "price": 779
+    },
+    {
+     "id": "b171ea86-adfc-4296-9eaf-81f1b3660346",
+     "name": "CHICKEN TINGA GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico, lettuce, sour cream and cheese. Shredded chicken and onions simmered in spicy chipotle sauce",
+     "price": 649
+    },
+    {
+     "id": "e10c8903-0f73-43b0-8c73-6d65a8fdbf0b",
+     "name": "GRILLED CHICKEN GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico, lettuce, sour cream and cheese. Pollo a la parrilla",
+     "price": 649
+    },
+    {
+     "id": "5ce96912-fcde-42fb-b377-4ef94e194ea2",
+     "name": "GRILLED FISH GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico, lettuce, sour cream and cheese. Pescado (seasonal)",
+     "price": 779
+    },
+    {
+     "id": "2bf97c0d-e087-4ba4-95f4-d3ac43835e1b",
+     "name": "GRILLED SHRIMP GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico, lettuce, sour cream and cheese. Camarones a la parrilla",
+     "price": 779
+    },
+    {
+     "id": "965d2ac3-3b65-4278-8bc8-5623eeb31b8d",
+     "name": "GROUND BEEF GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico., lettuce, sour cream and cheese",
+     "price": 649
+    },
+    {
+     "id": "16c75f63-88ca-4475-9eb9-bc8a1c376c77",
+     "name": "LENGUA GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico, lettuce, sour cream and cheese. Beef tongue",
+     "price": 649
+    },
+    {
+     "id": "5cd3253f-4568-4fef-8ad5-f01bc8f1c134",
+     "name": "PAPAS CON CHORIZO GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico, lettuce, sour cream and cheese. Potatoes and Mexican chorizo comes with pico",
+     "price": 649
+    },
+    {
+     "id": "d48aa0df-5482-4739-8a29-9487ec957b2b",
+     "name": "PORK EN CHILE VERDE GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico, lettuce, sour cream and cheese. Simmer in salsa verde",
+     "price": 649
+    },
+    {
+     "id": "1f3b78a0-a728-4895-8f0f-f3d93b8f152d",
+     "name": "VEGGIES GUERO TACO",
+     "description": "1 hard shell corn tortilla cheese with pico, lettuce, sour cream and cheese",
+     "price": 649
+    }
+   ]
+  },
+  {
+   "name": "QUESADILLA",
+   "items": [
+    {
+     "id": "127c758f-b7f5-4928-bfb8-074832634c43",
+     "name": "CHEESE QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1689
+    },
+    {
+     "id": "742d08a8-0b49-441e-a3c0-cd2ca935eeb8",
+     "name": "AL PASTOR QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1750
+    },
+    {
+     "id": "ed14b88b-6193-44d8-852d-1c2e04055e28",
+     "name": "BIRRIA QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1999
+    },
+    {
+     "id": "b2b4036e-33e9-4c16-8fac-30ac3e45b12e",
+     "name": "CARNE ASADA QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1999
+    },
+    {
+     "id": "50ea3c4c-13c3-4b90-8a5d-4425da6a81ef",
+     "name": "CARNITAS QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1750
+    },
+    {
+     "id": "49f058e1-d4ae-4606-8a32-301e927ed549",
+     "name": "CHICKEN TINGA QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1750
+    },
+    {
+     "id": "58faca8b-b44a-480d-8091-1c2a5f3c1a80",
+     "name": "GRILLED CHICKEN QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1750
+    },
+    {
+     "id": "615a2efc-e593-4b2b-9669-51e1988fa152",
+     "name": "GRILLED FISH QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1999
+    },
+    {
+     "id": "36fec8ab-c662-4b2e-a24f-f77ad80d3ef0",
+     "name": "GRILLED SHRIMP QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1999
+    },
+    {
+     "id": "c6076fe6-9282-4c71-9168-bec07a9bac17",
+     "name": "LENGUA QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1999
+    },
+    {
+     "id": "7a203aad-46ba-4703-94de-40c5a6695798",
+     "name": "PAPAS CON CHORIZO QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1750
+    },
+    {
+     "id": "b99e4123-ab9e-4350-a43c-e7154a95087e",
+     "name": "PORK EN CHILE VERDE QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1750
+    },
+    {
+     "id": "e6bf1102-13cb-4797-a795-6b23a54ffff7",
+     "name": "VEGGIES QUESADILLA",
+     "description": "Grilled flour tortilla with cheese, guac, pico, sour cream, lettuce",
+     "price": 1750
+    },
+    {
+     "id": "62eaede5-5918-49a8-a722-7f78de991c80",
+     "name": "QUESABIRRIA",
+     "price": 2099
+    }
+   ]
+  },
+  {
+   "name": "ENCHILADAS",
+   "items": [
+    {
+     "id": "8ba62dc3-d5d5-447d-8107-624e6782f782",
+     "name": "ENCHILADA TRIO",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 1999
+    },
+    {
+     "id": "e02d1f54-5507-45cf-b212-e7bc01802655",
+     "name": "AL PASTOR ENCHILADA",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 1999
+    },
+    {
+     "id": "17a1ec9d-1ab2-4c5f-a2ce-d0379004a482",
+     "name": "BIRRIA ENCHILADAS",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 2209
+    },
+    {
+     "id": "73a8bbcb-7540-4568-b88e-e85b9ffc855f",
+     "name": "CARNE ASADA ENCHILADAS",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 2209
+    },
+    {
+     "id": "59092dcc-2778-4246-8168-28dd6317b222",
+     "name": "CARNITAS ENCHILADAS",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 1999
+    },
+    {
+     "id": "63865d3c-ee65-4d13-b747-226336d791da",
+     "name": "CHICKEN TINGA ENCHILADA",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 1999
+    },
+    {
+     "id": "4ece6df0-5d78-4668-a101-55cb8ba424b3",
+     "name": "GRILLED CHICKEN ENCHILADAS",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 1999
+    },
+    {
+     "id": "73cc7f76-f6c7-4e20-9f18-60a9747dc6ca",
+     "name": "GRILLED FISH ENCHILADAS",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 2209
+    },
+    {
+     "id": "a8dac043-e04c-4465-812d-c096b97d125e",
+     "name": "GRILLED SHRIMP ENCHILADAS",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 2209
+    },
+    {
+     "id": "c9cf550d-6758-4efe-99b5-b4d47e73aff5",
+     "name": "LENGUA ENCHILADAS",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 2099
+    },
+    {
+     "id": "4bbb7ca6-ac81-43bb-a02b-40ce93cc8f32",
+     "name": "PAPAS CON CHORIZO ENCHILADA",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 1999
+    },
+    {
+     "id": "776ad86a-c14a-45cc-a52a-9042ba7d001a",
+     "name": "PORK EN CHILE VERDE ENCHILADAS",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 1999
+    },
+    {
+     "id": "32a39d9d-ff71-4a27-aade-f62d0b41eeda",
+     "name": "VEGGIES ENCHILADAS",
+     "description": "3 corn tortillas, salsa verde, melted cheese, lettuce, pico, sour cream. Sides of : rice, refried beans",
+     "price": 1999
+    }
+   ]
+  },
+  {
+   "name": "FLAUTAS",
+   "items": [
+    {
+     "id": "e95a2db4-c0ef-4e71-9c39-499c1952b445",
+     "name": "FLAUTAS COMBO",
+     "price": 1873
+    },
+    {
+     "id": "28340fc4-55fe-409a-b163-1e328de00aa8",
+     "name": "FLAUTAS ONLY",
+     "price": 1499
+    }
+   ]
+  },
+  {
+   "name": "NACHOS CALLEJEROS",
+   "items": [
+    {
+     "id": "12c1e145-defe-46ae-bf4f-d75043eb6ca9",
+     "name": "NACHOS CALLEJEROS",
+     "price": 1875
+    }
+   ]
+  },
+  {
+   "name": "TACO PLATE",
+   "items": [
+    {
+     "id": "8adb3bf6-6d61-478c-8748-ed19943be1db",
+     "name": "AL PASTOR TACO PLATE",
+     "description": "3 Fresh handmade corn tortillas + side of rice & beans + onions + cilantro + radish",
+     "price": 1949
+    },
+    {
+     "id": "c20e91bb-9de3-45ec-99a0-b2209f77f174",
+     "name": "CARNE ASADA TACO PLATE",
+     "description": "3 Fresh handmade corn tortillas + side of rice & beans + onions + cilantro + radish",
+     "price": 2209
+    },
+    {
+     "id": "fb7b7a8f-5cac-45dd-bf1b-30c3aecf9cb7",
+     "name": "CARNITAS TACO PLATE",
+     "description": "3 Fresh handmade corn tortillas + side of rice & beans + onions + cilantro + radish",
+     "price": 1949
+    },
+    {
+     "id": "e012d59f-bba5-4c26-851a-255907c891ca",
+     "name": "CHICKEN TINGA TACO PLATE",
+     "description": "3 Fresh handmade corn tortillas + side of rice & beans + onions + cilantro + radish",
+     "price": 1949
+    },
+    {
+     "id": "aaa4c2ab-3c18-4e49-a9ea-19e920eb6d65",
+     "name": "GRILLED CHICKEN TACO PLATE",
+     "description": "3 Fresh handmade corn tortillas + side of rice & beans + onions + cilantro + radish",
+     "price": 1949
+    },
+    {
+     "id": "518556f5-5e47-4a82-b5ca-ccf86095a09e",
+     "name": "GRILLED FISH TACO PLATE",
+     "description": "3 Fresh handmade corn tortillas + side of rice & beans + onions + cilantro + radish",
+     "price": 2209
+    },
+    {
+     "id": "ab2000a6-2ca8-4e16-a92f-116cb0a15b6e",
+     "name": "GRILLED SHRIMP TACO PLATE",
+     "description": "3 Fresh handmade corn tortillas + side of rice & beans + onions + cilantro + radish",
+     "price": 2209
+    },
+    {
+     "id": "b26deac2-77eb-47b7-86a1-f4f727fe650e",
+     "name": "LENGUA TACO PLATE",
+     "description": "3 Fresh handmade corn tortillas + side of rice & beans + onions + cilantro + radish",
+     "price": 1949
+    },
+    {
+     "id": "27294145-0bdd-4674-9b66-38d6d014eada",
+     "name": "PAPAS CON CHORIZO TACO PLATE",
+     "description": "3 Fresh handmade corn tortillas + side of rice & beans + onions + cilantro + radish",
+     "price": 1949
+    },
+    {
+     "id": "c43cdc84-0768-45d9-85ef-0a42ab1840e2",
+     "name": "PORK EN CHILE VERDE TACO PLATE",
+     "description": "3 Fresh handmade corn tortillas + side of rice & beans + onions + cilantro + radish",
+     "price": 1949
+    },
+    {
+     "id": "857f8c9b-50b8-4728-86b1-c06523e2423d",
+     "name": "VEGGIES TACO PLATE",
+     "description": "3 Fresh handmade corn tortillas + side of rice & beans + onions + cilantro + radish",
+     "price": 1949
+    },
+    {
+     "id": "ada31479-ecbb-4ba3-9a45-8de57cee8c9f",
+     "name": "NO MEAT TACO PLATE",
+     "price": 1949
+    }
+   ]
+  },
+  {
+   "name": "TACO SALAD",
+   "items": [
+    {
+     "id": "557cdc38-a156-406e-aa14-aeb6ab9998ac",
+     "name": "NO MEAT TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1169
+    },
+    {
+     "id": "996d0664-a718-4843-9e46-cdf794d896d5",
+     "name": "AL PASTOR TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1599
+    },
+    {
+     "id": "40532963-2c16-4290-8879-c63c56584ee6",
+     "name": "BIRRIA TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1799
+    },
+    {
+     "id": "aff8bbfb-7468-44aa-a616-a016e87f3a5b",
+     "name": "CARNE ASADA TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1799
+    },
+    {
+     "id": "e1952e01-f1d0-4a4f-9a22-b368c60b7bac",
+     "name": "CARNITAS TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1599
+    },
+    {
+     "id": "fb71f54c-bd7e-4d94-b59a-bf2f0c8b1df4",
+     "name": "CHICKEN TINGA TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1599
+    },
+    {
+     "id": "ce70340b-dec7-4970-ac32-5492d8aea4b8",
+     "name": "GRILLED CHICKEN TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1599
+    },
+    {
+     "id": "1bfa637a-0f4f-42ea-8238-471dbaa23507",
+     "name": "GRILLED FISH TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1799
+    },
+    {
+     "id": "5d88b883-9ee3-4ae6-be77-0552342f2be2",
+     "name": "GRILLED SHRIMP TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1799
+    },
+    {
+     "id": "307bffe8-4998-487f-a179-04e250b48a2b",
+     "name": "LENGUA TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1799
+    },
+    {
+     "id": "137c630a-33d3-483b-a3b8-8f89c84d48d7",
+     "name": "PAPAS CON CHORIZO TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1599
+    },
+    {
+     "id": "39faf198-2e83-4ddb-985a-b8bbd8c01254",
+     "name": "PORK EN CHILE VERDE TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1599
+    },
+    {
+     "id": "e16a65a2-b849-4c48-9541-0858dc7c73d5",
+     "name": "VEGGIES TACO SALAD",
+     "description": "Lettuce + black beans + corn pico + lime dressing + cheese tostada",
+     "price": 1599
+    },
+    {
+     "id": "81703b7c-0666-4c32-871a-8e9726038bc1",
+     "name": "GROUND BEEF TACO SALAD",
+     "price": 1599
+    }
+   ]
+  },
+  {
+   "name": "TORTA",
+   "items": [
+    {
+     "id": "9355c2ff-1902-44d0-83dd-019070e37bd0",
+     "name": "AL PASTOR TORTA",
+     "description": "Rice, bean, cheese, pico de gallo",
+     "price": 1689
+    },
+    {
+     "id": "8f15d207-ffe9-4ea3-ae0a-b3c0b3451a4d",
+     "name": "CARNE ASADA TORTA",
+     "description": "Rice, bean, cheese, pico de gallo",
+     "price": 1949
+    },
+    {
+     "id": "1b32ac9d-12ce-4a2f-bddb-d24f22ef1102",
+     "name": "CARNITAS TORTA",
+     "description": "Rice, bean, cheese, pico de gallo",
+     "price": 1689
+    },
+    {
+     "id": "22abd8c4-b678-4a31-905d-340d1b7b6631",
+     "name": "CHICKEN TINGA TORTA",
+     "description": "Rice, bean, cheese, pico de gallo",
+     "price": 1689
+    },
+    {
+     "id": "907fda33-c1fb-49f0-a9d2-1171be63300a",
+     "name": "GRILLED CHICKEN TORTA",
+     "description": "Rice, bean, cheese, pico de gallo",
+     "price": 1689
+    },
+    {
+     "id": "35f81a5f-30d3-4743-abfd-2469c02fa6de",
+     "name": "GRILLED FISH TORTA",
+     "description": "Rice, bean, cheese, pico de gallo",
+     "price": 1949
+    },
+    {
+     "id": "122e6ba9-e598-4519-89ac-5aff27bd1f99",
+     "name": "GRILLED SHRIMP TORTA",
+     "description": "Rice, bean, cheese, pico de gallo",
+     "price": 1949
+    },
+    {
+     "id": "ab007813-9917-4352-8a91-6b7e37c05a4a",
+     "name": "LENGUA TORTA",
+     "description": "Rice, bean, cheese, pico de gallo",
+     "price": 1949
+    },
+    {
+     "id": "ff78b4d4-f18a-479a-aa2d-67320ae9e668",
+     "name": "PAPAS CON CHORIZO TORTA",
+     "description": "Rice, bean, cheese, pico de gallo",
+     "price": 1689
+    },
+    {
+     "id": "0a740220-cb57-4f6b-81b3-82bd064475a8",
+     "name": "PORK EN CHILE VERDE TORTA",
+     "description": "Rice, bean, cheese, pico de gallo",
+     "price": 1689
+    },
+    {
+     "id": "f35531d8-0d7a-4f51-b96b-c01ac5e0c2b1",
+     "name": "VEGGIES TORTA",
+     "description": "Rice, bean, cheese, pico de gallo",
+     "price": 1689
+    },
+    {
+     "id": "948ddbc5-5b14-4428-a049-3852f2ce0937",
+     "name": "NO MEAT TORTA",
+     "price": 1589
+    },
+    {
+     "id": "fda3721d-80eb-48f7-8dc9-c1978774b3ce",
+     "name": "GROUND BEEF TORTA",
+     "price": 1689
+    },
+    {
+     "id": "95083ad1-13a0-4003-a052-123792672a42",
+     "name": "BIRRIA TORTA",
+     "price": 1949
+    }
+   ]
+  },
+  {
+   "name": "TOSTADA",
+   "items": [
+    {
+     "id": "82690dfe-4aef-47c3-a6c9-3d20a1bbf91c",
+     "name": "NO MEAT TOSTADA",
+     "price": 937
+    },
+    {
+     "id": "6b7f9fc7-0eab-4e08-8977-40f6659311ef",
+     "name": "AL PASTOR TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 937
+    },
+    {
+     "id": "46b33341-7af5-4941-92eb-7a40fbe562cf",
+     "name": "BIRRIA TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 1062
+    },
+    {
+     "id": "eb0c4d4f-348f-4839-bb22-6e08ff9a5a7b",
+     "name": "CARNE ASADA TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 1062
+    },
+    {
+     "id": "21efb096-8dce-495d-bc2b-004db69f5d14",
+     "name": "CARNITAS TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 937
+    },
+    {
+     "id": "697eba0a-052e-47ac-918c-eeca96546704",
+     "name": "CHICKEN TINGA TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 937
+    },
+    {
+     "id": "246ac800-aeed-44bf-b8cb-3eda21723ab7",
+     "name": "GRILLED CHICKEN TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 937
+    },
+    {
+     "id": "be4ff57d-8c92-4024-8b6c-5eebf42434fb",
+     "name": "GRILLED FISH TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 1062
+    },
+    {
+     "id": "b2c96e10-130b-42d2-81db-73b28676ba41",
+     "name": "GRILLED SHRIMP TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 1062
+    },
+    {
+     "id": "d805ab11-2c52-4fcb-a941-61118282255b",
+     "name": "LENGUA TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 1062
+    },
+    {
+     "id": "cba8edca-057d-4126-8d3b-dbc7f925f59e",
+     "name": "PAPAS CON CHORIZO TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 937
+    },
+    {
+     "id": "bc1eb7c7-ea2b-47e9-ad8c-d76d6884ba8d",
+     "name": "PORK EN CHILE VERDE TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 937
+    },
+    {
+     "id": "35ed3acf-83bd-4ac2-883a-9a91d3315b80",
+     "name": "VEGGIES TOSTADA",
+     "description": "Hard Shell corn tortilla, refried beans, pico, lettuce, queso fresco, crema de avocado dressing.",
+     "price": 937
+    }
+   ]
+  },
+  {
+   "name": "SIDES",
+   "items": [
+    {
+     "id": "61a5230e-3972-4cc1-a483-6f2d1031d9f1",
+     "name": "RICE 12 OZ",
+     "price": 649
+    },
+    {
+     "id": "a89fa398-3002-410a-8dd7-8aaebbe29e75",
+     "name": "BEANS 12 OZ",
+     "price": 649
+    },
+    {
+     "id": "78bd64a4-d459-48d8-ac5a-6ba917e30bc0",
+     "name": "RICE & BEANS 12 OZ",
+     "price": 649
+    },
+    {
+     "id": "a2177df1-b090-4747-9e7d-1b2d0f398d5f",
+     "name": "RICE & REFRIED BEANS 12 OZ",
+     "price": 649
+    },
+    {
+     "id": "9bb4c430-8ea4-4fd2-8d4a-98174d5ab543",
+     "name": "REFRIED BEANS 12 OZ",
+     "price": 649
+    },
+    {
+     "id": "e7653c7a-bb17-4506-9467-16360eb1b75d",
+     "name": "12oz PREMIUM MEAT",
+     "price": 1875
+    },
+    {
+     "id": "68d5dd6b-517b-46e3-994a-0468d392b959",
+     "name": "12oz REG MEAT",
+     "price": 1500
+    },
+    {
+     "id": "451de3eb-db5c-4b61-82f8-dc3577499457",
+     "name": "CHEESE (4oz)",
+     "price": 187
+    },
+    {
+     "id": "ad15cb0a-b4a5-402e-a6ff-37b5c76ec5a1",
+     "name": "CHIPS ONLY",
+     "price": 519
+    },
+    {
+     "id": "025ca7c1-a963-4b33-bc39-3cf8fd331d1b",
+     "name": "CHIPS & GUAC (4oz)",
+     "price": 999
+    },
+    {
+     "id": "56a61fac-613d-4512-b6a0-3de58910d442",
+     "name": "CHIPS & QUESO (4oz)",
+     "price": 999
+    },
+    {
+     "id": "3557cb6a-ddf2-4059-bc38-c9ca63c5d190",
+     "name": "CHIPS & SALSA (4oz)",
+     "price": 844
+    },
+    {
+     "id": "754643ad-65c1-45ac-a43e-f9f9e00167a4",
+     "name": "GUACAMOLE",
+     "price": 260
+    },
+    {
+     "id": "828a2a18-2365-479f-8ec8-b4aead6dfb91",
+     "name": "CHIPOTLE MAYO",
+     "price": 187
+    },
+    {
+     "id": "4a26fbec-0d72-4752-a9ae-b6909bf75497",
+     "name": "SALSA DE CHIPS",
+     "price": 499
+    },
+    {
+     "id": "5f476b5f-7e65-434a-b1db-fc641f11525d",
+     "name": "SOUR CREAM",
+     "price": 195
+    },
+    {
+     "id": "c61f7a0d-85d9-4b60-8774-49108c48ea7b",
+     "name": "QUESO (4oz)",
+     "price": 389
+    },
+    {
+     "id": "50805349-d103-4275-b521-261bd86538ef",
+     "name": "ELOTES",
+     "description": "Corn comes with mayo, cotija cheese, and chili powder.",
+     "price": 779
+    },
+    {
+     "id": "c6058afc-5a42-4b10-9702-c7bdb18a606c",
+     "name": "PICO DE GALLO",
+     "price": 195
+    },
+    {
+     "id": "a3c240fa-ac91-4074-82cc-c66357df25c5",
+     "name": "PICO DE PIÑA",
+     "price": 195
+    },
+    {
+     "id": "a3ae109d-5023-4ea7-bf3b-5de91f3af541",
+     "name": "CHURROS",
+     "price": 779
+    },
+    {
+     "id": "0e5eb0a7-4758-4ad3-8abc-317730e9b600",
+     "name": "MADUROS",
+     "price": 780
+    },
+    {
+     "id": "a18c5f7b-06c6-4895-b63b-3c6703880cf0",
+     "name": "SOFT HANDMADE CORN TORTILLA",
+     "price": 125
+    },
+    {
+     "id": "69f37bf6-6c0c-4dca-92ae-88eba5510fe9",
+     "name": "TAMALES",
+     "description": "Tamales of your choice that come with a side of pico (2oz)",
+     "price": 779
+    }
+   ]
+  },
+  {
+   "name": "KIDS",
+   "items": [
+    {
+     "id": "965413bb-4295-4ca8-948d-c85824f39f27",
+     "name": "CHAVITO BURRITO",
+     "price": 909
+    },
+    {
+     "id": "a0d8c6ee-e26f-4239-ab19-29b5f736dd2a",
+     "name": "RICE & BEANS",
+     "price": 649
+    },
+    {
+     "id": "7b1df5c9-02cd-43e6-91ed-4de02e9a87c6",
+     "name": "CHAVITO QUESADILLA",
+     "price": 909
+    }
+   ]
+  },
+  {
+   "name": "DESSERTS",
+   "items": [
+    {
+     "id": "9a7936af-8ad8-445a-bab1-c570147b4a97",
+     "name": "MEXICAN FLAN",
+     "price": 780
+    },
+    {
+     "id": "47953b6a-8606-4851-ba31-d53afc9ff545",
+     "name": "BISCOFF TRES LECHES CAKE",
+     "price": 780
+    },
+    {
+     "id": "2439394b-1adf-4eff-8a41-26f2afda5111",
+     "name": "PASSION FRUIT MOUSSE",
+     "price": 625
+    }
+   ]
+  },
+  {
+   "name": "DRINKS",
+   "items": [
+    {
+     "id": "6c076a1e-bcaa-462c-b133-adbc3fb841d6",
+     "name": "MEXICAN SODA",
+     "price": 435
+    },
+    {
+     "id": "f9991ae9-29de-4ed0-88cf-a9599025aa6f",
+     "name": "HORCHATA",
+     "price": 550
+    },
+    {
+     "id": "2230e843-3187-431c-b2ca-4889147d4242",
+     "name": "PASSION FRUIT",
+     "price": 550
+    },
+    {
+     "id": "3a48dbbf-de42-4b76-af70-d040f9f54f96",
+     "name": "JAMAICA",
+     "price": 550
+    },
+    {
+     "id": "7a91e3f7-bf0a-4ad6-b196-601059eac85b",
+     "name": "WATER",
+     "price": 250
+    },
+    {
+     "id": "aa7f318e-1df5-47a8-8b9d-f6e8c9735fc8",
+     "name": "CAN SODAS",
+     "price": 250
+    },
+    {
+     "id": "104ff5b0-dcc8-4a50-bbf0-016d1d3f2daf",
+     "name": "MINERAGUA SPARKLING WATER",
+     "price": 435
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1517 @@
+{
+ "restaurant": "sweet-rice-jp",
+ "source": "scraped",
+ "platform": "toast",
+ "sourceUrl": "https://order.toasttab.com/online/sweet-rice-jp",
+ "fetchedAt": "2026-10-05T22:41:43.428Z",
+ "categories": [
+  {
+   "name": "Japanese Hot Appetizers",
+   "items": [
+    {
+     "id": "03391b0e-dc92-4fa9-9a22-1017b6230378",
+     "name": "Edamame",
+     "description": "Steamed fresh soybeans",
+     "price": 600
+    },
+    {
+     "id": "ad6b1009-ac71-4dd8-a4be-799dee07b33c",
+     "name": "Agedashi Tofu",
+     "description": "Fried soft tofu, scallions and dried bonito flakes in a tentsuyu broth",
+     "price": 700
+    },
+    {
+     "id": "394adc11-00c2-487f-a742-af7fddd3566a",
+     "name": "Veggie Dumpling",
+     "description": "Vegetable filling served with ginger sauce",
+     "price": 800
+    },
+    {
+     "id": "b95a550c-f858-4bbe-8ddf-4a765e9892ed",
+     "name": "Pork Dumpling",
+     "description": "Pork and chives fillings served with ginger sauce",
+     "price": 800
+    },
+    {
+     "id": "c465b42c-cab9-40d9-b37a-c972e02478e3",
+     "name": "Shumai",
+     "description": "Minced chicken and shrimp wrapped with wonton wrapper",
+     "price": 800
+    },
+    {
+     "id": "95e01aba-1ecf-44f9-a398-4d9cb4929cb9",
+     "name": "Vegetable Tempura",
+     "description": "Tempura battered fried assorted vegetable served with tempura sauce",
+     "price": 900
+    },
+    {
+     "id": "290864cc-880f-4a14-b46c-df30d2851cd1",
+     "name": "Teriyaki Chicken Wings",
+     "description": "Crispy chicken wings, topped with Teriyaki sauce",
+     "price": 1000
+    },
+    {
+     "id": "289e5fbb-0062-410e-b095-e73601d6cadc",
+     "name": "Shrimp Tempura",
+     "description": "Tempura battered fried shrimp served with tempura sauce",
+     "price": 1100
+    },
+    {
+     "id": "8a819633-7b86-44ae-9488-7566adfb9ad7",
+     "name": "Avocado Fries",
+     "description": "Steamed fresh soybeans",
+     "price": 1000
+    }
+   ]
+  },
+  {
+   "name": "Appetizers From Sushi Bar",
+   "items": [
+    {
+     "id": "802e1020-b7bb-4dbc-bad5-576ee173af28",
+     "name": "Sushi Appetizer",
+     "description": "Chef’s choice of 5 pieces of assorted sushi",
+     "price": 1200
+    },
+    {
+     "id": "beb9e578-d052-4360-846b-a7eb2ec84682",
+     "name": "Sashimi Appetizer",
+     "description": "Chef’s choice of 9 pieces of fresh fish",
+     "price": 1700
+    },
+    {
+     "id": "444f20e1-9ccd-4472-b324-21d421bd18ea",
+     "name": "Naruto Maki",
+     "description": "Crab stick, masago and avocado rolled in paper-thin cucumber with rice vinegar sauce",
+     "price": 1000
+    },
+    {
+     "id": "3fd84af2-61f7-448b-a355-b0562d5fcb76",
+     "name": "Avocado Salad",
+     "description": "Avocado tankatsu special homemade sauce",
+     "price": 1000
+    },
+    {
+     "id": "23bacec2-9d95-4439-acc5-dc3d35f94b40",
+     "name": "Tuna Tataki",
+     "description": "Thinly sliced rare tuna with ponzu sauce",
+     "price": 1200
+    },
+    {
+     "id": "6e81afee-6159-4378-b048-be0ccd71457c",
+     "name": "Spicy Tuna Salad",
+     "description": "Tuna sliced with cucumber, avocado, masago, scallions and kimchi sauce",
+     "price": 1200
+    },
+    {
+     "id": "4e50e251-4780-4c9d-b76d-ac9d6d61c9d8",
+     "name": "Naruto Vegetable",
+     "description": "Mixed vegetable wrapped with paper-thin cucumber slice topped with miso sauce",
+     "price": 1000
+    },
+    {
+     "id": "0bdd4382-d2fb-4924-b838-1ea0e45ce71a",
+     "name": "Torched Salmon Toro",
+     "description": "Torched salmon belly",
+     "price": 1200
+    },
+    {
+     "id": "f38ff0a2-a8e9-473b-bc95-1a7c8ede1861",
+     "name": "Fatty Tuna (Toro) Sushi (3pc)",
+     "description": "Fatty tuna belly",
+     "price": 1500
+    },
+    {
+     "id": "d29acb51-e40c-4dfa-85a8-afe30da651c6",
+     "name": "Fatty Tuna (Toro) Sashimi (3pc)",
+     "description": "Fatty tuna belly",
+     "price": 1500
+    },
+    {
+     "id": "487a18dd-6e18-4c9c-b64c-778d79af59c4",
+     "name": "Hamachi Kama",
+     "price": 1500
+    },
+    {
+     "id": "ffb259f8-41a7-4da4-a91d-056277a824f7",
+     "name": "Salmon Onigiri",
+     "price": 1400
+    },
+    {
+     "id": "a6607d9a-67bb-4bfa-a6df-e914340f391b",
+     "name": "Sweet IKA",
+     "price": 1100
+    },
+    {
+     "id": "b9146baa-36bf-458b-b3e9-bfb780db1e04",
+     "name": "Spicy Salmon Salad",
+     "price": 1200
+    },
+    {
+     "id": "7c00d61c-4591-4964-9f8f-5b801d6fa90a",
+     "name": "Saba Roll",
+     "price": 1500
+    },
+    {
+     "id": "4068c811-d39a-42fe-b814-b449719b2525",
+     "name": "Tuna Pop",
+     "price": 1400
+    },
+    {
+     "id": "5f20807b-e0fb-4156-90d2-dc8e11bcf385",
+     "name": "Tuna Layers",
+     "price": 1600
+    },
+    {
+     "id": "31cbb7d9-24f0-45f0-9d67-5355ac06524c",
+     "name": "Toro HR or Sweet SH or Scallop HR",
+     "price": 900
+    },
+    {
+     "id": "52070949-d2c8-4929-a237-6c17e92d34dc",
+     "name": "Uni HR",
+     "price": 1200
+    }
+   ]
+  },
+  {
+   "name": "Japanese Salads",
+   "items": [
+    {
+     "id": "7342630f-a64b-438c-bad9-56c706dc5fba",
+     "name": "Japanese House Salad",
+     "description": "Fresh vegetables served with ginger dressing",
+     "price": 500
+    },
+    {
+     "id": "494f6fe7-a182-4d20-9d14-ac0c0de0dd6a",
+     "name": "Seaweed Salad",
+     "description": "Cold seaweed salad",
+     "price": 600
+    }
+   ]
+  },
+  {
+   "name": "Japanese Soups",
+   "items": [
+    {
+     "id": "4ee891a1-989a-4943-99a8-f3ca0648b133",
+     "name": "Miso Soup",
+     "description": "Delicate broth with miso, tofu, scallions and seaweed",
+     "price": 500
+    },
+    {
+     "id": "eff1a663-e5ea-4c0c-b4f4-347741e426eb",
+     "name": "Seafood Miso Soup",
+     "description": "Delicate broth with miso, tofu, shrimp, crab stick, scallions and seaweed",
+     "price": 600
+    }
+   ]
+  },
+  {
+   "name": "Makimono Sushi Roll",
+   "items": [
+    {
+     "id": "c3ece4d8-b385-4ffd-aa65-90dda4a6c1de",
+     "name": "Asparagus Roll",
+     "description": "Small fresh asparagus roll",
+     "price": 700
+    },
+    {
+     "id": "330439b3-9f83-4462-b846-1e59f1e2d7c8",
+     "name": "Avocado Roll",
+     "description": "Small fresh avocado roll",
+     "price": 700
+    },
+    {
+     "id": "d4b62563-f14c-4b40-9de2-e3c6353d67dd",
+     "name": "Boston Roll",
+     "description": "Shrimp, avocado, cucumber, lettuce and house mayo sauce",
+     "price": 1100
+    },
+    {
+     "id": "7e549014-d07f-4401-9c66-858764740384",
+     "name": "California Roll",
+     "description": "Crab stick, cucumber, avocado and roe",
+     "price": 900
+    },
+    {
+     "id": "000dceaa-7105-454d-902c-84e1304d83a7",
+     "name": "Cucumber Roll",
+     "description": "Small fresh cucumber roll",
+     "price": 700
+    },
+    {
+     "id": "e6ee8228-6707-4dd6-9ee4-c986d413971a",
+     "name": "J.B. Roll",
+     "description": "Salmon, cream cheese, scallions",
+     "price": 1000
+    },
+    {
+     "id": "ce0c3a17-83cd-4caf-be90-0743771ff2c7",
+     "name": "Philly Roll",
+     "description": "Smoked salmon, cream cheese, avocado",
+     "price": 1100
+    },
+    {
+     "id": "ce4640a4-91ce-46d8-9a64-ee30c1ec43ea",
+     "name": "Salmon & Avocado Roll",
+     "description": "Salmon and avocado in seasoned rice",
+     "price": 900
+    },
+    {
+     "id": "c0b27477-7adf-4f57-b467-24f48b8c4467",
+     "name": "Salmon & Cucumber Roll",
+     "description": "Salmon and cucumber in seasoned rice",
+     "price": 900
+    },
+    {
+     "id": "f7e0b9fc-190b-421c-b0db-3b753112fbf5",
+     "name": "Salmon & Jalapeno Roll",
+     "description": "Salmon and jalapeno in seasoned rice",
+     "price": 900
+    },
+    {
+     "id": "60f5137c-d323-427b-9b3f-683e9dfa5506",
+     "name": "Salmon & Scallion Roll",
+     "description": "Salmon and scallion in seasoned rice",
+     "price": 900
+    },
+    {
+     "id": "f6c5fb8b-10b9-4d93-a9c9-911a2a71b03e",
+     "name": "Salmon Roll",
+     "description": "Salmon in seasoned rice",
+     "price": 800
+    },
+    {
+     "id": "cf41bac0-cc8e-4893-8a98-48999769eb5a",
+     "name": "Salmon Skin Roll",
+     "description": "Smoked salmon skin, cucumber, scallions and eel sauce",
+     "price": 1000
+    },
+    {
+     "id": "ed9bae57-1e75-4977-ada7-87538686abad",
+     "name": "Shrimp Tempura Roll",
+     "description": "Shrimp tempura, avocado, asparagus, roe, scallions with special sauce",
+     "price": 1500
+    },
+    {
+     "id": "32669fa1-6735-4faf-8f5d-ed5e0f29a82a",
+     "name": "Spicy Crab Roll",
+     "description": "Spicy crab (mixed crab stick with spicy mayonnaise, roe, scallions), avocado",
+     "price": 1000
+    },
+    {
+     "id": "8f97b835-73b4-430b-8ab3-c1e04f391503",
+     "name": "Spicy Salmon Roll",
+     "description": "Salmon, scallions and spicy sauce",
+     "price": 1000
+    },
+    {
+     "id": "2f0a17b5-7cac-461e-a1a3-44ac8efea9fb",
+     "name": "Spicy Tuna Roll",
+     "description": "Tuna, scallions and spicy sauce",
+     "price": 1000
+    },
+    {
+     "id": "603cc0d1-7489-4076-961c-0125bad456cb",
+     "name": "Spicy Yellowtail Roll",
+     "description": "Yellowtail, scallions and spicy sauce",
+     "price": 1000
+    },
+    {
+     "id": "d49fa6af-3bc8-4fe3-8d79-e270edc85a02",
+     "name": "Spider Roll",
+     "description": "Soft shell crab, avocado, asparagus, scallions and roe",
+     "price": 1700
+    },
+    {
+     "id": "2a493a71-7b98-4bf6-9975-e10c878da8a4",
+     "name": "Sweet Potato Roll",
+     "description": "Sweet potato tempura roll",
+     "price": 900
+    },
+    {
+     "id": "e439c14e-fe5b-42d5-b9fb-e973b284343c",
+     "name": "Tuna & Avocado Roll",
+     "description": "Tuna and avocado in seasoned rice",
+     "price": 900
+    },
+    {
+     "id": "3ca47108-d017-488d-9516-c47ca7d8f708",
+     "name": "Tuna & Cucumber Roll",
+     "description": "Tuna and cucumber in seasoned rice",
+     "price": 900
+    },
+    {
+     "id": "63fe60c1-0bb5-4020-8afc-82f554cda7c3",
+     "name": "Tuna & Jalapeno Roll",
+     "description": "Tuna and jalapeno in seasoned rice",
+     "price": 900
+    },
+    {
+     "id": "a4e5af65-685f-4163-9992-5e05e9a39914",
+     "name": "Tuna & Scallion Roll",
+     "description": "Tuna and scallion in seasoned rice",
+     "price": 900
+    },
+    {
+     "id": "fe6969e1-1748-4b57-80c8-93737fa9562b",
+     "name": "Tuna Roll",
+     "description": "Tuna in seasoned rice",
+     "price": 800
+    },
+    {
+     "id": "2c1f56a2-d4b3-4092-a72a-402e9058e6c9",
+     "name": "Unagi & Avocado Roll",
+     "description": "Grilled eel, with eel sauce, and avocado",
+     "price": 1000
+    },
+    {
+     "id": "95553c3e-e7c9-4c02-8419-b5c07f082291",
+     "name": "Unagi & Cucumber Roll",
+     "description": "Grilled eel, with eel sauce, and cucumber",
+     "price": 1000
+    },
+    {
+     "id": "67175d3d-3b1c-47b5-93ee-5221b4d789be",
+     "name": "Volcano Roll",
+     "description": "Homemade and baked seafood dynamite on top of a roll (avocado, cream cheese, cucumber)",
+     "price": 1700
+    },
+    {
+     "id": "79fb4dd4-a28a-41a3-bea1-8619c214825b",
+     "name": "Yellowtail & Avocado Roll",
+     "description": "Yellowtail and avocado in seasoned rice",
+     "price": 900
+    },
+    {
+     "id": "76fddf29-0049-4bb9-8549-3069ac697d48",
+     "name": "Yellowtail & Cucumber Roll",
+     "description": "Yellowtail and cucumber in seasoned rice",
+     "price": 900
+    },
+    {
+     "id": "ad723475-44b8-47c6-953f-06cd49838845",
+     "name": "Yellowtail & Jalapeno Roll",
+     "description": "Yellowtail and jalapeno in seasoned rice",
+     "price": 900
+    },
+    {
+     "id": "af37ff01-edd1-47f6-ab7d-16e157d2074c",
+     "name": "Yellowtail & Scallion Roll",
+     "description": "Yellowtail and scallion in seasoned rice",
+     "price": 900
+    },
+    {
+     "id": "e13a09b1-0f35-497d-a55f-d0703a3d4615",
+     "name": "Yellowtail Roll",
+     "description": "Yellowtail in seasoned rice",
+     "price": 800
+    },
+    {
+     "id": "0b1bec08-e96f-49d9-bd3a-94ec457a4c10",
+     "name": "Vegetable Sushi Roll",
+     "price": 1000
+    }
+   ]
+  },
+  {
+   "name": "Signature Maki",
+   "items": [
+    {
+     "id": "91299442-8b48-461a-bf6f-76a72ac53772",
+     "name": "White Dragon Roll",
+     "description": "Shrimp tempura, wasabi tobiko, cream cheese, avocado, scallion spicy sauce, wasabi dressing, eel sauce, tempura crumb",
+     "price": 1700
+    },
+    {
+     "id": "dd54f2db-55a0-46f5-afb9-3052191714fa",
+     "name": "Red Dragon Roll",
+     "description": "Shrimp tempura, avocado, asparagus, and scallions topped with red tuna and spicy mayo",
+     "price": 1900
+    },
+    {
+     "id": "fbece755-d68d-4a0e-807b-f1fcfb0793a9",
+     "name": "Hungry Dragon Roll",
+     "description": "Shrimp tempura, avocado, scallion, eel, tuna, salmon, white tuna served with spicy sauce and eel sauce",
+     "price": 2000
+    },
+    {
+     "id": "282656d7-1783-4d8b-a6ec-0692b9d97df1",
+     "name": "Tuna on Top Roll",
+     "description": "Yellowtail, cream cheese, scallion topped with spicy tuna, slices of jalapeno, wasabi mayo and tempura crumb",
+     "price": 1900
+    },
+    {
+     "id": "ee0e494b-af31-47cd-994f-26fa61de2ca6",
+     "name": "Sushi Bomb Roll",
+     "description": "Yellowtail, salmon, tuna, roe, asparagus, scallions, avocado, cream cheese and tempura roll katsu style with sauce",
+     "price": 1900
+    },
+    {
+     "id": "f3be1f67-0ed7-4426-90c7-db01eaecf5d2",
+     "name": "Maine Roll",
+     "description": "Cooked lobster in spicy mayo with scallion, salmon roe and cucumber on top",
+     "price": 2200
+    },
+    {
+     "id": "ca61a375-283b-4a3e-91a2-bda7346c6c73",
+     "name": "Sweet Rice Roll",
+     "description": "Salmon, crab dynamite, cucumber, tempura flakes topped with avocado, torched tuna, chili powder, eel sauce, and spicy mayo",
+     "price": 2100
+    },
+    {
+     "id": "e1d4f05c-fe52-4233-8c5e-acd56eaa5bb1",
+     "name": "Yellowtail Toro Roll",
+     "description": "Salmon, avocado, and mango topped with torched yellowtail toro and black tobiko",
+     "price": 2200
+    },
+    {
+     "id": "ccda8b55-44e6-45ee-ad65-7eadf8a94cb2",
+     "name": "O Toro Fantasy Roll",
+     "description": "Salmon, avocado, and mango topped with torched fatty tuna belly and black tobiko",
+     "price": 2400
+    }
+   ]
+  },
+  {
+   "name": "Chef's Special Rolls",
+   "items": [
+    {
+     "id": "200ec42e-3ec4-47d0-848d-ba5f16b9e86c",
+     "name": "Rainbow Roll",
+     "description": "Rainbow of fish on top of a California roll",
+     "price": 1600
+    },
+    {
+     "id": "ee8bb88d-76d6-44cb-b364-a2dc17e844ca",
+     "name": "Crunchy Roll",
+     "description": "Salmon, crab, cream cheese, scallions and tempura the roll",
+     "price": 1700
+    },
+    {
+     "id": "2498d7d6-a939-4c77-ab2f-1cc5fe74230f",
+     "name": "Dragon Roll",
+     "description": "Shrimp tempura, avocado, asparagus, roe with avocado, eel, and eel sauce on top",
+     "price": 1800
+    },
+    {
+     "id": "a3225b4c-999f-4190-a218-32211ebd22b2",
+     "name": "Three Company Roll",
+     "description": "Three kinds of fish (tuna, salmon, and yellowtail), cucumber, scallions, asparagus, and roe served with Ponzu sauce",
+     "price": 1700
+    },
+    {
+     "id": "b8745973-6761-4568-aff4-c632c7c043c3",
+     "name": "Michael Go Roll",
+     "description": "Mixed spicy tuna with spicy mayo and flake on top with crab dynamite and tempura flake",
+     "price": 1600
+    },
+    {
+     "id": "0581a123-6399-4b28-bb01-31f5e2c670d6",
+     "name": "Sea of Love Roll",
+     "description": "Spicy tuna, avocado, asparagus, scallions, roe top with tuna tataki, tenkasu (tempura flake)",
+     "price": 1800
+    },
+    {
+     "id": "9d45cece-4738-405c-9fff-7706da837c89",
+     "name": "Sweet Heart Roll",
+     "description": "Spicy tuna, avocado, tempura flake, wrapped with soy paper and top with salmon, red tobiko served with spicy mayo and eel sauce",
+     "price": 1700
+    },
+    {
+     "id": "70b2b43c-977d-47f0-84ab-0c4f1c9574af",
+     "name": "Sponge Bob Roll",
+     "description": "Coconut shrimp, cream cheese, cucumber top with mango and honey mayo sauce",
+     "price": 1900
+    },
+    {
+     "id": "1273a0f2-900b-4dcd-ba2c-16cffc641b97",
+     "name": "Key West Roll",
+     "description": "Shrimp tempura, eel, crab, avocado, scallions topped with red tobiko",
+     "price": 1700
+    },
+    {
+     "id": "9c0f65a9-7336-4143-b453-0fd5eb0c16f8",
+     "name": "Scorpion Roll",
+     "description": "Eel, avocado, cucumber, and shrimp on top with eel sauce",
+     "price": 1800
+    },
+    {
+     "id": "8698bd66-0d4d-4628-8227-ffb079a19240",
+     "name": "Sakura Roll",
+     "description": "Shrimp, crabmeat, avocado topped with torched salmon, with special sauce",
+     "price": 2000
+    }
+   ]
+  },
+  {
+   "name": "Sushi Entree",
+   "items": [
+    {
+     "id": "4e2d1b1b-afeb-48dd-9070-56bfb49f7935",
+     "name": "Vegetable Sushi Plate",
+     "description": "5 pieces of vegetable sushi, cucumber hand roll, vegetable roll",
+     "price": 1800
+    },
+    {
+     "id": "a3a0466f-5034-4c2a-8486-ad4951c861b4",
+     "name": "Hosomaki Combo",
+     "description": "California roll, J.B. roll, Tuna roll",
+     "price": 2200
+    },
+    {
+     "id": "c06419f3-0213-4f0a-bcbc-2629778afe9e",
+     "name": "Sushi Plate",
+     "description": "California roll, 9 pieces of sushi",
+     "price": 2200
+    },
+    {
+     "id": "7b4effc0-885e-4a0c-a25e-9ef83fc27710",
+     "name": "Sashimi Plate",
+     "description": "Chef’s choice of fresh sliced raw fish (12 pieces), served with rice",
+     "price": 2500
+    },
+    {
+     "id": "5c54953d-fd53-41c7-a225-66833128e41d",
+     "name": "Chirashi",
+     "description": "Variety of fish topping arranged on a bed of rice",
+     "price": 2600
+    },
+    {
+     "id": "5ffa3abf-d6a5-49c9-8858-fbb7e5a12e9b",
+     "name": "Hamachi Don",
+     "description": "Yellowtail sashimi over seasoned rice",
+     "price": 2600
+    },
+    {
+     "id": "6538feaf-64cb-4f1d-b41c-95979ae3feb1",
+     "name": "Tekka Don",
+     "description": "Maguro tuna sashimi over seasoned rice",
+     "price": 2600
+    },
+    {
+     "id": "4b28af55-8e30-46da-9c3a-12444f553162",
+     "name": "Sake Don",
+     "description": "Salmon sashimi over seasoned rice",
+     "price": 2400
+    },
+    {
+     "id": "bff65bb7-acde-4ac0-a87f-58cf1b12c33e",
+     "name": "Unagi Don",
+     "description": "Grilled eel over seasoned rice",
+     "price": 2600
+    },
+    {
+     "id": "00d88fd0-bd33-44ce-b513-56e50b168e9f",
+     "name": "Sushi Deluxe",
+     "description": "California roll, 12 pieces of sushi",
+     "price": 2700
+    },
+    {
+     "id": "b6fedb74-faf9-4095-9631-13d8b4630098",
+     "name": "Sashimi Deluxe",
+     "description": "Chef's choice of fresh sliced raw fish (18 pieces), served with rice",
+     "price": 3400
+    },
+    {
+     "id": "342f867e-c009-41bc-878a-09bed181e9c5",
+     "name": "Spicy Combo",
+     "price": 2700
+    },
+    {
+     "id": "cbf6bcd6-e716-4f6c-9b41-4a691e318170",
+     "name": "vegetable Don",
+     "price": 1800
+    }
+   ]
+  },
+  {
+   "name": "Nigiri(2pcs) or Sashimi(2pcs)",
+   "items": [
+    {
+     "id": "f014373a-0aec-4532-9e55-b87cb9374e07",
+     "name": "Crab Stick (Kanikama) Nigiri",
+     "price": 500
+    },
+    {
+     "id": "bd7689ae-2e66-4d25-94ba-ec1a82a99e2b",
+     "name": "Sweet Egg (Tamago) Nigiri",
+     "price": 500
+    },
+    {
+     "id": "784dcc7c-3442-4573-8068-404f10f16667",
+     "name": "Fried Tofu (Inari) Nigiri",
+     "price": 500
+    },
+    {
+     "id": "40f5fa3a-d65b-4fdc-97ad-a88684d92ee4",
+     "name": "Mackerel (Saba) Nigiri",
+     "price": 500
+    },
+    {
+     "id": "8efe7579-1484-467a-a8ae-82bb2dfd22a1",
+     "name": "Squid (Ika) Nigiri",
+     "price": 600
+    },
+    {
+     "id": "ac0fbdbf-1559-47f8-ac88-7946f36b501d",
+     "name": "Shrimp (Ebi) Nigiri",
+     "price": 500
+    },
+    {
+     "id": "869d87e1-cdf3-4227-bd38-a142da1b7d57",
+     "name": "Quail Egg Nigiri",
+     "price": 600
+    },
+    {
+     "id": "5cc38aec-0703-4181-8b2b-13788c3034a8",
+     "name": "White Fish Nigiri",
+     "price": 600
+    },
+    {
+     "id": "b8e68e3c-2d0d-4d58-87bc-a961533a5756",
+     "name": "Octopus (Tako) Nigiri",
+     "price": 600
+    },
+    {
+     "id": "e0b05049-049e-40b7-b6ab-1e93718b4530",
+     "name": "Salmon (Sake) Nigiri",
+     "price": 600
+    },
+    {
+     "id": "0678a732-a399-4481-a413-7b025f514616",
+     "name": "Eel (Unagi) Nigiri",
+     "price": 600
+    },
+    {
+     "id": "432585ee-fee0-441f-bd55-bfaf5bb53b65",
+     "name": "Tuna (Maguro) Nigiri",
+     "price": 600
+    },
+    {
+     "id": "bdcd623d-1ee1-4ff5-8bea-41f86e22558a",
+     "name": "White Tuna Nigiri",
+     "price": 600
+    },
+    {
+     "id": "a0478cf5-bd0b-4bb9-8125-91bc0ffd4609",
+     "name": "Yellowtail (Hamachi) Nigiri",
+     "price": 600
+    },
+    {
+     "id": "4398fdc0-fdaf-4f6a-a61b-c630415d61f0",
+     "name": "Smoked Salmon Nigiri",
+     "price": 600
+    },
+    {
+     "id": "10721eb3-25f0-4e58-9ee1-2c7bb9a74491",
+     "name": "Surf Clam (Hokkigai) Nigiri",
+     "price": 500
+    },
+    {
+     "id": "4c103b81-251d-47f4-a3cf-4f13e4c6a3a2",
+     "name": "Smelt Egg (Masago) Nigiri",
+     "price": 600
+    },
+    {
+     "id": "cf917eef-ba79-4f1f-81aa-65cd5e46444b",
+     "name": "Flying Fish Roe (Tobiko) Nigiri",
+     "price": 700
+    },
+    {
+     "id": "b72b6347-9716-4cdf-be9f-12299796e251",
+     "name": "Scallop (Hotate) Nigiri",
+     "price": 800
+    },
+    {
+     "id": "12abc99e-b377-4ece-b7ff-dbb13f1110e3",
+     "name": "Salmon Roe (Ikura) Nigiri",
+     "price": 800
+    },
+    {
+     "id": "26ef6986-2623-4319-bf3e-5907c8797e2d",
+     "name": "Sweet Shrimp (Amaebi) Nigiri",
+     "price": 1200
+    },
+    {
+     "id": "43dc125f-26f4-429f-b0bf-079a0d2baf3f",
+     "name": "Sea Urchin (Uni) Nigiri",
+     "price": 1200
+    },
+    {
+     "id": "4118161c-f5cd-47a4-b57d-8728d140d75b",
+     "name": "Fatty Tuna(2 pcs)Nigiri",
+     "price": 1000
+    },
+    {
+     "id": "da942641-2446-4c85-a79f-53e1c9f18857",
+     "name": "Crab Stick (Kanikama) Sashimi",
+     "price": 500
+    },
+    {
+     "id": "5b94e89b-ae09-47b1-bba8-9b1e794c9796",
+     "name": "Sweet Egg (Tamago) Sashimi",
+     "price": 500
+    },
+    {
+     "id": "7c0c8dde-db12-422e-b373-19cf33e05d07",
+     "name": "Fried Tofu (Inari) Sashimi",
+     "price": 500
+    },
+    {
+     "id": "d78227e7-3e30-4d55-8eb7-777f202d9f31",
+     "name": "Mackerel (Saba) Sashimi",
+     "price": 500
+    },
+    {
+     "id": "d4266cec-aa96-4bd1-beff-915d3a185cec",
+     "name": "Squid (Ika) Sashimi",
+     "price": 600
+    },
+    {
+     "id": "e8c2f8b4-700b-40b4-aea2-33f1da06f52d",
+     "name": "Shrimp (Ebi) Sashimi",
+     "price": 500
+    },
+    {
+     "id": "471c3fbd-216a-4041-8f48-d369458f8c8d",
+     "name": "Quail Egg Sashimi",
+     "price": 600
+    },
+    {
+     "id": "6d3bf682-e530-473b-80db-6fb667728d72",
+     "name": "White Fish Sashimi",
+     "price": 600
+    },
+    {
+     "id": "29dfd1d0-9d27-4203-a9db-25b0a8726630",
+     "name": "Octopus (Tako) Sashimi",
+     "price": 600
+    },
+    {
+     "id": "db5eaa8e-6d39-4848-bcd3-2b5b1f1fa42e",
+     "name": "Salmon (Sake) Sashimi",
+     "price": 600
+    },
+    {
+     "id": "d2b7a006-8956-4f6d-bad2-a68eb469c63c",
+     "name": "Eel (Unagi) Sashimi",
+     "price": 600
+    },
+    {
+     "id": "decc967c-7561-4004-a244-d1bc56fd1bbf",
+     "name": "Tuna (Maguro) Sashimi",
+     "price": 600
+    },
+    {
+     "id": "f9cec2b9-2a5c-4642-9899-630b01508b5b",
+     "name": "White Tuna Sashimi",
+     "price": 600
+    },
+    {
+     "id": "abc75c47-d10d-4060-b61a-d11685ebde4f",
+     "name": "Yellowtail (Hamachi) Sashimi",
+     "price": 600
+    },
+    {
+     "id": "ac349acb-bcdc-4557-bf96-f095e90a7b2e",
+     "name": "Smoked Salmon Sashimi",
+     "price": 600
+    },
+    {
+     "id": "56474267-0830-435e-b160-d6304031de02",
+     "name": "Surf Clam (Hokkigai) Sashimi",
+     "price": 600
+    },
+    {
+     "id": "845d3f6a-39b1-40a8-86ac-43682d9cbe13",
+     "name": "Smelt Egg (Masago) Sashimi",
+     "price": 600
+    },
+    {
+     "id": "4c996d73-e0b7-4eb0-90a5-a7090fe7d9a4",
+     "name": "Flying Fish Roe (Tobiko) Sashimi",
+     "price": 700
+    },
+    {
+     "id": "9a0cbe0d-289f-4359-b4f1-472a84688505",
+     "name": "Scallop (Hotate) Sashimi",
+     "price": 800
+    },
+    {
+     "id": "c06e426e-1724-4b74-9e9d-f361f0e9fdbd",
+     "name": "Salmon Roe (Ikura) Sashimi",
+     "price": 800
+    },
+    {
+     "id": "f8244d34-4036-478f-a42e-4b72d7f258f2",
+     "name": "Sweet Shrimp (Amaebi) Sashimi",
+     "price": 1200
+    },
+    {
+     "id": "40e5d8bc-4b3e-490d-91e9-8a43d748e812",
+     "name": "Sea Urchin (Uni) Sashimi",
+     "price": 1200
+    },
+    {
+     "id": "6fef6805-c3e8-4640-a15b-cda739645c13",
+     "name": "Fatty Tuna (O Toro) Sashimi (2pcs)",
+     "price": 1000
+    }
+   ]
+  },
+  {
+   "name": "Cone Shaped Hand Roll",
+   "items": [
+    {
+     "id": "a09adcc6-94a8-495a-8aab-be037223f4e3",
+     "name": "Avocado Hand Roll",
+     "price": 600
+    },
+    {
+     "id": "229c1416-171f-40b1-84fb-f39fd3edcef2",
+     "name": "Cucumber Hand Roll",
+     "price": 600
+    },
+    {
+     "id": "9cbe8f48-0309-4b98-bf94-1e4739e6c0bf",
+     "name": "Asparagus Hand Roll",
+     "price": 600
+    },
+    {
+     "id": "97f40c31-81d0-44f7-bc3a-69a99d97b4f1",
+     "name": "Vegetable Hand Roll",
+     "price": 600
+    },
+    {
+     "id": "037d66d7-d084-468b-8403-2f3d76d1112d",
+     "name": "Tuna Hand Roll",
+     "price": 600
+    },
+    {
+     "id": "dfcfe125-7581-4c3a-8fb4-85b89f468f52",
+     "name": "California Hand Roll",
+     "price": 700
+    },
+    {
+     "id": "43d74ca8-fcb8-4112-bc05-6a9a2f9a4b44",
+     "name": "Salmon Skin Hand Roll",
+     "price": 800
+    },
+    {
+     "id": "02cdac35-71d3-4a3d-b214-327955df6b42",
+     "name": "Salmon Avocado Hand Roll",
+     "price": 800
+    },
+    {
+     "id": "400dd709-a614-441e-8d99-a90d2b97dbc0",
+     "name": "Eel Hand Roll",
+     "price": 800
+    },
+    {
+     "id": "c4542aae-7515-4111-a593-1bc834ef1645",
+     "name": "Spider Hand Roll (2 pcs)",
+     "price": 1600
+    },
+    {
+     "id": "a1ae58bb-3407-4898-ac24-0c2b89db99f2",
+     "name": "Shrimp Tempura Hand Roll",
+     "price": 800
+    },
+    {
+     "id": "3299e72d-4d85-419d-8185-e95482f59e92",
+     "name": "Spicy Tuna Hand Roll",
+     "price": 800
+    },
+    {
+     "id": "7b4ea6d0-40a0-46cc-aaf1-4cfc955e53e1",
+     "name": "Salmon Hand Roll",
+     "price": 600
+    },
+    {
+     "id": "6d4298ec-200d-42bb-ad97-b3617b92908b",
+     "name": "Saba Cucumber HR",
+     "price": 800
+    }
+   ]
+  },
+  {
+   "name": "Party Boats",
+   "items": [
+    {
+     "id": "888e0d15-63aa-45f6-b3df-60fbad1c1467",
+     "name": "Boat A (for 2)",
+     "description": "Californai roll, J.B. Roll, 9 pieces of sushi, 10 pieces of sashimi",
+     "price": 6500
+    },
+    {
+     "id": "f754198f-3264-4110-834b-577fc8ba76f1",
+     "name": "Boat B (for 2-3)",
+     "description": "Californai roll, J.B. Roll, 12 pieces of sushi, 16 pieces of sashimi",
+     "price": 7500
+    },
+    {
+     "id": "b554f0ff-ca74-4357-95a1-3c1cf7e9b4e3",
+     "name": "Boat C (for 3-4)",
+     "description": "Californai roll, J.B. Roll, Naruto Maki roll, Spicy tuna roll, 18 pieces of sushi, 24 pieces of sashimi",
+     "price": 10500
+    },
+    {
+     "id": "ebb36fb4-8fe4-4b4a-ae20-5af0a5508f5f",
+     "name": "Boat D (for 4-5)",
+     "description": "Californai roll, J.B. Roll, Naruto Maki roll, Spicy tuna roll, Dragon roll, 24 pieces of sushi, 28 pieces of sashimi",
+     "price": 12500
+    }
+   ]
+  },
+  {
+   "name": "Teriyaki",
+   "items": [
+    {
+     "id": "5fb29e8b-f3be-40ce-a45e-f48f9e379d86",
+     "name": "Chicken Teriyaki",
+     "price": 1800
+    },
+    {
+     "id": "97f11f31-e417-4579-a205-d635fab4f455",
+     "name": "Beef Teriyaki",
+     "price": 2200
+    },
+    {
+     "id": "b436f398-f456-4150-bd30-5ecf0cde66ba",
+     "name": "Salmon Teriyaki",
+     "price": 2300
+    }
+   ]
+  },
+  {
+   "name": "Thai Appetizers",
+   "items": [
+    {
+     "id": "dc95fe4d-9961-4025-a358-c6e2b87d38be",
+     "name": "Vegetable Spring Rolls",
+     "description": "Crispy spring rolls with vegetable fillings",
+     "price": 700
+    },
+    {
+     "id": "f9329e42-a179-4346-9428-65c2835bc010",
+     "name": "Fried Tofu",
+     "description": "Served with sweet & sour sauce top with ground peanuts",
+     "price": 700
+    },
+    {
+     "id": "0e40d510-74ec-478d-9dcc-f90397038837",
+     "name": "Thai Pancake",
+     "description": "Rice flour stuffed with scallions served with ginger sauce",
+     "price": 800
+    },
+    {
+     "id": "e794ab6e-f406-40d7-a3bd-94b3d8f3cebc",
+     "name": "Berry Crab Rangoon",
+     "description": "Cream cheese, crabmeat, cranberry, blueberry",
+     "price": 800
+    },
+    {
+     "id": "8bde6f7e-0383-4b14-b915-31351029b359",
+     "name": "Thai Chicken Wings",
+     "description": "Crispy wings, served with Thai sweet chili sauce",
+     "price": 900
+    },
+    {
+     "id": "fc43675e-7aa2-47a5-a865-09b17d18d2db",
+     "name": "Crispy Brussel Sprouts",
+     "description": "Served with special soy sauce and fried garlic",
+     "price": 800
+    },
+    {
+     "id": "fbeeb161-0767-429a-94f3-ffe5e6f14fff",
+     "name": "Chicken Satay",
+     "description": "Grilled chicken on skewers, served with peanut sauce",
+     "price": 900
+    },
+    {
+     "id": "1ce1dd92-115c-43d7-8b95-86f2e9a3ff98",
+     "name": "Avocado Fresh Rolls",
+     "description": "Fresh rolls with avocado and mixed vegetable filling",
+     "price": 900
+    },
+    {
+     "id": "75b114dd-b089-4f0d-ae4d-0195e73d9cc7",
+     "name": "Spicy Fried Calamari",
+     "description": "Fried calamari, special spices and Serrano pepper",
+     "price": 1100
+    }
+   ]
+  },
+  {
+   "name": "Thai Salads",
+   "items": [
+    {
+     "id": "3908c15e-a17f-48bf-a62e-a2ebba97f197",
+     "name": "Thai Garden Salad",
+     "description": "Fresh vegetables, crispy tofu, served with peanut sauce dressing",
+     "price": 700
+    },
+    {
+     "id": "adc2e3cf-61b0-446b-ad14-620c50beeb0d",
+     "name": "Papaya Salad **",
+     "description": "Green papaya, carrot, garlic, grape tomatoes, green beans, shrimp, roasted peanuts in palm sugar lime dressing",
+     "price": 1100
+    },
+    {
+     "id": "0d3f4c4a-3863-4a22-abe5-ecd78937c819",
+     "name": "Grilled Shrimp Mango Salad **",
+     "description": "Grilled shrimp, red onion, crispy shallot, cilantro, scallion, and roasted peanut in spicy mango lime salad",
+     "price": 1600
+    }
+   ]
+  },
+  {
+   "name": "Thai Soups",
+   "items": [
+    {
+     "id": "697b4154-728e-495a-bea3-74f4f35c6a01",
+     "name": "Tom Yum *",
+     "description": "The famous Thai hot & sour soup with chicken or shrimp, chopped tomato, red onion, lemongrass, lime leafs, mushrooms and scallion",
+     "price": 700
+    },
+    {
+     "id": "0aced960-d932-4ae8-93d6-1a83b5930159",
+     "name": "Tom Kha Gai",
+     "description": "Delicious chicken soup with coconut milk, lemongrass, galangal, lime juice, mushrooms and scallions",
+     "price": 700
+    }
+   ]
+  },
+  {
+   "name": "Chicken Offerings",
+   "items": [
+    {
+     "id": "1d7db236-72b7-4f5d-bce9-de25cf85b10d",
+     "name": "Chicken Eggplant Delight DN",
+     "description": "Sautéed chopped chicken with eggplant, red peppers and basil",
+     "price": 1800
+    },
+    {
+     "id": "91c562f6-cd21-4d72-a4a5-0608ed45a1ea",
+     "name": "Spicy Chicken DN **",
+     "description": "Sautéed chicken with celery, pineapple chunks, water chestnuts, carrots, scallions, cashew nuts, and chili paste",
+     "price": 1800
+    },
+    {
+     "id": "52433527-c322-475a-85fb-cf40068138f3",
+     "name": "Siam Garden DN",
+     "description": "Sautéed marinated chicken in light curry powder, top with peanut sauce, served on bed of steamed broccoli and carrots",
+     "price": 1800
+    },
+    {
+     "id": "c5f095de-b96a-485d-941a-ae69dd561e2e",
+     "name": "Thunder Chicken DN **",
+     "description": "Sautéed chicken, bell peppers, carrots, snow peas, onions, and basil in Thai chili sauce",
+     "price": 1800
+    },
+    {
+     "id": "75c4cb4f-989c-48b8-a324-ae68fa0c7c3b",
+     "name": "Chicken Typhoon DN **",
+     "description": "Sautéed chicken with bamboo shoots, minced hot peppers, garlic, baby corn, mushrooms, string beans, bell peppers, and basil",
+     "price": 1800
+    }
+   ]
+  },
+  {
+   "name": "Beef Offerings",
+   "items": [
+    {
+     "id": "7a4ffc8b-4c57-42c9-b0af-3da26727b5f5",
+     "name": "Beef Typhoon DN **",
+     "description": "Sautéed beef with bamboo shoots, minced hot peppers, garlic, baby corn, mushrooms, string beans, red peppers and basil",
+     "price": 2200
+    },
+    {
+     "id": "a3501c80-6b60-47a0-8e71-c2f9b07e2a22",
+     "name": "Sizzling Beef DN",
+     "description": "Sautéed beef with mushrooms, scallions and oyster flavor sauce",
+     "price": 2200
+    },
+    {
+     "id": "ecac9205-f0e5-4ded-90ff-38ce69107bc5",
+     "name": "Thai Spicy Beef Salad DN **",
+     "description": "Grilled steak with spicy lime dressing, shallot, cilantro, scallion, mint, toasted rice",
+     "price": 2200
+    }
+   ]
+  },
+  {
+   "name": "Duck Offerings",
+   "items": [
+    {
+     "id": "586bb1cc-f3a2-4b0c-8489-03c3ab5a8cf5",
+     "name": "Tamarind Duck DN",
+     "description": "Sautéed duck with onions, tomatoes, ginger, red peppers, carrots, pineapple chunks, celery, snow peas, scallions in tamarind sauce",
+     "price": 3200
+    },
+    {
+     "id": "482477bb-bff0-476e-a0d1-bd9b3589cd78",
+     "name": "Basil Duck DN **",
+     "description": "Crispy sliced duck sautéed with Thai chili sauce, red peppers, snow peas, mushrooms, topped with crispy basil",
+     "price": 3200
+    },
+    {
+     "id": "1fd3b2bc-090d-4964-9f64-aef77abf9955",
+     "name": "Crispy Duck DN",
+     "description": "Crispy half duck served with Thai chili sauce and sautéed vegetables",
+     "price": 3200
+    },
+    {
+     "id": "a9b29953-0c9d-4adb-b64c-fac5f6a851bc",
+     "name": "Duck Peanut Sauce DN *",
+     "description": "Crispy half duck topped with delicious Thai peanut sauce and red curry, snow peas, red peppers, carrots, and pineapple chunks",
+     "price": 3200
+    }
+   ]
+  },
+  {
+   "name": "Seafood Offerings",
+   "items": [
+    {
+     "id": "9e59338d-e0b5-47ad-83fe-81d6b0ba39d7",
+     "name": "Spicy Shrimp DN **",
+     "description": "Sautéed shrimps with celery, water chestnuts, carrots, pineapple chunks, cashew nuts, scallions, and chili paste",
+     "price": 2200
+    },
+    {
+     "id": "d70e37b0-ae47-496e-9a39-938da515b625",
+     "name": "Spicy Scallops DN **",
+     "description": "Sautéed scallops with celery, water chestnuts, carrots, pineapple chunks, cashew nuts, scallions, and chili paste",
+     "price": 2200
+    },
+    {
+     "id": "821bf0f7-dc8b-413e-adfa-3b56212811ec",
+     "name": "Seafood w/Pic Pao Sauce DN **",
+     "description": "Sautéed shrimps, scallops, mussels and squid with red peppers, baby corn, mushrooms, string beans, snow peas, bamboo shoots, basil and chili paste",
+     "price": 2200
+    },
+    {
+     "id": "2fe6d376-482d-4654-9b91-02403f5c2431",
+     "name": "Garlic Shrimp DN",
+     "description": "Sautéed shrimp in shrimp paste with minced garlic and white peppers, served on bed of fresh lettuce, broccoli, and carrots",
+     "price": 2200
+    },
+    {
+     "id": "97eda82c-f46e-4a2a-a10c-9fe50aa9c443",
+     "name": "Garlic Soft Shell Crab DN",
+     "description": "Sautéed soft shell crab in shrimp paste with minced garlic and white peppers, served on bed of fresh lettuce, broccoli, and carrots",
+     "price": 2200
+    },
+    {
+     "id": "32eeb46d-59cd-4ab0-8d49-f58f3a6a8c08",
+     "name": "Salmon Choo Chee DN **",
+     "description": "Grilled Salmon topped with snow peas, bamboo shoots, baby corn, pineapple chunks, red peppers, and basil in spicy coconut milk and choo chee curry",
+     "price": 2300
+    },
+    {
+     "id": "4d15f5ac-5d13-45c9-aadd-7719fbdb24d6",
+     "name": "Garlic Salmon DN",
+     "description": "Grill marinated Salmon topped with sautéed mix vegetables",
+     "price": 2300
+    }
+   ]
+  },
+  {
+   "name": "Chef's Suggestions",
+   "items": [
+    {
+     "id": "3d92cef7-8f47-4d81-9852-ff0641cbc207",
+     "name": "Lemongrass Chicken DN",
+     "description": "Sautéed chicken with lemongrass, baby corn, snow peas, carrots, onions, bell peppers, mushrooms, basil, and crushed rice powder",
+     "price": 1800
+    },
+    {
+     "id": "a226f73e-1a04-48c7-a011-fae1260eba58",
+     "name": "Crispy Chicken Basil DN **",
+     "description": "Crispy chicken with minced hot peppers, onions, bell peppers, garlic, and basil",
+     "price": 2000
+    },
+    {
+     "id": "5895b3ec-beb9-4fd9-96b7-24cec8908922",
+     "name": "Pad Paradise DN **",
+     "description": "Sautéed beef, chicken & shrimps with cashew nuts, red peppers, carrots, basil, snow peas, pineapple chunks and Thai chili paste",
+     "price": 2200
+    },
+    {
+     "id": "87aa686f-4d16-41c5-ad08-7b47a3e132ee",
+     "name": "Crispy Duck Mango Curry DN **",
+     "description": "Crispy duck, fresh mango, red peppers, snow peas, and basil in spicy coconut milk curry",
+     "price": 3200
+    }
+   ]
+  },
+  {
+   "name": "Noodles",
+   "items": [
+    {
+     "id": "9e46e816-49a0-4cac-ac79-416a4425ae82",
+     "name": "Noodles Kua Gai DN",
+     "description": "Stir-fried flat rice noodles with chopped chicken, egg, scallions, bean sprouts, ground peanuts, and preserved cabbage on fresh lettuce",
+     "price": 1700
+    },
+    {
+     "id": "c1eaea98-7a54-47e6-8235-7045cbe4b2e9",
+     "name": "Seafood Noodles DN **",
+     "description": "Stir-fried flat rice noodles with seafood, minced hot pepper, garlic, basil, red pepper, snow peas, carrots, and onions",
+     "price": 2000
+    },
+    {
+     "id": "d6df51e8-23ca-4b6f-a081-3bf6d13c652d",
+     "name": "Chicken Noodle Soup DN",
+     "description": "Thai style rice noodle soup with chicken, bean sprouts, fried garlic, cilantro, and scallions",
+     "price": 1700
+    },
+    {
+     "id": "8e3ee91d-a88e-4a95-86bf-d3ffe62af0ae",
+     "name": "Beef Noodle Soup DN",
+     "description": "Thai style rice noodle soup with beef, bean sprouts, fried garlic, cilantro, and scallions",
+     "price": 1700
+    },
+    {
+     "id": "d095f9e7-38ed-4f4f-8457-f27ea6afde6d",
+     "name": "Tropical Noodle (Lo Mein) DN",
+     "description": "Chicken, carrot, red pepper, snow pea, celery, baby corn, pineapple, bean sprouts, egg noodle",
+     "price": 1700
+    },
+    {
+     "id": "d63d6711-fe5d-421d-ae38-81f19816c075",
+     "name": "Duck Noodle Soup DN",
+     "description": "Thai style rice noodle soup with sliced boneless roasted duck, bean sprouts, fried garlic, cilantro, and scallions",
+     "price": 2100
+    },
+    {
+     "id": "e982d75a-86d6-41ce-b434-78a37b0f9d5d",
+     "name": "Kao Soi Noodle",
+     "description": "Beef, red onion, Chinese broccoli, bean sprouts, lime, cilantro, egg noodle in curry sauce",
+     "price": 1900
+    }
+   ]
+  },
+  {
+   "name": "Veggie Corner",
+   "items": [
+    {
+     "id": "92a84736-fa12-422c-821c-e52f33e51227",
+     "name": "Vegetable Basil DN **",
+     "description": "Sautéed assorted fresh vegetables with minced hot pepper, garlic, and basil",
+     "price": 1800
+    },
+    {
+     "id": "74fc5b76-685a-4e7d-a041-92c260f8f86b",
+     "name": "Sweet & Sour Vegetables DN",
+     "description": "Sautéed assorted fresh vegetables with sweet & sour sauce",
+     "price": 1800
+    },
+    {
+     "id": "af9ed188-92d7-4d51-9a7d-261a9b319a39",
+     "name": "Rama Garden DN",
+     "description": "Steamed assorted fresh vegetables, served with side of peanut sauce",
+     "price": 1800
+    },
+    {
+     "id": "d66ce9ee-722a-4958-93ea-1555372a37b7",
+     "name": "Vegetable Eggplant Delight DN",
+     "description": "Sautéed eggplant with bell peppers, salted soybean, and basil",
+     "price": 1800
+    },
+    {
+     "id": "271d7f84-8d53-4eb3-94bb-8674a0deee52",
+     "name": "Tofu w/Vegetables DN",
+     "description": "Sautéed tofu with celery, mushrooms, carrots, water chestnuts, snow peas, baby corn, scallions, and cashew nuts",
+     "price": 1800
+    },
+    {
+     "id": "7e23c817-4eb9-42ad-a0d9-f24c433ed240",
+     "name": "Tofu Avocado Curry DN **",
+     "description": "Tofu, avocado, and mixed vegetable curry with coconut milk",
+     "price": 2000
+    }
+   ]
+  },
+  {
+   "name": "Fried Rice",
+   "items": [
+    {
+     "id": "bfd0accc-c079-4f81-a058-b0f86d4d8415",
+     "name": "Siam Fried Rice DN",
+     "description": "Stir-fried chicken and shrimp, broccoli, onions, tomatoes and egg",
+     "price": 1600
+    },
+    {
+     "id": "3b021baa-adee-4fe8-b239-4ea3d2de791c",
+     "name": "Chicken Basil Fried Rice DN **",
+     "description": "Stir-fried chopped chicken with minced hot peppers, garlic, basil, red peppers, snow peas, carrots and onions",
+     "price": 1600
+    },
+    {
+     "id": "f3431832-8e62-4262-ac46-607e2ddbe809",
+     "name": "Pineapple Fried Rice DN",
+     "description": "Stir-fried with chicken and shrimp, onions, snow peas, red peppers, pineapple chunks, carrots, raisins, egg and curry powder",
+     "price": 1800
+    },
+    {
+     "id": "ee2ae117-eec2-4618-a7a0-c84a120fb82b",
+     "name": "Vegetable Fried Rice DN",
+     "description": "Stir-fried rice with mixed vegetables and egg",
+     "price": 1600
+    },
+    {
+     "id": "12449446-8896-4df2-88f0-e8d151445fbf",
+     "name": "Mango Fried Rice DN",
+     "description": "Stir-fried with chicken and shrimp, onions, snow peas, red peppers, mango chunks, carrots, and egg",
+     "price": 1800
+    },
+    {
+     "id": "85bff09d-d8ed-4348-9339-f6bbf1744289",
+     "name": "Crispy Chicken Fried Rice DN",
+     "description": "Stir-fried rice with broccoli, onions, tomatoes, egg, and crispy chicken",
+     "price": 1900
+    },
+    {
+     "id": "368dbe63-bef6-4d98-9928-2c3896b13543",
+     "name": "Duck & Bacon Fried Rice DN",
+     "description": "Stir-fried rice with duck, bacon, carrots, onions, ginger, scallions and red peppers",
+     "price": 2200
+    }
+   ]
+  },
+  {
+   "name": "Side Order",
+   "items": [
+    {
+     "id": "11831c1b-013e-4eec-aafc-90c417f785e3",
+     "name": "Steamed White Rice",
+     "price": 200
+    },
+    {
+     "id": "9f03ec1a-af42-4cec-ab41-06bfee95d8e4",
+     "name": "Steamed Brown Rice",
+     "price": 300
+    },
+    {
+     "id": "e581b523-0c51-49b0-9d88-48f4a8e67ca5",
+     "name": "Steamed Rice Noodle",
+     "price": 300
+    },
+    {
+     "id": "c02216c1-95c8-4748-a933-64b73107f6f2",
+     "name": "Sticky Rice",
+     "price": 300
+    },
+    {
+     "id": "760a2055-e705-49dd-ab8a-ab03bf9806fd",
+     "name": "Steamed Vegetables",
+     "price": 450
+    },
+    {
+     "id": "b53cb1ce-08b5-45af-a58a-4bc22f266f48",
+     "name": "Steam Broccoli",
+     "price": 450
+    },
+    {
+     "id": "fe781109-3188-49dd-acd4-99426ea0126c",
+     "name": "Peanut Sauce",
+     "price": 150
+    },
+    {
+     "id": "b16eb605-ed54-4a63-ab93-52cb302a7069",
+     "name": "Ginger Sauce",
+     "price": 150
+    },
+    {
+     "id": "8de41f27-dd19-431f-a51c-0cc0a069de32",
+     "name": "Sweet & Sour Sauce",
+     "price": 150
+    },
+    {
+     "id": "35e84af0-b5eb-44ab-b98d-b64e166c8edf",
+     "name": "Crispy Chicken",
+     "price": 600
+    }
+   ]
+  },
+  {
+   "name": "Desserts",
+   "items": [
+    {
+     "id": "c6a27396-0796-41e6-b2f7-009e47347352",
+     "name": "Mochi Ice Cream",
+     "price": 700
+    },
+    {
+     "id": "30ec9a79-024c-4682-a163-afea88abe1d6",
+     "name": "Fried Ice Cream",
+     "price": 800
+    },
+    {
+     "id": "cd70d484-33fe-4562-9950-8f2c19406440",
+     "name": "Sweet Sticky Rice with Mango",
+     "price": 900
+    }
+   ]
+  },
+  {
+   "name": "Beverages",
+   "items": [
+    {
+     "id": "0dfae387-ebc1-4fa7-a4d9-5a7958e13a48",
+     "name": "Thai Iced Tea",
+     "price": 500
+    },
+    {
+     "id": "63a54cd9-eace-473d-8d88-86a82614bd82",
+     "name": "Thai Iced Coffee",
+     "price": 500
+    },
+    {
+     "id": "5d03c960-6d3e-432f-a33a-b70c3accd4fe",
+     "name": "Cranberry Juice",
+     "price": 300
+    },
+    {
+     "id": "e2509425-ec5e-4b46-a363-69006cb51565",
+     "name": "Orange Juice",
+     "price": 300
+    },
+    {
+     "id": "14241288-e3fb-4d3a-ac6d-293e04e2ec92",
+     "name": "Sparkling Water",
+     "price": 400
+    },
+    {
+     "id": "58c2f768-9622-4a62-8720-2b31a71111d8",
+     "name": "Bottled Water",
+     "price": 200
+    },
+    {
+     "id": "181de1d7-ba18-4ff2-907d-c42c3fe85188",
+     "name": "Soda",
+     "price": 200
+    },
+    {
+     "id": "3c9c63c8-f9c8-4601-8efe-e1e60114af36",
+     "name": "Lemonade",
+     "price": 400
+    },
+    {
+     "id": "554fca72-7578-4c02-8ee2-830a9899a4be",
+     "name": "Lemonade ice Tea",
+     "price": 500
+    },
+    {
+     "id": "3cb3d3ff-7f97-40bc-a2aa-05761fa0ba9c",
+     "name": "apple juice",
+     "price": 400
+    }
+   ]
+  }
+ ]
+}

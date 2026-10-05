@@ -1,0 +1,309 @@
+{
+ "restaurant": "gangnam-spice",
+ "source": "scraped",
+ "platform": "toast",
+ "sourceUrl": "https://order.toasttab.com/online/gangnam-spice-jackson-square",
+ "fetchedAt": "2026-10-05T22:35:24.661Z",
+ "categories": [
+  {
+   "name": "Sandwiches",
+   "items": [
+    {
+     "id": "5982d12b-df05-41bb-9cd7-a4f33a47411c",
+     "name": "Sandwich - Basak! Basak! (바삭바삭 샌드위치)",
+     "description": "Extra crispy fried chicken that strikes the perfect balance of juicy and tender inside and crispy outside. * Upgrade to meal for Waffle Fries, Crème-Mayo, and a can of soda. حلال Halal",
+     "price": 900
+    },
+    {
+     "id": "2576a035-cfde-4974-b067-94903237a482",
+     "name": "Sandwich - Gangnam Spice (강남스파이스 샌드위치)",
+     "description": "Stir-fried with our original Gangnam Spice sauce famous for deep, rich umami of mouthwatering Korean barbecue flavor. * Upgrade to meal for Waffle Fries, Crème-Mayo, and a can of soda. حلال Halal",
+     "price": 1000
+    },
+    {
+     "id": "9e31aafd-2679-4ebc-a2d9-defc167ac2da",
+     "name": "Sandwich - Fire Bird (불닭? 샌드위치)",
+     "description": "Stir-fried with our secret spicy Fire Bird sauce made with Korean gochujang base and our secret recipe to add a hint of tangy spiciness. * Upgrade to meal for Waffle Fries, Crème-Mayo, and a can of soda. حلال Halal",
+     "price": 1000
+    }
+   ]
+  },
+  {
+   "name": "Tenders",
+   "items": [
+    {
+     "id": "6a13e901-f081-4351-ba68-7d8a8b15f5cb",
+     "name": "Tenders - Basak! Basak! (바삭바삭 치킨텐더)",
+     "description": "Extra crispy fried chicken that strikes the perfect balance of juicy and tender inside and crispy outside. Served with a side of 3oz Korean pickled radish and a Gochu-mayo dip. * Upgrade to meal for Waffle Fries and a can of soda. حلال Halal",
+     "price": 950
+    },
+    {
+     "id": "c9d31578-23c9-476d-9449-779de4daf494",
+     "name": "Tenders - Gangnam Spice (강남스파이스 치킨텐더)",
+     "description": "Stir-fried with our original Gangnam Spice sauce famous for deep, rich umami of mouthwatering Korean barbecue flavor. Served with a side of 3oz Korean pickled radish and a Gochu-mayo dip. * Upgrade to meal for Waffle Fries and a can of soda. حلال Halal",
+     "price": 1000
+    },
+    {
+     "id": "6677a004-2a8f-4df5-ad1e-a451c1e57e11",
+     "name": "Tenders - Fire Bird (불닭? 치킨텐더)",
+     "description": "Stir-fried with our secret spicy Fire Bird sauce made with Korean gochujang base and our secret recipe to add a hint of tangy spiciness. Served with a side of 3oz Korean pickled radish and a Gochu-mayo dip. * Upgrade to meal for Waffle Fries and a can of soda. حلال Halal",
+     "price": 1000
+    },
+    {
+     "id": "b60aed3a-4076-41fc-8db8-465309655ad6",
+     "name": "Tenders - Half-Half Flavors (반반맛)",
+     "description": "Can't decide which flavor to choose? Why not try both? Served with a side of 3oz Korean pickled radish and a Gochu-mayo dip. * Upgrade to meal for Waffle Fries and a can of soda. حلال Halal",
+     "price": 1300
+    }
+   ]
+  },
+  {
+   "name": "Wings",
+   "items": [
+    {
+     "id": "a8aefdb0-78a3-4361-9a6a-f81ecf97c4f5",
+     "name": "Wings - Basak! Basak! (바삭바삭 치킨윙)",
+     "description": "Extra crispy fried chicken that strikes the perfect balance of juicy and tender inside and crispy outside. Served with a side of 3oz Korean pickled radish and a Gochu-mayo dip. * Upgrade to meal for Waffle Fries and a can of soda. حلال Halal",
+     "price": 950
+    },
+    {
+     "id": "9ab29297-eb7d-490b-886d-c05c94ee1fa6",
+     "name": "Wings - Gangnam Spice (강남스파이스 치킨윙)",
+     "description": "Stir-fried with our original Gangnam Spice sauce famous for deep, rich umami of mouthwatering Korean barbecue flavor. Served with a side of 3oz Korean pickled radish and a Gochu-mayo dip. * Upgrade to meal for Waffle Fries and a can of soda. حلال Halal",
+     "price": 1000
+    },
+    {
+     "id": "9f7df4e2-148e-4787-8e8a-6ea06874699b",
+     "name": "Wings - Fire Bird (불닭? 치킨윙)",
+     "description": "Stir-fried with our secret spicy Fire Bird sauce made with Korean gochujang base and our secret recipe to add a hint of tangy spiciness. Served with a side of 3oz Korean pickled radish and a Gochu-mayo dip. * Upgrade to meal for Waffle Fries and a can of soda. حلال Halal",
+     "price": 1000
+    },
+    {
+     "id": "ba84abde-4b62-49f1-9cbd-70e0d42b7b52",
+     "name": "Wings - Half-Half Flavors (반반맛)",
+     "description": "Can't decide which flavor to choose? Why not try both? Served with a side of 3oz Korean pickled radish and a Gochu-mayo dip. * Upgrade to meal for Waffle Fries and a can of soda. حلال Halal",
+     "price": 1300
+    }
+   ]
+  },
+  {
+   "name": "Korean Street Food",
+   "items": [
+    {
+     "id": "9eebda4c-3bdc-4e64-97cc-e4b225750ccf",
+     "name": "Kimchi Fried Rice (김치볶음밥)",
+     "description": "Kimchi fried rice is a sizzling Korean comfort dish made by stir-frying tangy, spicy kimchi with rice, aromatics, and savory seasonings. It’s bold, hearty, and deeply satisfying—especially with a runny fried egg on top. Served with fried eggs, toasted sesame seeds, nori (dried seaweed).",
+     "price": 1000
+    },
+    {
+     "id": "5e622643-9acd-4581-9c6d-527d1d2241c9",
+     "name": "Veggie Fried Rice (야채볶음밥)",
+     "description": "Veggie fried rice is a vibrant, blend of corns, peas and carrots, fluffy rice, and savory seasonings. It’s light, flavorful, and satisfying—perfect as a wholesome meal or a versatile side. Served with fried eggs and roasted sesame seeds.",
+     "price": 1000
+    },
+    {
+     "id": "85a89933-eebf-49c2-8754-7eb2d0ba63e5",
+     "name": "Tteokbokki (떡볶이)",
+     "description": "Tteokbokki features chewy rice cakes coated in a bold, spicy-sweet gochujang sauce. It’s comforting, addictive, and guaranteed to light up your taste buds.",
+     "price": 1000
+    },
+    {
+     "id": "4f93a99f-6276-4e0c-b556-0105de645ccb",
+     "name": "Rosé Tteokbokki (로제 떡볶이)",
+     "description": "Rosé Tteokbokki blends the classic spicy-sweet flavors of traditional tteokbokki with a creamy, velvety sauce for an irresistibly rich twist.",
+     "price": 1000
+    }
+   ]
+  },
+  {
+   "name": "Sides",
+   "items": [
+    {
+     "id": "e7696e13-6151-4ac1-a4e7-ac431c5583f3",
+     "name": "White Rice (백반)",
+     "price": 400
+    },
+    {
+     "id": "4a032da7-2860-47ae-95a0-e51d8fda2ac2",
+     "name": "French Fries (감자 튀김)",
+     "price": 400
+    },
+    {
+     "id": "7bc82110-8e77-4da4-b951-45f252c04087",
+     "name": "Pickled Radish (치킨 무)",
+     "price": 60
+    },
+    {
+     "id": "266d16b2-2e0d-4bac-9cb6-19ff1a0bc85c",
+     "name": "Dips (딥)",
+     "price": 50
+    }
+   ]
+  },
+  {
+   "name": "Drinks",
+   "items": [
+    {
+     "id": "84d25dc9-5905-4c9e-8642-be552846cd60",
+     "name": "Coca Cola 12oz Can",
+     "description": "12oz Can",
+     "price": 200
+    },
+    {
+     "id": "8d13aaf0-99ae-4dc3-b2fc-d23c21ab78f9",
+     "name": "Diet Coke 12oz Can",
+     "description": "12oz Can",
+     "price": 200
+    },
+    {
+     "id": "3975b9af-6a26-458b-a940-20e2f26ff930",
+     "name": "Coke Zero 12oz Can",
+     "description": "12oz Can",
+     "price": 200
+    },
+    {
+     "id": "e7953df2-b61e-4351-bb59-4bb88714a42e",
+     "name": "Sprite 12oz Can",
+     "description": "12oz Can",
+     "price": 200
+    },
+    {
+     "id": "f6b6f92c-97b4-42a2-b201-8e72c0ccc384",
+     "name": "Fanta 12oz Can",
+     "description": "12oz Can",
+     "price": 200
+    },
+    {
+     "id": "d682b95f-18c8-41ef-a899-b909fba3d6d3",
+     "name": "Canada Dry 12oz Can",
+     "description": "12oz Can",
+     "price": 200
+    },
+    {
+     "id": "0823791e-bba7-4226-9e04-d34a676dc384",
+     "name": "Dr Pepper 12oz Can",
+     "description": "12oz Can",
+     "price": 200
+    },
+    {
+     "id": "615372f8-c48b-405c-b2aa-ee3d3b327a84",
+     "name": "Coca Cola 20z Bottle",
+     "description": "20 oz Bottle",
+     "price": 300
+    },
+    {
+     "id": "34bf2f5e-d4ad-4262-bbc2-0f27e6354eff",
+     "name": "Diet Coke 20oz Bottle",
+     "description": "20 oz Bottle",
+     "price": 300
+    },
+    {
+     "id": "c0f3eb46-fac8-4152-90e3-ff3a0aa25303",
+     "name": "Coke Zero 20oz Bottle",
+     "description": "20 oz Bottle",
+     "price": 300
+    },
+    {
+     "id": "aefd9f5e-fc61-4321-9dcf-9d6957e618ac",
+     "name": "Sprite 20oz Bottle",
+     "description": "20 oz Bottle",
+     "price": 300
+    },
+    {
+     "id": "6c9c4255-e99b-47e5-8428-3f045b69b2be",
+     "name": "Fanta 20oz Bottle",
+     "description": "20 oz Bottle",
+     "price": 300
+    },
+    {
+     "id": "e8fdd767-0f2d-4069-8e1e-d6879e2bf214",
+     "name": "Canada Dry 20oz Bottle",
+     "description": "20 oz Bottle",
+     "price": 300
+    },
+    {
+     "id": "fd1753e4-1c8c-4df4-b935-6f10e4ed3142",
+     "name": "Dr Pepper 20oz Bottle",
+     "description": "20 oz Bottle",
+     "price": 300
+    },
+    {
+     "id": "d4fb8428-67a7-491e-b45b-682313242783",
+     "name": "Dasani Water 20oz Bottle",
+     "description": "20 oz Bottle",
+     "price": 200
+    }
+   ]
+  },
+  {
+   "name": "Korean Drinks",
+   "items": [
+    {
+     "id": "2bfe7fc2-19f5-48cc-b184-a6054b457a65",
+     "name": "Banana Milk (바나나맛 우유)",
+     "price": 300
+    },
+    {
+     "id": "912bbfac-6257-4946-9b24-2f8281513cde",
+     "name": "Strawberry Milk (딸기맛 우유)",
+     "price": 300
+    },
+    {
+     "id": "2a891fd1-4fbc-4305-864e-ae119e6c7728",
+     "name": "Melon Milk (메로나맛 우유)",
+     "price": 300
+    },
+    {
+     "id": "82e65f19-608c-4df5-a40f-1c4b4da8aa58",
+     "name": "Taro Milk (타로맛 우유)",
+     "price": 300
+    },
+    {
+     "id": "f893e03a-1978-4f38-88bd-9ac6d0ec0d03",
+     "name": "Sikhye - Rice Punch (식혜)",
+     "price": 300
+    },
+    {
+     "id": "6212848c-6371-402b-af94-b698a2e7f0ff",
+     "name": "Milkis (밀키스)",
+     "price": 300
+    }
+   ]
+  },
+  {
+   "name": "Specialty Drinks",
+   "items": [
+    {
+     "id": "1168edb2-3811-4f69-877c-6c20807b1d3b",
+     "name": "Monster Energy",
+     "price": 400
+    },
+    {
+     "id": "d658b92e-0f24-4a8f-9739-40196c814b88",
+     "name": "Monster Zero Sugar",
+     "price": 400
+    },
+    {
+     "id": "b096a7c3-0e14-4088-87e0-dfab77efecd5",
+     "name": "Vitaminwater",
+     "price": 400
+    },
+    {
+     "id": "8ef3e742-f8d4-46c3-853e-ec516d6d0957",
+     "name": "Vitaminwater Zero Sugar",
+     "price": 400
+    },
+    {
+     "id": "6574ff7c-02e1-4dea-a5d4-9925a7bee006",
+     "name": "Powerade",
+     "price": 300
+    },
+    {
+     "id": "c52078ba-b26f-4eee-ac6a-11382b855e06",
+     "name": "Gold Peak Sweet Black Tea",
+     "price": 400
+    }
+   ]
+  }
+ ]
+}

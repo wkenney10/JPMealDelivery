@@ -1,0 +1,1448 @@
+{
+ "restaurant": "jp-seafood-cafe",
+ "source": "scraped",
+ "platform": "toast",
+ "sourceUrl": "https://order.toasttab.com/online/jp-seafood-cafe",
+ "fetchedAt": "2026-10-05T22:37:15.598Z",
+ "categories": [
+  {
+   "name": "APPETIZERS",
+   "items": [
+    {
+     "id": "5b0e3814-97ef-46a3-9777-b76ca3384d60",
+     "name": "Agedashi",
+     "price": 800
+    },
+    {
+     "id": "4c0c3cfe-a5b2-450f-bf15-ae045a15138f",
+     "name": "Crispy Chicken",
+     "description": "Crispy battered fried chicken thighs glazed in sweet chili sauce",
+     "price": 1200
+    },
+    {
+     "id": "a46b5c4b-5866-4a20-89a0-ce5d4cede4d7",
+     "name": "Edamame",
+     "price": 600
+    },
+    {
+     "id": "a0db0921-70fb-417a-b16b-8a1f7f6d40f4",
+     "name": "French Fries",
+     "price": 500
+    },
+    {
+     "id": "9bd3d903-f196-4969-85c5-a1076c7c8758",
+     "name": "Fried Calamari",
+     "description": "Contains Egg, Milk, Wheat",
+     "price": 1600
+    },
+    {
+     "id": "272881a3-ac53-40f6-a121-a224a6557247",
+     "name": "Green Bean Fries",
+     "price": 800
+    },
+    {
+     "id": "552baa0a-5e8a-4f78-b836-b079d7d43158",
+     "name": "Gyoza Beef",
+     "price": 800
+    },
+    {
+     "id": "0a2a13ff-7c51-4370-ad91-943564cd1250",
+     "name": "Gyoza Pork",
+     "price": 800
+    },
+    {
+     "id": "cd27d023-f6e9-4aa1-96de-f7dadcfa0d4b",
+     "name": "Gyoza Veg",
+     "price": 800
+    },
+    {
+     "id": "a28faa6c-3a15-4629-935b-822792aef6cc",
+     "name": "Korean Fishcake",
+     "price": 1400
+    },
+    {
+     "id": "c0358db2-1484-4068-a6ec-2786c24e6a4e",
+     "name": "Koroke, Veg",
+     "price": 500
+    },
+    {
+     "id": "e14352c2-0743-43db-a725-e9a262ccca51",
+     "name": "Lollipop Shrimp",
+     "price": 900
+    },
+    {
+     "id": "a599134c-ab47-4671-abe3-892d8f3a8798",
+     "name": "Scallion Pancake",
+     "description": "contains shrimp and kani",
+     "price": 1600
+    },
+    {
+     "id": "7e126b26-af17-47ef-b144-89d80e7bfa84",
+     "name": "Sexy Shrimp",
+     "price": 1200
+    },
+    {
+     "id": "0d445a1a-b5d4-4146-a6fb-72f1e58c5985",
+     "name": "Shumai Ebi",
+     "price": 800
+    },
+    {
+     "id": "2ea1df67-7c50-4838-8af8-1b7f498c2ee5",
+     "name": "Shumai Don",
+     "description": "Pork dumpling (contains shrimp)",
+     "price": 800
+    },
+    {
+     "id": "891cf9ff-e9bf-4aa9-bee0-479c4857eaa1",
+     "name": "Shumai Wasabi",
+     "description": "Wasabi Pork dumpling (contains shrimp)",
+     "price": 800
+    },
+    {
+     "id": "7da264db-edb1-4212-9692-1df1cfdd7b46",
+     "name": "Spring Roll VEG.",
+     "description": "3 pcs. Vegetable Spring Rolls served with sweet spicy sauce",
+     "price": 800
+    },
+    {
+     "id": "8d4dd0c7-8605-4e65-a8ff-16e5330d640c",
+     "name": "Steam Tofu",
+     "price": 800
+    },
+    {
+     "id": "0c745647-2afb-4311-a836-6f8620b78f89",
+     "name": "Sushi Starter",
+     "price": 1200
+    },
+    {
+     "id": "014aa3f3-92e3-47ce-bd71-7fc7ce3ff7fb",
+     "name": "Tempura Starter",
+     "price": 1600
+    },
+    {
+     "id": "bba69535-cead-43f5-9096-7692afd6efde",
+     "name": "White Rice",
+     "price": 250
+    },
+    {
+     "id": "d7b3228b-b116-4bcf-a346-f0d11cc33248",
+     "name": "Brown Rice",
+     "price": 300
+    },
+    {
+     "id": "c38a0592-1a34-4ac9-acac-236ad0b580ac",
+     "name": "Sushi Rice",
+     "price": 300
+    }
+   ]
+  },
+  {
+   "name": "SALADS",
+   "items": [
+    {
+     "id": "8f19040b-b3e5-485e-991b-5f49888d03bd",
+     "name": "Bean Sprout Salad",
+     "price": 600
+    },
+    {
+     "id": "2777cc4f-c121-452a-aa9b-a90eca9a9d16",
+     "name": "Bokchoy Salad",
+     "price": 700
+    },
+    {
+     "id": "4c2f5fdd-3bd1-47bb-aa20-0a14c199efa2",
+     "name": "Coleslaw",
+     "price": 500
+    },
+    {
+     "id": "665a7cae-fc93-4405-9be2-15662b11f64b",
+     "name": "House Salad",
+     "price": 700
+    },
+    {
+     "id": "7ccdc6a2-3f71-4503-8b24-e709aae11701",
+     "name": "Kimchee",
+     "price": 700
+    },
+    {
+     "id": "b864b42c-9090-441a-b13b-d115e14cbf66",
+     "name": "Seaweed Salad",
+     "description": "No MSG, contains Gluten",
+     "price": 700
+    },
+    {
+     "id": "e6d2fa63-13c5-4a5b-9d66-8bb16589eee3",
+     "name": "Steamed Broccoli",
+     "price": 700
+    },
+    {
+     "id": "33ef2e57-f2f9-486d-9d0c-57cbbd78347d",
+     "name": "Steamed Veg",
+     "price": 700
+    }
+   ]
+  },
+  {
+   "name": "SOUPS",
+   "items": [
+    {
+     "id": "ea5f833b-d82e-463c-9701-9685882552bd",
+     "name": "Dumpling Soup",
+     "price": 800
+    },
+    {
+     "id": "1fe434ff-d07e-48e0-a01a-9c9d49c69dce",
+     "name": "Large Miso Soup",
+     "price": 900
+    },
+    {
+     "id": "2a8ccc26-013f-4986-992e-6b946ea5fcca",
+     "name": "Mandoo Kuk",
+     "price": 1800
+    },
+    {
+     "id": "fff5e95b-13de-42b3-8e33-4f85b74fb6f2",
+     "name": "Miso Soup",
+     "price": 400
+    },
+    {
+     "id": "7baff7ec-74cd-44a2-9595-9261ce27832b",
+     "name": "Jun-Gul",
+     "price": 2600
+    },
+    {
+     "id": "5cc40cda-3832-4f31-ac95-736c4d98ffdd",
+     "name": "Sea Veg Soup",
+     "price": 800
+    },
+    {
+     "id": "be1d2bb4-ead9-4dd5-a97b-d77092800d5e",
+     "name": "Spicy Seafood Udon",
+     "price": 2400
+    },
+    {
+     "id": "31502b24-e6e5-4dcc-a2c2-6d29727a5185",
+     "name": "Udon",
+     "price": 1600
+    },
+    {
+     "id": "9d03c91e-86be-4233-9ece-b4aa040f270d",
+     "name": "Udon Chicken",
+     "price": 1800
+    },
+    {
+     "id": "0888b258-2d4f-44f2-aca2-acf8398ebfb6",
+     "name": "Udon Temp",
+     "price": 2000
+    },
+    {
+     "id": "4a2d0f33-22a3-436e-84b1-34729ac8d235",
+     "name": "Udon Veg",
+     "price": 1800
+    }
+   ]
+  },
+  {
+   "name": "TERIYAKI & GRILL",
+   "items": [
+    {
+     "id": "8239cccc-fa53-475d-b080-81795f47dda0",
+     "name": "Bulgoki",
+     "description": "comes with rice (contains soy sauce, sesame oil, onion)",
+     "price": 2600
+    },
+    {
+     "id": "d90fa1fd-55d4-4c1b-9edc-14abe67c36b4",
+     "name": "Mahi Mahi",
+     "description": "comes with rice",
+     "price": 2400
+    },
+    {
+     "id": "7070168b-8be8-469c-9cc4-8e44eea177bc",
+     "name": "Teri Chicken",
+     "description": "comes with rice",
+     "price": 2200
+    },
+    {
+     "id": "7aaa1890-c4c2-42e1-9d33-056e7d3ed068",
+     "name": "Teri Salmon",
+     "description": "comes with rice",
+     "price": 2600
+    },
+    {
+     "id": "7875e40d-4cb3-43db-8c1f-2c4b93c80266",
+     "name": "Grilled Salmon",
+     "description": "comes with rice",
+     "price": 2600
+    },
+    {
+     "id": "46df0e57-3089-48db-87cb-8f172b86954b",
+     "name": "One Slice Salmon",
+     "price": 1100
+    },
+    {
+     "id": "14ce9e56-5f50-4647-a31d-0cd867c6f19a",
+     "name": "Teri Tofu",
+     "description": "comes with rice",
+     "price": 1800
+    },
+    {
+     "id": "c68d0d19-2e90-4d05-bec6-620d720cf8e2",
+     "name": "Teri Shr/Scal",
+     "description": "comes with rice",
+     "price": 3000
+    }
+   ]
+  },
+  {
+   "name": "STIRFRY",
+   "items": [
+    {
+     "id": "cb410f6a-6b41-4790-a55c-18da436aeff4",
+     "name": "Beef Stirfry",
+     "description": "comes with rice",
+     "price": 2500
+    },
+    {
+     "id": "763b2c84-6eeb-4edf-a4bc-dd45137c3aac",
+     "name": "Chicken Stirfry",
+     "description": "comes with rice",
+     "price": 2200
+    },
+    {
+     "id": "482bc2da-3e0b-420a-9b45-fc9283bae9d1",
+     "name": "Seafood Stirfry",
+     "description": "comes with rice",
+     "price": 2800
+    },
+    {
+     "id": "b80c48c4-0132-4c7e-bdf7-cce181e69948",
+     "name": "Shrimp Stirfry",
+     "description": "comes with rice",
+     "price": 2400
+    },
+    {
+     "id": "610476ff-14a8-4754-80ed-29b5fc40a58d",
+     "name": "Spicy Calamari Stirfry",
+     "description": "comes with rice",
+     "price": 2400
+    },
+    {
+     "id": "70d9266b-4107-4baf-92ce-712e3cdefc80",
+     "name": "Spicy Salmon Stirfry",
+     "description": "comes with rice",
+     "price": 2600
+    },
+    {
+     "id": "e8aa1621-d9f3-4330-9c22-093cdc61ae8f",
+     "name": "Veg Stirfry",
+     "description": "comes with rice",
+     "price": 1900
+    }
+   ]
+  },
+  {
+   "name": "FRIED PLATTERS",
+   "items": [
+    {
+     "id": "2b632a84-3251-4a89-b50e-f5d5a99685ff",
+     "name": "Fish N Chips",
+     "price": 2200
+    },
+    {
+     "id": "3ebeceba-1fb2-45a7-849f-6d617c750d88",
+     "name": "Fishermans Platter",
+     "price": 3200
+    },
+    {
+     "id": "7f18e08e-53f4-4b84-ab24-726c54604ed1",
+     "name": "Scallop Platter",
+     "price": 3800
+    },
+    {
+     "id": "75cf3b58-ccae-4884-9226-0621028e13d1",
+     "name": "Shrimp Platter",
+     "price": 2800
+    }
+   ]
+  },
+  {
+   "name": "KATSU",
+   "items": [
+    {
+     "id": "3ae26b64-1628-4456-960a-427e67fccb10",
+     "name": "Don (Pork) Katsu",
+     "description": "comes with rice",
+     "price": 2200
+    },
+    {
+     "id": "2e054449-be8d-4c9c-885a-67eaf274d420",
+     "name": "Chicken Katsu",
+     "description": "comes with rice",
+     "price": 2200
+    },
+    {
+     "id": "6e8c4ee8-4bad-42e5-9bd5-1465546716b8",
+     "name": "One Slice Katsu",
+     "price": 1100
+    }
+   ]
+  },
+  {
+   "name": "TEMPURA",
+   "items": [
+    {
+     "id": "a5f4b27c-1935-4f21-9360-355d26104a98",
+     "name": "Veg Tempura",
+     "price": 2000
+    },
+    {
+     "id": "32bc0c66-ce32-4c0b-a855-ff213a792b58",
+     "name": "Shrimp Tempura",
+     "price": 2800
+    },
+    {
+     "id": "67bf6078-6942-4e78-9b67-730ff77b991f",
+     "name": "Fish Tempura",
+     "price": 2600
+    },
+    {
+     "id": "2556ba73-5f03-4e75-9a81-11ab7e33f0ca",
+     "name": "Seafood Tempura",
+     "price": 3200
+    }
+   ]
+  },
+  {
+   "name": "BIBIMBOP",
+   "items": [
+    {
+     "id": "150bd5a3-ea66-4cdc-a740-96f0fdf84e46",
+     "name": "Beef Bibimbop",
+     "description": "comes with rice beef contains soy sauce",
+     "price": 2400
+    },
+    {
+     "id": "21ae4dff-589d-4b91-8941-4c41d6ebd8a5",
+     "name": "Beef Ok-Dol",
+     "description": "beef contains soy sauce, sesame oil, onion",
+     "price": 2600
+    },
+    {
+     "id": "fa24da8a-e496-4ccd-bda8-aac63a16dacb",
+     "name": "Chicken Bibimbop",
+     "description": "comes with rice",
+     "price": 2200
+    },
+    {
+     "id": "364aca29-c9d8-4f55-9a97-d456adf9bc03",
+     "name": "Chicken Ok-Dol",
+     "price": 2400
+    },
+    {
+     "id": "c8026e8b-0b4f-4073-b9a9-4b301cd12bf4",
+     "name": "Salmon Bibimbop",
+     "description": "comes with rice",
+     "price": 2400
+    },
+    {
+     "id": "1297ed33-5ce5-450b-ae5e-0adaf701000b",
+     "name": "Salmon Ok-Dol",
+     "price": 2600
+    },
+    {
+     "id": "72404107-76eb-4e66-88b8-78a5fae014d3",
+     "name": "Shrimp Bibimbop",
+     "description": "comes with rice miso sold separately",
+     "price": 2400
+    },
+    {
+     "id": "947d3889-ac78-43f3-83f7-deff4772a1cd",
+     "name": "Shrimp Ok-Dol",
+     "price": 2600
+    },
+    {
+     "id": "057df828-2702-4c10-ad67-58b0ba9f2d4a",
+     "name": "Tuna Bibimbop",
+     "description": "comes with rice miso sold separately",
+     "price": 2400
+    },
+    {
+     "id": "ece20a53-97d4-4375-ba54-87c383f721c3",
+     "name": "Tuna Ok-Dol",
+     "price": 2600
+    },
+    {
+     "id": "73370c32-dbc7-4711-a299-793a8c06cc7c",
+     "name": "Veg Bibimbop",
+     "description": "comes with rice miso sold separately",
+     "price": 1900
+    },
+    {
+     "id": "aea7b291-1c9b-4bcb-950b-bf5ba72026a3",
+     "name": "Veg Ok-Dol",
+     "description": "miso sold separately",
+     "price": 2100
+    }
+   ]
+  },
+  {
+   "name": "NIGIRI",
+   "items": [
+    {
+     "id": "aac04f44-7003-4c0a-938b-85c18659591b",
+     "name": "Toro",
+     "price": 1000
+    },
+    {
+     "id": "ebdc1ef3-d0a9-40e6-9554-de3f7880bb1c",
+     "name": "Avocado",
+     "price": 500
+    },
+    {
+     "id": "b5aab2b1-484e-4f08-93dd-e5f62f44df79",
+     "name": "Ebi",
+     "description": "steamed shrimp",
+     "price": 600
+    },
+    {
+     "id": "86120758-d9a6-4ffd-9698-3a238f8d4bd4",
+     "name": "Fatty Salmon",
+     "description": "with White Truffle Sea Salt & Torched",
+     "price": 1000
+    },
+    {
+     "id": "32a4b265-d724-4438-a2c3-74dc2963aa3f",
+     "name": "Hamachi",
+     "description": "yellowtail",
+     "price": 600
+    },
+    {
+     "id": "dad1b8de-538b-45c8-a826-10fb13d9ab41",
+     "name": "Hokkigai",
+     "description": "surf clam",
+     "price": 600
+    },
+    {
+     "id": "3bd06d79-8582-44ea-ade3-31841c5061f9",
+     "name": "Hotate",
+     "description": "Scallop",
+     "price": 800
+    },
+    {
+     "id": "594d25fd-86c1-43e7-a451-76b5785bee68",
+     "name": "Hotate Special",
+     "description": "with Spicy Mayo & Masago",
+     "price": 1000
+    },
+    {
+     "id": "b083569b-d204-4795-af79-9517810b7c13",
+     "name": "Ika",
+     "description": "squid",
+     "price": 600
+    },
+    {
+     "id": "1e2060ff-13f2-4d12-b944-4acb08d61cd5",
+     "name": "Ikura",
+     "description": "salmon roe",
+     "price": 800
+    },
+    {
+     "id": "933d2c52-bae9-4dfc-8b7f-cfc0e6064e0c",
+     "name": "Inari",
+     "description": "sweet deep-fried tofu pocket",
+     "price": 500
+    },
+    {
+     "id": "bba1e8cb-3f87-43c0-9b48-5af399d78003",
+     "name": "Kani",
+     "description": "imitation crab meat",
+     "price": 500
+    },
+    {
+     "id": "be943a5c-ba0d-42f6-926b-62bd77011a06",
+     "name": "Maguro",
+     "description": "tuna",
+     "price": 600
+    },
+    {
+     "id": "c0a9c247-c8ea-44ae-91fc-d8a78ecdadc8",
+     "name": "Saba",
+     "description": "mackerel",
+     "price": 500
+    },
+    {
+     "id": "c1bc0b5e-5a49-42fd-b724-de0d4c25ed46",
+     "name": "Sake",
+     "description": "salmon",
+     "price": 600
+    },
+    {
+     "id": "879965ee-3f22-4485-8d1c-1562ff30f372",
+     "name": "Shiromi",
+     "description": "izumidai (tilapia)",
+     "price": 600
+    },
+    {
+     "id": "4e360004-cc70-4696-8244-3cbbd6a874ae",
+     "name": "Suzuki",
+     "description": "bass",
+     "price": 600
+    },
+    {
+     "id": "85b4290f-2696-4847-9b0b-610a96bfc85e",
+     "name": "Tako",
+     "description": "octopus",
+     "price": 600
+    },
+    {
+     "id": "1e7b380a-f12e-4ff8-90f4-8e55ea882a73",
+     "name": "Tamago",
+     "description": "baked egg",
+     "price": 500
+    },
+    {
+     "id": "773d9a27-9921-4fa5-844e-6f0d577909bd",
+     "name": "Tobiko",
+     "description": "flying fish roe",
+     "price": 700
+    },
+    {
+     "id": "cc381423-cfb5-47c4-ad42-fb861ed3b509",
+     "name": "Unagi",
+     "description": "eel",
+     "price": 700
+    },
+    {
+     "id": "bc826e00-fd71-496f-8c45-d39818509f0b",
+     "name": "Masago",
+     "description": "capelin (smelt) roe",
+     "price": 700
+    },
+    {
+     "id": "03377c2a-2833-4a0f-88f7-65adbf3c2d99",
+     "name": "Uni",
+     "description": "sea urchin",
+     "price": 1200
+    }
+   ]
+  },
+  {
+   "name": "DELUXE & COMBO",
+   "items": [
+    {
+     "id": "049175d9-9578-4126-9cc2-b9d04464236a",
+     "name": "Chirashi",
+     "description": "Assorted Sashimi Served on a Bed of Sushi Rice",
+     "price": 2400
+    },
+    {
+     "id": "80c111a1-1815-4684-bc3a-f5946aab642e",
+     "name": "Sashimi Donburi",
+     "description": "Diced Raw Fish with Green Mix on Rice served with Vinegared Sweet Chili Paste",
+     "price": 2300
+    },
+    {
+     "id": "2ea2f342-06a8-4004-b24c-6622d6fef9cf",
+     "name": "Lg Sushi Boat",
+     "description": "22 Pieces of Nigiri Sushi, California Maki, Tekka Maki",
+     "price": 5200
+    },
+    {
+     "id": "c8a45e76-7072-4251-b2b6-f0209faf1743",
+     "name": "Sashimi Regular",
+     "description": "Chef's Selection of 15 Pieces of Sashimi",
+     "price": 2800
+    },
+    {
+     "id": "23f5bc2e-af23-4ecf-87fa-f056ab09df99",
+     "name": "Sashimi Deluxe",
+     "description": "Chef's Selection of 24 Pieces of Sashimi",
+     "price": 3800
+    },
+    {
+     "id": "b09cd614-afec-4fda-bac8-7e650a8ab973",
+     "name": "Sushi Regular",
+     "description": "Chef's Selection of 12 Pieces Nigiri Sushi",
+     "price": 2200
+    },
+    {
+     "id": "36e77cfd-2661-47b6-b758-51481407ad21",
+     "name": "Sushi Deluxe",
+     "description": "Chef's Selection of 15 Pieces Nigiri Sushi",
+     "price": 2600
+    },
+    {
+     "id": "925a4cef-ac09-4fed-ad13-1319aeb5ec0c",
+     "name": "Sake Don",
+     "description": "Salmon Sashimi Served on a Bed of Sushi Rice",
+     "price": 2400
+    },
+    {
+     "id": "58d54319-fe53-49c7-9cc9-e02b63fd838e",
+     "name": "Tekka Don",
+     "description": "Tuna Sashimi Served on a Bed of Sushi Rice",
+     "price": 2400
+    },
+    {
+     "id": "c4fcf771-a4a5-45a0-b74e-7d66c4d1df61",
+     "name": "Favorite Combo",
+     "description": "California Maki, Tekka Maki, Avocado Cucumber Maki",
+     "price": 1900
+    },
+    {
+     "id": "25095b60-0273-464f-bc55-82659b2fe260",
+     "name": "Spicy Maki Combo",
+     "description": "3 pieces Each of Spicy Tuna, Spicy Salmon, Spicy Hamachi and Shocking Maki",
+     "price": 1700
+    },
+    {
+     "id": "d1687cd8-9b90-42aa-bfc0-7519c2296b69",
+     "name": "Vegetarian Combo",
+     "description": "Vegetarian Maki, Idaho Maki, Avocado Cucumber Maki",
+     "price": 2100
+    },
+    {
+     "id": "4b413a47-251b-420f-b900-a1e2c8568887",
+     "name": "Unaju",
+     "description": "Broiled Eel Served with Japanese Pickles on a Bed of Rice",
+     "price": 2600
+    },
+    {
+     "id": "ffe7e0ac-74e7-4300-bf9b-2ad539de5005",
+     "name": "Sushi & Sashimi Combo",
+     "description": "6 Nigiri Sushi, 15 Sashimi and California Maki",
+     "price": 4200
+    }
+   ]
+  },
+  {
+   "name": "HOUSE SPECIALTY",
+   "items": [
+    {
+     "id": "7b19a2c2-39b8-49fd-9c9f-ef3ea60a26cf",
+     "name": "Boston Maki",
+     "description": "Lettuce, Masago, Salmon, Cucumber and Mayonnaise",
+     "price": 1500
+    },
+    {
+     "id": "67c1f1c0-3b66-42a5-b7c0-a97b2ed4ba66",
+     "name": "Caterpillar",
+     "description": "Eel Cucumber inside Avocado on top",
+     "price": 1600
+    },
+    {
+     "id": "a2b64659-9d5a-4518-a714-44abdd7abf9f",
+     "name": "Chef's Spec Maki",
+     "description": "Ikura, Avocado, Cucumber and Salmon on Top",
+     "price": 1600
+    },
+    {
+     "id": "60c366b9-f12d-4ce4-b066-1269fbbc78e5",
+     "name": "Crazy Maki",
+     "description": "Shrimp Tempura inside, Spicy Salmon with Tempura Flakes outside",
+     "price": 1600
+    },
+    {
+     "id": "c2bda0a2-42b5-423c-8a87-24e6df6153f6",
+     "name": "Double Dare Maki",
+     "description": "Kani, Green Chili Peppers and Scallion with Extra Spicy Sauce",
+     "price": 900
+    },
+    {
+     "id": "2f5affb4-6aa9-4a0d-b610-bab68ac72f58",
+     "name": "Dragon Maki",
+     "description": "Shrimp Tempura inside with Eel and Avocado on Top",
+     "price": 1600
+    },
+    {
+     "id": "cba00ab2-0524-4e9d-b810-cd02311f638b",
+     "name": "Futo Maki",
+     "description": "Bokchoy, Avocado, Cucumber, Kani, Oshinko, Tamago, Masago",
+     "price": 1300
+    },
+    {
+     "id": "e10beb54-042c-4fed-b841-a9c04bbac19b",
+     "name": "Godzilla Maki",
+     "description": "Jumbo Shrimp Tempura with Avocado, spicy mayo and Scallion",
+     "price": 1300
+    },
+    {
+     "id": "88fb0380-4491-4cd8-b32a-70d60c1bb775",
+     "name": "Hotate Maki",
+     "description": "Fresh Scallop",
+     "price": 1200
+    },
+    {
+     "id": "6288c220-0c73-495f-8fe3-161c200f3a53",
+     "name": "Hotate Spec Maki",
+     "description": "Fresh Scallop, Spicy Mayo, Masago",
+     "price": 1400
+    },
+    {
+     "id": "68aed915-6d69-444b-8c94-fcddde1c9a16",
+     "name": "JP Blues Maki",
+     "description": "Kani, Masago, Mayo inside covered with Salmon, Tuna, Whitefish",
+     "price": 1600
+    },
+    {
+     "id": "baaac281-0734-4452-bc87-6c6a40705161",
+     "name": "JP Maki",
+     "description": "Salmon, Cucumber, Cream Cheese",
+     "price": 900
+    },
+    {
+     "id": "cfb378f2-0fd8-40b7-a398-e236d7c9bee4",
+     "name": "Mango Tango Maki",
+     "description": "Fresh Mango, Shrimp Tempura, Cucumber, Cream Cheese",
+     "price": 1300
+    },
+    {
+     "id": "105043d7-e009-41ea-885c-029e7f53f6a3",
+     "name": "Naruto",
+     "description": "Salmon, Avocado, Tamago, Tobiko and Kani wrapped in Cucumber",
+     "price": 1300
+    },
+    {
+     "id": "ceb3ec6e-8ce4-43b9-a085-ca6d3c4db917",
+     "name": "NE Maki",
+     "description": "Lightly Battered and Fried White Fish",
+     "price": 900
+    },
+    {
+     "id": "f2c2ec05-383a-48c2-a6ea-53fca7372a09",
+     "name": "Roslindale Maki",
+     "description": "Tuna, Cucumber, Cream Cheese",
+     "price": 900
+    },
+    {
+     "id": "8d8b8bab-337b-489f-bd9d-f6e91b9164a5",
+     "name": "Shocking Maki",
+     "description": "Spicy Tuna, Spicy Mayo, Scallion, Tempura Flake",
+     "price": 900
+    },
+    {
+     "id": "3588547e-d746-4857-a821-d5b47f9ce443",
+     "name": "Shrp Temp Maki",
+     "description": "Lightly Battered and Fried Shrimp",
+     "price": 900
+    },
+    {
+     "id": "f60dc2a3-c8a8-40cc-9ef2-90195b7632f2",
+     "name": "Spider Maki",
+     "description": "Deep Fried Soft Shell Crab with Avocado and Kani",
+     "price": 1300
+    },
+    {
+     "id": "9c244c36-0822-4f3e-a4e5-33fc60b384f2",
+     "name": "Sunshine Maki",
+     "description": "Salmon, Lemon, Cilantro, Cucumber",
+     "price": 900
+    },
+    {
+     "id": "3b6456fb-aec1-4de5-880f-ca6a1798b34c",
+     "name": "Torched Salmon",
+     "description": "Avocado, Cucumber inside Torched Salmon and Hot Pepper on Top",
+     "price": 1600
+    },
+    {
+     "id": "70363165-8bd0-48c9-aa35-a3fc44a9f9d0",
+     "name": "Wildfire Maki",
+     "description": "Shrimp Tempura, Avocado, Cream Cheese inside, Mixed Kani, Masago, Spicy Mayo On Top",
+     "price": 1600
+    },
+    {
+     "id": "008e345e-2b61-4b61-a1ca-8a5526d2ea94",
+     "name": "Kanisu",
+     "description": "Kani, Avocado, Masago in Cucumber Wrap Served with Vinegar Sauce",
+     "price": 1200
+    }
+   ]
+  },
+  {
+   "name": "HOSO/REV/VEG",
+   "items": [
+    {
+     "id": "3c8c4c9e-6172-4072-98a9-c9be3f579d0e",
+     "name": "Asp Maki",
+     "price": 700
+    },
+    {
+     "id": "c40d78ec-acd5-4367-9436-021b5f97088a",
+     "name": "Avo Kyu Maki",
+     "price": 700
+    },
+    {
+     "id": "b992cad5-f563-425a-a3ff-7afeaadb6922",
+     "name": "Avocado Maki",
+     "price": 600
+    },
+    {
+     "id": "9ccb730a-b163-4b7f-a5fe-ea3d3073a5de",
+     "name": "Bokchoy Maki",
+     "price": 700
+    },
+    {
+     "id": "b1c57ea9-ade4-4ff0-bc14-d7c94f9c33b4",
+     "name": "Bokchoy Oshinko Maki",
+     "price": 800
+    },
+    {
+     "id": "7b501e23-4bf2-48af-a904-6d99bcef4014",
+     "name": "California Maki",
+     "price": 800
+    },
+    {
+     "id": "d6aa2704-7a0c-4ba1-96d5-eb1ba589b2a9",
+     "name": "Carrot Maki",
+     "price": 700
+    },
+    {
+     "id": "c373bf38-7440-47b4-9d71-ac3ba867d2ee",
+     "name": "Crispy Salmon Maki",
+     "price": 900
+    },
+    {
+     "id": "18831de3-9796-4439-b989-53d3529a354e",
+     "name": "Ebi Maki",
+     "price": 800
+    },
+    {
+     "id": "5dee801d-6782-4ee3-8aa5-30f617bb34dd",
+     "name": "Eel Asp Maki",
+     "price": 900
+    },
+    {
+     "id": "540a56da-12dc-4b26-afce-b872a810df87",
+     "name": "Eel Avo Maki",
+     "price": 900
+    },
+    {
+     "id": "70a634ca-3f2a-49a1-810a-a8bcc553583f",
+     "name": "Eel Cuc Avo Maki",
+     "price": 950
+    },
+    {
+     "id": "47ed7074-408d-485f-a434-1e8690dca6e6",
+     "name": "Eel Cuc Maki",
+     "price": 900
+    },
+    {
+     "id": "14764c51-dc61-4281-a1bb-a1aa217f97db",
+     "name": "Eel Maki",
+     "price": 800
+    },
+    {
+     "id": "cf0aea15-b619-498c-b9df-6fe87fc7383b",
+     "name": "Hamachi Maki",
+     "price": 700
+    },
+    {
+     "id": "e27192b7-6895-442c-aab0-822b958e171a",
+     "name": "Hamakyu Maki",
+     "price": 800
+    },
+    {
+     "id": "4d117d1a-d5e0-484b-9d54-38b240578fec",
+     "name": "Idaho Maki",
+     "price": 700
+    },
+    {
+     "id": "bcd12d75-3cf7-4fdf-8186-585de47dc3c5",
+     "name": "Ika Maki",
+     "price": 700
+    },
+    {
+     "id": "3fdd6e26-20cf-4eb5-93cb-452a3df2c412",
+     "name": "Ika Kyu Maki",
+     "price": 800
+    },
+    {
+     "id": "337858df-a470-46d4-9426-2eabf5b861a1",
+     "name": "Ikura Maki",
+     "price": 900
+    },
+    {
+     "id": "5eb5e418-bb3d-4966-96d9-65c38e494741",
+     "name": "Inari Maki",
+     "price": 700
+    },
+    {
+     "id": "628bb9fe-3f6d-4770-9750-cb81805b061a",
+     "name": "Kani Maki",
+     "price": 600
+    },
+    {
+     "id": "091a19fb-b0bd-4152-9872-0a7978696228",
+     "name": "Kappa Maki",
+     "price": 600
+    },
+    {
+     "id": "23685cf3-9d29-4bbf-9ed7-ab4fe95edec4",
+     "name": "Mango Maki",
+     "price": 600
+    },
+    {
+     "id": "4255aca7-2e7f-44b0-ac8c-df69893c7557",
+     "name": "Negi Hama Maki",
+     "price": 750
+    },
+    {
+     "id": "56962b13-aea2-47d2-9fd0-4674d6dd94a1",
+     "name": "Negi Saba Maki",
+     "price": 750
+    },
+    {
+     "id": "4dbe7b99-a24e-44d4-8e1b-8d8d8bc2ff8e",
+     "name": "Negi Sake Maki",
+     "price": 750
+    },
+    {
+     "id": "81ac4852-7d02-4bb1-a69b-d1678f54e84d",
+     "name": "Negi Tekka Maki",
+     "price": 750
+    },
+    {
+     "id": "38dced4b-a9eb-42ac-a2e8-b659e3f472b7",
+     "name": "New York Maki",
+     "price": 900
+    },
+    {
+     "id": "19a34e79-4817-43fc-8a9a-d0c0895adeb8",
+     "name": "Oshinko Maki",
+     "price": 600
+    },
+    {
+     "id": "1cf4fe0d-9800-4bec-9e56-b5981544d227",
+     "name": "Saba Maki",
+     "price": 700
+    },
+    {
+     "id": "51e41df3-eeb7-4766-8446-75397e1a45a3",
+     "name": "Sake Maki",
+     "price": 700
+    },
+    {
+     "id": "b7627bdb-6982-459d-af45-7e777d402565",
+     "name": "Sake-Avo Maki",
+     "price": 800
+    },
+    {
+     "id": "50c90101-e88e-4d5a-a59e-d4149a8b2b67",
+     "name": "Sakekyu Maki",
+     "price": 800
+    },
+    {
+     "id": "584d6ea0-ff37-4456-bd30-65114e0dd319",
+     "name": "Spicy Cali Maki",
+     "price": 900
+    },
+    {
+     "id": "cf631fc1-f798-49c4-b203-2baf11e3b755",
+     "name": "Spicy Hamachi Maki",
+     "price": 900
+    },
+    {
+     "id": "6f154a8f-b591-406d-a5ca-cbd8bba09ed0",
+     "name": "Spicy Salmon Maki",
+     "price": 900
+    },
+    {
+     "id": "ce78e03c-b4f4-444d-87fd-bc2cf9398049",
+     "name": "Spicy Tuna Maki",
+     "price": 900
+    },
+    {
+     "id": "d2b6ab7c-9c7a-409c-8ea2-b9e2efbcbded",
+     "name": "Tamago Maki",
+     "price": 600
+    },
+    {
+     "id": "bf783916-bc21-4686-a788-58512c1a2b82",
+     "name": "Tekka Maki",
+     "price": 700
+    },
+    {
+     "id": "963ba574-1e04-4459-a621-3022c7eedaa4",
+     "name": "Tekka-Avo Maki",
+     "price": 800
+    },
+    {
+     "id": "eb04f2df-7a0c-4649-b16e-aca87cd3a77c",
+     "name": "Tekkyu Maki",
+     "price": 800
+    },
+    {
+     "id": "03935fbf-57cc-44d6-a6ab-b640a819f4e7",
+     "name": "Umeshiso Maki",
+     "price": 600
+    },
+    {
+     "id": "b48fcdcb-d0f7-4926-862e-30d67c7c449d",
+     "name": "Vegetarian Maki",
+     "price": 1000
+    }
+   ]
+  },
+  {
+   "name": "Beer",
+   "items": [
+    {
+     "id": "771a1667-51bf-4fec-be2d-3b9cdd5145c4",
+     "name": "Down East Original Blend",
+     "price": 800
+    },
+    {
+     "id": "f59649ea-ce90-455a-a873-48242a8950c6",
+     "name": "Lamplighter IPA",
+     "price": 1100
+    },
+    {
+     "id": "b61f621b-5a39-4b9b-8ed4-b2a181fdfaf6",
+     "name": "Hitachino Red Rice",
+     "price": 1200
+    },
+    {
+     "id": "7135f6be-99c0-47cc-aa09-0f086ea12f6e",
+     "name": "Hitachino Yuju Larger 11.8oz",
+     "price": 1200
+    },
+    {
+     "id": "178eba15-8a7d-4ccb-8f2b-f10e0e41d358",
+     "name": "Jack's Abby House Larger 16oz",
+     "price": 1000
+    },
+    {
+     "id": "1fd6a270-2668-4682-95ce-19f75e6a1a24",
+     "name": "Kawaba Pale Ale",
+     "price": 1100
+    },
+    {
+     "id": "b302423d-86f1-4b26-a856-fb1b54b2f4f0",
+     "name": "Luna seltzer",
+     "price": 800
+    },
+    {
+     "id": "8d9c47d5-3dc3-44d4-80be-38f322e20d46",
+     "name": "Old Speckled Hen",
+     "price": 1000
+    },
+    {
+     "id": "a52f6897-9e43-424e-b9ed-a00a478b52af",
+     "name": "Maduro brown Ale",
+     "price": 700
+    },
+    {
+     "id": "e336dea5-da13-49dc-9051-2c108eaf66c1",
+     "name": "Rothaus Tannen Pilsner",
+     "price": 1000
+    },
+    {
+     "id": "dce9f0d7-447a-4eac-ae51-86808f3dc56d",
+     "name": "Sam Smith Organic Cider",
+     "price": 1000
+    },
+    {
+     "id": "437c535a-9508-4d47-a166-6a0ad5149212",
+     "name": "Sapporo Non-Alcoholic",
+     "price": 700
+    },
+    {
+     "id": "2a3e3096-9da2-4908-98e6-9e2005964593",
+     "name": "Sapporo Reserve 22 oz.",
+     "price": 1100
+    },
+    {
+     "id": "2c1ed661-3a61-4792-867a-df971c7593f7",
+     "name": "Sierra Nevada Pale Ale",
+     "price": 700
+    },
+    {
+     "id": "e4947e35-9470-49b8-8a3b-ae0723afd152",
+     "name": "Threes Shapeless Larger",
+     "price": 1000
+    },
+    {
+     "id": "29cdeac0-9639-4c8e-b991-1800837ffd91",
+     "name": "True North Tropical IPA",
+     "price": 900
+    },
+    {
+     "id": "b95579a2-52ab-4daf-b03b-fb6aa7cc34cf",
+     "name": "Athletic non alcoholic",
+     "price": 700
+    },
+    {
+     "id": "f68ab6ed-ef0e-4f3e-99e0-33e0a972a9e8",
+     "name": "Von Trapp Dunkel Lager",
+     "price": 700
+    },
+    {
+     "id": "b613f0f7-d38e-4018-8b75-94d5ba1930ab",
+     "name": "Fat Orange Cat Pale Wheat Ale",
+     "price": 1100
+    },
+    {
+     "id": "ca7097f6-6170-49fe-bda5-d1caf73ae720",
+     "name": "Fat Orange Cat IPA",
+     "price": 1000
+    },
+    {
+     "id": "ba4fec56-fc54-4986-a941-2a300fdc405f",
+     "name": "Fat Orange Cat Lager",
+     "price": 900
+    },
+    {
+     "id": "c682d5c6-28de-4585-956d-1d2f1cead677",
+     "name": "Fat Orange non alcoholic",
+     "price": 700
+    },
+    {
+     "id": "0878cffa-8a5e-4ca0-ac2d-cc7127af5142",
+     "name": "Mango Goseface",
+     "price": 1100
+    },
+    {
+     "id": "ed5fbcf3-dabd-4e86-a6ea-48bbfd9d98a4",
+     "name": "Von Trapp Cs Jack's Abby",
+     "price": 1000
+    }
+   ]
+  },
+  {
+   "name": "Sake",
+   "items": [
+    {
+     "id": "b8033fd5-bb27-4011-aeec-73892a5e7624",
+     "name": "Bushido (180ml)",
+     "price": 1200
+    },
+    {
+     "id": "5a5e1be4-a0ea-4c19-955c-87bc410b9e5a",
+     "name": "Chokara Junmai (300ml)",
+     "price": 1600
+    },
+    {
+     "id": "ee1e6a12-1621-4f60-ac6c-51ea1fead2a8",
+     "name": "Fairy Bamboo Junmai (500ml)",
+     "price": 4400
+    },
+    {
+     "id": "6ed28713-65e4-4534-82ec-bb133309c424",
+     "name": "Funaguchi Gold Honjozo Nama Genshu (200 ml)",
+     "price": 1400
+    },
+    {
+     "id": "d574beaa-5edf-4479-a568-9368997becbf",
+     "name": "Choya Plum Wine (glass)",
+     "price": 1400
+    },
+    {
+     "id": "6da8904f-c3ca-4195-9b60-10c0eb8ecec5",
+     "name": "Hakushika Nama (180ml)",
+     "price": 1200
+    },
+    {
+     "id": "589fece2-be94-4a0a-a823-3cf304e9efcb",
+     "name": "Ikezo Berry",
+     "price": 1400
+    },
+    {
+     "id": "882c0681-e7b1-45ef-ad8e-786ed3a9a658",
+     "name": "Ikezo Peach",
+     "price": 1400
+    },
+    {
+     "id": "3f291f04-e07e-4792-89c2-8a9050b0534f",
+     "name": "Ikezo Yuzu",
+     "price": 1400
+    },
+    {
+     "id": "32618ba0-4046-4252-ad82-87deef9dbc2e",
+     "name": "Kaika Junmai (180ml)",
+     "price": 1500
+    },
+    {
+     "id": "74a8e56b-871d-49da-a10f-72c516ea4f08",
+     "name": "Kenbishi Kuromatsu",
+     "price": 1800
+    },
+    {
+     "id": "da20710c-bffc-4279-9abb-1a88b50763b7",
+     "name": "Kikkoman Plum (750ml)",
+     "price": 3000
+    },
+    {
+     "id": "723f2d07-a5e8-45c7-848b-149e1620444c",
+     "name": "Lucky Cup (180ml)",
+     "price": 1400
+    },
+    {
+     "id": "cf34898d-a321-4f37-923e-fb85918775a4",
+     "name": "Lucky dog",
+     "price": 1100
+    },
+    {
+     "id": "b79ef877-af51-42b0-9505-05cb1a3e0198",
+     "name": "Nigori Yaegaki (300ml)",
+     "price": 1800
+    },
+    {
+     "id": "7c2706e1-c4a1-4a74-9a75-8d8727422aae",
+     "name": "Murai Nigori (300ml)",
+     "price": 2800
+    },
+    {
+     "id": "d3bc9679-3745-4ba0-98c4-66a529dd513b",
+     "name": "Poochi-Poochi",
+     "price": 2500
+    },
+    {
+     "id": "3a520b01-d679-40a8-8bee-5111a8a9e09a",
+     "name": "Kurosawa Nigori 300ml",
+     "price": 2000
+    },
+    {
+     "id": "8326c342-e38f-412e-ae82-85a7927683e0",
+     "name": "Snow Tiger Nigori Sake unfiltered (200ml)",
+     "price": 1400
+    },
+    {
+     "id": "914b2d20-b559-4124-b933-cc0f0849cc0c",
+     "name": "Winter Warrior (300ml)",
+     "price": 1800
+    },
+    {
+     "id": "a1f1fcc6-10a6-4ba2-9d15-3413337f446e",
+     "name": "GLS Kikkoman Plum",
+     "price": 900
+    },
+    {
+     "id": "5309f08f-0f25-42c8-bef7-95c6a1428107",
+     "name": "Kikushi",
+     "price": 1400
+    },
+    {
+     "id": "30bda8e3-bd53-4330-ae8a-2346c957dc37",
+     "name": "Soju Lychee",
+     "price": 1600
+    },
+    {
+     "id": "2caf7d3e-1723-49fa-83b0-401457582a08",
+     "name": "Soju Peach",
+     "price": 1600
+    },
+    {
+     "id": "f411a2aa-6d5a-4659-8cb4-9d351941cfb9",
+     "name": "Jindori Apple",
+     "price": 1600
+    }
+   ]
+  },
+  {
+   "name": "Wine",
+   "items": [
+    {
+     "id": "5889a64f-53a4-43ec-b787-847850be0134",
+     "name": "BTL Tralcio Bianco",
+     "price": 4800
+    },
+    {
+     "id": "119514a6-311b-4482-a799-1b6f242f740b",
+     "name": "BTL Pinot Grigio",
+     "price": 4800
+    },
+    {
+     "id": "2052adab-d51f-4d3f-af3d-e8985a1471ba",
+     "name": "BTL Chardonnay",
+     "price": 4800
+    },
+    {
+     "id": "7df669e5-19bc-460c-a1ce-27953c988322",
+     "name": "BTL Sauvignon Blanc",
+     "price": 4600
+    },
+    {
+     "id": "14fb15f0-3056-4b07-8259-770cc14c5257",
+     "name": "BTL Riesling",
+     "price": 4600
+    },
+    {
+     "id": "6096eaaa-1d63-42f1-bb1a-82b082457bbe",
+     "name": "BTL Alvarinho",
+     "price": 4600
+    },
+    {
+     "id": "67859415-d828-40b1-99c7-f2038986b954",
+     "name": "BTL Moscato D'Asti",
+     "price": 3800
+    },
+    {
+     "id": "7ad3627a-e611-4530-a372-d97aa6568a98",
+     "name": "BTL Villa Sandi",
+     "price": 1200
+    },
+    {
+     "id": "925bf857-62a0-4df5-a998-98436cda4df5",
+     "name": "BTL Villa Wolf Rose",
+     "price": 4600
+    },
+    {
+     "id": "9a0e3883-731c-4d9b-bc4e-540cd45a35c6",
+     "name": "BTL Ice Rose",
+     "price": 1000
+    },
+    {
+     "id": "c470b105-3c5a-4f63-a078-9b99734518ce",
+     "name": "BTL Chateau Beauchene",
+     "price": 4200
+    },
+    {
+     "id": "75a7b09d-eb93-4958-a8af-8ddf2b8c3ec7",
+     "name": "BTL Malbec",
+     "price": 4600
+    },
+    {
+     "id": "0b235f76-ae1e-4b34-8cd4-e206418a79d5",
+     "name": "BTL Cabernet Sauvignon",
+     "price": 4600
+    },
+    {
+     "id": "adb2076e-f7ac-4381-b5de-f9727899c14d",
+     "name": "BTL Pinot Noir",
+     "price": 4600
+    },
+    {
+     "id": "140d1926-39ae-4e0e-8c7b-a716c3772c2c",
+     "name": "BTL House White",
+     "price": 3400
+    },
+    {
+     "id": "5569ecc2-c3bc-4b22-9189-0a605dcbf0c1",
+     "name": "BTL House Red",
+     "price": 3400
+    },
+    {
+     "id": "7542dc76-7097-4b66-a28b-485f932447c7",
+     "name": "BTL Tiamo Chianti",
+     "price": 4600
+    },
+    {
+     "id": "6f6412da-e993-4bda-bfcf-6b15442f1c52",
+     "name": "BTL Tiamo Prosecco",
+     "price": 4200
+    },
+    {
+     "id": "2c649601-adb1-4a95-8b42-9c0793886244",
+     "name": "BTL Villaviva",
+     "price": 4600
+    },
+    {
+     "id": "3ae66c00-36ca-4eb2-847e-ca60ca5b6c7f",
+     "name": "BTL Veuve Du Vernay",
+     "price": 1000
+    }
+   ]
+  }
+ ]
+}

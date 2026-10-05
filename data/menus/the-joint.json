@@ -1,0 +1,950 @@
+{
+ "restaurant": "the-joint",
+ "source": "scraped",
+ "platform": "toast",
+ "sourceUrl": "https://order.toasttab.com/online/the-joint",
+ "fetchedAt": "2026-10-05T22:43:51.360Z",
+ "categories": [
+  {
+   "name": "APPETIZERS",
+   "items": [
+    {
+     "id": "2688c8f0-024d-426f-954e-f17aadd684a7",
+     "name": "Cheeseburger Spring Rolls",
+     "description": "Grass-fed beef, mozzarella, cream cheese and joint sauce.",
+     "price": 1200
+    },
+    {
+     "id": "1d56fe91-cbba-4f1d-b125-5a478ffed0c0",
+     "name": "Chicken Wings",
+     "description": "Choice of sauce: Buffalo, BBQ, Sweet Chili or Lemon Pepper. Additional Sauce +$1.",
+     "price": 1600
+    },
+    {
+     "id": "d5b8a371-9d92-4931-b789-adf9d27ba599",
+     "name": "Crispy Calamari",
+     "description": "Served with pepperoncini aioli and marinara sauce.",
+     "price": 1500
+    },
+    {
+     "id": "e482aa0f-065d-4482-9d9f-3100b1c92742",
+     "name": "French Fries",
+     "price": 700
+    },
+    {
+     "id": "2fa94ab8-c94b-438e-aa60-8aa7d82847da",
+     "name": "Soup of the Day",
+     "price": 1200
+    },
+    {
+     "id": "1f5050fe-66ff-4894-9a6e-e436dfec88a4",
+     "name": "Truffled  Fries",
+     "price": 900
+    },
+    {
+     "id": "b81e2ee9-9448-4f35-a5b0-f4cbbe92bcdb",
+     "name": "Super Bowl Party Specials",
+     "description": "30 Mini beef Slider 30 Piece of chicken Wings Large order of Truffles Parmesan fries Souse of you choice",
+     "price": 15000
+    },
+    {
+     "id": "be38a721-fea1-49d3-8bb0-c485d46131d9",
+     "name": "Super Bowl Party Specials 2",
+     "description": "45 Chicken Wings Lemon Pepper, Buffalo, Sweet Chili Souse of you choice French Fries Ranch or Blue cheese Celery",
+     "price": 17500
+    },
+    {
+     "id": "73f40311-f60c-4cdf-a7b4-ff48296fd8e3",
+     "name": "Fresh Guacamole & Chips",
+     "price": 1300
+    },
+    {
+     "id": "86e5678b-87f7-45af-bb49-8eaea2aad4ac",
+     "name": "Chicken & Waffles",
+     "price": 2000
+    },
+    {
+     "id": "1ddbccd2-903b-4554-a765-79ddca8bdce7",
+     "name": "Chicken Tender",
+     "price": 1600
+    },
+    {
+     "id": "60bf76c5-0f99-4479-9cba-9693c484c66f",
+     "name": "sweet potato",
+     "price": 700
+    }
+   ]
+  },
+  {
+   "name": "PIZZA",
+   "items": [
+    {
+     "id": "ecb84e10-cdda-4d78-a9f8-656e26986245",
+     "name": "Classic Margarita Pizza",
+     "description": "Fresh mozzarella, basil and tomato sauce.",
+     "price": 1300
+    },
+    {
+     "id": "1296c887-b728-432a-aba3-b4d505d28a6e",
+     "name": "Truffle Portobello Pizza",
+     "description": "Fresh mozzarella, parmesan cheese and truffle oil.",
+     "price": 1500
+    },
+    {
+     "id": "1dfdb443-4f4e-4c68-b2bd-e2011e46b217",
+     "name": "Organic Pepperoni Pizza",
+     "description": "Frontina mozzarella, organic pepperoni, tomato sauce and parsley.",
+     "price": 1500
+    },
+    {
+     "id": "479590cb-8ddc-4721-bbb7-3dbd7241a502",
+     "name": "Cheeseburger Pizza",
+     "description": "Cheeseburger, mozzarella, lettuce, tomato, pickles and joint sauce.",
+     "price": 1700
+    },
+    {
+     "id": "f44ad056-8eed-43c2-9804-b791545ae489",
+     "name": "BBQ Chicken Pizza",
+     "price": 1600
+    }
+   ]
+  },
+  {
+   "name": "BURGER",
+   "items": [
+    {
+     "id": "64873d1a-ca33-4fbf-a1a1-4fbad57706c3",
+     "name": "The Joint Burger",
+     "description": "Grass-fed burger with cheddar cheese, caramelized onions and joint sauce.",
+     "price": 1900
+    },
+    {
+     "id": "95f7d5d9-6bd5-4113-b37d-7212c9ba3ad8",
+     "name": "Boston Cream Burger",
+     "description": "Cilantro radish, cream cheese, caramelized onions. Served on a brioche bun.",
+     "price": 1900
+    },
+    {
+     "id": "05cd05fd-300a-49be-be47-2deddbf4ee64",
+     "name": "Veggie Burger",
+     "description": "Refried black beans, onions, red and yellow peppers and peas. Served on a grille brioche bun with salsa verde, chipotle mayo, lettuce, tomatoes and goat cheese.",
+     "price": 1400
+    },
+    {
+     "id": "3e11a8da-6983-41b6-ba54-6295c8f4041e",
+     "name": "Stony Brook",
+     "description": "Bacon, onion rings, sriracha mayo and swiss cheese.",
+     "price": 2200
+    },
+    {
+     "id": "fd366333-ce1d-4291-bb96-f2bc78aa8d74",
+     "name": "Black & Blue Burger",
+     "description": "Crispy onions, homemade BBQ sauce and blue cheese cream.",
+     "price": 1900
+    }
+   ]
+  },
+  {
+   "name": "SALADS",
+   "items": [
+    {
+     "id": "3883881b-b7ee-4237-8e10-8facc503da4a",
+     "name": "Traditional Caesar Salad",
+     "description": "Garlic croutons, shaved parmesan and homemade caesar dressing.",
+     "price": 1500
+    },
+    {
+     "id": "40b1ad93-75d0-4a76-b1c2-4aaa3c6b833b",
+     "name": "Cobb Salad",
+     "description": "Organic mixed greens, bacon, blue cheese, eggs, avocado, chicken and red wine house dressing.",
+     "price": 1900
+    },
+    {
+     "id": "e39a55c5-c2d2-4719-82da-fb93f28fab6b",
+     "name": "Organic Mixed Green Salad",
+     "description": "Roasted pecans, cherry tomatoes, goat cheese and lemon vinaigrette.",
+     "price": 1400
+    },
+    {
+     "id": "3aed0d68-1de5-4b0e-b128-44492e400940",
+     "name": "Beet Salad",
+     "price": 1500
+    }
+   ]
+  },
+  {
+   "name": "SANDWICHES",
+   "items": [
+    {
+     "id": "3026d0a7-f039-4d74-b413-6403e24868cd",
+     "name": "Shrimp BLT",
+     "description": "Bacon, iceberg lettuce, spicy mayo and avocado.",
+     "price": 1900
+    },
+    {
+     "id": "e6042e76-c348-4742-b2fe-c11c3ed2bcd5",
+     "name": "Falafel Chickpea Fritters Wrap",
+     "description": "Chickpea fritters, hummus pickles, turnips and lettuce.",
+     "price": 1600
+    },
+    {
+     "id": "2187d7c7-cbef-48dc-84b1-76f2a62a13eb",
+     "name": "Chicken Avocado Club",
+     "description": "Crispy bacon, chipotle mayo, lettuce, tomatoes and chicken.",
+     "price": 1800
+    },
+    {
+     "id": "dd7c0981-4341-4e21-aae3-d70d2b8f81fb",
+     "name": "Crispy Chicken",
+     "description": "Crispy Chicken Brioche bun , spicy chipotle, cheddar ,lettuce and tomato.",
+     "price": 1800
+    },
+    {
+     "id": "0ed9c372-590e-41a6-9f69-b8454b4fd7df",
+     "name": "The Joint Hot Dog",
+     "price": 1600
+    },
+    {
+     "id": "12369b07-954c-4620-9ba1-4709f635cfd4",
+     "name": "Turkey Avocado Club",
+     "price": 1800
+    },
+    {
+     "id": "b8bf5119-b60f-4df9-a938-42ab735449a0",
+     "name": "Smoked Salmon Blt",
+     "price": 1900
+    }
+   ]
+  },
+  {
+   "name": "DESSERT (Copy)",
+   "items": [
+    {
+     "id": "d068a6c3-92fd-462a-8d15-2b5406172010",
+     "name": "Bread Pudding",
+     "description": "Served with vanilla ice cream and caramel sauce.",
+     "price": 1000
+    },
+    {
+     "id": "f67625b8-c356-49a5-9a1a-b17b67e6356e",
+     "name": "Brownie Sundae",
+     "description": "Brownie served with ice cream, whipped cream and chocolate syrup.",
+     "price": 1400
+    },
+    {
+     "id": "2174d8da-6e4c-49c3-a1cc-6425009dbae6",
+     "name": "Cinnamon Fried Ice Cream",
+     "price": 1000
+    },
+    {
+     "id": "6f90ee7d-6736-4777-98fe-1b58b99e0d9a",
+     "name": "Churros",
+     "price": 1000
+    }
+   ]
+  },
+  {
+   "name": "ENTREES",
+   "items": [
+    {
+     "id": "78809128-ecf0-4bbf-b5d6-1b60a08d8757",
+     "name": "Chicken Marsala",
+     "description": "Served with mashed potatoes, spinach, cherry tomatoes, mushrooms and marsala wine or 2 sides of your choice.",
+     "price": 2600
+    },
+    {
+     "id": "c0f9908f-e23e-41b3-b4a7-0be8ab8050bc",
+     "name": "Salmon",
+     "description": "Roasted Scotland salmon served with puree roasted corn salad and broccoli or 2 sides of your choice",
+     "price": 2800
+    },
+    {
+     "id": "5533367e-de80-4915-b9d2-3a51c552787b",
+     "name": "Ribeye Steak",
+     "description": "Grass-fed ribeye steak served with roasted potatoes asparagus and garlic demi souse sauce or 2 sides of your choice",
+     "price": 3300
+    }
+   ]
+  },
+  {
+   "name": "PASTA",
+   "items": [
+    {
+     "id": "d2b270db-54d0-4273-aa4f-27a00e6f862e",
+     "name": "Shrimp Scampi",
+     "description": "Grilled shrimp, white wine and roasted garlic butter topped with parsley garnish.",
+     "price": 2500
+    },
+    {
+     "id": "df69e7a5-0201-465d-8c4a-600a08691815",
+     "name": "Macaroni & Cheese",
+     "description": "Baked elbow macaroni with fontina, cheddar and parmesan cheese. Add +$4 bacon, +$4 chicken or +$7 salmon.",
+     "price": 1700
+    },
+    {
+     "id": "a2410acd-3824-4918-904e-cab2226b1f8b",
+     "name": "Eggplant Parm",
+     "description": "Fontina mozzarella, homemade garlic tomato sauce, basil and side salad.",
+     "price": 1900
+    },
+    {
+     "id": "9194a0c8-c2f2-4c97-828d-e8dbc6460630",
+     "name": "pesto alfredo w chicken",
+     "price": 2500
+    },
+    {
+     "id": "fb49d9bb-dd80-4a45-a65e-b3b99f93578f",
+     "name": "Buffalo Mac and Cheese",
+     "price": 2200
+    }
+   ]
+  },
+  {
+   "name": "DESSERT",
+   "items": [
+    {
+     "id": "4eaf206e-994d-4b74-85d7-3f9f23124300",
+     "name": "Churros",
+     "price": 1000
+    }
+   ]
+  },
+  {
+   "name": "BEER",
+   "items": [
+    {
+     "id": "2babb465-39f3-464b-825e-905a01dbc288",
+     "name": "Corona Extra",
+     "price": 600
+    },
+    {
+     "id": "e986b6e3-3c9a-416b-bec4-0d33a0a49aaf",
+     "name": "Corona Light",
+     "price": 600
+    },
+    {
+     "id": "d5e1fbfc-fb89-4d85-b29f-9401a0dc3fcb",
+     "name": "Guiness Draught",
+     "price": 700
+    },
+    {
+     "id": "dd0f936e-5fbc-4d81-b342-4fbf97779c92",
+     "name": "Heineken",
+     "price": 600
+    },
+    {
+     "id": "a43adfa3-0298-4af5-ae9c-b935c112eef2",
+     "name": "Modelo",
+     "price": 600
+    },
+    {
+     "id": "d4b6e346-6485-4634-a14d-4d1c698b542a",
+     "name": "Narragansett",
+     "price": 500
+    },
+    {
+     "id": "ad5bdd2c-94d1-426b-a8d9-2e1712e45cd8",
+     "name": "Stella",
+     "price": 600
+    },
+    {
+     "id": "332d24ea-0e67-4e97-97c2-b8d93cdff043",
+     "name": "House Large",
+     "price": 800
+    },
+    {
+     "id": "7289a36c-5dc1-4a6c-bac6-71a3df01292d",
+     "name": "Allagash White",
+     "price": 600
+    },
+    {
+     "id": "ac7771bf-5c4b-4860-a9bb-63b0f27fbc06",
+     "name": "Downest Cider",
+     "price": 700
+    }
+   ]
+  },
+  {
+   "name": "BEVERAGES",
+   "items": [
+    {
+     "id": "6d47868a-f56f-4b76-b20d-0294ad08cbc0",
+     "name": "Arnold Palmer",
+     "price": 350
+    },
+    {
+     "id": "3fd05228-7b25-4b65-90d6-b45f9e5b48fb",
+     "name": "Coffee",
+     "price": 350
+    },
+    {
+     "id": "cd98a3e7-b48d-4935-8a02-e67d6442e78f",
+     "name": "Coke Products",
+     "price": 250
+    },
+    {
+     "id": "140bc4ed-4fb0-4c73-a496-a21f8aad3119",
+     "name": "Ginger Beer",
+     "price": 400
+    },
+    {
+     "id": "18b4bbc8-fab0-40cf-b6e5-fdf345fa0bfc",
+     "name": "Ice Coffee",
+     "price": 350
+    },
+    {
+     "id": "2b9569e9-becd-4312-a60a-7b0723ef2294",
+     "name": "Ice Tea",
+     "price": 350
+    },
+    {
+     "id": "45f5cabf-a2ba-49a4-ba87-5bab3f37044b",
+     "name": "Juices",
+     "price": 300
+    },
+    {
+     "id": "96f758c3-c817-4667-af93-8c639c3abc44",
+     "name": "Milk",
+     "price": 300
+    },
+    {
+     "id": "e990baea-090d-4f97-bf47-636cc6c1ce5a",
+     "name": "Shirley Temple",
+     "price": 350
+    },
+    {
+     "id": "c8937e8b-336c-4c40-8082-737a9faef4d7",
+     "name": "Sparkling Water",
+     "price": 350
+    },
+    {
+     "id": "eb8a41a6-3450-46c8-9d9d-eb7023195d4f",
+     "name": "Tea",
+     "price": 350
+    },
+    {
+     "id": "648c6325-7d0e-4353-859d-51e32651e838",
+     "name": "Virgen Margarita",
+     "price": 700
+    },
+    {
+     "id": "2c29a4db-0914-44d1-a05c-33fa2c464539",
+     "name": "Virgen Mojito",
+     "price": 700
+    },
+    {
+     "id": "f2697687-89a9-43a2-902e-b2c06e1e2206",
+     "name": "Virgen Pina Colada",
+     "price": 700
+    },
+    {
+     "id": "ce640beb-d48c-40e0-8426-b6dc454a5d82",
+     "name": "Water",
+     "price": 100
+    },
+    {
+     "id": "a556fa23-4f2f-40d3-829f-d29b737e5686",
+     "name": "Virgen Bloody Mary",
+     "price": 700
+    }
+   ]
+  },
+  {
+   "name": "COCKTAILS",
+   "items": [
+    {
+     "id": "74eeab0f-4cf6-4656-9614-9d05ea2b5475",
+     "name": "Apple Tini",
+     "price": 1200
+    },
+    {
+     "id": "6477cba7-93b8-439a-bfb7-79a907d519e9",
+     "name": "Bellinis",
+     "price": 1100
+    },
+    {
+     "id": "7b41d04a-972e-4509-8173-8ee83bc82709",
+     "name": "Bloody Mary",
+     "price": 1100
+    },
+    {
+     "id": "0e7ad01b-d0f9-4cc5-a419-970396a9a5ee",
+     "name": "Blueberry Martini",
+     "price": 1200
+    },
+    {
+     "id": "a3b58554-9e8c-4033-99dd-254a29d331ef",
+     "name": "Caipirinha",
+     "price": 1300
+    },
+    {
+     "id": "1ad38750-e42a-4de7-b3bb-1db5e4b3e866",
+     "name": "Coffee W/ Bailey",
+     "price": 900
+    },
+    {
+     "id": "a1941592-4c36-4ab5-8a7e-854a848791cb",
+     "name": "Cosmo",
+     "price": 1200
+    },
+    {
+     "id": "a34dece7-b85e-49bf-bbe4-c15296672477",
+     "name": "Expresso Martini",
+     "price": 1300
+    },
+    {
+     "id": "54bc8eae-a2e9-4fec-9721-bed4ff23f7cb",
+     "name": "Gran Martini",
+     "price": 1200
+    },
+    {
+     "id": "667ce993-86b0-4c20-914e-dfe6d51d441f",
+     "name": "Manhattan",
+     "price": 1200
+    },
+    {
+     "id": "8a3b5f66-db9e-4041-85aa-dd041e694aaf",
+     "name": "Margarita",
+     "price": 1200
+    },
+    {
+     "id": "2d67b472-2cec-46e8-996e-83eca8b75df9",
+     "name": "Mimosa",
+     "price": 1000
+    },
+    {
+     "id": "fd17ee8a-5517-40c3-9268-067faa3fabee",
+     "name": "Mojito",
+     "price": 1200
+    },
+    {
+     "id": "ecd536e2-eae5-4d07-b94d-a562b1280bb5",
+     "name": "Moscow Mule",
+     "price": 1100
+    },
+    {
+     "id": "4d542cbf-12a2-4c25-8690-b8cae3f8d035",
+     "name": "Piña Colada",
+     "price": 1100
+    },
+    {
+     "id": "de3ea569-c9bd-4a1f-b007-984f15bdcb11",
+     "name": "Sangria",
+     "price": 1100
+    },
+    {
+     "id": "2d771bc1-72d1-4bdd-afcd-65ae2d0319dd",
+     "name": "Strawberry Heat",
+     "price": 1200
+    },
+    {
+     "id": "9b3dde5b-95f7-4150-8dfa-271aaae02e90",
+     "name": "Tequila Shot",
+     "price": 800
+    },
+    {
+     "id": "73373384-b076-4c0e-92c7-fc44bf1362ad",
+     "name": "Tequila Sunrise",
+     "price": 1200
+    },
+    {
+     "id": "bc6c08a0-824c-44b7-83c9-520f6c633c04",
+     "name": "Tres Besos",
+     "price": 900
+    },
+    {
+     "id": "2bb6a6a1-2180-4b11-9ca0-1986df75b1b8",
+     "name": "Margarita For 2 People",
+     "price": 2400
+    },
+    {
+     "id": "7368f17b-c8cc-48ca-a40d-8d7eb79ac346",
+     "name": "Strawberry Lemon Drop Martini",
+     "price": 1200
+    },
+    {
+     "id": "94c458b2-d05d-4835-a7d5-73d8640e3e97",
+     "name": "Golden Margarita",
+     "price": 1400
+    },
+    {
+     "id": "bb75f92a-e4f9-41e4-816a-354d6da2c5fd",
+     "name": "Pinaitaliano Shot",
+     "price": 800
+    },
+    {
+     "id": "9fb9c359-c5e9-42ac-a232-6b2338379a6a",
+     "name": "Rasberry Martini",
+     "price": 1200
+    },
+    {
+     "id": "ece9fe25-4558-4e1d-855b-3b4237d7cef2",
+     "name": "Chocolate Martini",
+     "price": 1300
+    },
+    {
+     "id": "85257db4-6f41-4201-84f9-88f8a5fbcad2",
+     "name": "Wiskey Sour",
+     "price": 1200
+    },
+    {
+     "id": "6b75b9ad-80c6-4f5f-964d-56f727d079f7",
+     "name": "Grapefruit Mule",
+     "price": 1200
+    },
+    {
+     "id": "12c84024-d760-4215-aeb9-91db2247baef",
+     "name": "Lemon Drop Martini",
+     "price": 1200
+    },
+    {
+     "id": "05c59483-d1dd-496c-8ce2-2759b45a53ea",
+     "name": "Amaretto Sour",
+     "price": 1200
+    },
+    {
+     "id": "91ccb93a-80d4-4436-85ed-4233abd7119a",
+     "name": "Gin & Tonic",
+     "price": 1200
+    },
+    {
+     "id": "c81ef0b9-f001-457e-83cb-cdf308286194",
+     "name": "Old Fashion",
+     "price": 1200
+    },
+    {
+     "id": "5ff209c3-4d06-4b8f-bd0c-7ec6310dd3a7",
+     "name": "Aperol Spritz",
+     "price": 1300
+    },
+    {
+     "id": "dcf26728-236f-4200-aaa4-8ea05a403066",
+     "name": "Pistachio Martini",
+     "price": 1400
+    }
+   ]
+  },
+  {
+   "name": "DRAFT BEERS",
+   "items": [
+    {
+     "id": "6c81e66a-854e-422e-a661-12f07f64e532",
+     "name": "Blue Moon",
+     "price": 700
+    },
+    {
+     "id": "3c7e1416-07b1-4b9b-b1b0-86bf86ba945b",
+     "name": "Cloud Candy",
+     "price": 800
+    },
+    {
+     "id": "76a0c26c-ea1e-4adf-8ab2-c3f31e0d957f",
+     "name": "Lord Hobo Boom Sauce",
+     "price": 800
+    },
+    {
+     "id": "ea2df5bd-06ef-4a64-9a53-709e9277cf21",
+     "name": "Fiddlehead",
+     "price": 800
+    },
+    {
+     "id": "0b1dcc4a-2a45-4944-9232-1411d689417d",
+     "name": "Sam Adam Boston Lager",
+     "price": 700
+    },
+    {
+     "id": "db2b125f-c5fd-4d4b-95de-c03d19fd3d00",
+     "name": "Sam Adam Seasonal",
+     "price": 700
+    }
+   ]
+  },
+  {
+   "name": "KIDS DRINK",
+   "items": [
+    {
+     "id": "45ee6ac8-b47c-4918-8cbd-3f4eb5769495",
+     "name": "Kids Coca-Cola",
+     "description": "Coca-Cola's crisp, refreshing taste has stood the test of time since 1886. These carefully crafted soft drinks are meant to be enjoyed anytime, anywhere. Pop open a Coca-Cola soda for a taste experience like no other. The familiar fizz and caffeine create an instant magic moment. Refreshing the world for over 130 years, Coca-Cola brings people together and spreads optimism wherever it goes. Find your magic and make life delicious with an ice-cold Coca-Cola.",
+     "price": 250
+    },
+    {
+     "id": "539a4c22-fe34-489f-9092-be0b1883ba09",
+     "name": "Kids Diet Coke",
+     "description": "Enjoy a break with Diet Coke, the perfect no-sugar, no-calorie companion. With its bold taste and distinctive blend of flavors, Diet Coke is an everyday hero when it comes to refreshing your day. Every sip of Diet Coke delivers the same great taste that's delighted fans for over 40 years. When you want a sugar-free soda that doesn't sacrifice on taste, reach for a Diet Coke.",
+     "price": 250
+    },
+    {
+     "id": "cd6680ab-cb64-4b3c-801e-a6c59499380e",
+     "name": "Kids Applejuice",
+     "price": 250
+    },
+    {
+     "id": "7e32e8a1-1e0b-4f47-be35-cddae49ed7d3",
+     "name": "Kids Cranberry",
+     "price": 250
+    },
+    {
+     "id": "f5f8b183-b47c-453d-bbb7-006433ad82db",
+     "name": "Kids Ginger Ale",
+     "price": 250
+    },
+    {
+     "id": "4d8c5364-4188-4a37-9188-3b611ae2247a",
+     "name": "Kids Lemonade",
+     "price": 250
+    },
+    {
+     "id": "2dddd0b9-b9bf-46f6-9f0d-1991b6690858",
+     "name": "Kids Milk",
+     "price": 250
+    },
+    {
+     "id": "6966f201-4fa0-4f02-bc14-647471f8832c",
+     "name": "Kids OJ",
+     "price": 250
+    },
+    {
+     "id": "73db4378-11a4-4012-8700-a81b4dcd7e87",
+     "name": "Kids Pineapple",
+     "price": 250
+    },
+    {
+     "id": "df7c8254-589a-4ce4-9e5e-53098e3a478a",
+     "name": "Kids Shirley Temple",
+     "price": 350
+    }
+   ]
+  },
+  {
+   "name": "WINES",
+   "items": [
+    {
+     "id": "ca0c0c95-eaa1-4d67-9da4-9a3c1abdb111",
+     "name": "Cabernet Sauvignon",
+     "price": 1100
+    },
+    {
+     "id": "348a4800-a064-4139-b3d0-d6361854b47c",
+     "name": "Chardonnay",
+     "price": 1200
+    },
+    {
+     "id": "82f00faf-80d0-4958-ba2a-e88533be5926",
+     "name": "Pino Noir",
+     "price": 1000
+    },
+    {
+     "id": "c23f4604-5160-4d0e-a665-84402aa654bb",
+     "name": "Pinot Grigio Bottlee",
+     "price": 4600
+    },
+    {
+     "id": "46911eec-30f2-47b9-980b-7fd8fb8c2ee5",
+     "name": "Prosecco",
+     "price": 1100
+    },
+    {
+     "id": "7d415e74-a9c0-4136-bb76-86e76bcb3dec",
+     "name": "Rioja Crianza",
+     "price": 1200
+    },
+    {
+     "id": "775ecd67-4e44-4d5a-99dc-b798d7a91af0",
+     "name": "Rose",
+     "price": 1100
+    },
+    {
+     "id": "d08595b9-5519-40a7-bfb8-2b68a45c4e00",
+     "name": "Sauvignon Blanc",
+     "price": 1100
+    },
+    {
+     "id": "99612f4c-45d5-4368-aaaa-36d57a64e493",
+     "name": "Bottle of Chardonnay",
+     "price": 4600
+    },
+    {
+     "id": "78c84225-0f4d-4686-931f-947afccb49a0",
+     "name": "Pinot Grigio",
+     "price": 1200
+    },
+    {
+     "id": "638b981b-4b05-4bed-85ff-cc00d7e02658",
+     "name": "Sauvignon Blanc Bottle",
+     "price": 4500
+    },
+    {
+     "id": "45cae8e8-e384-4a50-8032-1959b5899377",
+     "name": "Pinot Noir Bottle",
+     "price": 4600
+    }
+   ]
+  },
+  {
+   "name": "Specials",
+   "items": [
+    {
+     "id": "948656f1-ce78-453b-ad7b-b1e1dd1aba28",
+     "name": "MONDAY ONLY Pulled Pork Sandwich",
+     "price": 1900
+    },
+    {
+     "id": "95d15b71-9c50-4045-9217-a1a114620cbc",
+     "name": "SATURDAY ONLY Fried Diablo",
+     "price": 3500
+    },
+    {
+     "id": "06019a5d-1e2c-4c38-8447-83245f4e0939",
+     "name": "THURSDAY ONLY Chicken Piccata",
+     "price": 2300
+    },
+    {
+     "id": "68994c74-0080-43d2-affc-19bf161ad8e7",
+     "name": "WEDNESDAY ONLY Chicken Parm",
+     "price": 2300
+    }
+   ]
+  },
+  {
+   "name": "Kids Menu (Kids Only)",
+   "items": [
+    {
+     "id": "7b58df67-8ca4-483e-b504-47af999866e5",
+     "name": "Kids Cheeseburger and Fries",
+     "price": 1000
+    },
+    {
+     "id": "9de07d8d-0709-40c8-bbc5-7116a935b484",
+     "name": "Kids Cheese Pizza",
+     "price": 1000
+    },
+    {
+     "id": "1b310290-064a-4e47-bf84-898716b58296",
+     "name": "Kids Grilled Cheese and Fries",
+     "price": 1000
+    },
+    {
+     "id": "e36d4cb8-16e3-4b1a-91e1-d3b8ec68dab5",
+     "name": "Kids Nuggets and Fries",
+     "price": 1000
+    },
+    {
+     "id": "1b664e28-d92c-4032-9b66-ffcd51640ea2",
+     "name": "Kids Mac & Cheese",
+     "price": 1000
+    }
+   ]
+  },
+  {
+   "name": "$$$ EXTRAS",
+   "items": [
+    {
+     "id": "8f548cf8-feef-43f4-8be1-ae7e5f63f042",
+     "name": "Side of Blue Cheese",
+     "price": 150
+    },
+    {
+     "id": "deb8393d-a372-45c5-911b-1143dc71f7ec",
+     "name": "Side of Ranch",
+     "price": 150
+    },
+    {
+     "id": "d12309b5-35d9-4eb7-baff-57352cfe048e",
+     "name": "Side of Honey Mustard",
+     "price": 150
+    },
+    {
+     "id": "54a73cc8-b98b-4f4f-a99a-5e48e8813374",
+     "name": "Side of Chipoltle Mayo",
+     "price": 150
+    },
+    {
+     "id": "b76bf515-6e28-4f17-b721-e01ec8d45cd0",
+     "name": "Side of BBQ",
+     "price": 150
+    },
+    {
+     "id": "7e716f81-c732-4c4b-9f61-df9b489af289",
+     "name": "Side of Buffalo",
+     "price": 100
+    },
+    {
+     "id": "f362f89d-d383-4e2c-9c85-2866c7b3e2d8",
+     "name": "Side of Salsa Verde",
+     "price": 150
+    },
+    {
+     "id": "f9bf328f-e04b-4d01-a143-5da2650d7b5a",
+     "name": "Side of Joint Sauce",
+     "price": 150
+    },
+    {
+     "id": "bc041da8-b1ab-4afc-84fc-742c81024427",
+     "name": "Side of Pico de gallo",
+     "price": 150
+    },
+    {
+     "id": "be3952e6-43e1-4482-9e9e-0630969fb59c",
+     "name": "Side Of Pickels",
+     "price": 150
+    },
+    {
+     "id": "ab102a7f-3525-48fe-8dae-046605469548",
+     "name": "Side of Sweet Chilli",
+     "price": 150
+    },
+    {
+     "id": "09c85791-c3ed-46ca-9661-93e91404df02",
+     "name": "Side of Mango Habanero",
+     "price": 150
+    },
+    {
+     "id": "7c1511c0-1da5-48f3-9a62-5649f816c3fb",
+     "name": "Side of Avocado",
+     "price": 300
+    },
+    {
+     "id": "c5859004-2468-43e9-a3a3-0ba75922bae4",
+     "name": "hollandaise sauce",
+     "price": 150
+    },
+    {
+     "id": "481f84ab-5a86-4215-be3e-5e232040ff81",
+     "name": "Sour Cream",
+     "price": 150
+    },
+    {
+     "id": "03d2f096-e8ec-4c7a-8aa5-fd1df34b4ad5",
+     "name": "Pecan Glaze",
+     "price": 150
+    },
+    {
+     "id": "5e376d50-2029-444d-82dc-0e8442f0e6f2",
+     "name": "Bacon Gravy",
+     "price": 150
+    },
+    {
+     "id": "db265bae-7492-4779-aeb0-a95a14d85dea",
+     "name": "Cream Cheese",
+     "price": 200
+    }
+   ]
+  },
+  {
+   "name": "Bag",
+   "items": [
+    {
+     "id": "cbb2b2d8-fb19-4f64-bbc1-45574fef4c8b",
+     "name": "Small bag",
+     "price": 10
+    },
+    {
+     "id": "8407316b-8146-4d52-82d2-41cb48133c9b",
+     "name": "Large bag",
+     "price": 10
+    }
+   ]
+  }
+ ]
+}

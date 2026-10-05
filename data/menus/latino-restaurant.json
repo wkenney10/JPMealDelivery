@@ -1,0 +1,905 @@
+{
+ "restaurant": "latino-restaurant",
+ "source": "scraped",
+ "platform": "toast",
+ "sourceUrl": "https://order.toasttab.com/online/latino-restaurant-302-centre-st",
+ "fetchedAt": "2026-10-05T22:38:19.284Z",
+ "categories": [
+  {
+   "name": "Desayuno/ Breakfast",
+   "items": [
+    {
+     "id": "26a7861e-d6c7-4c25-b282-35a8975ae124",
+     "name": "Huevos/ Eggs",
+     "description": "Servido Con: Mangu/ Yuca/ Guineos Verdes Served With: Mashed Green Plantain/ Cassava/ Boiled Green Bananas",
+     "price": 1200
+    },
+    {
+     "id": "0bee6d87-b11d-4296-a4e1-74e97075f35c",
+     "name": "Queso Frito/ Fried Cheese",
+     "description": "Servido Con: Mangu/ Yuca/ Guineos Verdes Served With: Mashed Green Plantain/ Cassava/ Boiled Green Bananas",
+     "price": 1200
+    },
+    {
+     "id": "3ff05e4a-21f7-487e-832f-b07103a0115c",
+     "name": "Salami",
+     "description": "Servido Con: Mangu/ Yuca/ Guineos Verdes Served With: Mashed Green Plantain/ Cassava/ Boiled Green Bananas",
+     "price": 1200
+    },
+    {
+     "id": "a59e05c4-4341-4111-8fec-399998f95a99",
+     "name": "Longaniza/ Spanish Sausage",
+     "description": "Servido Con: Mangu/ Yuca/ Guineos Verdes Served With: Mashed Green Plantain/ Cassava/ Boiled Green Bananas",
+     "price": 1200
+    },
+    {
+     "id": "20d2e507-280a-459a-83c5-8b6d96badb45",
+     "name": "Bacalao/ Cod Fish Stew",
+     "description": "Servido Con: Mangu/ Yuca/ Guineos Verdes Served With: Mashed Green Plantain/ Cassava/ Boiled Green Bananas",
+     "price": 1200
+    },
+    {
+     "id": "1df2f0fc-19eb-40d1-bb79-904ed0204065",
+     "name": "Café/ Coffee",
+     "description": "Café Negro o Con Leche/ Black Coffee or With Milk",
+     "price": 300
+    },
+    {
+     "id": "03431a46-2511-42f6-9649-851005e7f17b",
+     "name": "Chocolate Caliente/ Hot Chocolate",
+     "price": 300
+    },
+    {
+     "id": "a43a8b5d-6a65-4634-9663-0f8b725ed770",
+     "name": "Té/ Tea",
+     "price": 300
+    },
+    {
+     "id": "67795b33-afd2-4845-8cba-8ae68e68e188",
+     "name": "Salami, Huevo & Queso/ Salami, Eggs & Cheese",
+     "price": 1700
+    }
+   ]
+  },
+  {
+   "name": "Sándwiches & Hamburguesas/Subs & Burgers",
+   "items": [
+    {
+     "id": "43a00eab-3ea3-43e6-a8fa-a750494ee058",
+     "name": "Club Sandwich/ Chicken Club Sandwich",
+     "description": "Servido con: Lechuga, Tómate, Mayonesa, Ketchup, Cebollas y Papas Fritas. Served With: Lettuce, Tomatoes, Mayonnaise, Ketchup, Onions & French Fries.",
+     "price": 1500
+    },
+    {
+     "id": "6e56e9a6-cb87-40b2-acaa-3667d7d6e598",
+     "name": "Hamburguesa/ Cheese Burger",
+     "description": "Todas las hamburguesas son servida con una porcion de papa fritas. Burgers are served with a side of French fries.",
+     "price": 1200
+    },
+    {
+     "id": "5e56069a-7427-4da7-82bc-cc72ecc243dc",
+     "name": "Sandwich Cubano/ Cuban Sub",
+     "description": "Servido con: Pernil, Lechuga, Tómate, Mayonesa, Ketchup, y Cebolla. Served With: Roasted Pork, Lettuce, Tomatoes, Mayonnaise, Ketchup, & Onions",
+     "price": 1500
+    },
+    {
+     "id": "48a4b767-189b-4dfd-8079-ce365320cca4",
+     "name": "Sandwich De Atún/ Tuna Sub",
+     "description": "Servido con: Lechuga, Tómate, Mayonesa, Ketchup, y Cebolla. Served With: Lettuce, Tomatoes, Mayonnaise, Ketchup, & Onions",
+     "price": 1200
+    },
+    {
+     "id": "f5a4aeb5-b8fe-4a75-aa84-4a1d7f15b16a",
+     "name": "Sandwich De Bistec/ Steak Sub",
+     "description": "Servido con: Lechuga, Tómate, Mayonesa, Ketchup, y Cebolla. Served With: Lettuce, Tomatoes, Mayonnaise, Ketchup, & Onions",
+     "price": 1500
+    },
+    {
+     "id": "f5c7a3a9-ad2e-4eb0-af91-a7940ebd83de",
+     "name": "Sandwich De Bistec/ Steak Sub",
+     "description": "Servido con: Lechuga, Tómate, Mayonesa, Ketchup, y Cebolla. Served With: Lettuce, Tomatoes, Mayonnaise, Ketchup, & Onions",
+     "price": 1500
+    },
+    {
+     "id": "9eddc6ba-0903-44c4-9c4b-e099a8cc5f2d",
+     "name": "Sandwich De Jamón & Queso/ Ham & Cheese Sub",
+     "description": "Servido con: Lechuga, Tómate, Mayonesa, Ketchup, y Cebolla. Served With: Lettuce, Tomatoes, Mayonnaise, Ketchup, & Onions",
+     "price": 1200
+    },
+    {
+     "id": "55a04f76-c033-4b05-b11b-89a7d43b8475",
+     "name": "Sandwich de Pollo a La Plancha/ Grilled Chicken Sandwich",
+     "description": "Servido con Papas Frita/ served with French Fries",
+     "price": 1800
+    },
+    {
+     "id": "62753981-f19f-457b-badf-67506f77f7bb",
+     "name": "Sandwich De Pollo/ Chicken Sub",
+     "description": "Servido con: Lechuga, Tómate, Mayonesa, Ketchup, y Cebolla. Served With: Lettuce, Tomatoes, Mayonnaise, Ketchup, & Onions",
+     "price": 1500
+    },
+    {
+     "id": "3e05b459-c71b-4a04-ab7d-805fc2acc6c0",
+     "name": "Sandwich De Queso/ Cheese Sub",
+     "description": "Servido con: Lechuga, Tómate, Mayonesa, Ketchup, y Cebolla. Served With: Lettuce, Tomatoes, Mayonnaise, Ketchup, & Onions",
+     "price": 1200
+    }
+   ]
+  },
+  {
+   "name": "Mexicanos/ Mexican",
+   "items": [
+    {
+     "id": "6d09a9d0-4061-4d2c-999d-acdd80a031e4",
+     "name": "Burritos/ Burritos",
+     "description": "Servido con: Arroz, Habichuelas, Pico de Gallo, Guacamole, Salsa y Crema. Served With: Rice, Beans, Pico de Gallo, Guacamole, Salsa & Sour Cream.",
+     "price": 1500
+    },
+    {
+     "id": "57708106-04cc-466a-b55b-0b9a0fe3e2d9",
+     "name": "Chimichangas",
+     "description": "Servido con: Arroz, Habichuelas, Pico de Gallo, Guacamole, Salsa y Crema. Served With: Rice, Beans, Pico de Gallo, Guacamole, Salsa & Sour Cream.",
+     "price": 1500
+    },
+    {
+     "id": "0162a9a8-80fa-4284-b822-ab6315c4663d",
+     "name": "Quesadillas",
+     "description": "Servido con: Pico de Gallo, Guacamole, Salsa y Crema. Served With: Pico de Gallo, Guacamole, Salsa & Sour Cream.",
+     "price": 1500
+    },
+    {
+     "id": "b17789ef-83a8-4667-8411-0f07f07f4590",
+     "name": "Tacos",
+     "description": "Tres (3) Tacos Servido con: Lechuga, Tómate, Pico de Gallo, Guacamole, Queso, Crema, Carne de Su Preferencia en Tortillas de Maiz. Three (3) Tacos Served With: Lettuce, Tomatoes, Pico de Gallo, Guacamole, Cheese, Cream, and Meat of Your Preference on a Corn Tortilla.",
+     "price": 1500
+    },
+    {
+     "id": "ac106549-7a0a-4cbd-ba2d-c4ad20a14197",
+     "name": "Nachos",
+     "description": "Servido con: Lechuga, Tómate, Pico de Gallo, Guacamole, Queso, Crema, Carne de Su Preferencia en Tortillas de Maiz. Served With: Lettuce, Tomatoes, Pico de Gallo, Guacamole, Cheese, Cream, and Meat of Your Preference on a Corn Tortilla.",
+     "price": 1500
+    }
+   ]
+  },
+  {
+   "name": "Sopa del Dia/ Soup of The Day",
+   "items": [
+    {
+     "id": "f7c17891-14bd-4399-82c3-579cf9281b31",
+     "name": "Sopa de Pollo/ Chicken Soup",
+     "description": "Servido con: Una Porcion de Arroz Blanco. Served With: A Side of White Rice.",
+     "price": 1500
+    },
+    {
+     "id": "8358b579-78c5-4e24-8fbf-c2195b4bd15b",
+     "name": "Sopa de Mondongo/ Beef Tripe Soup",
+     "description": "Sopa de Mondongo; Pansa de Res Cocida en Caldo de Tomate con Cilantro & Apio. Servida con Una Porcion de Arroz Blanco. Beef Tripe Soup; Cow's Belly Cooked in a Delicious Tomato Broth with Cilantro and Celery. Served with a Portion of White Rice.",
+     "price": 1500
+    },
+    {
+     "id": "ad72220e-7445-4a84-a9f6-ff9c99907284",
+     "name": "Sopa de Pollo/ Chicken Soup",
+     "description": "Servido con: Una Porcion de Arroz Blanco. Served With: A Side of White Rice.",
+     "price": 1500
+    }
+   ]
+  },
+  {
+   "name": "Acompañantes/ Side Orders",
+   "items": [
+    {
+     "id": "41a4c494-83bc-4855-979a-fbcd3c21eb3e",
+     "name": "Aguacate/ Avocado",
+     "price": 500
+    },
+    {
+     "id": "6905a26a-18c8-45c2-9fd3-e9d479af7091",
+     "name": "Arroz Blanco Extra/ Extra White Rice",
+     "price": 500
+    },
+    {
+     "id": "e12dafb6-291a-4877-8bd1-33e52b7247ea",
+     "name": "Bacalao Extra/ Extra Cod Fish",
+     "price": 1200
+    },
+    {
+     "id": "80f5ff0a-4e1b-454c-901e-f8255bd86a08",
+     "name": "Batata Fritas/ Fried Sweet Potatoes",
+     "price": 500
+    },
+    {
+     "id": "bc4f4ca3-ef1f-4be0-a148-b0b7fab6c2d4",
+     "name": "Berengena/ Eggplant",
+     "price": 500
+    },
+    {
+     "id": "470f20ae-6b42-4b44-83da-96bf3a2e5c64",
+     "name": "Cebollitas Fritas/ Onion Rings",
+     "price": 700
+    },
+    {
+     "id": "025c873d-ea4d-4677-a3b4-eb7b86065fe1",
+     "name": "Ensalada De Papa/ Potato Salad",
+     "price": 500
+    },
+    {
+     "id": "792b6caf-0a5c-40a6-8e9d-d125210a0648",
+     "name": "Ensalada Verde Pequeña/ Small Green Salad",
+     "price": 400
+    },
+    {
+     "id": "cd3b949b-b706-418b-a4b4-f16b097e3853",
+     "name": "Espaguetis/ Spaghetti",
+     "price": 500
+    },
+    {
+     "id": "d92a4fc7-ef35-44b1-9d58-82a162c921a0",
+     "name": "Gandules Verdes/ Green Pigeon Peas",
+     "price": 400
+    },
+    {
+     "id": "8a7a68f8-c815-4706-af27-145f3733953f",
+     "name": "Guineos Verdes/ Boiled Green Bananas",
+     "price": 500
+    },
+    {
+     "id": "9fccfaa1-36a4-4b15-8d5c-c3a7792f540f",
+     "name": "Habichuelas Negras Extra/ Extra Black Beans",
+     "price": 400
+    },
+    {
+     "id": "0e3ceba7-9d8b-49e5-98b6-9fedd0e5c1e8",
+     "name": "Habichuelas Rojas Extra/ Extra Red Beans",
+     "price": 400
+    },
+    {
+     "id": "514f3528-8108-4ba5-9ceb-e3176625aae9",
+     "name": "Longaniza/ Spanish Sausage",
+     "price": 600
+    },
+    {
+     "id": "b49c85d6-cf79-46b9-a19a-d23f6e5bf8a0",
+     "name": "Mangú/ Mashed Green Plantain Purée",
+     "price": 500
+    },
+    {
+     "id": "195cd688-cf9b-4f3e-aaf1-a3776f4182d3",
+     "name": "Molondrones/ Okra",
+     "price": 500
+    },
+    {
+     "id": "a02d9c01-1524-4eae-8fc6-02d9aaca1b51",
+     "name": "Monfongo Con Chicharron de Cerdo/ Fried Mashed Green Plantains With Pork",
+     "description": "Mofongo Con Chicharron de Cerdo Adentro, Servido con Ensalada Verde (Lechuga, Tomates & Pepinos). Fried Mashed Green Plantain Stuffed With Fried Pork Rinds, Served with a Garden Salad ( Lettuce, Tomatoes & Cucumbers).",
+     "price": 2600
+    },
+    {
+     "id": "285fbdfb-daf6-4cc6-b956-b917560d7a41",
+     "name": "Moro Extra/ Extra Rice & Beans",
+     "price": 500
+    },
+    {
+     "id": "75d5045b-6b7e-4cae-9f6f-514919709bc8",
+     "name": "Papas Fritas/ French Fries",
+     "price": 500
+    },
+    {
+     "id": "825461b2-e737-455f-8fe3-1fe6de75f436",
+     "name": "Pastelitos/ Patties",
+     "price": 200
+    },
+    {
+     "id": "e54c5109-c267-41ea-9d7f-e32ba34ff793",
+     "name": "Pastelon de Platanos Maduros/ Sweet Plantain Shepherd Pie",
+     "description": "Similiar a Una Lasagna pero Con Capas de Platano Maduros, Carne Molida de Pavo, Y Queso Cheddar. Similar to a Lasagna but Instead is Layered with Sweet Plantains, Ground Turkey Meat, & Cheddar Cheese.",
+     "price": 500
+    },
+    {
+     "id": "881e7254-47dc-4430-a5d3-b7e2df4a96fa",
+     "name": "Platanos Maduros/ Fried Sweet Plantains",
+     "price": 400
+    },
+    {
+     "id": "f5d94707-e288-4c9f-a86e-d6ee1a66b7b3",
+     "name": "Pollo Guisado Extra/ Extra Stew Chicken",
+     "price": 1200
+    },
+    {
+     "id": "66eb5e01-7ec6-49ba-8a59-4812f1712cdb",
+     "name": "Pollo Horneado Extra/ Extra Baked Chicken",
+     "price": 500
+    },
+    {
+     "id": "8ae77c66-3dc7-442a-8f5a-cffaee29752f",
+     "name": "Queso Frito/ Fried Cheese",
+     "price": 600
+    },
+    {
+     "id": "4c7d3727-e47d-4cf5-9b0f-4819b4dca976",
+     "name": "Rabo Guisado Extra/ Extra Oxtails Stew",
+     "price": 1500
+    },
+    {
+     "id": "7ac7e855-803b-49ae-8cec-fb4599f85e04",
+     "name": "Res Guisada Extra/ Extra Beef Stew",
+     "price": 1200
+    },
+    {
+     "id": "79495a28-4e31-4d76-b643-942bc5499a80",
+     "name": "Tostones de Guineos Verdes/ Fried Green Bananas",
+     "price": 500
+    },
+    {
+     "id": "9fc92e94-5d9e-4a69-912c-02efbc380b0a",
+     "name": "Tostones/ Fried Green Plantains",
+     "price": 500
+    },
+    {
+     "id": "91da7b04-8233-46a1-81ab-19695df02dba",
+     "name": "Yuca Frita/ Fried Cassava",
+     "price": 500
+    },
+    {
+     "id": "850e535c-1eca-4fa0-af73-9aa65a4929e2",
+     "name": "Yuca/ Cassava",
+     "price": 500
+    },
+    {
+     "id": "b814fffd-7ce5-4f66-9be4-78883a193c15",
+     "name": "Papas con Tocinetas & Queso/ Bacon Cheese Fries",
+     "description": "Papas Fritas con Tocinetas y queso Derretido/ French fries loaded with melted cheese and bacon.",
+     "price": 800
+    },
+    {
+     "id": "e9657d25-360e-47c9-889f-0a1e196c1f8c",
+     "name": "Spaghetti & Meatballs/ Spaghetti & Albondigas",
+     "price": 800
+    }
+   ]
+  },
+  {
+   "name": "Carnes Fritas/ Fried Meats",
+   "items": [
+    {
+     "id": "b7c44e0d-c842-4ba1-8a6b-aace92001278",
+     "name": "Bistec Encebollado/ Stir Fry Steak with Onions & Peppers",
+     "price": 2000
+    },
+    {
+     "id": "d0b2ce12-efc8-40fc-875c-a33fd6c3beb5",
+     "name": "Chicharron de Cerdo/ Fried Pork Rinds",
+     "price": 1200
+    },
+    {
+     "id": "05f314d3-3b17-4bed-87d6-4b06b2993a9c",
+     "name": "Chicharron de Pollo/ Fried Crispy Chicken",
+     "price": 1700
+    },
+    {
+     "id": "466b891e-cd1f-4000-9ff3-a43edc09ec59",
+     "name": "Chuleta de Cerdo Salteada/ Sauteed Pork Chops",
+     "price": 2000
+    },
+    {
+     "id": "ccae8c11-fef9-4f5a-864f-7f2f9581a3ff",
+     "name": "Chuletas de Cerdo Ahumada/ Smoked Pork Chops",
+     "price": 2000
+    },
+    {
+     "id": "661fa65e-01fb-43ab-8b65-57f0c3dd9bb7",
+     "name": "Chuletas Fritas/ Fried Pork Chops",
+     "price": 2000
+    },
+    {
+     "id": "d2e2c225-d39e-436a-bbf9-f92ff6e180e4",
+     "name": "Churrasco/ Flank Steak",
+     "price": 2500
+    },
+    {
+     "id": "af4fc725-2ccc-47b9-9090-24963039f2ba",
+     "name": "Higado de Res Salteado/ Stir Fry Beef Liver",
+     "price": 2000
+    },
+    {
+     "id": "92e81092-f8dd-46aa-862d-73ff79f43a0d",
+     "name": "Lomo Salteado/ Stir Fry Beef Loin",
+     "description": "Bistec con Papas; Plato Tradicional de Peru. Steak With Fries; Traditional Peruvian Platter.",
+     "price": 2000
+    },
+    {
+     "id": "0d7871b7-d4b8-431e-a927-729c72b52b5a",
+     "name": "Longaniza/ Spanish Sausage",
+     "price": 1200
+    },
+    {
+     "id": "e516bdb3-48c5-414f-93a7-a96f3053d594",
+     "name": "Macita de Cerdo Fritas/ Fried Pork Strips",
+     "price": 1700
+    },
+    {
+     "id": "a5ef8aa6-210a-454f-a46d-38b2cdc1b1ed",
+     "name": "Mini PicaLonga/ Mini Mixed Fried Meats",
+     "price": 1800
+    },
+    {
+     "id": "1eddadae-156b-4e3b-8684-77934f32042d",
+     "name": "Pechuga de Pollo a La Plancha/ Grilled Chicken Breast",
+     "price": 2000
+    },
+    {
+     "id": "5be6f561-e918-4c57-a847-d62950e9b7ee",
+     "name": "Pechurina/ Chicken Tenders",
+     "price": 2000
+    },
+    {
+     "id": "f0a1e30f-1011-4a24-ad19-195dd58a65bb",
+     "name": "PicaLonga/ Mixed Fried Meats",
+     "price": 5100
+    },
+    {
+     "id": "408b1f23-a49c-45ed-a9e1-c3be20de0a95",
+     "name": "Pollitos/ Wings Dings",
+     "price": 1700
+    },
+    {
+     "id": "0f2bfa98-955f-4d2b-885a-d31395bf811f",
+     "name": "Pollo Frito/ Fried Chicken",
+     "price": 1700
+    },
+    {
+     "id": "ddf1c998-a1cf-4973-adf5-c4191268b5d2",
+     "name": "Res Fritas/ Fried Beef Strips",
+     "price": 1700
+    },
+    {
+     "id": "77c086ce-4a6a-44c1-b84e-01b9cee55bc4",
+     "name": "YAROA",
+     "price": 1700
+    }
+   ]
+  },
+  {
+   "name": "Ensaladas/ Salads",
+   "items": [
+    {
+     "id": "d741e451-959a-4cfe-b488-931d92b1fb4a",
+     "name": "Ensalada Verde/ Garden Salad",
+     "description": "Lechugas, Tomates, Ajies, Cebollas & Pepinos. Lettuce, Tomatoes, Bell Peppers, Onions & Cucumbers.",
+     "price": 1000
+    },
+    {
+     "id": "00783f71-c75a-41f9-9d53-06fc4cd8dcf2",
+     "name": "Pollo a La Plancha/ Grilled Chicken",
+     "description": "Lechugas, Tomates, Ajies, Cebollas, Aceitunas & Pepinos. Lettuce, Tomatoes, Bell Peppers, Onions, Olives & Cucumbers.",
+     "price": 2000
+    },
+    {
+     "id": "7f95456a-627d-497f-a41f-7d661a107895",
+     "name": "Atún/ Tuna",
+     "description": "Lechugas, Tomates, Ajies, Aceitunas, Cebollas & Pepinos. Lettuce, Tomatoes, Bell Peppers, Onions, Olives & Cucumbers.",
+     "price": 2000
+    },
+    {
+     "id": "d76dffe5-f5e3-47b1-9542-8e0c17dea82d",
+     "name": "Pulpo a la Vinagreta/ Octopus Vinaigrette",
+     "description": "Lechugas, Tomates, Ajies, Aceitunas, Cebollas & Pepinos. Lettuce, Tomatoes, Bell Peppers, Onions, Olives & Cucumbers.",
+     "price": 2600
+    },
+    {
+     "id": "cbaf6227-364a-4fe6-9abd-3d99f13b28e5",
+     "name": "Lambi (Carrucho)/ Conch",
+     "description": "Lechugas, Tomates, Ajies, Aceitunas, Cebollas & Pepinos. Lettuce, Tomatoes, Bell Peppers, Onions, Olives & Cucumbers.",
+     "price": 2600
+    },
+    {
+     "id": "868aff17-3fbc-4e18-a1d5-eb4392ac4ae9",
+     "name": "Camarones/ Shrimp",
+     "description": "Lechugas, Tomates, Ajies, Aceitunas, Cebollas & Pepinos. Lettuce, Tomatoes, Bell Peppers, Onions, Olives & Cucumbers.",
+     "price": 2600
+    },
+    {
+     "id": "e94be2d7-0cf0-4d16-8115-22f7f9253e90",
+     "name": "Masa de Langosta/ Lobster Meat",
+     "description": "Lechugas, Tomates, Ajies, Aceitunas, Cebollas & Pepinos. Lettuce, Tomatoes, Bell Peppers, Onions, Olives & Cucumbers.",
+     "price": 2600
+    }
+   ]
+  },
+  {
+   "name": "Mariscos/ Seafoods",
+   "items": [
+    {
+     "id": "5dd62158-ed02-4139-81fe-503aa085db55",
+     "name": "Pescado de Rueda/ King Fish Steak",
+     "description": "Solo Una (1) Rueda de Pescado es Servida Por Orden. Only One (1) King Fish Slice Served Per Order.",
+     "price": 2600
+    },
+    {
+     "id": "938c92cd-3e08-45be-9417-ad3731a4ce39",
+     "name": "Salmón/ Salmon",
+     "description": "Servido Solo con Una (1) Pieza de Salmon. Served Only with One (1) Salmon Steak.",
+     "price": 2600
+    },
+    {
+     "id": "258ef6d5-e06a-4644-80d2-c48b09048148",
+     "name": "Camarones/ Shrimp",
+     "price": 2600
+    },
+    {
+     "id": "8e5bfdc2-5e2c-4b00-97d6-594f351b0dc6",
+     "name": "Filete de Langosta/ Lobster Filet",
+     "price": 2600
+    },
+    {
+     "id": "781d638d-d0eb-4af9-a2b1-9c74f282198f",
+     "name": "Lambi (Carrucho)/ Conch",
+     "price": 2600
+    },
+    {
+     "id": "22721a4a-a60a-44b0-94dd-4bdf84b7ab30",
+     "name": "Pulpo/ Octopus",
+     "price": 2600
+    },
+    {
+     "id": "aaa47a7a-55a4-40a1-bea1-36ab58bf3639",
+     "name": "Asopao/ Rice Soup",
+     "description": "Preparación tradicional de República Dominicana, consistente en un arroz caldoso con carne, pescado o marisco y verduras. Es un plato muy popular que admite numerosas variaciones y, aunque es una comida caliente, se consume durante todo el año. Traditional preparation from the Dominican Republic, consisting of a soupy rice with meat, fish or shellfish and vegetables. It is a very popular dish that admits numerous variations and, although it is a hot meal, it is consumed throughout the year.",
+     "price": 2600
+    },
+    {
+     "id": "4f4e62c8-552c-4d00-ac41-33c738213ba9",
+     "name": "Pescado Empanadizado & Papas Fritas/ Fish & Chips",
+     "price": 2600
+    },
+    {
+     "id": "4ec090d3-54b4-47f9-94d4-7b9fe012e039",
+     "name": "Mar & Tierra/ Surf & Turf",
+     "price": 4200
+    }
+   ]
+  },
+  {
+   "name": "Jugos/ Juices",
+   "items": [
+    {
+     "id": "073f0315-ac6e-4289-9446-bc2de5d5f855",
+     "name": "Aguacate/ Avocado",
+     "price": 600
+    },
+    {
+     "id": "79837e99-c4e5-477a-8a06-a1ac105e635c",
+     "name": "Parcha (Chinola, Maracuya)/ Passion Fruit",
+     "price": 600
+    },
+    {
+     "id": "25f45694-ac9a-494a-b7fa-514611b31498",
+     "name": "Fresa/ Strawberry",
+     "price": 600
+    },
+    {
+     "id": "db5bbefb-89a6-49ca-84cc-89315a0a0686",
+     "name": "Guanabana/ Soursop",
+     "price": 600
+    },
+    {
+     "id": "81becf1e-9911-48c6-9782-6128b573fdf3",
+     "name": "Guineo/ Banana",
+     "price": 600
+    },
+    {
+     "id": "f229032d-645b-4feb-9f23-d3e5bea61652",
+     "name": "Lechoza/ Papaya",
+     "price": 600
+    },
+    {
+     "id": "404cd388-7fbc-49d1-88cb-92bff5cf4b91",
+     "name": "Mango",
+     "price": 600
+    },
+    {
+     "id": "24a7415f-493a-4f97-8bb2-f5c0dea80b4d",
+     "name": "Piña/ Pineapple",
+     "price": 600
+    },
+    {
+     "id": "5ef75769-48c7-458e-9ac7-b2befa5822ce",
+     "name": "Zapote/ Mamey",
+     "price": 600
+    },
+    {
+     "id": "8346e7e4-9403-4705-8ff1-5d8b56de271c",
+     "name": "Tres Golpes/ Three Punches",
+     "description": "Zanahoria, Naranjas & Leche. Carrots. Orange & Milk.",
+     "price": 600
+    },
+    {
+     "id": "87448561-3bda-4778-bfbd-65835fc4ed7d",
+     "name": "Morir Soñando/ Orange & Cream",
+     "price": 600
+    },
+    {
+     "id": "0c0cc6b4-19fb-43d4-803e-14006e34b03c",
+     "name": "Naranja/ Orange Juice",
+     "price": 600
+    },
+    {
+     "id": "4370fa3b-f0ed-4dc1-8417-93c41dc9b06d",
+     "name": "Tamarindo/ Tamarind",
+     "price": 600
+    },
+    {
+     "id": "3a9431dc-3fdd-4633-809a-67e0ce85f5cb",
+     "name": "Limonada/Lemonade",
+     "price": 600
+    },
+    {
+     "id": "a84d45e7-d665-40f5-833c-a5852aa41ce3",
+     "name": "Manzana/ Apple Juice",
+     "price": 200
+    },
+    {
+     "id": "1db00a8d-9beb-4753-80ec-f17d49e08e68",
+     "name": "Hot Oatmeal/ Avena Caliente",
+     "price": 300
+    }
+   ]
+  },
+  {
+   "name": "Postres/ Dessert",
+   "items": [
+    {
+     "id": "3d1a2115-2694-49ea-b6ba-252b6235e9fe",
+     "name": "Bizcocho de Chocolate/ Chocolate Cake",
+     "price": 500
+    },
+    {
+     "id": "caa2b2d2-fc23-47eb-a51b-7f48412415db",
+     "name": "Bizcocho de Zanahoria/ Carrot Cake",
+     "price": 500
+    },
+    {
+     "id": "fc1c3920-fd4f-4af1-8f55-320495454e75",
+     "name": "Bizcocho Tres Leche/ Three Milk Cake",
+     "price": 500
+    },
+    {
+     "id": "686e3a5c-dc61-4b33-88a9-bf9e7daaa3c0",
+     "name": "Flan/ Caramel Custard",
+     "price": 500
+    },
+    {
+     "id": "b297ae6b-2ac9-42e1-bde8-ee37d3d4b331",
+     "name": "Habichuelas con Dulce/ Sweet Beans",
+     "price": 500
+    }
+   ]
+  },
+  {
+   "name": "Sodas",
+   "items": [
+    {
+     "id": "34bde59e-179a-45e8-8ef2-f869d324df83",
+     "name": "Coca-Cola",
+     "description": "Coca-Cola's crisp, refreshing taste has stood the test of time since 1886. These carefully crafted soft drinks are meant to be enjoyed anytime, anywhere. Pop open a Coca-Cola soda for a taste experience like no other. The familiar fizz and caffeine create an instant magic moment. Refreshing the world for over 130 years, Coca-Cola brings people together and spreads optimism wherever it goes. Find your magic and make life delicious with an ice-cold Coca-Cola.",
+     "price": 200
+    },
+    {
+     "id": "486ca6e5-62a8-45d5-8dea-b88871fefc1e",
+     "name": "Diet Coke",
+     "description": "Enjoy a break with Diet Coke, the perfect no-sugar, no-calorie companion. With its bold taste and distinctive blend of flavors, Diet Coke is an everyday hero when it comes to refreshing your day. Every sip of Diet Coke delivers the same great taste that's delighted fans for over 40 years. When you want a sugar-free soda that doesn't sacrifice on taste, reach for a Diet Coke.",
+     "price": 200
+    },
+    {
+     "id": "fffd57c9-b47f-41b9-bae6-91ee1890d70b",
+     "name": "Coca-Cola Zero Sugar",
+     "description": "There's nothing quite like the crisp, refreshing taste of an ice-cold Coca-Cola Zero Sugar. With zero sugar and zero calories, you can enjoy the same great Coca-Cola taste anytime, anywhere. This zero-sugar cola's secret formula creates a no-sugar taste experience like no other. The familiar fizz and caffeine refresh with every sip. Make the sweetest moments better (without the sugar), with Coca-Cola Zero Sugar.",
+     "price": 200
+    },
+    {
+     "id": "0c659122-0873-44f6-9f8d-8b14e56d85aa",
+     "name": "Sprite",
+     "description": "Sprite's cool and crisp lemon-lime flavor will keep you invigorated and inspired. You know why? Because Sprite keeps it real just like you when pursuing your passions. No caffeine. Just you, an iconic flavor, and whatever you can think of next.",
+     "price": 200
+    },
+    {
+     "id": "9e4d2eca-b14a-4f27-a486-3442e035fd54",
+     "name": "Agua de Coco/ Coconut Water",
+     "price": 200
+    },
+    {
+     "id": "078856ce-c7ce-419d-a547-02ca7f98683c",
+     "name": "Agua/ Water",
+     "price": 200
+    },
+    {
+     "id": "d0522abf-8d55-4151-87ee-bb8f158a60eb",
+     "name": "Brisk Iced Tea",
+     "price": 200
+    },
+    {
+     "id": "5c2e12f7-493f-49c1-9fba-ad4a5db1e72c",
+     "name": "Cola- Champagne",
+     "price": 200
+    },
+    {
+     "id": "8622f0f8-76c4-4bad-9730-1dde2bfb6262",
+     "name": "Country Club Frambuesa/ Country Club Raspberry",
+     "price": 300
+    },
+    {
+     "id": "4a7adbd2-f221-49cc-8700-56e2dff287f8",
+     "name": "Country Club Merengué/ Country Club Merengue",
+     "price": 300
+    },
+    {
+     "id": "07277a40-3851-41d9-9962-f26cf523b323",
+     "name": "Country Club Naranja/ Country Club Orange",
+     "price": 300
+    },
+    {
+     "id": "7f66ad5e-cbf5-422e-93d7-3544b01dc836",
+     "name": "Country Club Uva/ Country Club Grape",
+     "price": 300
+    },
+    {
+     "id": "efeb7f2e-89cf-4f87-bbb8-43c6f70643d4",
+     "name": "Diet Ginger Ale",
+     "price": 200
+    },
+    {
+     "id": "f194e95e-dc82-432d-82bd-f6ea52a966f8",
+     "name": "Diet Pepsi",
+     "price": 200
+    },
+    {
+     "id": "2b3b37f7-83a5-4fe1-ac19-423e19e3775e",
+     "name": "Fresa/ Strawberry",
+     "price": 200
+    },
+    {
+     "id": "b2a38939-343f-4bb0-a6a9-cb8d2da3f0ae",
+     "name": "Ginger Ale",
+     "price": 200
+    },
+    {
+     "id": "69b6cdf1-86e0-4b65-94e2-071950be0986",
+     "name": "GOYA Guayaba/ GOYA Guava",
+     "price": 200
+    },
+    {
+     "id": "9e4992e1-2be5-4eed-a26f-926d893a4816",
+     "name": "GOYA Mango",
+     "price": 200
+    },
+    {
+     "id": "e22d8d4c-0d6d-4d0d-9590-565676308a0f",
+     "name": "GOYA Parcha Maracuya/ GOYA Passion Fruit",
+     "price": 200
+    },
+    {
+     "id": "eb4b406e-6878-480d-966d-515a0cc58426",
+     "name": "GOYA Pera/ GOYA Pear",
+     "price": 200
+    },
+    {
+     "id": "dcfd102b-3732-46f5-84ee-1247261b8d37",
+     "name": "GOYA Piña/ GOYA Pineapple",
+     "price": 200
+    },
+    {
+     "id": "43b90f38-3378-4ebb-82b5-b311a8ee749f",
+     "name": "GOYA Tamarindo/ GOYA Tamarind",
+     "price": 200
+    },
+    {
+     "id": "2dd80c39-1003-47e8-b895-9db5b6b7588f",
+     "name": "Malta",
+     "price": 200
+    },
+    {
+     "id": "06c1392e-857c-4c77-955a-feb050de0076",
+     "name": "Malta Azúcar de Caña/ Malta Sugarcane",
+     "price": 200
+    },
+    {
+     "id": "1ca69bb7-7afc-4d93-aeda-ddea36011276",
+     "name": "Malta India",
+     "price": 200
+    },
+    {
+     "id": "61565002-fc3c-4ff6-bf77-ce0a6ef580c2",
+     "name": "Mountain Dew",
+     "price": 200
+    },
+    {
+     "id": "91b94a43-b00f-4881-90a0-d8a216a522bb",
+     "name": "Pepsi",
+     "price": 200
+    },
+    {
+     "id": "14f3925e-aa38-4d45-b618-4d15fa03bc76",
+     "name": "Piña/ Pineapple",
+     "price": 200
+    },
+    {
+     "id": "fd8778fb-366d-4a73-9c00-1bd51004d296",
+     "name": "Uva/ Grape",
+     "price": 200
+    }
+   ]
+  },
+  {
+   "name": "Lunes/ Monday",
+   "items": [
+    {
+     "id": "c096668f-e2bf-45ac-9ad7-0c30549ecb68",
+     "name": "Pollo Guisado/ Chicken Stew",
+     "description": "Servido: Arroz Blanco, Habichuelas (Rojas, Negras o Gandules) o Moro. Served: White Rice, Beans (Red Beans, Black Beans or Pigeon Peas) or Mixed Rice & Beans.",
+     "price": 1200
+    },
+    {
+     "id": "33589c47-b99c-437a-96a5-d5bd703ada96",
+     "name": "Pollo Horneado/ Baked Chicken",
+     "description": "Servido: Arroz Blanco, Habichuelas (Rojas, Negras o Gandules) o Moro. Served: White Rice, Beans (Red Beans, Black Beans or Pigeon Peas) or Mixed Rice & Beans.",
+     "price": 1200
+    },
+    {
+     "id": "07e7dba6-551c-4268-a3da-1ea5028b542a",
+     "name": "Res Guisada/ Beef Stew",
+     "description": "Servido: Arroz Blanco, Habichuelas (Rojas, Negras o Gandules) o Moro. Served: White Rice, Beans (Red Beans, Black Beans or Pigeon Peas) or Mixed Rice & Beans.",
+     "price": 1200
+    },
+    {
+     "id": "b4504124-324a-49ee-99b8-77034a1792ea",
+     "name": "Rabo De Vaca Guisado/ Oxtail Stew",
+     "description": "Servido: Arroz Blanco, Habichuelas (Rojas, Negras o Gandules) o Moro. Served: White Rice, Beans (Red Beans, Black Beans or Pigeon Peas) or Mixed Rice & Beans.",
+     "price": 1700
+    },
+    {
+     "id": "1d61dede-08e1-4bbd-a3f7-5809bf32b23f",
+     "name": "Pernil Guisado/ Pork Stew",
+     "description": "Servido: Arroz Blanco, Habichuelas (Rojas, Negras o Gandules) o Moro. Served: White Rice, Beans (Red Beans, Black Beans or Pigeon Peas) or Mixed Rice & Beans.",
+     "price": 1200
+    },
+    {
+     "id": "83b57e0f-ac26-4487-aefc-9d3e71f72465",
+     "name": "Bacalao Guisado/ Cod Fish Stew",
+     "description": "Servido: Arroz Blanco, Habichuelas (Rojas, Negras o Gandules) o Moro. Served: White Rice, Beans (Red Beans, Black Beans or Pigeon Peas) or Mixed Rice & Beans.",
+     "price": 1200
+    },
+    {
+     "id": "3305e44b-6e36-4f5b-b416-8cc5d2c3612b",
+     "name": "Pollo BBQ/ BBQ Chicken",
+     "price": 1200
+    },
+    {
+     "id": "1f4cf27f-6b8b-42a4-a69f-42e01d659ce0",
+     "name": "Patitas de Cerdo Guisada/ Pig Feet Stew",
+     "price": 1200
+    }
+   ]
+  },
+  {
+   "name": "Sopa del Dia",
+   "items": [
+    {
+     "id": "d66f15fc-b201-4a0e-8f08-b899c3b1605a",
+     "name": "Sancocho de Res/ Tropical Beef Soup",
+     "description": "Sancocho de Res es una Sopa que Consite de vegetales como Platano Verde, Yuca, Guineos & Malanga. Servido con una Porcion de Arroz Blanco. Tropical Beef Soup Consist of Vegetables like Green Platains, Cassava, Green Bananas & Malanga. Served with a Portion of White Rice.",
+     "price": 1500
+    },
+    {
+     "id": "6e0e5f77-fe1e-415d-a2cd-c891d0351d17",
+     "name": "Sopa de pollo/ Chicken Soup",
+     "price": 1500
+    },
+    {
+     "id": "9c2ea8d0-d35d-41ac-94c9-6df80553d49d",
+     "name": "Sopa de Mondongo/ Beef Tripe Soup",
+     "description": "Sopa de Mondongo; Pansa de Res Cocida en Caldo de Tomate con Cilantro & Apio. Servida con Una Porcion de Arroz Blanco. Beef Tripe Soup; Cow's Belly Cooked in a Delicious Tomato Broth with Cilantro and Celery. Served with a Portion of White Rice.",
+     "price": 1500
+    }
+   ]
+  }
+ ]
+}

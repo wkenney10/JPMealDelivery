@@ -1,0 +1,113 @@
+{
+ "restaurant": "tonino",
+ "source": "scraped",
+ "platform": "toast",
+ "sourceUrl": "https://order.toasttab.com/online/toninojp",
+ "fetchedAt": "2026-10-05T22:44:55.873Z",
+ "categories": [
+  {
+   "name": "Take-Out",
+   "items": [
+    {
+     "id": "45f36ed5-d182-413d-9a5e-c6cb8d44acad",
+     "name": "Whole Tomato Pie",
+     "description": "Philly-style Tomato Pie. Pecorino Romano, Basil, EVOO, Flaky Salt. Can be made vegan upon request.",
+     "price": 2400
+    },
+    {
+     "id": "23f809f5-56fe-408c-b04e-6cbc08ff1222",
+     "name": "Whole Margherita Pizza",
+     "price": 2800
+    },
+    {
+     "id": "ff68de21-dedd-4178-8c60-93c5d8fd25df",
+     "name": "Whole Pepperoni + Hot Honey Pizza",
+     "description": "8 Slices of Pepperoni + Hot Honey Pizza.",
+     "price": 2800
+    },
+    {
+     "id": "b6686575-198e-4b43-b34c-a46cf62f9e12",
+     "name": "Whole Eggplant + Ricotta Pizza",
+     "price": 2500
+    },
+    {
+     "id": "a47220ad-c418-4f06-a484-46307c3bef81",
+     "name": "Trevisano Salad",
+     "description": "Trevisano chicory, parsley, pickled cipollini onions, pecorino romano, garlic butter breadcrumbs, red wine vinaigrette (dressing contains fish).",
+     "price": 1800
+    },
+    {
+     "id": "4b0814ea-fbe8-4c18-819b-68f5d4af676b",
+     "name": "Mortadella",
+     "description": "thinly shaved mortadella, pecorino, house-pickles *mortadella contains pistachios that cannot be removed",
+     "price": 2000
+    },
+    {
+     "id": "4299771d-8ed1-4bb7-97a7-67c85adcfdcf",
+     "name": "Pizza Bianca",
+     "description": "Our house baked bread. Dips are additional.",
+     "price": 600
+    },
+    {
+     "id": "77b3de34-5a91-4383-8756-627a65daa073",
+     "name": "Tiramisu",
+     "description": "mascarpone, house made lady fingers, amaro, cocoa",
+     "price": 1600
+    }
+   ]
+  },
+  {
+   "name": "Catering",
+   "items": [
+    {
+     "id": "d48cd3e7-51ed-40d2-8611-c69e15c3678c",
+     "name": "Catering: Giardiniera (1 pint)",
+     "description": "One pint of house made giardiniera (the pickles on top of our mortadella plate) *PLEASE NOTE* Catering Orders need 48 hours notice to fulfill. Thank you!",
+     "price": 1800
+    },
+    {
+     "id": "6a14c0f5-504c-410b-97c1-212231b5a503",
+     "name": "Catering: Pizza Bianca (1/4 sheet)",
+     "description": "1/4 sheet tray of pizza bianca (For reference, this is a triple portion of pizza bianca served with our bianca sides. Reheat in a 450F degree oven until exterior is crunchy) *PLEASE NOTE* Catering Orders need 48 hours notice to fulfill. Thank you!",
+     "price": 1000
+    },
+    {
+     "id": "ccff3b31-3d50-461e-a90d-cd594eb82b83",
+     "name": "Catering: Pizza Bianca (1/2 sheet)",
+     "description": "1/2 sheet tray of pizza bianca (For reference, this is a 6X portion of pizza bianca served with our bianca sides. Reheat in a 450F degree oven until exterior is crunchy) *PLEASE NOTE* Catering Orders need 48 hours notice to fulfill. Thank you!",
+     "price": 2000
+    },
+    {
+     "id": "3e36891c-bfab-49fb-b3db-2d55653a98d1",
+     "name": "Catering: Eggplant Caponata (1 pint)",
+     "description": "One pint of eggplant caponata. Pizza bianca not included. *PLEASE NOTE* Catering Orders need 48 hours notice to fulfill. Thank you!",
+     "price": 2000
+    },
+    {
+     "id": "d69ebad4-f3bd-4ab9-9ac9-67a3e5d80e1a",
+     "name": "Catering: Eggplant Caponata (1/2 pint)",
+     "description": "1/2 pint of eggplant caponata. Pizza bianca not included,. *PLEASE NOTE* Catering Orders need 48 hours notice to fulfill. Thank you!",
+     "price": 1000
+    },
+    {
+     "id": "030fbbff-018e-4d6e-9006-b77b41a00255",
+     "name": "Catering: Lemon Whipped Ricotta + Hot Honey (1 pint)",
+     "description": "1 pint of lemon-whipped ricotta with hot + honey. Pizza Bianca not included. *PLEASE NOTE* Catering Orders need 48 hours notice to fulfill. Thank you!",
+     "price": 2400
+    },
+    {
+     "id": "0daeb12b-64f3-483b-8329-309fb64268f0",
+     "name": "Catering: Lemon Whipped Ricotta + Hot Honey (1/2 pint)",
+     "description": "1/2 pint of lemon-whipped ricotta with hot + honey. Pizza Bianca not included. *PLEASE NOTE* Catering Orders need 48 hours notice to fulfill. Thank you!",
+     "price": 1200
+    },
+    {
+     "id": "2563851d-e962-4f6c-be1d-28462eb67885",
+     "name": "Catering: Mortadella Plate (8oz)",
+     "description": "8oz of thinly shaved mortadella, house pickles, shaved pecorino romano, + parsley. (For reference, this is a 2x portion of our normal mortadella plate) *PLEASE NOTE* Catering Orders need 48 hours notice to fulfill. Thank you!",
+     "price": 3000
+    }
+   ]
+  }
+ ]
+}
