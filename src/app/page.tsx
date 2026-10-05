@@ -26,9 +26,9 @@ export default function Home() {
     <div>
       <section className="text-center">
         <p className="smallcaps text-sm text-muted">Dinner delivery in Jamaica Plain</p>
-        <h1 className="mt-2 font-display text-4xl leading-tight sm:text-6xl">The Restaurants of J.P.</h1>
+        <h1 className="mt-2 font-display text-4xl leading-tight sm:text-6xl">Actually Local Delivery</h1>
         <p className="mx-auto mt-3 max-w-xl font-serif text-lg italic text-muted">
-          Orders taken until four o&apos;clock, delivered to your door between five and nine.
+          Orders taken until four o&apos;clock for delivery at the time you choose that evening. Delivery from 02130 restaurants to 02130 addresses.
         </p>
         <p className="mt-5 inline-block border-y border-ink px-4 py-1.5 text-sm">
           {beforeCutoff ? (
