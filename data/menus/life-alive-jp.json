@@ -1,0 +1,926 @@
+{
+ "restaurant": "life-alive-jp",
+ "source": "scraped",
+ "platform": "menuapp",
+ "sourceUrl": "https://order.lifealive.com/venue/?id=1691&order-type=6",
+ "fetchedAt": "2026-10-05T17:06:32.445Z",
+ "categories": [
+  {
+   "name": "New & Seasonal",
+   "items": [
+    {
+     "id": "599d1673-4dbb-4442-b6a4-556fe2be79c7",
+     "name": "All-Day Breakfast Burrito",
+     "description": "Scrambled eggs, roasted russet potato, avocado, lentil taco crumble, cheddar cheese and chili crisp aioli pressed in a whole wheat tortilla. Contains wheat, milk, eggs, sesame, allium & soy. NF",
+     "price": 1450
+    },
+    {
+     "id": "f682b26a-f9e2-4f52-938a-8923c88fd5ba",
+     "name": "Autumn Falafel",
+     "description": "Crispy baked falafel, roasted butternut squash, brussels sprouts & carrots, kale, crispy chickpeas, black lentils & brown rice with lemon tahini Contains sesame, allium and soy. VG, DF, GF, NF",
+     "price": 1525
+    },
+    {
+     "id": "4df8cb1b-85ed-41fe-921a-bb5997161b99",
+     "name": "Cookie Butter Protein Shake",
+     "description": "Housemade cookie butter, banana, coconut gelato, vanilla whey protein powder, dates and coconut milk topped with chocolate cookie crumble and a chocolate drizzle. Contains milk and coconut. GF, SF",
+     "price": 1125
+    },
+    {
+     "id": "c47d0b43-f1c4-48e4-bd49-81136257a5ee",
+     "name": "Creamy Cauliflower",
+     "description": "A velvety cauliflower and russet potato soup with lemon & chickpea parmesan. Contains allium. VG, GF, DF, NF, SF",
+     "price": 795
+    },
+    {
+     "id": "3797fabc-78cd-4a9c-99ac-d0025e19a3d8",
+     "name": "Smoky Chipotle Chili",
+     "description": "Smoky chipotle chili with chickpeas, black beans, cannellini beans, green & red peppers topped with sweet corn, pickled onion and scallions. Contains allium. VG, DF, GF, NF, SF",
+     "price": 795
+    },
+    {
+     "id": "1c8c8956-05fe-4597-a905-77105bde3030",
+     "name": "Red Lentil Curry",
+     "description": "Curried red lentils with coconut cream, tomatoes, spinach and ginger topped with pickled cabbage & lemon. Contains coconut and allium. VG, GF, DF, SF.",
+     "price": 795
+    },
+    {
+     "id": "2d0c5bcd-b995-43ed-bb24-b8317c7cc394",
+     "name": "Butternut Bisque",
+     "description": "Roasted butternut squash, green apple, cinnamon & nutmeg topped with scallions Contains coconut and allium. VG, DF, GF, SF",
+     "price": 795
+    },
+    {
+     "id": "c13662c3-2a92-4948-b7e4-60245e0fb3af",
+     "name": "Greek Yogurt Parfait",
+     "description": "Greek yogurt layered with strawberries, blueberries, house granola and housemade strawberry syrup. Contains milk. GF, NF, SF",
+     "price": 895
+    },
+    {
+     "id": "4e368464-07ed-489d-9a7e-e6d79ee2b4d3",
+     "name": "Organic Fruit Cup",
+     "description": "Fresh-cut strawberries, watermelon, pineapple and blueberries. VG, GF, DF, NF, SF.",
+     "price": 795
+    },
+    {
+     "id": "0555121e-5d82-4c28-aab6-ee0b12ef0112",
+     "name": "Hot Chocolate",
+     "description": "Chocolate sauce & steamed oat milk. VG, DF, GF, NF, SF.",
+     "price": 650
+    },
+    {
+     "id": "4ad4afae-7acd-4055-aa96-8b3b8557179c",
+     "name": "Iced Butternut Spice Latte",
+     "description": "Espresso, roasted butternut squash, cinnamon, nutmeg, ginger, agave & oat milk. VG, DF, GF, NF, SF",
+     "price": 675
+    },
+    {
+     "id": "cd836b57-1631-4a77-aa3c-5db66056fe1d",
+     "name": "Iced Cherry Blossom Matcha",
+     "description": "Iced matcha, raspberry rose syrup & oat milk topped with dried rose petals. VG, DF, GF, NF, SF.",
+     "price": 685
+    },
+    {
+     "id": "22dbf4bb-7595-46db-bbd7-e52416561c5f",
+     "name": "Hot Butternut Spice Latte",
+     "description": "Espresso, roasted butternut squash, cinnamon, nutmeg, ginger, agave & oat milk. VG, DF, GF, NF, SF",
+     "price": 675
+    },
+    {
+     "id": "369ac4fd-5808-4160-af27-05843395915e",
+     "name": "Winter Herbal Tea",
+     "description": "Hot tea with rosemary, lemon, turmeric, cinnamon & maple. VG, DF, GF, NF, SF",
+     "price": 445
+    },
+    {
+     "id": "1afd8e77-3e74-4e98-93e5-6046637e36d4",
+     "name": "Banana Bread Matcha",
+     "description": "Iced matcha, banana, cinnamon, maple and vanilla with oat milk. VG, GF, DF, NF, SF.",
+     "price": 725
+    }
+   ]
+  },
+  {
+   "name": "Warm Grain Bowls",
+   "items": [
+    {
+     "id": "e9504c37-e4e3-4b76-a94c-4504bb8022ea",
+     "name": "Coconut Red Lentil Dal",
+     "description": "Coconut red lentil curry, curry tofu, roasted cauliflower, cucumber raita, pickled cabbage, crispy chickpeas, roasted pumpkin & sunflower seeds, cilantro, brown rice & lentils. Contains coconut and soy. VG, DF, GF",
+     "price": 1545
+    },
+    {
+     "id": "a33df09f-fb87-4552-b2b9-66a65d11193f",
+     "name": "Golden Glow",
+     "description": "Slow-roasted white sweet potato, carrots & cauliflower, mushrooms, broccoli, beets, kale, crispy chickpeas, toasted sunflower & pumpkin seeds, fresh herbs, brown rice & quinoa with golden tahini. Contains sesame, allium and soy. VG, GF, DF, NF",
+     "price": 1525
+    },
+    {
+     "id": "0461d950-2895-428c-acb5-0ca83bcf48b4",
+     "name": "Roasted Mushroom Shawarma",
+     "description": "Mushroom shawarma with caramelized onions, hummus, black lentils & brown rice, roasted cauliflower, mediterranean salad, shaved vegetables, crispy chickpeas and fresh herbs with harissa zhoug & lemon tahini sauces and whole grain pita. Contains wheat, sesame and allium. VG, DF, NF, SF",
+     "price": 1495
+    },
+    {
+     "id": "3064d44d-b486-4223-be3f-76b69cfa0b02",
+     "name": "Roasted Mushroom Shawarma",
+     "description": "Mushroom shawarma, hummus, black lentils & brown rice, roasted carrots, mediterranean salad, shaved vegetables, crispy chickpeas and fresh herbs with harissa zhoug & lemon tahini sauces, and whole grain pita. Contains wheat, sesame and allium. VG, DF, NF, SF",
+     "price": 1450
+    },
+    {
+     "id": "b749fe94-f85d-4ca5-9767-ae0c1369922b",
+     "name": "Chili Garlic Mushroom Bibimbap",
+     "description": "Sticky sesame tofu, chili garlic mushrooms with caramelized onions, broccoli, beets, carrots, kale, spicy kimchi, brown rice & quinoa, sesame ginger and garlic gochujang sauces, topped with a fried egg. Contains egg, sesame, allium and soy. DF, GF, NF",
+     "price": 1475
+    },
+    {
+     "id": "feb6fc77-f0b9-4e96-9ac7-bd8f24977af2",
+     "name": "Miso Eggplant & Crispy Rice",
+     "description": "Caramelized miso eggplant with crispy rice, sticky sesame tofu, shiitake & oyster mushrooms, broccoli, shaved vegetables, scallions, with brown rice, chili miso & sesame ginger sauces. Contains sesame, soy and allium. VG, GF, DF, NF.",
+     "price": 1475
+    },
+    {
+     "id": "c09d4059-219a-4b9e-b656-60ae43bc9055",
+     "name": "Teriyaki Tofu",
+     "description": "Sticky sesame tofu, broccoli, chili garlic mushrooms with caramelized onions, carrots, black sesame, scallions, brown rice and teriyaki sauce. Contains sesame, soy and allium. VG, GF, DF, NF",
+     "price": 1450
+    },
+    {
+     "id": "42cf36c4-8128-4517-a859-560f6667de93",
+     "name": "Teriyaki Tofu",
+     "description": "Teriyaki glazed tofu with broccoli, roasted mushrooms, carrots, black sesame, scallions and brown rice. Contains sesame, soy and allium. VG, GF, DF, NF",
+     "price": 1440
+    },
+    {
+     "id": "f8e8f64c-3e31-4632-8936-3cc28e00ca9a",
+     "name": "Buddha Bowl",
+     "description": "Avocado, beets, kale, shiitake & oyster mushrooms, purple cabbage, jalapeño, toasted pumpkin & sunflower seeds, fresh herbs, brown rice & quinoa with ginger tamari sauce. Contains soy and allium. VG, DF, GF, NF",
+     "price": 1450
+    },
+    {
+     "id": "b0dbece0-7d4f-4025-87d0-52f826e1cdcd",
+     "name": "Green Goddess",
+     "description": "Avocado, broccoli & kale with tofu, brown rice and ginger tamari sauce. Contains soy and allium. VG, DF, GF, NF",
+     "price": 1425
+    },
+    {
+     "id": "6bb7a9b9-264d-4ebc-bc3c-1a05cbe6c55d",
+     "name": "Avocado Sol",
+     "description": "Half avocado, sweet corn, tomato, purple cabbage, jalapeño, tamari almonds, cilantro brown rice & black beans with salsa verde. Contains almonds, soy and allium. VG, DF, GF",
+     "price": 1425
+    },
+    {
+     "id": "aab3cb46-b580-408e-80c5-13ab1904ebb7",
+     "name": "Adventurer",
+     "description": "Beets, broccoli, kale, sweet corn, tofu and tamari almonds with quinoa & brown rice, white cheddar, sesame & ginger tamari sauces. Contains almonds, milk, sesame, allium and soy. GF",
+     "price": 1425
+    },
+    {
+     "id": "26fa1068-603c-41d5-9137-db1caf68b984",
+     "name": "Rainbow Harvest",
+     "description": "Whipped sweet potato, beets, carrots, broccoli, kale, tofu & brown rice with ginger tamari sauce. Contains soy, allium and coconut. VG, DF, GF",
+     "price": 1395
+    },
+    {
+     "id": "7d7ad0f4-a2bc-459a-8abc-c4a7968b9202",
+     "name": "The Emperor",
+     "description": "Tofu, sweet corn, carrots, sun-dried tomatoes, kale & cheddar rice with red miso sauce. Contains milk, sesame, allium and soy. GF, NF",
+     "price": 1395
+    },
+    {
+     "id": "ce382918-96c0-4514-bd0b-180be0ea2646",
+     "name": "Innocent",
+     "description": "Broccoli, carrots, sweet corn, tamari almonds, kelp nutritional yeast, quinoa & brown rice with ginger tamari sauce Contains almonds, allium and soy. VG, DF, GF",
+     "price": 1395
+    },
+    {
+     "id": "5ad4a716-a4e5-4c19-8803-b8edf1acc85d",
+     "name": "Golden Buddha",
+     "description": "Slow-roasted white sweet potato, carrots & cauliflower, mushroom shawarma, broccoli, beets, kale, crispy chickpeas, toasted sunflower & pumpkin seeds, fresh herbs, brown rice & quinoa with golden tahini. Contains sesame, soy and allium. VG, GF, DF, NF",
+     "price": 1495
+    },
+    {
+     "id": "10d821a5-7b6d-4ee3-91d2-32576c0a9caf",
+     "name": "Swami",
+     "description": "Broccoli, carrots, onions, kale, tamari almonds & raisins with curry brown rice and sweet red miso sauce. Contains almonds, soy, sesame and allium. VG, DF, GF",
+     "price": 1395
+    }
+   ]
+  },
+  {
+   "name": "Salads",
+   "items": [
+    {
+     "id": "b6fe073e-6c06-4b84-ba4b-659da2dc203d",
+     "name": "Thai Peanut Power",
+     "description": "Edamame, quinoa, sticky sesame tofu, kale, cucumber, red bell pepper, shaved vegetables, tamari almonds, peanut lime & sesame ginger dressings. Contains peanuts, almonds, sesame, allium and soy. VG, DF, GF.",
+     "price": 1495
+    },
+    {
+     "id": "b90f9f96-b74a-4e7c-8535-f00cc10bc590",
+     "name": "Market Mediterranean",
+     "description": "Crispy baked falafel, hummus, marinated & crispy chickpeas, cucumber, tomato, feta, kalamata olives, pickled onion, fresh herbs, shaved vegetables, baby lettuces & romaine hearts with greek vinaigrette & lemon tahini dressing. Sauce served on the side. Contains milk, sesame and allium. GF, NF, SF",
+     "price": 1450
+    },
+    {
+     "id": "bd1c4207-df12-4c2b-9ff2-4f771fb61e65",
+     "name": "Mighty Greens",
+     "description": "Warm spinach feta fritters, marinated white beans & edamame, broccoli, baby lettuces, romaine hearts, feta, crispy chickpeas, fresh herbs and chickpea parmesan with basil green goddess dressing. Sauce served on the side. Contains egg, milk, allium and soy. GF, NF",
+     "price": 1450
+    },
+    {
+     "id": "f6c74a5c-3452-4c9f-9486-23b1fc8aae02",
+     "name": "Avocado Greens",
+     "description": "Everything-encrusted avocado, cucumber, sweet corn, pickled onion, kalamata olives, crispy chickpeas, feta, shaved vegetables, baby lettuces, romaine hearts & basil green goddess dressing. Sauce served on the side. Contains milk sesame, allium and soy. GF, NF",
+     "price": 1425
+    },
+    {
+     "id": "1eedc21b-99b7-4f5e-b6d0-d4f52811b32e",
+     "name": "Farmhouse Cobb",
+     "description": "Avocado, hard-boiled egg, smoked blue cheese, tomato, sweet corn, celery, shaved vegetables, baby lettuces, romaine hearts and tamari almonds with red wine dijon vinaigrette. Sauce served on the side. Contains almonds, egg, milk and soy. GF",
+     "price": 1450
+    },
+    {
+     "id": "ff98ceb6-43f3-41d7-9dfd-e1da9466b4bd",
+     "name": "Mexicali Tostada",
+     "description": "Avocado, lentil taco crumble, black beans, sweet corn, tomato, shaved vegetables, baby lettuces, romaine hearts and crispy tortilla with chipotle lime aioli & jalapeño ranch dressing. Sauce served on the side. Contains coconut, allium and soy. VG, GF, DF",
+     "price": 1395
+    },
+    {
+     "id": "5b8cd64b-fb85-459b-a8c9-045a5873c585",
+     "name": "Greek Tahini",
+     "description": "Cucumber, tomato, feta, kalamata olives, hummus & tahini, shredded carrots, pickled onion, crispy chickpeas with baby lettuces, romaine hearts and greek vinaigrette. Sauce served on the side. Contains milk, sesame and allium. GF, NF, SF.",
+     "price": 1375
+    },
+    {
+     "id": "889e5694-2a23-4bb7-8e58-96802b4d28f9",
+     "name": "L.A. Caesar",
+     "description": "Kale and romaine hearts with whole grain croutons, chickpea parmesan and caesar dressing. Contains milk, wheat, allium and soy. NF",
+     "price": 1195
+    }
+   ]
+  },
+  {
+   "name": "Handhelds",
+   "items": [
+    {
+     "id": "3cbc96bb-e681-4b0f-a9cb-b434ca30e6d6",
+     "name": "1/2 Pita & Soup",
+     "description": "Your choice of 1 Seasonal Soup and a 1/2 Pita Sandwich.",
+     "price": 1495
+    },
+    {
+     "id": "d8698bf1-a0ad-455b-9489-235e57a1d88d",
+     "name": "Crispy Falafel Pita",
+     "description": "Crispy baked falafel with hummus, mediterranean salad, shaved vegetables, fresh herbs, harissa zhoug & lemon tahini sauces in a whole grain pita. Cannot be made wheat-free. Contains wheat, sesame and allium. VG, DF, NF, SF",
+     "price": 1425
+    },
+    {
+     "id": "8f644308-70bb-4fb2-8492-28fafa4e1100",
+     "name": "Teriyaki Wrap",
+     "description": "Teriyaki glazed tofu, roasted shiitake & oyster mushrooms, broccoli, carrots, black sesame seeds, scallions and brown rice in a whole wheat tortilla. Cannot be made wheat free. Contains wheat, sesame, allium and soy. VG, DF, NF",
+     "price": 1450
+    },
+    {
+     "id": "3f7dfd88-50ab-40a5-8563-0cbdb73f4df4",
+     "name": "Teriyaki Wrap",
+     "description": "Sticky sesame tofu, broccoli, chili garlic mushrooms with caramelized onions, carrots, black sesame, scallions, brown rice and teriyaki sauce in a whole wheat tortilla. Cannot be made wheat free. Contains wheat, sesame, allium and soy. VG, DF, NF",
+     "price": 1450
+    },
+    {
+     "id": "7dbe5838-7626-43d5-8861-7499159d6512",
+     "name": "Mediterranean Chickpea",
+     "description": "Hummus & crispy chickpeas with feta, cucumber, tomato, shaved vegetables, fresh herbs, pickled onions, kalamata olives, baby lettuces, romaine hearts and tahini dressing in a whole wheat tortilla. Cannot be made wheat free. Contains wheat, milk, sesame and allium. NF, SF",
+     "price": 1425
+    },
+    {
+     "id": "2020ba4c-cf7e-4d03-9ed3-7cd239dfbc9d",
+     "name": "Mushroom Shawarma Pita",
+     "description": "Roasted mushroom shawarma with caramelized onions, hummus, mediterranean salad, shaved vegetables, fresh herbs, harissa zhoug & lemon tahini sauces in a whole grain pita. Cannot be made wheat-free. Contains wheat, sesame and allium. VG, DF, NF, SF",
+     "price": 1425
+    },
+    {
+     "id": "a7109e94-0c48-42a7-bdf8-d24efc4493b8",
+     "name": "Rainbow Nori Wrap",
+     "description": "Nori rolled with avocado, chili garlic mushrooms with caramelized onions, cucumber, shaved vegetables, pickled onions and brown rice with sesame ginger dressing and tamari dipping sauce. Contains sesame, allium and soy. VG, DF, GF, NF",
+     "price": 1395
+    },
+    {
+     "id": "d537ffdb-ce1d-46bb-bc71-ba9732c7281c",
+     "name": "Hot & Healthy Bachelor",
+     "description": "Melted white cheddar, hard boiled egg, broccoli, kale, Braggs & nutritional yeast in a whole wheat tortilla. Cannot be made wheat free. Contains egg, milk, wheat and soy. NF",
+     "price": 1350
+    },
+    {
+     "id": "d9a2e1c5-68b2-4f58-b355-227331632a77",
+     "name": "Romantic",
+     "description": "Melted white cheddar, avocado, broccoli, garlic, Braggs & nutritional yeast in a whole wheat tortilla. Cannot be made wheat free. Contains milk, wheat, allium and soy. NF.",
+     "price": 1350
+    },
+    {
+     "id": "d3764f95-7349-4873-83cc-b510f0c6c6ab",
+     "name": "L.A. Caesar Wrap",
+     "description": "Kale and romaine hearts with whole grain croutons, chickpea parmesan and caesar dressing in a whole wheat tortilla. Contains milk, wheat, allium and soy. NF",
+     "price": 1195
+    }
+   ]
+  },
+  {
+   "name": "Noodles",
+   "items": [
+    {
+     "id": "e51346a5-3abc-47d4-808e-d1327e17d1db",
+     "name": "Shiitake Udon",
+     "description": "Miso broth with shiitake & oyster mushrooms, sweet potato, broccoli, shaved vegetables, scallions, hard boiled egg & udon noodles. Contains egg, wheat, allium and soy. DF. NF",
+     "price": 1475
+    },
+    {
+     "id": "c00e4ce2-2953-4169-84e3-de9e197641b6",
+     "name": "Miso Tofu Ramen",
+     "description": "Miso broth with sticky sesame tofu, chili garlic mushrooms with caramelized onions, shaved vegetables, scallions, spicy kimchi & ramen noodles. Contains wheat, sesame, soy and allium. VG, DF, NF",
+     "price": 1475
+    },
+    {
+     "id": "55ff239c-bf4f-4429-a904-5020a6dc4e11",
+     "name": "Blonde Miso",
+     "description": "Miso broth with broccoli, shiitake & oyster mushrooms, shaved vegetables, spicy kimchi, scallion, hard boiled egg & udon noodles. Contains egg, wheat, allium and soy. DF, NF",
+     "price": 1475
+    },
+    {
+     "id": "25517578-31db-49ff-9150-0486a62ff9b4",
+     "name": "Chili Garlic Noodles",
+     "description": "Chili garlic mushrooms with caramelized onions, broccoli, spicy kimchi, shredded carrots, scallions, black sesame seeds & ramen noodles with garlic gochujang sauce. Contains wheat, sesame, soy and allium. VG, DF, NF.",
+     "price": 1425
+    },
+    {
+     "id": "21ec30e5-ddb2-4a7c-8bab-3147f7816ea0",
+     "name": "Spicy Peanut Noodles",
+     "description": "Sticky sesame tofu, shaved vegetables, jalapeño, black sesame seeds, peanut crumble & ramen noodles with peanut lime sauce. Contains peanuts, wheat, sesame, soy and allium. VG, DF",
+     "price": 1425
+    },
+    {
+     "id": "f302ba74-870d-41bd-aa05-a23eb6606ff9",
+     "name": "Fool II",
+     "description": "Tofu, kale, shiitake & oyster mushrooms, onion, shredded carrots, lemon, scallion & udon noodles with sesame ginger sauce. Contains wheat, sesame, allium and soy. VG, DF, NF",
+     "price": 1395
+    }
+   ]
+  },
+  {
+   "name": "Soups",
+   "items": [
+    {
+     "id": "a15c6fff-afec-40fa-bb34-433407ecc71a",
+     "name": "Greek Lemon and Rice",
+     "description": "A rich, savory lemon broth with brown rice, egg, carrots, onions & celery. Contains egg and allium. DF, GF, NF, SF.",
+     "price": 795
+    }
+   ]
+  },
+  {
+   "name": "Small Bites",
+   "items": [
+    {
+     "id": "3a198fbe-0a4c-4598-b43b-f3114880901b",
+     "name": "Hummus & Pita Plate",
+     "description": "Hummus with lemon tahini, cucumber, kalamata olives, fresh herbs, crispy chickpeas and warm whole grain pita. Make it wheat free by removing the pita. Contains wheat, sesame and allium. VG, DF, NF, SF",
+     "price": 895
+    },
+    {
+     "id": "22b4aea0-4530-42cc-b10e-53be031258e5",
+     "name": "Crispy Baked Falafel",
+     "description": "5 crispy baked falafel with lemon tahini dipping sauce. Contains sesame and allium. VG, DF, GF, NF, SF.",
+     "price": 650
+    },
+    {
+     "id": "488b1bb2-0545-4d69-87c7-284592d48b0c",
+     "name": "Slow Roasted White Sweet Potato",
+     "description": "5 pieces of slow roasted white sweet potato with golden tahini dipping sauce. Contains sesame. VG, DF, GF, NF, SF.",
+     "price": 650
+    },
+    {
+     "id": "8bcdb8f6-d4d5-4ef2-a202-93aee98fed31",
+     "name": "Sticky Sesame Tofu Skewers",
+     "description": "4 sticky sesame tofu skewers with spicy peanut lime dipping sauce. Contains peanuts, sesame, allium and soy. VG, DF, GF.",
+     "price": 650
+    },
+    {
+     "id": "72972df6-6c08-44d3-853c-e8a1265e9a3e",
+     "name": "Spinach Feta Fritters",
+     "description": "5 spinach feta fritters with basil green goddess dipping sauce. Contains milk, eggs, allium and soy. GF, NF.",
+     "price": 650
+    },
+    {
+     "id": "a940b06f-96fd-449b-b1ef-6c8afba8d22b",
+     "name": "Avocado Toast",
+     "description": "Avocado with lemon, chili flakes, sea salt & alfalfa sprouts on a whole grain muffin Cannot be made wheat free. Contains wheat and soy. VG, DF, NF",
+     "price": 925
+    },
+    {
+     "id": "66b450fa-9fb0-41da-aec6-684a294db398",
+     "name": "Quesadilla",
+     "description": "Melted white cheddar & nutritional yeast pressed in a whole wheat tortilla. Cannot be made wheat free. Contains wheat and milk. NF, SF",
+     "price": 825
+    }
+   ]
+  },
+  {
+   "name": "Kids Menu",
+   "items": [
+    {
+     "id": "076ab068-7e25-40e0-b189-791f548301ba",
+     "name": "Teriyaki Noodles",
+     "description": "Udon noodles, broccoli, carrots & sesame seeds with teriyaki and ginger tamari sauces. Contains wheat, sesame, allium and soy. VG, DF, NF",
+     "price": 895
+    },
+    {
+     "id": "01921b81-af9a-471b-9840-8611575fd63b",
+     "name": "Lil' Adventurer",
+     "description": "Cheesy brown rice, broccoli & carrots with ginger tamari sauce and lemon vinaigrette. Contains milk, allium and soy. GF, NF",
+     "price": 795
+    },
+    {
+     "id": "6e709b09-a3ef-4027-96d1-38e5e8a8b85a",
+     "name": "Kids Quesadilla",
+     "description": "Melted white cheddar pressed in a whole wheat tortilla with a side of salsa verde. Contains milk, wheat and allium. NF, SF.",
+     "price": 825
+    }
+   ]
+  },
+  {
+   "name": "Smoothies",
+   "items": [
+    {
+     "id": "71d311d4-21b3-462a-921a-7f4ff9e2a063",
+     "name": "Peanut Butter Power",
+     "description": "A protein-powered blend of banana, raw cacao, peanut butter, plant protein powder, dates, coconut milk. Contains peanuts and coconut. VG, DF, GF, SF",
+     "price": 1075
+    },
+    {
+     "id": "2e29f0fd-f6f7-485b-b2c4-61275dbb08fd",
+     "name": "PB&J Powerhouse",
+     "description": "A protein-powered blend of blueberry, banana, peanut butter, NOBULL vanilla whey protein powder, dates and blueberry jam. Contains peanuts and milk. GF, SF",
+     "price": 1075
+    },
+    {
+     "id": "c3b23f20-0d0d-4c04-8d3c-b466373290d4",
+     "name": "Tahini Date Shake",
+     "description": "Banana, tahini, dates, cinnamon, maple, vanilla, topped with chocolate halva. Contains sesame. VG, DF, GF, NF, SF",
+     "price": 1045
+    },
+    {
+     "id": "fb483f7f-7b2f-4bcc-9cfd-9f56d0447e27",
+     "name": "Super Greens",
+     "description": "Mango, pineapple, orange juice, kale, avocado, banana, ginger, spirulina, coconut milk. Contains coconut. VG, DF, GF, SF",
+     "price": 1045
+    },
+    {
+     "id": "b7649e17-5d57-40ef-9c41-67da7b07dd04",
+     "name": "Elvis",
+     "description": "Peanut butter, banana, raw cacao, coconut gelato, coconut milk Contains peanuts and coconut. VG, DF, GF, SF",
+     "price": 1025
+    },
+    {
+     "id": "36c6e571-f5e5-4211-9801-c05331afab53",
+     "name": "Strawberry Bliss",
+     "description": "Strawberry, banana, dates, coconut yogurt, coconut milk, strawberry syrup topped with freeze-dried strawberries. Contains coconut. VG, DF, GF, SF",
+     "price": 1025
+    },
+    {
+     "id": "2de93303-d80f-4d97-abc8-44bd2759c52a",
+     "name": "Blue Breeze",
+     "description": "Blue spirulina, mango, pineapple, banana, chia and hemp seeds, coconut yogurt, coconut milk. Contains coconut. VG, DF, GF, SF",
+     "price": 995
+    },
+    {
+     "id": "ed199013-2245-4ec9-8416-c993f608281a",
+     "name": "Love Child",
+     "description": "Strawberry, blueberry, banana, chia, dates, coconut milk. Contains coconut. VG, DF, GF, SF",
+     "price": 995
+    },
+    {
+     "id": "2fa1b134-4715-4b0b-a9d8-7180c173c181",
+     "name": "Tropical Sunrise",
+     "description": "Mango, pineapple, cold-pressed turmeric, strawberry, dates, watermelon juice. VG, DF, GF, NF, SF",
+     "price": 965
+    },
+    {
+     "id": "9c588c2e-7ef3-4a68-a4f3-4ba449456a90",
+     "name": "Sunrise Surge",
+     "description": "An endurance-boosting blend of mango, pineapple, strawberry, carrots, dates and watermelon with hydrating coconut water and a beet ginger swirl. Contains coconut. VG, DF, GF, SF",
+     "price": 1025
+    }
+   ]
+  },
+  {
+   "name": "Espresso",
+   "items": [
+    {
+     "id": "dad7a1dc-c5bc-49e8-923e-fc40e264d3d5",
+     "name": "Iced Vanilla Tahini Latte",
+     "description": "Espresso, tahini, maple, vanilla, cinnamon, oat milk. Contains sesame. VG, DF, GF, NF, SF.",
+     "price": 645
+    },
+    {
+     "id": "5aea517e-72d6-42c3-9395-7e0b77218685",
+     "name": "Hot Vanilla Tahini Latte",
+     "description": "Espresso, tahini, maple, vanilla, cinnamon, oat milk. Contains sesame. VG, DF, GF, NF, SF.",
+     "price": 645
+    },
+    {
+     "id": "98b1341f-2648-4b8c-9d18-24ed87c59087",
+     "name": "Hot Caramel Sea Salt Latte",
+     "description": "Espresso, date caramel, sea salt, oat milk. VG, DF, GF, NF, SF",
+     "price": 645
+    },
+    {
+     "id": "6e3d1b4b-3f86-4918-8162-bdf51370df45",
+     "name": "Iced Caramel Sea Salt Latte",
+     "description": "Espresso, date caramel, sea salt, oat milk. VG, DF, GF, NF, SF",
+     "price": 645
+    },
+    {
+     "id": "c0871018-0803-46bc-bb7e-5717b5676e59",
+     "name": "Iced Mocha Latte",
+     "description": "Espresso, oat milk & chocolate. VG, GF, DF, NF, SF",
+     "price": 625
+    },
+    {
+     "id": "12d0c0ee-597a-4cc6-ae44-5dd83a7d214a",
+     "name": "Hot Mocha Latte",
+     "description": "Espresso, oat milk & chocolate. VG, GF, DF, NF, SF",
+     "price": 625
+    },
+    {
+     "id": "bb30d888-077a-4ee9-aea5-1ef55662ed19",
+     "name": "Iced Vanilla Latte",
+     "description": "Espresso, oat milk & vanilla. VG, GF, DF, NF, SF",
+     "price": 595
+    },
+    {
+     "id": "e97dc681-f6a4-43ef-a83b-615bddf472a7",
+     "name": "Hot Vanilla Latte",
+     "description": "Espresso, oat milk & vanilla. VG, GF, DF, NF, SF",
+     "price": 595
+    },
+    {
+     "id": "c3c3fedf-95e4-4c7e-9488-ed482181d23c",
+     "name": "Hot Latte",
+     "description": "Espresso & oat milk. VG, GF, DF, NF, SF",
+     "price": 545
+    },
+    {
+     "id": "0b82a8dd-1c4e-45a9-a900-db214513b5fa",
+     "name": "Iced Latte",
+     "description": "Espresso & oat milk. VG, GF, DF, NF, SF",
+     "price": 545
+    },
+    {
+     "id": "4ef7de34-ab72-466c-b132-2fac086331fd",
+     "name": "Cappuccino",
+     "description": "Espresso & oat milk. VG, GF, DF, NF, SF",
+     "price": 525
+    },
+    {
+     "id": "4604c68d-44a7-49eb-be3e-7109b03944c8",
+     "name": "Hot Americano",
+     "price": 395
+    },
+    {
+     "id": "2c16d6e6-596b-4cb3-838d-e31f97b069c6",
+     "name": "Iced Americano",
+     "price": 395
+    },
+    {
+     "id": "ad3a8234-f67b-4c8b-a179-0629ff1099cf",
+     "name": "Espresso",
+     "price": 395
+    }
+   ]
+  },
+  {
+   "name": "Coffee & Cold Brew",
+   "items": [
+    {
+     "id": "df5b68e4-0412-4958-bfe8-df4368272390",
+     "name": "Maple Vanilla Cloud Cold Brew",
+     "description": "Cold brew topped with maple vanilla cold foam. Contains coconut. VG, DF, GF, SF",
+     "price": 675
+    },
+    {
+     "id": "975429dc-2643-422f-8df3-69c6f4fd7014",
+     "name": "Banana Oat Cold Brew",
+     "description": "Cold brew blended with fresh banana, cinnamon, dates & oat milk served over ice. VG, DF, GF, NF, SF",
+     "price": 675
+    },
+    {
+     "id": "f501e24a-8517-46cc-8cce-8cad308c385c",
+     "name": "Iced Vanilla Tahini Latte",
+     "description": "Coffee, tahini, maple, vanilla, cinnamon, oat milk. Contains sesame. VG, DF, GF, NF, SF.",
+     "price": 645
+    },
+    {
+     "id": "e9aabb63-28c1-429f-ae95-4f1b2b230add",
+     "name": "Cold Brew Coffee",
+     "description": "Smooth & strong. VG, DF, GF, NF, SF",
+     "price": 525
+    },
+    {
+     "id": "46113bac-0bf5-4a7d-afe1-b8236e49d03f",
+     "name": "Brew Coffee",
+     "description": "Intelligentsia Illumination Blend. VG, DF, GF, NF, SF",
+     "price": 295
+    },
+    {
+     "id": "c1c34de7-5d04-457a-af34-41cc0d4b254d",
+     "name": "Hot Cafe Latte",
+     "description": "Oat milk & local coffee, enjoyed hot. VG, DF, GF, NF, SF",
+     "price": 545
+    }
+   ]
+  },
+  {
+   "name": "Matcha",
+   "items": [
+    {
+     "id": "5f5e2292-b42d-471c-915e-6da5f8bb4fff",
+     "name": "Strawberry Dream Matcha",
+     "description": "Iced matcha, strawberries, housemade strawberry syrup, oat milk. VG, GF, DF, NF, SF",
+     "price": 725
+    },
+    {
+     "id": "e92b91bc-476d-48d4-9aa6-916f951bf34e",
+     "name": "Matcha Latte Iced",
+     "description": "Premium grade matcha, oat milk. VG, DF, GF, NF, SF",
+     "price": 625
+    },
+    {
+     "id": "1d3033a6-728c-42dc-a018-fa511e0a546d",
+     "name": "Matcha Latte Hot",
+     "description": "Premium grade matcha, oat milk. VG, DF, GF, NF, SF",
+     "price": 625
+    }
+   ]
+  },
+  {
+   "name": "Superfood Lattes",
+   "items": [
+    {
+     "id": "cbce37bb-2e78-4c59-8daa-449b2743b74a",
+     "name": "Ocean Blue Iced",
+     "description": "Blue spirulina, maca, vanilla, maple, sea salt, oat milk. VG, DF, GF, NF, SF",
+     "price": 645
+    },
+    {
+     "id": "f5eba63c-a01e-4d50-8a77-836d0b98099f",
+     "name": "Ocean Blue Hot",
+     "description": "Blue spirulina, maca, vanilla, maple, sea salt, oat milk. VG, DF, GF, NF, SF",
+     "price": 645
+    },
+    {
+     "id": "ab9df38a-cbd8-47da-8c96-1696fae0c6db",
+     "name": "Golden Milk Iced",
+     "description": "Turmeric, ginger, cinnamon, cayenne, black pepper, maple, oat milk. VG, DF, GF, NF, SF",
+     "price": 645
+    },
+    {
+     "id": "aba751fb-7b83-490b-a3ea-36424ff34f3b",
+     "name": "Golden Milk Hot",
+     "description": "Turmeric, ginger, cinnamon, cayenne, black pepper, maple, oat milk. VG, DF, GF, NF, SF",
+     "price": 645
+    },
+    {
+     "id": "3688db1b-a692-455a-9edb-667c434929c0",
+     "name": "Chai Latte Iced",
+     "description": "Masala chai, oat milk. VG, DF, GF, NF, SF",
+     "price": 625
+    },
+    {
+     "id": "17806aec-65d6-45ba-aa33-baa4b11c3d04",
+     "name": "Chai Latte Hot",
+     "description": "Masala chai, oat milk. VG, DF, GF, NF, SF",
+     "price": 625
+    }
+   ]
+  },
+  {
+   "name": "Acai Bowls",
+   "items": [
+    {
+     "id": "8c94f83e-46dc-4eeb-82fb-5a1df7f1eb08",
+     "name": "Green Energy",
+     "description": "A smoothie bowl base of banana, pineapple, mango, orange juice, kale, chia, coconut milk & protein powder topped with blueberry, strawberry, banana & hemp seeds. Contains coconut. VG, DF, GF, SF",
+     "price": 1375
+    },
+    {
+     "id": "b64f053e-c9d1-4913-991e-d1929424a54a",
+     "name": "Chocolate Hazelnut Acai",
+     "description": "Acai with strawberry, banana, coconut flakes, chocolate hazelnut drizzle & house granola. Contains milk, hazelnut and coconut. GF, SF",
+     "price": 1395
+    },
+    {
+     "id": "a5d1aebd-7220-46fa-a67b-11540f83e31c",
+     "name": "Super Berry Acai",
+     "description": "Açaí with blueberry, strawberry, cacao nibs, coconut & house granola. Contains coconut. VG, DF, GF, SF",
+     "price": 1375
+    },
+    {
+     "id": "42c2c38d-b601-4dde-a300-958280dbeb4f",
+     "name": "PB Cup Acai",
+     "description": "Açaí with peanut butter, banana, superfood fudge, coconut & house granola. Contains peanuts and coconut. VG, DF, GF, SF",
+     "price": 1375
+    },
+    {
+     "id": "ee8090d9-1267-49d2-bfcb-a2528547684c",
+     "name": "PB & J Acai Bowl",
+     "description": "Açaí with strawberry, peanut butter, peanut crumble, hemp seeds & house granola. Contains peanuts. VG,DF, GF, SF",
+     "price": 1375
+    }
+   ]
+  },
+  {
+   "name": "Cold Pressed Juices",
+   "items": [
+    {
+     "id": "efd8351c-3ab0-4220-a8f5-ed8515e3f905",
+     "name": "Morning Moxie Cold Pressed Juice",
+     "description": "Carrot, apple, ginger, lemon, honey, cinnamon, apple cider vinegar. DF, GF, NF, SF",
+     "price": 950
+    },
+    {
+     "id": "e5b4c322-8a6c-4147-ae6d-f720fa455a67",
+     "name": "Go Green Cold Pressed Juice",
+     "description": "Cucumber, celery, lemon, green apple, aloe. VG, DF, GF, NF, SF",
+     "price": 950
+    },
+    {
+     "id": "0e454be0-f089-454a-aa53-97a150917f28",
+     "name": "Orange Blossom Cold Pressed Juice",
+     "description": "Carrot, apple, lemon, turmeric, ginger, orange blossom water. VG, DF, GF, NF, SF",
+     "price": 950
+    },
+    {
+     "id": "e40ccc3f-c541-432f-a4ab-d8cf771e0ccd",
+     "name": "Spicy Green Tonic Cold Pressed Juice",
+     "description": "Pineapple, jalapeño, mint, cilantro, green apple. VG, DF, GF, NF, SF",
+     "price": 950
+    }
+   ]
+  },
+  {
+   "name": "Fresh Pressed Juices",
+   "items": [
+    {
+     "id": "3ba86fb5-ec9c-479d-a1fa-cfeab16ca3d2",
+     "name": "Go Green Fresh-Pressed Juice",
+     "description": "Cucumber, celery, lemon, green apple, aloe. VG, DF, GF, NF, SF",
+     "price": 895
+    },
+    {
+     "id": "abb1dddd-53f4-4de1-818b-66fee013cec5",
+     "name": "Heart Beet Fresh-Pressed Juice",
+     "description": "Beet, carrot, green apple, lemon, ginger. VG, DF, GF, NF, SF",
+     "price": 895
+    },
+    {
+     "id": "2be85ce3-6cca-4a03-8708-422d8c4c25c4",
+     "name": "Beta Carrotene Fresh-Pressed Juice",
+     "description": "Carrot, apple, ginger. VG, DF, GF, NF, SF",
+     "price": 895
+    },
+    {
+     "id": "d7e477a0-29f4-43df-a158-e25e6eed5226",
+     "name": "Morning Moxie Fresh-Pressed Juice",
+     "description": "Carrot, apple, ginger, lemon, honey, cinnamon, apple cider vinegar. DF, GF, NF, SF",
+     "price": 895
+    }
+   ]
+  },
+  {
+   "name": "Hand-Crafted & Tea",
+   "items": [
+    {
+     "id": "5a076a40-ca54-484d-bd1c-d008f8c48eee",
+     "name": "Watermelon Cooler",
+     "description": "Watermelon, cardamom, fresh mint. VG, DF, GF, NF, SF",
+     "price": 750
+    },
+    {
+     "id": "00760e7c-c1ef-4e52-becb-1c560355cb4e",
+     "name": "Ginger Crush",
+     "description": "Ginger, lemon, agave, crushed ice. VG, DF, GF, NF, SF",
+     "price": 595
+    },
+    {
+     "id": "d2aa9542-d49e-43c1-9ac9-84be4809b0bd",
+     "name": "Green Fizz",
+     "description": "Cold-pressed cucumber, lemon, celery, green apple, aloe vera and sparkling water with fresh mint. VG, DF, GF, NF, SF",
+     "price": 545
+    },
+    {
+     "id": "7bc778c9-2d74-469d-82e2-4c79bb237d86",
+     "name": "Strawberry Basil Lemonade",
+     "description": "Strawberry lemonade with fresh basil. VG, DF, GF, NF, SF",
+     "price": 545
+    },
+    {
+     "id": "9a1f0d51-2898-4231-a5fc-5893d1874a45",
+     "name": "Lavender Lemonade",
+     "description": "Lemon, agave, butterfly pea tea. VG, DF, GF, NF, SF",
+     "price": 445
+    },
+    {
+     "id": "a50dc0b0-dea7-4d35-8b7e-839a609d3e3f",
+     "name": "Fresh Lemon Honey Ginger Hot Tea",
+     "description": "Hot tea with lemon, honey & ginger. DF, GF, NF, SF",
+     "price": 395
+    },
+    {
+     "id": "3f17069f-c61b-491f-a63b-817a30bbfa25",
+     "name": "Lemon Honey Iced Tea",
+     "description": "Iced black tea, fresh lemon & honey. DF, GF, NF, SF",
+     "price": 395
+    },
+    {
+     "id": "5f671d04-5a42-4fa6-94a1-8cec43fc7aff",
+     "name": "Turmeric Tonic",
+     "description": "Fresh-pressed turmeric & ginger, maple and sparkling water with fresh thyme. VG, DF, GF, NF, SF",
+     "price": 495
+    }
+   ]
+  },
+  {
+   "name": "Wellness Shots",
+   "items": [
+    {
+     "id": "a17578e5-925d-49a5-8c7c-8aa955a0e35a",
+     "name": "Wheatgrass 1oz",
+     "description": "VG, DF, GF, NF, SF",
+     "price": 395
+    },
+    {
+     "id": "dec16756-72dc-4498-ab24-c0c5349c6144",
+     "name": "Ginger 1oz",
+     "description": "VG, DF, GF, NF, SF",
+     "price": 325
+    },
+    {
+     "id": "5980c0c3-c505-41d7-9261-cb0e9ce921ab",
+     "name": "Turmeric 1oz",
+     "description": "VG, DF, GF, NF, SF",
+     "price": 325
+    }
+   ]
+  },
+  {
+   "name": "Bottled Beverages",
+   "items": [
+    {
+     "id": "deb25850-a96a-402c-ad27-9c6b66d4e148",
+     "name": "Box Water",
+     "price": 350
+    },
+    {
+     "id": "8354f642-2a42-4c5d-bcc8-d4428b9fb489",
+     "name": "BlissBerry Kombucha",
+     "description": "Ripe blueberries with a kiss of ginger. VG, DF, GF, NF, SF",
+     "price": 499
+    },
+    {
+     "id": "4b68bc93-15a6-41e7-8cd6-06e85fd2b58a",
+     "name": "Ginger Kombucha",
+     "description": "Spicy ginger. VG, DF, GF, NF, SF",
+     "price": 499
+    }
+   ]
+  },
+  {
+   "name": "Desserts",
+   "items": [
+    {
+     "id": "9d7cdd9e-7394-4e9a-8deb-bfcece49332e",
+     "name": "Avocado Chocolate Mousse",
+     "description": "Decadent, smooth, rich chocolate mousse made with avocado, raw cacao, agave, coconut cream, vanilla, cinnamon & sea salt. Contains coconut. VG, DF, GF, SF",
+     "price": 895
+    },
+    {
+     "id": "6283f26e-9c7f-47a0-925e-f67936978530",
+     "name": "Strawberries & Cream Power Chia",
+     "description": "Gluten-free oats with strawberries, coconut yogurt, banana, chia, hemp seeds, vanilla, coconut flakes & housemade strawberry syrup. Contains coconut. VG, DF, GF, SF",
+     "price": 725
+    }
+   ]
+  },
+  {
+   "name": "Housemade Signature Sauce",
+   "items": [
+    {
+     "id": "ab3b7c86-32bc-4a78-bed2-a477f0e3b8f7",
+     "name": "Ginger Tamari Gluten Free 8oz",
+     "description": "Fresh ginger, tamari, garlic, lemon, olive oil & spices. Contains allium and soy. VF, GF, DF, NF",
+     "price": 1200
+    }
+   ]
+  }
+ ]
+}

@@ -56,11 +56,19 @@ export async function scrapeSquare(r: Restaurant): Promise<ScrapeResult> {
   if (!userId || !siteId || !locationId) throw new Error("square needs platformConfig userId, siteId, locationId");
   const base = `${API}/users/${userId}/sites/${siteId}/store-locations/${locationId}`;
 
-  const [cats, prods] = await Promise.all([
-    fetchJson<{ data: SqCategory[] }>(`${base}/categories?max_depth=3&nested=1&product_counts_fulfillments[]=pickup`),
-    fetchJson<{ data: SqProduct[] }>(`${base}/products?page=1&per_page=500&fulfillments[]=pickup`),
-  ]);
-  const products = prods.data.filter((p) => p.visibility !== "hidden" && !p.badges?.out_of_stock);
+  const cats = await fetchJson<{ data: SqCategory[] }>(
+    `${base}/categories?max_depth=3&nested=1&product_counts_fulfillments[]=pickup`,
+  );
+  const all: SqProduct[] = [];
+  for (let page = 1; page <= 20; page++) {
+    // The API caps per_page at 200.
+    const res = await fetchJson<{ data: SqProduct[]; meta?: { pagination?: { total_pages?: number } } }>(
+      `${base}/products?page=${page}&per_page=200&fulfillments[]=pickup`,
+    );
+    all.push(...res.data);
+    if (page >= (res.meta?.pagination?.total_pages ?? 1)) break;
+  }
+  const products = all.filter((p) => p.visibility !== "hidden" && !p.badges?.out_of_stock);
 
   // Modifiers and variations only come with the per-product endpoint.
   const details = new Map<string, { modifiers: SqModifierSet[]; variations: SqVariation[] }>();
@@ -96,7 +104,8 @@ export async function scrapeSquare(r: Restaurant): Promise<ScrapeResult> {
       groups.push({
         id: `${p.id}:${m.id}`,
         name: m.name,
-        min: Math.max(0, m.min_selected_modifiers ?? 0),
+        // Some shops label a group "(Optional)" but leave Square's minimum at 1.
+        min: /optional/i.test(m.name) ? 0 : Math.max(0, m.min_selected_modifiers ?? 0),
         max: Math.max(0, m.max_selected_modifiers ?? 0),
         options: m.choices.filter((c) => !c.hidden).map((c) => ({ id: c.id, name: c.name, price: dollarsToCents(c.price) })),
       });

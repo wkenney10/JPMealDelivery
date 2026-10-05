@@ -1,0 +1,983 @@
+{
+ "restaurant": "don-tequeno",
+ "source": "scraped",
+ "platform": "clover",
+ "sourceUrl": "https://don-tequeno-y-dona-arepa-boston.cloveronline.com/menu/all",
+ "fetchedAt": "2026-10-05T17:00:33.897Z",
+ "categories": [
+  {
+   "name": "Breakfast specials",
+   "items": [
+    {
+     "id": "S9BFJ8SVVAC8J-SZRRXTDJ2S102",
+     "name": "Venezuelan Pancakes",
+     "price": 1000
+    },
+    {
+     "id": "JNPQBWVK2CYQ0-SZRRXTDJ2S102",
+     "name": "Omeletts",
+     "price": 1200
+    },
+    {
+     "id": "YXJPJA59H34KC-SZRRXTDJ2S102",
+     "name": "Venezuelan Traditional",
+     "price": 1200
+    },
+    {
+     "id": "KTGJ48N2JJZQG-SZRRXTDJ2S102",
+     "name": "Vegetarian Venezuelan Traditional Breakfast",
+     "price": 1050
+    },
+    {
+     "id": "714VYG57XN5AP-SZRRXTDJ2S102",
+     "name": "American Breakfast",
+     "price": 1200
+    },
+    {
+     "id": "EEGTYMB8SQVGG-SZRRXTDJ2S102",
+     "name": "Sandwich - Grilled Ham and Cheese",
+     "price": 800
+    },
+    {
+     "id": "5HABS39RS0N7W-SZRRXTDJ2S102",
+     "name": "Sandwich - Three Cheese",
+     "price": 800
+    },
+    {
+     "id": "ART581X1CMCHW-SZRRXTDJ2S102",
+     "name": "Sandwich - Pork Shoulder Roast",
+     "price": 800
+    }
+   ]
+  },
+  {
+   "name": "Canoas (gf)",
+   "items": [
+    {
+     "id": "5G1W5GB8J8ZR0-71M98E7DAB8NJ",
+     "name": "Canoa Beef and Cheese",
+     "price": 1150
+    },
+    {
+     "id": "5Z6SHGFM6ZX0M-71M98E7DAB8NJ",
+     "name": "Canoa with Cheese (V)",
+     "price": 1050
+    },
+    {
+     "id": "9MNF8RT51JB5T-71M98E7DAB8NJ",
+     "name": "Canoa Chicken and Cheese",
+     "price": 1150
+    },
+    {
+     "id": "9WNBC61BK3Y18-71M98E7DAB8NJ",
+     "name": "Canoa Pork Should roast and Cheese",
+     "price": 1150
+    },
+    {
+     "id": "SKF6820D24RXE-71M98E7DAB8NJ",
+     "name": "Canoa Ham and Cheese",
+     "price": 1100
+    },
+    {
+     "id": "TPVXR294Z6QSE-71M98E7DAB8NJ",
+     "name": "Canoa Shrimp and Cheese",
+     "price": 1200
+    },
+    {
+     "id": "BEAGWGYND5CBY-71M98E7DAB8NJ",
+     "name": "Canoa Mixta",
+     "price": 1300
+    }
+   ]
+  },
+  {
+   "name": "Soups (sopas)",
+   "items": [
+    {
+     "id": "DWHD6N0HY93ZG-X57X9YFA27C7T",
+     "name": "Rib Steak Soup (Sopa de Costilla de Res)",
+     "price": 1500
+    },
+    {
+     "id": "S8599CJF91QRG-X57X9YFA27C7T",
+     "name": "Chicken Soup",
+     "price": 1500
+    }
+   ]
+  },
+  {
+   "name": "Salads",
+   "items": [
+    {
+     "id": "TQG0J8MVN2ZA6-EZ1395QVHKM0W",
+     "name": "House Salad",
+     "description": "Dressing on the side",
+     "price": 1200
+    },
+    {
+     "id": "T67AANSEA991C-EZ1395QVHKM0W",
+     "name": "Caesar Salad",
+     "description": "Romaine lettuce, parmesan cheese, croutons and house Caesar salad. Dressing on the side.",
+     "price": 1200
+    }
+   ]
+  },
+  {
+   "name": "Appetizers/tequeños",
+   "items": [
+    {
+     "id": "210P20W8W5T2A-12PCYKHZSAV0C",
+     "name": "Cheese Tequeño",
+     "description": "1 Unit per order",
+     "price": 160
+    },
+    {
+     "id": "RFMG6F5STTWY6-12PCYKHZSAV0C",
+     "name": "Guava & Cheese Tequeño",
+     "description": "1 Unit per order",
+     "price": 160
+    },
+    {
+     "id": "QNAYME94XZA5M-12PCYKHZSAV0C",
+     "name": "Nutella Tequeño",
+     "description": "1 Unit per order",
+     "price": 160
+    },
+    {
+     "id": "4NATB3DRA0GN4-12PCYKHZSAV0C",
+     "name": "Yucca Croquette (GF) (VG)",
+     "description": "1 Unit per order",
+     "price": 150
+    },
+    {
+     "id": "MT5Q3Z112ZKXM-12PCYKHZSAV0C",
+     "name": "Fried Cheese",
+     "price": 600
+    },
+    {
+     "id": "95ZPJAGGBBCWG-12PCYKHZSAV0C",
+     "name": "12 Mini Arepas (GF)",
+     "price": 3600
+    },
+    {
+     "id": "CXZQ8RV1A92WA-12PCYKHZSAV0C",
+     "name": "12 Mini Empanadas (GF Option Available)",
+     "price": 2700
+    },
+    {
+     "id": "VQ68YPKR909KM-12PCYKHZSAV0C",
+     "name": "12 Mini Cachapas (GF Option Available)",
+     "price": 2700
+    },
+    {
+     "id": "7AYBQ8F1DK7TP-12PCYKHZSAV0C",
+     "name": "La Guaria",
+     "price": 700
+    }
+   ]
+  },
+  {
+   "name": "Arepas (gf)",
+   "items": [
+    {
+     "id": "XWS4NEQQYAHJ0-9VBS9VCX9D2Q2",
+     "name": "Pelua Arepa",
+     "description": "Shredded beef with shredded cheese.",
+     "price": 800
+    },
+    {
+     "id": "M3TAE6G1HM5GE-9VBS9VCX9D2Q2",
+     "name": "Catira Arepa",
+     "description": "Shredded chicken and cheese.",
+     "price": 800
+    },
+    {
+     "id": "K1W02N7BG4YEE-9VBS9VCX9D2Q2",
+     "name": "Perico Arepa",
+     "description": "Scrambled eggs with tomatoes, onions, and shredded cheese.",
+     "price": 850
+    },
+    {
+     "id": "1X6JG1VNBV68R-9VBS9VCX9D2Q2",
+     "name": "Dominó Arepa",
+     "description": "Black beans and shredded cheese.",
+     "price": 800
+    },
+    {
+     "id": "9TK5Z32C0JE40-9VBS9VCX9D2Q2",
+     "name": "Sencilla Arepa",
+     "description": "Choice of ham, cheese, or ham & cheese.",
+     "price": 750
+    },
+    {
+     "id": "TGBR8J6E6TVD0-9VBS9VCX9D2Q2",
+     "name": "Pabellón Arepa",
+     "description": "Black beans, shredded beef, fried sweet plantains, and shredded cheese.",
+     "price": 950
+    },
+    {
+     "id": "0KRB7FNSKQZCP-9VBS9VCX9D2Q2",
+     "name": "La Oriental Arepa",
+     "description": "Tuna and mayo mix, onions, tomatoes, and cilantro.",
+     "price": 800
+    },
+    {
+     "id": "G1DJ2P1V5DCCG-9VBS9VCX9D2Q2",
+     "name": "La Vegetariana Arepa",
+     "description": "Avocado, tomatoes, lettuce, cheese, and optional egg, if desired.",
+     "price": 850
+    },
+    {
+     "id": "JA7TDEN5EAJ84-9VBS9VCX9D2Q2",
+     "name": "La Dominicana Arepa",
+     "description": "Choice of black beans or red beans, choice of shredded beef or chicken, fried sweet plantain, and shredded cheese.",
+     "price": 950
+    },
+    {
+     "id": "YJNP4QD4030JA-9VBS9VCX9D2Q2",
+     "name": "Patapata Arepa",
+     "description": "Shredded cheese, choice of black beans or red beans, and avocado.",
+     "price": 850
+    },
+    {
+     "id": "XVMRT9RMKW8AR-9VBS9VCX9D2Q2",
+     "name": "La Rumbera Arepa",
+     "description": "Baked pork (pernil) and shredded cheese.",
+     "price": 800
+    },
+    {
+     "id": "XC1YB75XKDCWT-9VBS9VCX9D2Q2",
+     "name": "Reina Pepiada Arepa",
+     "description": "Shredded chicken mixed with avocado slices, mayonnaise, and sweet peas.",
+     "price": 850
+    },
+    {
+     "id": "NXFVNA4EANYQE-9VBS9VCX9D2Q2",
+     "name": "La Sifrina Arepa",
+     "description": "Shredded chicken mixed with mayonnaise, sweet peas, and cheese.",
+     "price": 800
+    },
+    {
+     "id": "W8W9SYYQVVWAM-9VBS9VCX9D2Q2",
+     "name": "Vegetarian Pabellon Arepa",
+     "description": "Black beans or red beans, sweet plantains, cheese, avocado",
+     "price": 950
+    },
+    {
+     "id": "N2B8CVRZQNE4E-9VBS9VCX9D2Q2",
+     "name": "Parri-Arepa",
+     "description": "Grilled chicken and sausage and shredded cheese",
+     "price": 850
+    },
+    {
+     "id": "XR974K4TRAEAC-9VBS9VCX9D2Q2",
+     "name": "La Vegana Arepa",
+     "description": "Black or red beans, sweet plantains, and pico de gallo.",
+     "price": 850
+    },
+    {
+     "id": "71B7KEE0BBYKM-9VBS9VCX9D2Q2",
+     "name": "Tres Golpe Arepa",
+     "description": "Fried salami, fried egg, and cheese",
+     "price": 850
+    },
+    {
+     "id": "P39YWAVZDHT8J-9VBS9VCX9D2Q2",
+     "name": "La Americana Arepa (Burger)",
+     "description": "Burger, lettuce, tomatoes, grilled onions, bacon and cheese",
+     "price": 950
+    },
+    {
+     "id": "E3AGXYJX31994-9VBS9VCX9D2Q2",
+     "name": "La Mexicana Arepa",
+     "description": "Pico de gallo, white rice, black beans, avocado, cheese and choice of meat (chicken, beef or pork shoulder)",
+     "price": 1000
+    },
+    {
+     "id": "EFVR80XVWEFPC-9VBS9VCX9D2Q2",
+     "name": "La Mexicana Vegetariana Arepa",
+     "description": "Pico de gallo, white rice, black beans, avocado, cheese and cheese",
+     "price": 950
+    },
+    {
+     "id": "Z1CG5NCG0BT7W-9VBS9VCX9D2Q2",
+     "name": "La Cubana Arepa",
+     "description": "Fried egg, mozzarella cheese, and sweet plantains",
+     "price": 850
+    },
+    {
+     "id": "PYBGTEY6BJZFG-9VBS9VCX9D2Q2",
+     "name": "La Mixta Arepa",
+     "description": "Choose 2 meats, and cheese",
+     "price": 900
+    },
+    {
+     "id": "GSGYY68BRM1M6-9VBS9VCX9D2Q2",
+     "name": "La Maracucha Arepa",
+     "description": "Mozarella cheese and sweet plantains.",
+     "price": 800
+    },
+    {
+     "id": "0WE31ZC2NKBJM-9VBS9VCX9D2Q2",
+     "name": "Arepa Burger",
+     "description": "Hamburger, Bacon, Lettuce, Tomato, Cheese and traditional sauces",
+     "price": 850
+    },
+    {
+     "id": "WDYG5C721NFM2-9VBS9VCX9D2Q2",
+     "name": "La Llanera Arepa",
+     "description": "Grilled beef, avocado, chopped tomatoes, and white cheese",
+     "price": 950
+    },
+    {
+     "id": "EY3K9PJ0GRZHW-9VBS9VCX9D2Q2",
+     "name": "La Camaron Arepa",
+     "description": "Grilled shrimp and cheese",
+     "price": 900
+    },
+    {
+     "id": "ENGQRBC5F05VT-9VBS9VCX9D2Q2",
+     "name": "Mar & Tierra Arepa",
+     "description": "Grilled shrimp with a choice of chicken, beef or pork and cheese",
+     "price": 900
+    },
+    {
+     "id": "FGYSRMAJZD2Y8-9VBS9VCX9D2Q2",
+     "name": "Ham and Cheese Arepa",
+     "price": 800
+    },
+    {
+     "id": "SDR5409KA0S14-9VBS9VCX9D2Q2",
+     "name": "Colombian Arepa",
+     "price": 700
+    }
+   ]
+  },
+  {
+   "name": "Cachapas (gf option available)",
+   "items": [
+    {
+     "id": "GVPBGMDPFS8HT-T03VQBB0MT1JP",
+     "name": "Cheese (Queso) Cachapa",
+     "price": 1400
+    },
+    {
+     "id": "2K1KKK07G6HFJ-T03VQBB0MT1JP",
+     "name": "Beef & Cheese (Carne Mechada Y Queso) Cachapa",
+     "price": 1450
+    },
+    {
+     "id": "TMQT257A0TJ2M-T03VQBB0MT1JP",
+     "name": "Chicken & Cheese (Pollo Mechado Y Queso) Cachapa",
+     "price": 1450
+    },
+    {
+     "id": "QV22QVGGXF82P-T03VQBB0MT1JP",
+     "name": "Ham & Cheese (Jamón Y Queso) Cachapa",
+     "price": 1400
+    },
+    {
+     "id": "T0EPS06V0W0Q0-T03VQBB0MT1JP",
+     "name": "Pork Shoulder Roast & Cheese (Pernil Horneado Y Queso) Cachapa",
+     "price": 1450
+    },
+    {
+     "id": "3XXCAJMXW4G0E-T03VQBB0MT1JP",
+     "name": "The Mixta Cachapa",
+     "price": 1500
+    }
+   ]
+  },
+  {
+   "name": "Empanadas (gf option available)",
+   "items": [
+    {
+     "id": "3RPDPTD4E2M6M-QAQEWZY423F14",
+     "name": "Beef (Mechada) Empanadas",
+     "price": 550
+    },
+    {
+     "id": "FBKF914AYY7BM-QAQEWZY423F14",
+     "name": "Chicken Empanadas",
+     "price": 550
+    },
+    {
+     "id": "7BJV6DA28NSJA-QAQEWZY423F14",
+     "name": "Dominó Empanadas",
+     "description": "Black beans and cheese",
+     "price": 550
+    },
+    {
+     "id": "DCB6GDJDT0W7Y-QAQEWZY423F14",
+     "name": "Pabellón Empanadas",
+     "description": "Black beans, shredded beef, cheese and sweet plantains",
+     "price": 700
+    },
+    {
+     "id": "SGN3BG4MY6TDM-QAQEWZY423F14",
+     "name": "Cheese Empanadas",
+     "price": 500
+    },
+    {
+     "id": "NP8W86F0RWWCM-QAQEWZY423F14",
+     "name": "Ham & Cheese Empanadas",
+     "price": 550
+    },
+    {
+     "id": "TNZ8QM9Z99FBJ-QAQEWZY423F14",
+     "name": "Ground Beef Empanadas",
+     "price": 550
+    },
+    {
+     "id": "9FFDC7NZS6GKE-QAQEWZY423F14",
+     "name": "La Maracucha (V) Empanada",
+     "description": "Sweet Plantains & Cheese",
+     "price": 550
+    },
+    {
+     "id": "9WE7GS25RH2E8-QAQEWZY423F14",
+     "name": "La Dominicana Empanadas",
+     "description": "Fried egg and cheese",
+     "price": 550
+    },
+    {
+     "id": "2ZK1G8KX3V5BJ-QAQEWZY423F14",
+     "name": "Roast pork (Pernil) Empanada",
+     "price": 550
+    },
+    {
+     "id": "PP07PH2FJCJKM-QAQEWZY423F14",
+     "name": "Vegan Empanada",
+     "description": "Sweet plantains with black or red beans",
+     "price": 550
+    },
+    {
+     "id": "S9DTEDWHARZQP-QAQEWZY423F14",
+     "name": "La Cubana (V) Empanada",
+     "description": "Sweet plantains, cheese and fried egg",
+     "price": 600
+    },
+    {
+     "id": "7BKSH76WRVAPM-QAQEWZY423F14",
+     "name": "Tres Golpe Empanda",
+     "description": "Fried salami, cheese, and fried egg",
+     "price": 600
+    },
+    {
+     "id": "F8PB97KCXPRHA-QAQEWZY423F14",
+     "name": "La Sifrina Empanada",
+     "description": "Shredded chicken mixed with mayo, sweet peas and cheese",
+     "price": 600
+    },
+    {
+     "id": "BX301HF7ZY85W-QAQEWZY423F14",
+     "name": "La Mixta Empanada",
+     "description": "Shredded beef and chicken with cheese",
+     "price": 650
+    },
+    {
+     "id": "Q8T6DSKTM2J6P-QAQEWZY423F14",
+     "name": "Dominicana Tradicional Empanada",
+     "description": "Shredded chicken, cheese, sweet plantains and red beans.",
+     "price": 675
+    },
+    {
+     "id": "SV432A9NBY09A-QAQEWZY423F14",
+     "name": "Camaron Empanada",
+     "description": "Camaron Empanada",
+     "price": 650
+    }
+   ]
+  },
+  {
+   "name": "Pabellon criollo (gf)",
+   "items": [
+    {
+     "id": "XMPQMTVEB20HA-0VBNK33PEV8WJ",
+     "name": "Tradicional Pabellon Criollo",
+     "description": "Traditional Venezuelan plate made of Shredded beef, white rice, sweet plantains, and black beans.",
+     "price": 1800
+    },
+    {
+     "id": "1EDRGM8BQKSV6-0VBNK33PEV8WJ",
+     "name": "A Caballo Pabellon Criollo",
+     "description": "Venezuelan flavor full plate made of Shredded beef, white rice, sweet plantains, fried egg, and black beans.",
+     "price": 1850
+    },
+    {
+     "id": "E8JZMV94Y1VV2-0VBNK33PEV8WJ",
+     "name": "Dominican Pabellon",
+     "description": "Venezuelan flavor with Dominican twist plate made of Shredded beef or chicken, white rice, green or sweet plantains, and black or red beans.",
+     "price": 1800
+    },
+    {
+     "id": "Y3P88054QATTY-0VBNK33PEV8WJ",
+     "name": "Baked Pork Pabellon",
+     "description": "Venezuelan flavor full plate made of Shredded baked pork, white rice, sweet plantains, and black beans.",
+     "price": 1800
+    },
+    {
+     "id": "K3SAJBDSDRZS0-0VBNK33PEV8WJ",
+     "name": "Vegetarian Pabellon",
+     "description": "White rice, black or red beans, avocado or eggs and sweet plantains.",
+     "price": 1700
+    }
+   ]
+  },
+  {
+   "name": "Entrees",
+   "items": [
+    {
+     "id": "EM7HX8Q65FYZT-C09SYT4JF2HTC",
+     "name": "Grilled Chicken with Sauteed Veggies (Pollo)",
+     "price": 1750
+    },
+    {
+     "id": "M2B427YK3QPKC-C09SYT4JF2HTC",
+     "name": "Grilled Beef with Sauteed Veggies",
+     "price": 1850
+    },
+    {
+     "id": "ZRK2KX90DB53E-C09SYT4JF2HTC",
+     "name": "Surf and Turf with Sauteed Veggies (Mar Y Tierra)",
+     "price": 2200
+    },
+    {
+     "id": "CBG1AQTGVPBDW-C09SYT4JF2HTC",
+     "name": "Grilled Shrimp with Sauteed Veggies (Camarones)",
+     "price": 1850
+    }
+   ]
+  },
+  {
+   "name": "Patacones (gf)",
+   "items": [
+    {
+     "id": "PFTJW763519EJ-7XX0S86JX44ZC",
+     "name": "Chicken (Pollo Mechado) Patacon",
+     "price": 1250
+    },
+    {
+     "id": "JBDJJ1B9122FW-7XX0S86JX44ZC",
+     "name": "Beef (Carne De Res Mechada) Patacon",
+     "price": 1250
+    },
+    {
+     "id": "QTJ2SW17P15CC-7XX0S86JX44ZC",
+     "name": "Mixted Patacon",
+     "price": 1400
+    },
+    {
+     "id": "ZXV1EDR87XDDM-7XX0S86JX44ZC",
+     "name": "Pork Shoulder Roast Patacon",
+     "price": 1250
+    },
+    {
+     "id": "J4Q8A32EEC3FJ-7XX0S86JX44ZC",
+     "name": "Vegetariano Patacon",
+     "price": 1250
+    }
+   ]
+  },
+  {
+   "name": "Burgers",
+   "items": [
+    {
+     "id": "MA5RQTPGC50QP-QKQ6B3R60NSWC",
+     "name": "The American Burger",
+     "description": "Hamburger, cheese, lettuce, tomatoes, grilled onions, traditional sauces and French fries",
+     "price": 1250
+    },
+    {
+     "id": "207JH8DQCNWS0-QKQ6B3R60NSWC",
+     "name": "Bomba Burger",
+     "description": "Hamburger or grilled chicken, cheese, ham, bacon, egg, potato sticks, lettuce, and traditional sauces.",
+     "price": 1350
+    },
+    {
+     "id": "NYQV1BJNX67FJ-QKQ6B3R60NSWC",
+     "name": "Triple Bomba Burger",
+     "description": "Hamburger, grilled chicken, smoked pork chops, cheese, bacon, egg, potato sticks, lettuce, and traditional sauces",
+     "price": 1550
+    },
+    {
+     "id": "HZWRQV6KZAA0G-QKQ6B3R60NSWC",
+     "name": "Chicken Burger",
+     "description": "Grilled chicken, gouda cheese, yellow cheese, parmesan cheese, ham, lettuce, and house dressing",
+     "price": 1200
+    },
+    {
+     "id": "QVXK0BNNDG3WY-QKQ6B3R60NSWC",
+     "name": "Sifrina Burger",
+     "description": "Hamburger, bacon, avocado, tomatoes, lettuce, yellow cheese, gouda cheese, parmesan cheese, caramelized onions and traditional sauces",
+     "price": 1400
+    }
+   ]
+  },
+  {
+   "name": "Pepitos",
+   "items": [
+    {
+     "id": "W3Y74VTJNZXSY-RZC1GK23M4G5R",
+     "name": "Chicken (Pollo) Pepito",
+     "price": 1400
+    },
+    {
+     "id": "1TM67DZYC5PR8-RZC1GK23M4G5R",
+     "name": "Pork (Carnita De Cerdo) Pepito",
+     "price": 1400
+    },
+    {
+     "id": "1XGT9QGNR10QJ-RZC1GK23M4G5R",
+     "name": "Mixted Pepito",
+     "price": 1600
+    },
+    {
+     "id": "62ZZCSSWE48XG-RZC1GK23M4G5R",
+     "name": "Beef Pepito",
+     "price": 1400
+    }
+   ]
+  },
+  {
+   "name": "Club house",
+   "items": [
+    {
+     "id": "D8Y4VV9664W44-89FW2RR94XQKE",
+     "name": "Sencillo-Club House",
+     "price": 1000
+    },
+    {
+     "id": "013GP08F851T0-89FW2RR94XQKE",
+     "name": "Bomba-Club House",
+     "price": 1250
+    }
+   ]
+  },
+  {
+   "name": "Hot dogs (perros caliente)",
+   "items": [
+    {
+     "id": "32SSMG9228Q5R-FAK1N3TEQC4FC",
+     "name": "Perro Caliente Venezolano (Asquerosito)",
+     "price": 550
+    }
+   ]
+  },
+  {
+   "name": "Pastelitos",
+   "items": [
+    {
+     "id": "FNQG312X7A1W0-VTYH5HD2QSBAR",
+     "name": "Chicken (Pollo) Pastelitos",
+     "price": 300
+    },
+    {
+     "id": "BTSYRNHWWS50Y-VTYH5HD2QSBAR",
+     "name": "Ground Beef (Carne Molida) Pastelitos",
+     "price": 300
+    },
+    {
+     "id": "69KKV0MVG7QB4-VTYH5HD2QSBAR",
+     "name": "Guaba (Guayaba) Pastelito",
+     "price": 300
+    },
+    {
+     "id": "KPB4AHFBT9MD6-VTYH5HD2QSBAR",
+     "name": "Mashed Potato And Cheese (Papa Con Queso) Pastelito",
+     "price": 300
+    }
+   ]
+  },
+  {
+   "name": "Side orders",
+   "items": [
+    {
+     "id": "Y4JNB9A6EHYGP-QCZWATS6SH028",
+     "name": "Tostones (Fried Green Plantains)",
+     "price": 600
+    },
+    {
+     "id": "H3H40PDMGFNHC-QCZWATS6SH028",
+     "name": "Tajadas (Fried Sweet Plantains)",
+     "price": 600
+    },
+    {
+     "id": "FBFSPCTWBV6CY-QCZWATS6SH028",
+     "name": "Black Beans",
+     "price": 500
+    },
+    {
+     "id": "7KZHA0JQYJEBA-QCZWATS6SH028",
+     "name": "Red Beans",
+     "price": 500
+    },
+    {
+     "id": "3Z3MSWFA5HSCT-QCZWATS6SH028",
+     "name": "French Fries",
+     "price": 600
+    },
+    {
+     "id": "F73BCFY9F2G6J-QCZWATS6SH028",
+     "name": "Mini Viuda Arepa",
+     "price": 150
+    },
+    {
+     "id": "HNWSBTJBBQRBG-QCZWATS6SH028",
+     "name": "Viuda Cachapa",
+     "price": 600
+    },
+    {
+     "id": "HAQPMAZ2DC7Q6-QCZWATS6SH028",
+     "name": "White Rice",
+     "price": 500
+    },
+    {
+     "id": "GC7MT1RS780Y4-QCZWATS6SH028",
+     "name": "Avocado Side",
+     "price": 400
+    }
+   ]
+  },
+  {
+   "name": "Natural drinks",
+   "items": [
+    {
+     "id": "7CED77YDCDD0E-B3GJR7YMEMZSC",
+     "name": "Parchita (Chinola) 16 OZ",
+     "price": 550
+    },
+    {
+     "id": "CWDRFXBSP6CT6-B3GJR7YMEMZSC",
+     "name": "Parchita (Chinola) 24 OZ",
+     "price": 750
+    },
+    {
+     "id": "KDR57M0BCRVR2-B3GJR7YMEMZSC",
+     "name": "Traditional Lemonade 16 OZ",
+     "price": 550
+    },
+    {
+     "id": "S42HBA7RRT808-B3GJR7YMEMZSC",
+     "name": "Traditional Lemonade 24 OZ",
+     "price": 750
+    },
+    {
+     "id": "RYSW0QFYR1NDR-B3GJR7YMEMZSC",
+     "name": "Papelón 16 Oz",
+     "price": 550
+    },
+    {
+     "id": "99CTXSHPRGQX6-B3GJR7YMEMZSC",
+     "name": "Papelon 24 OZ",
+     "price": 750
+    },
+    {
+     "id": "1R1VE9P0XJDEE-B3GJR7YMEMZSC",
+     "name": "Soursop (Guanabana) 16 OZ",
+     "price": 550
+    },
+    {
+     "id": "5BFTGF4PPRDR2-B3GJR7YMEMZSC",
+     "name": "Soursop (Guanabana) 24 OZ",
+     "price": 750
+    },
+    {
+     "id": "8J3KE4QM2T11E-B3GJR7YMEMZSC",
+     "name": "Guaba (Guayaba) 16 OZ",
+     "price": 550
+    },
+    {
+     "id": "HR94CCHC06B0Y-B3GJR7YMEMZSC",
+     "name": "Guaba (Guayaba) 24 OZ",
+     "price": 750
+    },
+    {
+     "id": "HPJKPFRS04JF4-B3GJR7YMEMZSC",
+     "name": "Orange Juice 16 OZ",
+     "description": "Freshly Squeezed Orange Juice",
+     "price": 550
+    },
+    {
+     "id": "YR9EN02JJZMAA-B3GJR7YMEMZSC",
+     "name": "Orange Juice 24 OZ",
+     "description": "Freshly Squeezed",
+     "price": 750
+    }
+   ]
+  },
+  {
+   "name": "Drinks",
+   "items": [
+    {
+     "id": "37PV0H4BHWFRR-CPQ9ZMB0P3ZSC",
+     "name": "Malta Polar 7 OZ",
+     "price": 250
+    },
+    {
+     "id": "G7VYTCF20F59A-CPQ9ZMB0P3ZSC",
+     "name": "Malta Polar 12 OZ",
+     "price": 350
+    },
+    {
+     "id": "1Y10SV89WQH68-CPQ9ZMB0P3ZSC",
+     "name": "Water",
+     "price": 150
+    },
+    {
+     "id": "VAC6B3D8KBH7W-CPQ9ZMB0P3ZSC",
+     "name": "Coke Can",
+     "price": 250
+    },
+    {
+     "id": "0SWD07ZW8Y06M-CPQ9ZMB0P3ZSC",
+     "name": "Coke Diet Can",
+     "price": 250
+    },
+    {
+     "id": "Z0KQJF8GA92N6-CPQ9ZMB0P3ZSC",
+     "name": "Ginger Ale Can",
+     "price": 250
+    },
+    {
+     "id": "3SDMHW6CVS5V6-CPQ9ZMB0P3ZSC",
+     "name": "Sprite Can",
+     "price": 250
+    },
+    {
+     "id": "XT3XQAY13DAYE-CPQ9ZMB0P3ZSC",
+     "name": "Fanta Orange Can",
+     "price": 250
+    },
+    {
+     "id": "SAV08A4SN1514-CPQ9ZMB0P3ZSC",
+     "name": "Inca Kola Can",
+     "price": 300
+    },
+    {
+     "id": "X0TXE6SAQMZER-CPQ9ZMB0P3ZSC",
+     "name": "Fanta Grape Can",
+     "price": 250
+    }
+   ]
+  },
+  {
+   "name": "Desserts",
+   "items": [
+    {
+     "id": "HQCNY7X5SN56R-J8DTVGA5S8VA0",
+     "name": "Chicha 16 OZ",
+     "price": 650
+    },
+    {
+     "id": "X2SYRSXBTVTK6-J8DTVGA5S8VA0",
+     "name": "Chicha 24 OZ",
+     "price": 950
+    },
+    {
+     "id": "RQSYFMEB1HKN0-J8DTVGA5S8VA0",
+     "name": "3 Leches",
+     "price": 600
+    },
+    {
+     "id": "VG6767DEGBZ7Y-J8DTVGA5S8VA0",
+     "name": "Flan (Quesillo)",
+     "price": 600
+    },
+    {
+     "id": "31MDG2DQNQG02-J8DTVGA5S8VA0",
+     "name": "Chocoflan",
+     "price": 650
+    },
+    {
+     "id": "TYM4K73676DT0-J8DTVGA5S8VA0",
+     "name": "Chicha 10 Oz",
+     "price": 450
+    }
+   ]
+  },
+  {
+   "name": "Homemade sauces",
+   "items": [
+    {
+     "id": "WSF70PKJCJWXR-G0CTVZ254MVMC",
+     "name": "Guasacaca (Green Sauce) 12OZ",
+     "price": 1100
+    },
+    {
+     "id": "CQVT5HQRB9KZC-G0CTVZ254MVMC",
+     "name": "Guasacaca (Green Sauce) 8OZ",
+     "price": 750
+    },
+    {
+     "id": "N63VQVHWMNRZ4-G0CTVZ254MVMC",
+     "name": "Garlic Sauce 12OZ",
+     "price": 1100
+    },
+    {
+     "id": "X7TZFXAB5YAB4-G0CTVZ254MVMC",
+     "name": "Garlic Sauce 8OZ",
+     "price": 750
+    },
+    {
+     "id": "8Z4HGNB9SG0HY-G0CTVZ254MVMC",
+     "name": "Nata 1oz",
+     "price": 200
+    },
+    {
+     "id": "X70R025MPT1K8-G0CTVZ254MVMC",
+     "name": "Guasacaca 2oz",
+     "price": 100
+    },
+    {
+     "id": "D9R97RXPKNY3P-G0CTVZ254MVMC",
+     "name": "Salsa De Ajo 2oz",
+     "price": 100
+    }
+   ]
+  },
+  {
+   "name": "Kids menu",
+   "items": [
+    {
+     "id": "210P20W8W5T2A-ABZMPHJM2N0HM",
+     "name": "Cheese Tequeño",
+     "description": "1 Unit per order",
+     "price": 160
+    },
+    {
+     "id": "RFMG6F5STTWY6-ABZMPHJM2N0HM",
+     "name": "Guava & Cheese Tequeño",
+     "description": "1 Unit per order",
+     "price": 160
+    },
+    {
+     "id": "QNAYME94XZA5M-ABZMPHJM2N0HM",
+     "name": "Nutella Tequeño",
+     "description": "1 Unit per order",
+     "price": 160
+    },
+    {
+     "id": "FNQG312X7A1W0-ABZMPHJM2N0HM",
+     "name": "Chicken (Pollo) Pastelitos",
+     "price": 300
+    },
+    {
+     "id": "BTSYRNHWWS50Y-ABZMPHJM2N0HM",
+     "name": "Ground Beef (Carne Molida) Pastelitos",
+     "price": 300
+    },
+    {
+     "id": "69KKV0MVG7QB4-ABZMPHJM2N0HM",
+     "name": "Guaba (Guayaba) Pastelito",
+     "price": 300
+    },
+    {
+     "id": "KPB4AHFBT9MD6-ABZMPHJM2N0HM",
+     "name": "Mashed Potato And Cheese (Papa Con Queso) Pastelito",
+     "price": 300
+    }
+   ]
+  }
+ ]
+}

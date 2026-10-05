@@ -1,0 +1,2377 @@
+{
+ "restaurant": "burritos-pizzeria",
+ "source": "scraped",
+ "platform": "slice",
+ "sourceUrl": "https://slicelife.com/restaurants/ma/jamaica-plain/02130/burritos-pizzeria-jamaica-plain/menu",
+ "fetchedAt": "2026-10-05T17:00:33.895Z",
+ "dinnerAvailable": true,
+ "categories": [
+  {
+   "name": "Super Specials",
+   "items": [
+    {
+     "id": "slice-22878448",
+     "name": "Any Day Super Special",
+     "description": "One large pepperoni pizza, one large chicago sampler & 2 liter soda.",
+     "price": 3150
+    }
+   ]
+  },
+  {
+   "name": "Monday Specials",
+   "items": [
+    {
+     "id": "slice-8924289",
+     "name": "Any Calzone & Can Soda Monday Special",
+     "description": "Available Monday only.",
+     "price": 1885
+    }
+   ]
+  },
+  {
+   "name": "Tuesday Specials",
+   "items": [
+    {
+     "id": "slice-8924290",
+     "name": "Large 2-Topping Pizza Tuesday Special",
+     "description": "Available Tuesday only.",
+     "price": 1970
+    }
+   ]
+  },
+  {
+   "name": "Wednesday Specials",
+   "items": [
+    {
+     "id": "slice-8924291",
+     "name": "Any 12\" Sub, Small Fries & Can Soda Wednesday Special",
+     "description": "Available Wednesday only",
+     "price": 1870
+    }
+   ]
+  },
+  {
+   "name": "Saturday Specials",
+   "items": [
+    {
+     "id": "slice-8924285",
+     "name": "Large Cheese Pizza, 10 Pieces Wings & 2 Liter Soda Saturday Special",
+     "description": "Available Saturday only.",
+     "price": 2675
+    }
+   ]
+  },
+  {
+   "name": "Pizza",
+   "items": [
+    {
+     "id": "slice-8924046",
+     "name": "Cheese Pizza",
+     "description": "Classic cheese or create your own pizza.",
+     "price": 1285,
+     "optionGroups": [
+      {
+       "id": "slice-8924046-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860717",
+         "name": "Medium 12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11860718",
+         "name": "Large 16''",
+         "price": 260
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924052",
+     "name": "Pepperoni Pizza",
+     "description": "Classic cheese and pepperoni.",
+     "price": 1370,
+     "optionGroups": [
+      {
+       "id": "slice-8924052-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860729",
+         "name": "Medium 12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11860730",
+         "name": "Large 16''",
+         "price": 310
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924047",
+     "name": "2-Topping Pizza",
+     "price": 1680,
+     "optionGroups": [
+      {
+       "id": "slice-8924047-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860719",
+         "name": "Medium 12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11860720",
+         "name": "Large 16''",
+         "price": 319
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924048",
+     "name": "3-Topping Pizza",
+     "price": 1860,
+     "optionGroups": [
+      {
+       "id": "slice-8924048-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860721",
+         "name": "Medium 12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11860722",
+         "name": "Large 16''",
+         "price": 320
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924049",
+     "name": "4-Topping Pizza",
+     "price": 1999,
+     "optionGroups": [
+      {
+       "id": "slice-8924049-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860723",
+         "name": "Medium 12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11860724",
+         "name": "Large 16''",
+         "price": 391
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924050",
+     "name": "Buffalo Pizza",
+     "description": "Buffalo sauce and classic cheese.",
+     "price": 1575,
+     "optionGroups": [
+      {
+       "id": "slice-8924050-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860725",
+         "name": "Medium 12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11860726",
+         "name": "Large 16''",
+         "price": 395
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Specialty Pizzas",
+   "items": [
+    {
+     "id": "slice-8924056",
+     "name": "Hawaiian Pizza",
+     "description": "Baked ham & sliced pineapple, mozzarella & Romano cheese with our blend of tomato sauce.",
+     "price": 1650,
+     "optionGroups": [
+      {
+       "id": "slice-8924056-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860737",
+         "name": "Medium 12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11860738",
+         "name": "Large 16''",
+         "price": 349
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924057",
+     "name": "Vegetarian Pizza",
+     "price": 1870,
+     "optionGroups": [
+      {
+       "id": "slice-8924057-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860739",
+         "name": "Medium 12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11860740",
+         "name": "Large 16''",
+         "price": 329
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924068",
+     "name": "Grilled Chicken Pizza",
+     "price": 1560,
+     "optionGroups": [
+      {
+       "id": "slice-8924068-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860761",
+         "name": "Medium 12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11860762",
+         "name": "Large 16''",
+         "price": 400
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924066",
+     "name": "Shrimp Scampi Pizza",
+     "description": "Shrimp, scallions, mozzarella cheese & diced plum tomatoes.",
+     "price": 1670,
+     "optionGroups": [
+      {
+       "id": "slice-8924066-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860757",
+         "name": "Medium 12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11860758",
+         "name": "Large 16''",
+         "price": 365
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924055",
+     "name": "Margarita Pizza",
+     "description": "Sliced tomatoes, fresh mozzarella cheese & tomato sauce.",
+     "price": 1595,
+     "optionGroups": [
+      {
+       "id": "slice-8924055-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860735",
+         "name": "Medium 12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11860736",
+         "name": "Large 16''",
+         "price": 420
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-19045406",
+     "name": "Griglia Pizza",
+     "description": "Caramelized onions, mushrooms, broccoli, fontina cheese.",
+     "price": 1415,
+     "optionGroups": [
+      {
+       "id": "slice-19045406-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-22070111",
+         "name": "Medium 12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-22070112",
+         "name": "Large 16''",
+         "price": 460
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924067",
+     "name": "Chicken Bacon Ranch Pizza",
+     "description": "Mozzarella cheese and ranch.",
+     "price": 1745,
+     "optionGroups": [
+      {
+       "id": "slice-8924067-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860759",
+         "name": "Medium 12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11860760",
+         "name": "Large 16''",
+         "price": 500
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924065",
+     "name": "Meat Lovers Pizza",
+     "description": "Pepperoni, sausage, ham & bacon.",
+     "price": 1915,
+     "optionGroups": [
+      {
+       "id": "slice-8924065-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860755",
+         "name": "Medium 12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11860756",
+         "name": "Large 16''",
+         "price": 300
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924060",
+     "name": "Chicken Broccoli Alfredo Pizza",
+     "description": "Made with our homemade creamy alfredo sauce. Topped with classic cheese, chicken, and broccoli.",
+     "price": 1745,
+     "optionGroups": [
+      {
+       "id": "slice-8924060-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860745",
+         "name": "Medium 12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11860746",
+         "name": "Large 16''",
+         "price": 490
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-19045411",
+     "name": "Supreme Pizza",
+     "description": "Pepperoni, sausage, ham, bacon, onions, peppers, mushrooms.",
+     "price": 1880,
+     "optionGroups": [
+      {
+       "id": "slice-19045411-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-22070117",
+         "name": "Medium 12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-22070118",
+         "name": "Large 16''",
+         "price": 495
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-19045417",
+     "name": "Pepperoni & Sausage Pizza",
+     "price": 1640,
+     "optionGroups": [
+      {
+       "id": "slice-19045417-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-22070124",
+         "name": "Medium 12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-22070125",
+         "name": "Large 16''",
+         "price": 359
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-19045421",
+     "name": "Pepperoni & Mushrooms Pizza",
+     "price": 1640,
+     "optionGroups": [
+      {
+       "id": "slice-19045421-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-22070129",
+         "name": "Medium 12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-22070130",
+         "name": "Large 16''",
+         "price": 359
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924061",
+     "name": "Greek Delight Pizza",
+     "description": "Olives, feta cheese & sliced tomatoes, mozzarella & romano cheese with our blend of tomato sauce.",
+     "price": 1740,
+     "optionGroups": [
+      {
+       "id": "slice-8924061-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860747",
+         "name": "Medium 12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11860748",
+         "name": "Large 16''",
+         "price": 480
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924062",
+     "name": "House Special Pizza",
+     "description": "Pepperoni, eggplant, roasted peppers, broccoli, mozzarella & Romano cheese.",
+     "price": 1705,
+     "optionGroups": [
+      {
+       "id": "slice-8924062-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860749",
+         "name": "Medium 12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11860750",
+         "name": "Large 16''",
+         "price": 500
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924054",
+     "name": "La Mexicana Pizza",
+     "description": "Marinated chicken, onions, tomatoes, jalapeno peppers, & mozzarella cheese.",
+     "price": 1745,
+     "optionGroups": [
+      {
+       "id": "slice-8924054-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860733",
+         "name": "Medium 12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11860734",
+         "name": "Large 16''",
+         "price": 405
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Pizza by the Slice",
+   "items": [
+    {
+     "id": "slice-8924069",
+     "name": "Cheese Pizza Slice",
+     "price": 425
+    },
+    {
+     "id": "slice-8924070",
+     "name": "Pepperoni Pizza Slice",
+     "price": 425
+    }
+   ]
+  },
+  {
+   "name": "Appetizers",
+   "items": [
+    {
+     "id": "slice-8924071",
+     "name": "French Fries",
+     "description": "Our delicious French fries are deep fried 'till golden brown, with a crunchy exterior and a light fluffy interior. Seasoned to perfection!",
+     "price": 470,
+     "optionGroups": [
+      {
+       "id": "slice-8924071-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860765",
+         "name": "Small",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11860766",
+         "name": "Large",
+         "price": 100
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8926583",
+     "name": "Spicy Fires",
+     "price": 470,
+     "optionGroups": [
+      {
+       "id": "slice-8926583-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11863377",
+         "name": "Small",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11863378",
+         "name": "Large",
+         "price": 100
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8926586",
+     "name": "Onion Rings",
+     "description": "Crispy onion slices deep-fried until golden-brown.",
+     "price": 470,
+     "optionGroups": [
+      {
+       "id": "slice-8926586-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11863383",
+         "name": "Small",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11863384",
+         "name": "Large",
+         "price": 100
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8926589",
+     "name": "Mozzarella Sticks",
+     "description": "Deep fried cheese sticks. Crispy on the outside, gooey on the inside. Virtually guaranteed to be a table favorite! Served with a side of marinara sauce.",
+     "price": 865,
+     "optionGroups": [
+      {
+       "id": "slice-8926589-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11863387",
+         "name": "Small (6 Pieces)",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11863388",
+         "name": "Large (13 Pieces)",
+         "price": 495
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8926593",
+     "name": "Wing Dings",
+     "price": 895,
+     "optionGroups": [
+      {
+       "id": "slice-8926593-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11863394",
+         "name": "7 Pieces",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11863395",
+         "name": "10 Pieces",
+         "price": 200
+        },
+        {
+         "id": "slice-type-11863406",
+         "name": "15 Pieces",
+         "price": 685
+        },
+        {
+         "id": "slice-type-11863407",
+         "name": "20 Pieces",
+         "price": 1155
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8926604",
+     "name": "Buffalo Wings",
+     "price": 895,
+     "optionGroups": [
+      {
+       "id": "slice-8926604-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11863410",
+         "name": "7 Pieces",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11863411",
+         "name": "10 Pieces",
+         "price": 200
+        },
+        {
+         "id": "slice-type-11863412",
+         "name": "15 Pieces",
+         "price": 700
+        },
+        {
+         "id": "slice-type-11863413",
+         "name": "20 Pieces",
+         "price": 1195
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8926615",
+     "name": "Buffalo Tenders",
+     "price": 1080,
+     "optionGroups": [
+      {
+       "id": "slice-8926615-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11863423",
+         "name": "Small (5 Pieces)",
+         "price": 0
+        },
+        {
+         "id": "slice-type-22070823",
+         "name": "Large (10 Pieces)",
+         "price": 670
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8926592",
+     "name": "Chicken Fingers",
+     "description": "Breaded and fried chicken strips.",
+     "price": 1070,
+     "optionGroups": [
+      {
+       "id": "slice-8926592-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11863392",
+         "name": "Small (5 Pieces)",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11863393",
+         "name": "Large (10 Pieces)",
+         "price": 655
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8926591",
+     "name": "Jalapeno Poppers",
+     "description": "Juicy jalapeno poppers breaded and filled with cheese and fried to golden perfection.",
+     "price": 950,
+     "optionGroups": [
+      {
+       "id": "slice-8926591-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11863390",
+         "name": "Small (6 Pieces)",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11863391",
+         "name": "Large (13 Pieces)",
+         "price": 645
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8926616",
+     "name": "Fried Cheese Ravioli",
+     "price": 950,
+     "optionGroups": [
+      {
+       "id": "slice-8926616-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11863425",
+         "name": "Small (6 Pieces)",
+         "price": 0
+        },
+        {
+         "id": "slice-type-22070824",
+         "name": "Large (13 Pieces)",
+         "price": 645
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8926617",
+     "name": "Chicago Sampler",
+     "description": "Buffalo wings, chicken wings, chicken tenders, mozzarella sticks, and onion rings.",
+     "price": 1660
+    },
+    {
+     "id": "slice-24310587",
+     "name": "Fried Calamari",
+     "price": 1200
+    }
+   ]
+  },
+  {
+   "name": "Super Fresh Salads",
+   "items": [
+    {
+     "id": "slice-8924085",
+     "name": "Garden Salad",
+     "price": 1290
+    },
+    {
+     "id": "slice-8926545",
+     "name": "Chef Salad",
+     "price": 1595
+    },
+    {
+     "id": "slice-8926549",
+     "name": "Tuna Salad",
+     "price": 1595
+    },
+    {
+     "id": "slice-8926564",
+     "name": "Greek Salad",
+     "price": 1370
+    },
+    {
+     "id": "slice-19045630",
+     "name": "Grilled Chicken Greek Salad",
+     "price": 1670
+    },
+    {
+     "id": "slice-19045637",
+     "name": "Grilled Shrimp Caesar Salad",
+     "price": 1675
+    },
+    {
+     "id": "slice-8926558",
+     "name": "Buffalo Chicken Salad",
+     "price": 1675
+    },
+    {
+     "id": "slice-8926562",
+     "name": "Antipasto Salad",
+     "price": 1605
+    },
+    {
+     "id": "slice-8926566",
+     "name": "Caesar Salad",
+     "price": 1290
+    },
+    {
+     "id": "slice-8926557",
+     "name": "Chicken Caesar Salad",
+     "price": 1615
+    },
+    {
+     "id": "slice-19045641",
+     "name": "Salmon Salad",
+     "description": "On garden or Greek salad.",
+     "price": 1775
+    },
+    {
+     "id": "slice-8926561",
+     "name": "Steak Tip Salad",
+     "description": "Loaded with a juicy steak, your favorite veggies.",
+     "price": 1775
+    }
+   ]
+  },
+  {
+   "name": "Mexican Sides",
+   "items": [
+    {
+     "id": "slice-8924088",
+     "name": "Beans",
+     "price": 545
+    },
+    {
+     "id": "slice-8924090",
+     "name": "Pico de Gallo",
+     "price": 545
+    },
+    {
+     "id": "slice-8924091",
+     "name": "Chips & Salsa",
+     "price": 550
+    },
+    {
+     "id": "slice-19046463",
+     "name": "Chips & Guacamole",
+     "price": 610
+    },
+    {
+     "id": "slice-8934346",
+     "name": "Sour Cream",
+     "price": 250
+    },
+    {
+     "id": "slice-19046455",
+     "name": "Yellow Rice",
+     "price": 550
+    },
+    {
+     "id": "slice-8924092",
+     "name": "White Rice",
+     "price": 550
+    },
+    {
+     "id": "slice-8924093",
+     "name": "Cheese Pupusas",
+     "price": 495
+    },
+    {
+     "id": "slice-8924096",
+     "name": "Mixed Pupusas",
+     "description": "Pork & cheese.",
+     "price": 495
+    },
+    {
+     "id": "slice-8924097",
+     "name": "Blue Cheese",
+     "price": 150
+    },
+    {
+     "id": "slice-8924094",
+     "name": "BBQ Sauce",
+     "price": 150
+    },
+    {
+     "id": "slice-8924098",
+     "name": "Guacamole",
+     "price": 100
+    },
+    {
+     "id": "slice-10982663",
+     "name": "Beans & Cheese",
+     "price": 420
+    },
+    {
+     "id": "slice-8924089",
+     "name": "Salvadorian Tamales",
+     "price": 450
+    },
+    {
+     "id": "slice-19046459",
+     "name": "Ground Beef Pastelitos",
+     "price": 175
+    },
+    {
+     "id": "slice-19046461",
+     "name": "Ham & Cheese Pastelitos",
+     "price": 175
+    },
+    {
+     "id": "slice-19046462",
+     "name": "Chicken Pastelitos",
+     "price": 175
+    }
+   ]
+  },
+  {
+   "name": "Calzones",
+   "items": [
+    {
+     "id": "slice-8924099",
+     "name": "Grilled Chicken Calzone",
+     "price": 1775
+    },
+    {
+     "id": "slice-8924100",
+     "name": "Vegetarian Calzone",
+     "description": "Onions, mushrooms, green peppers, broccoli, spinach, and olives.",
+     "price": 1775
+    },
+    {
+     "id": "slice-8924101",
+     "name": "Meatball Calzone",
+     "description": "Meatball, sauce, and cheese.",
+     "price": 1775
+    },
+    {
+     "id": "slice-8924103",
+     "name": "Ham & Cheese Calzone",
+     "description": "Ham, ricotta, mozzarella & parmesan.",
+     "price": 1775
+    },
+    {
+     "id": "slice-8924106",
+     "name": "Steak & Cheese Calzone",
+     "description": "Stuffed with mozzarella and sliced steak.",
+     "price": 1775
+    },
+    {
+     "id": "slice-8924107",
+     "name": "Hawaiian Style Calzone",
+     "price": 1775
+    },
+    {
+     "id": "slice-8924108",
+     "name": "House Special Calzone",
+     "price": 1775
+    },
+    {
+     "id": "slice-19045465",
+     "name": "Chicken Broccoli Alfredo Calzone",
+     "price": 1775
+    }
+   ]
+  },
+  {
+   "name": "Cold Sandwiches",
+   "items": [
+    {
+     "id": "slice-8924200",
+     "name": "Tuna Sandwich",
+     "price": 725
+    },
+    {
+     "id": "slice-8924201",
+     "name": "Turkey Sandwich",
+     "price": 725
+    },
+    {
+     "id": "slice-8924202",
+     "name": "Ham & Cheese Sandwich",
+     "description": "Classic ham & cheese sandwich.",
+     "price": 725
+    },
+    {
+     "id": "slice-8924203",
+     "name": "Turkey Club Sandwich",
+     "description": "Freshly made with cheese, bacon, lettuce, tomato, and mayonnaise, layered between toasted bread.",
+     "price": 850
+    }
+   ]
+  },
+  {
+   "name": "Hot Sandwiches",
+   "items": [
+    {
+     "id": "slice-8924194",
+     "name": "Chicken Cutlet Sandwich",
+     "description": "Breaded cutlet topped with sauce and cheese.",
+     "price": 725
+    },
+    {
+     "id": "slice-8934337",
+     "name": "Cheeseburger",
+     "price": 725
+    },
+    {
+     "id": "slice-19045605",
+     "name": "Bacon Cheeseburger",
+     "price": 825
+    },
+    {
+     "id": "slice-8924197",
+     "name": "Double Cheeseburger",
+     "price": 940
+    },
+    {
+     "id": "slice-8924191",
+     "name": "Fish Sandwich",
+     "price": 825
+    },
+    {
+     "id": "slice-8924199",
+     "name": "BLT Sandwich",
+     "description": "Classic bacon, lettuce and tomato sandwich",
+     "price": 675
+    },
+    {
+     "id": "slice-19045616",
+     "name": "Grilled Chicken Club with Bacon",
+     "price": 840
+    },
+    {
+     "id": "slice-8924193",
+     "name": "Grilled Chicken Club",
+     "price": 940
+    }
+   ]
+  },
+  {
+   "name": "Hot Subs",
+   "items": [
+    {
+     "id": "slice-8924174",
+     "name": "Meatball Sub",
+     "description": "Topped with homemade meatballs and classic cheese.",
+     "price": 1390,
+     "optionGroups": [
+      {
+       "id": "slice-8924174-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860917",
+         "name": "12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-13948803",
+         "name": "16''",
+         "price": 205
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924165",
+     "name": "Italian Sausage, Peppers & Onions Sub",
+     "price": 1390,
+     "optionGroups": [
+      {
+       "id": "slice-8924165-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860899",
+         "name": "12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-13948911",
+         "name": "16''",
+         "price": 205
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924169",
+     "name": "Chicken Parm Sub",
+     "description": "Chicken, parmesan, and classic cheese.",
+     "price": 1390,
+     "optionGroups": [
+      {
+       "id": "slice-8924169-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860907",
+         "name": "12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-13948913",
+         "name": "16''",
+         "price": 205
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924161",
+     "name": "Chicken Cutlet Sub",
+     "description": "Tender chicken breast strips, topped with provolone cheese, fresh tomatoes, and romaine lettuce.",
+     "price": 1390,
+     "optionGroups": [
+      {
+       "id": "slice-8924161-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860891",
+         "name": "12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-13948914",
+         "name": "16''",
+         "price": 205
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924162",
+     "name": "Grilled Chicken Kabob Sub",
+     "price": 1390,
+     "optionGroups": [
+      {
+       "id": "slice-8924162-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860893",
+         "name": "12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-13948915",
+         "name": "16''",
+         "price": 205
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924166",
+     "name": "Pastrami & Cheese Sub",
+     "price": 1390,
+     "optionGroups": [
+      {
+       "id": "slice-8924166-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860901",
+         "name": "12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-13948916",
+         "name": "16''",
+         "price": 205
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924175",
+     "name": "Cheeseburger Sub",
+     "description": "The flavors of your favorite cheeseburger, in sub form!",
+     "price": 1599,
+     "optionGroups": [
+      {
+       "id": "slice-8924175-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860919",
+         "name": "12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-13948917",
+         "name": "16''",
+         "price": 191
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924170",
+     "name": "Cheeseburger with Bacon",
+     "price": 1390,
+     "optionGroups": [
+      {
+       "id": "slice-8924170-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860909",
+         "name": "12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-13948918",
+         "name": "16''",
+         "price": 205
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924171",
+     "name": "BLT Sub",
+     "description": "Classic bacon, lettuce, and tomato.",
+     "price": 1390,
+     "optionGroups": [
+      {
+       "id": "slice-8924171-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860911",
+         "name": "12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-13948919",
+         "name": "16''",
+         "price": 205
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924163",
+     "name": "Fish Fillet Sub",
+     "price": 1390,
+     "optionGroups": [
+      {
+       "id": "slice-8924163-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860895",
+         "name": "12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-13948921",
+         "name": "16''",
+         "price": 205
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924164",
+     "name": "Eggplant Sub",
+     "price": 1390,
+     "optionGroups": [
+      {
+       "id": "slice-8924164-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860897",
+         "name": "12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-13948923",
+         "name": "16''",
+         "price": 205
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Steak Subs",
+   "items": [
+    {
+     "id": "slice-8924182",
+     "name": "Cheesesteak Sub",
+     "description": "Shredded steak topped with classic cheese.",
+     "price": 1399,
+     "optionGroups": [
+      {
+       "id": "slice-8924182-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860933",
+         "name": "12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-13949000",
+         "name": "16''",
+         "price": 191
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924183",
+     "name": "Cheesesteak Sub with Peppers",
+     "price": 1399,
+     "optionGroups": [
+      {
+       "id": "slice-8924183-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860935",
+         "name": "12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-13949051",
+         "name": "16''",
+         "price": 191
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924184",
+     "name": "Cheesesteak Sub with Onions",
+     "price": 1399,
+     "optionGroups": [
+      {
+       "id": "slice-8924184-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860937",
+         "name": "12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-13949052",
+         "name": "16''",
+         "price": 191
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924185",
+     "name": "Cheesesteak Sub with Mushrooms",
+     "price": 1399,
+     "optionGroups": [
+      {
+       "id": "slice-8924185-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860939",
+         "name": "12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-13949053",
+         "name": "16''",
+         "price": 191
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924186",
+     "name": "Steak & Egg Sub",
+     "price": 1499,
+     "optionGroups": [
+      {
+       "id": "slice-8924186-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860941",
+         "name": "12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-13949054",
+         "name": "16''",
+         "price": 231
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924187",
+     "name": "Steak Bomb Sub",
+     "price": 1495,
+     "optionGroups": [
+      {
+       "id": "slice-8924187-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860943",
+         "name": "12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-13949055",
+         "name": "16''",
+         "price": 200
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924190",
+     "name": "Steak Tips Kabob Sub",
+     "price": 1415,
+     "optionGroups": [
+      {
+       "id": "slice-8924190-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860949",
+         "name": "12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-13949059",
+         "name": "16''",
+         "price": 200
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Cold Subs",
+   "items": [
+    {
+     "id": "slice-8924181",
+     "name": "Italian Sub",
+     "description": "Ham, salami, capicola, onions, sweet peppers and cheese.",
+     "price": 1390,
+     "optionGroups": [
+      {
+       "id": "slice-8924181-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860931",
+         "name": "12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-13949065",
+         "name": "16''",
+         "price": 205
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924178",
+     "name": "Ham & Cheese Sub",
+     "price": 1390,
+     "optionGroups": [
+      {
+       "id": "slice-8924178-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860925",
+         "name": "12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-13949095",
+         "name": "16''",
+         "price": 205
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924179",
+     "name": "Turkey Sub",
+     "price": 1390,
+     "optionGroups": [
+      {
+       "id": "slice-8924179-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860927",
+         "name": "12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-13949096",
+         "name": "16''",
+         "price": 205
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8924180",
+     "name": "Tuna Sub",
+     "price": 1390,
+     "optionGroups": [
+      {
+       "id": "slice-8924180-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11860929",
+         "name": "12''",
+         "price": 0
+        },
+        {
+         "id": "slice-type-13949097",
+         "name": "16''",
+         "price": 205
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Quesadillas",
+   "items": [
+    {
+     "id": "slice-8926724",
+     "name": "Chicken Quesadilla",
+     "price": 1590
+    },
+    {
+     "id": "slice-8926725",
+     "name": "Spicy Chicken Quesadilla",
+     "price": 1590
+    },
+    {
+     "id": "slice-8926726",
+     "name": "Steak Quesadilla",
+     "price": 1695
+    },
+    {
+     "id": "slice-8926727",
+     "name": "Ground Beef Quesadilla",
+     "price": 1590
+    },
+    {
+     "id": "slice-8926729",
+     "name": "Chorizo Quesadilla",
+     "price": 1590
+    },
+    {
+     "id": "slice-8926730",
+     "name": "Al Pastor Quesadilla",
+     "price": 1590
+    },
+    {
+     "id": "slice-8926732",
+     "name": "Vegetarian Quesadilla",
+     "description": "Served with peppers, mushrooms, onions, guacamole, pico de gallo and sour cream.",
+     "price": 1505
+    }
+   ]
+  },
+  {
+   "name": "Specialty Wraps",
+   "items": [
+    {
+     "id": "slice-8924123",
+     "name": "Burrito Wrap",
+     "description": "Marinated grilled chicken, feta cheese, and broccoli.",
+     "price": 1395
+    },
+    {
+     "id": "slice-8924116",
+     "name": "Chicken Fajita Wrap",
+     "description": "Marinated chicken with grilled peppers, onions, mozzarella cheese & tomatoes.",
+     "price": 1395
+    },
+    {
+     "id": "slice-8924125",
+     "name": "Steaks Tip Fajita Wrap",
+     "description": "Marinated steak tips with grilled peppers, onions, mozzarella cheese & tomatoes.",
+     "price": 1395
+    },
+    {
+     "id": "slice-8924117",
+     "name": "Tuna Wrap",
+     "description": "Lettuce, tomatoes, onions, and melted cheese.",
+     "price": 1395
+    },
+    {
+     "id": "slice-8924121",
+     "name": "Chicken Caesar Wrap",
+     "description": "Chicken, romaine lettuce, Parmesan cheese, and Caesar dressing.",
+     "price": 1395
+    },
+    {
+     "id": "slice-10980715",
+     "name": "Turkey Wrap",
+     "description": "Turkey, lettuce, tomatoes and onions",
+     "price": 1395
+    },
+    {
+     "id": "slice-8924124",
+     "name": "Ham & Cheese Wrap",
+     "price": 1395
+    }
+   ]
+  },
+  {
+   "name": "Burritos",
+   "items": [
+    {
+     "id": "slice-8924752",
+     "name": "Chicken Burrito",
+     "price": 1490
+    },
+    {
+     "id": "slice-8926679",
+     "name": "Spicy Chicken Burrito",
+     "price": 1490
+    },
+    {
+     "id": "slice-8926682",
+     "name": "Steak Burrito",
+     "description": "Steak, sliced onions, bell peppers, chopped tomatoes and black beans.",
+     "price": 1595
+    },
+    {
+     "id": "slice-19046157",
+     "name": "Chorizo Burrito",
+     "price": 1490
+    },
+    {
+     "id": "slice-8926683",
+     "name": "Ground Beef Burrito",
+     "price": 1490
+    },
+    {
+     "id": "slice-8926685",
+     "name": "Shrimp Burrito",
+     "price": 1630
+    },
+    {
+     "id": "slice-8926686",
+     "name": "Al Pastor Burrito",
+     "price": 1490
+    },
+    {
+     "id": "slice-8926689",
+     "name": "Beans & Cheese Burrito",
+     "price": 1205
+    },
+    {
+     "id": "slice-8926690",
+     "name": "Fajita Nortenas Burrito",
+     "description": "Chicken & steak.",
+     "price": 1599
+    },
+    {
+     "id": "slice-8926692",
+     "name": "Veggie Burrito",
+     "price": 1205
+    }
+   ]
+  },
+  {
+   "name": "Tacos",
+   "items": [
+    {
+     "id": "slice-8924129",
+     "name": "Steak Taco",
+     "description": "Sliced steak, cheese, lettuce, and tomato. Served with salsa and topped with sour cream.\"",
+     "price": 495
+    },
+    {
+     "id": "slice-8927584",
+     "name": "Chorizo Taco",
+     "price": 495
+    },
+    {
+     "id": "slice-8927580",
+     "name": "Chicken Taco",
+     "price": 495
+    },
+    {
+     "id": "slice-8927581",
+     "name": "Ground Beef Taco",
+     "price": 495
+    },
+    {
+     "id": "slice-8927587",
+     "name": "Al Pastor Taco",
+     "price": 495
+    },
+    {
+     "id": "slice-8927663",
+     "name": "Beans & Cheese Taco",
+     "price": 465
+    },
+    {
+     "id": "slice-8927668",
+     "name": "Chicken Fajita Taco",
+     "price": 550
+    },
+    {
+     "id": "slice-8927683",
+     "name": "Steak Fajita Taco",
+     "price": 550
+    },
+    {
+     "id": "slice-8927685",
+     "name": "Mixed Fajita Taco",
+     "price": 585
+    },
+    {
+     "id": "slice-8927689",
+     "name": "Vegetarian Taco",
+     "price": 495
+    },
+    {
+     "id": "slice-8927690",
+     "name": "Spicy Chicken Taco",
+     "price": 495
+    },
+    {
+     "id": "slice-19046434",
+     "name": "Salmon Taco",
+     "price": 550
+    },
+    {
+     "id": "slice-19046435",
+     "name": "Shrimp Taco",
+     "price": 550
+    },
+    {
+     "id": "slice-8927792",
+     "name": "Mexican Taco",
+     "description": "Any meat, cilantro and onions.",
+     "price": 495
+    },
+    {
+     "id": "slice-8927808",
+     "name": "Taco Plate",
+     "description": "With yellow rice & black beans.",
+     "price": 1575
+    },
+    {
+     "id": "slice-8927811",
+     "name": "Shrimp Taco Plate",
+     "description": "Shrimp tacos with yellow rice & black beans.",
+     "price": 1725
+    }
+   ]
+  },
+  {
+   "name": "Mexican Sandwiches",
+   "items": [
+    {
+     "id": "slice-8927818",
+     "name": "Mexican Chicken Sandwich",
+     "price": 1375
+    },
+    {
+     "id": "slice-8927820",
+     "name": "Mexican Spicy Chicken Sandwich",
+     "price": 1375
+    },
+    {
+     "id": "slice-8927819",
+     "name": "Mexican Steak Sandwich",
+     "price": 1480
+    },
+    {
+     "id": "slice-10982627",
+     "name": "Mexican Al Pastor Sandwich",
+     "price": 1375
+    }
+   ]
+  },
+  {
+   "name": "Chimichangas",
+   "items": [
+    {
+     "id": "slice-8927474",
+     "name": "Chimichangas Plate",
+     "description": "Served with yellow rice & black beans.",
+     "price": 1175
+    }
+   ]
+  },
+  {
+   "name": "Nachos",
+   "items": [
+    {
+     "id": "slice-8924152",
+     "name": "Cheese Nacho",
+     "price": 1475
+    },
+    {
+     "id": "slice-8927481",
+     "name": "Steak Nacho",
+     "price": 1695
+    },
+    {
+     "id": "slice-8927483",
+     "name": "Chicken Nacho",
+     "price": 1580
+    },
+    {
+     "id": "slice-8927561",
+     "name": "Ground Beef Nacho",
+     "price": 1580
+    },
+    {
+     "id": "slice-8927562",
+     "name": "Super Nacho",
+     "description": "Two types of meat.",
+     "price": 1750
+    },
+    {
+     "id": "slice-8927563",
+     "name": "Chorizo Nacho",
+     "price": 1675
+    },
+    {
+     "id": "slice-8927565",
+     "name": "Al Pastor Nacho",
+     "description": "Served with lettuce, pico de gallo, guacamole, and sour cream.",
+     "price": 1580
+    },
+    {
+     "id": "slice-8927564",
+     "name": "Vegetarian Nacho",
+     "price": 1505
+    }
+   ]
+  },
+  {
+   "name": "Enchiladas",
+   "items": [
+    {
+     "id": "slice-8927830",
+     "name": "Chicken Enchilada",
+     "price": 1565
+    },
+    {
+     "id": "slice-8927831",
+     "name": "Ground Beef Enchilada",
+     "price": 1565
+    },
+    {
+     "id": "slice-8927833",
+     "name": "Steak Enchilada",
+     "price": 1725
+    },
+    {
+     "id": "slice-19046451",
+     "name": "Shrimp Enchilada",
+     "price": 1735
+    }
+   ]
+  },
+  {
+   "name": "Pasta",
+   "items": [
+    {
+     "id": "slice-8924247",
+     "name": "Pasta with Meatballs",
+     "description": "Pasta topped in our homemade meatballs.",
+     "price": 1685
+    },
+    {
+     "id": "slice-8924241",
+     "name": "Chicken Parmesan Pasta",
+     "price": 1685
+    },
+    {
+     "id": "slice-8924248",
+     "name": "Eggplant Parmesan Pasta",
+     "price": 1685
+    },
+    {
+     "id": "slice-8924251",
+     "name": "Lobster Ravioli",
+     "description": "In a garlic cream sauce with diced plum.",
+     "price": 1710
+    },
+    {
+     "id": "slice-19045591",
+     "name": "Chicken Fettuccine Alfredo",
+     "price": 1925
+    },
+    {
+     "id": "slice-8924246",
+     "name": "Chicken, Ziti & Broccoli Alfredo",
+     "description": "In a white cream sauce.",
+     "price": 1715
+    },
+    {
+     "id": "slice-8924249",
+     "name": "Shrimp, Ziti & Broccoli Alfredo",
+     "description": "With a choice of sauce: Pesto, pesto cream, pink cream, marinara, or scampi sauce.",
+     "price": 1825
+    }
+   ]
+  },
+  {
+   "name": "Fried Chicken",
+   "items": [
+    {
+     "id": "slice-8924259",
+     "name": "Fried Chicken",
+     "description": "Legs only.",
+     "price": 1000,
+     "optionGroups": [
+      {
+       "id": "slice-8924259-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11861022",
+         "name": "5 Pieces",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11861023",
+         "name": "10 Pieces",
+         "price": 1000
+        },
+        {
+         "id": "slice-type-11861024",
+         "name": "15 Pieces",
+         "price": 2000
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Spanish Food Daily",
+   "items": [
+    {
+     "id": "slice-8924261",
+     "name": "Oven Chicken Dinner",
+     "description": "Quarter leg with rice and choice of fries or salad.",
+     "price": 1740
+    },
+    {
+     "id": "slice-8924262",
+     "name": "Fried Pork Dinner",
+     "description": "With white or yellow rice and beans.",
+     "price": 1750
+    },
+    {
+     "id": "slice-8924263",
+     "name": "Chicken Stew Plate",
+     "description": "With white or yellow rice.",
+     "price": 1750
+    }
+   ]
+  },
+  {
+   "name": "Dinners",
+   "items": [
+    {
+     "id": "slice-8924276",
+     "name": "Chicken Kabob Dinner",
+     "description": "With peppers, onions.",
+     "price": 1595
+    },
+    {
+     "id": "slice-8926629",
+     "name": "Marinated Steak Tips Kabob Dinner",
+     "price": 1795
+    },
+    {
+     "id": "slice-8926633",
+     "name": "Chicken Fingers Dinner",
+     "price": 1585
+    },
+    {
+     "id": "slice-8926637",
+     "name": "Chicken Cutlet Basket",
+     "price": 1450
+    },
+    {
+     "id": "slice-8926639",
+     "name": "Wing Dings Dinner",
+     "price": 1650,
+     "optionGroups": [
+      {
+       "id": "slice-8926639-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11863448",
+         "name": "8 Pieces",
+         "price": 0
+        },
+        {
+         "id": "slice-type-11863452",
+         "name": "12 Pieces",
+         "price": 340
+        },
+        {
+         "id": "slice-type-11863453",
+         "name": "15 Pieces",
+         "price": 640
+        },
+        {
+         "id": "slice-type-16887416",
+         "name": "20 Pieces",
+         "price": 1340
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-19046149",
+     "name": "BBQ Grilled Chicken Dinner",
+     "price": 1650
+    },
+    {
+     "id": "slice-19046124",
+     "name": "Buffalo Grilled Chicken Dinner",
+     "price": 1650
+    },
+    {
+     "id": "slice-8926645",
+     "name": "Buffalo Wings Dings Dinner",
+     "price": 1670,
+     "optionGroups": [
+      {
+       "id": "slice-8926645-size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "slice-type-11863454",
+         "name": "8 Pieces",
+         "price": 0
+        },
+        {
+         "id": "slice-type-22070859",
+         "name": "12 Pieces",
+         "price": 380
+        },
+        {
+         "id": "slice-type-22070860",
+         "name": "15 Pieces",
+         "price": 665
+        },
+        {
+         "id": "slice-type-22070861",
+         "name": "20 Pieces",
+         "price": 1335
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "slice-8926655",
+     "name": "BBQ Ribs Dinner",
+     "price": 1650
+    },
+    {
+     "id": "slice-19046128",
+     "name": "Fish Dinner",
+     "description": "Flounder.",
+     "price": 1675
+    },
+    {
+     "id": "slice-19046129",
+     "name": "Tilapia Dinner",
+     "price": 1690
+    },
+    {
+     "id": "slice-19046137",
+     "name": "Salmon Dinner",
+     "description": "Flounder.",
+     "price": 1795
+    },
+    {
+     "id": "slice-8926650",
+     "name": "Fried Scallops Dinner",
+     "price": 1575
+    },
+    {
+     "id": "slice-8926654",
+     "name": "Fisherman's Platter",
+     "price": 1975
+    },
+    {
+     "id": "slice-8926630",
+     "name": "Butterfly Shrimp Dinner",
+     "price": 1775
+    },
+    {
+     "id": "slice-8926631",
+     "name": "Clams Strips Dinner",
+     "price": 1870
+    },
+    {
+     "id": "slice-8926656",
+     "name": "El Montanero Dinner",
+     "description": "Served with rice, beans, fried pork, sweet plantain, fried egg, steak, and salad.",
+     "price": 1975
+    },
+    {
+     "id": "slice-24310590",
+     "name": "Fried Calamari",
+     "description": "Fried, salad.",
+     "price": 1700
+    }
+   ]
+  }
+ ]
+}

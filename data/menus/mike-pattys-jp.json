@@ -1,0 +1,289 @@
+{
+ "restaurant": "mike-pattys-jp",
+ "source": "scraped",
+ "platform": "slice",
+ "sourceUrl": "https://slicelife.com/restaurants/ma/jamaica-plain/02130/mike-patty-s-jamaica-plain/menu",
+ "fetchedAt": "2026-10-05T17:00:35.547Z",
+ "dinnerAvailable": false,
+ "categories": [
+  {
+   "name": "Sandwiches",
+   "items": [
+    {
+     "id": "slice-16200702",
+     "name": "Fancy",
+     "description": "Vital Farms pasture-raised fried eggs, bacon, cheddar cheese, avocado, red onions and house-mayo on our toasted Flourhouse multigrain",
+     "price": 1596
+    },
+    {
+     "id": "slice-23270303",
+     "name": "BLT",
+     "description": "bacon, lettuce, tomato and house mayo on our toasted Flourhouse sourdough bread",
+     "price": 1596
+    },
+    {
+     "id": "slice-16200703",
+     "name": "Breakfast Grilled Crack",
+     "description": "Vital Farms pasture-raised fried egg, extra bacon, American, cheddar, swiss, and gruyere on our buttered Flourhouse sourdough",
+     "price": 1663
+    },
+    {
+     "id": "slice-16200710",
+     "name": "Baller",
+     "description": "acorn-fed Ibérico de Bellota bacon imported from Spain, Vital Farms pasture-raised fried egg and Vermont cheddar aged 24 months on our house-made english muffin.",
+     "price": 1463
+    },
+    {
+     "id": "slice-16200709",
+     "name": "Classic",
+     "description": "Vital Farms pasture-raised fried egg and American cheese on our Flourhouse english muffin.",
+     "price": 864
+    },
+    {
+     "id": "slice-16200704",
+     "name": "Carolina Caviar",
+     "description": "Vital Farms pasture-raised fried egg, sausage and pimento cheese on our Flourhouse English muffin.",
+     "price": 1263
+    },
+    {
+     "id": "slice-16200705",
+     "name": "Mission Breakfast Burrito",
+     "description": "Vital Farms pasture-raised scrambled eggs, american, jack, cheddar, golden hash brown, avocado, roasted poblano, salsa verde, salsa roja and crema on a supersized flour tortilla",
+     "price": 1862
+    },
+    {
+     "id": "slice-17614310",
+     "name": "Vegan Breakfast Burrito",
+     "description": "vegan scrambled eggs, vegan gouda, golden hash brown, avocado, pico de gallo, roasted poblano, salsa verde, and salsa roja on a supersized flour tortilla",
+     "price": 1995
+    },
+    {
+     "id": "slice-23270393",
+     "name": "Patz Turkey",
+     "description": "8 ounces of piled high roasted turkey, lettuce, honey mustard, house mayo, on toasted Flourhouse multigrain",
+     "price": 2394
+    },
+    {
+     "id": "slice-23270419",
+     "name": "Patz Turkey Jr",
+     "description": "4 ounces piled high roasted turkey, lettuce, honey mustard, house mayo, on toasted Flourhouse multigrain",
+     "price": 1663
+    },
+    {
+     "id": "slice-23270441",
+     "name": "McLustin",
+     "description": "Vital Farms pasture-raised fried egg, bacon, American cheese, golden hash brown and sriracha ketchup on our Flourhouse english muffin",
+     "price": 1330
+    },
+    {
+     "id": "slice-17668377",
+     "name": "Vegan Classic",
+     "description": "all-vegan egg, cheese, and English muffin ingredients",
+     "price": 1396
+    },
+    {
+     "id": "slice-23270840",
+     "name": "Grilled Cheese",
+     "description": "Griddled Flourhouse Sourdough bread with American, and a shredded mix of Cheddar, Monterey & gruyere cheese",
+     "price": 1197
+    }
+   ]
+  },
+  {
+   "name": "Sides",
+   "items": [
+    {
+     "id": "slice-23274276",
+     "name": "Loaded Hashbrown",
+     "description": "ur crispy, golden hash brown topped with melted cheddar, monteray and gruyere cheese, s.drizzled with sour cream drizzled and topped with crispy chooped bacon and fresh scallions",
+     "price": 798
+    },
+    {
+     "id": "slice-16200921",
+     "name": "Hash Brown",
+     "price": 399
+    },
+    {
+     "id": "slice-23274278",
+     "name": "Side Sriracha Ketchup",
+     "description": "2 oz side Sriracha Ketchup sauce",
+     "price": 133
+    },
+    {
+     "id": "slice-16200708",
+     "name": "English Muffin solo",
+     "description": "Single flourhouse English muffin.",
+     "price": 266
+    },
+    {
+     "id": "slice-23781254",
+     "name": "Side House Mayo",
+     "price": 133
+    },
+    {
+     "id": "slice-23781263",
+     "name": "Chocolate Chunk Cookie",
+     "price": 532
+    },
+    {
+     "id": "slice-23781454",
+     "name": "Blueberry Muffin",
+     "description": "local milled flour, vermont butter, maine blueberries baked with a blueberry sugar crumble topping",
+     "price": 532
+    }
+   ]
+  },
+  {
+   "name": "Drinks",
+   "items": [
+    {
+     "id": "slice-23274284",
+     "name": "Iced Coffee 16oz",
+     "price": 465
+    },
+    {
+     "id": "slice-23274285",
+     "name": "Iced Coffee 20oz",
+     "price": 532
+    },
+    {
+     "id": "slice-23274294",
+     "name": "Patty Mint Tea Latte 16oz",
+     "description": "4oz Moroccan Mint Tea, 6oz milk, 2 pumps of mocha",
+     "price": 732
+    },
+    {
+     "id": "slice-16200717",
+     "name": "Hot Coffee",
+     "price": 466
+    },
+    {
+     "id": "slice-16200716",
+     "name": "Hot Tea",
+     "price": 399
+    },
+    {
+     "id": "slice-16200723",
+     "name": "Strawberry Apple Juice",
+     "price": 598
+    },
+    {
+     "id": "slice-16200722",
+     "name": "San Pellegrino Orange",
+     "price": 466
+    },
+    {
+     "id": "slice-16200715",
+     "name": "San Pellegrino Lemon",
+     "price": 466
+    },
+    {
+     "id": "slice-16200720",
+     "name": "Orange Juice",
+     "price": 598
+    },
+    {
+     "id": "slice-16200718",
+     "name": "Cold Brew",
+     "price": 665
+    },
+    {
+     "id": "slice-23781491",
+     "name": "Strawberry Milk",
+     "description": "Our Family Farms Strawberry Milk",
+     "price": 665
+    },
+    {
+     "id": "slice-23781683",
+     "name": "Chocolate Milk",
+     "description": "Our Family Farms Chocolate Milk",
+     "price": 665
+    },
+    {
+     "id": "slice-23781875",
+     "name": "Coke can",
+     "price": 399
+    },
+    {
+     "id": "slice-23781876",
+     "name": "Diet Coke Can",
+     "price": 399
+    },
+    {
+     "id": "slice-23781880",
+     "name": "Sprite Can",
+     "price": 399
+    },
+    {
+     "id": "slice-23781881",
+     "name": "Maple Cream Cold Brew",
+     "description": "12oz",
+     "price": 665
+    },
+    {
+     "id": "slice-26646701",
+     "name": "Sparkling Water",
+     "description": "Saratoga Sparkling Water",
+     "price": 399
+    },
+    {
+     "id": "slice-26646702",
+     "name": "Grape Apple Juice",
+     "description": "Red Jacket Grape Apple Juice",
+     "price": 532
+    },
+    {
+     "id": "slice-26646703",
+     "name": "Coffee Milk",
+     "description": "Our Family Farms Coffee Milk",
+     "price": 665
+    },
+    {
+     "id": "slice-26646704",
+     "name": "Root Beer",
+     "description": "Katalyst Root Beer",
+     "price": 465
+    }
+   ]
+  },
+  {
+   "name": "Kid's Menu",
+   "items": [
+    {
+     "id": "slice-16200713",
+     "name": "Kid's Grilled Cheese",
+     "price": 798
+    },
+    {
+     "id": "slice-16200981",
+     "name": "Kid's Happy Meal",
+     "description": "A sandwich, drink & Mike and Patty's Adventure Kids Book is included in the Kids Happy Meal!",
+     "price": 1729
+    }
+   ]
+  },
+  {
+   "name": "Retail",
+   "items": [
+    {
+     "id": "slice-16200711",
+     "name": "Homemade English Muffins-4 Pack",
+     "description": "4 pack of homemade english muffins. Ingredients: flour, water olive oil, sugar, salt and cornmeal",
+     "price": 865
+    },
+    {
+     "id": "slice-23782081",
+     "name": "Kids Book",
+     "description": "this book was inspired by the Mike & Patty's breakfast shop located in Boston, Massachusetts",
+     "price": 1330
+    },
+    {
+     "id": "slice-23782086",
+     "name": "Speedwell Colombian Coffee Beans 12oz",
+     "description": "12oz bag",
+     "price": 2128
+    }
+   ]
+  }
+ ]
+}

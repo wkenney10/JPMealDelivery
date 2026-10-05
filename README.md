@@ -74,6 +74,12 @@ a browser-based scrape runs, the raw API captures go to `SCRAPE_DEBUG_DIR`. CI u
 `data/menus-manual/<slug>.json` and fill it in (prices in cents). A successful scrape always takes
 precedence. Restaurants with no menu at all are listed as "Coming soon" and can't be ordered from.
 
+**Current state (first scrape, 2026-10-05):** 13 restaurants have live menus: 11 on Slice, plus Achilito's
+(Square), Don Tequeño (Clover) and Life Alive (menu.app). Mike & Patty's scraped fine but is hidden
+because it doesn't serve dinner. The 19 restaurants on Toast, ChowNow and DoorDash Storefront were
+blocked by bot protection from the build environment. They show as "Coming soon" until the GitHub
+Action (or a local `npm run scrape`) fetches them.
+
 ## Restaurant coverage
 
 `data/restaurants.json` lists 32 JP restaurants (all ZIP 02130) where I found **direct web ordering

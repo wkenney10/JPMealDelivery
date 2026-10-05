@@ -1,0 +1,773 @@
+{
+ "restaurant": "real-deal-jp",
+ "source": "scraped",
+ "platform": "slice",
+ "sourceUrl": "https://slicelife.com/restaurants/ma/jamaica-plain/02130/the-real-deal/menu",
+ "fetchedAt": "2026-10-05T17:00:35.869Z",
+ "dinnerAvailable": true,
+ "categories": [
+  {
+   "name": "Seasonal Menu",
+   "items": [
+    {
+     "id": "slice-27427542",
+     "name": "Autumn Salad",
+     "description": "sage roasted butternut squash, dried cranberries, goat cheese, spiced toasted pumpkin seeds over mixed greens with Apple cider vinaigrette",
+     "price": 1619
+    },
+    {
+     "id": "slice-27427543",
+     "name": "Loaded Sweet Tater Tots",
+     "description": "sweet potato tots, chopped pumpkin spice bacon, goat cheese crumbles, scallions & drizzled with sweet and spicy bourbon glaze",
+     "price": 1458
+    },
+    {
+     "id": "slice-26520297",
+     "name": "\"The Viral Cheese Steak\"",
+     "description": "10 oz. of lean shaved steak, Cooper sharp American, caramelized onions on a seeded sub roll",
+     "price": 1998
+    },
+    {
+     "id": "slice-27427544",
+     "name": "Chicken Salad Club",
+     "description": "butter grilled cranberry bread, chicken salad, pumpkin spice bacon w/ lettuce & tomato",
+     "price": 1619
+    },
+    {
+     "id": "slice-27427545",
+     "name": "Thanksgiving Cubano",
+     "description": "roasted turkey, black forest ham, Swiss cheese, stuffing, cranberry onion mustard pressed on a ciabatta",
+     "price": 1727
+    },
+    {
+     "id": "slice-26520298",
+     "name": "Vodka Parm",
+     "description": "crispy fried chicken cutlet, provolone, creamy vodka sauce, pesto and Grana Padano cheese on a seeded sub roll",
+     "price": 1835
+    },
+    {
+     "id": "slice-27427546",
+     "name": "Bourbon Chicken Sandwich",
+     "description": "buttermilk fried chicken breast, onion jack cheese, bourbon glaze, pumpkin spice bacon, coleslaw on a \"flip grilled\" brioche roll",
+     "price": 1619
+    },
+    {
+     "id": "slice-27427547",
+     "name": "Harvest Grilled Cheese",
+     "description": "caramelized onion jack cheese, sage roasted butternut squash, cranberry onion mustard, arugula on grilled cranberry bread",
+     "price": 1511
+    }
+   ]
+  },
+  {
+   "name": "Starters",
+   "items": [
+    {
+     "id": "slice-21652502",
+     "name": "Mozzarella Sticks",
+     "description": "Served with house marinara.",
+     "price": 1187
+    },
+    {
+     "id": "slice-21652503",
+     "name": "Boneless Buffalo Wings",
+     "description": "Served with bleu cheese and celery. Choose: hot, mild, honey hot, spicy BBQ or honey BBQ, or seasonal sauce.",
+     "price": 1727
+    },
+    {
+     "id": "slice-21652504",
+     "name": "Parmesan Truffle Tots",
+     "description": "Vegetarian, seasonal specials. Golden fried tater tots, truffle oil, Parmesan cheese, fresh parsley served with garlic aioli.",
+     "price": 1458
+    },
+    {
+     "id": "slice-21652505",
+     "name": "French Fries",
+     "description": "Gluten-free.",
+     "price": 918
+    },
+    {
+     "id": "slice-21652506",
+     "name": "Spicy Curly Fries",
+     "price": 971
+    },
+    {
+     "id": "slice-21652507",
+     "name": "Onion Rings",
+     "description": "Thick cut served with kick'n bayou sauce.",
+     "price": 1187
+    },
+    {
+     "id": "slice-21652508",
+     "name": "Chili Cheese Fries",
+     "price": 1566
+    },
+    {
+     "id": "slice-21652509",
+     "name": "Clam Chowder",
+     "description": "Cape cod's own award winning captain Parker's clam chowder.",
+     "price": 755
+    },
+    {
+     "id": "slice-21652510",
+     "name": "Chicken Fingers",
+     "description": "6 Jumbo fresh tenders With honey ginger sauce.",
+     "price": 1619
+    },
+    {
+     "id": "slice-21652511",
+     "name": "Chili",
+     "description": "House recipe with beef and beans.",
+     "price": 755
+    },
+    {
+     "id": "slice-22843645",
+     "name": "Street Corn Tots",
+     "description": "golden fried tater tots, roasted corn, lime crema aioli, cotija cheese, smoked paprika & parsley",
+     "price": 1458
+    }
+   ]
+  },
+  {
+   "name": "Salads",
+   "items": [
+    {
+     "id": "slice-26520299",
+     "name": "Asian Sesame Chicken",
+     "description": "Marinated grilled chicken, sesame, mixed greens, shredded carrots, red onions, crispy wontons, honey ginger dressing.",
+     "price": 1727
+    },
+    {
+     "id": "slice-26520300",
+     "name": "Greek Salad",
+     "description": "Vegetarian. Our mixed greens salad with feta cheese and kalamata olives.",
+     "price": 1458
+    },
+    {
+     "id": "slice-26520301",
+     "name": "Caesar",
+     "description": "Vegetarian. Romaine, Parmesan, crouton, caesar.",
+     "price": 1350
+    },
+    {
+     "id": "slice-26520302",
+     "name": "Steak Tip",
+     "description": "Marinated steak tips over our mixed greens salad with white balsamic vinaigrette.",
+     "price": 2267
+    },
+    {
+     "id": "slice-26520303",
+     "name": "Mixed Greens",
+     "description": "Vegetarian. Romaine, baby arugula, pea sprouts, tomato, cucumber, shredded carrots.",
+     "price": 1403
+    },
+    {
+     "id": "slice-26520304",
+     "name": "Buffalo Chicken",
+     "description": "Buffalo chicken tenders over our mixed greens salad with bleu cheese dressing.",
+     "price": 1727
+    },
+    {
+     "id": "slice-26520305",
+     "name": "Corn & Avocado Salad",
+     "description": "roasted corn, avocado, grape tomatoes, fresh basil, crispy onions over our mixed greens w/ house made lemon vinaigrette. add grilled chicken +2",
+     "price": 1566
+    },
+    {
+     "id": "slice-26520306",
+     "name": "Pacific Beach Salad",
+     "description": "Mixed greens, cucumbers, pickled red onions, crumbled goat cheese, dried cranberries, white balsamic vinaigrette.",
+     "price": 1566
+    }
+   ]
+  },
+  {
+   "name": "Build Your Own Pizza!",
+   "items": [
+    {
+     "id": "slice-22248975",
+     "name": "Cheese Pizza (18\")",
+     "description": "Homemade thin crust. red sauce and mozzarella.",
+     "price": 2159
+    }
+   ]
+  },
+  {
+   "name": "Pizzas",
+   "items": [
+    {
+     "id": "slice-27319845",
+     "name": "The Real Deal",
+     "description": "Pepperoni, bacon, prosciutto, hamburg, sausage.",
+     "price": 2915
+    },
+    {
+     "id": "slice-27319846",
+     "name": "Margherita",
+     "description": "Vegetarian. Fresh mozzarella, roasted tomatoes, fresh basil, EVOO.",
+     "price": 2430
+    },
+    {
+     "id": "slice-27319847",
+     "name": "Pulled Pork",
+     "description": "Slow roasted pulled pork, caramelized onions, roasted tomato, BBQ sauce, mozzarella.",
+     "price": 2591
+    },
+    {
+     "id": "slice-27319848",
+     "name": "Buffalo Chicken Pizza",
+     "description": "Our buffalo chicken, bleu cheese dressing, mozzarella.",
+     "price": 2699
+    },
+    {
+     "id": "slice-27319849",
+     "name": "Classico",
+     "description": "Vegetarian. Breaded eggplant, ricotta, roasted red peppers, baby arugula, mozzarella.",
+     "price": 2591
+    },
+    {
+     "id": "slice-27319850",
+     "name": "Chicken Ranch Pizza",
+     "description": "Chicken cutlet, bacon, tomato, ranch dressing, mozzarella, chopped parsley.",
+     "price": 2699
+    },
+    {
+     "id": "slice-27319851",
+     "name": "Al Fresco",
+     "description": "Sausage, ricotta, roasted red peppers, mozzarella, red sauce.",
+     "price": 2591
+    }
+   ]
+  },
+  {
+   "name": "Signature Sandwiches",
+   "items": [
+    {
+     "id": "slice-19524903",
+     "name": "Steak & Cheese",
+     "description": "Extra lean shaved steak, American cheese on a sub roll.",
+     "price": 1674
+    },
+    {
+     "id": "slice-19524904",
+     "name": "Top Shelf Italian",
+     "description": "Italian meats including sopressata, dry hot capicola, Genoa salami, mortadella, and sharp provolone with lettuce, tomato, pickled red onions, hots, seasoned oil on a braided roll.",
+     "price": 1674
+    },
+    {
+     "id": "slice-19524905",
+     "name": "Sammy the Bull",
+     "description": "Cracked pepper turkey, Muenster cheese, fresh avocado, bacon, lettuce, and tomato on a braided roll.",
+     "price": 1727
+    },
+    {
+     "id": "slice-19524906",
+     "name": "Meatball Sub",
+     "description": "Homemade meatballs, marinara, and sharp provolone cheese on a sub roll.",
+     "price": 1458
+    },
+    {
+     "id": "slice-19524907",
+     "name": "Pesto Chicken Sandwich",
+     "description": "Marinated grilled chicken, sharp provolone cheese, prosciutto, baby arugula, tomato, pesto mayo on a braided roll.",
+     "price": 1619
+    },
+    {
+     "id": "slice-19524908",
+     "name": "Marinated Steak Tip Bomb",
+     "description": "10 oz. of our famous steak tips, peppers, onions, and mushrooms, American cheese on a sub roll.",
+     "price": 2375
+    },
+    {
+     "id": "slice-19524909",
+     "name": "Cherry Bomb",
+     "description": "2/3 lb. lean shaved steak, sopressata, hot cherry peppers, caramelized onions, provolone, and American cheese.",
+     "price": 2051
+    },
+    {
+     "id": "slice-19524911",
+     "name": "Buffalo Chicken Cheese Steak",
+     "description": "chopped chicken, pepper jack cheese, buffalo hot sauce, bleu cheese dressing, lettuce & tomato on a large sub roll",
+     "price": 1674
+    },
+    {
+     "id": "slice-19524912",
+     "name": "Ranch Chicken Cheese Steak",
+     "description": "chopped chicken, bacon, Ranch dressing, lettuce & tomato on a large sub roll",
+     "price": 1674
+    },
+    {
+     "id": "slice-19524913",
+     "name": "Chicken Philly Cheese Steak",
+     "description": "chopped chicken, American cheese, sauteed peppers, onions & mushrooms on a large sub roll",
+     "price": 1782
+    },
+    {
+     "id": "slice-19524914",
+     "name": "Ultimate BLT",
+     "description": "Thick-cut applewood bacon, lettuce, and tomato, garlic aioli on griddled white bread.",
+     "price": 1511
+    },
+    {
+     "id": "slice-19524915",
+     "name": "Buttermilk Fried Chicken Sandwich",
+     "description": "Buttermilk fried chicken breast, pickles, kick n' slaw on grilled seeded roll.",
+     "price": 1511
+    },
+    {
+     "id": "slice-19524916",
+     "name": "Sicilian",
+     "description": "Vegetarian. Fresh mozzarella, tomato, fresh basil, EVOO, and balsamic glaze on a braided roll.",
+     "price": 1403
+    },
+    {
+     "id": "slice-19524917",
+     "name": "Lucy Goosey",
+     "description": "Roasted turkey, swiss cheese, cole slaw, Russian dressing on grilled rye.",
+     "price": 1566
+    },
+    {
+     "id": "slice-19524918",
+     "name": "The Executive",
+     "description": "Black pastrami, swiss cheese, sauerkraut, Dijon mustard on grilled rye.",
+     "price": 1619
+    },
+    {
+     "id": "slice-19524919",
+     "name": "Turkey Terrific",
+     "description": "Roasted turkey, seasoned stuffing, cranberry sauce, and mayo on a sub roll.",
+     "price": 1403
+    },
+    {
+     "id": "slice-19524923",
+     "name": "Darth Vader",
+     "description": "Black pastrami, grilled onions, American cheese, Dijon mustard on a braided roll.",
+     "price": 1674
+    },
+    {
+     "id": "slice-19524924",
+     "name": "Chicken Cheese Steak",
+     "description": "chopped chicken, American cheese on a larger sub roll",
+     "price": 1619
+    },
+    {
+     "id": "slice-19524925",
+     "name": "The Clogger",
+     "description": "2/3 lb. shaved steak, chopped bacon, and salami with extra American cheese on a sub roll.",
+     "price": 2051
+    },
+    {
+     "id": "slice-19524926",
+     "name": "Chicken Parm",
+     "description": "Pan fried chicken cutlet, sharp provolone, marinara on a braided roll.",
+     "price": 1566
+    },
+    {
+     "id": "slice-19524928",
+     "name": "The Texan",
+     "description": "Pan fried chicken cutlet, three pepper colby cheese, bacon, BBQ sauce, lettuce, and tomato on a sub roll.",
+     "price": 1566
+    },
+    {
+     "id": "slice-19524929",
+     "name": "Leo the Lion",
+     "description": "Housemade chicken salad, bacon, lettuce, and tomato on a seeded roll.",
+     "price": 1458
+    },
+    {
+     "id": "slice-19524930",
+     "name": "The Reuben",
+     "description": "Lean corned beef, swiss cheese, sauerkraut, Russian dressing on grilled rye bread.",
+     "price": 1619
+    },
+    {
+     "id": "slice-22843646",
+     "name": "Crispy Caesar Sammie",
+     "description": "Crispy chicken cutlet, romaine, parmesan cheese, lemony toasted bread crumbs tossed in Caesar dressing on a ciabatta roll",
+     "price": 1619
+    }
+   ]
+  },
+  {
+   "name": "Monster Burgers",
+   "items": [
+    {
+     "id": "slice-19524894",
+     "name": "Wolf Man",
+     "description": "Cheddar cheese, bacon, over-medium egg, sriracha mayo.",
+     "price": 1511
+    },
+    {
+     "id": "slice-19524895",
+     "name": "Zombie",
+     "description": "Muenster cheese, pea sprout, tomato, red onion, pickles.",
+     "price": 1511
+    },
+    {
+     "id": "slice-19524896",
+     "name": "Cheese Burger",
+     "price": 1782
+    },
+    {
+     "id": "slice-19524897",
+     "name": "Big Foot",
+     "description": "BBQ sauce, caramelized onions, bacon.",
+     "price": 1511
+    },
+    {
+     "id": "slice-19524898",
+     "name": "Dracula",
+     "description": "Crumbled bleu cheese, caramelized onions, balsamic glaze.",
+     "price": 1511
+    },
+    {
+     "id": "slice-19524900",
+     "name": "Green Monster",
+     "description": "Cheddar cheese, bacon, fresh avocado, lettuce, and tomato.",
+     "price": 1511
+    },
+    {
+     "id": "slice-19524901",
+     "name": "Goblin",
+     "description": "BBQ pulled pork, three pepper colby, thick cut onion ring.",
+     "price": 1511
+    }
+   ]
+  },
+  {
+   "name": "TRD Melts",
+   "items": [
+    {
+     "id": "slice-19524931",
+     "name": "Patty Melt",
+     "description": "Smashed 1/2 lb. beef burger, swiss cheese, grilled onions, and kick n' bayou sauce.",
+     "price": 1619
+    },
+    {
+     "id": "slice-19524932",
+     "name": "E.B. Melt",
+     "description": "Housemade chicken salad, three peppers colby cheese, bacon, and hot sauce on grilled white bread.",
+     "price": 1511
+    },
+    {
+     "id": "slice-19524933",
+     "name": "Caprese Melt",
+     "description": "Vegetarian. Fresh mozzarella, tomato, red onion, pesto mayo on grilled scali bread.",
+     "price": 1350
+    },
+    {
+     "id": "slice-19524934",
+     "name": "Meatball Melt",
+     "description": "Homemade meatballs, provolone cheese, marinara, fresh basil on grilled scali white.",
+     "price": 1458
+    },
+    {
+     "id": "slice-19524936",
+     "name": "Cheddar & Fig",
+     "description": "Vegetarian. Cheddar cheese, fig preserves, pickled red onions, arugula on grilled scali bread.",
+     "price": 1350
+    },
+    {
+     "id": "slice-19524937",
+     "name": "Grilled Ham & Cheese",
+     "description": "Smoked ham, cheddar cheese, tomato, and dijonnaise on grilled scali bread.",
+     "price": 1350
+    },
+    {
+     "id": "slice-19524938",
+     "name": "Tuna Melt",
+     "description": "All white tuna salad and American cheese on grilled scali white bread.",
+     "price": 1458
+    }
+   ]
+  },
+  {
+   "name": "Gangster Wraps",
+   "items": [
+    {
+     "id": "slice-26520307",
+     "name": "The Godfather",
+     "description": "6 oz of Corned beef & roasted turkey, swiss cheese, Russian dressing, lettuce, and tomato.",
+     "price": 1566
+    },
+    {
+     "id": "slice-26520308",
+     "name": "Joey Bananas",
+     "description": "Vegetarian. Greek salad wrap: lettuce, tomato, cucumbers, carrots, red onions, kalamata olives, feta cheese, and Greek dressing.",
+     "price": 1242
+    },
+    {
+     "id": "slice-26520309",
+     "name": "Teflon Don",
+     "description": "Buffalo chicken, lettuce, tomato, and bleu cheese dressing.",
+     "price": 1458
+    },
+    {
+     "id": "slice-26520310",
+     "name": "Vinny Gorgeous",
+     "description": "Vegetarian. Mixed greens, tomato, cucumber, pickled red onions, crumbled goat cheese, white balsamic vinaigrette.",
+     "price": 1242
+    },
+    {
+     "id": "slice-26520311",
+     "name": "Henry Hill",
+     "description": "Smoked turkey, cheddar cheese, bacon, lettuce, tomato, and sriracha mayo.",
+     "price": 1458
+    },
+    {
+     "id": "slice-26520312",
+     "name": "\"Joe Spa\" Spadavecchio",
+     "description": "Chicken caesar wrap: marinated grilled chicken, chopped romaine, croutons, Parmesan cheese, and caesar dressing.",
+     "price": 1458
+    },
+    {
+     "id": "slice-26520313",
+     "name": "IL Capo",
+     "description": "Marinated grilled chicken, lettuce, cucumbers, carrots, crispy wontons, honey ginger dressing, and sriracha hot sauce.",
+     "price": 1458
+    }
+   ]
+  },
+  {
+   "name": "Panini",
+   "items": [
+    {
+     "id": "slice-27767584",
+     "name": "Uncle Jr",
+     "description": "Pan fried chicken cutlet, fresh mozzarella, baby arugula, tomato, sriracha mayo.",
+     "price": 1566
+    },
+    {
+     "id": "slice-27767585",
+     "name": "The Enforcer",
+     "description": "Smoked turkey, cheddar cheese, bacon, tomato, and kick 'n bayou sauce.",
+     "price": 1619
+    },
+    {
+     "id": "slice-27767586",
+     "name": "The Cuban",
+     "description": "Slow roasted pulled pork, sliced ham, dill pickles, swiss cheese, and mustard.",
+     "price": 1458
+    },
+    {
+     "id": "slice-27767587",
+     "name": "Fig 'n Pig",
+     "description": "Shaved prosciutto, bleu cheese spread, fig preserves, baby arugula.",
+     "price": 1566
+    },
+    {
+     "id": "slice-27767588",
+     "name": "Carmela",
+     "description": "Vegetarian. Breaded eggplant, sharp provolone, baby arugula, roasted red peppers, pesto mayo.",
+     "price": 1458
+    },
+    {
+     "id": "slice-27767589",
+     "name": "Panino Tuscano",
+     "description": "Sopressata, salami, capicola, mortadella & provolone, fresh mozzarella, pesto, arugula, tomato, pickled red onions, hots pressed on ciabatta",
+     "price": 1619
+    },
+    {
+     "id": "slice-27767590",
+     "name": "Fig 'n Turkey",
+     "description": "Slice turkey, bacon, fig preserves, and cheddar cheese pressed on herb foccacia.",
+     "price": 1566
+    }
+   ]
+  },
+  {
+   "name": "Gluten-Free Sandwiches",
+   "items": [
+    {
+     "id": "slice-27406162",
+     "name": "Gluten Free Fig 'n Pig Panini",
+     "description": "Shaved prosciutto, fig preserves, bleu cheese, and mascarpone spread, arugula pressed on a gluten-free roll.",
+     "price": 1566
+    },
+    {
+     "id": "slice-27406163",
+     "name": "Gluten Free Enforcer Panini",
+     "description": "Smoked turkey, cheddar cheese, bacon, tomato, and kick 'n bayou sauce pressed on a gluten-free roll.",
+     "price": 1674
+    },
+    {
+     "id": "slice-27406164",
+     "name": "Gluten Free Pesto Chicken Sandwich",
+     "description": "Marinated grilled chicken, shaved prosciutto, provolone cheese, arugula, tomato, and pesto mayo on a gluten-free roll.",
+     "price": 1674
+    },
+    {
+     "id": "slice-27406165",
+     "name": "Gluten Free Ultimate BLT",
+     "description": "Thick-cut applewood bacon, lettuce, tomato, and garlic aioli on a grilled gluten-free roll.",
+     "price": 1566
+    },
+    {
+     "id": "slice-27406166",
+     "name": "Gluten Free Darth Vader",
+     "description": "Black pastrami, grilled onions, American cheese, and Dijon mustard on a gluten-free roll.",
+     "price": 1727
+    },
+    {
+     "id": "slice-27406167",
+     "name": "Gluten Free Super Beef",
+     "description": "Sliced roast beef, BBQ sauce, melted American cheese on a gluten-free roll.",
+     "price": 1511
+    },
+    {
+     "id": "slice-27406169",
+     "name": "Gluten Free Leo the Lion",
+     "description": "Chicken salad, bacon, lettuce, and tomato on a gluten-free roll.",
+     "price": 1511
+    },
+    {
+     "id": "slice-27406170",
+     "name": "Gluten Free Sammy the Bull",
+     "description": "Cracked pepper turkey, Muenster cheese, bacon, avocado, lettuce, and tomato on a gluten-free roll.",
+     "price": 1782
+    },
+    {
+     "id": "slice-27406171",
+     "name": "Gluten Free Top Shelf Italian",
+     "description": "Choice Italian meats including sopressata, dry hot capicola, Genoa salami, mortadella, and sharp provolone with lettuce, tomato, pickled red onions, hots, seasoned oil on a gluten-free roll.",
+     "price": 1727
+    },
+    {
+     "id": "slice-27406172",
+     "name": "Gluten Free Sicilian",
+     "description": "Vegetarian. Sliced tomato, fresh mozzarella, olive oil, balsamic glaze, and fresh basil on a gluten-free roll.",
+     "price": 1458
+    },
+    {
+     "id": "slice-27406173",
+     "name": "Gluten Free Cuban Panini",
+     "description": "Slow roasted pulled pork, sliced ham, swiss cheese, pickles, and mustard pressed on a gluten-free roll.",
+     "price": 1511
+    },
+    {
+     "id": "slice-27406174",
+     "name": "Gluten Free Portabella Panini",
+     "description": "Vegetarian. Marinated Portobello mushroom, fresh mozzarella, tomato, arugula, red onion, and pesto mayo pressed on a gluten-free roll.",
+     "price": 1403
+    }
+   ]
+  },
+  {
+   "name": "Gluten-Free Burgers",
+   "items": [
+    {
+     "id": "slice-19524967",
+     "name": "Gluten Free Wolf Man",
+     "description": "Choice of burger, cheddar cheese, bacon, over-medium egg, sriracha mayo on a gluten-free roll with fries.",
+     "price": 1511
+    },
+    {
+     "id": "slice-19524968",
+     "name": "Gluten Free Zombie Burger",
+     "description": "Choice of burger, pea greens, tomato, onions, pickles, Muenster cheese on a gluten-free roll with fries.",
+     "price": 1511
+    },
+    {
+     "id": "slice-19524969",
+     "name": "Gluten Free Dracula Burger",
+     "description": "Choice of burger, crumbled bleu cheese, caramelized onions, balsamic glaze on a gluten-free roll with fries.",
+     "price": 1511
+    },
+    {
+     "id": "slice-19524970",
+     "name": "Gluten Free Bigfoot Burger",
+     "description": "Choice of burger, BBQ sauce, bacon, caramelized onions, American cheese on a gluten-free roll with fries.",
+     "price": 1511
+    },
+    {
+     "id": "slice-19524971",
+     "name": "Gluten Free Green Monster",
+     "description": "Choice of burger, cheddar cheese, bacon, avocado, lettuce, and tomato on a gluten-free roll with fries.",
+     "price": 1511
+    }
+   ]
+  },
+  {
+   "name": "Gluten-Free Pizzas",
+   "items": [
+    {
+     "id": "slice-27319859",
+     "name": "Gluten Free Vegan Pizza",
+     "description": "Vegetarian. Gluten-free crust, red sauce, roasted mushrooms, roasted red onions, arugula.",
+     "price": 1619
+    },
+    {
+     "id": "slice-27319860",
+     "name": "Gluten Free BBQ Pulled Pork",
+     "description": "Gluten-free crust, slow roasted pulled pork, BBQ sauce, caramelized onions, roasted tomatoes, mozzarella.",
+     "price": 1727
+    },
+    {
+     "id": "slice-27319861",
+     "name": "Gluten Free Margherita",
+     "description": "Vegetarian. Gluten-free crust, fresh mozzarella, roasted tomatoes, fresh basil, olive oil, Romano cheese.",
+     "price": 1727
+    },
+    {
+     "id": "slice-27319862",
+     "name": "Gluten Free Cheese Pizza",
+     "description": "Vegetarian. Gluten-free crust, red sauce, mozzarella.",
+     "price": 1619
+    },
+    {
+     "id": "slice-27319863",
+     "name": "Gluten Free Real Deal \"Meat Lovers\"",
+     "description": "Gluten-free crust, red sauce, pepperoni, bacon, hamburg, prosciutto, sausage, mozzarella.",
+     "price": 1943
+    },
+    {
+     "id": "slice-27319864",
+     "name": "Gluten Free Al Fresco",
+     "description": "Gluten-free crust red sauce, Italian sausage, roasted red peppers, ricotta cheese, mozzarella.",
+     "price": 1835
+    },
+    {
+     "id": "slice-27319865",
+     "name": "Gluten Free Hawaiian",
+     "description": "Gluten-free crust, red sauce, ham, fresh pineapple, mozzarella.",
+     "price": 1727
+    }
+   ]
+  },
+  {
+   "name": "Drinks",
+   "items": [
+    {
+     "id": "slice-19524979",
+     "name": "20 oz bottle",
+     "description": "Coke, Diet Coke, Coke Zero, sprite, orange, ginger ale, diet ginger ale",
+     "price": 405
+    },
+    {
+     "id": "slice-19524980",
+     "name": "Iced tea",
+     "description": "Half & half, Honey green",
+     "price": 329
+    },
+    {
+     "id": "slice-19524981",
+     "name": "20 oz. Water",
+     "description": "Dasani Water",
+     "price": 297
+    },
+    {
+     "id": "slice-19524982",
+     "name": "Honest tea",
+     "description": "Half & half, Honey green",
+     "price": 420
+    },
+    {
+     "id": "slice-19524983",
+     "name": "Vitamin water",
+     "description": "Xxx Lemonade Power c Revive",
+     "price": 420
+    }
+   ]
+  }
+ ]
+}
