@@ -150,3 +150,30 @@ describe("tidy + diff", () => {
     expect(diffMenus(before, after)).toEqual(["Taco: $4.00 → $4.50", "Added Salad ($9.00)", "Removed Soup"]);
   });
 });
+
+describe("Next.js flight payloads (DoorDash Storefront)", () => {
+  it("decodes JSON rows and $$-escaped prices into a menu", async () => {
+    const { parseFlight } = await import("../scraper/browser");
+    const row = {
+      itemLists: [
+        { __typename: "MenuPageItemList", id: "popular-items", name: "Most Ordered", items: [{ id: "1", name: "Pepperoni Pizza - Large", displayPrice: "$$21.00" }] },
+        {
+          __typename: "MenuPageItemList",
+          id: "105288367",
+          name: "PIZZAS WITH MEAT",
+          items: [
+            { id: "1", name: "Pepperoni Pizza - Large", displayPrice: "$$21.00" },
+            { id: "2", name: "Meatball Pizza - Small", displayPrice: "$$14.50" },
+          ],
+        },
+      ],
+    };
+    const text = `0:{"P":null}\n7e:I[428342,["a.js"],"default"]\n88:T7c4f,not json\n9a:${JSON.stringify(row)}\n`;
+    const rows = parseFlight(text);
+    expect(rows.map((r) => r.url)).toEqual(["embedded:flight:0", "embedded:flight:9a"]);
+    const cats = tidyCategories(extractMenuFromJson(rows.map((r) => r.body)));
+    expect(cats).toHaveLength(1);
+    expect(cats[0].name).toBe("PIZZAS WITH MEAT");
+    expect(cats[0].items.map((i) => i.price)).toEqual([2100, 1450]);
+  });
+});

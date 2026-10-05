@@ -70,6 +70,11 @@ a browser-based scrape runs, the raw API captures go to `SCRAPE_DEBUG_DIR`. CI u
 - Menus are only rewritten when content changes, so the git history of `data/menus/` is a price-change log.
 - Restaurants whose ordering site shows they aren't open at dinner (Slice exposes hours) are hidden.
 
+**Toast, ChowNow and DoorDash Storefront from your own computer:** these platforms block cloud servers,
+GitHub's included, so they're refreshed weekly with `npm run scrape:local`. It runs in a visible
+Chrome window on a home connection and waits for you to click through any bot check. Step-by-step
+instructions: [docs/local-menu-refresh.md](docs/local-menu-refresh.md).
+
 **Manual fallback:** if a restaurant can't be scraped, copy `data/menus-manual/_template.json` to
 `data/menus-manual/<slug>.json` and fill it in (prices in cents). A successful scrape always takes
 precedence. Restaurants with no menu at all are listed as "Coming soon" and can't be ordered from.

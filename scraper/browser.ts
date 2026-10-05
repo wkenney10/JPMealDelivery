@@ -4,16 +4,26 @@ import { USER_AGENT } from "./util";
 let browserPromise: Promise<Browser> | undefined;
 
 /**
- * Shared Chromium instance. Bot protection (Cloudflare) on some ordering sites
- * rejects headless browsers, so CI runs headed under xvfb (HEADED=1).
+ * Shared browser instance. Bot protection (Cloudflare) on some ordering sites
+ * rejects headless browsers, so CI runs headed under xvfb (HEADED=1). Local runs
+ * (npm run scrape:local) also prefer the installed Google Chrome, which passes
+ * those checks far more often than the bundled Chromium.
  */
 export function getBrowser(): Promise<Browser> {
-  browserPromise ??= import("playwright").then(({ chromium }) =>
-    chromium.launch({
+  browserPromise ??= import("playwright").then(async ({ chromium }) => {
+    const options = {
       headless: process.env.HEADED !== "1",
       args: ["--disable-blink-features=AutomationControlled"],
-    }),
-  );
+    };
+    if (process.env.USE_CHROME === "1") {
+      try {
+        return await chromium.launch({ ...options, channel: "chrome" });
+      } catch {
+        console.warn("Google Chrome not found; using Playwright's Chromium instead.");
+      }
+    }
+    return chromium.launch(options);
+  });
   return browserPromise;
 }
 
@@ -51,9 +61,39 @@ async function embeddedJson(page: Page): Promise<Captured[]> {
         // Circular or not serializable.
       }
     }
-    return out;
+    // Next.js App Router pages stream their data as self.__next_f chunks.
+    const flight = (window as unknown as { __next_f?: unknown[][] }).__next_f;
+    const text = (flight ?? []).map((c) => (typeof c[1] === "string" ? c[1] : "")).join("");
+    return { out, text };
   });
-  return found;
+  return [...found.out, ...parseFlight(found.text)];
+}
+
+/** React Server Components escape strings that start with "$" by doubling it. */
+function unescapeFlight(v: unknown): unknown {
+  if (typeof v === "string") return v.startsWith("$$") ? v.slice(1) : v;
+  if (Array.isArray(v)) return v.map(unescapeFlight);
+  if (v && typeof v === "object") return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, unescapeFlight(x)]));
+  return v;
+}
+
+/** Splits a Next.js flight payload into its JSON rows ("<id>:<json>"). */
+export function parseFlight(text: string): Captured[] {
+  const rows: Captured[] = [];
+  for (const line of text.split("\n")) {
+    const m = line.match(/^([0-9a-f]+):([[{].*)$/);
+    if (!m) continue;
+    try {
+      rows.push({ url: `embedded:flight:${m[1]}`, body: unescapeFlight(JSON.parse(m[2])) });
+    } catch {
+      // Text or partial row.
+    }
+  }
+  return rows;
+}
+
+function isChallenge(title: string): boolean {
+  return /just a moment|attention required|security verification/i.test(title);
 }
 
 /** Scrolls to the bottom in steps so lazy-loaded menu sections render. */
@@ -96,10 +136,22 @@ export async function captureJson(
     await page.waitForLoadState("networkidle", { timeout: 30_000 }).catch(() => {});
     if (opts.interact) await opts.interact(page);
     await page.waitForTimeout(opts.waitMs ?? 5_000);
-    const title = await page.title();
-    if (/just a moment|attention required|security verification/i.test(title)) {
-      throw new Error(`Blocked by bot protection at ${page.url()}`);
+    let title = await page.title();
+    if (isChallenge(title) && process.env.HEADED === "1" && process.env.USE_CHROME === "1") {
+      // Interactive local run: give the person at the keyboard time to pass the check.
+      console.log(`  Bot check on ${page.url()}. If a checkbox appears in the browser window, click it (waiting up to 2 min)...`);
+      const deadline = Date.now() + 120_000;
+      while (isChallenge(title) && Date.now() < deadline) {
+        await page.waitForTimeout(2_000);
+        title = await page.title().catch(() => title);
+      }
+      if (!isChallenge(title)) {
+        await page.waitForLoadState("networkidle", { timeout: 30_000 }).catch(() => {});
+        if (opts.interact) await opts.interact(page);
+        await page.waitForTimeout(opts.waitMs ?? 5_000);
+      }
     }
+    if (isChallenge(title)) throw new Error(`Blocked by bot protection at ${page.url()}`);
     await scrollThrough(page);
     await page.waitForLoadState("networkidle", { timeout: 15_000 }).catch(() => {});
     captured.push(...(await embeddedJson(page)));

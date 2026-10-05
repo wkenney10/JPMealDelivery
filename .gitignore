@@ -47,3 +47,6 @@ next-env.d.ts
 
 # scraper debug captures
 /scraper/.debug/
+
+# local scraper debug output
+/debug/

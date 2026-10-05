@@ -47,7 +47,11 @@ export function cleanText(s: unknown): string | undefined {
 export function tidyCategories(categories: MenuCategory[]): MenuCategory[] {
   const seen = new Set<string>();
   const out: MenuCategory[] = [];
-  for (const c of categories) {
+  // Promo sections ("Most Ordered", "Featured") repeat items from real categories;
+  // let the real category claim each item first.
+  const promo = (c: MenuCategory) => /popular|most ordered|featured|recommended|best ?sell/i.test(c.name);
+  const ordered = [...categories.filter((c) => !promo(c)), ...categories.filter(promo)];
+  for (const c of ordered) {
     const items: MenuItem[] = [];
     for (const item of c.items) {
       if (!item.name || seen.has(item.id) || !Number.isFinite(item.price) || item.price < 0) continue;

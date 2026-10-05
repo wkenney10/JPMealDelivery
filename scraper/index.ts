@@ -3,6 +3,7 @@
  *
  *   npm run scrape                      # all restaurants
  *   npm run scrape -- tonino same-old-place   # just these
+ *   npm run scrape:local                # Toast/ChowNow/DoorDash only, visible Chrome
  *
  * Successful scrapes overwrite data/menus/<slug>.json (only when the content
  * changed). Failures leave the previous menu in place. Every run rewrites
@@ -102,10 +103,19 @@ async function scrapeOne(r: Restaurant, previous?: ReportEntry): Promise<ReportE
 }
 
 async function main() {
-  const only = process.argv.slice(2).filter((a) => !a.startsWith("-"));
+  const args = process.argv.slice(2);
+  const only = args.filter((a) => !a.startsWith("-"));
+  const platforms = args.find((a) => a.startsWith("--platforms="))?.slice("--platforms=".length).split(",");
+  if (args.includes("--local")) {
+    // Visible Google Chrome, so bot checks can be passed by hand if needed.
+    process.env.HEADED = "1";
+    process.env.USE_CHROME = "1";
+  }
   const registry = readJson<{ restaurants: Restaurant[] }>(path.join(DATA, "restaurants.json"));
   if (!registry) throw new Error("data/restaurants.json missing");
-  const targets = registry.restaurants.filter((r) => (only.length ? only.includes(r.slug) : r.active));
+  const targets = registry.restaurants.filter(
+    (r) => (only.length ? only.includes(r.slug) : r.active) && (!platforms || platforms.includes(r.platform)),
+  );
   fs.mkdirSync(MENUS, { recursive: true });
 
   const report = readJson<{ restaurants: Record<string, ReportEntry> }>(REPORT)?.restaurants ?? {};

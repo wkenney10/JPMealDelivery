@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "scrape": "tsx scraper/index.ts",
+    "scrape:local": "tsx scraper/index.ts --local --platforms=toast,chownow,doordash",
     "db:push": "prisma db push",
     "postinstall": "prisma generate"
   },
