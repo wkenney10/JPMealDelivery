@@ -28,15 +28,56 @@ export interface Captured {
 }
 
 /**
- * Opens `url`, records every JSON response whose URL matches `match`, and
- * returns them once the page has been quiet for a moment. `interact` can click
+ * JSON the page carries inline: <script type="application/json">, __NEXT_DATA__,
+ * and window.__SOMETHING_STATE__-style globals. Many storefronts server-render
+ * the menu this way instead of fetching it.
+ */
+async function embeddedJson(page: Page): Promise<Captured[]> {
+  const found = await page.evaluate(() => {
+    const out: { url: string; body: unknown }[] = [];
+    document.querySelectorAll<HTMLScriptElement>('script[type="application/json"], script[type="application/ld+json"], script#__NEXT_DATA__').forEach((s, i) => {
+      try {
+        out.push({ url: `embedded:script:${s.id || i}`, body: JSON.parse(s.textContent ?? "") });
+      } catch {
+        // Not JSON.
+      }
+    });
+    for (const key of Object.keys(window)) {
+      if (!/^__[A-Z0-9_]+__$|STATE|APOLLO|INITIAL|PRELOAD/i.test(key)) continue;
+      try {
+        const value = (window as unknown as Record<string, unknown>)[key];
+        if (value && typeof value === "object") out.push({ url: `embedded:window.${key}`, body: JSON.parse(JSON.stringify(value)) });
+      } catch {
+        // Circular or not serializable.
+      }
+    }
+    return out;
+  });
+  return found;
+}
+
+/** Scrolls to the bottom in steps so lazy-loaded menu sections render. */
+async function scrollThrough(page: Page) {
+  for (let i = 0; i < 15; i++) {
+    const done = await page.evaluate(() => {
+      window.scrollBy(0, window.innerHeight);
+      return window.scrollY + window.innerHeight >= document.body.scrollHeight - 10;
+    });
+    await page.waitForTimeout(400);
+    if (done) break;
+  }
+}
+
+/**
+ * Opens `url` and returns every JSON payload it sees: API responses whose URL
+ * matches `match`, plus JSON embedded in the final page. `interact` can click
  * through location pickers etc.
  */
 export async function captureJson(
   url: string,
   match: RegExp,
   opts: { waitMs?: number; interact?: (page: Page) => Promise<void> } = {},
-): Promise<{ captured: Captured[]; finalUrl: string; title: string }> {
+): Promise<{ captured: Captured[]; finalUrl: string; title: string; html: string }> {
   const browser = await getBrowser();
   const context = await browser.newContext({ userAgent: USER_AGENT, viewport: { width: 1280, height: 900 } });
   const page = await context.newPage();
@@ -59,7 +100,10 @@ export async function captureJson(
     if (/just a moment|attention required|security verification/i.test(title)) {
       throw new Error(`Blocked by bot protection at ${page.url()}`);
     }
-    return { captured, finalUrl: page.url(), title };
+    await scrollThrough(page);
+    await page.waitForLoadState("networkidle", { timeout: 15_000 }).catch(() => {});
+    captured.push(...(await embeddedJson(page)));
+    return { captured, finalUrl: page.url(), title, html: await page.content() };
   } finally {
     await context.close();
   }

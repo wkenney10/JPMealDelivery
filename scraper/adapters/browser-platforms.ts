@@ -8,16 +8,17 @@ import type { ScrapeResult } from "../types";
 import { cleanText } from "../util";
 
 /** Saves raw API captures so parsers can be tuned (uploaded as a CI artifact). */
-function dumpDebug(slug: string, captured: Captured[]) {
+function dumpDebug(slug: string, captured: Captured[], html?: string) {
   const dir = process.env.SCRAPE_DEBUG_DIR;
   if (!dir) return;
   const out = path.join(dir, slug);
   fs.mkdirSync(out, { recursive: true });
   captured.forEach((c, i) => fs.writeFileSync(path.join(out, `${i}.json`), JSON.stringify({ url: c.url, body: c.body })));
+  if (html) fs.writeFileSync(path.join(out, "page.html"), html);
 }
 
-function requireMenu(slug: string, captured: Captured[], categories: MenuCategory[]): ScrapeResult {
-  dumpDebug(slug, captured);
+function requireMenu(slug: string, captured: Captured[], categories: MenuCategory[], html?: string): ScrapeResult {
+  dumpDebug(slug, captured, html);
   if (!categories.some((c) => c.items.length)) {
     throw new Error(`No menu found in ${captured.length} API responses`);
   }
@@ -52,15 +53,17 @@ export function parseMenuAppCategories(body: unknown): MenuCategory[] {
 /** menu.app (used by Life Alive). The order page calls a public JSON API. */
 export async function scrapeMenuApp(r: Restaurant): Promise<ScrapeResult> {
   const { captured } = await captureJson(r.orderUrl, /api[-\w.]*\.menu\.app\/api\/v2\/venues\/.+\/categories/);
-  return requireMenu(r.slug, captured, parseMenuAppCategories(captured.at(-1)?.body));
+  const api = captured.filter((c) => c.url.includes("menu.app/"));
+  return requireMenu(r.slug, captured, parseMenuAppCategories(api.at(-1)?.body));
 }
 
 // ---------------------------------------------------------------- Toast
 
 /** Toast online ordering: menus arrive from its GraphQL gateway. */
 export async function scrapeToast(r: Restaurant): Promise<ScrapeResult> {
-  const { captured } = await captureJson(r.orderUrl, /toasttab\.com\/.*(graphql|menu)/i, { waitMs: 8_000 });
-  return requireMenu(r.slug, captured, extractMenuFromJson(captured.map((c) => c.body)));
+  // Capture every JSON response: the menu query's endpoint has moved before.
+  const { captured, html } = await captureJson(r.orderUrl, /./, { waitMs: 10_000 });
+  return requireMenu(r.slug, captured, extractMenuFromJson(captured.map((c) => c.body)), html);
 }
 
 // ---------------------------------------------------------------- ChowNow
@@ -127,10 +130,13 @@ async function pickStore(page: Page, r: Restaurant) {
 }
 
 export async function scrapeDoorDash(r: Restaurant): Promise<ScrapeResult> {
-  const { captured, finalUrl } = await captureJson(r.orderUrl, /graphql|api\/v\d|storefront/i, {
-    waitMs: 8_000,
+  const { captured, finalUrl, html } = await captureJson(r.orderUrl, /./, {
+    waitMs: 10_000,
     interact: (page) => pickStore(page, r),
   });
-  if (!/\/store\//.test(finalUrl)) throw new Error(`Couldn't find the ${r.address} store on ${r.orderUrl}`);
-  return requireMenu(r.slug, captured, extractMenuFromJson(captured.map((c) => c.body)));
+  if (!/\/store\//.test(finalUrl)) {
+    dumpDebug(r.slug, captured, html);
+    throw new Error(`Couldn't find the ${r.address} store on ${r.orderUrl}`);
+  }
+  return requireMenu(r.slug, captured, extractMenuFromJson(captured.map((c) => c.body)), html);
 }
