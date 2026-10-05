@@ -168,7 +168,9 @@ describe("Next.js flight payloads (DoorDash Storefront)", () => {
         },
       ],
     };
-    const text = `0:{"P":null}\n7e:I[428342,["a.js"],"default"]\n88:T7c4f,not json\n9a:${JSON.stringify(row)}\n`;
+    // A text row ("T<hex byte length>,") is followed by the next row with no newline.
+    const textRow = "héllo [](x)";
+    const text = `0:{"P":null}\n7e:I[428342,["a.js"],"default"]\n88:T${Buffer.byteLength(textRow).toString(16)},${textRow}9a:${JSON.stringify(row)}\n`;
     const rows = parseFlight(text);
     expect(rows.map((r) => r.url)).toEqual(["embedded:flight:0", "embedded:flight:9a"]);
     const cats = tidyCategories(extractMenuFromJson(rows.map((r) => r.body)));

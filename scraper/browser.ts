@@ -77,17 +77,59 @@ function unescapeFlight(v: unknown): unknown {
   return v;
 }
 
-/** Splits a Next.js flight payload into its JSON rows ("<id>:<json>"). */
+/**
+ * Next.js App Router pages stream their data as self.__next_f.push([1, "..."])
+ * inline scripts. The window copy is consumed during hydration, so read the HTML.
+ */
+export function flightFromHtml(html: string): string {
+  let text = "";
+  for (const m of html.matchAll(/self\.__next_f\.push\((\[[\s\S]*?\])\)\s*<\/script>/g)) {
+    try {
+      const chunk = JSON.parse(m[1]);
+      if (typeof chunk[1] === "string") text += chunk[1];
+    } catch {
+      // Not a data chunk.
+    }
+  }
+  return text;
+}
+
+/**
+ * Splits a Next.js flight payload into its JSON rows. Rows are "<hex id>:<json>\n",
+ * except text rows "<hex id>:T<hex byte length>,<text>" which have no newline.
+ */
 export function parseFlight(text: string): Captured[] {
   const rows: Captured[] = [];
-  for (const line of text.split("\n")) {
-    const m = line.match(/^([0-9a-f]+):([[{].*)$/);
-    if (!m) continue;
-    try {
-      rows.push({ url: `embedded:flight:${m[1]}`, body: unescapeFlight(JSON.parse(m[2])) });
-    } catch {
-      // Text or partial row.
+  const buf = Buffer.from(text, "utf8");
+  let pos = 0;
+  while (pos < buf.length) {
+    const colon = buf.indexOf(":", pos);
+    if (colon < 0) break;
+    const id = buf.toString("utf8", pos, colon);
+    if (!/^[0-9a-f]+$/.test(id)) {
+      // Lost sync; resume at the next line.
+      const nl = buf.indexOf("\n", pos);
+      if (nl < 0) break;
+      pos = nl + 1;
+      continue;
     }
+    if (buf[colon + 1] === 0x54 /* T */) {
+      const comma = buf.indexOf(",", colon);
+      const length = parseInt(buf.toString("utf8", colon + 2, comma), 16);
+      pos = comma + 1 + (Number.isFinite(length) ? length : 0);
+      continue;
+    }
+    let nl = buf.indexOf("\n", colon);
+    if (nl < 0) nl = buf.length;
+    const payload = buf.toString("utf8", colon + 1, nl);
+    if (payload.startsWith("[") || payload.startsWith("{")) {
+      try {
+        rows.push({ url: `embedded:flight:${id}`, body: unescapeFlight(JSON.parse(payload)) });
+      } catch {
+        // Partial row.
+      }
+    }
+    pos = nl + 1;
   }
   return rows;
 }
@@ -154,8 +196,9 @@ export async function captureJson(
     if (isChallenge(title)) throw new Error(`Blocked by bot protection at ${page.url()}`);
     await scrollThrough(page);
     await page.waitForLoadState("networkidle", { timeout: 15_000 }).catch(() => {});
-    captured.push(...(await embeddedJson(page)));
-    return { captured, finalUrl: page.url(), title, html: await page.content() };
+    const html = await page.content();
+    captured.push(...(await embeddedJson(page)), ...parseFlight(flightFromHtml(html)));
+    return { captured, finalUrl: page.url(), title, html };
   } finally {
     await context.close();
   }
