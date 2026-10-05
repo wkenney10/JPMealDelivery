@@ -85,6 +85,31 @@ precedence. Restaurants with no menu at all are listed as "Coming soon" and can'
 ChowNow restaurants and bb.q Chicken block cloud servers, so they show as "Coming soon" until the first
 local refresh (`npm run scrape:local`, see below).
 
+## Design and restaurant logos
+
+The look is a printed menu: Libre Caslon (via Google Fonts) for type, newsprint paper, ink, one brick-red
+accent, hairline and double rules, dotted price leaders, and square corners. Design tokens live in
+`src/app/globals.css`.
+
+Restaurant logos are printed in the page's ink so the whole list feels like one menu:
+
+- `npm run logos` finds each restaurant's logo (from Slice/Clover, or the restaurant's website header)
+  and converts it to a one-colour mark in `public/logos/<slug>.png`, indexed in `data/logos.json`.
+  Backgrounds are removed. Solid badges become stamps with knocked-out lettering. Counters inside
+  letters stay open.
+- The app uses each file as a mask (`src/components/restaurant-mark.tsx`), so the logo can be tinted
+  any colour (ink normally, brick red on hover).
+- Restaurants without a usable logo get a typographic house mark: the name in capitals inside a
+  double rule.
+- Fix a bad conversion with a `logo` block on the restaurant in `data/restaurants.json`, then rerun
+  `npm run logos -- <slug>`: `url` (use a specific image), `threshold` (0–1; higher drops more of a
+  busy background), `invert` (for white-on-transparent logos), `mode: "original"` (keep the
+  logo's own colours), or `disabled` (always use the house mark). `/admin/menus` shows every mark
+  for review.
+
+Before launch, it's worth asking each restaurant if they're happy for their logo to appear (most
+will be, since it sends them orders), and swapping in a clean vector logo where they have one.
+
 ## Restaurant coverage
 
 `data/restaurants.json` lists 32 JP restaurants (all ZIP 02130) where I found **direct web ordering

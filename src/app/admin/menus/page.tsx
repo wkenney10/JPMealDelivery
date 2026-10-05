@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { requireAdmin } from "@/lib/admin-auth";
 import { STALE_MENU_DAYS } from "@/lib/config";
-import { allRestaurants, getMenu, scrapeReport } from "@/lib/data";
+import { RestaurantMark } from "@/components/restaurant-mark";
+import { allRestaurants, getMenu, logos, scrapeReport } from "@/lib/data";
 
 export const dynamic = "force-dynamic";
 
@@ -16,6 +17,7 @@ function ago(iso?: string): string {
 export default async function MenuStatus() {
   await requireAdmin();
   const report = scrapeReport();
+  const logoIndex = logos();
   const rows = allRestaurants().map((r) => {
     const menu = getMenu(r.slug);
     const entry = report[r.slug];
@@ -41,6 +43,7 @@ export default async function MenuStatus() {
         <table className="w-full text-left text-sm">
           <thead className="border-b border-line text-muted">
             <tr>
+              <th className="p-3">Logo</th>
               <th className="p-3">Restaurant</th>
               <th className="p-3">Platform</th>
               <th className="p-3">Menu</th>
@@ -51,6 +54,9 @@ export default async function MenuStatus() {
           <tbody className="divide-y divide-line">
             {rows.map(({ r, menu, entry, stale, verifiedAt }) => (
               <tr key={r.slug} className={!r.active ? "opacity-50" : ""}>
+                <td className="p-3">
+                  <RestaurantMark name={r.name} logo={logoIndex[r.slug]} size="sm" />
+                </td>
                 <td className="p-3">
                   <div className="font-medium">{r.name}</div>
                   <a href={r.orderUrl} target="_blank" rel="noreferrer" className="text-xs text-brand underline">

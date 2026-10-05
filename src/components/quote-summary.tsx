@@ -1,11 +1,12 @@
 import { DELIVERY_FEE_PER_RESTAURANT } from "@/lib/config";
 import { formatMoney, type Quote } from "@/lib/pricing";
 
-function Row({ label, value, strong }: { label: string; value: number; strong?: boolean }) {
+function Line({ label, value, strong }: { label: string; value: number; strong?: boolean }) {
   return (
-    <div className={`flex justify-between ${strong ? "font-semibold" : "text-muted"}`}>
+    <div className={`flex items-baseline ${strong ? "font-display text-2xl" : "font-serif"}`}>
       <span>{label}</span>
-      <span className={strong ? "" : "text-ink"}>{formatMoney(value)}</span>
+      <span className="leader" />
+      <span className="numerals">{formatMoney(value)}</span>
     </div>
   );
 }
@@ -13,13 +14,13 @@ function Row({ label, value, strong }: { label: string; value: number; strong?: 
 export function QuoteSummary({ quote }: { quote: Quote }) {
   const n = quote.restaurants.length;
   return (
-    <div className="space-y-1.5 text-sm">
-      <Row label="Food (restaurant menu prices)" value={quote.subtotal} />
-      <Row label="MA meals tax (7%)" value={quote.tax} />
-      {quote.serviceFee > 0 && <Row label="Restaurant online-ordering fees" value={quote.serviceFee} />}
-      <Row label={`Delivery (${formatMoney(DELIVERY_FEE_PER_RESTAURANT)} × ${n} restaurant${n === 1 ? "" : "s"})`} value={quote.deliveryFee} />
-      <div className="border-t border-line pt-2">
-        <Row label="Total" value={quote.total} strong />
+    <div className="space-y-1.5">
+      <Line label="Food, at menu prices" value={quote.subtotal} />
+      <Line label="Mass. meals tax, 7%" value={quote.tax} />
+      {quote.serviceFee > 0 && <Line label="Restaurant ordering fees" value={quote.serviceFee} />}
+      <Line label={`Delivery, ${n} × ${formatMoney(DELIVERY_FEE_PER_RESTAURANT)}`} value={quote.deliveryFee} />
+      <div className="rule-double mt-3 pt-2">
+        <Line label="Total" value={quote.total} strong />
       </div>
     </div>
   );

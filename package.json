@@ -11,6 +11,7 @@
     "test": "vitest run",
     "scrape": "tsx scraper/index.ts",
     "scrape:local": "tsx scraper/index.ts --local --platforms=toast,chownow,doordash",
+    "logos": "tsx scraper/logos.ts",
     "db:push": "prisma db push",
     "postinstall": "prisma generate"
   },
@@ -32,6 +33,7 @@
     "eslint-config-next": "15.5.27",
     "playwright": "1.56.1",
     "prisma": "^6.19.3",
+    "sharp": "^0.35.5",
     "tailwindcss": "^4",
     "tsx": "^4.23.15",
     "typescript": "^5",

@@ -10,6 +10,10 @@ function categoryId(i: number) {
   return `cat-${i}`;
 }
 
+function hasUpcharges(item: MenuItem) {
+  return !!item.optionGroups?.some((g) => g.options.some((o) => o.price > 0));
+}
+
 export function MenuView({
   restaurant,
   categories,
@@ -23,8 +27,8 @@ export function MenuView({
   const visible = categories.filter((c) => c.items.length);
 
   function added(name: string) {
-    setFlash(`Added ${name}`);
-    setTimeout(() => setFlash(null), 1800);
+    setFlash(`${name} — added to your order`);
+    setTimeout(() => setFlash(null), 2000);
   }
 
   function quickAdd(item: MenuItem) {
@@ -40,42 +44,51 @@ export function MenuView({
 
   return (
     <div>
-      <nav className="sticky top-[57px] z-10 -mx-4 mb-4 flex gap-2 overflow-x-auto border-b border-line bg-paper px-4 py-2">
-        {visible.map((c, i) => (
-          <a
-            key={c.name + i}
-            href={`#${categoryId(i)}`}
-            className="shrink-0 rounded-full border border-line bg-card px-3 py-1 text-sm hover:border-brand"
-          >
-            {c.name}
-          </a>
-        ))}
+      <nav className="sticky top-[62px] z-10 -mx-4 mt-8 border-y border-ink bg-paper px-4 sm:-mx-6 sm:px-6">
+        <div className="flex gap-1 overflow-x-auto py-2 text-sm whitespace-nowrap">
+          {visible.map((c, i) => (
+            <a key={c.name + i} href={`#${categoryId(i)}`} className="smallcaps px-1.5 font-semibold hover:text-brand">
+              {c.name}
+              {i < visible.length - 1 && <span className="ml-2.5 text-muted">·</span>}
+            </a>
+          ))}
+        </div>
       </nav>
 
-      <div className="space-y-8">
+      <div className="mt-10 space-y-14">
         {visible.map((c, i) => (
           <section key={c.name + i} id={categoryId(i)} className="scroll-mt-32">
-            <h2 className="mb-3 text-lg font-semibold">{c.name}</h2>
-            <ul className="grid gap-3 md:grid-cols-2">
+            <h2 className="ruled-heading smallcaps font-serif text-[0.95rem] tracking-[0.16em]">{c.name}</h2>
+            <ul className="mt-6 grid grid-cols-1 gap-x-14 gap-y-5 md:grid-cols-2">
               {c.items.map((item) => {
-                const hasOptions = !!item.optionGroups?.length;
+                const options = !!item.optionGroups?.length;
                 return (
-                  <li key={item.id} className="flex gap-3 rounded-xl border border-line bg-card p-4">
-                    <button className="flex-1 text-left" onClick={() => setSelected(item)}>
-                      <div className="font-medium">{item.name}</div>
-                      {item.description && <p className="mt-1 line-clamp-2 text-sm text-muted">{item.description}</p>}
-                      <div className="mt-2 text-sm font-semibold">
-                        {hasOptions && item.optionGroups!.some((g) => g.options.some((o) => o.price > 0)) ? "from " : ""}
+                  <li key={item.id} className="group">
+                    <div className="flex items-baseline">
+                      <button
+                        onClick={() => setSelected(item)}
+                        className="text-left font-serif text-[1.08rem] leading-snug group-hover:text-brand"
+                      >
+                        {item.name}
+                      </button>
+                      <span className="leader" />
+                      <span className="numerals shrink-0 font-serif">
+                        {hasUpcharges(item) && <span className="mr-1 text-xs italic text-muted">from</span>}
                         {formatMoney(item.price)}
-                      </div>
-                    </button>
-                    <button
-                      aria-label={`Add ${item.name}`}
-                      onClick={() => (hasOptions ? setSelected(item) : quickAdd(item))}
-                      className="h-9 w-9 shrink-0 self-center rounded-full bg-brand text-xl leading-none text-white hover:bg-brand-dark"
-                    >
-                      +
-                    </button>
+                      </span>
+                      <button
+                        aria-label={`Add ${item.name}`}
+                        onClick={() => (options ? setSelected(item) : quickAdd(item))}
+                        className="smallcaps ml-3 shrink-0 border border-ink px-1.5 text-[0.65rem] font-semibold leading-5 hover:bg-ink hover:text-paper"
+                      >
+                        Add
+                      </button>
+                    </div>
+                    {item.description && (
+                      <p className="mt-0.5 line-clamp-2 pr-14 font-serif text-sm italic leading-snug text-muted">
+                        {item.description}
+                      </p>
+                    )}
                   </li>
                 );
               })}
@@ -97,7 +110,7 @@ export function MenuView({
       )}
 
       {flash && (
-        <div className="fixed bottom-6 left-1/2 z-30 -translate-x-1/2 rounded-full bg-ink px-4 py-2 text-sm text-white shadow-lg">
+        <div className="fixed bottom-6 left-1/2 z-30 -translate-x-1/2 border border-ink bg-card px-4 py-2 font-serif text-sm italic shadow-[3px_3px_0_var(--color-ink)]">
           {flash}
         </div>
       )}

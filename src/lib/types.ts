@@ -29,6 +29,14 @@ export interface Restaurant {
   lastPickup?: string; // "HH:MM", latest slot start the restaurant can serve
   active: boolean;
   notes?: string;
+  /** Overrides for `npm run logos`. */
+  logo?: {
+    url?: string; // use this image instead of searching
+    threshold?: number; // 0–1, higher drops more of a busy background
+    invert?: boolean; // transparent logos drawn in white: treat light pixels as ink
+    mode?: "ink" | "original"; // "original" keeps the logo's own colours
+    disabled?: boolean; // always use the typographic house mark
+  };
 }
 
 export interface MenuOption {

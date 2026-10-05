@@ -13,7 +13,7 @@ import { useQuote } from "./use-quote";
 
 type Schedule = Pick<Restaurant, "slug" | "name" | "closedDays" | "lastPickup">;
 
-const input = "mt-1 w-full rounded-lg border border-line bg-card px-3 py-2 font-normal";
+const input = "field";
 
 export function CheckoutForm({
   dates,
@@ -46,10 +46,10 @@ export function CheckoutForm({
   if (!ready) return null;
   if (!entries.length) {
     return (
-      <div className="py-16 text-center">
-        <h1 className="text-2xl font-semibold">Your cart is empty</h1>
-        <Link href="/" className="mt-4 inline-block text-brand underline">
-          Browse restaurants
+      <div className="py-20 text-center">
+        <h1 className="font-display text-4xl">Your order is empty</h1>
+        <Link href="/" className="btn mt-6">
+          See the restaurants
         </Link>
       </div>
     );
@@ -94,19 +94,26 @@ export function CheckoutForm({
     }
   }
 
-  return (
-    <form onSubmit={submit} className="grid gap-8 lg:grid-cols-[1fr_320px]">
-      <div className="space-y-6">
-        <h1 className="text-2xl font-bold">Checkout</h1>
+  const heading = (n: string, title: string) => (
+    <h2 className="flex items-baseline gap-3 border-b border-ink pb-1">
+      <span className="font-display text-2xl text-brand">{n}</span>
+      <span className="smallcaps font-semibold tracking-[0.12em]">{title}</span>
+    </h2>
+  );
 
-        <section className="rounded-xl border border-line bg-card p-5">
-          <h2 className="font-semibold">Delivery time</h2>
+  return (
+    <form onSubmit={submit} className="grid gap-12 lg:grid-cols-[1fr_340px]">
+      <div className="space-y-10">
+        <h1 className="font-display text-4xl">Delivery &amp; details</h1>
+
+        <section>
+          {heading("I.", "When")}
           {dates.length === 0 ? (
-            <p className="mt-2 text-sm text-muted">No delivery dates are open right now.</p>
+            <p className="mt-3 font-serif italic text-muted">No delivery dates are open right now.</p>
           ) : (
             <>
-              <label className="mt-3 block text-sm font-medium">
-                Date
+              <label className="mt-4 block max-w-xs">
+                <span className="label">Date</span>
                 <select
                   value={date}
                   onChange={(e) => {
@@ -122,20 +129,21 @@ export function CheckoutForm({
                   ))}
                 </select>
               </label>
-              <div className="mt-4 text-sm font-medium">Time</div>
+              <div className="label mt-5">Time</div>
               {available.length === 0 ? (
-                <p className="mt-1 text-sm text-accent">
-                  Not every restaurant in your cart is open that day. Try another date.
+                <p className="mt-1 font-serif italic text-brand">
+                  Not every restaurant in your order is open that day. Try another date.
                 </p>
               ) : (
-                <div className="mt-2 grid grid-cols-2 gap-2 sm:grid-cols-4">
+                <div className="mt-2 grid grid-cols-2 border-t border-l border-ink sm:grid-cols-4">
                   {available.map((s) => (
                     <button
                       type="button"
                       key={s.id}
                       onClick={() => setSlot(s.id)}
-                      className={`rounded-lg border px-2 py-2 text-sm ${
-                        slot === s.id ? "border-brand bg-brand-soft font-semibold text-brand" : "border-line bg-card"
+                      aria-pressed={slot === s.id}
+                      className={`numerals border-r border-b border-ink px-2 py-2.5 font-serif ${
+                        slot === s.id ? "bg-ink text-paper" : "hover:bg-brand-soft"
                       }`}
                     >
                       {s.label}
@@ -143,96 +151,102 @@ export function CheckoutForm({
                   ))}
                 </div>
               )}
-              <p className="mt-3 text-xs text-muted">Orders for a given evening close at 4:00 PM that day.</p>
+              <p className="mt-3 text-xs italic text-muted">Orders for an evening close at 4:00 PM that day.</p>
             </>
           )}
         </section>
 
-        <section className="rounded-xl border border-line bg-card p-5">
-          <h2 className="font-semibold">Delivery address</h2>
-          <div className="mt-3 grid gap-3 sm:grid-cols-[1fr_120px]">
-            <label className="text-sm font-medium">
-              Street address
+        <section>
+          {heading("II.", "Where")}
+          <div className="mt-4 grid gap-5 sm:grid-cols-[1fr_140px]">
+            <label>
+              <span className="label">Street address</span>
               <input required value={form.street} onChange={set("street")} autoComplete="street-address" className={input} />
             </label>
-            <label className="text-sm font-medium">
-              Apt / unit
+            <label>
+              <span className="label">Apt / unit</span>
               <input value={form.unit} onChange={set("unit")} className={input} />
             </label>
           </div>
-          <div className="mt-3 grid gap-3 sm:grid-cols-[160px_1fr]">
-            <label className="text-sm font-medium">
-              ZIP code
+          <div className="mt-5 grid gap-5 sm:grid-cols-[140px_1fr]">
+            <label>
+              <span className="label">ZIP code</span>
               <input
                 required
                 value={form.zip}
                 onChange={set("zip")}
                 inputMode="numeric"
                 autoComplete="postal-code"
-                className={input}
+                className={`${input} numerals`}
               />
             </label>
-            <div className="self-end pb-2 text-sm text-muted">Jamaica Plain, Boston, MA</div>
+            <div className="self-end pb-2 font-serif italic text-muted">Jamaica Plain, Boston</div>
           </div>
           {!zipOk && form.zip.length >= 5 && (
-            <p className="mt-2 text-sm text-accent">We only deliver within Jamaica Plain (ZIP 02130) for now.</p>
+            <p className="mt-2 font-serif italic text-brand">We only deliver within Jamaica Plain (ZIP 02130) for now.</p>
           )}
-          <label className="mt-3 block text-sm font-medium">
-            Delivery instructions (optional)
-            <textarea value={form.notes} onChange={set("notes")} rows={2} maxLength={500} className={input} />
+          <label className="mt-5 block">
+            <span className="label">Delivery instructions (optional)</span>
+            <textarea value={form.notes} onChange={set("notes")} rows={2} maxLength={500} className={`${input} resize-none`} />
           </label>
         </section>
 
-        <section className="rounded-xl border border-line bg-card p-5">
-          <h2 className="font-semibold">Contact</h2>
-          <div className="mt-3 grid gap-3 sm:grid-cols-2">
-            <label className="text-sm font-medium sm:col-span-2">
-              Name
+        <section>
+          {heading("III.", "Who")}
+          <div className="mt-4 grid gap-5 sm:grid-cols-2">
+            <label className="sm:col-span-2">
+              <span className="label">Name</span>
               <input required value={form.name} onChange={set("name")} autoComplete="name" className={input} />
             </label>
-            <label className="text-sm font-medium">
-              Phone
+            <label>
+              <span className="label">Phone</span>
               <input required type="tel" value={form.phone} onChange={set("phone")} autoComplete="tel" className={input} />
             </label>
-            <label className="text-sm font-medium">
-              Email
+            <label>
+              <span className="label">Email</span>
               <input required type="email" value={form.email} onChange={set("email")} autoComplete="email" className={input} />
             </label>
           </div>
         </section>
       </div>
 
-      <aside className="h-fit space-y-4 rounded-xl border border-line bg-card p-5 lg:sticky lg:top-20">
-        <h2 className="font-semibold">Order summary</h2>
+      <aside className="h-fit border border-ink bg-card p-6 shadow-[5px_5px_0_var(--color-ink)] lg:sticky lg:top-24">
+        <h2 className="smallcaps text-center font-semibold tracking-[0.14em]">Guest check</h2>
         {quote ? (
-          <>
-            <ul className="space-y-1 text-sm">
+          <div className="mt-4">
+            <ul className="mb-4 space-y-1 border-b border-line pb-3 text-sm">
               {quote.restaurants.map((g) => (
-                <li key={g.restaurant.slug} className="flex justify-between">
+                <li key={g.restaurant.slug} className="flex items-baseline font-serif italic">
                   <span>{g.restaurant.name}</span>
-                  <span>{formatMoney(g.total)}</span>
+                  <span className="leader" />
+                  <span className="numerals not-italic">{formatMoney(g.total)}</span>
                 </li>
               ))}
             </ul>
             <QuoteSummary quote={quote} />
-          </>
+          </div>
         ) : (
-          <p className="text-sm text-muted">Checking prices…</p>
+          <p className="mt-4 font-serif italic text-muted">Totting up…</p>
         )}
         {quote?.errors.length ? (
-          <p className="text-sm text-accent">
-            {quote.errors[0]} <Link href="/cart" className="underline">Review cart</Link>
+          <p className="mt-3 text-sm italic text-brand">
+            {quote.errors[0]}{" "}
+            <Link href="/cart" className="underline">
+              Review order
+            </Link>
           </p>
         ) : null}
-        {error && <p className="rounded-md bg-orange-50 p-2 text-sm text-accent">{error}</p>}
+        {error && <p className="mt-3 border-l-2 border-brand pl-3 text-sm italic text-brand">{error}</p>}
         <button
           type="submit"
           disabled={submitting || !quote || quote.errors.length > 0 || dates.length === 0}
-          className="w-full rounded-full bg-brand px-4 py-2.5 font-semibold text-white hover:bg-brand-dark disabled:bg-muted/50"
+          className="btn btn-primary mt-6 w-full"
         >
-          {submitting ? "Placing order…" : quote ? `Place order · ${formatMoney(quote.total)}` : "Place order"}
+          {submitting ? "Placing order…" : "Place order"}
         </button>
-        <p className="text-xs text-muted">No payment is collected online yet. We&apos;ll contact you to arrange payment.</p>
+        <p className="mt-3 text-center text-xs italic text-muted">
+          No payment is taken online yet. We&apos;ll be in touch to arrange it.
+        </p>
       </aside>
     </form>
   );

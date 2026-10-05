@@ -59,3 +59,15 @@ export function scrapeReport(): Record<string, ScrapeReportEntry> {
   return readJson<{ restaurants: Record<string, ScrapeReportEntry> }>(path.join(DATA_DIR, "scrape-report.json"))
     ?.restaurants ?? {};
 }
+
+export interface LogoInfo {
+  file: string;
+  width: number;
+  height: number;
+  mode: "ink" | "original";
+}
+
+/** Processed restaurant logos from `npm run logos` (public/logos + data/logos.json). */
+export function logos(): Record<string, LogoInfo> {
+  return readJson<Record<string, LogoInfo>>(path.join(DATA_DIR, "logos.json")) ?? {};
+}

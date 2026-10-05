@@ -1,16 +1,30 @@
 @import "tailwindcss";
 
+/* next/font sets these variables on <body>; `inline` resolves them there, not on :root. */
+@theme inline {
+  --font-sans: var(--font-plex), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-caslon), "Iowan Old Style", Georgia, serif;
+  --font-display: var(--font-caslon-display), var(--font-caslon), Georgia, serif;
+}
+
+/* Menu-board design: newsprint paper, ink, one brick-red accent, hairline rules, square corners. */
 @theme {
-  --color-brand: #1f5c3a;
-  --color-brand-dark: #164229;
-  --color-brand-soft: #e6efe8;
-  --color-accent: #c2410c;
-  --color-ink: #1c1917;
-  --color-muted: #6b645c;
-  --color-line: #e5dfd5;
-  --color-paper: #faf7f2;
-  --color-card: #ffffff;
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --color-paper: #f4eee2;
+  --color-card: #faf6ee;
+  --color-ink: #1e1b17;
+  --color-muted: #6f665b;
+  --color-line: #d6cbb8;
+  --color-brand: #9e3a22;
+  --color-brand-dark: #7c2b17;
+  --color-brand-soft: #efdfd2;
+  --color-accent: #9e3a22;
+
+  /* Square corners everywhere (also restyles the admin pages). */
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --radius-xl: 0;
+  --radius-2xl: 0;
 }
 
 html {
@@ -20,4 +34,101 @@ html {
 body {
   background: var(--color-paper);
   color: var(--color-ink);
+  font-feature-settings: "kern", "liga";
+}
+
+@layer components {
+  /* Letterspaced capitals for labels, section heads and buttons. */
+  .smallcaps {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .numerals {
+    font-variant-numeric: tabular-nums lining-nums;
+  }
+
+  /* Dotted leader between a menu item and its price. */
+  .leader {
+    flex: 1 1 auto;
+    min-width: 1.5rem;
+    margin: 0 0.4rem;
+    border-bottom: 1.5px dotted color-mix(in srgb, var(--color-ink) 45%, transparent);
+    transform: translateY(-0.3em);
+  }
+
+  .rule-double {
+    border-top: 3px double var(--color-ink);
+  }
+
+  /* Section heading centred between two rules. */
+  .ruled-heading {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+  }
+  .ruled-heading::before,
+  .ruled-heading::after {
+    content: "";
+    flex: 1;
+    border-top: 1px solid var(--color-ink);
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    border: 1px solid var(--color-ink);
+    padding: 0.55rem 1.1rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+    font-weight: 600;
+    transition: background-color 120ms, color 120ms;
+  }
+  .btn:hover {
+    background: var(--color-ink);
+    color: var(--color-paper);
+  }
+  .btn-primary {
+    background: var(--color-brand);
+    border-color: var(--color-brand);
+    color: var(--color-card);
+  }
+  .btn-primary:hover {
+    background: var(--color-brand-dark);
+    border-color: var(--color-brand-dark);
+    color: var(--color-card);
+  }
+  .btn:disabled,
+  .btn[aria-disabled="true"] {
+    opacity: 0.4;
+    pointer-events: none;
+  }
+
+  /* Underlined form field, like a line on a printed order form. */
+  .field {
+    width: 100%;
+    margin-top: 0.15rem;
+    border: 0;
+    border-bottom: 1px solid var(--color-ink);
+    background: transparent;
+    padding: 0.35rem 0.1rem;
+    font-family: var(--font-caslon), Georgia, serif;
+    font-size: 1.05rem;
+  }
+  .field:focus {
+    outline: none;
+    border-bottom: 2px solid var(--color-brand);
+    padding-bottom: calc(0.35rem - 1px);
+  }
+
+  .label {
+    font-size: 0.7rem;
+    color: var(--color-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+  }
 }

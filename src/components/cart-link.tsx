@@ -7,13 +7,12 @@ export function CartLink() {
   const { count, entries } = useCart();
   const restaurants = new Set(entries.map((e) => e.restaurant)).size;
   return (
-    <Link
-      href="/cart"
-      className="flex items-center gap-2 rounded-full bg-brand px-4 py-2 text-sm font-semibold text-white hover:bg-brand-dark"
-    >
-      Cart
-      <span className="rounded-full bg-white/20 px-2 py-0.5 text-xs">{count}</span>
-      {restaurants > 1 && <span className="hidden text-xs text-white/80 sm:inline">{restaurants} restaurants</span>}
+    <Link href="/cart" className="group flex items-baseline gap-2 text-sm">
+      <span className="smallcaps font-semibold group-hover:text-brand">Your order</span>
+      <span className="numerals font-serif text-base">
+        {count === 0 ? "—" : `${count} item${count === 1 ? "" : "s"}`}
+      </span>
+      {restaurants > 1 && <span className="hidden text-xs text-muted italic sm:inline">from {restaurants} restaurants</span>}
     </Link>
   );
 }

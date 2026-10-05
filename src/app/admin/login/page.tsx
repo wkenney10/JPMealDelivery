@@ -7,7 +7,7 @@ export default function AdminLogin() {
   const [error, action, pending] = useActionState(loginAction, null);
   return (
     <form action={action} className="mx-auto mt-16 max-w-sm space-y-4 rounded-xl border border-line bg-card p-6">
-      <h1 className="text-xl font-semibold">Operator login</h1>
+      <h1 className="font-display text-2xl">Operator login</h1>
       <label className="block text-sm font-medium">
         Password
         <input
@@ -21,7 +21,7 @@ export default function AdminLogin() {
       {error && <p className="text-sm text-accent">{error}</p>}
       <button
         disabled={pending}
-        className="w-full rounded-full bg-brand px-4 py-2 font-semibold text-white hover:bg-brand-dark disabled:opacity-60"
+        className="btn btn-primary w-full"
       >
         Log in
       </button>
