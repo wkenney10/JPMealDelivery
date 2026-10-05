@@ -1,4 +1,5 @@
 name: Refresh menus
+# Scrapes every active restaurant in data/restaurants.json and commits menu changes.
 
 on:
   schedule:
