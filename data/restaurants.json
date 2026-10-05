@@ -10,7 +10,11 @@
       "website": "https://www.achilitos.com/",
       "orderUrl": "https://www.achilitos.com/s/order?location=LDMMH2FDVBG7V",
       "platform": "square",
-      "platformConfig": { "userId": "153727245", "siteId": "703924725939342024", "locationId": "LDMMH2FDVBG7V" },
+      "platformConfig": {
+        "userId": "153727245",
+        "siteId": "703924725939342024",
+        "locationId": "LDMMH2FDVBG7V"
+      },
       "active": true
     },
     {
@@ -22,7 +26,9 @@
       "website": "https://bbqchicken.com/",
       "orderUrl": "https://bbqchicken.order.online/business/82085",
       "platform": "doordash",
-      "platformConfig": { "storeMatch": "654 Centre" },
+      "platformConfig": {
+        "storeMatch": "654 Centre"
+      },
       "active": true
     },
     {
@@ -86,7 +92,13 @@
       "zip": "02130",
       "orderUrl": "https://order.toasttab.com/online/costellos-tavern-723-centre-st",
       "platform": "toast",
-      "active": true
+      "active": true,
+      "hideSections": [
+        "Green Tea",
+        "Coffee Drinks",
+        "Cosmopalitain"
+      ],
+      "notes": "Bar menu: cocktail sections with house names are hidden via hideSections."
     },
     {
       "slug": "don-tequeno",
@@ -131,7 +143,9 @@
       "website": "https://www.idealcafepizza.com/",
       "orderUrl": "https://ordering.chownow.com/order/4695/locations",
       "platform": "chownow",
-      "platformConfig": { "companyId": "4695" },
+      "platformConfig": {
+        "companyId": "4695"
+      },
       "active": true
     },
     {
@@ -271,7 +285,9 @@
       "website": "https://soupshacknoodles.com/",
       "orderUrl": "https://ordering.chownow.com/order/12742/locations",
       "platform": "chownow",
-      "platformConfig": { "companyId": "12742" },
+      "platformConfig": {
+        "companyId": "12742"
+      },
       "active": true
     },
     {

@@ -29,6 +29,9 @@ export interface Restaurant {
   lastPickup?: string; // "HH:MM", latest slot start the restaurant can serve
   active: boolean;
   notes?: string;
+  /** Menu sections or items to hide (exact names, case-insensitive), e.g. bar drinks the filter can't recognise. */
+  hideSections?: string[];
+  hideItems?: string[];
   /** Overrides for `npm run logos`. */
   logo?: {
     url?: string; // use this image instead of searching

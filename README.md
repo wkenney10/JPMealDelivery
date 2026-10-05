@@ -75,6 +75,12 @@ GitHub's included, so they're refreshed weekly with `npm run scrape:local`. It r
 Chrome window on a home connection and waits for you to click through any bot check. Step-by-step
 instructions: [docs/local-menu-refresh.md](docs/local-menu-refresh.md).
 
+**What customers see:** every menu passes through `src/lib/menu-filter.ts` when it loads. It removes
+alcohol (delivering it needs a Massachusetts license), catering, breakfast/brunch, and retail sections,
+plus alcoholic items inside drink sections. It also drops repeated menu copies priced above the
+restaurant's main menu (Toast restaurants often publish a marked-up delivery-app menu), and merges
+duplicate sections. The scraped files keep everything, so adjusting the rules never needs a re-scrape.
+
 **Manual fallback:** if a restaurant can't be scraped, copy `data/menus-manual/_template.json` to
 `data/menus-manual/<slug>.json` and fill it in (prices in cents). A successful scrape always takes
 precedence. Restaurants with no menu at all are listed as "Coming soon" and can't be ordered from.

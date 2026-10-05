@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { dinnerMenu } from "./menu-filter";
 import type { Menu, Restaurant } from "./types";
 
 const DATA_DIR = path.join(process.cwd(), "data");
@@ -30,7 +31,8 @@ const SLUG_RE = /^[a-z0-9-]+$/;
 export function getMenu(slug: string): Menu | undefined {
   if (!SLUG_RE.test(slug)) return undefined;
   const scraped = readJson<Menu>(path.join(DATA_DIR, "menus", `${slug}.json`));
-  if (scraped && scraped.categories.some((c) => c.items.length)) return scraped;
+  const cleaned = scraped && dinnerMenu(scraped, getRestaurant(slug));
+  if (cleaned && cleaned.categories.some((c) => c.items.length)) return cleaned;
   const manual = readJson<Menu>(path.join(DATA_DIR, "menus-manual", `${slug}.json`));
   if (manual && manual.categories.some((c) => c.items.length)) return manual;
   return undefined;
