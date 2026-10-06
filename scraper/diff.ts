@@ -21,5 +21,10 @@ export function diffMenus(before: MenuCategory[] | undefined, after: MenuCategor
 /** Compares menu content, ignoring the fetch timestamp. */
 export function sameMenu(a: Menu | undefined, b: Menu): boolean {
   if (!a) return false;
-  return JSON.stringify(a.categories) === JSON.stringify(b.categories) && a.dinnerAvailable === b.dinnerAvailable;
+  return (
+    JSON.stringify(a.categories) === JSON.stringify(b.categories) &&
+    a.dinnerAvailable === b.dinnerAvailable &&
+    JSON.stringify(a.closedDays) === JSON.stringify(b.closedDays) &&
+    a.lastPickup === b.lastPickup
+  );
 }

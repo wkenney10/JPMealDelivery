@@ -140,3 +140,11 @@ export async function scrapeDoorDash(r: Restaurant): Promise<ScrapeResult> {
   }
   return requireMenu(r.slug, captured, extractMenuFromJson(captured.map((c) => c.body)), html);
 }
+
+// ---------------------------------------------------------------- any other ordering site
+
+/** Ordering sites without a dedicated adapter: capture all JSON and embedded page data. */
+export async function scrapeWeb(r: Restaurant): Promise<ScrapeResult> {
+  const { captured, html } = await captureJson(r.orderUrl, /./, { waitMs: 10_000 });
+  return requireMenu(r.slug, captured, extractMenuFromJson(captured.map((c) => c.body)), html);
+}

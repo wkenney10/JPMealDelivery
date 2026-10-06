@@ -179,3 +179,55 @@ describe("Next.js flight payloads (DoorDash Storefront)", () => {
     expect(cats[0].items.map((i) => i.price)).toEqual([2100, 1450]);
   });
 });
+
+describe("clover JSON menu service", () => {
+  it("parses sections, options and skips age-restricted or unavailable items", async () => {
+    const { parseCloverOlo, cloverSlug } = await import("../scraper/adapters/clover");
+    const cats = parseCloverOlo({
+      categories: {
+        b: { id: "b", name: "House Specialties ", sortOrder: 2, items: ["i1", "i3"] },
+        a: { id: "a", name: "Appetizers", sortOrder: 1, items: ["i2", "beer"] },
+      },
+      modifierGroups: { g: { id: "g", name: "Choose Four", minRequired: 4, maxAllowed: 4 }, s: { id: "s", name: "Spice", maxAllowed: 2147483647 } },
+      modifiers: [
+        { id: "m1", name: " Misir Wat", price: 0, groupId: "g" },
+        { id: "m2", name: "Gomen", price: 150, groupId: "g" },
+        { id: "m3", name: "Hot", price: 0, groupId: "s", available: false },
+      ],
+      items: [
+        { id: "i1", name: "Veggie Combo 4", price: 2199, modifierGroupIds: ["g", "s"] },
+        { id: "i2", name: "Sambusa", price: 650 },
+        { id: "i3", name: "Sold Out Tibs", price: 2400, available: false },
+        { id: "beer", name: "St. George", price: 700, isAgeRestricted: true },
+      ],
+    });
+    expect(cats.map((c) => c.name)).toEqual(["Appetizers", "House Specialties"]);
+    expect(cats[0].items.map((i) => i.name)).toEqual(["Sambusa"]);
+    const combo = cats[1].items[0];
+    expect(combo.optionGroups?.[0]).toMatchObject({ name: "Choose Four", min: 4, max: 4 });
+    expect(combo.optionGroups?.[0].options.map((o) => [o.name, o.price])).toEqual([["Misir Wat", 0], ["Gomen", 150]]);
+    expect(combo.optionGroups?.[1]).toMatchObject({ name: "Spice", max: 0, options: [] });
+    expect(cloverSlug("https://www.clover.com/online-ordering/bluenileboston")).toBe("bluenileboston");
+    expect(cloverSlug("https://don-tequeno-y-dona-arepa-boston.cloveronline.com/menu/all")).toBe("don-tequeno-y-dona-arepa-boston");
+  });
+
+  it("turns weekly pickup hours into closed days and a last slot", async () => {
+    const { cloverSchedule } = await import("../scraper/adapters/clover");
+    const day = (start: string, end: string) => [{ start, end }];
+    const hours = {
+      sunday: day("1200", "2100"),
+      monday: [],
+      tuesday: day("1100", "1500"), // lunch only
+      wednesday: day("1600", "2000"),
+      thursday: day("1600", "2100"),
+      friday: day("1600", "2130"),
+      saturday: day("1200", "2130"),
+    };
+    expect(cloverSchedule({ merchantUuid: "x", services: [{ type: "PICKUP", hours }] })).toEqual({
+      dinnerAvailable: true,
+      closedDays: [1, 2],
+      lastPickup: "19:30", // Wednesday closes at 8 PM
+    });
+    expect(cloverSchedule({ merchantUuid: "x" })).toEqual({});
+  });
+});

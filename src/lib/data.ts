@@ -15,7 +15,18 @@ function readJson<T>(file: string): T | undefined {
 
 export function allRestaurants(): Restaurant[] {
   const registry = readJson<{ restaurants: Restaurant[] }>(path.join(DATA_DIR, "restaurants.json"));
-  return registry?.restaurants ?? [];
+  return (registry?.restaurants ?? []).map(withPublishedSchedule);
+}
+
+/**
+ * Fills in closed days and last pickup time from the restaurant's ordering
+ * site (saved with its scraped menu) when the registry doesn't set them.
+ */
+function withPublishedSchedule(r: Restaurant): Restaurant {
+  if (r.closedDays && r.lastPickup) return r;
+  if (!SLUG_RE.test(r.slug)) return r;
+  const menu = readJson<Pick<Menu, "closedDays" | "lastPickup">>(path.join(DATA_DIR, "menus", `${r.slug}.json`));
+  return { ...r, closedDays: r.closedDays ?? menu?.closedDays, lastPickup: r.lastPickup ?? menu?.lastPickup };
 }
 
 export function getRestaurant(slug: string): Restaurant | undefined {

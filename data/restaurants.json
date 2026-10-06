@@ -31,6 +31,17 @@
       "active": true
     },
     {
+      "slug": "blue-nile",
+      "name": "Blue Nile",
+      "cuisine": "Ethiopian",
+      "cuisineEs": "Etíope",
+      "address": "389 Centre St",
+      "zip": "02130",
+      "orderUrl": "https://www.clover.com/online-ordering/bluenileboston",
+      "platform": "clover",
+      "active": true
+    },
+    {
       "slug": "brassica-kitchen",
       "name": "Brassica Kitchen + Cafe",
       "cuisine": "New American",
@@ -386,6 +397,19 @@
       "platform": "toast",
       "active": true,
       "notes": "Toast shows this menu only while the restaurant is open; scrape it in the evening (npm run scrape:local after 5 PM)."
+    },
+    {
+      "slug": "young-kong",
+      "name": "Young Kong",
+      "cuisine": "Chinese",
+      "cuisineEs": "China",
+      "address": "300A Centre St",
+      "zip": "02130",
+      "website": "https://www.youngkongma.com/",
+      "orderUrl": "https://www.youngkongma.com/2wbkr8mc/young-kong-jamaica-plain-02130/order-online?menu=All+Day+Menu&category=Appetizers",
+      "platform": "web",
+      "active": true,
+      "notes": "Site is behind a Vercel bot check; scrape with npm run scrape:local."
     },
     {
       "slug": "zestos-pizza",

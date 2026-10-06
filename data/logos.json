@@ -15,6 +15,14 @@
   "source": "https://bbqchicken.com/wp-content/uploads/2022/06/logo.svg",
   "updatedAt": "2026-10-05T22:51:45.878Z"
  },
+ "blue-nile": {
+  "file": "/logos/blue-nile.png",
+  "width": 558,
+  "height": 154,
+  "mode": "ink",
+  "source": "https://www.clover.com/v2/image/BlueNileLogo_4393965163105589842.png",
+  "updatedAt": "2026-10-06T02:53:40.919Z"
+ },
  "burritos-pizzeria": {
   "file": "/logos/burritos-pizzeria.png",
   "width": 300,
@@ -41,11 +49,11 @@
  },
  "don-tequeno": {
   "file": "/logos/don-tequeno.png",
-  "width": 240,
+  "width": 245,
   "height": 240,
   "mode": "ink",
-  "source": "https://dontequenoydonaarepa.com/wp-content/uploads/2024/03/Logo-Don-Taqueno-1024x1024.png",
-  "updatedAt": "2026-10-05T22:51:58.915Z"
+  "source": "https://www.clover.com/v2/image/LogoDTDA_623559507091305909.jpg",
+  "updatedAt": "2026-10-06T02:53:42.270Z"
  },
  "evergreen-eatery": {
   "file": "/logos/evergreen-eatery.png",

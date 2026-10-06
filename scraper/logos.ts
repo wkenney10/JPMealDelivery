@@ -15,8 +15,9 @@ import path from "node:path";
 import * as cheerio from "cheerio";
 import sharp from "sharp";
 import type { Restaurant } from "../src/lib/types";
+import { cloverSlug } from "./adapters/clover";
 import { parseSliceState } from "./adapters/slice";
-import { USER_AGENT, fetchText } from "./util";
+import { USER_AGENT, fetchJson, fetchText } from "./util";
 
 const DATA = path.join(process.cwd(), "data");
 const OUT_DIR = path.join(process.cwd(), "public", "logos");
@@ -83,11 +84,11 @@ async function candidates(r: Restaurant): Promise<string[]> {
   }
   if (r.platform === "clover") {
     try {
-      const $ = cheerio.load(await fetchText(r.orderUrl));
-      const src = $("img#merchant-logo").attr("src");
-      if (src) urls.push(src);
+      const slug = cloverSlug(r.orderUrl);
+      const merchant = await fetchJson<{ logo?: string }>(`https://www.clover.com/oloservice/v1/merchants/${slug}?slug=true`);
+      if (merchant.logo) urls.push(merchant.logo);
     } catch {
-      // Fall through.
+      // Fall through to the website.
     }
   }
   if (r.website) {

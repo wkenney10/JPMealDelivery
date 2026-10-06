@@ -8,6 +8,7 @@ export type Platform =
   | "doordash"
   | "square"
   | "menuapp"
+  | "web" // any other ordering site, read generically in a browser
   | "manual";
 
 export interface Restaurant {
@@ -78,6 +79,9 @@ export interface Menu {
   fetchedAt: string; // ISO timestamp of the scrape (or manual edit)
   // Pickup hours seen on the ordering site, if the platform exposes them.
   dinnerAvailable?: boolean;
+  // Evening pickup schedule read from the ordering site (registry values take precedence).
+  closedDays?: number[]; // 0 = Sunday
+  lastPickup?: string; // latest delivery-slot start, "HH:MM"
   categories: MenuCategory[];
 }
 

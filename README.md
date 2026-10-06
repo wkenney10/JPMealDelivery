@@ -47,11 +47,12 @@ has an adapter for each one:
 | --- | --- | --- |
 | Slice | Menu state embedded in the page (plain HTTP) | Tested against live pages |
 | Square Online | Public storefront JSON API, including modifier groups | Tested against live API |
-| Clover Online Ordering | Server-rendered HTML | Tested against a live page (base prices only, no modifiers) |
+| Clover Online Ordering | Clover's public JSON menu service, including options and pickup hours | Tested against live data |
 | menu.app (Life Alive) | JSON API captured in a headless browser | Tested against live API (base prices only) |
 | Toast | GraphQL responses captured in a real browser, parsed generically | **Not yet verified.** See below. |
 | ChowNow | API responses captured in a real browser | **Not yet verified** |
 | DoorDash Storefront (order.online) | Menu data embedded in the server-rendered page (Next.js flight payload) | Tested against live pages (base prices only) |
+| Other ordering sites (`web`) | Any JSON or embedded page data, read generically in a real browser | Young Kong; run via `npm run scrape:local` |
 
 Toast, ChowNow and DoorDash Storefront sit behind Cloudflare bot protection, which blocked the
 cloud environment this was built in. Those adapters capture the platform's own API traffic and use a
@@ -141,7 +142,7 @@ news (openings and closings through 2026), and by checking each restaurant's web
 
 Things to verify before launch:
 
-- **Restaurants I couldn't find direct web ordering for:** Blue Nile, Bukhara, Young Kong, JP Kitchen,
+- **Restaurants I couldn't find direct web ordering for:** Bukhara, JP Kitchen,
   Momo Masala, El Oriental de Cuba, Pikalo, Galway House, Jeanie Johnston, Across the Border, Ethiopian
   Cafe, Flavor Boom, Purple Cactus, Pete's A Pizza, Nicole's Pizza, Tikki Masala, New Oriental House,
   Chilacates (Centre St), and Acapulco (chain Olo site, JP location not found). Some only take
@@ -154,9 +155,12 @@ Things to verify before launch:
   restaurant. Some ordering sites add a fee to pickup orders, so check one real checkout per restaurant,
   set the fee, and set `feesVerified: true`. `/admin/menus` flags unverified restaurants.
 - **Hours:** `closedDays` (0 = Sunday) and `lastPickup` (latest slot start, "HH:MM") control which
-  delivery slots a restaurant is offered in. Fill these in per restaurant.
-- **Options:** Slice sizes and Square modifiers are captured. Clover and menu.app items only have base
-  prices, so customers can leave special instructions but paid add-ons aren't modeled for those yet.
+  delivery slots a restaurant is offered in. Clover restaurants get them automatically from the
+  pickup hours on their ordering site; for others, fill them in per restaurant (registry values
+  always win).
+- **Options:** Slice sizes and Square and Clover options are captured. Toast, DoorDash and menu.app
+  items only have base prices, so customers can leave special instructions but paid add-ons aren't
+  modeled for those yet.
 
 ## Deploying
 

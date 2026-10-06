@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-05T22:47:07.486Z",
+ "generatedAt": "2026-10-06T02:50:28.455Z",
  "restaurants": {
   "achilitos-taqueria": {
    "slug": "achilitos-taqueria",
@@ -13,6 +13,16 @@
    "status": "failed",
    "checkedAt": "2026-10-05T22:29:40.209Z",
    "error": "Couldn't find the 654 Centre St store on https://bbqchicken.order.online/business/82085"
+  },
+  "blue-nile": {
+   "slug": "blue-nile",
+   "status": "ok",
+   "checkedAt": "2026-10-06T02:50:20.684Z",
+   "lastSuccessAt": "2026-10-06T02:50:20.684Z",
+   "itemCount": 41,
+   "changes": [
+    "New menu with 41 items"
+   ]
   },
   "brassica-kitchen": {
    "slug": "brassica-kitchen",
@@ -66,10 +76,11 @@
   },
   "don-tequeno": {
    "slug": "don-tequeno",
-   "status": "unchanged",
-   "checkedAt": "2026-10-05T17:23:47.893Z",
-   "lastSuccessAt": "2026-10-05T17:23:47.893Z",
-   "itemCount": 161
+   "status": "ok",
+   "checkedAt": "2026-10-06T02:50:20.695Z",
+   "lastSuccessAt": "2026-10-06T02:50:20.695Z",
+   "itemCount": 154,
+   "changes": []
   },
   "evergreen-eatery": {
    "slug": "evergreen-eatery",

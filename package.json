@@ -11,7 +11,7 @@
     "test": "vitest run",
     "i18n:sync": "tsx scripts/i18n-sync.ts",
     "scrape": "tsx scraper/index.ts",
-    "scrape:local": "tsx scraper/index.ts --local --platforms=toast,chownow,doordash",
+    "scrape:local": "tsx scraper/index.ts --local --platforms=toast,chownow,doordash,web",
     "logos": "tsx scraper/logos.ts",
     "db:push": "prisma db push",
     "postinstall": "prisma generate"

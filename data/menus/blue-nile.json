@@ -1,0 +1,350 @@
+{
+ "restaurant": "blue-nile",
+ "source": "scraped",
+ "platform": "clover",
+ "sourceUrl": "https://www.clover.com/online-ordering/bluenileboston",
+ "fetchedAt": "2026-10-06T02:50:20.684Z",
+ "dinnerAvailable": true,
+ "closedDays": [
+  1
+ ],
+ "categories": [
+  {
+   "name": "Beverage List",
+   "items": [
+    {
+     "id": "WMGTBK85JDW7A",
+     "name": "Bottled Water",
+     "price": 200
+    },
+    {
+     "id": "ZT7KAEEVNNGJ4",
+     "name": "Coke",
+     "price": 350
+    },
+    {
+     "id": "3CS7BHTA2CHJ6",
+     "name": "Diet Coke",
+     "price": 350
+    },
+    {
+     "id": "TD53AX5VFYQBY",
+     "name": "Sprite",
+     "price": 350
+    },
+    {
+     "id": "DKXJ3MNZT2QTM",
+     "name": "Cranberry Juice",
+     "price": 350
+    },
+    {
+     "id": "H0WEVSRKFNNNG",
+     "name": "Tea",
+     "price": 300
+    },
+    {
+     "id": "5NWKRG1YDEW6C",
+     "name": "Coffee",
+     "price": 300
+    },
+    {
+     "id": "RK3VY8GBKMR02",
+     "name": "Mango Juice",
+     "price": 425
+    },
+    {
+     "id": "XY597TR9BTE40",
+     "name": "San Pellegrino",
+     "price": 450
+    },
+    {
+     "id": "DGQRXMSV29X7Y",
+     "name": "Ginger Ale",
+     "price": 350
+    }
+   ]
+  },
+  {
+   "name": "Appetizers",
+   "items": [
+    {
+     "id": "P1RZ8399HXZ1Y",
+     "name": "Azefa",
+     "description": "LENTIL SALAD WITH SHALLOTS & CHILI PEPPERS SEASONED WITH OLIVE OIL AND SPICES (SERVED WITH SIDE OF INJERA)",
+     "price": 650
+    },
+    {
+     "id": "HQ95GPT94B05Y",
+     "name": "Lentil Sambosa",
+     "description": "SAVORY VEGAN PASTRIES FILLED WITH LENTILS, CHOPPED JALEPEÑO & ONIONS",
+     "price": 750
+    },
+    {
+     "id": "X52DP8VJ7EWQC",
+     "name": "Ayeb Begomen & Mitmita",
+     "description": "COTTAGE CHEESE SEASONED WITH CAYENNE PEPPER AND COLLARD GREENS (SERVED WITH A SIDE OF INJERA)",
+     "price": 650
+    }
+   ]
+  },
+  {
+   "name": "House Specialties",
+   "items": [
+    {
+     "id": "86RDKKSQGXT0Y",
+     "name": "Doro Tibs Combo",
+     "description": "SKINNED CHICKEN SAUTEED WITH ONIONS, TOMATOES, CHILI PEPPERS, & SEASONED WITH HERB BUTTER. side salad INCLUDED + CHOICE OF A SIDE VEGETABLE DISH",
+     "price": 2199
+    },
+    {
+     "id": "BKZVVT3GSMVWG",
+     "name": "Yebeg Tibs Combo",
+     "description": "MADE TO ORDER LAMB SAUTÉED WITH GINGER, GARLIC, TOMATOES, & ONIONS. SERVED SPICY, MEDIUM SPICY OR NO SPICE. SIDE SALAD INCLUDED + CHOICE OF A SIDE VEGETABLE DISH",
+     "price": 3299
+    },
+    {
+     "id": "EZF6C2QJNVD8Y",
+     "name": "Veggie Combo 4",
+     "description": "TIKIL GOMEN, GOMEN, SHIRO WAT, YEKIK ALICHA, MISIR WAT & YATAKILT WAT. SIDE SALAD INCLUDED",
+     "price": 2199,
+     "optionGroups": [
+      {
+       "id": "EZF6C2QJNVD8Y:YKKGWXW6EY9XR",
+       "name": "Choose Four",
+       "min": 4,
+       "max": 4,
+       "options": [
+        {
+         "id": "KYN32K1VWQ9VM",
+         "name": "Misir Wat",
+         "price": 0
+        },
+        {
+         "id": "118QYJW06CHPP",
+         "name": "Shiro Wat",
+         "price": 0
+        },
+        {
+         "id": "22BH9DH1ESA3A",
+         "name": "Tikil Gommen",
+         "price": 0
+        },
+        {
+         "id": "A1SHAGBGK3T02",
+         "name": "Yatakilt Wat",
+         "price": 0
+        },
+        {
+         "id": "G2JCVF4ZTYCA2",
+         "name": "Yekik Alicha",
+         "price": 0
+        },
+        {
+         "id": "XTHVQBJP5TXAJ",
+         "name": "Gomen Wet",
+         "price": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "SW4EJ9XPA2P2M",
+     "name": "Veggie Fir Fir",
+     "description": "CHOPPED INJERA WITH TOMATOES, GARLIC, ONIONS, AND BERBERE",
+     "price": 2199
+    },
+    {
+     "id": "58RHT4S0EQYKY",
+     "name": "Tibs Fir Fir",
+     "description": "CHOPPED INJERA WITH TENDERLOIN BEEF, TOMATOES, GARLIC, ONIONS, AND BERBERE",
+     "price": 2499
+    },
+    {
+     "id": "FTDWECXSPADFT",
+     "name": "Yesiga Alicha",
+     "description": "LEAN AND TENDER BEEF SIMMERED IN ONION, GINGER, GARLIC, & TUMERIC. SIDE SALAD INCLUDED",
+     "price": 2099
+    },
+    {
+     "id": "X7P3MVKNKN3PM",
+     "name": "Doro Tibs",
+     "description": "SKINNED CHICKEN SAUTEED WITH ONIONS, TOMATOES, CHILI PEPPERS, & SEASONED WITH HERB BUTTER. side salad INCLUDED",
+     "price": 1899
+    },
+    {
+     "id": "GB6DYGY6QMCZC",
+     "name": "Yebeg Tibs",
+     "description": "MADE TO ORDER LAMB SAUTÉED WITH GINGER, GARLIC, TOMATOES, & ONIONS. SERVED SPICY, MEDIUM SPICY OR NO SPICE. side salad INCLUDED",
+     "price": 2999
+    },
+    {
+     "id": "3T43WZYQP6KB0",
+     "name": "Siga Wat",
+     "description": "BEEF STEW MADE WITH TENDERLOIN MEAT SAUTÉED IN BERBERE, KIBE, & TRADITIONAL ETHIOPIAN SPICES. side salad INCLUDED",
+     "price": 2199
+    },
+    {
+     "id": "8FXB7AN8R1D58",
+     "name": "Doro Wat",
+     "description": "SLOW COOKED CHICKEN STEW MADE WITH ONIONS, TOMATOES, CHILI PEPPERS, & SEASONED WITH HERB BUTTER. SIDE SALAD INCLUDED",
+     "price": 2299
+    },
+    {
+     "id": "WWCQE7SFR2786",
+     "name": "Lega Tibs Combo",
+     "description": "TENDERLOIN BEEF SAUTEED WITH ONIONS, TOMATOES, CHILI PEPPERS, & SEASONED WITH HERB BUTTER. SIDE SALAD INCLUDED + CHOICE OF A SIDE VEGETABLE DISH",
+     "price": 2499
+    },
+    {
+     "id": "TGMYCYWCHH2A2",
+     "name": "Lega Tibs",
+     "description": "TENDERLOIN BEEF SAUTEED WITH ONIONS, TOMATOES, CHILI PEPPERS, & SEASONED WITH HERB BUTTER. side salad INCLUDED",
+     "price": 2199,
+     "optionGroups": [
+      {
+       "id": "TGMYCYWCHH2A2:43JN4ZB5YPK64",
+       "name": "Steak Temp",
+       "min": 0,
+       "max": 0,
+       "options": [
+        {
+         "id": "6QBDSMSHSV04M",
+         "name": "Blue",
+         "price": 0
+        },
+        {
+         "id": "2H3BKEJ9X8S9Y",
+         "name": "Rare",
+         "price": 0
+        },
+        {
+         "id": "QJ7MHX4VX406C",
+         "name": "Medium Rare",
+         "price": 0
+        },
+        {
+         "id": "YYQM3VG8PF0Q0",
+         "name": "Medium",
+         "price": 0
+        },
+        {
+         "id": "KDC5DJBEFXTHA",
+         "name": "Medium Well",
+         "price": 0
+        },
+        {
+         "id": "KWYGHF8N57ZDP",
+         "name": "Well",
+         "price": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "GJS0KRBE8D0A2",
+     "name": "Veggie Combo of 6",
+     "description": "INCLUDES TIKIL GOMEN, GOMEN, SHIRO WAT, YEKIK ALICHA, MISIR WAT & YATAKILT WAT. SIDE SALAD INCLUDED",
+     "price": 2499
+    }
+   ]
+  },
+  {
+   "name": "Vegetable Dishes",
+   "items": [
+    {
+     "id": "AR9YSPAMB34A4",
+     "name": "Misir Wet",
+     "description": "SPLIT RED LENTIL STEW MADE WITH SPICY BEBERE SAUCE SEASONED WITH GINGER, GARLIC & CARDAMON",
+     "price": 1250
+    },
+    {
+     "id": "8HHF8XV64H1QC",
+     "name": "Shiro Wet",
+     "description": "CHICKPEA STEW MADE WITH TRADITIONAL BERBERE SAUCE & ROASTED LEGUME",
+     "price": 1250
+    },
+    {
+     "id": "BT2D6AYMAQ9NR",
+     "name": "Tikil Gommen",
+     "description": "CABBAGE SAUTÉED with ONIONS, POTATOES, & chili peppers, seasoned with cardamom, salt & black pepper",
+     "price": 1250
+    },
+    {
+     "id": "R8QYA2SW3B9ZR",
+     "name": "Yatakilt Wat",
+     "description": "FRESH CARROTS, STRING BEANS, POTATOES & CHILI PEPPERS SAUTEED WITH CARAMALIZED ONIONS, GINGER, & GARLIC",
+     "price": 1250
+    },
+    {
+     "id": "BMNMK0HW4H5TC",
+     "name": "Yekik Alicha",
+     "description": "SPLIT YELLOW PEAS SIMMERED IN RED ONION, OLIVE OIL, GINGER & TUMERIC",
+     "price": 1250
+    },
+    {
+     "id": "TRDP4F6RBM1RG",
+     "name": "Gomen Wat",
+     "description": "CHOPPED COLLARD GREENS COOKED WITH ONIONS, PEPPERS, HERBS & SPICES",
+     "price": 1250
+    }
+   ]
+  },
+  {
+   "name": "Add-ons",
+   "items": [
+    {
+     "id": "34S0DB9PPNAAY",
+     "name": "Side Of Shiro Wat",
+     "price": 600
+    },
+    {
+     "id": "H8DWAD0T5EQTE",
+     "name": "Side Of Misir Wat",
+     "price": 600
+    },
+    {
+     "id": "HT8JXRG9R4Z0G",
+     "name": "Side Of Gomen Wat",
+     "price": 600
+    },
+    {
+     "id": "AA48J1QER7T52",
+     "name": "Side Of Ye'kik Alicha",
+     "price": 600
+    },
+    {
+     "id": "1FSC5V93MZTQP",
+     "name": "Side Of Tikil Gomen",
+     "price": 600
+    },
+    {
+     "id": "08P4EFS8PXEY2",
+     "name": "Side Of Yatakilt Wat",
+     "price": 600
+    },
+    {
+     "id": "9W7791SNR76N4",
+     "name": "Extra Injera",
+     "price": 200
+    },
+    {
+     "id": "Q6EA346C61TQT",
+     "name": "Gluten Free Injera",
+     "price": 400
+    }
+   ]
+  },
+  {
+   "name": "Dessert",
+   "items": [
+    {
+     "id": "60S29FEMMKN06",
+     "name": "Baklava",
+     "price": 600
+    }
+   ]
+  }
+ ]
+}

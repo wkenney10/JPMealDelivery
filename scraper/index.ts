@@ -12,7 +12,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { Menu, Platform, Restaurant } from "../src/lib/types";
-import { scrapeChowNow, scrapeDoorDash, scrapeMenuApp, scrapeToast } from "./adapters/browser-platforms";
+import { scrapeChowNow, scrapeDoorDash, scrapeMenuApp, scrapeToast, scrapeWeb } from "./adapters/browser-platforms";
 import { scrapeClover } from "./adapters/clover";
 import { scrapeSlice } from "./adapters/slice";
 import { scrapeSquare } from "./adapters/square";
@@ -34,6 +34,7 @@ const ADAPTERS: Partial<Record<Platform, (r: Restaurant) => Promise<ScrapeResult
   toast: scrapeToast,
   chownow: scrapeChowNow,
   doordash: scrapeDoorDash,
+  web: scrapeWeb,
 };
 
 interface ReportEntry {
@@ -82,6 +83,8 @@ async function scrapeOne(r: Restaurant, previous?: ReportEntry): Promise<ReportE
       sourceUrl: r.orderUrl,
       fetchedAt: now,
       dinnerAvailable: result.dinnerAvailable,
+      closedDays: result.closedDays,
+      lastPickup: result.lastPickup,
       categories,
     };
     if (sameMenu(existing, menu)) {
@@ -120,7 +123,7 @@ async function main() {
 
   const report = readJson<{ restaurants: Record<string, ReportEntry> }>(REPORT)?.restaurants ?? {};
   // Plain-HTTP platforms run in parallel; browser platforms share one Chromium serially.
-  const browserPlatforms: Platform[] = ["toast", "chownow", "doordash", "menuapp"];
+  const browserPlatforms: Platform[] = ["toast", "chownow", "doordash", "menuapp", "web"];
   const http = targets.filter((r) => !browserPlatforms.includes(r.platform));
   const browser = targets.filter((r) => browserPlatforms.includes(r.platform));
 
