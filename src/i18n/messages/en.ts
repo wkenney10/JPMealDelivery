@@ -24,6 +24,7 @@ export const en = {
   home: {
     kicker: "Dinner delivery in Jamaica Plain",
     title: "Actually Local Delivery",
+    subtitle: "Orders taken until four o'clock for your choice of evening arrival time",
     openTonight: "Now taking orders for tonight",
     closesIn: "closes in {time}",
     closedTonight: "Tonight is closed · now taking orders for tomorrow",

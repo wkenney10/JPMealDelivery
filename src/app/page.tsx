@@ -30,6 +30,7 @@ export default async function Home() {
       <section className="text-center">
         <p className="smallcaps text-sm text-muted">{t("home.kicker")}</p>
         <h1 className="mt-2 font-display text-4xl leading-tight sm:text-6xl">{t("home.title")}</h1>
+        <p className="mx-auto mt-3 max-w-xl font-serif text-lg italic text-muted">{t("home.subtitle")}</p>
         <p className="mt-5 inline-block border-y border-ink px-4 py-1.5 text-sm">
           {beforeCutoff ? (
             <>
