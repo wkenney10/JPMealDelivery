@@ -36,10 +36,11 @@ export interface Restaurant {
   hideItems?: string[];
   /** Overrides for `npm run logos`. */
   logo?: {
-    url?: string; // use this image instead of searching
+    url?: string; // use this image instead of searching (a URL, or a repo file like data/logo-sources/x.png)
     threshold?: number; // 0–1, higher drops more of a busy background
     invert?: boolean; // transparent logos drawn in white: treat light pixels as ink
     mode?: "ink" | "original"; // "original" keeps the logo's own colours
+    style?: "tone" | "light"; // "tone": two-tone print for busy colour logos; "light": light logo on dark/textured background
     disabled?: boolean; // always use the typographic house mark
   };
 }

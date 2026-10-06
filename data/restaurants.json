@@ -19,6 +19,25 @@
       "active": true
     },
     {
+      "slug": "alexs-chimis",
+      "name": "Alex's Chimis",
+      "cuisine": "Dominican",
+      "cuisineEs": "Dominicana",
+      "address": "358 Centre St",
+      "zip": "02130",
+      "orderUrl": "https://order.chownow.com/order/23612/locations/34573",
+      "platform": "chownow",
+      "platformConfig": {
+        "companyId": "23612",
+        "locationId": "34573"
+      },
+      "active": true,
+      "logo": {
+        "url": "data/logo-sources/alexs-chimis.png",
+        "style": "tone"
+      }
+    },
+    {
       "slug": "bbq-chicken-jp",
       "name": "bb.q Chicken",
       "cuisine": "Korean fried chicken",
@@ -98,7 +117,11 @@
       "website": "http://chilacates.mx/",
       "orderUrl": "https://order.toasttab.com/online/chilacates-amory-street-jamaica-plain-ma-224-amory-st",
       "platform": "toast",
-      "active": true
+      "active": true,
+      "logo": {
+        "url": "data/logo-sources/chilacates-amory.png",
+        "style": "tone"
+      }
     },
     {
       "slug": "costellos-tavern",
@@ -115,7 +138,10 @@
         "Coffee Drinks",
         "Cosmopalitain"
       ],
-      "notes": "Bar menu: cocktail sections with house names are hidden via hideSections."
+      "notes": "Bar menu: cocktail sections with house names are hidden via hideSections.",
+      "logo": {
+        "url": "data/logo-sources/costellos-tavern.png"
+      }
     },
     {
       "slug": "don-tequeno",
@@ -162,7 +188,7 @@
       "address": "484 Centre St",
       "zip": "02130",
       "website": "https://www.idealcafepizza.com/",
-      "orderUrl": "https://ordering.chownow.com/order/4695/locations",
+      "orderUrl": "https://order.chownow.com/order/4695/locations",
       "platform": "chownow",
       "platformConfig": {
         "companyId": "4695"
@@ -225,7 +251,10 @@
       "zip": "02130",
       "orderUrl": "https://order.toasttab.com/online/latino-restaurant-302-centre-st",
       "platform": "toast",
-      "active": true
+      "active": true,
+      "logo": {
+        "url": "data/logo-sources/latino-restaurant.png"
+      }
     },
     {
       "slug": "life-alive-jp",
@@ -273,7 +302,11 @@
       "website": "https://noodlebarn.com/",
       "orderUrl": "https://order.online/store/-2464/",
       "platform": "doordash",
-      "active": true
+      "active": true,
+      "logo": {
+        "url": "data/logo-sources/noodle-barn.png",
+        "style": "light"
+      }
     },
     {
       "slug": "real-deal-jp",

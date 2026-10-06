@@ -111,7 +111,9 @@ Restaurant logos are printed in the page's ink so the whole list feels like one 
 - Fix a bad conversion with a `logo` block on the restaurant in `data/restaurants.json`, then rerun
   `npm run logos -- <slug>`: `url` (use a specific image), `threshold` (0–1; higher drops more of a
   busy background), `invert` (for white-on-transparent logos), `mode: "original"` (keep the
-  logo's own colours), or `disabled` (always use the house mark). `/admin/menus` shows every mark
+  logo's own colours), `style: "tone"` (two-tone print for busy colour logos), `style: "light"`
+  (light logo on a dark or textured background), or `disabled` (always use the house mark). Logo
+  files people send in go in `data/logo-sources/<slug>.png` with `"url": "data/logo-sources/<slug>.png"`. `/admin/menus` shows every mark
   for review.
 
 Before launch, it's worth asking each restaurant if they're happy for their logo to appear (most

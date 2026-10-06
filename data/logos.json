@@ -7,6 +7,14 @@
   "source": "https://www.achilitos.com/uploads/b/011de5d0-8416-11f0-ae35-9d79acbd9a5e/icon_180x180_ios_NjIzMz.png?width=180",
   "updatedAt": "2026-10-05T22:51:44.630Z"
  },
+ "alexs-chimis": {
+  "file": "/logos/alexs-chimis.png",
+  "width": 250,
+  "height": 163,
+  "mode": "ink",
+  "source": "data/logo-sources/alexs-chimis.png",
+  "updatedAt": "2026-10-06T03:03:08.533Z"
+ },
  "bbq-chicken-jp": {
   "file": "/logos/bbq-chicken-jp.png",
   "width": 720,
@@ -46,6 +54,22 @@
   "mode": "ink",
   "source": "https://images.squarespace-cdn.com/content/v1/685ad2f73ad0ab5ed7f6520d/1750782719046-JBZBWLK36ZWF50TZ0VKK/Asset+2-8.png?format=1500w",
   "updatedAt": "2026-10-05T22:51:48.940Z"
+ },
+ "chilacates-amory": {
+  "file": "/logos/chilacates-amory.png",
+  "width": 240,
+  "height": 240,
+  "mode": "ink",
+  "source": "data/logo-sources/chilacates-amory.png",
+  "updatedAt": "2026-10-06T03:03:08.613Z"
+ },
+ "costellos-tavern": {
+  "file": "/logos/costellos-tavern.png",
+  "width": 720,
+  "height": 53,
+  "mode": "ink",
+  "source": "data/logo-sources/costellos-tavern.png",
+  "updatedAt": "2026-10-06T03:02:29.548Z"
  },
  "don-tequeno": {
   "file": "/logos/don-tequeno.png",
@@ -103,6 +127,14 @@
   "source": "https://images.squarespace-cdn.com/content/v1/64b9c67cf78abb0680b886d8/42590a66-40cc-4919-8aeb-303df32d5794/JP+Seafood+Cafe+Logo.png?format=1500w",
   "updatedAt": "2026-10-05T22:52:06.077Z"
  },
+ "latino-restaurant": {
+  "file": "/logos/latino-restaurant.png",
+  "width": 593,
+  "height": 240,
+  "mode": "ink",
+  "source": "data/logo-sources/latino-restaurant.png",
+  "updatedAt": "2026-10-06T03:02:29.680Z"
+ },
  "life-alive-jp": {
   "file": "/logos/life-alive-jp.png",
   "width": 459,
@@ -118,6 +150,14 @@
   "mode": "ink",
   "source": "https://shop-logos.imgix.net/shops/105696/original/Mike_and_Patty's.PNG?auto=compress,format",
   "updatedAt": "2026-10-05T22:52:07.580Z"
+ },
+ "noodle-barn": {
+  "file": "/logos/noodle-barn.png",
+  "width": 217,
+  "height": 129,
+  "mode": "ink",
+  "source": "data/logo-sources/noodle-barn.png",
+  "updatedAt": "2026-10-06T03:03:08.663Z"
  },
  "real-deal-jp": {
   "file": "/logos/real-deal-jp.png",

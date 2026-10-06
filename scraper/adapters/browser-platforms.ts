@@ -92,23 +92,35 @@ function chownowLocationId(captured: Captured[], r: Restaurant): string | undefi
   return found;
 }
 
+const CHOWNOW = "https://order.chownow.com/order";
+const CHOWNOW_API = /chownow\.com\/api\//;
+
 export async function scrapeChowNow(r: Restaurant): Promise<ScrapeResult> {
-  const company = r.platformConfig?.companyId;
+  const company = r.platformConfig?.companyId ?? r.orderUrl.match(/\/order\/(\d+)/)?.[1];
   if (!company) throw new Error("chownow needs platformConfig.companyId");
-  const locationsPage = await captureJson(`https://ordering.chownow.com/order/${company}/locations`, /chownow\.com\/api\//);
-  // Single-location companies redirect straight to the menu.
-  let captured = locationsPage.captured;
-  if (!/\/locations\/\d+/.test(locationsPage.finalUrl)) {
-    const locationId = chownowLocationId(captured, r);
+  let locationId = r.platformConfig?.locationId ?? r.orderUrl.match(/\/locations\/(\d+)/)?.[1];
+  let captured: Captured[] = [];
+  let html: string | undefined;
+  if (!locationId) {
+    const locationsPage = await captureJson(`${CHOWNOW}/${company}/locations`, CHOWNOW_API);
+    captured = locationsPage.captured;
+    html = locationsPage.html;
+    // Single-location companies redirect straight to the menu.
+    locationId = locationsPage.finalUrl.match(/\/locations\/(\d+)/)?.[1] ?? chownowLocationId(captured, r);
     if (!locationId) {
-      dumpDebug(r.slug, captured);
+      dumpDebug(r.slug, captured, html);
       throw new Error(`No ChowNow location matching "${r.address}"; set platformConfig.locationId`);
     }
-    captured = (await captureJson(`https://ordering.chownow.com/order/${company}/locations/${locationId}`, /chownow\.com\/api\//))
-      .captured;
   }
-  const menus = captured.filter((c) => /menu/i.test(c.url));
-  return requireMenu(r.slug, captured, extractMenuFromJson((menus.length ? menus : captured).map((c) => c.body)));
+  const menuPage = await captureJson(`${CHOWNOW}/${company}/locations/${locationId}`, CHOWNOW_API);
+  captured = [...captured, ...menuPage.captured];
+  const menus = menuPage.captured.filter((c) => /menu/i.test(c.url));
+  return requireMenu(
+    r.slug,
+    captured,
+    extractMenuFromJson((menus.length ? menus : menuPage.captured).map((c) => c.body)),
+    menuPage.html,
+  );
 }
 
 // ---------------------------------------------------------------- DoorDash Storefront (order.online)

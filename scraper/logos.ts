@@ -9,6 +9,7 @@
  * Output: public/logos/<slug>.png (black ink on transparent) and data/logos.json.
  * Per-restaurant tweaks live in data/restaurants.json under "logo":
  *   { "url": "...", "threshold": 0.3, "invert": true, "mode": "original", "disabled": true }
+ * "url" can also be a file in the repo; logos people send in go in data/logo-sources/.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -106,6 +107,34 @@ async function candidates(r: Restaurant): Promise<string[]> {
 interface Options {
   threshold?: number;
   invert?: boolean;
+  /**
+   * "tone": two-tone print — dark parts solid ink, mid-tones (e.g. red) a lighter
+   *   screened tint, light parts paper. For busy multi-colour logos.
+   * "light": light and brightly coloured parts are ink, dark/neutral background is
+   *   paper. For light logos on dark or textured backgrounds.
+   */
+  style?: "tone" | "light";
+}
+
+const saturation = (r: number, g: number, b: number) => {
+  const max = Math.max(r, g, b);
+  const min = Math.min(r, g, b);
+  return max === 0 ? 0 : (max - min) / max;
+};
+
+/** Ink for the "tone" and "light" styles, 0–1 per pixel. */
+function styledInk(r: number, g: number, b: number, a: number, style: "tone" | "light"): number {
+  const lum = luminance(r, g, b);
+  const alpha = a / 255;
+  if (style === "tone") {
+    // Smooth steps between paper (light), tint (mid-tones) and solid ink (dark).
+    const solid = Math.min(1, Math.max(0, (0.3 - lum) / 0.12));
+    const tint = Math.min(1, Math.max(0, (0.8 - lum) / 0.12));
+    return alpha * Math.max(solid, 0.42 * tint);
+  }
+  const light = Math.min(1, Math.max(0, (lum - 0.6) / 0.15));
+  const colour = Math.min(1, Math.max(0, (saturation(r, g, b) - 0.35) / 0.15)) * (lum > 0.15 ? 1 : 0);
+  return alpha * Math.max(light, colour);
 }
 
 const luminance = (r: number, g: number, b: number) => (0.2126 * r + 0.7152 * g + 0.0722 * b) / 255;
@@ -140,7 +169,12 @@ export async function toInk(input: Buffer, opts: Options = {}): Promise<{ png: B
   const n = width * height;
   const ink = new Float32Array(n);
 
-  if (transparentBorder) {
+  if (opts.style) {
+    for (let i = 0; i < n; i++) {
+      const [r, g, b, a] = px(i);
+      ink[i] = styledInk(r, g, b, a, opts.style);
+    }
+  } else if (transparentBorder) {
     // Light pixels (dark with `invert`) are paper only when enclosed by the mark,
     // like letter counters; light strokes that touch the outside are part of it.
     const light = (i: number) => {
@@ -181,7 +215,7 @@ export async function toInk(input: Buffer, opts: Options = {}): Promise<{ png: B
 
   // A solid badge (lettering on a coloured disc or tile): print the badge and
   // knock the lettering out, like a rubber stamp.
-  const badge = findBadge(data, width, height, ink);
+  const badge = opts.style ? undefined : findBadge(data, width, height, ink);
   if (badge) {
     for (let i = 0; i < n; i++) {
       const [r, g, b] = px(i);
@@ -225,7 +259,9 @@ export async function toInk(input: Buffer, opts: Options = {}): Promise<{ png: B
   return { png, width: meta.width!, height: meta.height!, coverage: cropCoverage };
 }
 
+/** Reads a logo from a URL, or from a file in the repo (e.g. "data/logo-sources/x.png"). */
 async function download(url: string): Promise<Buffer> {
+  if (!/^https?:/i.test(url)) return fs.readFileSync(path.join(process.cwd(), url));
   const res = await fetch(url, { headers: { "user-agent": USER_AGENT }, signal: AbortSignal.timeout(30_000) });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return Buffer.from(await res.arrayBuffer());

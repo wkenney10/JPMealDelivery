@@ -51,6 +51,20 @@ describe("toInk", () => {
     expect(await alphaAt(out!.png, 0.2, 0.5)).toBe(0); // green lettering knocked out
   });
 
+  it("prints two-tone and light-ink styles", async () => {
+    // Black ring with a yellow middle on white: "tone" makes black solid and yellow a tint.
+    const src = await image(["wwwwwwww", "wkkkkkkw", "wkyyyykw", "wkkkkkkw", "wwwwwwww"]);
+    const tone = await toInk(src, { style: "tone" });
+    expect(await alphaAt(tone!.png, 0.02, 0.5)).toBeGreaterThan(200);
+    const tint = await alphaAt(tone!.png, 0.5, 0.5);
+    expect(tint).toBeGreaterThan(0);
+    expect(tint).toBeLessThan(200);
+    // White and green marks on black: "light" inks the marks, drops the black.
+    const light = await toInk(await image(["kkkkkkkk", "kwwkkggk", "kwwkkggk", "kkkkkkkk"]), { style: "light" });
+    expect(light!.width).toBeGreaterThan(light!.height);
+    expect(await alphaAt(light!.png, 0.02, 0.5)).toBeGreaterThan(200);
+  });
+
   it("rejects a blank image", async () => {
     expect(await toInk(await image(["www", "www"]))).toBeUndefined();
   });
