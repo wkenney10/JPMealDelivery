@@ -26,11 +26,8 @@
       "address": "654 Centre St",
       "zip": "02130",
       "website": "https://bbqchicken.com/",
-      "orderUrl": "https://bbqchicken.order.online/business/82085",
+      "orderUrl": "https://bbqchicken.order.online/business/82085/store/bb-q-chicken-jamaica-plain-ma-30177017?pickup=true",
       "platform": "doordash",
-      "platformConfig": {
-        "storeMatch": "654 Centre"
-      },
       "active": true
     },
     {
@@ -43,7 +40,8 @@
       "website": "https://www.brassicakitchen.com/",
       "orderUrl": "https://order.toasttab.com/online/brassica-kitchen-cafe-new-3712-washington-street",
       "platform": "toast",
-      "active": true
+      "active": true,
+      "notes": "Toast shows this menu only while the restaurant is open; scrape it in the evening (npm run scrape:local after 5 PM)."
     },
     {
       "slug": "burritos-pizzeria",
@@ -158,7 +156,8 @@
       "platformConfig": {
         "companyId": "4695"
       },
-      "active": true
+      "active": false,
+      "notes": "Inactive: ChowNow ordering page returns 404 (Oct 2026) and the website still links to it. Re-check for a new ordering link."
     },
     {
       "slug": "italian-pizza-and-subs",
@@ -386,7 +385,7 @@
       "orderUrl": "https://order.toasttab.com/online/tres-gatos",
       "platform": "toast",
       "active": true,
-      "notes": "Toast slug inferred from their gift-card link; confirm takeout ordering is enabled."
+      "notes": "Toast shows this menu only while the restaurant is open; scrape it in the evening (npm run scrape:local after 5 PM)."
     },
     {
       "slug": "zestos-pizza",

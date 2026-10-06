@@ -27,7 +27,8 @@ menus change rarely, and the daily Action never deletes a menu you fetched local
 
 ## Each refresh (about 10–20 minutes, mostly waiting)
 
-Use your normal home internet, not a VPN.
+Run it **in the evening, after 5 PM**: some Toast restaurants (Tres Gatos, Brassica) only show their
+menu while they are open. Use your normal home internet, not a VPN.
 
 ```bash
 cd ~/JPMealDelivery
