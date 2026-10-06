@@ -16,7 +16,7 @@
  "home.hoursMinutes": "{h} hr {m} min",
  "home.minutes": "{m} min",
  "home.foodLabel": "Food",
- "home.foodText": "Exactly the restaurant's own prices",
+ "home.foodText": "The restaurant's own posted prices",
  "home.deliveryLabel": "Delivery",
  "home.deliveryText": "{fee} per restaurant, flat. 02130 only",
  "home.restaurantsLabel": "Restaurants",

@@ -31,7 +31,7 @@ export const en = {
     hoursMinutes: "{h} hr {m} min",
     minutes: "{m} min",
     foodLabel: "Food",
-    foodText: "Exactly the restaurant's own prices",
+    foodText: "The restaurant's own posted prices",
     deliveryLabel: "Delivery",
     deliveryText: "{fee} per restaurant, flat. 02130 only",
     restaurantsLabel: "Restaurants",

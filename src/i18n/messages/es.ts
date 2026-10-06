@@ -29,7 +29,7 @@ export const es: Messages = {
     hoursMinutes: "{h} h {m} min",
     minutes: "{m} min",
     foodLabel: "Comida",
-    foodText: "Los mismos precios del restaurante",
+    foodText: "Los precios publicados por el restaurante",
     deliveryLabel: "Entrega",
     deliveryText: "{fee} fijo por restaurante. Solo 02130",
     restaurantsLabel: "Restaurantes",
