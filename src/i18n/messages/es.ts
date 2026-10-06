@@ -22,7 +22,7 @@ export const es: Messages = {
   home: {
     kicker: "Cenas a domicilio en Jamaica Plain",
     title: "Entrega de verdad local",
-    subtitle: "Pedidos hasta las cuatro de la tarde, con la hora de llegada que usted elija esa noche",
+    subtitle: "Pedidos hasta las cuatro de la tarde",
     openTonight: "Aceptando pedidos para esta noche",
     closesIn: "cierra en {time}",
     closedTonight: "Esta noche ya cerró · aceptando pedidos para mañana",
