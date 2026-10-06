@@ -212,18 +212,36 @@ export function CheckoutForm({
 
       <aside className="h-fit border border-ink bg-card p-6 shadow-[5px_5px_0_var(--color-ink)] lg:sticky lg:top-24">
         <h2 className="smallcaps text-center font-semibold tracking-[0.14em]">Guest check</h2>
+        <div className="mt-4 border-y border-ink py-2 text-center">
+          <div className="label">Delivery</div>
+          <div className="font-serif">{dates.find((d) => d.value === date)?.label ?? "Choose a date"}</div>
+          <div className={`numerals font-serif ${slot ? "" : "italic text-muted"}`}>
+            {slots.find((s) => s.id === slot)?.label ?? "Choose a time"}
+          </div>
+        </div>
         {quote ? (
           <div className="mt-4">
-            <ul className="mb-4 space-y-1 border-b border-line pb-3 text-sm">
-              {quote.restaurants.map((g) => (
-                <li key={g.restaurant.slug} className="flex items-baseline font-serif italic">
-                  <span>{g.restaurant.name}</span>
-                  <span className="leader" />
-                  <span className="numerals not-italic">{formatMoney(g.total)}</span>
-                </li>
-              ))}
-            </ul>
-            <QuoteSummary quote={quote} />
+            {quote.restaurants.map((g) => (
+              <section key={g.restaurant.slug} className="mb-4">
+                <h3 className="smallcaps text-xs font-semibold tracking-[0.12em]">{g.restaurant.name}</h3>
+                <ul className="mt-1 space-y-1">
+                  {g.lines.map((l) => (
+                    <li key={l.key} className="font-serif text-sm">
+                      <div className="flex items-baseline">
+                        <span className="numerals mr-1.5 text-muted">{l.quantity}×</span>
+                        <span>{l.name}</span>
+                        <span className="leader" />
+                        <span className="numerals">{formatMoney(l.lineTotal)}</span>
+                      </div>
+                      {l.options.length > 0 && <div className="pl-5 text-xs italic text-muted">{l.options.join(", ")}</div>}
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            ))}
+            <div className="border-t border-line pt-3">
+              <QuoteSummary quote={quote} />
+            </div>
           </div>
         ) : (
           <p className="mt-4 font-serif italic text-muted">Totting up…</p>
