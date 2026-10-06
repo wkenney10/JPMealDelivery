@@ -1,16 +1,18 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { formatMoney, priceItem } from "@/lib/pricing";
+import type { Translate } from "@/i18n";
+import { useI18n } from "@/i18n/client";
+import { formatMoney, groupLabel, priceItem } from "@/lib/pricing";
 import type { MenuItem, MenuOptionGroup } from "@/lib/types";
 import { useCart } from "./cart-context";
 
-function groupHint(g: MenuOptionGroup): string {
-  if (g.min === 1 && g.max === 1) return "Required · choose 1";
-  if (g.min > 0 && g.max > 0) return g.min === g.max ? `Required · choose ${g.min}` : `Choose ${g.min}–${g.max}`;
-  if (g.min > 0) return `Required · choose at least ${g.min}`;
-  if (g.max > 0) return `Optional · up to ${g.max}`;
-  return "Optional";
+function groupHint(g: MenuOptionGroup, t: Translate): string {
+  if (g.min === 1 && g.max === 1) return t("item.requiredOne");
+  if (g.min > 0 && g.max > 0) return g.min === g.max ? t("item.requiredExactly", { min: g.min }) : t("item.chooseRange", { min: g.min, max: g.max });
+  if (g.min > 0) return t("item.requiredAtLeast", { min: g.min });
+  if (g.max > 0) return t("item.optionalUpTo", { max: g.max });
+  return t("item.optional");
 }
 
 export function ItemDialog({
@@ -25,6 +27,7 @@ export function ItemDialog({
   onAdded: (name: string) => void;
 }) {
   const { add } = useCart();
+  const { t } = useI18n();
   const [chosen, setChosen] = useState<Set<string>>(new Set());
   const [quantity, setQuantity] = useState(1);
   const [notes, setNotes] = useState("");
@@ -37,7 +40,7 @@ export function ItemDialog({
   }, [onClose]);
 
   const optionIds = [...chosen];
-  const priced = priceItem(item, optionIds);
+  const priced = priceItem(item, optionIds, t);
   const unitPrice =
     "error" in priced
       ? item.price +
@@ -87,8 +90,8 @@ export function ItemDialog({
       >
         <div className="overflow-y-auto px-6 pt-5 pb-6">
           <div className="flex justify-end">
-            <button onClick={onClose} aria-label="Close" className="smallcaps text-sm text-muted hover:text-ink">
-              Close ✕
+            <button onClick={onClose} aria-label={t("item.close")} className="smallcaps text-sm text-muted hover:text-ink">
+              {t("item.close")} ✕
             </button>
           </div>
           <h2 className="text-center font-display text-3xl leading-tight">{item.name}</h2>
@@ -103,8 +106,8 @@ export function ItemDialog({
             return (
               <fieldset key={g.id} className="mt-6">
                 <legend className="flex w-full items-baseline justify-between gap-2 border-b border-ink pb-1">
-                  <span className="smallcaps font-semibold">{g.name}</span>
-                  <span className={`text-xs italic ${invalid ? "font-semibold text-brand" : "text-muted"}`}>{groupHint(g)}</span>
+                  <span className="smallcaps font-semibold">{groupLabel(g.name, t)}</span>
+                  <span className={`text-xs italic ${invalid ? "font-semibold text-brand" : "text-muted"}`}>{groupHint(g, t)}</span>
                 </legend>
                 <div className="divide-y divide-line">
                   {g.options.map((o) => (
@@ -134,12 +137,12 @@ export function ItemDialog({
           })}
 
           <label className="mt-6 block">
-            <span className="label">Special instructions</span>
+            <span className="label">{t("item.instructions")}</span>
             <textarea
               value={notes}
               onChange={(e) => setNotes(e.target.value.slice(0, 300))}
               rows={2}
-              placeholder="No onions, extra napkins… (the kitchen will do its best)"
+              placeholder={t("item.instructionsPlaceholder")}
               className="field resize-none text-base placeholder:text-muted/70 placeholder:italic"
             />
           </label>
@@ -147,16 +150,16 @@ export function ItemDialog({
 
         <div className="flex items-center gap-3 border-t border-ink px-6 py-4">
           <div className="flex items-center border border-ink">
-            <button className="px-3 py-1 text-lg leading-none" onClick={() => setQuantity((q) => Math.max(1, q - 1))} aria-label="Decrease">
+            <button className="px-3 py-1 text-lg leading-none" onClick={() => setQuantity((q) => Math.max(1, q - 1))} aria-label={t("item.decrease")}>
               −
             </button>
             <span className="numerals w-7 text-center font-serif">{quantity}</span>
-            <button className="px-3 py-1 text-lg leading-none" onClick={() => setQuantity((q) => Math.min(50, q + 1))} aria-label="Increase">
+            <button className="px-3 py-1 text-lg leading-none" onClick={() => setQuantity((q) => Math.min(50, q + 1))} aria-label={t("item.increase")}>
               +
             </button>
           </div>
           <button onClick={submit} className="btn btn-primary flex-1">
-            Add to order <span className="numerals font-serif normal-case tracking-normal">{formatMoney(unitPrice * quantity)}</span>
+            {t("item.addToOrder")} <span className="numerals font-serif normal-case tracking-normal">{formatMoney(unitPrice * quantity)}</span>
           </button>
         </div>
         {showErrors && "error" in priced && <p className="px-6 pb-3 text-sm italic text-brand">{priced.error}</p>}

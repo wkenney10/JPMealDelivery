@@ -9,6 +9,7 @@
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
+    "i18n:sync": "tsx scripts/i18n-sync.ts",
     "scrape": "tsx scraper/index.ts",
     "scrape:local": "tsx scraper/index.ts --local --platforms=toast,chownow,doordash",
     "logos": "tsx scraper/logos.ts",

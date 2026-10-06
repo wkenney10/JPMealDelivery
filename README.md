@@ -116,6 +116,23 @@ Restaurant logos are printed in the page's ink so the whole list feels like one 
 Before launch, it's worth asking each restaurant if they're happy for their logo to appear (most
 will be, since it sends them orders), and swapping in a clean vector logo where they have one.
 
+## English / Spanish
+
+All site text is available in English and Spanish, switched with **EN | ES** in the header. The choice
+is remembered in a cookie. First-time visitors whose browser prefers Spanish get Spanish automatically.
+
+- All customer-facing text lives in `src/i18n/messages/en.ts` and `es.ts` (same keys). Pages use
+  `t("cart.title")`, from `getTranslator()` on the server or `useI18n()` in the browser.
+- **Changing copy:** edit the English in `en.ts`, update the same key in `es.ts`, then run
+  `npm run i18n:sync`. `npm test` fails if any English changed without a Spanish update (it names the
+  key and both versions), if a key is missing, or if `{placeholders}` don't match.
+- Missing Spanish falls back to English at runtime, so a page never breaks.
+- Not translated on purpose: restaurant names, dish names, descriptions and menu sections (shown as each
+  restaurant publishes them), the brand name, and the operator pages. Cuisine labels on the restaurant
+  list come from `cuisineEs` in `data/restaurants.json`.
+- The Spanish is neutral Latin American Spanish using "usted". Have a native speaker from the
+  neighborhood review `es.ts` before launch.
+
 ## Restaurant coverage
 
 `data/restaurants.json` lists 32 JP restaurants (all ZIP 02130) where I found **direct web ordering

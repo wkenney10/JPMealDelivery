@@ -73,3 +73,8 @@ export interface LogoInfo {
 export function logos(): Record<string, LogoInfo> {
   return readJson<Record<string, LogoInfo>>(path.join(DATA_DIR, "logos.json")) ?? {};
 }
+
+/** The cuisine label in the visitor's language. */
+export function cuisineFor(r: Pick<Restaurant, "cuisine" | "cuisineEs">, locale: string): string {
+  return locale === "es" && r.cuisineEs ? r.cuisineEs : r.cuisine;
+}

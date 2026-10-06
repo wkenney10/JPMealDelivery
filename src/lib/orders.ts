@@ -1,5 +1,6 @@
 import { randomInt } from "node:crypto";
 import { z } from "zod";
+import { translator, type Locale } from "@/i18n";
 import { isDeliverableZip, normalizePhone, normalizeZip } from "./address";
 import { getMenu, getRestaurant } from "./data";
 import { prisma } from "./db";
@@ -43,33 +44,26 @@ function newCode(): string {
   return Array.from({ length: 6 }, () => CODE_ALPHABET[randomInt(CODE_ALPHABET.length)]).join("");
 }
 
-export function quote(lines: CheckoutInput["lines"]): Quote {
-  return quoteCart(lines, getRestaurant, getMenu);
+export function quote(lines: CheckoutInput["lines"], locale: Locale = "en"): Quote {
+  return quoteCart(lines, getRestaurant, getMenu, translator(locale));
 }
 
-export async function placeOrder(input: CheckoutInput, now = new Date()): Promise<PlaceOrderResult> {
+export async function placeOrder(input: CheckoutInput, now = new Date(), locale: Locale = "en"): Promise<PlaceOrderResult> {
+  const t = translator(locale);
   const { customer } = input;
-  if (!isDeliverableZip(customer.zip)) {
-    return { ok: false, error: "Sorry, we only deliver within Jamaica Plain (ZIP 02130) right now." };
-  }
+  if (!isDeliverableZip(customer.zip)) return { ok: false, error: t("errors.zipOnly") };
   const phone = normalizePhone(customer.phone);
-  if (!phone) return { ok: false, error: "Enter a 10-digit US phone number." };
+  if (!phone) return { ok: false, error: t("errors.phone") };
 
-  const q = quote(input.lines);
+  const q = quote(input.lines, locale);
   if (q.errors.length) return { ok: false, error: q.errors[0], quote: q };
-  if (!q.restaurants.length) return { ok: false, error: "Your cart is empty." };
+  if (!q.restaurants.length) return { ok: false, error: t("errors.emptyCart") };
 
   const restaurants = q.restaurants.map((g) => getRestaurant(g.restaurant.slug)!);
-  const scheduleError = validateDelivery(now, input.deliveryDate, input.deliverySlot, restaurants);
+  const scheduleError = validateDelivery(now, input.deliveryDate, input.deliverySlot, restaurants, locale);
   if (scheduleError) return { ok: false, error: scheduleError };
 
-  if (q.total !== input.expectedTotal) {
-    return {
-      ok: false,
-      error: "Menu prices changed since you added these items. Please review the updated total.",
-      quote: q,
-    };
-  }
+  if (q.total !== input.expectedTotal) return { ok: false, error: t("errors.pricesChanged"), quote: q };
 
   for (let attempt = 0; attempt < 5; attempt++) {
     const code = newCode();
@@ -122,12 +116,13 @@ export async function placeOrder(input: CheckoutInput, now = new Date()): Promis
       if ((e as { code?: string }).code !== "P2002") throw e;
     }
   }
-  return { ok: false, error: "Something went wrong placing your order. Please try again." };
+  return { ok: false, error: t("errors.tryAgain") };
 }
 
 export const ORDER_STATUSES = ["received", "in_progress", "out_for_delivery", "delivered", "cancelled"] as const;
 export const RESTAURANT_ORDER_STATUSES = ["to_place", "placed", "picked_up"] as const;
 
+/** English status labels for the operator pages; customers see translated ones (status.* messages). */
 export const STATUS_LABELS: Record<string, string> = {
   received: "Received",
   in_progress: "Placing orders",

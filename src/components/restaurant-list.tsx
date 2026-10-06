@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
+import { useI18n } from "@/i18n/client";
 import type { LogoInfo } from "@/lib/data";
 import { RestaurantMark } from "./restaurant-mark";
 
@@ -15,6 +16,7 @@ interface Entry {
 }
 
 export function RestaurantList({ restaurants }: { restaurants: Entry[] }) {
+  const { t } = useI18n();
   const [query, setQuery] = useState("");
   const shown = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -25,15 +27,16 @@ export function RestaurantList({ restaurants }: { restaurants: Entry[] }) {
     <section className="mt-12">
       <div className="flex flex-wrap items-end justify-between gap-x-8 gap-y-3">
         <h2 className="font-display text-3xl">
-          Bill of Fare <span className="numerals font-serif text-lg text-muted italic">— {restaurants.length} restaurants</span>
+          {t("list.title")}{" "}
+          <span className="numerals font-serif text-lg text-muted italic">— {t("list.count", { count: restaurants.length })}</span>
         </h2>
         <label className="w-full sm:w-72">
-          <span className="sr-only">Find a restaurant</span>
+          <span className="sr-only">{t("list.searchLabel")}</span>
           <input
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Find a restaurant or cuisine…"
+            placeholder={t("list.search")}
             className="field text-base italic placeholder:text-muted"
           />
         </label>
@@ -42,7 +45,7 @@ export function RestaurantList({ restaurants }: { restaurants: Entry[] }) {
 
       {shown.length === 0 ? (
         <p className="py-10 text-center font-serif italic text-muted">
-          {restaurants.length === 0 ? "No menus are loaded yet." : "Nothing by that name."}
+          {restaurants.length === 0 ? t("list.empty") : t("list.noMatch")}
         </p>
       ) : (
         <ul className="grid grid-cols-1 md:grid-cols-2 md:gap-x-12">
@@ -56,11 +59,11 @@ export function RestaurantList({ restaurants }: { restaurants: Entry[] }) {
                   <span className="flex items-baseline">
                     <span className="min-w-0 font-serif text-xl leading-tight group-hover:text-brand sm:truncate">{r.name}</span>
                     <span className="leader hidden sm:block" />
-                    <span className="smallcaps hidden shrink-0 text-sm font-semibold text-brand sm:inline">Menu&nbsp;→</span>
+                    <span className="smallcaps hidden shrink-0 text-sm font-semibold text-brand sm:inline">{t("list.menu")}&nbsp;→</span>
                   </span>
                   <span className="block font-serif text-sm italic text-muted">{r.cuisine}</span>
                   <span className="smallcaps block text-xs text-muted">
-                    {r.address} · {r.itemCount} dishes
+                    {r.address} · {t("list.dishes", { count: r.itemCount })}
                   </span>
                 </span>
               </Link>

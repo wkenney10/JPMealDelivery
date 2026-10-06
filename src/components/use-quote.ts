@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useI18n } from "@/i18n/client";
 import type { Quote } from "@/lib/pricing";
 import { toCartLines, type CartEntry } from "./cart-context";
 
@@ -9,6 +10,7 @@ export function useQuote(entries: CartEntry[], ready: boolean) {
   const [quote, setQuote] = useState<Quote | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const { locale, t } = useI18n();
   const body = JSON.stringify({ lines: toCartLines(entries) });
 
   useEffect(() => {
@@ -22,11 +24,13 @@ export function useQuote(entries: CartEntry[], ready: boolean) {
         setError(null);
       })
       .catch((e) => {
-        if (e.name !== "AbortError") setError("Couldn't check prices. Please refresh.");
+        if (e.name !== "AbortError") setError(t("cart.checkPricesFailed"));
       })
       .finally(() => setLoading(false));
     return () => ctrl.abort();
-  }, [body, ready]);
+    // locale: the server words its messages in the visitor's language.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [body, ready, locale]);
 
   return { quote, setQuote, loading, error };
 }

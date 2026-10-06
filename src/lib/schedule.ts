@@ -6,6 +6,7 @@ import {
   SLOT_LENGTH_MINUTES,
   TIMEZONE,
 } from "./config";
+import { intlLocale, translator, type Locale, type Translate } from "@/i18n";
 import type { Restaurant } from "./types";
 
 export interface Slot {
@@ -56,36 +57,39 @@ export function isValidDateString(date: string): boolean {
   return /^\d{4}-\d{2}-\d{2}$/.test(date) && toUtcDate(date).toISOString().slice(0, 10) === date;
 }
 
-function clock(minutes: number, withPeriod: boolean): string {
+function clock(minutes: number, withPeriod: boolean, locale: Locale): string {
   const h24 = Math.floor(minutes / 60);
   const m = minutes % 60;
   const h12 = h24 % 12 === 0 ? 12 : h24 % 12;
   const base = `${h12}:${String(m).padStart(2, "0")}`;
-  return withPeriod ? `${base} ${h24 < 12 ? "AM" : "PM"}` : base;
+  if (!withPeriod) return base;
+  const pm = h24 >= 12;
+  return locale === "es" ? `${base} ${pm ? "p. m." : "a. m."}` : `${base} ${pm ? "PM" : "AM"}`;
 }
 
-export function allSlots(): Slot[] {
+export function allSlots(locale: Locale = "en"): Slot[] {
   const slots: Slot[] = [];
   for (let s = DELIVERY_START_MINUTES; s + SLOT_LENGTH_MINUTES <= DELIVERY_END_MINUTES; s += SLOT_LENGTH_MINUTES) {
     const id = `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`;
-    slots.push({ id, start: s, label: `${clock(s, false)}–${clock(s + SLOT_LENGTH_MINUTES, true)}` });
+    slots.push({ id, start: s, label: `${clock(s, false, locale)}–${clock(s + SLOT_LENGTH_MINUTES, true, locale)}` });
   }
   return slots;
 }
 
-export function slotLabel(slotId: string): string {
-  return allSlots().find((s) => s.id === slotId)?.label ?? slotId;
+export function slotLabel(slotId: string, locale: Locale = "en"): string {
+  return allSlots(locale).find((s) => s.id === slotId)?.label ?? slotId;
 }
 
-export function formatDate(date: string, today?: string): string {
-  const label = toUtcDate(date).toLocaleDateString("en-US", {
+export function formatDate(date: string, today?: string, locale: Locale = "en"): string {
+  const label = toUtcDate(date).toLocaleDateString(intlLocale(locale), {
     timeZone: "UTC",
     weekday: "short",
     month: "short",
     day: "numeric",
   });
-  if (today && date === today) return `Today (${label})`;
-  if (today && date === addDays(today, 1)) return `Tomorrow (${label})`;
+  const t = translator(locale);
+  if (today && date === today) return t("dates.today", { date: label });
+  if (today && date === addDays(today, 1)) return t("dates.tomorrow", { date: label });
   return label;
 }
 
@@ -121,18 +125,22 @@ export function validateDelivery(
   date: string,
   slotId: string,
   restaurants: ScheduleRestaurant[],
+  locale: Locale = "en",
 ): string | null {
-  if (!isValidDateString(date)) return "Choose a delivery date.";
+  const t: Translate = translator(locale);
+  if (!isValidDateString(date)) return t("errors.chooseDate");
   if (!orderableDates(now).includes(date)) {
-    return localNow(now).date === date
-      ? "Orders for tonight closed at 4:00 PM. Please choose another day."
-      : "That delivery date isn't available.";
+    return localNow(now).date === date ? t("errors.tonightClosed") : t("errors.dateUnavailable");
   }
-  const slot = allSlots().find((s) => s.id === slotId);
-  if (!slot) return "Choose a delivery time.";
+  const slot = allSlots(locale).find((s) => s.id === slotId);
+  if (!slot) return t("errors.chooseTime");
   const closed = restaurants.filter((r) => !restaurantServes(r, date, slot));
   if (closed.length) {
-    return `${closed.map((r) => r.name).join(", ")} can't fill orders for ${formatDate(date)} at ${slot.label}.`;
+    return t("errors.restaurantsClosed", {
+      names: closed.map((r) => r.name).join(", "),
+      date: formatDate(date, undefined, locale),
+      time: slot.label,
+    });
   }
   return null;
 }

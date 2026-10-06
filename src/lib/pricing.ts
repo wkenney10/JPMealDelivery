@@ -1,3 +1,4 @@
+import { translator, type Translate } from "@/i18n";
 import { DELIVERY_FEE_PER_RESTAURANT, MEALS_TAX_RATE } from "./config";
 import type { CartLine, Menu, MenuItem, Restaurant } from "./types";
 
@@ -35,6 +36,13 @@ export interface Quote {
 
 export const MAX_QUANTITY = 50;
 
+/** Translates the option-group names our scrapers create; restaurants' own names pass through. */
+export function groupLabel(name: string, t: Translate): string {
+  if (name === "Size") return t("item.groupSize");
+  if (name === "Choose one") return t("item.groupChooseOne");
+  return name;
+}
+
 export function findItem(menu: Menu, itemId: string): MenuItem | undefined {
   for (const c of menu.categories) {
     const item = c.items.find((i) => i.id === itemId);
@@ -47,16 +55,17 @@ export function findItem(menu: Menu, itemId: string): MenuItem | undefined {
 export function priceItem(
   item: MenuItem,
   optionIds: string[],
+  t: Translate = translator("en"),
 ): { unitPrice: number; options: string[] } | { error: string } {
   const remaining = new Set(optionIds);
-  if (remaining.size !== optionIds.length) return { error: `Duplicate option on ${item.name}.` };
+  if (remaining.size !== optionIds.length) return { error: t("errors.duplicateOption", { item: item.name }) };
   let unitPrice = item.price;
   const labels: string[] = [];
   for (const group of item.optionGroups ?? []) {
     const chosen = group.options.filter((o) => remaining.has(o.id));
-    if (chosen.length < group.min) return { error: `Choose ${group.name.toLowerCase()} for ${item.name}.` };
+    if (chosen.length < group.min) return { error: t("errors.chooseOption", { group: groupLabel(group.name, t).toLowerCase(), item: item.name }) };
     if (group.max > 0 && chosen.length > group.max) {
-      return { error: `Too many choices for ${group.name.toLowerCase()} on ${item.name}.` };
+      return { error: t("errors.tooManyOptions", { group: groupLabel(group.name, t).toLowerCase(), item: item.name }) };
     }
     for (const o of chosen) {
       remaining.delete(o.id);
@@ -64,7 +73,7 @@ export function priceItem(
       labels.push(o.name);
     }
   }
-  if (remaining.size) return { error: `${item.name} has options that are no longer offered.` };
+  if (remaining.size) return { error: t("errors.optionsGone", { item: item.name }) };
   return { unitPrice, options: labels };
 }
 
@@ -83,6 +92,7 @@ export function quoteCart(
   lines: CartLine[],
   getRestaurant: (slug: string) => Restaurant | undefined,
   getMenu: (slug: string) => Menu | undefined,
+  t: Translate = translator("en"),
 ): Quote {
   const errors: string[] = [];
   const groups = new Map<string, RestaurantQuote>();
@@ -91,20 +101,20 @@ export function quoteCart(
     const restaurant = getRestaurant(line.restaurant);
     const menu = getMenu(line.restaurant);
     if (!restaurant || !restaurant.active || !menu) {
-      errors.push(`A restaurant in your cart is no longer available.`);
+      errors.push(t("errors.restaurantGone"));
       continue;
     }
     const item = findItem(menu, line.itemId);
     if (!item) {
-      errors.push(`An item from ${restaurant.name} is no longer on the menu.`);
+      errors.push(t("errors.itemGone", { restaurant: restaurant.name }));
       continue;
     }
     const qty = Math.floor(line.quantity);
     if (!(qty >= 1 && qty <= MAX_QUANTITY)) {
-      errors.push(`Invalid quantity for ${item.name}.`);
+      errors.push(t("errors.badQuantity", { item: item.name }));
       continue;
     }
-    const priced = priceItem(item, line.optionIds ?? []);
+    const priced = priceItem(item, line.optionIds ?? [], t);
     if ("error" in priced) {
       errors.push(priced.error);
       continue;

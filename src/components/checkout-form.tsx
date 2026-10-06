@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useMemo, useState } from "react";
+import { useI18n } from "@/i18n/client";
 import { isDeliverableZip } from "@/lib/address";
 import { formatMoney } from "@/lib/pricing";
 import { restaurantServes, type Slot } from "@/lib/schedule";
@@ -27,6 +28,7 @@ export function CheckoutForm({
   const router = useRouter();
   const { ready, entries, clear } = useCart();
   const { quote, setQuote } = useQuote(entries, ready);
+  const { t } = useI18n();
   const [date, setDate] = useState(dates[0]?.value ?? "");
   const [slot, setSlot] = useState("");
   const [form, setForm] = useState({ name: "", phone: "", email: "", street: "", unit: "", zip: "02130", notes: "" });
@@ -47,9 +49,9 @@ export function CheckoutForm({
   if (!entries.length) {
     return (
       <div className="py-20 text-center">
-        <h1 className="font-display text-4xl">Your order is empty</h1>
+        <h1 className="font-display text-4xl">{t("cart.empty")}</h1>
         <Link href="/" className="btn mt-6">
-          See the restaurants
+          {t("cart.seeRestaurants")}
         </Link>
       </div>
     );
@@ -64,8 +66,8 @@ export function CheckoutForm({
     e.preventDefault();
     if (!quote) return;
     setError(null);
-    if (!zipOk) return setError("We only deliver within Jamaica Plain (ZIP 02130) right now.");
-    if (!slot) return setError("Choose a delivery time.");
+    if (!zipOk) return setError(t("errors.zipOnly"));
+    if (!slot) return setError(t("errors.chooseTime"));
     setSubmitting(true);
     try {
       const res = await fetch("/api/orders", {
@@ -86,9 +88,9 @@ export function CheckoutForm({
         return;
       }
       if (result.quote) setQuote(result.quote);
-      setError(result.error ?? "Couldn't place your order.");
+      setError(result.error ?? t("checkout.failed"));
     } catch {
-      setError("Network error. Please try again.");
+      setError(t("checkout.networkError"));
     } finally {
       setSubmitting(false);
     }
@@ -104,16 +106,16 @@ export function CheckoutForm({
   return (
     <form onSubmit={submit} className="grid gap-12 lg:grid-cols-[1fr_340px]">
       <div className="space-y-10">
-        <h1 className="font-display text-4xl">Delivery &amp; details</h1>
+        <h1 className="font-display text-4xl">{t("checkout.title")}</h1>
 
         <section>
-          {heading("I.", "When")}
+          {heading("I.", t("checkout.when"))}
           {dates.length === 0 ? (
-            <p className="mt-3 font-serif italic text-muted">No delivery dates are open right now.</p>
+            <p className="mt-3 font-serif italic text-muted">{t("checkout.noDates")}</p>
           ) : (
             <>
               <label className="mt-4 block max-w-xs">
-                <span className="label">Date</span>
+                <span className="label">{t("checkout.date")}</span>
                 <select
                   value={date}
                   onChange={(e) => {
@@ -129,10 +131,10 @@ export function CheckoutForm({
                   ))}
                 </select>
               </label>
-              <div className="label mt-5">Time</div>
+              <div className="label mt-5">{t("checkout.time")}</div>
               {available.length === 0 ? (
                 <p className="mt-1 font-serif italic text-brand">
-                  Not every restaurant in your order is open that day. Try another date.
+                  {t("checkout.notOpen")}
                 </p>
               ) : (
                 <div className="mt-2 grid grid-cols-2 border-t border-l border-ink sm:grid-cols-4">
@@ -151,26 +153,26 @@ export function CheckoutForm({
                   ))}
                 </div>
               )}
-              <p className="mt-3 text-xs italic text-muted">Orders for an evening close at 4:00 PM that day.</p>
+              <p className="mt-3 text-xs italic text-muted">{t("checkout.cutoffNote")}</p>
             </>
           )}
         </section>
 
         <section>
-          {heading("II.", "Where")}
+          {heading("II.", t("checkout.where"))}
           <div className="mt-4 grid gap-5 sm:grid-cols-[1fr_140px]">
             <label>
-              <span className="label">Street address</span>
+              <span className="label">{t("checkout.street")}</span>
               <input required value={form.street} onChange={set("street")} autoComplete="street-address" className={input} />
             </label>
             <label>
-              <span className="label">Apt / unit</span>
+              <span className="label">{t("checkout.unit")}</span>
               <input value={form.unit} onChange={set("unit")} className={input} />
             </label>
           </div>
           <div className="mt-5 grid gap-5 sm:grid-cols-[140px_1fr]">
             <label>
-              <span className="label">ZIP code</span>
+              <span className="label">{t("checkout.zip")}</span>
               <input
                 required
                 value={form.zip}
@@ -180,30 +182,30 @@ export function CheckoutForm({
                 className={`${input} numerals`}
               />
             </label>
-            <div className="self-end pb-2 font-serif italic text-muted">Jamaica Plain, Boston</div>
+            <div className="self-end pb-2 font-serif italic text-muted">{t("checkout.city")}</div>
           </div>
           {!zipOk && form.zip.length >= 5 && (
-            <p className="mt-2 font-serif italic text-brand">We only deliver within Jamaica Plain (ZIP 02130) for now.</p>
+            <p className="mt-2 font-serif italic text-brand">{t("checkout.zipOnly")}</p>
           )}
           <label className="mt-5 block">
-            <span className="label">Delivery instructions (optional)</span>
+            <span className="label">{t("checkout.deliveryNotes")}</span>
             <textarea value={form.notes} onChange={set("notes")} rows={2} maxLength={500} className={`${input} resize-none`} />
           </label>
         </section>
 
         <section>
-          {heading("III.", "Who")}
+          {heading("III.", t("checkout.who"))}
           <div className="mt-4 grid gap-5 sm:grid-cols-2">
             <label className="sm:col-span-2">
-              <span className="label">Name</span>
+              <span className="label">{t("checkout.name")}</span>
               <input required value={form.name} onChange={set("name")} autoComplete="name" className={input} />
             </label>
             <label>
-              <span className="label">Phone</span>
+              <span className="label">{t("checkout.phone")}</span>
               <input required type="tel" value={form.phone} onChange={set("phone")} autoComplete="tel" className={input} />
             </label>
             <label>
-              <span className="label">Email</span>
+              <span className="label">{t("checkout.email")}</span>
               <input required type="email" value={form.email} onChange={set("email")} autoComplete="email" className={input} />
             </label>
           </div>
@@ -211,12 +213,12 @@ export function CheckoutForm({
       </div>
 
       <aside className="h-fit border border-ink bg-card p-6 shadow-[5px_5px_0_var(--color-ink)] lg:sticky lg:top-24">
-        <h2 className="smallcaps text-center font-semibold tracking-[0.14em]">Guest check</h2>
+        <h2 className="smallcaps text-center font-semibold tracking-[0.14em]">{t("cart.guestCheck")}</h2>
         <div className="mt-4 border-y border-ink py-2 text-center">
-          <div className="label">Delivery</div>
-          <div className="font-serif">{dates.find((d) => d.value === date)?.label ?? "Choose a date"}</div>
+          <div className="label">{t("checkout.delivery")}</div>
+          <div className="font-serif">{dates.find((d) => d.value === date)?.label ?? t("checkout.chooseDate")}</div>
           <div className={`numerals font-serif ${slot ? "" : "italic text-muted"}`}>
-            {slots.find((s) => s.id === slot)?.label ?? "Choose a time"}
+            {slots.find((s) => s.id === slot)?.label ?? t("checkout.chooseTime")}
           </div>
         </div>
         {quote ? (
@@ -244,13 +246,13 @@ export function CheckoutForm({
             </div>
           </div>
         ) : (
-          <p className="mt-4 font-serif italic text-muted">Totting up…</p>
+          <p className="mt-4 font-serif italic text-muted">{t("cart.calculating")}</p>
         )}
         {quote?.errors.length ? (
           <p className="mt-3 text-sm italic text-brand">
             {quote.errors[0]}{" "}
             <Link href="/cart" className="underline">
-              Review order
+              {t("checkout.reviewOrder")}
             </Link>
           </p>
         ) : null}
@@ -260,10 +262,10 @@ export function CheckoutForm({
           disabled={submitting || !quote || quote.errors.length > 0 || dates.length === 0}
           className="btn btn-primary mt-6 w-full"
         >
-          {submitting ? "Placing order…" : "Place order"}
+          {submitting ? t("checkout.placing") : t("checkout.placeOrder")}
         </button>
         <p className="mt-3 text-center text-xs italic text-muted">
-          No payment is taken online yet. We&apos;ll be in touch to arrange it.
+          {t("checkout.noPayment")}
         </p>
       </aside>
     </form>

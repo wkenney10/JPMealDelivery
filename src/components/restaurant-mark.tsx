@@ -55,16 +55,16 @@ export function RestaurantMark({
     );
   }
 
-  const long = name.length > 18;
+  // Size the name so its longest word fits the box width (Caslon capitals run ~0.8em wide with tracking).
+  const longestWord = Math.max(...name.split(/\s+/).map((w) => w.length));
+  const lines = name.length > 12 ? 2 : 1;
+  const maxSize = size === "lg" ? 34 : size === "md" ? 19 : 14;
+  const fontSize = Math.min(maxSize, (box.w - 16) / (longestWord * 0.8), box.h / (lines * 1.6));
   return (
     <span
       aria-hidden
-      className={`inline-flex shrink-0 items-center justify-center border-[3px] border-double border-current px-2 text-center font-serif leading-[1.05] smallcaps ${className}`}
-      style={{
-        width: box.w,
-        height: box.h,
-        fontSize: size === "lg" ? (long ? 26 : 34) : size === "md" ? (long ? 15 : 19) : long ? 12 : 14,
-      }}
+      className={`inline-flex shrink-0 items-center justify-center overflow-hidden border-[3px] border-double border-current px-2 text-center font-serif leading-[1.05] smallcaps ${className}`}
+      style={{ width: box.w, height: box.h, fontSize }}
     >
       {name}
     </span>

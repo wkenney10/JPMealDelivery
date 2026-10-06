@@ -14,6 +14,7 @@ export interface Restaurant {
   slug: string;
   name: string;
   cuisine: string;
+  cuisineEs?: string; // Spanish label; falls back to `cuisine`
   address: string;
   zip: string;
   website?: string;

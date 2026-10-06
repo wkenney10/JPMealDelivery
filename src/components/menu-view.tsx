@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useI18n } from "@/i18n/client";
 import { formatMoney } from "@/lib/pricing";
 import type { MenuCategory, MenuItem } from "@/lib/types";
 import { useCart } from "./cart-context";
@@ -22,12 +23,13 @@ export function MenuView({
   categories: MenuCategory[];
 }) {
   const { add } = useCart();
+  const { t } = useI18n();
   const [selected, setSelected] = useState<MenuItem | null>(null);
   const [flash, setFlash] = useState<string | null>(null);
   const visible = categories.filter((c) => c.items.length);
 
   function added(name: string) {
-    setFlash(`${name} — added to your order`);
+    setFlash(t("menu.added", { name }));
     setTimeout(() => setFlash(null), 2000);
   }
 
@@ -73,15 +75,15 @@ export function MenuView({
                       </button>
                       <span className="leader" />
                       <span className="numerals shrink-0 font-serif">
-                        {hasUpcharges(item) && <span className="mr-1 text-xs italic text-muted">from</span>}
+                        {hasUpcharges(item) && <span className="mr-1 text-xs italic text-muted">{t("menu.from")}</span>}
                         {formatMoney(item.price)}
                       </span>
                       <button
-                        aria-label={`Add ${item.name}`}
+                        aria-label={t("menu.addItem", { name: item.name })}
                         onClick={() => (options ? setSelected(item) : quickAdd(item))}
                         className="smallcaps ml-3 shrink-0 border border-ink px-1.5 text-[0.65rem] font-semibold leading-5 hover:bg-ink hover:text-paper"
                       >
-                        Add
+                        {t("menu.add")}
                       </button>
                     </div>
                     {item.description && (
