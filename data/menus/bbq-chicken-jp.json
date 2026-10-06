@@ -1,0 +1,398 @@
+{
+ "restaurant": "bbq-chicken-jp",
+ "source": "scraped",
+ "platform": "doordash",
+ "sourceUrl": "https://bbqchicken.order.online/business/82085/store/bb-q-chicken-jamaica-plain-ma-30177017?pickup=true",
+ "fetchedAt": "2026-10-06T18:55:56.296Z",
+ "categories": [
+  {
+   "name": "Value Meal",
+   "items": [
+    {
+     "id": "37148502026",
+     "name": "Open Sandwich Club",
+     "description": "A platter take on the classic sandwich—4 crispy boneless chicken, Texas toast, plus your choice of one sauce (Galbi Mayo or Hot Mayo) and one side (Coleslaw, Fried Pickles, or Fries)",
+     "price": 999
+    }
+   ]
+  },
+  {
+   "name": "Sandwich",
+   "items": [
+    {
+     "id": "37148502059",
+     "name": "Golden Original Sandwich",
+     "description": "Meet our signature Golden Original in a mouth-watering chicken sandwich. Crisp Golden Original chicken on top of a rich brioche bun with a spread of spicy mayo. (2oz Secret Sauce & 4oz Coleslaw)",
+     "price": 900
+    },
+    {
+     "id": "37148502060",
+     "name": "Spicy Original Sandwich",
+     "description": "Spice up your day with our Spicy Original Sandwich. Crisp Spicy Original chicken on top of a rich brioche bun with a spread of spicy mayo. (2oz Hot Spicy Sauce & 4oz Coleslaw)",
+     "price": 900
+    },
+    {
+     "id": "37148502061",
+     "name": "Golden Original Sandwich Deluxe",
+     "price": 1100
+    },
+    {
+     "id": "37148502062",
+     "name": "Spicy Original Sandwich Deluxe",
+     "price": 1100
+    }
+   ]
+  },
+  {
+   "name": "Rice Bowl",
+   "items": [
+    {
+     "id": "37148502063",
+     "name": "Chicken Fried Rice",
+     "description": "Stir-fried rice with chicken and veggies topped with a sunny-side-up egg and garnished with spring onion and sesame seeds.",
+     "price": 1400
+    },
+    {
+     "id": "37148502064",
+     "name": "Kimchi Fried Rice",
+     "description": "Rice, chicken, and vegetables stir fired in a spicy red-pepper base and topped with a fried egg.",
+     "price": 1400
+    },
+    {
+     "id": "37148502065",
+     "name": "Caribbean Spice Rice Bowl",
+     "description": "A tropical take on our signature rice bowl. Filled with crispy, boneless fried chicken, slathered in our own Caribbean Jerk sauce, topped with fried eggs, and finished with a swirl of mayo.",
+     "price": 1400
+    },
+    {
+     "id": "37148502066",
+     "name": "Kimchicken Rice Bowl",
+     "description": "This flavorful Korean Rice bowl is topped in stir fried-kimchi and spicy boneless chicken, for a truly explosive taste.",
+     "price": 1500
+    },
+    {
+     "id": "37148502067",
+     "name": "Bulgogi Rice Bowl",
+     "description": "White rice covered with thinly sliced ribeye, marinated in bulgogi sauce. Served with yellow daikon and green onions.",
+     "price": 1600
+    }
+   ]
+  },
+  {
+   "name": "Ddeok-Bokki",
+   "items": [
+    {
+     "id": "37148502068",
+     "name": "Ddeok-Bokki",
+     "description": "This classic Korean street food is made from a combination of rice cakes and fish cakes cooked in a sweet and spicy red chili reduction. Served with fresh cabbage and chopped scallions, garnished with a fried egg and sesame seeds, it’s a warm and chewy comfort.",
+     "price": 1300
+    },
+    {
+     "id": "37148502069",
+     "name": "Rose Ddeok-Bokki",
+     "description": "The same rice and fish cakes we use in traditional Ddeok-Bokki, but cooked in a less spicy, more creamy rose sauce. Paired with the cabbage, egg, and sesame seed, it’s a mild masterpiece.",
+     "price": 1400
+    }
+   ]
+  },
+  {
+   "name": "Side",
+   "items": [
+    {
+     "id": "44239679904",
+     "name": "bb.q Cheese Ball",
+     "description": "A crispy, golden appetizer of cheese-filled balls, warm and melty inside.",
+     "price": 900
+    },
+    {
+     "id": "44239679905",
+     "name": "Cheesling Cheese Ball",
+     "description": "A crispy, golden appetizer of cheese-filled balls, warm and melty inside, dusted in a rich medley of sweet cheeses.",
+     "price": 1000
+    },
+    {
+     "id": "37148502071",
+     "name": "French Fries",
+     "price": 700
+    },
+    {
+     "id": "37148502072",
+     "name": "Sweet Potato Fries",
+     "price": 800
+    },
+    {
+     "id": "37148502073",
+     "name": "Cheesling Fries",
+     "description": "Crispy, golden french fries dusted in our rich Cheeseling powder.",
+     "price": 900
+    },
+    {
+     "id": "37148502074",
+     "name": "Waffle Fries",
+     "price": 800
+    },
+    {
+     "id": "37148502075",
+     "name": "Cheese Sticks",
+     "price": 800
+    },
+    {
+     "id": "37148502076",
+     "name": "Onion Rings",
+     "price": 800
+    },
+    {
+     "id": "37148502077",
+     "name": "Fried Dumplings",
+     "price": 900
+    },
+    {
+     "id": "37148502078",
+     "name": "Takoyaki",
+     "price": 1000
+    },
+    {
+     "id": "37148502079",
+     "name": "So Ddeok So Ddeok",
+     "price": 1000
+    },
+    {
+     "id": "37148502080",
+     "name": "Corn Cheese",
+     "price": 1000
+    },
+    {
+     "id": "39780407423",
+     "name": "Coleslaw",
+     "description": "A sweet and crunchy side of shredded cabbage mixed with a creamy dressing.",
+     "price": 400
+    },
+    {
+     "id": "37148502081",
+     "name": "Kimchi",
+     "price": 300
+    },
+    {
+     "id": "37148502082",
+     "name": "Steamed Rice",
+     "price": 200
+    },
+    {
+     "id": "37148502083",
+     "name": "Pickled Radish",
+     "price": 100
+    },
+    {
+     "id": "37148502084",
+     "name": "Side Sauce",
+     "price": 200
+    }
+   ]
+  },
+  {
+   "name": "Beverage",
+   "items": [
+    {
+     "id": "37148502085",
+     "name": "Coke [Can]",
+     "price": 200
+    },
+    {
+     "id": "37148502087",
+     "name": "Coke Zero [Can]",
+     "price": 200
+    },
+    {
+     "id": "37148502088",
+     "name": "Sprite [Can]",
+     "price": 200
+    },
+    {
+     "id": "37148502089",
+     "name": "Fanta Orange [Can]",
+     "price": 250
+    },
+    {
+     "id": "37148502090",
+     "name": "Fanta Grape [Can]",
+     "price": 200
+    },
+    {
+     "id": "37148502091",
+     "name": "Canada Dry Ginger Ale [Can]",
+     "price": 250
+    },
+    {
+     "id": "37148502092",
+     "name": "Crystal Geyser Water [Bottle]",
+     "price": 175
+    },
+    {
+     "id": "37148502094",
+     "name": "Coke [Bottle]",
+     "price": 350
+    },
+    {
+     "id": "37148502096",
+     "name": "Vitamin Water Power-C [Bottle]",
+     "price": 350
+    },
+    {
+     "id": "37148502097",
+     "name": "Vitamin Water Essential [Bottle]",
+     "price": 350
+    },
+    {
+     "id": "37148502098",
+     "name": "Vitamin Water Focus [Bottle]",
+     "price": 350
+    },
+    {
+     "id": "37148502099",
+     "name": "Vitamin Water Refresh [Bottle]",
+     "price": 350
+    },
+    {
+     "id": "37148502101",
+     "name": "Gold Peak Green Tea [Bottle]",
+     "price": 325
+    },
+    {
+     "id": "37148502102",
+     "name": "Gold Peak Tea & Lemonade [Bottle]",
+     "price": 325
+    },
+    {
+     "id": "37148502103",
+     "name": "Ito En Golden Oolong Tea [Bottle]",
+     "price": 325
+    },
+    {
+     "id": "37148502104",
+     "name": "Ito En Oi Ocha Green Tea [Bottle]",
+     "price": 325
+    },
+    {
+     "id": "37148502105",
+     "name": "Peace Tea Caddy Shack [Can]",
+     "price": 325
+    },
+    {
+     "id": "37148502106",
+     "name": "Peace Tea Just Peachy [Can]",
+     "price": 325
+    },
+    {
+     "id": "37148502107",
+     "name": "Peace Tea Razzleberry [Can]",
+     "price": 325
+    },
+    {
+     "id": "37148502108",
+     "name": "Peace Tea Sno-Berry [Can]",
+     "price": 325
+    },
+    {
+     "id": "37148502109",
+     "name": "Barq's Root Beer [Can]",
+     "price": 200
+    },
+    {
+     "id": "37148502110",
+     "name": "Fresca Grapefruit Citrus [Can]",
+     "price": 200
+    },
+    {
+     "id": "37148502111",
+     "name": "Powerade Fruit Punch [Bottle]",
+     "price": 325
+    },
+    {
+     "id": "37148502112",
+     "name": "Powerade Mountain Berry Blast [Bottle]",
+     "price": 325
+    },
+    {
+     "id": "37148502113",
+     "name": "Minute Maid Lemonade [Bottle]",
+     "price": 325
+    },
+    {
+     "id": "37148502114",
+     "name": "Ramune Original [Bottle]",
+     "price": 325
+    },
+    {
+     "id": "37148502115",
+     "name": "Ramune Grape [Bottle]",
+     "price": 325
+    },
+    {
+     "id": "37148502116",
+     "name": "Ramune Lychee [Bottle]",
+     "price": 325
+    },
+    {
+     "id": "37148502117",
+     "name": "Ramune Strawberry [Bottle]",
+     "price": 325
+    },
+    {
+     "id": "37148502118",
+     "name": "Ramune Melon [Bottle]",
+     "price": 325
+    },
+    {
+     "id": "37148502119",
+     "name": "Ramune Pineapple [Bottle]",
+     "price": 325
+    },
+    {
+     "id": "37148502120",
+     "name": "Ramune Orange [Bottle]",
+     "price": 325
+    },
+    {
+     "id": "40243367876",
+     "name": "Lemon Fizz [Can]",
+     "description": "A refreshing lemon sparkling iced tea made with a pu-erh tea extract base",
+     "price": 199
+    }
+   ]
+  },
+  {
+   "name": "Lunch Combo",
+   "items": [
+    {
+     "id": "37148502121",
+     "name": "Boneless Combo",
+     "description": "Boneless (6pcs) + French Fries + Soda",
+     "price": 1500
+    },
+    {
+     "id": "37148502122",
+     "name": "Sandwich Combo",
+     "description": "Sandwich + Coleslaw + French Fries + Soda Extra $1.20 for Sweet Potato Fries or Cheese Sticks or Onion Rings",
+     "price": 1500
+    },
+    {
+     "id": "37148502123",
+     "name": "Sandwich Deluxe Combo",
+     "description": "Sandwich Deluxe + Coleslaw + French Fries + Soda (Extra $1.20 for Sweet Potato Fries, Cheese Sticks, or Onion Rings)",
+     "price": 1600
+    }
+   ]
+  },
+  {
+   "name": "Most Ordered",
+   "items": [
+    {
+     "id": "39780407421",
+     "name": "Half & Half Boneless",
+     "description": "Choose 2 Flavors (16pcs total – 8pcs per flavor)",
+     "price": 2400
+    }
+   ]
+  }
+ ]
+}

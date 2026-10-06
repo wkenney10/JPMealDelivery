@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "square",
  "sourceUrl": "https://www.achilitos.com/s/order?location=LDMMH2FDVBG7V",
- "fetchedAt": "2026-10-05T17:15:21.884Z",
+ "fetchedAt": "2026-10-06T18:55:37.927Z",
  "categories": [
   {
    "name": "Bowls",
@@ -1982,7 +1982,7 @@
      "optionGroups": [
       {
        "id": "H4IYGMEXUPZ6X2XJRMXXPIX5:B424P7BA4MU74T6EQLGUVQA3",
-       "name": "Add Protein to Bowl/Burrito/Quesa",
+       "name": "Add Protein",
        "min": 1,
        "max": 1,
        "options": [
@@ -1998,17 +1998,17 @@
         },
         {
          "id": "H2SFQKZMNYU5X4J7KMY42ZOX",
-         "name": "Al Pastor Chicken (GFI)",
+         "name": "Al Pastor Chicken (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "NCVV2ZDELWSPBGEVJJNPIF5P",
-         "name": "Chipotle Chicken (GFI)",
+         "name": "Chipotle Chicken (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "HNLYSHUBA4NYCWQKWZEZAB7G",
-         "name": "Spicy Chicken (GFI)",
+         "name": "Spicy Chicken (HALAL,GFI)",
          "price": 0
         },
         {
@@ -4084,22 +4084,22 @@
         },
         {
          "id": "ZGV6MCLPK2FT7C5J7LYZOWS7",
-         "name": "Grill Chicken EXTRA (GFI)",
+         "name": "Grill Chicken EXTRA (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "LLROEUK2TF2TOZDKKTTJKSWA",
-         "name": "Al Pastor Chicken  EXTRA (GFI)",
+         "name": "Al Pastor Chicken  EXTRA (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "LYQ2IF5DGR46L7D4EJYKDCFC",
-         "name": "Chipotle Chicken  EXTRA (GFI)",
+         "name": "Chipotle Chicken  EXTRA (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "7BQ7PHKV3KJEWDVJ7U46OASW",
-         "name": "Spicy Chicken EXTRA  (GFI)",
+         "name": "Spicy Chicken EXTRA  (HALAL,GFI)",
          "price": 0
         },
         {
@@ -5145,22 +5145,22 @@
         },
         {
          "id": "ZGV6MCLPK2FT7C5J7LYZOWS7",
-         "name": "Grill Chicken EXTRA (GFI)",
+         "name": "Grill Chicken EXTRA (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "LLROEUK2TF2TOZDKKTTJKSWA",
-         "name": "Al Pastor Chicken  EXTRA (GFI)",
+         "name": "Al Pastor Chicken  EXTRA (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "LYQ2IF5DGR46L7D4EJYKDCFC",
-         "name": "Chipotle Chicken  EXTRA (GFI)",
+         "name": "Chipotle Chicken  EXTRA (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "7BQ7PHKV3KJEWDVJ7U46OASW",
-         "name": "Spicy Chicken EXTRA  (GFI)",
+         "name": "Spicy Chicken EXTRA  (HALAL,GFI)",
          "price": 0
         },
         {
@@ -6203,7 +6203,7 @@
      "optionGroups": [
       {
        "id": "3HCKYWG6DVXQDQXHAEBGQRYQ:B424P7BA4MU74T6EQLGUVQA3",
-       "name": "Add Protein to Bowl/Burrito/Quesa",
+       "name": "Add Protein",
        "min": 1,
        "max": 1,
        "options": [
@@ -6219,17 +6219,17 @@
         },
         {
          "id": "H2SFQKZMNYU5X4J7KMY42ZOX",
-         "name": "Al Pastor Chicken (GFI)",
+         "name": "Al Pastor Chicken (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "NCVV2ZDELWSPBGEVJJNPIF5P",
-         "name": "Chipotle Chicken (GFI)",
+         "name": "Chipotle Chicken (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "HNLYSHUBA4NYCWQKWZEZAB7G",
-         "name": "Spicy Chicken (GFI)",
+         "name": "Spicy Chicken (HALAL,GFI)",
          "price": 0
         },
         {
@@ -8849,22 +8849,22 @@
         },
         {
          "id": "ZGV6MCLPK2FT7C5J7LYZOWS7",
-         "name": "Grill Chicken EXTRA (GFI)",
+         "name": "Grill Chicken EXTRA (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "LLROEUK2TF2TOZDKKTTJKSWA",
-         "name": "Al Pastor Chicken  EXTRA (GFI)",
+         "name": "Al Pastor Chicken  EXTRA (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "LYQ2IF5DGR46L7D4EJYKDCFC",
-         "name": "Chipotle Chicken  EXTRA (GFI)",
+         "name": "Chipotle Chicken  EXTRA (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "7BQ7PHKV3KJEWDVJ7U46OASW",
-         "name": "Spicy Chicken EXTRA  (GFI)",
+         "name": "Spicy Chicken EXTRA  (HALAL,GFI)",
          "price": 0
         },
         {
@@ -9917,7 +9917,7 @@
      "optionGroups": [
       {
        "id": "LTUC3I5KEUWAVNQW7V67RMG5:B424P7BA4MU74T6EQLGUVQA3",
-       "name": "Add Protein to Bowl/Burrito/Quesa",
+       "name": "Add Protein",
        "min": 1,
        "max": 1,
        "options": [
@@ -9933,17 +9933,17 @@
         },
         {
          "id": "H2SFQKZMNYU5X4J7KMY42ZOX",
-         "name": "Al Pastor Chicken (GFI)",
+         "name": "Al Pastor Chicken (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "NCVV2ZDELWSPBGEVJJNPIF5P",
-         "name": "Chipotle Chicken (GFI)",
+         "name": "Chipotle Chicken (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "HNLYSHUBA4NYCWQKWZEZAB7G",
-         "name": "Spicy Chicken (GFI)",
+         "name": "Spicy Chicken (HALAL,GFI)",
          "price": 0
         },
         {
@@ -11695,7 +11695,7 @@
      "optionGroups": [
       {
        "id": "4NUCJ7ITCXN4Q44NQCMFC6GM:B424P7BA4MU74T6EQLGUVQA3",
-       "name": "Add Protein to Bowl/Burrito/Quesa",
+       "name": "Add Protein",
        "min": 1,
        "max": 1,
        "options": [
@@ -11711,17 +11711,17 @@
         },
         {
          "id": "H2SFQKZMNYU5X4J7KMY42ZOX",
-         "name": "Al Pastor Chicken (GFI)",
+         "name": "Al Pastor Chicken (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "NCVV2ZDELWSPBGEVJJNPIF5P",
-         "name": "Chipotle Chicken (GFI)",
+         "name": "Chipotle Chicken (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "HNLYSHUBA4NYCWQKWZEZAB7G",
-         "name": "Spicy Chicken (GFI)",
+         "name": "Spicy Chicken (HALAL,GFI)",
          "price": 0
         },
         {
@@ -12277,7 +12277,7 @@
      "optionGroups": [
       {
        "id": "Z2GTUD65HTMR4BWRPQ7TERP5:B424P7BA4MU74T6EQLGUVQA3",
-       "name": "Add Protein to Bowl/Burrito/Quesa",
+       "name": "Add Protein",
        "min": 1,
        "max": 1,
        "options": [
@@ -12293,17 +12293,17 @@
         },
         {
          "id": "H2SFQKZMNYU5X4J7KMY42ZOX",
-         "name": "Al Pastor Chicken (GFI)",
+         "name": "Al Pastor Chicken (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "NCVV2ZDELWSPBGEVJJNPIF5P",
-         "name": "Chipotle Chicken (GFI)",
+         "name": "Chipotle Chicken (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "HNLYSHUBA4NYCWQKWZEZAB7G",
-         "name": "Spicy Chicken (GFI)",
+         "name": "Spicy Chicken (HALAL,GFI)",
          "price": 0
         },
         {
@@ -12634,7 +12634,7 @@
      "id": "5HVM52EUPBSWBXLNYYFAAIXV",
      "name": "High Protein QuesaWrap Regular",
      "description": "A quesadilla stuffed and wrapped like a burrito. Your choice of protein, rice, beans, cheese, pico de gallo, lettuce, salsa. Add PROTEIN to any Quesawrap. Please select all toppings you want included, we will only add if selected.",
-     "price": 1050,
+     "price": 1350,
      "optionGroups": [
       {
        "id": "5HVM52EUPBSWBXLNYYFAAIXV:RAD6Z4C4MXLQEPVMRKWX7DVR",
@@ -12654,22 +12654,22 @@
         },
         {
          "id": "ZGV6MCLPK2FT7C5J7LYZOWS7",
-         "name": "Grill Chicken EXTRA (GFI)",
+         "name": "Grill Chicken EXTRA (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "LLROEUK2TF2TOZDKKTTJKSWA",
-         "name": "Al Pastor Chicken  EXTRA (GFI)",
+         "name": "Al Pastor Chicken  EXTRA (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "LYQ2IF5DGR46L7D4EJYKDCFC",
-         "name": "Chipotle Chicken  EXTRA (GFI)",
+         "name": "Chipotle Chicken  EXTRA (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "7BQ7PHKV3KJEWDVJ7U46OASW",
-         "name": "Spicy Chicken EXTRA  (GFI)",
+         "name": "Spicy Chicken EXTRA  (HALAL,GFI)",
          "price": 0
         },
         {
@@ -13104,7 +13104,7 @@
      "optionGroups": [
       {
        "id": "J6LK22EEDUIUELAHWAM2OYEY:B424P7BA4MU74T6EQLGUVQA3",
-       "name": "Add Protein to Bowl/Burrito/Quesa",
+       "name": "Add Protein",
        "min": 1,
        "max": 1,
        "options": [
@@ -13120,17 +13120,17 @@
         },
         {
          "id": "H2SFQKZMNYU5X4J7KMY42ZOX",
-         "name": "Al Pastor Chicken (GFI)",
+         "name": "Al Pastor Chicken (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "NCVV2ZDELWSPBGEVJJNPIF5P",
-         "name": "Chipotle Chicken (GFI)",
+         "name": "Chipotle Chicken (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "HNLYSHUBA4NYCWQKWZEZAB7G",
-         "name": "Spicy Chicken (GFI)",
+         "name": "Spicy Chicken (HALAL,GFI)",
          "price": 0
         },
         {
@@ -13575,7 +13575,7 @@
      "optionGroups": [
       {
        "id": "KML447AOPM7VXMTSLZ4SK2L5:B424P7BA4MU74T6EQLGUVQA3",
-       "name": "Add Protein to Bowl/Burrito/Quesa",
+       "name": "Add Protein",
        "min": 1,
        "max": 1,
        "options": [
@@ -13591,17 +13591,17 @@
         },
         {
          "id": "H2SFQKZMNYU5X4J7KMY42ZOX",
-         "name": "Al Pastor Chicken (GFI)",
+         "name": "Al Pastor Chicken (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "NCVV2ZDELWSPBGEVJJNPIF5P",
-         "name": "Chipotle Chicken (GFI)",
+         "name": "Chipotle Chicken (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "HNLYSHUBA4NYCWQKWZEZAB7G",
-         "name": "Spicy Chicken (GFI)",
+         "name": "Spicy Chicken (HALAL,GFI)",
          "price": 0
         },
         {
@@ -14042,7 +14042,7 @@
      "id": "TWOVJ7MBXCW7ZMW7YIEBYQZY",
      "name": "High Protein QuesaWrap - Large",
      "description": "A quesadilla stuffed and wrapped like a burrito. Your choice of protein, rice, beans, cheese, pico de gallo, lettuce, salsa. Add PROTEIN to any Quesawrap. Please select all toppings you want included, we will only add if selected.",
-     "price": 1250,
+     "price": 1550,
      "optionGroups": [
       {
        "id": "TWOVJ7MBXCW7ZMW7YIEBYQZY:RAD6Z4C4MXLQEPVMRKWX7DVR",
@@ -14062,22 +14062,22 @@
         },
         {
          "id": "ZGV6MCLPK2FT7C5J7LYZOWS7",
-         "name": "Grill Chicken EXTRA (GFI)",
+         "name": "Grill Chicken EXTRA (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "LLROEUK2TF2TOZDKKTTJKSWA",
-         "name": "Al Pastor Chicken  EXTRA (GFI)",
+         "name": "Al Pastor Chicken  EXTRA (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "LYQ2IF5DGR46L7D4EJYKDCFC",
-         "name": "Chipotle Chicken  EXTRA (GFI)",
+         "name": "Chipotle Chicken  EXTRA (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "7BQ7PHKV3KJEWDVJ7U46OASW",
-         "name": "Spicy Chicken EXTRA  (GFI)",
+         "name": "Spicy Chicken EXTRA  (HALAL,GFI)",
          "price": 0
         },
         {
@@ -14517,7 +14517,7 @@
      "optionGroups": [
       {
        "id": "AFYWSLILIIKIBQQTQIXVR62I:B424P7BA4MU74T6EQLGUVQA3",
-       "name": "Add Protein to Bowl/Burrito/Quesa",
+       "name": "Add Protein",
        "min": 1,
        "max": 1,
        "options": [
@@ -14533,17 +14533,17 @@
         },
         {
          "id": "H2SFQKZMNYU5X4J7KMY42ZOX",
-         "name": "Al Pastor Chicken (GFI)",
+         "name": "Al Pastor Chicken (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "NCVV2ZDELWSPBGEVJJNPIF5P",
-         "name": "Chipotle Chicken (GFI)",
+         "name": "Chipotle Chicken (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "HNLYSHUBA4NYCWQKWZEZAB7G",
-         "name": "Spicy Chicken (GFI)",
+         "name": "Spicy Chicken (HALAL,GFI)",
          "price": 0
         },
         {
@@ -14795,7 +14795,7 @@
      "id": "7WVJH62HXVYIK7WPRY5FWR43",
      "name": "High Protein Nacho",
      "description": "Season house chips topped with jalapenos, sour cream, guacamole, queso, refried beans, cheese, pico de gallo. Add protein to any Nacho. Please select all toppings you want included, we will only add if selected.",
-     "price": 1150,
+     "price": 1450,
      "optionGroups": [
       {
        "id": "7WVJH62HXVYIK7WPRY5FWR43:RAD6Z4C4MXLQEPVMRKWX7DVR",
@@ -14815,22 +14815,22 @@
         },
         {
          "id": "ZGV6MCLPK2FT7C5J7LYZOWS7",
-         "name": "Grill Chicken EXTRA (GFI)",
+         "name": "Grill Chicken EXTRA (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "LLROEUK2TF2TOZDKKTTJKSWA",
-         "name": "Al Pastor Chicken  EXTRA (GFI)",
+         "name": "Al Pastor Chicken  EXTRA (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "LYQ2IF5DGR46L7D4EJYKDCFC",
-         "name": "Chipotle Chicken  EXTRA (GFI)",
+         "name": "Chipotle Chicken  EXTRA (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "7BQ7PHKV3KJEWDVJ7U46OASW",
-         "name": "Spicy Chicken EXTRA  (GFI)",
+         "name": "Spicy Chicken EXTRA  (HALAL,GFI)",
          "price": 0
         },
         {
@@ -16099,7 +16099,7 @@
      "optionGroups": [
       {
        "id": "5LFTIB4CCJPASYNH2LVYJMBI:B424P7BA4MU74T6EQLGUVQA3",
-       "name": "Add Protein to Bowl/Burrito/Quesa",
+       "name": "Add Protein",
        "min": 1,
        "max": 1,
        "options": [
@@ -16115,17 +16115,17 @@
         },
         {
          "id": "H2SFQKZMNYU5X4J7KMY42ZOX",
-         "name": "Al Pastor Chicken (GFI)",
+         "name": "Al Pastor Chicken (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "NCVV2ZDELWSPBGEVJJNPIF5P",
-         "name": "Chipotle Chicken (GFI)",
+         "name": "Chipotle Chicken (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "HNLYSHUBA4NYCWQKWZEZAB7G",
-         "name": "Spicy Chicken (GFI)",
+         "name": "Spicy Chicken (HALAL,GFI)",
          "price": 0
         },
         {
@@ -18541,7 +18541,7 @@
      "optionGroups": [
       {
        "id": "IGK5UT4SGO72VVMUNRSSOZ3L:B424P7BA4MU74T6EQLGUVQA3",
-       "name": "Add Protein to Bowl/Burrito/Quesa",
+       "name": "Add Protein",
        "min": 1,
        "max": 1,
        "options": [
@@ -18557,17 +18557,17 @@
         },
         {
          "id": "H2SFQKZMNYU5X4J7KMY42ZOX",
-         "name": "Al Pastor Chicken (GFI)",
+         "name": "Al Pastor Chicken (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "NCVV2ZDELWSPBGEVJJNPIF5P",
-         "name": "Chipotle Chicken (GFI)",
+         "name": "Chipotle Chicken (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "HNLYSHUBA4NYCWQKWZEZAB7G",
-         "name": "Spicy Chicken (GFI)",
+         "name": "Spicy Chicken (HALAL,GFI)",
          "price": 0
         },
         {
@@ -19025,7 +19025,7 @@
      "optionGroups": [
       {
        "id": "ZH4Z5P477HSZ7FFECGESU6TB:B424P7BA4MU74T6EQLGUVQA3",
-       "name": "Add Protein to Bowl/Burrito/Quesa",
+       "name": "Add Protein",
        "min": 1,
        "max": 1,
        "options": [
@@ -19041,17 +19041,17 @@
         },
         {
          "id": "H2SFQKZMNYU5X4J7KMY42ZOX",
-         "name": "Al Pastor Chicken (GFI)",
+         "name": "Al Pastor Chicken (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "NCVV2ZDELWSPBGEVJJNPIF5P",
-         "name": "Chipotle Chicken (GFI)",
+         "name": "Chipotle Chicken (HALAL,GFI)",
          "price": 0
         },
         {
          "id": "HNLYSHUBA4NYCWQKWZEZAB7G",
-         "name": "Spicy Chicken (GFI)",
+         "name": "Spicy Chicken (HALAL,GFI)",
          "price": 0
         },
         {

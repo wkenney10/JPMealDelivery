@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "menuapp",
  "sourceUrl": "https://order.lifealive.com/venue/?id=1691&order-type=6",
- "fetchedAt": "2026-10-05T17:06:32.445Z",
+ "fetchedAt": "2026-10-06T19:02:15.135Z",
  "categories": [
   {
    "name": "New & Seasonal",
@@ -760,6 +760,12 @@
      "price": 950
     },
     {
+     "id": "447f2f5a-9e4f-4c1a-b6ff-c8f4c76b8544",
+     "name": "Heart Beet Cold Pressed Juice",
+     "description": "Beet, carrot, green apple, lemon, ginger. VG, DF, GF, NF, SF",
+     "price": 950
+    },
+    {
      "id": "e40ccc3f-c541-432f-a4ab-d8cf771e0ccd",
      "name": "Spicy Green Tonic Cold Pressed Juice",
      "description": "Pineapple, jalapeño, mint, cilantro, green apple. VG, DF, GF, NF, SF",
@@ -902,12 +908,6 @@
      "name": "Avocado Chocolate Mousse",
      "description": "Decadent, smooth, rich chocolate mousse made with avocado, raw cacao, agave, coconut cream, vanilla, cinnamon & sea salt. Contains coconut. VG, DF, GF, SF",
      "price": 895
-    },
-    {
-     "id": "6283f26e-9c7f-47a0-925e-f67936978530",
-     "name": "Strawberries & Cream Power Chia",
-     "description": "Gluten-free oats with strawberries, coconut yogurt, banana, chia, hemp seeds, vanilla, coconut flakes & housemade strawberry syrup. Contains coconut. VG, DF, GF, SF",
-     "price": 725
     }
    ]
   },
