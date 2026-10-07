@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "square",
  "sourceUrl": "https://www.achilitos.com/s/order?location=LDMMH2FDVBG7V",
- "fetchedAt": "2026-10-06T18:55:37.927Z",
+ "fetchedAt": "2026-10-07T19:23:44.619Z",
  "categories": [
   {
    "name": "Bowls",
@@ -1976,13 +1976,13 @@
     },
     {
      "id": "H4IYGMEXUPZ6X2XJRMXXPIX5",
-     "name": "Bowl",
+     "name": "Build Your Own Bowl",
      "description": "Your choice of protein, rice, beans, cheese, pico de gallo, lettuce, salsa. Add PROTEIN to any Bowl. Please select all toppings you want included, we will only add if selected.",
      "price": 1150,
      "optionGroups": [
       {
        "id": "H4IYGMEXUPZ6X2XJRMXXPIX5:B424P7BA4MU74T6EQLGUVQA3",
-       "name": "Add Protein",
+       "name": "Add protein",
        "min": 1,
        "max": 1,
        "options": [
@@ -1993,22 +1993,22 @@
         },
         {
          "id": "35PAYKVT4T7RRVIC3RU64HRG",
-         "name": "Grill Chicken (GFI)",
+         "name": "Grill Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "H2SFQKZMNYU5X4J7KMY42ZOX",
-         "name": "Al Pastor Chicken (HALAL,GFI)",
+         "name": "Al Pastor Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "NCVV2ZDELWSPBGEVJJNPIF5P",
-         "name": "Chipotle Chicken (HALAL,GFI)",
+         "name": "Chipotle Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "HNLYSHUBA4NYCWQKWZEZAB7G",
-         "name": "Spicy Chicken (HALAL,GFI)",
+         "name": "Spicy Chicken (Halal,GFI)",
          "price": 0
         },
         {
@@ -2075,6 +2075,109 @@
          "id": "TZGSEMVVTLBJ66OSWILHZJRR",
          "name": "ChorizoCrumble(V)",
          "price": 300
+        }
+       ]
+      },
+      {
+       "id": "H4IYGMEXUPZ6X2XJRMXXPIX5:5NFGJ7SOAVP4R4ZJ6HZEUEQC",
+       "name": "Do you want to add extra protein?",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "35ZUL3HJDHI5A265PHQVCFAQ",
+         "name": "Do not add extra protein",
+         "price": 0
+        },
+        {
+         "id": "KUNBTQTQDJXCD6LDMOHU6SRR",
+         "name": "Grill Chicken (Halal,GFI)",
+         "price": 300
+        },
+        {
+         "id": "5SQ4Z7AEMA6IWJ3UOGH25GRR",
+         "name": "Al Pastor Chicken (Halal,GFI)",
+         "price": 300
+        },
+        {
+         "id": "RSWDRYWXGCGEIXGUEUS27NHC",
+         "name": "Chipotle Chicken  (Halal,GFI)",
+         "price": 300
+        },
+        {
+         "id": "P3SPBUJSJRD5NVKQP4GCLOVS",
+         "name": "Spicy Chicken (Halal,GFI)",
+         "price": 300
+        },
+        {
+         "id": "RYWDGSNDNHVPDSLIQIP3PWSA",
+         "name": "Carnitas pork (GFI)",
+         "price": 300
+        },
+        {
+         "id": "SECPRAWRAOYMUA6Y5RSAV7BW",
+         "name": "Chorizo pork",
+         "price": 300
+        },
+        {
+         "id": "CP7LMFHKFJZ4NJMSHRMRB6LS",
+         "name": "Pork Al Pastor",
+         "price": 300
+        },
+        {
+         "id": "B5HDZ2XGE62ZWSBQNZKBTTZS",
+         "name": "Ground Beef (GFI)",
+         "price": 400
+        },
+        {
+         "id": "HGB2XAU6VYNABDVTXS7J2RBJ",
+         "name": "Steak (GFI)",
+         "price": 400
+        },
+        {
+         "id": "IKLL7ESP7UCIEPMAFTSHLCGG",
+         "name": "Spicy Steak (GFI)",
+         "price": 400
+        },
+        {
+         "id": "7PRY32DCDGK6QFY64TTKWSH2",
+         "name": "Brisket (GFI)",
+         "price": 400
+        },
+        {
+         "id": "TFM6ZGXMGWHV45WB5Z3BCUIN",
+         "name": "Grill Shrimp (6)",
+         "price": 400
+        },
+        {
+         "id": "3AYY4NDI2NY7VJBJNOV2WSZV",
+         "name": "Fried Shrimp (4)",
+         "price": 300
+        },
+        {
+         "id": "IK7UJKURMSROWUYA4TQ5FYGA",
+         "name": "Fried Shrimp (6)",
+         "price": 400
+        },
+        {
+         "id": "RYTBYPA6KTB4NNNQGMSW5FOT",
+         "name": "Grilled Cod (JP Only)",
+         "price": 400
+        },
+        {
+         "id": "D4YWJTXL2NMYGZ34S76MSX2P",
+         "name": "Fried Cod (Jp Only )",
+         "price": 400
+        },
+        {
+         "id": "JFYYEE6GEW2PETTQAOL4W4UF",
+         "name": "Impossible (V,GFI)",
+         "price": 400
+        },
+        {
+         "id": "EIV7BJHQKZYKQN6QBN45LZD4",
+         "name": "ChorizoCrumble (V)",
+         "price": 400
         }
        ]
       },
@@ -4067,99 +4170,6 @@
      "price": 1450,
      "optionGroups": [
       {
-       "id": "RJU7RL5BMXSGV4D3NOCGFJYN:RAD6Z4C4MXLQEPVMRKWX7DVR",
-       "name": "Choose your protein",
-       "min": 1,
-       "max": 1,
-       "options": [
-        {
-         "id": "LLVOFKU22CM2H64RY3MLRB4V",
-         "name": "Impossible EXTRA (V,GFI)",
-         "price": 400
-        },
-        {
-         "id": "66DSSHJ5EMRYRSWEMP6N3TSH",
-         "name": "ChorizoCrumble EXTRA (V) Extra",
-         "price": 400
-        },
-        {
-         "id": "ZGV6MCLPK2FT7C5J7LYZOWS7",
-         "name": "Grill Chicken EXTRA (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "LLROEUK2TF2TOZDKKTTJKSWA",
-         "name": "Al Pastor Chicken  EXTRA (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "LYQ2IF5DGR46L7D4EJYKDCFC",
-         "name": "Chipotle Chicken  EXTRA (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "7BQ7PHKV3KJEWDVJ7U46OASW",
-         "name": "Spicy Chicken EXTRA  (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "SWE27SB7MZXQLSYH6HWMV2NJ",
-         "name": "Carnitas  pork EXTRA (GFI)",
-         "price": 0
-        },
-        {
-         "id": "ILDTVVEGVBE36OU3TT2CQXF5",
-         "name": "Chorizo Pork EXTRA",
-         "price": 0
-        },
-        {
-         "id": "R5CKAM6SRFW67DGMT64ZGDHU",
-         "name": "Pork Al Pastor EXTRA",
-         "price": 0
-        },
-        {
-         "id": "72G44RFR5HPCZRZ4LZTXXCWM",
-         "name": "Ground Beef EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "OVVL2AA3BXX4AB2MK5ELH2QD",
-         "name": "Steak EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "54DGTXQEC77AEUFSOOXR6YEK",
-         "name": "Spicy Steak EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "5OQJ5WQRV5SWCOKLKMKMYV4Y",
-         "name": "Brisket EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "YEXR2ADSKH5FADGAU3CXDVTL",
-         "name": "Grill Shrimp (9)",
-         "price": 400
-        },
-        {
-         "id": "MW7QMOASZ4RONIAUQRP5SN3O",
-         "name": "Fried Shrimp (9)",
-         "price": 400
-        },
-        {
-         "id": "GYLSEZCJP4AK4RKBEUURDUCV",
-         "name": "Grilled Cod EXTRA (JP Only)",
-         "price": 400
-        },
-        {
-         "id": "5UXIRS4UMSQ27LLNHGT6WBDR",
-         "name": "Fried Cod EXTRA (Jp Only )",
-         "price": 400
-        }
-       ]
-      },
-      {
        "id": "RJU7RL5BMXSGV4D3NOCGFJYN:QXHPPWX7PPK4JYZQ3JVE2F35",
        "name": "Add Rice",
        "min": 1,
@@ -5127,99 +5137,6 @@
      "description": "Your choice of protein, rice, beans, cheese, pico de gallo, lettuce, salsa. Add PROTEIN to any Burrito. Please select all toppings you want included, we will only add if selected.",
      "price": 1450,
      "optionGroups": [
-      {
-       "id": "22BFLKPT7G2YKBTB3XJSMEPF:RAD6Z4C4MXLQEPVMRKWX7DVR",
-       "name": "Choose your protein",
-       "min": 1,
-       "max": 1,
-       "options": [
-        {
-         "id": "LLVOFKU22CM2H64RY3MLRB4V",
-         "name": "Impossible EXTRA (V,GFI)",
-         "price": 400
-        },
-        {
-         "id": "66DSSHJ5EMRYRSWEMP6N3TSH",
-         "name": "ChorizoCrumble EXTRA (V) Extra",
-         "price": 400
-        },
-        {
-         "id": "ZGV6MCLPK2FT7C5J7LYZOWS7",
-         "name": "Grill Chicken EXTRA (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "LLROEUK2TF2TOZDKKTTJKSWA",
-         "name": "Al Pastor Chicken  EXTRA (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "LYQ2IF5DGR46L7D4EJYKDCFC",
-         "name": "Chipotle Chicken  EXTRA (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "7BQ7PHKV3KJEWDVJ7U46OASW",
-         "name": "Spicy Chicken EXTRA  (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "SWE27SB7MZXQLSYH6HWMV2NJ",
-         "name": "Carnitas  pork EXTRA (GFI)",
-         "price": 0
-        },
-        {
-         "id": "ILDTVVEGVBE36OU3TT2CQXF5",
-         "name": "Chorizo Pork EXTRA",
-         "price": 0
-        },
-        {
-         "id": "R5CKAM6SRFW67DGMT64ZGDHU",
-         "name": "Pork Al Pastor EXTRA",
-         "price": 0
-        },
-        {
-         "id": "72G44RFR5HPCZRZ4LZTXXCWM",
-         "name": "Ground Beef EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "OVVL2AA3BXX4AB2MK5ELH2QD",
-         "name": "Steak EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "54DGTXQEC77AEUFSOOXR6YEK",
-         "name": "Spicy Steak EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "5OQJ5WQRV5SWCOKLKMKMYV4Y",
-         "name": "Brisket EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "YEXR2ADSKH5FADGAU3CXDVTL",
-         "name": "Grill Shrimp (9)",
-         "price": 400
-        },
-        {
-         "id": "MW7QMOASZ4RONIAUQRP5SN3O",
-         "name": "Fried Shrimp (9)",
-         "price": 400
-        },
-        {
-         "id": "GYLSEZCJP4AK4RKBEUURDUCV",
-         "name": "Grilled Cod EXTRA (JP Only)",
-         "price": 400
-        },
-        {
-         "id": "5UXIRS4UMSQ27LLNHGT6WBDR",
-         "name": "Fried Cod EXTRA (Jp Only )",
-         "price": 400
-        }
-       ]
-      },
       {
        "id": "22BFLKPT7G2YKBTB3XJSMEPF:JAXH4WNV5P726VOPAU37F3GO",
        "name": "Add Tortilla",
@@ -6203,7 +6120,7 @@
      "optionGroups": [
       {
        "id": "3HCKYWG6DVXQDQXHAEBGQRYQ:B424P7BA4MU74T6EQLGUVQA3",
-       "name": "Add Protein",
+       "name": "Add protein",
        "min": 1,
        "max": 1,
        "options": [
@@ -6214,22 +6131,22 @@
         },
         {
          "id": "35PAYKVT4T7RRVIC3RU64HRG",
-         "name": "Grill Chicken (GFI)",
+         "name": "Grill Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "H2SFQKZMNYU5X4J7KMY42ZOX",
-         "name": "Al Pastor Chicken (HALAL,GFI)",
+         "name": "Al Pastor Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "NCVV2ZDELWSPBGEVJJNPIF5P",
-         "name": "Chipotle Chicken (HALAL,GFI)",
+         "name": "Chipotle Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "HNLYSHUBA4NYCWQKWZEZAB7G",
-         "name": "Spicy Chicken (HALAL,GFI)",
+         "name": "Spicy Chicken (Halal,GFI)",
          "price": 0
         },
         {
@@ -8832,99 +8749,6 @@
      "price": 1300,
      "optionGroups": [
       {
-       "id": "F4S4EKKFB7GS42BVBKO33BXS:RAD6Z4C4MXLQEPVMRKWX7DVR",
-       "name": "Choose your protein",
-       "min": 1,
-       "max": 1,
-       "options": [
-        {
-         "id": "LLVOFKU22CM2H64RY3MLRB4V",
-         "name": "Impossible EXTRA (V,GFI)",
-         "price": 400
-        },
-        {
-         "id": "66DSSHJ5EMRYRSWEMP6N3TSH",
-         "name": "ChorizoCrumble EXTRA (V) Extra",
-         "price": 400
-        },
-        {
-         "id": "ZGV6MCLPK2FT7C5J7LYZOWS7",
-         "name": "Grill Chicken EXTRA (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "LLROEUK2TF2TOZDKKTTJKSWA",
-         "name": "Al Pastor Chicken  EXTRA (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "LYQ2IF5DGR46L7D4EJYKDCFC",
-         "name": "Chipotle Chicken  EXTRA (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "7BQ7PHKV3KJEWDVJ7U46OASW",
-         "name": "Spicy Chicken EXTRA  (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "SWE27SB7MZXQLSYH6HWMV2NJ",
-         "name": "Carnitas  pork EXTRA (GFI)",
-         "price": 0
-        },
-        {
-         "id": "ILDTVVEGVBE36OU3TT2CQXF5",
-         "name": "Chorizo Pork EXTRA",
-         "price": 0
-        },
-        {
-         "id": "R5CKAM6SRFW67DGMT64ZGDHU",
-         "name": "Pork Al Pastor EXTRA",
-         "price": 0
-        },
-        {
-         "id": "72G44RFR5HPCZRZ4LZTXXCWM",
-         "name": "Ground Beef EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "OVVL2AA3BXX4AB2MK5ELH2QD",
-         "name": "Steak EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "54DGTXQEC77AEUFSOOXR6YEK",
-         "name": "Spicy Steak EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "5OQJ5WQRV5SWCOKLKMKMYV4Y",
-         "name": "Brisket EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "YEXR2ADSKH5FADGAU3CXDVTL",
-         "name": "Grill Shrimp (9)",
-         "price": 400
-        },
-        {
-         "id": "MW7QMOASZ4RONIAUQRP5SN3O",
-         "name": "Fried Shrimp (9)",
-         "price": 400
-        },
-        {
-         "id": "GYLSEZCJP4AK4RKBEUURDUCV",
-         "name": "Grilled Cod EXTRA (JP Only)",
-         "price": 400
-        },
-        {
-         "id": "5UXIRS4UMSQ27LLNHGT6WBDR",
-         "name": "Fried Cod EXTRA (Jp Only )",
-         "price": 400
-        }
-       ]
-      },
-      {
        "id": "F4S4EKKFB7GS42BVBKO33BXS:JAXH4WNV5P726VOPAU37F3GO",
        "name": "Add Tortilla",
        "min": 1,
@@ -9917,7 +9741,7 @@
      "optionGroups": [
       {
        "id": "LTUC3I5KEUWAVNQW7V67RMG5:B424P7BA4MU74T6EQLGUVQA3",
-       "name": "Add Protein",
+       "name": "Add protein",
        "min": 1,
        "max": 1,
        "options": [
@@ -9928,22 +9752,22 @@
         },
         {
          "id": "35PAYKVT4T7RRVIC3RU64HRG",
-         "name": "Grill Chicken (GFI)",
+         "name": "Grill Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "H2SFQKZMNYU5X4J7KMY42ZOX",
-         "name": "Al Pastor Chicken (HALAL,GFI)",
+         "name": "Al Pastor Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "NCVV2ZDELWSPBGEVJJNPIF5P",
-         "name": "Chipotle Chicken (HALAL,GFI)",
+         "name": "Chipotle Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "HNLYSHUBA4NYCWQKWZEZAB7G",
-         "name": "Spicy Chicken (HALAL,GFI)",
+         "name": "Spicy Chicken (Halal,GFI)",
          "price": 0
         },
         {
@@ -11695,7 +11519,7 @@
      "optionGroups": [
       {
        "id": "4NUCJ7ITCXN4Q44NQCMFC6GM:B424P7BA4MU74T6EQLGUVQA3",
-       "name": "Add Protein",
+       "name": "Add protein",
        "min": 1,
        "max": 1,
        "options": [
@@ -11706,22 +11530,22 @@
         },
         {
          "id": "35PAYKVT4T7RRVIC3RU64HRG",
-         "name": "Grill Chicken (GFI)",
+         "name": "Grill Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "H2SFQKZMNYU5X4J7KMY42ZOX",
-         "name": "Al Pastor Chicken (HALAL,GFI)",
+         "name": "Al Pastor Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "NCVV2ZDELWSPBGEVJJNPIF5P",
-         "name": "Chipotle Chicken (HALAL,GFI)",
+         "name": "Chipotle Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "HNLYSHUBA4NYCWQKWZEZAB7G",
-         "name": "Spicy Chicken (HALAL,GFI)",
+         "name": "Spicy Chicken (Halal,GFI)",
          "price": 0
         },
         {
@@ -12277,33 +12101,28 @@
      "optionGroups": [
       {
        "id": "Z2GTUD65HTMR4BWRPQ7TERP5:B424P7BA4MU74T6EQLGUVQA3",
-       "name": "Add Protein",
+       "name": "Add protein",
        "min": 1,
        "max": 1,
        "options": [
         {
-         "id": "3VYCJBZB343SIUGVPCEY5D55",
-         "name": "No Protein",
-         "price": 0
-        },
-        {
          "id": "35PAYKVT4T7RRVIC3RU64HRG",
-         "name": "Grill Chicken (GFI)",
+         "name": "Grill Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "H2SFQKZMNYU5X4J7KMY42ZOX",
-         "name": "Al Pastor Chicken (HALAL,GFI)",
+         "name": "Al Pastor Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "NCVV2ZDELWSPBGEVJJNPIF5P",
-         "name": "Chipotle Chicken (HALAL,GFI)",
+         "name": "Chipotle Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "HNLYSHUBA4NYCWQKWZEZAB7G",
-         "name": "Spicy Chicken (HALAL,GFI)",
+         "name": "Spicy Chicken (Halal,GFI)",
          "price": 0
         },
         {
@@ -12636,99 +12455,6 @@
      "description": "A quesadilla stuffed and wrapped like a burrito. Your choice of protein, rice, beans, cheese, pico de gallo, lettuce, salsa. Add PROTEIN to any Quesawrap. Please select all toppings you want included, we will only add if selected.",
      "price": 1350,
      "optionGroups": [
-      {
-       "id": "5HVM52EUPBSWBXLNYYFAAIXV:RAD6Z4C4MXLQEPVMRKWX7DVR",
-       "name": "Choose your protein",
-       "min": 1,
-       "max": 1,
-       "options": [
-        {
-         "id": "LLVOFKU22CM2H64RY3MLRB4V",
-         "name": "Impossible EXTRA (V,GFI)",
-         "price": 400
-        },
-        {
-         "id": "66DSSHJ5EMRYRSWEMP6N3TSH",
-         "name": "ChorizoCrumble EXTRA (V) Extra",
-         "price": 400
-        },
-        {
-         "id": "ZGV6MCLPK2FT7C5J7LYZOWS7",
-         "name": "Grill Chicken EXTRA (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "LLROEUK2TF2TOZDKKTTJKSWA",
-         "name": "Al Pastor Chicken  EXTRA (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "LYQ2IF5DGR46L7D4EJYKDCFC",
-         "name": "Chipotle Chicken  EXTRA (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "7BQ7PHKV3KJEWDVJ7U46OASW",
-         "name": "Spicy Chicken EXTRA  (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "SWE27SB7MZXQLSYH6HWMV2NJ",
-         "name": "Carnitas  pork EXTRA (GFI)",
-         "price": 0
-        },
-        {
-         "id": "ILDTVVEGVBE36OU3TT2CQXF5",
-         "name": "Chorizo Pork EXTRA",
-         "price": 0
-        },
-        {
-         "id": "R5CKAM6SRFW67DGMT64ZGDHU",
-         "name": "Pork Al Pastor EXTRA",
-         "price": 0
-        },
-        {
-         "id": "72G44RFR5HPCZRZ4LZTXXCWM",
-         "name": "Ground Beef EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "OVVL2AA3BXX4AB2MK5ELH2QD",
-         "name": "Steak EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "54DGTXQEC77AEUFSOOXR6YEK",
-         "name": "Spicy Steak EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "5OQJ5WQRV5SWCOKLKMKMYV4Y",
-         "name": "Brisket EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "YEXR2ADSKH5FADGAU3CXDVTL",
-         "name": "Grill Shrimp (9)",
-         "price": 400
-        },
-        {
-         "id": "MW7QMOASZ4RONIAUQRP5SN3O",
-         "name": "Fried Shrimp (9)",
-         "price": 400
-        },
-        {
-         "id": "GYLSEZCJP4AK4RKBEUURDUCV",
-         "name": "Grilled Cod EXTRA (JP Only)",
-         "price": 400
-        },
-        {
-         "id": "5UXIRS4UMSQ27LLNHGT6WBDR",
-         "name": "Fried Cod EXTRA (Jp Only )",
-         "price": 400
-        }
-       ]
-      },
       {
        "id": "5HVM52EUPBSWBXLNYYFAAIXV:QXHPPWX7PPK4JYZQ3JVE2F35",
        "name": "Add Rice",
@@ -13104,33 +12830,28 @@
      "optionGroups": [
       {
        "id": "J6LK22EEDUIUELAHWAM2OYEY:B424P7BA4MU74T6EQLGUVQA3",
-       "name": "Add Protein",
+       "name": "Add protein",
        "min": 1,
        "max": 1,
        "options": [
         {
-         "id": "3VYCJBZB343SIUGVPCEY5D55",
-         "name": "No Protein",
-         "price": 0
-        },
-        {
          "id": "35PAYKVT4T7RRVIC3RU64HRG",
-         "name": "Grill Chicken (GFI)",
+         "name": "Grill Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "H2SFQKZMNYU5X4J7KMY42ZOX",
-         "name": "Al Pastor Chicken (HALAL,GFI)",
+         "name": "Al Pastor Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "NCVV2ZDELWSPBGEVJJNPIF5P",
-         "name": "Chipotle Chicken (HALAL,GFI)",
+         "name": "Chipotle Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "HNLYSHUBA4NYCWQKWZEZAB7G",
-         "name": "Spicy Chicken (HALAL,GFI)",
+         "name": "Spicy Chicken (Halal,GFI)",
          "price": 0
         },
         {
@@ -13575,7 +13296,7 @@
      "optionGroups": [
       {
        "id": "KML447AOPM7VXMTSLZ4SK2L5:B424P7BA4MU74T6EQLGUVQA3",
-       "name": "Add Protein",
+       "name": "Add protein",
        "min": 1,
        "max": 1,
        "options": [
@@ -13586,22 +13307,22 @@
         },
         {
          "id": "35PAYKVT4T7RRVIC3RU64HRG",
-         "name": "Grill Chicken (GFI)",
+         "name": "Grill Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "H2SFQKZMNYU5X4J7KMY42ZOX",
-         "name": "Al Pastor Chicken (HALAL,GFI)",
+         "name": "Al Pastor Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "NCVV2ZDELWSPBGEVJJNPIF5P",
-         "name": "Chipotle Chicken (HALAL,GFI)",
+         "name": "Chipotle Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "HNLYSHUBA4NYCWQKWZEZAB7G",
-         "name": "Spicy Chicken (HALAL,GFI)",
+         "name": "Spicy Chicken (Halal,GFI)",
          "price": 0
         },
         {
@@ -14045,99 +13766,6 @@
      "price": 1550,
      "optionGroups": [
       {
-       "id": "TWOVJ7MBXCW7ZMW7YIEBYQZY:RAD6Z4C4MXLQEPVMRKWX7DVR",
-       "name": "Choose your protein",
-       "min": 1,
-       "max": 1,
-       "options": [
-        {
-         "id": "LLVOFKU22CM2H64RY3MLRB4V",
-         "name": "Impossible EXTRA (V,GFI)",
-         "price": 400
-        },
-        {
-         "id": "66DSSHJ5EMRYRSWEMP6N3TSH",
-         "name": "ChorizoCrumble EXTRA (V) Extra",
-         "price": 400
-        },
-        {
-         "id": "ZGV6MCLPK2FT7C5J7LYZOWS7",
-         "name": "Grill Chicken EXTRA (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "LLROEUK2TF2TOZDKKTTJKSWA",
-         "name": "Al Pastor Chicken  EXTRA (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "LYQ2IF5DGR46L7D4EJYKDCFC",
-         "name": "Chipotle Chicken  EXTRA (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "7BQ7PHKV3KJEWDVJ7U46OASW",
-         "name": "Spicy Chicken EXTRA  (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "SWE27SB7MZXQLSYH6HWMV2NJ",
-         "name": "Carnitas  pork EXTRA (GFI)",
-         "price": 0
-        },
-        {
-         "id": "ILDTVVEGVBE36OU3TT2CQXF5",
-         "name": "Chorizo Pork EXTRA",
-         "price": 0
-        },
-        {
-         "id": "R5CKAM6SRFW67DGMT64ZGDHU",
-         "name": "Pork Al Pastor EXTRA",
-         "price": 0
-        },
-        {
-         "id": "72G44RFR5HPCZRZ4LZTXXCWM",
-         "name": "Ground Beef EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "OVVL2AA3BXX4AB2MK5ELH2QD",
-         "name": "Steak EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "54DGTXQEC77AEUFSOOXR6YEK",
-         "name": "Spicy Steak EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "5OQJ5WQRV5SWCOKLKMKMYV4Y",
-         "name": "Brisket EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "YEXR2ADSKH5FADGAU3CXDVTL",
-         "name": "Grill Shrimp (9)",
-         "price": 400
-        },
-        {
-         "id": "MW7QMOASZ4RONIAUQRP5SN3O",
-         "name": "Fried Shrimp (9)",
-         "price": 400
-        },
-        {
-         "id": "GYLSEZCJP4AK4RKBEUURDUCV",
-         "name": "Grilled Cod EXTRA (JP Only)",
-         "price": 400
-        },
-        {
-         "id": "5UXIRS4UMSQ27LLNHGT6WBDR",
-         "name": "Fried Cod EXTRA (Jp Only )",
-         "price": 400
-        }
-       ]
-      },
-      {
        "id": "TWOVJ7MBXCW7ZMW7YIEBYQZY:QXHPPWX7PPK4JYZQ3JVE2F35",
        "name": "Add Rice",
        "min": 1,
@@ -14517,7 +14145,7 @@
      "optionGroups": [
       {
        "id": "AFYWSLILIIKIBQQTQIXVR62I:B424P7BA4MU74T6EQLGUVQA3",
-       "name": "Add Protein",
+       "name": "Add protein",
        "min": 1,
        "max": 1,
        "options": [
@@ -14528,22 +14156,22 @@
         },
         {
          "id": "35PAYKVT4T7RRVIC3RU64HRG",
-         "name": "Grill Chicken (GFI)",
+         "name": "Grill Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "H2SFQKZMNYU5X4J7KMY42ZOX",
-         "name": "Al Pastor Chicken (HALAL,GFI)",
+         "name": "Al Pastor Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "NCVV2ZDELWSPBGEVJJNPIF5P",
-         "name": "Chipotle Chicken (HALAL,GFI)",
+         "name": "Chipotle Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "HNLYSHUBA4NYCWQKWZEZAB7G",
-         "name": "Spicy Chicken (HALAL,GFI)",
+         "name": "Spicy Chicken (Halal,GFI)",
          "price": 0
         },
         {
@@ -14797,99 +14425,6 @@
      "description": "Season house chips topped with jalapenos, sour cream, guacamole, queso, refried beans, cheese, pico de gallo. Add protein to any Nacho. Please select all toppings you want included, we will only add if selected.",
      "price": 1450,
      "optionGroups": [
-      {
-       "id": "7WVJH62HXVYIK7WPRY5FWR43:RAD6Z4C4MXLQEPVMRKWX7DVR",
-       "name": "Choose your protein",
-       "min": 1,
-       "max": 1,
-       "options": [
-        {
-         "id": "LLVOFKU22CM2H64RY3MLRB4V",
-         "name": "Impossible EXTRA (V,GFI)",
-         "price": 400
-        },
-        {
-         "id": "66DSSHJ5EMRYRSWEMP6N3TSH",
-         "name": "ChorizoCrumble EXTRA (V) Extra",
-         "price": 400
-        },
-        {
-         "id": "ZGV6MCLPK2FT7C5J7LYZOWS7",
-         "name": "Grill Chicken EXTRA (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "LLROEUK2TF2TOZDKKTTJKSWA",
-         "name": "Al Pastor Chicken  EXTRA (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "LYQ2IF5DGR46L7D4EJYKDCFC",
-         "name": "Chipotle Chicken  EXTRA (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "7BQ7PHKV3KJEWDVJ7U46OASW",
-         "name": "Spicy Chicken EXTRA  (HALAL,GFI)",
-         "price": 0
-        },
-        {
-         "id": "SWE27SB7MZXQLSYH6HWMV2NJ",
-         "name": "Carnitas  pork EXTRA (GFI)",
-         "price": 0
-        },
-        {
-         "id": "ILDTVVEGVBE36OU3TT2CQXF5",
-         "name": "Chorizo Pork EXTRA",
-         "price": 0
-        },
-        {
-         "id": "R5CKAM6SRFW67DGMT64ZGDHU",
-         "name": "Pork Al Pastor EXTRA",
-         "price": 0
-        },
-        {
-         "id": "72G44RFR5HPCZRZ4LZTXXCWM",
-         "name": "Ground Beef EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "OVVL2AA3BXX4AB2MK5ELH2QD",
-         "name": "Steak EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "54DGTXQEC77AEUFSOOXR6YEK",
-         "name": "Spicy Steak EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "5OQJ5WQRV5SWCOKLKMKMYV4Y",
-         "name": "Brisket EXTRA (GFI)",
-         "price": 400
-        },
-        {
-         "id": "YEXR2ADSKH5FADGAU3CXDVTL",
-         "name": "Grill Shrimp (9)",
-         "price": 400
-        },
-        {
-         "id": "MW7QMOASZ4RONIAUQRP5SN3O",
-         "name": "Fried Shrimp (9)",
-         "price": 400
-        },
-        {
-         "id": "GYLSEZCJP4AK4RKBEUURDUCV",
-         "name": "Grilled Cod EXTRA (JP Only)",
-         "price": 400
-        },
-        {
-         "id": "5UXIRS4UMSQ27LLNHGT6WBDR",
-         "name": "Fried Cod EXTRA (Jp Only )",
-         "price": 400
-        }
-       ]
-      },
       {
        "id": "7WVJH62HXVYIK7WPRY5FWR43:27HDOYGAOBGOYOZVDKEBOOV4",
        "name": "Add Beans",
@@ -16099,7 +15634,7 @@
      "optionGroups": [
       {
        "id": "5LFTIB4CCJPASYNH2LVYJMBI:B424P7BA4MU74T6EQLGUVQA3",
-       "name": "Add Protein",
+       "name": "Add protein",
        "min": 1,
        "max": 1,
        "options": [
@@ -16110,22 +15645,22 @@
         },
         {
          "id": "35PAYKVT4T7RRVIC3RU64HRG",
-         "name": "Grill Chicken (GFI)",
+         "name": "Grill Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "H2SFQKZMNYU5X4J7KMY42ZOX",
-         "name": "Al Pastor Chicken (HALAL,GFI)",
+         "name": "Al Pastor Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "NCVV2ZDELWSPBGEVJJNPIF5P",
-         "name": "Chipotle Chicken (HALAL,GFI)",
+         "name": "Chipotle Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "HNLYSHUBA4NYCWQKWZEZAB7G",
-         "name": "Spicy Chicken (HALAL,GFI)",
+         "name": "Spicy Chicken (Halal,GFI)",
          "price": 0
         },
         {
@@ -18541,7 +18076,7 @@
      "optionGroups": [
       {
        "id": "IGK5UT4SGO72VVMUNRSSOZ3L:B424P7BA4MU74T6EQLGUVQA3",
-       "name": "Add Protein",
+       "name": "Add protein",
        "min": 1,
        "max": 1,
        "options": [
@@ -18552,22 +18087,22 @@
         },
         {
          "id": "35PAYKVT4T7RRVIC3RU64HRG",
-         "name": "Grill Chicken (GFI)",
+         "name": "Grill Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "H2SFQKZMNYU5X4J7KMY42ZOX",
-         "name": "Al Pastor Chicken (HALAL,GFI)",
+         "name": "Al Pastor Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "NCVV2ZDELWSPBGEVJJNPIF5P",
-         "name": "Chipotle Chicken (HALAL,GFI)",
+         "name": "Chipotle Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "HNLYSHUBA4NYCWQKWZEZAB7G",
-         "name": "Spicy Chicken (HALAL,GFI)",
+         "name": "Spicy Chicken (Halal,GFI)",
          "price": 0
         },
         {
@@ -19025,7 +18560,7 @@
      "optionGroups": [
       {
        "id": "ZH4Z5P477HSZ7FFECGESU6TB:B424P7BA4MU74T6EQLGUVQA3",
-       "name": "Add Protein",
+       "name": "Add protein",
        "min": 1,
        "max": 1,
        "options": [
@@ -19036,22 +18571,22 @@
         },
         {
          "id": "35PAYKVT4T7RRVIC3RU64HRG",
-         "name": "Grill Chicken (GFI)",
+         "name": "Grill Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "H2SFQKZMNYU5X4J7KMY42ZOX",
-         "name": "Al Pastor Chicken (HALAL,GFI)",
+         "name": "Al Pastor Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "NCVV2ZDELWSPBGEVJJNPIF5P",
-         "name": "Chipotle Chicken (HALAL,GFI)",
+         "name": "Chipotle Chicken (Halal,GFI)",
          "price": 0
         },
         {
          "id": "HNLYSHUBA4NYCWQKWZEZAB7G",
-         "name": "Spicy Chicken (HALAL,GFI)",
+         "name": "Spicy Chicken (Halal,GFI)",
          "price": 0
         },
         {

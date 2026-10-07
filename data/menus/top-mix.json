@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "doordash",
  "sourceUrl": "https://order.online/store/top-mix-bar-&-kitchen-boston-522906/?pickup=true",
- "fetchedAt": "2026-10-05T18:51:43.167Z",
+ "fetchedAt": "2026-10-07T19:33:53.325Z",
  "categories": [
   {
    "name": "Starters",
@@ -31,6 +31,12 @@
      "name": "Sampler",
      "description": "A variety of popular starters including wings, cheese sticks, onion rings, and fried pickles with assorted dipping sauces.",
      "price": 2910
+    },
+    {
+     "id": "23925645179",
+     "name": "Top Mix Street Corn",
+     "description": "Fresh corn on the cob, grilled until charred. tossed in melted butter and roasted garlic-lime aioli. sprinkled with parmesan cheese and paprika.",
+     "price": 1275
     },
     {
      "id": "23925645180",
