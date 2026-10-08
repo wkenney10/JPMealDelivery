@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "doordash",
  "sourceUrl": "https://order.online/store/top-mix-bar-&-kitchen-boston-522906/?pickup=true",
- "fetchedAt": "2026-10-07T19:33:53.325Z",
+ "fetchedAt": "2026-10-08T19:27:32.776Z",
  "categories": [
   {
    "name": "Starters",
@@ -430,14 +430,14 @@
     {
      "id": "44702026386",
      "name": "Chicken Wings",
-     "description": "Serves 10+.",
-     "price": 9500
+     "description": "Serves 10+. 40+ Wings. With your choice of sauce.",
+     "price": 8640
     },
     {
      "id": "44702026387",
      "name": "Chicken Tenders",
-     "description": "Serves 10+.",
-     "price": 8500
+     "description": "Serves 10+. Crispy chicken tenders with a choice of seven sauces: Whiskey BBQ, Honey Hot, Sweet Chili, Garlic Parmesan Herb, Mango Buffalo, Buffalo, or Plain.",
+     "price": 7730
     }
    ]
   }

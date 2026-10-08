@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "menuapp",
  "sourceUrl": "https://order.lifealive.com/venue/?id=1691&order-type=6",
- "fetchedAt": "2026-10-06T19:02:15.135Z",
+ "fetchedAt": "2026-10-08T19:23:52.421Z",
  "categories": [
   {
    "name": "New & Seasonal",
@@ -55,12 +55,6 @@
      "name": "Greek Yogurt Parfait",
      "description": "Greek yogurt layered with strawberries, blueberries, house granola and housemade strawberry syrup. Contains milk. GF, NF, SF",
      "price": 895
-    },
-    {
-     "id": "4e368464-07ed-489d-9a7e-e6d79ee2b4d3",
-     "name": "Organic Fruit Cup",
-     "description": "Fresh-cut strawberries, watermelon, pineapple and blueberries. VG, GF, DF, NF, SF.",
-     "price": 795
     },
     {
      "id": "0555121e-5d82-4c28-aab6-ee0b12ef0112",

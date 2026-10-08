@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "slice",
  "sourceUrl": "https://slicelife.com/restaurants/ma/jamaica-plain/02130/the-real-deal/menu",
- "fetchedAt": "2026-10-07T19:23:46.686Z",
+ "fetchedAt": "2026-10-08T19:17:42.289Z",
  "dinnerAvailable": true,
  "categories": [
   {
@@ -206,6 +206,12 @@
      "name": "Margherita",
      "description": "Vegetarian. Fresh mozzarella, roasted tomatoes, fresh basil, EVOO.",
      "price": 2430
+    },
+    {
+     "id": "slice-27319847",
+     "name": "Pulled Pork",
+     "description": "Slow roasted pulled pork, caramelized onions, roasted tomato, BBQ sauce, mozzarella.",
+     "price": 2591
     },
     {
      "id": "slice-27319848",
@@ -523,6 +529,53 @@
    ]
   },
   {
+   "name": "Panini",
+   "items": [
+    {
+     "id": "slice-27865853",
+     "name": "Uncle Jr",
+     "description": "Pan fried chicken cutlet, fresh mozzarella, baby arugula, tomato, sriracha mayo.",
+     "price": 1566
+    },
+    {
+     "id": "slice-27865854",
+     "name": "The Enforcer",
+     "description": "Smoked turkey, cheddar cheese, bacon, tomato, and kick 'n bayou sauce.",
+     "price": 1619
+    },
+    {
+     "id": "slice-27865855",
+     "name": "The Cuban",
+     "description": "Slow roasted pulled pork, sliced ham, dill pickles, swiss cheese, and mustard.",
+     "price": 1458
+    },
+    {
+     "id": "slice-27865856",
+     "name": "Fig 'n Pig",
+     "description": "Shaved prosciutto, bleu cheese spread, fig preserves, baby arugula.",
+     "price": 1566
+    },
+    {
+     "id": "slice-27865857",
+     "name": "Carmela",
+     "description": "Vegetarian. Breaded eggplant, sharp provolone, baby arugula, roasted red peppers, pesto mayo.",
+     "price": 1458
+    },
+    {
+     "id": "slice-27865858",
+     "name": "Panino Tuscano",
+     "description": "Sopressata, salami, capicola, mortadella & provolone, fresh mozzarella, pesto, arugula, tomato, pickled red onions, hots pressed on ciabatta",
+     "price": 1619
+    },
+    {
+     "id": "slice-27865859",
+     "name": "Fig 'n Turkey",
+     "description": "Slice turkey, bacon, fig preserves, and cheddar cheese pressed on herb foccacia.",
+     "price": 1566
+    }
+   ]
+  },
+  {
    "name": "Gluten-Free Sandwiches",
    "items": [
     {
@@ -642,6 +695,12 @@
      "name": "Gluten Free Vegan Pizza",
      "description": "Vegetarian. Gluten-free crust, red sauce, roasted mushrooms, roasted red onions, arugula.",
      "price": 1619
+    },
+    {
+     "id": "slice-27319860",
+     "name": "Gluten Free BBQ Pulled Pork",
+     "description": "Gluten-free crust, slow roasted pulled pork, BBQ sauce, caramelized onions, roasted tomatoes, mozzarella.",
+     "price": 1727
     },
     {
      "id": "slice-27319861",
