@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "doordash",
  "sourceUrl": "https://bbqchicken.order.online/business/82085/store/bb-q-chicken-jamaica-plain-ma-30177017?pickup=true",
- "fetchedAt": "2026-10-07T19:23:53.117Z",
+ "fetchedAt": "2026-10-09T18:50:49.291Z",
  "categories": [
   {
    "name": "Value Meal",
@@ -357,6 +357,29 @@
      "name": "Lemon Fizz [Can]",
      "description": "A refreshing lemon sparkling iced tea made with a pu-erh tea extract base",
      "price": 199
+    }
+   ]
+  },
+  {
+   "name": "Lunch Combo",
+   "items": [
+    {
+     "id": "37148502121",
+     "name": "Boneless Combo",
+     "description": "Boneless (6pcs) + French Fries + Soda",
+     "price": 1500
+    },
+    {
+     "id": "37148502122",
+     "name": "Sandwich Combo",
+     "description": "Sandwich + Coleslaw + French Fries + Soda Extra $1.20 for Sweet Potato Fries or Cheese Sticks or Onion Rings",
+     "price": 1500
+    },
+    {
+     "id": "37148502123",
+     "name": "Sandwich Deluxe Combo",
+     "description": "Sandwich Deluxe + Coleslaw + French Fries + Soda (Extra $1.20 for Sweet Potato Fries, Cheese Sticks, or Onion Rings)",
+     "price": 1600
     }
    ]
   },
