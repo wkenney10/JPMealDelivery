@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "doordash",
  "sourceUrl": "https://order.online/store/-2464/",
- "fetchedAt": "2026-10-05T18:51:11.508Z",
+ "fetchedAt": "2026-10-10T17:59:12.956Z",
  "categories": [
   {
    "name": "Appetizers",
@@ -36,12 +36,6 @@
      "id": "110186788",
      "name": "Fresh Roll",
      "description": "Shrimp or tofu with shredded lettuce, basil and rice vermicelli wrapped in softened rice paper and served with Vietnamese peanut sauce.",
-     "price": 900
-    },
-    {
-     "id": "110186797",
-     "name": "Curry Puff",
-     "description": "Thai traditional vegetable puff with curry powder, serve with cucumber salad. Dish can be made with tofu and vegetables.",
      "price": 900
     },
     {

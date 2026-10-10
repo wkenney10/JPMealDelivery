@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "menuapp",
  "sourceUrl": "https://order.lifealive.com/venue/?id=1691&order-type=6",
- "fetchedAt": "2026-10-08T19:23:52.421Z",
+ "fetchedAt": "2026-10-10T17:58:41.609Z",
  "categories": [
   {
    "name": "New & Seasonal",
@@ -91,6 +91,24 @@
      "name": "Banana Bread Matcha",
      "description": "Iced matcha, banana, cinnamon, maple and vanilla with oat milk. VG, GF, DF, NF, SF.",
      "price": 725
+    },
+    {
+     "id": "67c4396a-4aee-496d-9f26-92c95760dc9b",
+     "name": "Spicy Feta Farro Bowl",
+     "description": "Roasted Row 7 koginut squash, spicy feta with jalapeño, farro, kale, celery, pomegranate, toasted pumpkin & sunflower seeds, fresh herbs and citrus tahini dressing. Contains wheat, milk, sesame and allium. NF, SF.",
+     "price": 1595
+    },
+    {
+     "id": "be6222a1-e169-470c-b0b8-87d057fe4271",
+     "name": "Iced Cookie Butter Latte",
+     "description": "Iced espresso, housemade cookie butter, maple vanilla cold foam & chocolate cookie crumble. Contains coconut. VG, DF, GF, SF",
+     "price": 725
+    },
+    {
+     "id": "c864fe13-645c-4841-bd1e-f159e04abf5f",
+     "name": "Roasted Koginut Squash",
+     "description": "Roasted Row 7 Koginut squash with spicy feta dip. Contains milk and allium. GF, NF, SF.",
+     "price": 650
     }
    ]
   },
