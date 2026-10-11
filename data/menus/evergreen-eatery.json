@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "toast",
  "sourceUrl": "https://order.toasttab.com/online/evergreen-eatery",
- "fetchedAt": "2026-10-05T22:34:21.756Z",
+ "fetchedAt": "2026-10-11T18:09:16.632Z",
  "categories": [
   {
    "name": "HOT COFFEE",
@@ -584,6 +584,76 @@
    ]
   },
   {
+   "name": "Appetizers",
+   "items": [
+    {
+     "id": "9b3ef33b-566b-40ee-b7b0-973f9165e18d",
+     "name": "Fried Cauliflower",
+     "price": 700
+    },
+    {
+     "id": "3e414e58-0af4-4fe1-912f-34f0c3b77702",
+     "name": "Fried Mozzarella Sticks (4)",
+     "price": 700
+    },
+    {
+     "id": "00d7d7bb-4137-4660-b961-503777bdf9be",
+     "name": "Sweet Potato Fries",
+     "price": 700
+    },
+    {
+     "id": "7fdf5a58-c1b9-466b-96d3-7ca6b44a3e5b",
+     "name": "Truffle Parmesan Fries",
+     "price": 800
+    },
+    {
+     "id": "49d97f26-63b2-4b48-a1ce-91bc4bd5a6b1",
+     "name": "Meatballs",
+     "price": 700
+    },
+    {
+     "id": "a3df3588-c783-47a8-9a1f-d3e01dae4b31",
+     "name": "Quesadilla",
+     "price": 900
+    },
+    {
+     "id": "8005f077-a32b-4b9a-afd3-bd24368d4c94",
+     "name": "Quesadilla with Grilled Chicken",
+     "price": 1500
+    },
+    {
+     "id": "cc694044-9fa3-4f9e-8bd6-70ae848315e9",
+     "name": "Evergreen Avocado Summer Roll",
+     "price": 1200
+    },
+    {
+     "id": "fb03e3d7-9237-4b3c-9927-77933b2a4476",
+     "name": "Evergreen Shrimp Summer Roll",
+     "price": 1400
+    },
+    {
+     "id": "d4ab07cc-9e8d-4754-ac94-d966dca6889e",
+     "name": "Hell Yeah Chicken Tender (Spicy)",
+     "price": 900
+    },
+    {
+     "id": "4cbecf5a-cd4e-48fa-8736-5026929e5ae9",
+     "name": "Plain Chicken Tender",
+     "price": 900
+    },
+    {
+     "id": "c9c417c4-8f2e-4d7e-876e-7fa5835526ba",
+     "name": "Thai Style Sweet Chili Chicken",
+     "price": 1200
+    },
+    {
+     "id": "faf870f6-6152-46f0-9de1-89381bb290a3",
+     "name": "Cheese Burger Sliders",
+     "price": 800
+    }
+   ]
+  },
+  {
    "name": "BURGERS-SANDWICHES",
    "items": [
     {
@@ -659,6 +729,92 @@
      "id": "5f808d4f-f427-4381-8e6b-63c1df86d6e9",
      "name": "Crispy Fried Chicken Burger",
      "price": 1600
+    }
+   ]
+  },
+  {
+   "name": "Evergreen Specialties",
+   "items": [
+    {
+     "id": "5adb4ebd-0857-48f0-9f40-46830618884c",
+     "name": "Falafel Pita Pockets",
+     "price": 1500
+    },
+    {
+     "id": "0ce91f32-1a7e-4e8b-9271-c4e6dc8ea91a",
+     "name": "Fish & Chips",
+     "description": "JP Seafood’s award winning fish & chips comes to evergreen! golden dipt fried white fish with homemade coleslaw and fries",
+     "price": 2000
+    },
+    {
+     "id": "e862863d-e48a-4845-8a24-1861b241b7a5",
+     "name": "Chicken Parmesan",
+     "description": "Breaded chicken cutlet and penne smothered in homemade red sauce, topped with mozzarella, white cheddar and parmesan",
+     "price": 1800
+    },
+    {
+     "id": "a0435d5a-6205-461e-b0ac-2c634719e7ac",
+     "name": "Eggplant Parmesan",
+     "description": "breaded eggplant cutlet and penne smothered in homemade red sauce, topped with mozzarella, white cheddar and parmesan",
+     "price": 1800
+    },
+    {
+     "id": "c6b66f66-9a29-4095-a5cf-055a25b161fa",
+     "name": "Shepherd's Pie",
+     "description": "ground beef with seasoned vegetable topped with mashed potatoes and a savory blend of mozzarella and cheddar served with mixed green salad",
+     "price": 1700
+    },
+    {
+     "id": "0f2f56f8-58b2-4ab8-b4cd-c492103fca5b",
+     "name": "Creamy Broccoli Bacon Penne",
+     "description": "Broccoli bacon penne in creamy mushroom sauce",
+     "price": 1300
+    },
+    {
+     "id": "1d7e02a5-cf1c-420a-9e01-3bd5a00e9005",
+     "name": "Italian Meatballs and Spaghetti",
+     "description": "Jumbo Italian meatballs with Spaghetti pasta in homemade red sauce",
+     "price": 1600
+    },
+    {
+     "id": "0f9befba-6a92-434e-a706-4bc17c8f67ca",
+     "name": "Coconut Curry Shrimp",
+     "description": "Grilled shrimp in coconut curry sauce, served over vegetables and jasmine rice",
+     "price": 2200
+    },
+    {
+     "id": "75af9038-6395-4d86-bc2a-41e5eed4f45d",
+     "name": "Fried Shrimp Platter",
+     "description": "golden dipt fried shrimp with homemade coleslaw and fries",
+     "price": 2300
+    },
+    {
+     "id": "30858bf3-a177-4252-8769-5b0c9b184d23",
+     "name": "Surf & Turf Sliders",
+     "description": "a trio of mini burgers! Lamb, shrimp, lettuce, tomato, red onion, feta, tzatziki sauce and garlic aioli. Served with homemade pasta salad",
+     "price": 2100
+    },
+    {
+     "id": "fc37d615-1e3b-473d-a092-cf1bbce80bd2",
+     "name": "Grilled Chicken Quesadilla",
+     "description": "a crispy tortilla filled with grilled chicken, refried beans and a blend of mozzarella and cheddar",
+     "price": 1500
+    },
+    {
+     "id": "f935a87a-404b-4897-8d69-99b2697d77fd",
+     "name": "Grilled Salmon Fillet",
+     "description": "grilled Faroe island salmon fillet with steamed broccoli, carrot and jasmine rice",
+     "price": 2300
+    },
+    {
+     "id": "d0f54b2e-52e6-48b6-ae67-8242d16b052f",
+     "name": "Shrimp Scampi",
+     "price": 2500
+    },
+    {
+     "id": "cdf7d24e-1989-4bf4-9fc5-fca9815da8ba",
+     "name": "Golden Seafood Duo",
+     "price": 2300
     }
    ]
   },
@@ -851,9 +1007,9 @@
    "name": "PASTRY",
    "items": [
     {
-     "id": "0391f6dd-2cad-4ecc-b0c2-ca6f596c33fb",
-     "name": "Pumpkin Pie",
-     "price": 400
+     "id": "944faa31-ebe9-4bb8-aa82-72908022085c",
+     "name": "Sticky Bun",
+     "price": 600
     },
     {
      "id": "27468f47-7671-4f75-b3f7-d02733c2c9fb",

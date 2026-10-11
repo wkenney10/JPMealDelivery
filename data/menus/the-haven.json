@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "toast",
  "sourceUrl": "https://order.toasttab.com/online/the-haven-jp",
- "fetchedAt": "2026-10-05T22:42:51.674Z",
+ "fetchedAt": "2026-10-11T18:14:22.174Z",
  "categories": [
   {
    "name": "MAINS",
@@ -15,27 +15,10 @@
      "price": 2300
     },
     {
-     "id": "f5e27559-6c52-4b82-bbd1-73e425b79b57",
-     "name": "Bar STEAK",
-     "description": "Grilled sirloin steak w/red wine sauce, mash potato, roast brussels sprouts, tossed w/olive oil, bacon, parmesan, smoked paprika",
-     "price": 3600
-    },
-    {
-     "id": "708b0f76-c6eb-4e5a-8db1-894ad86e3473",
-     "name": "SLIDERS",
-     "price": 1800
-    },
-    {
-     "id": "7711d672-6a6d-4e3f-8e6a-c598364a55d2",
-     "name": "White Pudding",
-     "description": "Rosemary chicken sausage by PigRock, clapshot (mash potatoes w/turnip), spinach, mushroom gravy",
-     "price": 2500
-    },
-    {
-     "id": "c1ea4ebd-b0f5-4803-af81-beec1fc50f30",
-     "name": "Hunter's Chicken",
-     "description": "Herb-roasted hal� chicken w/ mushroom gravy, warm potato salad w/ mustard and herb yoghurt dressing tossed w/ panko and bacon crumble",
-     "price": 2900
+     "id": "2b92b406-38ae-464c-9a75-ba63dae01819",
+     "name": "Fish and Chips",
+     "description": "Beer battered haddock, hand cut chips, minted mushy peas, and house tartar sauce.",
+     "price": 2300
     },
     {
      "id": "23135b09-7505-4630-93ed-ec46252e7350",
@@ -44,16 +27,33 @@
      "price": 2400
     },
     {
-     "id": "2b92b406-38ae-464c-9a75-ba63dae01819",
-     "name": "Fish and Chips",
-     "description": "Beer battered haddock, hand cut chips, minted mushy peas, and house tartar sauce.",
-     "price": 2300
+     "id": "f5e27559-6c52-4b82-bbd1-73e425b79b57",
+     "name": "Bar STEAK",
+     "description": "Grilled sirloin steak w/red wine sauce, mash potato, roast brussels sprouts, tossed w/olive oil, bacon, parmesan, smoked paprika",
+     "price": 3600
+    },
+    {
+     "id": "7711d672-6a6d-4e3f-8e6a-c598364a55d2",
+     "name": "White Pudding",
+     "description": "Rosemary chicken sausage by PigRock, clapshot (mash potatoes w/turnip), spinach, mushroom gravy",
+     "price": 2500
     },
     {
      "id": "4914c2d7-bc9b-4b06-b8e1-baefb82dc839",
      "name": "Scottish Salmon",
      "description": "Wester Ross sashimi grade Scottish Salmon pan roasted on a bed of frregola and cannellini w/ broccolini frito garnish",
      "price": 3100
+    },
+    {
+     "id": "c1ea4ebd-b0f5-4803-af81-beec1fc50f30",
+     "name": "Hunter's Chicken",
+     "description": "Herb-roasted hal� chicken w/ mushroom gravy, warm potato salad w/ mustard and herb yoghurt dressing tossed w/ panko and bacon crumble",
+     "price": 2900
+    },
+    {
+     "id": "708b0f76-c6eb-4e5a-8db1-894ad86e3473",
+     "name": "SLIDERS",
+     "price": 1800
     },
     {
      "id": "5fcdbf35-2015-4b58-ba51-5b989a9964c1",
@@ -90,6 +90,11 @@
      "id": "d0528bcb-590c-4f29-8f7c-1b6c46d4c50e",
      "name": "H Salad w/Chicken",
      "price": 2400
+    },
+    {
+     "id": "2a73b5cc-1341-493d-9047-7f95fcb08655",
+     "name": "H Salad w/Salmon",
+     "price": 2900
     }
    ]
   },
@@ -114,35 +119,23 @@
    ]
   },
   {
-   "name": "APPS",
+   "name": "Brunch - Starters",
    "items": [
     {
-     "id": "279f4086-7bdf-4ad7-9f77-2c67d5649000",
-     "name": "Scotch Egg D",
+     "id": "8056fba5-179b-482e-8c93-6da341cfcbb4",
+     "name": "Scotch Egg b",
      "description": "Sausage-wrapped hard boiled egg, breaded and deep fried. Served w/ a small salad and mustard.",
-     "price": 1325
+     "price": 1300
     },
     {
-     "id": "fc12bbec-45e4-4069-a6e2-de441dcb92c4",
-     "name": "Haddie Croquettes",
-     "description": "Smoked Haddock croquettes w/ cherry chili aoili",
-     "price": 1325
+     "id": "7e019681-e227-4084-9f29-38dec5d695bb",
+     "name": "Cheese Bridies. b",
+     "price": 1300
     },
     {
-     "id": "86d1c846-3171-4776-8f87-48e6aa9417e6",
-     "name": "House Salad",
-     "description": "Mixed leaves, cucumber, tomato w/vinaigrette (vegetarian)",
-     "price": 1500
-    },
-    {
-     "id": "48fac2d1-af8b-4891-8eb1-a6090512c12e",
-     "name": "Beet Salad",
-     "price": 1600
-    },
-    {
-     "id": "3150c5ad-c084-426a-b31a-36852f92ebfc",
-     "name": "Beet Salad No Cheese",
-     "price": 1600
+     "id": "c6afb0ef-dcbb-4002-a98b-4fcd7ec281ea",
+     "name": "Lamb Bridies. b",
+     "price": 1300
     },
     {
      "id": "b25fc3ce-1ba2-45c6-904d-0f1bc962e33d",
@@ -150,142 +143,161 @@
      "price": 1300
     },
     {
-     "id": "42e1a431-ac6e-4134-a174-20a25a1e6c26",
-     "name": "WINGS- Buffalo",
+     "id": "fc12bbec-45e4-4069-a6e2-de441dcb92c4",
+     "name": "Haddie Croquettes",
+     "description": "Smoked Haddock croquettes w/ cherry chili aoili",
+     "price": 1200
+    },
+    {
+     "id": "d28ed3f8-18dc-41d0-b293-16d4e46223b6",
+     "name": "House Salad b",
      "price": 1400
     },
     {
-     "id": "0575e42b-318c-4a3c-baa4-88064417da77",
-     "name": "WINGS Barbecue",
-     "price": 1400
-    },
-    {
-     "id": "382ff581-6330-4baa-aee6-f0b6e83a70b3",
-     "name": "Mac and Cheese",
-     "description": "Classic Mac and Cheese made to order. (vegetarian)",
-     "price": 1600
-    },
-    {
-     "id": "e4cdb4b2-4c6a-4fd8-8583-b9217932937a",
-     "name": "Mac and Cheese WITH BACON",
-     "price": 1825
-    },
-    {
-     "id": "c914f5bf-03b2-44a1-a5fc-a1aabf3be2ac",
-     "name": "Haven Hot Dog w/ skinny fries",
-     "price": 1625
-    },
-    {
-     "id": "7f2d18d7-d34a-45af-8421-5031beab8ea6",
-     "name": "Cheese Bridie",
-     "description": "Cheese, caramelized onion, and potato filling. (vegetarian)",
-     "price": 1300
-    },
-    {
-     "id": "9b9832b0-7fa3-4715-9402-8d4e88ab1e6d",
-     "name": "Lamb Bridie",
-     "price": 1300
+     "id": "6eb18568-ef36-4928-9c35-e6693f99077d",
+     "name": "Oatcakes.b",
+     "price": 600
     }
    ]
   },
   {
-   "name": "MAINS",
+   "name": "Brunch - Entrees",
    "items": [
     {
-     "id": "4a3ee0c5-922f-46e9-b6de-2f06f5394897",
-     "name": "Haven Burger. 2GO",
-     "description": "Grilled 8oz beef chuck, Huntsman cheese, bacon-onion marmalade, house pickle sauce, lettuce, farm tomato, and thick hand cut chips.",
-     "price": 2325
-    },
-    {
-     "id": "cded7500-1249-4cf1-a975-bcb88f5f60c0",
-     "name": "VEGETABLE CURRY",
-     "description": "Butternut squash, chickpea, carrot, onion, green beans, squash delicata",
-     "price": 2425
-    },
-    {
-     "id": "90da0a56-685f-4530-a900-eb7842f25123",
-     "name": "Chicken Pie",
-     "description": "Chicken with cream filling topped with crusty pastry.",
-     "price": 1900
-    },
-    {
-     "id": "57ceb15d-65d8-4300-94b4-d01ce825d3d8",
-     "name": "Haven Burger NO CHEESE",
-     "description": "The Burger as you know it but with NO CHEESE. We do not offer any other modifications",
-     "price": 2225
-    },
-    {
-     "id": "18f74c4d-a37e-444a-95fd-204f62281884",
-     "name": "Veggie Burger. 2GO",
-     "price": 2025
-    }
-   ]
-  },
-  {
-   "name": "PIZZA",
-   "items": [
-    {
-     "id": "c01a2e40-1b53-4dac-a3ed-d3f55cdec3d8",
-     "name": "Pepperoni PIZZA",
-     "description": "Cup and char pepperoni, mozz-provolone blend, tomato sauce",
-     "price": 2025
-    },
-    {
-     "id": "7a2523b5-b7f2-4e59-b24c-4b804407f3f8",
-     "name": "Sausage and Pepper PIZZA",
-     "description": "Sausage and pepperoni pizza, onion, tomato sauce",
-     "price": 2125
-    },
-    {
-     "id": "ee28cbf7-aded-4e64-a75c-a6db6fea0a31",
-     "name": "Lamb PIZZA",
-     "description": "garlic paste, ricotta, cheddar-moz, potato, cherry tomato, arugula",
-     "price": 2275
-    },
-    {
-     "id": "078bd2fa-124d-46da-a9a7-3b7abd23172a",
-     "name": "5-Cheese Garlic PIZZA",
-     "description": "A decadent five cheese pizza, roasted garlic, mozzarella, ricotta, Stilton, cheddar and Pecorino.",
-     "price": 2225
-    },
-    {
-     "id": "7e0b81b8-c052-4507-a3ce-5eaefa8c611a",
-     "name": "Buffalo Chicken PIZZA",
-     "price": 2125
-    },
-    {
-     "id": "f39974b8-0904-4275-b407-31a7ce10d23c",
-     "name": "Broccolini PIZZA",
+     "id": "03b9af09-d956-4a6a-8ef5-b21b8c2c389e",
+     "name": "Brunch Fish Cakes",
      "price": 2200
     },
     {
-     "id": "164ad521-bdc6-4248-87b2-3c874b8760e7",
-     "name": "VEGAN PIZZA",
-     "description": "A vegan pizza lovingly crafted for your healthy pleasure.",
+     "id": "3800fadc-7a8b-4f0e-8f49-6897543128f8",
+     "name": "Bubble and Squeak",
+     "price": 2000
+    },
+    {
+     "id": "8de0aeeb-9828-4e17-a1d9-32b738c299b7",
+     "name": "French Toast",
+     "price": 2000
+    },
+    {
+     "id": "32ae0a23-f35a-4571-bff9-4b52472ee5e6",
+     "name": "Brunch Burger (fried egg)",
+     "description": "8oz beef chuck, Huntsman cheese, bacon-onion marmalade, house pickle sauce, lettuce, tomato, topped with fried egg and served with chips",
      "price": 2300
     },
     {
-     "id": "54e106a6-ab86-4428-b975-d378d0f6ba55",
-     "name": "Plain Cheese PIZZA",
-     "price": 1825
+     "id": "2b054007-664f-49df-8bd0-3bc80713163b",
+     "name": "Full Scotch Breakfast",
+     "price": 2300
+    },
+    {
+     "id": "9880b992-4852-46c3-9e97-faab69d731c3",
+     "name": "BLT Sandwich BLT",
+     "price": 1600
+    },
+    {
+     "id": "fce50e47-56d9-4ee6-9c30-e090fd3006e3",
+     "name": "Vegetable Quiche",
+     "price": 2000
+    },
+    {
+     "id": "d06d39e0-df9a-4ed9-992a-6896ae759b7d",
+     "name": "Smoked Salmon Toast",
+     "price": 1800
+    },
+    {
+     "id": "c553ca31-2b5f-4619-a330-3ac9f85df62c",
+     "name": "Fish Sandwich",
+     "price": 1700
+    },
+    {
+     "id": "3244b7c8-869a-46a1-9dab-6431d5290a17",
+     "name": "Sheperds Pie",
+     "price": 2500
+    },
+    {
+     "id": "34b2f3f8-dd1d-4c1d-8eff-04aa7755193e",
+     "name": "Scotch Egg SALAD",
+     "price": 1900
+    },
+    {
+     "id": "c653e297-3dad-41ff-9a3e-f6cb90b62d8e",
+     "name": "Veggie Brunch Burger (egg)",
+     "price": 2200
+    },
+    {
+     "id": "e031e38c-8f2a-41fa-ac8f-803ad47af086",
+     "name": "Veggie Burger (no egg)",
+     "price": 2100
+    },
+    {
+     "id": "8840f6da-d80d-4650-b536-39d5923d2e58",
+     "name": "Poached Egg",
+     "price": 300
+    },
+    {
+     "id": "15739144-4ada-4a64-b946-9e4822b44dc1",
+     "name": "Side -Bacon",
+     "price": 800
+    },
+    {
+     "id": "9511bb6b-2304-46e3-a096-67c7a276e6d9",
+     "name": "Side - Sausage",
+     "price": 800
+    },
+    {
+     "id": "a9f8fa59-8e9d-40b5-9f3f-9707adb04266",
+     "name": "Side - Beans",
+     "price": 400
+    },
+    {
+     "id": "8878d9a0-3e53-40fd-b585-6e8662a629b1",
+     "name": "Side - Toast",
+     "price": 400
+    },
+    {
+     "id": "0d471e21-583e-48b4-acdc-e7e844aca7c6",
+     "name": "Chips",
+     "price": 800
+    },
+    {
+     "id": "7ebd1dfa-1714-4e12-a5e3-1cd212d9cf6a",
+     "name": "Lamb Hash",
+     "price": 2100
     }
    ]
   },
   {
-   "name": "Dessert",
+   "name": "Brunch - Dessert",
    "items": [
     {
-     "id": "e2fd0a10-a42a-4b4e-897f-3f9480958ea5",
-     "name": "Deep Fried Mars Bar",
-     "description": "The infamous Scottish dessert invented in Stonehaven at The Haven Chip bar.",
-     "price": 1025
+     "id": "277160f8-1404-4000-abaa-ab5454efee1b",
+     "name": "Deep Fried Mars Bar .b",
+     "price": 1000
     },
     {
-     "id": "d8e91bb2-fdfa-4bd3-b6a3-9dbd8a8e1977",
-     "name": "Sticky Toffee Pudding",
-     "description": "House made rich date cake w/ a toffee sauce and ice cream",
-     "price": 1225
+     "id": "12c8bef3-7923-4170-9956-4ef9ea66b811",
+     "name": "Sticky Toffee Pudding .b",
+     "price": 1100
+    },
+    {
+     "id": "8eda9ce1-291f-4a0c-8ea3-4440c7475e7c",
+     "name": "Poached Pear .b",
+     "price": 1100
+    }
+   ]
+  },
+  {
+   "name": "Brunch - Sides",
+   "items": [
+    {
+     "id": "0bbf1ad6-ac34-4940-9e0f-7ffc4c01aec3",
+     "name": "Home Fries",
+     "price": 800
+    },
+    {
+     "id": "bdf7a361-4d9c-4abe-9e74-04eded591866",
+     "name": "Fried Egg",
+     "price": 300
     }
    ]
   }
