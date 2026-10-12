@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "clover",
  "sourceUrl": "https://don-tequeno-y-dona-arepa-boston.cloveronline.com/menu/all",
- "fetchedAt": "2026-10-07T19:23:45.396Z",
+ "fetchedAt": "2026-10-12T21:44:59.056Z",
  "dinnerAvailable": true,
  "categories": [
   {
@@ -10923,9 +10923,9 @@
      "price": 600
     },
     {
-     "id": "31MDG2DQNQG02",
-     "name": "Chocoflan",
-     "price": 650
+     "id": "VG6767DEGBZ7Y",
+     "name": "Flan (Quesillo)",
+     "price": 600
     },
     {
      "id": "TYM4K73676DT0",

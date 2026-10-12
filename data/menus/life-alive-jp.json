@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "menuapp",
  "sourceUrl": "https://order.lifealive.com/venue/?id=1691&order-type=6",
- "fetchedAt": "2026-10-10T17:58:41.609Z",
+ "fetchedAt": "2026-10-12T21:51:51.640Z",
  "categories": [
   {
    "name": "New & Seasonal",
@@ -49,12 +49,6 @@
      "name": "Butternut Bisque",
      "description": "Roasted butternut squash, green apple, cinnamon & nutmeg topped with scallions Contains coconut and allium. VG, DF, GF, SF",
      "price": 795
-    },
-    {
-     "id": "c13662c3-2a92-4948-b7e4-60245e0fb3af",
-     "name": "Greek Yogurt Parfait",
-     "description": "Greek yogurt layered with strawberries, blueberries, house granola and housemade strawberry syrup. Contains milk. GF, NF, SF",
-     "price": 895
     },
     {
      "id": "0555121e-5d82-4c28-aab6-ee0b12ef0112",
@@ -920,6 +914,12 @@
      "name": "Avocado Chocolate Mousse",
      "description": "Decadent, smooth, rich chocolate mousse made with avocado, raw cacao, agave, coconut cream, vanilla, cinnamon & sea salt. Contains coconut. VG, DF, GF, SF",
      "price": 895
+    },
+    {
+     "id": "6283f26e-9c7f-47a0-925e-f67936978530",
+     "name": "Strawberries & Cream Power Chia",
+     "description": "Gluten-free oats with strawberries, coconut yogurt, banana, chia, hemp seeds, vanilla, coconut flakes & housemade strawberry syrup. Contains coconut. VG, DF, GF, SF",
+     "price": 725
     }
    ]
   },
