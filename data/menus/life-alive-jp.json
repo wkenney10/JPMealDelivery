@@ -3,11 +3,29 @@
  "source": "scraped",
  "platform": "menuapp",
  "sourceUrl": "https://order.lifealive.com/venue/?id=1691&order-type=6",
- "fetchedAt": "2026-10-12T21:51:51.640Z",
+ "fetchedAt": "2026-10-13T20:00:16.444Z",
  "categories": [
   {
    "name": "New & Seasonal",
    "items": [
+    {
+     "id": "67c4396a-4aee-496d-9f26-92c95760dc9b",
+     "name": "Spicy Feta Farro Bowl",
+     "description": "Roasted Row 7 koginut squash, spicy feta with jalapeño, farro, kale, celery, pomegranate, toasted pumpkin & sunflower seeds, fresh herbs and citrus tahini dressing. Contains wheat, milk, sesame and allium. NF, SF.",
+     "price": 1595
+    },
+    {
+     "id": "c864fe13-645c-4841-bd1e-f159e04abf5f",
+     "name": "Roasted Koginut Squash",
+     "description": "Roasted Row 7 Koginut squash with spicy feta dip. Contains milk and allium. GF, NF, SF.",
+     "price": 650
+    },
+    {
+     "id": "be6222a1-e169-470c-b0b8-87d057fe4271",
+     "name": "Iced Cookie Butter Latte",
+     "description": "Iced espresso, housemade cookie butter, maple vanilla cold foam & chocolate cookie crumble. Contains coconut. VG, DF, GF, SF",
+     "price": 725
+    },
     {
      "id": "599d1673-4dbb-4442-b6a4-556fe2be79c7",
      "name": "All-Day Breakfast Burrito",
@@ -23,7 +41,7 @@
     {
      "id": "4df8cb1b-85ed-41fe-921a-bb5997161b99",
      "name": "Cookie Butter Protein Shake",
-     "description": "Housemade cookie butter, banana, coconut gelato, vanilla whey protein powder, dates and coconut milk topped with chocolate cookie crumble and a chocolate drizzle. Contains milk and coconut. GF, SF",
+     "description": "Housemade cookie butter, banana, coconut gelato, vanilla whey protein powder, dates and oat milk topped with chocolate cookie crumble and a chocolate drizzle. Contains milk and coconut. GF, SF",
      "price": 1125
     },
     {
@@ -48,6 +66,18 @@
      "id": "2d0c5bcd-b995-43ed-bb24-b8317c7cc394",
      "name": "Butternut Bisque",
      "description": "Roasted butternut squash, green apple, cinnamon & nutmeg topped with scallions Contains coconut and allium. VG, DF, GF, SF",
+     "price": 795
+    },
+    {
+     "id": "c13662c3-2a92-4948-b7e4-60245e0fb3af",
+     "name": "Greek Yogurt Parfait",
+     "description": "Greek yogurt layered with strawberries, blueberries, house granola and housemade strawberry syrup. Contains milk. GF, NF, SF",
+     "price": 895
+    },
+    {
+     "id": "4e368464-07ed-489d-9a7e-e6d79ee2b4d3",
+     "name": "Organic Fruit Cup",
+     "description": "Fresh-cut strawberries, watermelon, pineapple and blueberries. VG, GF, DF, NF, SF.",
      "price": 795
     },
     {
@@ -85,24 +115,6 @@
      "name": "Banana Bread Matcha",
      "description": "Iced matcha, banana, cinnamon, maple and vanilla with oat milk. VG, GF, DF, NF, SF.",
      "price": 725
-    },
-    {
-     "id": "67c4396a-4aee-496d-9f26-92c95760dc9b",
-     "name": "Spicy Feta Farro Bowl",
-     "description": "Roasted Row 7 koginut squash, spicy feta with jalapeño, farro, kale, celery, pomegranate, toasted pumpkin & sunflower seeds, fresh herbs and citrus tahini dressing. Contains wheat, milk, sesame and allium. NF, SF.",
-     "price": 1595
-    },
-    {
-     "id": "be6222a1-e169-470c-b0b8-87d057fe4271",
-     "name": "Iced Cookie Butter Latte",
-     "description": "Iced espresso, housemade cookie butter, maple vanilla cold foam & chocolate cookie crumble. Contains coconut. VG, DF, GF, SF",
-     "price": 725
-    },
-    {
-     "id": "c864fe13-645c-4841-bd1e-f159e04abf5f",
-     "name": "Roasted Koginut Squash",
-     "description": "Roasted Row 7 Koginut squash with spicy feta dip. Contains milk and allium. GF, NF, SF.",
-     "price": 650
     }
    ]
   },
@@ -387,6 +399,12 @@
    "name": "Small Bites",
    "items": [
     {
+     "id": "a940b06f-96fd-449b-b1ef-6c8afba8d22b",
+     "name": "Avocado Toast",
+     "description": "Avocado with lemon, chili flakes, sea salt & alfalfa sprouts on a whole grain muffin Cannot be made wheat free. Contains wheat and soy. VG, DF, NF",
+     "price": 925
+    },
+    {
      "id": "3a198fbe-0a4c-4598-b43b-f3114880901b",
      "name": "Hummus & Pita Plate",
      "description": "Hummus with lemon tahini, cucumber, kalamata olives, fresh herbs, crispy chickpeas and warm whole grain pita. Make it wheat free by removing the pita. Contains wheat, sesame and allium. VG, DF, NF, SF",
@@ -415,12 +433,6 @@
      "name": "Spinach Feta Fritters",
      "description": "5 spinach feta fritters with basil green goddess dipping sauce. Contains milk, eggs, allium and soy. GF, NF.",
      "price": 650
-    },
-    {
-     "id": "a940b06f-96fd-449b-b1ef-6c8afba8d22b",
-     "name": "Avocado Toast",
-     "description": "Avocado with lemon, chili flakes, sea salt & alfalfa sprouts on a whole grain muffin Cannot be made wheat free. Contains wheat and soy. VG, DF, NF",
-     "price": 925
     },
     {
      "id": "66b450fa-9fb0-41da-aec6-684a294db398",
@@ -831,8 +843,8 @@
     },
     {
      "id": "7bc778c9-2d74-469d-82e2-4c79bb237d86",
-     "name": "Strawberry Basil Lemonade",
-     "description": "Strawberry lemonade with fresh basil. VG, DF, GF, NF, SF",
+     "name": "Strawberry Lemonade",
+     "description": "Lemon, agave & strawberries VG, DF, GF, NF, SF",
      "price": 545
     },
     {
@@ -868,7 +880,7 @@
      "id": "a17578e5-925d-49a5-8c7c-8aa955a0e35a",
      "name": "Wheatgrass 1oz",
      "description": "VG, DF, GF, NF, SF",
-     "price": 395
+     "price": 425
     },
     {
      "id": "dec16756-72dc-4498-ab24-c0c5349c6144",

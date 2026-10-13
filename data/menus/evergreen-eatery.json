@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "toast",
  "sourceUrl": "https://order.toasttab.com/online/evergreen-eatery",
- "fetchedAt": "2026-10-11T18:09:16.632Z",
+ "fetchedAt": "2026-10-13T19:57:22.812Z",
  "categories": [
   {
    "name": "HOT COFFEE",
@@ -805,16 +805,6 @@
      "name": "Grilled Salmon Fillet",
      "description": "grilled Faroe island salmon fillet with steamed broccoli, carrot and jasmine rice",
      "price": 2300
-    },
-    {
-     "id": "d0f54b2e-52e6-48b6-ae67-8242d16b052f",
-     "name": "Shrimp Scampi",
-     "price": 2500
-    },
-    {
-     "id": "cdf7d24e-1989-4bf4-9fc5-fca9815da8ba",
-     "name": "Golden Seafood Duo",
-     "price": 2300
     }
    ]
   },
@@ -1006,11 +996,6 @@
   {
    "name": "PASTRY",
    "items": [
-    {
-     "id": "944faa31-ebe9-4bb8-aa82-72908022085c",
-     "name": "Sticky Bun",
-     "price": 600
-    },
     {
      "id": "27468f47-7671-4f75-b3f7-d02733c2c9fb",
      "name": "Apple Cider Donut",

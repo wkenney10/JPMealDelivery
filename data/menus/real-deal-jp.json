@@ -3,12 +3,24 @@
  "source": "scraped",
  "platform": "slice",
  "sourceUrl": "https://slicelife.com/restaurants/ma/jamaica-plain/02130/the-real-deal/menu",
- "fetchedAt": "2026-10-12T21:45:00.690Z",
+ "fetchedAt": "2026-10-13T19:53:12.929Z",
  "dinnerAvailable": true,
  "categories": [
   {
    "name": "Seasonal Menu",
    "items": [
+    {
+     "id": "slice-27427542",
+     "name": "Autumn Salad",
+     "description": "sage roasted butternut squash, dried cranberries, goat cheese, spiced toasted pumpkin seeds over mixed greens with Apple cider vinaigrette",
+     "price": 1619
+    },
+    {
+     "id": "slice-27427543",
+     "name": "Loaded Sweet Tater Tots",
+     "description": "sweet potato tots, chopped pumpkin spice bacon, goat cheese crumbles, scallions & drizzled with sweet and spicy bourbon glaze",
+     "price": 1458
+    },
     {
      "id": "slice-26520297",
      "name": "\"The Viral Cheese Steak\"",

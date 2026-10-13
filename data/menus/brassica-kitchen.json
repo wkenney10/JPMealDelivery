@@ -1,0 +1,43 @@
+{
+ "restaurant": "brassica-kitchen",
+ "source": "scraped",
+ "platform": "toast",
+ "sourceUrl": "https://order.toasttab.com/online/brassica-kitchen-cafe-new-3712-washington-street",
+ "fetchedAt": "2026-10-13T19:54:01.292Z",
+ "categories": [
+  {
+   "name": "Cocktails",
+   "items": [
+    {
+     "id": "7c792d9d-662d-49d5-8069-9daa540c3be6",
+     "name": "Pep Talk",
+     "price": 2100
+    },
+    {
+     "id": "78b98d93-6bf7-48c9-89ff-79e693fc910a",
+     "name": "Gray Gardens",
+     "description": "tequila or mezcal, lavender, elderflower, lime, & orange blossom! Shake or stir with ice and serve on the rocks!",
+     "price": 2000
+    },
+    {
+     "id": "5f53af1b-f85d-455c-9757-8f4309992716",
+     "name": "High Dive",
+     "description": "two types of rum, cucumber, lime, & coconut",
+     "price": 2000
+    },
+    {
+     "id": "c9a20058-9588-4998-bda4-e518afd464fd",
+     "name": "Like Lovers Do",
+     "description": "japanese whisky, creme de cacao, lillet blanc, & salt",
+     "price": 2100
+    },
+    {
+     "id": "b2955dcf-9e2f-454d-98f2-cfc8f12e6592",
+     "name": "Meguro #1",
+     "description": "rye whiskey, lime, ginger, vanilla, and spirulina! at this point its a BK classic! pour over ice and party!",
+     "price": 1800
+    }
+   ]
+  }
+ ]
+}
