@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "menuapp",
  "sourceUrl": "https://order.lifealive.com/venue/?id=1691&order-type=6",
- "fetchedAt": "2026-10-13T20:00:16.444Z",
+ "fetchedAt": "2026-10-15T17:54:14.327Z",
  "categories": [
   {
    "name": "New & Seasonal",
@@ -292,18 +292,6 @@
      "name": "Crispy Falafel Pita",
      "description": "Crispy baked falafel with hummus, mediterranean salad, shaved vegetables, fresh herbs, harissa zhoug & lemon tahini sauces in a whole grain pita. Cannot be made wheat-free. Contains wheat, sesame and allium. VG, DF, NF, SF",
      "price": 1425
-    },
-    {
-     "id": "8f644308-70bb-4fb2-8492-28fafa4e1100",
-     "name": "Teriyaki Wrap",
-     "description": "Teriyaki glazed tofu, roasted shiitake & oyster mushrooms, broccoli, carrots, black sesame seeds, scallions and brown rice in a whole wheat tortilla. Cannot be made wheat free. Contains wheat, sesame, allium and soy. VG, DF, NF",
-     "price": 1450
-    },
-    {
-     "id": "3f7dfd88-50ab-40a5-8563-0cbdb73f4df4",
-     "name": "Teriyaki Wrap",
-     "description": "Sticky sesame tofu, broccoli, chili garlic mushrooms with caramelized onions, carrots, black sesame, scallions, brown rice and teriyaki sauce in a whole wheat tortilla. Cannot be made wheat free. Contains wheat, sesame, allium and soy. VG, DF, NF",
-     "price": 1450
     },
     {
      "id": "7dbe5838-7626-43d5-8861-7499159d6512",

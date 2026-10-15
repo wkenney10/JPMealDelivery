@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "toast",
  "sourceUrl": "https://order.toasttab.com/online/sweet-rice-jp",
- "fetchedAt": "2026-10-05T22:41:43.428Z",
+ "fetchedAt": "2026-10-15T17:55:15.483Z",
  "categories": [
   {
    "name": "Japanese Hot Appetizers",
@@ -1510,6 +1510,151 @@
      "id": "3cb3d3ff-7f97-40bc-a2aa-05761fa0ba9c",
      "name": "apple juice",
      "price": 400
+    }
+   ]
+  },
+  {
+   "name": "Lunch Chicken",
+   "items": [
+    {
+     "id": "a3a5e59b-9633-41cb-a2ce-4d5ec113977e",
+     "name": "Chicken Eggplant Delight LH",
+     "price": 1400
+    },
+    {
+     "id": "8f766f00-b8f4-4152-8dee-37ce480533d0",
+     "name": "Spicy Chicken LH",
+     "price": 1400
+    },
+    {
+     "id": "d91e248a-52dd-45a4-a349-f2d3984ef38f",
+     "name": "Siam Garden LH",
+     "price": 1400
+    },
+    {
+     "id": "1cc91866-7a53-41af-8d9c-f5390ab3fe06",
+     "name": "Thunder Chicken LH",
+     "price": 1400
+    },
+    {
+     "id": "30ebc63f-1161-4944-a8e8-2030c9c4b055",
+     "name": "Chicken Typhoon LH",
+     "price": 1400
+    }
+   ]
+  },
+  {
+   "name": "Lunch Seafood",
+   "items": [
+    {
+     "id": "5b8ffbc6-2d7c-4392-b1c7-a8708aa911b5",
+     "name": "Spicy Shrimp LH",
+     "price": 1600
+    },
+    {
+     "id": "a2e8e4d4-3337-4db9-acdf-4a477d3c90ba",
+     "name": "Spicy Scallops LH",
+     "price": 1600
+    },
+    {
+     "id": "2a8ddced-c9e5-4452-b222-5f6b7f957c28",
+     "name": "Seafood w/Pic Pao Sauce LH",
+     "price": 1600
+    },
+    {
+     "id": "c67581b0-3a41-4266-94ca-b53f0fa22e7e",
+     "name": "Garlic Shrimp LH",
+     "price": 1600
+    },
+    {
+     "id": "a1d82c02-6d09-4e0f-aa50-513d90cbaa19",
+     "name": "Garlic Soft Shell Crab LH",
+     "price": 1600
+    }
+   ]
+  },
+  {
+   "name": "Lunch Chef's Suggestions",
+   "items": [
+    {
+     "id": "37e1def8-4587-46c1-a0f7-d1215e067d50",
+     "name": "Lemongrass Chicken LH",
+     "price": 1400
+    },
+    {
+     "id": "dffbb088-c7e0-40ba-83e7-3acd16b67ea9",
+     "name": "Crispy Chicken Basil LH",
+     "price": 1600
+    }
+   ]
+  },
+  {
+   "name": "Lunch Veg Corner",
+   "items": [
+    {
+     "id": "b4519a72-a1f7-4ab0-a8b8-4b1aef4c3c45",
+     "name": "Vegetable Basil LH",
+     "price": 1400
+    },
+    {
+     "id": "6ae0f53b-24a5-42f3-895a-d56d136097cd",
+     "name": "Sweet & Sour Vegetables LH",
+     "price": 1400
+    },
+    {
+     "id": "8defaa74-fcc1-4b01-b55d-37b37ec3d5f4",
+     "name": "Rama Garden LH",
+     "price": 1400
+    },
+    {
+     "id": "616822a0-2086-4839-a175-d450b9d54477",
+     "name": "Vegetable Eggplant Delight LH",
+     "price": 1400
+    },
+    {
+     "id": "de658bf9-7e44-4249-b374-f37b9c1bea57",
+     "name": "Tofu w/Vegetables LH",
+     "price": 1400
+    }
+   ]
+  },
+  {
+   "name": "Lunch Beef",
+   "items": [
+    {
+     "id": "d2c89488-68b7-47b8-80f4-46d52f094cba",
+     "name": "Beef Typhoon LH12",
+     "price": 1600
+    }
+   ]
+  },
+  {
+   "name": "Lunch Fried Rice",
+   "items": [
+    {
+     "id": "904f6267-a56a-40df-a9da-9ab29a4c228d",
+     "name": "Siam Fried Rice LH",
+     "price": 1400
+    },
+    {
+     "id": "a8298110-aba1-47fb-8209-79d11d0396cd",
+     "name": "Chicken Basil Fried Rice LH",
+     "price": 1400
+    },
+    {
+     "id": "eb5e6b0b-8844-45f4-9b2d-6f90f78d344a",
+     "name": "Pineapple Fried Rice LH",
+     "price": 1500
+    },
+    {
+     "id": "0ef7d298-a98c-4494-b214-5d178d2a2d52",
+     "name": "Vegetable Fried Rice LH",
+     "price": 1400
+    },
+    {
+     "id": "27da3f62-5a02-4fd6-b27c-d339fcdb569a",
+     "name": "Mango Fried Rice LH",
+     "price": 1500
     }
    ]
   }

@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "doordash",
  "sourceUrl": "https://order.online/store/top-mix-bar-&-kitchen-boston-522906/?pickup=true",
- "fetchedAt": "2026-10-14T18:12:23.952Z",
+ "fetchedAt": "2026-10-15T17:58:18.529Z",
  "categories": [
   {
    "name": "Sandwiches/Burgers (Lunch Menu)",
@@ -524,6 +524,18 @@
      "name": "Chicken Tenders",
      "description": "Serves 10+. Crispy chicken tenders with a choice of seven sauces: Whiskey BBQ, Honey Hot, Sweet Chili, Garlic Parmesan Herb, Mango Buffalo, Buffalo, or Plain.",
      "price": 7730
+    },
+    {
+     "id": "44702026388",
+     "name": "Fried Pork (Carnita)",
+     "description": "Serves 10+.",
+     "price": 5910
+    },
+    {
+     "id": "44702026389",
+     "name": "Fried Pork Belly (Chicharron De Cerdo)",
+     "description": "Serves 10+. Crispy fried pork skin typically seasoned with house spices.",
+     "price": 10455
     }
    ]
   }
