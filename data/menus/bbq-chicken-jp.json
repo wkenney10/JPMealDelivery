@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "doordash",
  "sourceUrl": "https://bbqchicken.order.online/business/82085/store/bb-q-chicken-jamaica-plain-ma-30177017?pickup=true",
- "fetchedAt": "2026-10-14T18:02:21.452Z",
+ "fetchedAt": "2026-10-16T17:25:29.288Z",
  "categories": [
   {
    "name": "Value Meal",
@@ -198,8 +198,8 @@
      "price": 200
     },
     {
-     "id": "37148502087",
-     "name": "Coke Zero [Can]",
+     "id": "37148502086",
+     "name": "Coke Diet [Can]",
      "price": 200
     },
     {
