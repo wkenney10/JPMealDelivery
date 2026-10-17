@@ -1,77 +1,80 @@
 {
- "generatedAt": "2026-10-16T17:39:19.944Z",
+ "generatedAt": "2026-10-17T16:38:29.023Z",
  "restaurants": {
   "achilitos-taqueria": {
    "slug": "achilitos-taqueria",
    "status": "unchanged",
-   "checkedAt": "2026-10-16T17:25:18.797Z",
-   "lastSuccessAt": "2026-10-16T17:25:18.797Z",
+   "checkedAt": "2026-10-17T16:25:53.279Z",
+   "lastSuccessAt": "2026-10-17T16:25:53.279Z",
    "itemCount": 91
   },
   "alexs-chimis": {
    "slug": "alexs-chimis",
    "status": "failed",
-   "checkedAt": "2026-10-16T17:25:18.818Z",
+   "checkedAt": "2026-10-17T16:25:53.293Z",
    "error": "Blocked by bot protection at https://order.chownow.com/order/23612/locations/34573"
   },
   "bbq-chicken-jp": {
    "slug": "bbq-chicken-jp",
    "status": "ok",
-   "checkedAt": "2026-10-16T17:25:29.288Z",
-   "lastSuccessAt": "2026-10-16T17:25:29.288Z",
-   "itemCount": 66,
+   "checkedAt": "2026-10-17T16:26:02.647Z",
+   "lastSuccessAt": "2026-10-17T16:26:02.647Z",
+   "itemCount": 63,
    "changes": [
-    "Added Coke Diet [Can] ($2.00)",
-    "Removed Coke Zero [Can]"
+    "Removed Boneless Combo",
+    "Removed Sandwich Combo",
+    "Removed Sandwich Deluxe Combo"
    ]
   },
   "blue-nile": {
    "slug": "blue-nile",
    "status": "unchanged",
-   "checkedAt": "2026-10-16T17:25:18.814Z",
-   "lastSuccessAt": "2026-10-16T17:25:18.814Z",
+   "checkedAt": "2026-10-17T16:25:53.290Z",
+   "lastSuccessAt": "2026-10-17T16:25:53.290Z",
    "itemCount": 41
   },
   "brassica-kitchen": {
    "slug": "brassica-kitchen",
-   "status": "unchanged",
-   "checkedAt": "2026-10-16T17:26:32.865Z",
+   "status": "failed",
+   "checkedAt": "2026-10-17T16:27:05.207Z",
    "lastSuccessAt": "2026-10-16T17:26:32.865Z",
-   "itemCount": 5
+   "itemCount": 5,
+   "error": "Blocked by bot protection at https://order.toasttab.com/online/brassica-kitchen-cafe-new-3712-washington-street"
   },
   "burritos-pizzeria": {
    "slug": "burritos-pizzeria",
    "status": "unchanged",
-   "checkedAt": "2026-10-16T17:25:18.815Z",
-   "lastSuccessAt": "2026-10-16T17:25:18.815Z",
+   "checkedAt": "2026-10-17T16:25:53.291Z",
+   "lastSuccessAt": "2026-10-17T16:25:53.291Z",
    "itemCount": 197
   },
   "cappys-pizza": {
    "slug": "cappys-pizza",
    "status": "unchanged",
-   "checkedAt": "2026-10-16T17:25:18.817Z",
-   "lastSuccessAt": "2026-10-16T17:25:18.817Z",
+   "checkedAt": "2026-10-17T16:25:53.292Z",
+   "lastSuccessAt": "2026-10-17T16:25:53.292Z",
    "itemCount": 268
   },
   "casa-verde": {
    "slug": "casa-verde",
-   "status": "unchanged",
-   "checkedAt": "2026-10-16T17:27:30.194Z",
+   "status": "failed",
+   "checkedAt": "2026-10-17T16:27:45.426Z",
    "lastSuccessAt": "2026-10-16T17:27:30.194Z",
-   "itemCount": 45
+   "itemCount": 45,
+   "error": "Blocked by bot protection at https://order.toasttab.com/online/casa-verde"
   },
   "chilacates-amory": {
    "slug": "chilacates-amory",
    "status": "failed",
-   "checkedAt": "2026-10-16T17:28:28.763Z",
+   "checkedAt": "2026-10-17T16:28:25.587Z",
    "lastSuccessAt": "2026-10-05T22:32:13.592Z",
    "itemCount": 407,
-   "error": "Blocked by bot protection at https://chilacates.toast.site/order/chilacates-amory-street-jamaica-plain-ma-224-amory-st"
+   "error": "Blocked by bot protection at https://order.toasttab.com/online/chilacates-amory-street-jamaica-plain-ma-224-amory-st"
   },
   "costellos-tavern": {
    "slug": "costellos-tavern",
    "status": "failed",
-   "checkedAt": "2026-10-16T17:29:09.653Z",
+   "checkedAt": "2026-10-17T16:29:05.765Z",
    "lastSuccessAt": "2026-10-15T17:50:08.299Z",
    "itemCount": 200,
    "error": "Blocked by bot protection at https://order.toasttab.com/online/costellos-tavern-723-centre-st"
@@ -79,14 +82,14 @@
   "don-tequeno": {
    "slug": "don-tequeno",
    "status": "unchanged",
-   "checkedAt": "2026-10-16T17:25:19.874Z",
-   "lastSuccessAt": "2026-10-16T17:25:19.874Z",
+   "checkedAt": "2026-10-17T16:25:53.871Z",
+   "lastSuccessAt": "2026-10-17T16:25:53.871Z",
    "itemCount": 153
   },
   "evergreen-eatery": {
    "slug": "evergreen-eatery",
    "status": "failed",
-   "checkedAt": "2026-10-16T17:29:49.840Z",
+   "checkedAt": "2026-10-17T16:29:45.923Z",
    "lastSuccessAt": "2026-10-15T17:51:11.299Z",
    "itemCount": 201,
    "error": "Blocked by bot protection at https://order.toasttab.com/online/evergreen-eatery"
@@ -94,7 +97,7 @@
   "gangnam-spice": {
    "slug": "gangnam-spice",
    "status": "failed",
-   "checkedAt": "2026-10-16T17:30:30.064Z",
+   "checkedAt": "2026-10-17T16:30:26.160Z",
    "lastSuccessAt": "2026-10-13T19:58:25.931Z",
    "itemCount": 46,
    "error": "Blocked by bot protection at https://order.toasttab.com/online/gangnam-spice-jackson-square"
@@ -108,58 +111,36 @@
   "italian-pizza-and-subs": {
    "slug": "italian-pizza-and-subs",
    "status": "unchanged",
-   "checkedAt": "2026-10-16T17:25:19.919Z",
-   "lastSuccessAt": "2026-10-16T17:25:19.919Z",
+   "checkedAt": "2026-10-17T16:25:53.951Z",
+   "lastSuccessAt": "2026-10-17T16:25:53.951Z",
    "itemCount": 132
   },
   "joseph-s-sub-shop": {
    "slug": "joseph-s-sub-shop",
    "status": "unchanged",
-   "checkedAt": "2026-10-16T17:25:20.344Z",
-   "lastSuccessAt": "2026-10-16T17:25:20.344Z",
+   "checkedAt": "2026-10-17T16:25:54.653Z",
+   "lastSuccessAt": "2026-10-17T16:25:54.653Z",
    "itemCount": 126
   },
   "jp-house-of-pizza": {
    "slug": "jp-house-of-pizza",
    "status": "unchanged",
-   "checkedAt": "2026-10-16T17:25:20.386Z",
-   "lastSuccessAt": "2026-10-16T17:25:20.386Z",
+   "checkedAt": "2026-10-17T16:25:55.119Z",
+   "lastSuccessAt": "2026-10-17T16:25:55.119Z",
    "itemCount": 128
   },
   "jp-seafood-cafe": {
    "slug": "jp-seafood-cafe",
-   "status": "ok",
-   "checkedAt": "2026-10-16T17:31:10.321Z",
+   "status": "failed",
+   "checkedAt": "2026-10-17T16:31:06.362Z",
    "lastSuccessAt": "2026-10-16T17:31:10.321Z",
    "itemCount": 254,
-   "changes": [
-    "Added Bulgoki Box ($20.00)",
-    "Added Catch Box ($19.00)",
-    "Added Chicken Box ($18.00)",
-    "Added Salmon Box ($20.00)",
-    "Added Tempura Box ($20.00)",
-    "Added Tofu Box ($17.00)",
-    "Added Cafe Special Box ($21.00)",
-    "Added Sushi Lunch ($17.00)",
-    "Added Sashimi Lunch ($20.00)",
-    "Added Cali Lunch ($15.00)",
-    "Murai Nigori (300ml): $28.00 → $25.00",
-    "Removed Toro",
-    "Removed Hokkigai",
-    "Removed Uni",
-    "Removed Maduro brown Ale",
-    "Removed True North Tropical IPA",
-    "Removed Fat Orange Cat Lager",
-    "Removed Fat Orange non alcoholic",
-    "Removed Kenbishi Kuromatsu",
-    "Removed Poochi-Poochi",
-    "Removed Kurosawa Nigori 300ml"
-   ]
+   "error": "Blocked by bot protection at https://order.toasttab.com/online/jp-seafood-cafe"
   },
   "latino-restaurant": {
    "slug": "latino-restaurant",
    "status": "failed",
-   "checkedAt": "2026-10-16T17:32:13.440Z",
+   "checkedAt": "2026-10-17T16:31:46.573Z",
    "lastSuccessAt": "2026-10-14T18:07:39.143Z",
    "itemCount": 154,
    "error": "Blocked by bot protection at https://order.toasttab.com/online/latino-restaurant-302-centre-st"
@@ -167,140 +148,143 @@
   "life-alive-jp": {
    "slug": "life-alive-jp",
    "status": "unchanged",
-   "checkedAt": "2026-10-16T17:32:53.657Z",
-   "lastSuccessAt": "2026-10-16T17:32:53.657Z",
+   "checkedAt": "2026-10-17T16:32:26.748Z",
+   "lastSuccessAt": "2026-10-17T16:32:26.748Z",
    "itemCount": 138
   },
   "marios-pizza": {
    "slug": "marios-pizza",
-   "status": "unchanged",
-   "checkedAt": "2026-10-16T17:33:07.332Z",
-   "lastSuccessAt": "2026-10-16T17:33:07.332Z",
-   "itemCount": 38
+   "status": "ok",
+   "checkedAt": "2026-10-17T16:32:42.502Z",
+   "lastSuccessAt": "2026-10-17T16:32:42.502Z",
+   "itemCount": 39,
+   "changes": [
+    "Added Gluten Free 12\" ($15.00)"
+   ]
   },
   "mike-pattys-jp": {
    "slug": "mike-pattys-jp",
    "status": "unchanged",
-   "checkedAt": "2026-10-16T17:25:20.626Z",
-   "lastSuccessAt": "2026-10-16T17:25:20.626Z",
+   "checkedAt": "2026-10-17T16:25:55.468Z",
+   "lastSuccessAt": "2026-10-17T16:25:55.468Z",
    "itemCount": 45
   },
   "noodle-barn": {
    "slug": "noodle-barn",
    "status": "unchanged",
-   "checkedAt": "2026-10-16T17:33:21.348Z",
-   "lastSuccessAt": "2026-10-16T17:33:21.348Z",
+   "checkedAt": "2026-10-17T16:32:58.722Z",
+   "lastSuccessAt": "2026-10-17T16:32:58.722Z",
    "itemCount": 118
   },
   "real-deal-jp": {
    "slug": "real-deal-jp",
    "status": "unchanged",
-   "checkedAt": "2026-10-16T17:25:20.753Z",
-   "lastSuccessAt": "2026-10-16T17:25:20.753Z",
+   "checkedAt": "2026-10-17T16:25:55.662Z",
+   "lastSuccessAt": "2026-10-17T16:25:55.662Z",
    "itemCount": 116
   },
   "round-two-pizza": {
    "slug": "round-two-pizza",
    "status": "unchanged",
-   "checkedAt": "2026-10-16T17:25:21.062Z",
-   "lastSuccessAt": "2026-10-16T17:25:21.062Z",
+   "checkedAt": "2026-10-17T16:25:55.793Z",
+   "lastSuccessAt": "2026-10-17T16:25:55.793Z",
    "itemCount": 215
   },
   "same-old-place": {
    "slug": "same-old-place",
    "status": "unchanged",
-   "checkedAt": "2026-10-16T17:25:21.074Z",
-   "lastSuccessAt": "2026-10-16T17:25:21.074Z",
+   "checkedAt": "2026-10-17T16:25:55.985Z",
+   "lastSuccessAt": "2026-10-17T16:25:55.985Z",
    "itemCount": 128
   },
   "soup-shack-jp": {
    "slug": "soup-shack-jp",
    "status": "failed",
-   "checkedAt": "2026-10-16T17:33:46.034Z",
+   "checkedAt": "2026-10-17T16:33:21.579Z",
    "lastSuccessAt": "2026-10-05T22:39:58.047Z",
    "itemCount": 71,
    "error": "Blocked by bot protection at https://order.chownow.com/order/12742/locations"
   },
   "sweet-rice-jp": {
    "slug": "sweet-rice-jp",
-   "status": "unchanged",
-   "checkedAt": "2026-10-16T17:33:51.884Z",
+   "status": "failed",
+   "checkedAt": "2026-10-17T16:33:27.388Z",
    "lastSuccessAt": "2026-10-16T17:33:51.884Z",
-   "itemCount": 269
+   "itemCount": 269,
+   "error": "Blocked by bot protection at https://order.toasttab.com/online/sweet-rice-jp"
   },
   "the-haven": {
    "slug": "the-haven",
    "status": "ok",
-   "checkedAt": "2026-10-16T17:34:55.252Z",
-   "lastSuccessAt": "2026-10-16T17:34:55.252Z",
-   "itemCount": 54,
+   "checkedAt": "2026-10-17T16:34:07.587Z",
+   "lastSuccessAt": "2026-10-17T16:34:07.587Z",
+   "itemCount": 50,
    "changes": [
-    "H Salad w/Salmon: $29.00 → $25.25",
-    "Sheperds Pie: $25.00 → $24.00",
-    "Added Haven Hot Dog w/ skinny fries ($16.00)",
-    "Added House Salad Lunch ($14.00)",
-    "Added Beet Salad Lunch ($16.00)",
-    "Added Cullen Skink ($13.00)",
-    "Added Haddie Croquettes Lunch ($12.00)",
-    "Added Cheese Bridies Lunch ($13.00)",
-    "Added Lamb Bridies Lunch ($13.00)",
-    "Added WINGS ($13.00)",
-    "Added Sausage Roll ($13.00)",
-    "Added Chicken Pie ($19.00)",
-    "Added Cheese Plate Lunch ($20.00)",
-    "Added Skinny Fries L ($7.00)",
-    "Added veggie burger ($19.00)",
-    "Added Seafood Pate ($19.00)",
-    "Added Deep Fried Mars Bar (Brunch) ($10.00)",
-    "Added Grilled Cheese Solo Lunch ($9.00)",
-    "Added House Salad /Chicken Lunch ($22.00)",
-    "Added House Salad /Salmon Lunch ($29.00)",
-    "Added Beet Salad /Chicken Lunch ($23.00)",
-    "Added Beet Salad/ Salmon Lunch ($30.00)",
-    "Added House Olives Lunch ($7.00)",
-    "Added Oatcakes ($6.00)",
-    "Added Pickled Veggies ($8.00)",
-    "Cheese Bridies. b: $13.00 → $13.25",
-    "Lamb Bridies. b: $13.00 → $13.25",
-    "Added Chix WINGS w/Buffalo ($13.25)",
-    "Added Cheese Plate L ($19.25)",
-    "Added Seafood Plate L ($20.25)",
-    "Added Chicken Wings Plain ($13.25)",
-    "Added House Salad w Chicken ($20.25)",
-    "Added House Salad ($13.25)",
-    "Removed Wild Boar Sausage Roll",
-    "Removed Haddie Croquettes",
-    "Removed House Salad b",
-    "Removed Oatcakes.b",
-    "Removed Brunch Fish Cakes",
-    "Removed Bubble and Squeak",
-    "Removed French Toast",
-    "Removed Brunch Burger (fried egg)",
-    "Removed Full Scotch Breakfast",
-    "Removed BLT Sandwich BLT",
-    "Removed Vegetable Quiche",
-    "Removed Smoked Salmon Toast",
-    "Removed Fish Sandwich",
-    "Removed Scotch Egg SALAD",
-    "Removed Veggie Brunch Burger (egg)",
-    "Removed Veggie Burger (no egg)",
-    "Removed Poached Egg",
-    "Removed Side -Bacon",
-    "Removed Side - Sausage",
-    "Removed Side - Beans",
-    "Removed Side - Toast",
-    "Removed Chips",
-    "Removed Lamb Hash",
-    "Removed Deep Fried Mars Bar .b",
-    "Removed Poached Pear .b",
-    "Removed Home Fries",
-    "Removed Fried Egg"
+    "H Salad w/Salmon: $25.25 → $29.00",
+    "Cheese Bridies. b: $13.25 → $13.00",
+    "Lamb Bridies. b: $13.25 → $13.00",
+    "Added Wild Boar Sausage Roll ($13.00)",
+    "Added Haddie Croquettes ($12.00)",
+    "Added House Salad b ($14.00)",
+    "Added Oatcakes.b ($6.00)",
+    "Added Brunch Fish Cakes ($22.00)",
+    "Added Bubble and Squeak ($20.00)",
+    "Added French Toast ($20.00)",
+    "Added Brunch Burger (fried egg) ($23.00)",
+    "Added Full Scotch Breakfast ($23.00)",
+    "Added BLT Sandwich BLT ($16.00)",
+    "Added Vegetable Quiche ($20.00)",
+    "Added Smoked Salmon Toast ($18.00)",
+    "Added Fish Sandwich ($17.00)",
+    "Sheperds Pie: $24.00 → $25.00",
+    "Added Scotch Egg SALAD ($19.00)",
+    "Added Veggie Brunch Burger (egg) ($22.00)",
+    "Added Veggie Burger (no egg) ($21.00)",
+    "Added Poached Egg ($3.00)",
+    "Added Side -Bacon ($8.00)",
+    "Added Side - Sausage ($8.00)",
+    "Added Side - Beans ($4.00)",
+    "Added Side - Toast ($4.00)",
+    "Added Chips ($8.00)",
+    "Added Deep Fried Mars Bar .b ($10.00)",
+    "Added Poached Pear .b ($11.00)",
+    "Added Home Fries ($8.00)",
+    "Added Fried Egg ($3.00)",
+    "Removed Haven Hot Dog w/ skinny fries",
+    "Removed House Salad Lunch",
+    "Removed Beet Salad Lunch",
+    "Removed Cullen Skink",
+    "Removed Haddie Croquettes Lunch",
+    "Removed Cheese Bridies Lunch",
+    "Removed Lamb Bridies Lunch",
+    "Removed WINGS",
+    "Removed Sausage Roll",
+    "Removed Chicken Pie",
+    "Removed Cheese Plate Lunch",
+    "Removed Skinny Fries L",
+    "Removed veggie burger",
+    "Removed Seafood Pate",
+    "Removed Deep Fried Mars Bar (Brunch)",
+    "Removed Grilled Cheese Solo Lunch",
+    "Removed House Salad /Chicken Lunch",
+    "Removed House Salad /Salmon Lunch",
+    "Removed Beet Salad /Chicken Lunch",
+    "Removed Beet Salad/ Salmon Lunch",
+    "Removed House Olives Lunch",
+    "Removed Oatcakes",
+    "Removed Pickled Veggies",
+    "Removed Chix WINGS w/Buffalo",
+    "Removed Cheese Plate L",
+    "Removed Seafood Plate L",
+    "Removed Chicken Wings Plain",
+    "Removed House Salad w Chicken",
+    "Removed House Salad"
    ]
   },
   "the-joint": {
    "slug": "the-joint",
    "status": "failed",
-   "checkedAt": "2026-10-16T17:35:55.109Z",
+   "checkedAt": "2026-10-17T16:35:06.992Z",
    "lastSuccessAt": "2026-10-13T20:02:36.475Z",
    "itemCount": 163,
    "error": "Blocked by bot protection at https://order.toasttab.com/online/the-joint"
@@ -308,7 +292,7 @@
   "tonino": {
    "slug": "tonino",
    "status": "failed",
-   "checkedAt": "2026-10-16T17:36:35.319Z",
+   "checkedAt": "2026-10-17T16:35:47.270Z",
    "lastSuccessAt": "2026-10-05T22:44:55.873Z",
    "itemCount": 16,
    "error": "Blocked by bot protection at https://order.toasttab.com/online/toninojp"
@@ -316,27 +300,27 @@
   "top-mix": {
    "slug": "top-mix",
    "status": "unchanged",
-   "checkedAt": "2026-10-16T17:37:15.517Z",
-   "lastSuccessAt": "2026-10-16T17:37:15.517Z",
+   "checkedAt": "2026-10-17T16:36:27.439Z",
+   "lastSuccessAt": "2026-10-17T16:36:27.439Z",
    "itemCount": 80
   },
   "tres-gatos": {
    "slug": "tres-gatos",
    "status": "failed",
-   "checkedAt": "2026-10-16T17:37:38.138Z",
+   "checkedAt": "2026-10-17T16:36:47.121Z",
    "error": "Blocked by bot protection at https://order.toasttab.com/online/tres-gatos"
   },
   "young-kong": {
    "slug": "young-kong",
    "status": "failed",
-   "checkedAt": "2026-10-16T17:38:18.424Z",
-   "error": "No menu found in 66 API responses"
+   "checkedAt": "2026-10-17T16:37:27.317Z",
+   "error": "No menu found in 65 API responses"
   },
   "zestos-pizza": {
    "slug": "zestos-pizza",
    "status": "unchanged",
-   "checkedAt": "2026-10-16T17:25:21.248Z",
-   "lastSuccessAt": "2026-10-16T17:25:21.248Z",
+   "checkedAt": "2026-10-17T16:25:56.121Z",
+   "lastSuccessAt": "2026-10-17T16:25:56.121Z",
    "itemCount": 148
   }
  }
