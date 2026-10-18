@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "doordash",
  "sourceUrl": "https://bbqchicken.order.online/business/82085/store/bb-q-chicken-jamaica-plain-ma-30177017?pickup=true",
- "fetchedAt": "2026-10-17T16:26:02.647Z",
+ "fetchedAt": "2026-10-18T16:33:21.525Z",
  "categories": [
   {
    "name": "Value Meal",
@@ -203,6 +203,11 @@
      "price": 200
     },
     {
+     "id": "37148502087",
+     "name": "Coke Zero [Can]",
+     "price": 200
+    },
+    {
      "id": "37148502088",
      "name": "Sprite [Can]",
      "price": 200
@@ -233,6 +238,11 @@
      "price": 350
     },
     {
+     "id": "37148502095",
+     "name": "Coke Diet [Bottle]",
+     "price": 350
+    },
+    {
      "id": "37148502096",
      "name": "Vitamin Water Power-C [Bottle]",
      "price": 350
@@ -251,6 +261,11 @@
      "id": "37148502099",
      "name": "Vitamin Water Refresh [Bottle]",
      "price": 350
+    },
+    {
+     "id": "37148502100",
+     "name": "Gold Peak Sweet Tea [Bottle]",
+     "price": 325
     },
     {
      "id": "37148502101",

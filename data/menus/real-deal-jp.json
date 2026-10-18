@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "slice",
  "sourceUrl": "https://slicelife.com/restaurants/ma/jamaica-plain/02130/the-real-deal/menu",
- "fetchedAt": "2026-10-13T19:53:12.929Z",
+ "fetchedAt": "2026-10-18T16:33:12.928Z",
  "dinnerAvailable": true,
  "categories": [
   {
@@ -643,12 +643,6 @@
      "name": "Gluten Free Cuban Panini",
      "description": "Slow roasted pulled pork, sliced ham, swiss cheese, pickles, and mustard pressed on a gluten-free roll.",
      "price": 1511
-    },
-    {
-     "id": "slice-27406174",
-     "name": "Gluten Free Portabella Panini",
-     "description": "Vegetarian. Marinated Portobello mushroom, fresh mozzarella, tomato, arugula, red onion, and pesto mayo pressed on a gluten-free roll.",
-     "price": 1403
     }
    ]
   },

@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "square",
  "sourceUrl": "https://www.achilitos.com/s/order?location=LDMMH2FDVBG7V",
- "fetchedAt": "2026-10-08T19:17:40.845Z",
+ "fetchedAt": "2026-10-18T16:33:10.932Z",
  "categories": [
   {
    "name": "Bowls",
@@ -20,6 +20,11 @@
        "min": 1,
        "max": 1,
        "options": [
+        {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
         {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",
@@ -627,6 +632,11 @@
        "min": 1,
        "max": 1,
        "options": [
+        {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
         {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",
@@ -1678,6 +1688,11 @@
        "min": 1,
        "max": 1,
        "options": [
+        {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
         {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",
@@ -2923,6 +2938,11 @@
        "max": 1,
        "options": [
         {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
+        {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",
          "price": 0
@@ -3544,6 +3564,11 @@
        "min": 1,
        "max": 1,
        "options": [
+        {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
         {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",
@@ -4167,6 +4192,11 @@
        "max": 1,
        "options": [
         {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
+        {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",
          "price": 0
@@ -4788,6 +4818,11 @@
        "min": 1,
        "max": 1,
        "options": [
+        {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
         {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",
@@ -5428,6 +5463,11 @@
        "min": 1,
        "max": 1,
        "options": [
+        {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
         {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",
@@ -6606,6 +6646,11 @@
        "max": 1,
        "options": [
         {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
+        {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",
          "price": 0
@@ -7705,6 +7750,11 @@
        "max": 1,
        "options": [
         {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
+        {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",
          "price": 0
@@ -8244,6 +8294,11 @@
        "min": 1,
        "max": 1,
        "options": [
+        {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
         {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",
@@ -8887,6 +8942,11 @@
        "min": 1,
        "max": 1,
        "options": [
+        {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
         {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",
@@ -9533,6 +9593,11 @@
        "max": 1,
        "options": [
         {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
+        {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",
          "price": 0
@@ -10088,6 +10153,11 @@
        "max": 1,
        "options": [
         {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
+        {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",
          "price": 0
@@ -10614,6 +10684,11 @@
        "min": 1,
        "max": 1,
        "options": [
+        {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
         {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",
@@ -11254,6 +11329,11 @@
        "min": 1,
        "max": 1,
        "options": [
+        {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
         {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",
@@ -12447,6 +12527,11 @@
        "max": 1,
        "options": [
         {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
+        {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",
          "price": 0
@@ -12988,6 +13073,11 @@
        "min": 1,
        "max": 1,
        "options": [
+        {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
         {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",
@@ -13531,6 +13621,11 @@
        "max": 1,
        "options": [
         {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
+        {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",
          "price": 0
@@ -14067,6 +14162,11 @@
        "min": 1,
        "max": 1,
        "options": [
+        {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
         {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",
@@ -14712,6 +14812,11 @@
        "min": 1,
        "max": 1,
        "options": [
+        {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
         {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",
@@ -18307,6 +18412,11 @@
        "max": 1,
        "options": [
         {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
+        {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",
          "price": 0
@@ -21774,6 +21884,11 @@
        "max": 1,
        "options": [
         {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
+        {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",
          "price": 0
@@ -22252,6 +22367,11 @@
        "min": 1,
        "max": 1,
        "options": [
+        {
+         "id": "FXKMBFE7OIMUXKBMZYR34HUP",
+         "name": "No Protein",
+         "price": 0
+        },
         {
          "id": "GOPJK2OGETKNXAU5AXTGHF5A",
          "name": "Do not add Protein",

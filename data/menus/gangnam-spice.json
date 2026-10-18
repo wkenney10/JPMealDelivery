@@ -3,8 +3,33 @@
  "source": "scraped",
  "platform": "toast",
  "sourceUrl": "https://order.toasttab.com/online/gangnam-spice-jackson-square",
- "fetchedAt": "2026-10-05T22:35:24.661Z",
+ "fetchedAt": "2026-10-18T16:38:09.296Z",
  "categories": [
+  {
+   "name": "Lunch Specials",
+   "items": [
+    {
+     "id": "9e2adf29-3bbf-4340-bfac-861457910082",
+     "name": "Chicken & Rice Combo",
+     "price": 1300
+    },
+    {
+     "id": "7e5cd233-c261-41ef-a925-c1a3d7c8771e",
+     "name": "Basak! Basak! Chicken Sandwich Combo",
+     "price": 1250
+    },
+    {
+     "id": "e89c6f4b-7ffa-48fd-b4f8-56e357a9da11",
+     "name": "Gangnam Spice Chicken Sandwich Combo",
+     "price": 1300
+    },
+    {
+     "id": "74975481-6b73-4d1b-9291-0d0963ea418b",
+     "name": "Fire Bird Chicken Sandwich Combo",
+     "price": 1300
+    }
+   ]
+  },
   {
    "name": "Sandwiches",
    "items": [
