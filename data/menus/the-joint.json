@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "toast",
  "sourceUrl": "https://order.toasttab.com/online/the-joint",
- "fetchedAt": "2026-10-05T22:43:51.360Z",
+ "fetchedAt": "2026-10-19T19:30:34.325Z",
  "categories": [
   {
    "name": "APPETIZERS",
@@ -360,6 +360,11 @@
     {
      "id": "ac7771bf-5c4b-4860-a9bb-63b0f27fbc06",
      "name": "Downest Cider",
+     "price": 700
+    },
+    {
+     "id": "ca5bc433-af85-4020-9029-7d644aeb8eb3",
+     "name": "Guinness 0",
      "price": 700
     }
    ]

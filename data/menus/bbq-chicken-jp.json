@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "doordash",
  "sourceUrl": "https://bbqchicken.order.online/business/82085/store/bb-q-chicken-jamaica-plain-ma-30177017?pickup=true",
- "fetchedAt": "2026-10-18T16:33:21.525Z",
+ "fetchedAt": "2026-10-19T19:21:12.766Z",
  "categories": [
   {
    "name": "Value Meal",
@@ -383,6 +383,12 @@
      "name": "Half & Half Boneless",
      "description": "Choose 2 Flavors (16pcs total – 8pcs per flavor)",
      "price": 2400
+    },
+    {
+     "id": "39780407422",
+     "name": "Half & Half Wings",
+     "description": "Choose 2 Flavors (16pcs total – 8pcs per flavor)",
+     "price": 2800
     }
    ]
   }

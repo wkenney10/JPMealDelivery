@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "toast",
  "sourceUrl": "https://order.toasttab.com/online/the-haven-jp",
- "fetchedAt": "2026-10-17T16:34:07.587Z",
+ "fetchedAt": "2026-10-19T19:29:34.176Z",
  "categories": [
   {
    "name": "MAINS",
@@ -119,8 +119,18 @@
    ]
   },
   {
-   "name": "Brunch - Starters",
+   "name": "Lunch Late Night Food",
    "items": [
+    {
+     "id": "3244b7c8-869a-46a1-9dab-6431d5290a17",
+     "name": "Sheperds Pie",
+     "price": 2400
+    },
+    {
+     "id": "c914f5bf-03b2-44a1-a5fc-a1aabf3be2ac",
+     "name": "Haven Hot Dog w/ skinny fries",
+     "price": 1600
+    },
     {
      "id": "8056fba5-179b-482e-8c93-6da341cfcbb4",
      "name": "Scotch Egg b",
@@ -128,145 +138,76 @@
      "price": 1300
     },
     {
-     "id": "7e019681-e227-4084-9f29-38dec5d695bb",
-     "name": "Cheese Bridies. b",
-     "price": 1300
-    },
-    {
-     "id": "c6afb0ef-dcbb-4002-a98b-4fcd7ec281ea",
-     "name": "Lamb Bridies. b",
-     "price": 1300
-    },
-    {
-     "id": "b25fc3ce-1ba2-45c6-904d-0f1bc962e33d",
-     "name": "Wild Boar Sausage Roll",
-     "price": 1300
-    },
-    {
-     "id": "fc12bbec-45e4-4069-a6e2-de441dcb92c4",
-     "name": "Haddie Croquettes",
-     "description": "Smoked Haddock croquettes w/ cherry chili aoili",
-     "price": 1200
-    },
-    {
-     "id": "d28ed3f8-18dc-41d0-b293-16d4e46223b6",
-     "name": "House Salad b",
+     "id": "5d7b007c-a98a-4cdc-a12c-4d4bcb6c3661",
+     "name": "House Salad Lunch",
      "price": 1400
     },
     {
-     "id": "6eb18568-ef36-4928-9c35-e6693f99077d",
-     "name": "Oatcakes.b",
-     "price": 600
-    }
-   ]
-  },
-  {
-   "name": "Brunch - Entrees",
-   "items": [
-    {
-     "id": "03b9af09-d956-4a6a-8ef5-b21b8c2c389e",
-     "name": "Brunch Fish Cakes",
-     "price": 2200
-    },
-    {
-     "id": "3800fadc-7a8b-4f0e-8f49-6897543128f8",
-     "name": "Bubble and Squeak",
-     "price": 2000
-    },
-    {
-     "id": "8de0aeeb-9828-4e17-a1d9-32b738c299b7",
-     "name": "French Toast",
-     "price": 2000
-    },
-    {
-     "id": "32ae0a23-f35a-4571-bff9-4b52472ee5e6",
-     "name": "Brunch Burger (fried egg)",
-     "description": "8oz beef chuck, Huntsman cheese, bacon-onion marmalade, house pickle sauce, lettuce, tomato, topped with fried egg and served with chips",
-     "price": 2300
-    },
-    {
-     "id": "2b054007-664f-49df-8bd0-3bc80713163b",
-     "name": "Full Scotch Breakfast",
-     "price": 2300
-    },
-    {
-     "id": "9880b992-4852-46c3-9e97-faab69d731c3",
-     "name": "BLT Sandwich BLT",
+     "id": "69e9a9ca-d52e-4bd6-9968-ec4f0cc26a46",
+     "name": "Beet Salad Lunch",
      "price": 1600
     },
     {
-     "id": "fce50e47-56d9-4ee6-9c30-e090fd3006e3",
-     "name": "Vegetable Quiche",
-     "price": 2000
+     "id": "b5f4e88f-113a-46fe-abd5-481ffd387943",
+     "name": "Cullen Skink",
+     "description": "Smoked Haddock, potato and leek soup - the original chowder from Scotland!",
+     "price": 1300
     },
     {
-     "id": "d06d39e0-df9a-4ed9-992a-6896ae759b7d",
-     "name": "Smoked Salmon Toast",
-     "price": 1800
+     "id": "8c80cb84-f332-4c5a-8c7b-117e744b82bf",
+     "name": "Haddie Croquettes Lunch",
+     "price": 1200
     },
     {
-     "id": "c553ca31-2b5f-4619-a330-3ac9f85df62c",
-     "name": "Fish Sandwich",
-     "price": 1700
+     "id": "7705fac8-6b5e-4d1e-ab1b-42d66013eb3f",
+     "name": "Cheese Bridies Lunch",
+     "price": 1300
     },
     {
-     "id": "3244b7c8-869a-46a1-9dab-6431d5290a17",
-     "name": "Sheperds Pie",
-     "price": 2500
+     "id": "03e52fca-fc07-48ef-bd41-e2c2c5de3c10",
+     "name": "Lamb Bridies Lunch",
+     "price": 1300
     },
     {
-     "id": "34b2f3f8-dd1d-4c1d-8eff-04aa7755193e",
-     "name": "Scotch Egg SALAD",
+     "id": "0575e42b-318c-4a3c-baa4-88064417da77",
+     "name": "WINGS",
+     "price": 1300
+    },
+    {
+     "id": "6d011f5c-64a0-4333-a23b-348d4ae598ac",
+     "name": "Sausage Roll",
+     "price": 1300
+    },
+    {
+     "id": "90da0a56-685f-4530-a900-eb7842f25123",
+     "name": "Chicken Pie",
+     "description": "Chicken with cream filling topped with crusty pastry.",
      "price": 1900
     },
     {
-     "id": "c653e297-3dad-41ff-9a3e-f6cb90b62d8e",
-     "name": "Veggie Brunch Burger (egg)",
-     "price": 2200
+     "id": "34eb9f33-13d7-4695-beb0-501bb9711a4f",
+     "name": "Cheese Plate Lunch",
+     "price": 2000
     },
     {
-     "id": "e031e38c-8f2a-41fa-ac8f-803ad47af086",
-     "name": "Veggie Burger (no egg)",
-     "price": 2100
+     "id": "8faae828-3f8d-4dcd-91b8-75893f689261",
+     "name": "Skinny Fries L",
+     "price": 700
     },
     {
-     "id": "8840f6da-d80d-4650-b536-39d5923d2e58",
-     "name": "Poached Egg",
-     "price": 300
+     "id": "089ceb00-b728-4d46-8b27-460c40e531d2",
+     "name": "veggie burger",
+     "price": 1900
     },
     {
-     "id": "15739144-4ada-4a64-b946-9e4822b44dc1",
-     "name": "Side -Bacon",
-     "price": 800
+     "id": "1a7a8763-ec48-43b9-a44d-28dcaab7ab47",
+     "name": "Seafood Pate",
+     "price": 1900
     },
     {
-     "id": "9511bb6b-2304-46e3-a096-67c7a276e6d9",
-     "name": "Side - Sausage",
-     "price": 800
-    },
-    {
-     "id": "a9f8fa59-8e9d-40b5-9f3f-9707adb04266",
-     "name": "Side - Beans",
-     "price": 400
-    },
-    {
-     "id": "8878d9a0-3e53-40fd-b585-6e8662a629b1",
-     "name": "Side - Toast",
-     "price": 400
-    },
-    {
-     "id": "0d471e21-583e-48b4-acdc-e7e844aca7c6",
-     "name": "Chips",
-     "price": 800
-    }
-   ]
-  },
-  {
-   "name": "Brunch - Dessert",
-   "items": [
-    {
-     "id": "277160f8-1404-4000-abaa-ab5454efee1b",
-     "name": "Deep Fried Mars Bar .b",
+     "id": "2c2a4e15-ebd7-4c34-ac21-4eaa9ab1f657",
+     "name": "Deep Fried Mars Bar (Brunch)",
+     "description": "The infamous Scottish dessert invented in Stonehaven at The Haven Chip bar.",
      "price": 1000
     },
     {
@@ -275,24 +216,96 @@
      "price": 1100
     },
     {
-     "id": "8eda9ce1-291f-4a0c-8ea3-4440c7475e7c",
-     "name": "Poached Pear .b",
-     "price": 1100
+     "id": "f8cc4c20-41a2-4e21-b214-cb9b0f7b55b5",
+     "name": "Grilled Cheese Solo Lunch",
+     "price": 900
+    },
+    {
+     "id": "0a78d5f9-2e9a-4874-ae10-072b410de88c",
+     "name": "House Salad /Chicken Lunch",
+     "price": 2200
+    },
+    {
+     "id": "d48a7d65-3b07-4e91-af14-dddb8b5512ff",
+     "name": "House Salad /Salmon Lunch",
+     "price": 2900
+    },
+    {
+     "id": "02c94ead-4aac-49fb-b7c2-f7dd8e2a463f",
+     "name": "Beet Salad /Chicken Lunch",
+     "price": 2300
+    },
+    {
+     "id": "d35c0d68-ae76-4139-b0ef-ea6a6218334d",
+     "name": "Beet Salad/ Salmon Lunch",
+     "price": 3000
+    },
+    {
+     "id": "ac26d56b-f574-4461-9cba-bdf628419540",
+     "name": "House Olives Lunch",
+     "price": 700
+    },
+    {
+     "id": "929b3a37-b0ec-44e6-b5f9-a4c1d7a9eec5",
+     "name": "Oatcakes",
+     "price": 600
+    },
+    {
+     "id": "376f2257-d19c-4d14-ab51-92f550265b5d",
+     "name": "Pickled Veggies",
+     "price": 800
     }
    ]
   },
   {
-   "name": "Brunch - Sides",
+   "name": "Lunch Late Night Food",
    "items": [
     {
-     "id": "0bbf1ad6-ac34-4940-9e0f-7ffc4c01aec3",
-     "name": "Home Fries",
-     "price": 800
+     "id": "7e019681-e227-4084-9f29-38dec5d695bb",
+     "name": "Cheese Bridies. b",
+     "price": 1325
     },
     {
-     "id": "bdf7a361-4d9c-4abe-9e74-04eded591866",
-     "name": "Fried Egg",
-     "price": 300
+     "id": "c6afb0ef-dcbb-4002-a98b-4fcd7ec281ea",
+     "name": "Lamb Bridies. b",
+     "price": 1325
+    },
+    {
+     "id": "0257deab-d018-485e-b3a8-6663019a6242",
+     "name": "Chix WINGS w/Buffalo",
+     "price": 1325
+    },
+    {
+     "id": "41b6ff7e-9682-4afb-badd-58fdc790504c",
+     "name": "Cheese Plate L",
+     "description": "Three cheese, w/oatcakes, assorted accompaniments (branston pickle, house pickles)",
+     "price": 1925
+    },
+    {
+     "id": "3e5ae118-66f1-4bc9-8e47-ae09258e59d0",
+     "name": "Seafood Plate L",
+     "description": "Cured salmon, shrimp, smoked salmon and haddock spread w/ oatcakes",
+     "price": 2025
+    },
+    {
+     "id": "318669be-6693-4cf8-9d89-aa571b7c8a1c",
+     "name": "Chicken Wings Plain",
+     "price": 1325
+    },
+    {
+     "id": "ed3e9887-a52a-404f-92d3-8ec6e4bcd894",
+     "name": "H Salad w/Salmon",
+     "price": 2525
+    },
+    {
+     "id": "ae6e78f5-586c-44fc-8eb2-6a2a82b9604e",
+     "name": "House Salad w Chicken",
+     "price": 2025
+    },
+    {
+     "id": "17926e27-db86-44fb-b4a0-18a94e74a0ce",
+     "name": "House Salad",
+     "price": 1325
     }
    ]
   }

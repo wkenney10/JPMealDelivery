@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "square",
  "sourceUrl": "https://www.achilitos.com/s/order?location=LDMMH2FDVBG7V",
- "fetchedAt": "2026-10-18T16:33:10.932Z",
+ "fetchedAt": "2026-10-19T19:21:03.050Z",
  "categories": [
   {
    "name": "Bowls",
@@ -23970,37 +23970,6 @@
         {
          "id": "D52NLVAFMZUVVFPLXWOM6QEZ",
          "name": "Guacamole (V,GFI)",
-         "price": 0
-        }
-       ]
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Pupusas",
-   "items": [
-    {
-     "id": "CH5PW3I22JM65HKMNN7YLRFN",
-     "name": "Pupusa",
-     "description": "Thick corn tortilla with your choice of stuffing, served with salsa and curtido (jalapeno pickled slaw). 1 per order. Cook time 10 minutes. Chicharron Pupusa contains pork & Cheese. Revuelta contains pork, cheese, black beans. Please select all toppings you want included, we will only add if selected.",
-     "price": 550,
-     "optionGroups": [
-      {
-       "id": "CH5PW3I22JM65HKMNN7YLRFN:WHXJS3TWFLOMAH2JDGSV76O2",
-       "name": "Serve Together or Separate",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "V4UFNHPPIV4DE4SZUQPMHI3M",
-         "name": "Together/juntas",
-         "price": 0
-        },
-        {
-         "id": "XZGYNX5R7UGYMTAGHOQDBGPA",
-         "name": "Seperately/Separadas",
          "price": 0
         }
        ]

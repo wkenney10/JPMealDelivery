@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "slice",
  "sourceUrl": "https://slicelife.com/restaurants/ma/jamaica-plain/02130/the-real-deal/menu",
- "fetchedAt": "2026-10-18T16:33:12.928Z",
+ "fetchedAt": "2026-10-19T19:21:04.996Z",
  "dinnerAvailable": true,
  "categories": [
   {
@@ -404,11 +404,6 @@
      "price": 1511
     },
     {
-     "id": "slice-19524896",
-     "name": "Cheese Burger",
-     "price": 1782
-    },
-    {
      "id": "slice-19524897",
      "name": "Big Foot",
      "description": "BBQ sauce, caramelized onions, bacon.",
@@ -607,12 +602,6 @@
      "name": "Gluten Free Darth Vader",
      "description": "Black pastrami, grilled onions, American cheese, and Dijon mustard on a gluten-free roll.",
      "price": 1727
-    },
-    {
-     "id": "slice-27406167",
-     "name": "Gluten Free Super Beef",
-     "description": "Sliced roast beef, BBQ sauce, melted American cheese on a gluten-free roll.",
-     "price": 1511
     },
     {
      "id": "slice-27406169",
