@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "menuapp",
  "sourceUrl": "https://order.lifealive.com/venue/?id=1691&order-type=6",
- "fetchedAt": "2026-10-19T19:27:55.088Z",
+ "fetchedAt": "2026-10-20T18:06:19.298Z",
  "categories": [
   {
    "name": "New & Seasonal",
@@ -763,6 +763,12 @@
      "id": "0e454be0-f089-454a-aa53-97a150917f28",
      "name": "Orange Blossom Cold Pressed Juice",
      "description": "Carrot, apple, lemon, turmeric, ginger, orange blossom water. VG, DF, GF, NF, SF",
+     "price": 950
+    },
+    {
+     "id": "447f2f5a-9e4f-4c1a-b6ff-c8f4c76b8544",
+     "name": "Heart Beet Cold Pressed Juice",
+     "description": "Beet, carrot, green apple, lemon, ginger. VG, DF, GF, NF, SF",
      "price": 950
     },
     {
