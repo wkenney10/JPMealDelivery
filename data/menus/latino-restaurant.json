@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "toast",
  "sourceUrl": "https://order.toasttab.com/online/latino-restaurant-302-centre-st",
- "fetchedAt": "2026-10-07T19:29:09.833Z",
+ "fetchedAt": "2026-10-23T18:00:16.045Z",
  "categories": [
   {
    "name": "Desayuno/ Breakfast",
@@ -829,57 +829,74 @@
    ]
   },
   {
-   "name": "Miercoles/ Wednesday",
+   "name": "Viernes/ Friday",
    "items": [
     {
-     "id": "786f7338-7621-4d98-8aaf-8437d65e2f53",
+     "id": "c545bbca-14f4-4d9e-be96-69b67f1a558f",
      "name": "Pollo Guisado/ Chicken Stew",
      "description": "Servido: Arroz Blanco, Habichuelas (Rojas, Negras o Gandules) o Moro. Served: White Rice, Beans (Red Beans, Black Beans or Pigeon Peas) or Mixed Rice & Beans.",
      "price": 1200
     },
     {
-     "id": "aaa1dd61-2011-4274-af19-2f0ab60a4fbc",
+     "id": "27a85ed2-efaa-432b-b91c-9793b25abc26",
      "name": "Pollo Horneado/ Baked Chicken",
      "description": "Servido: Arroz Blanco, Habichuelas (Rojas, Negras o Gandules) o Moro. Served: White Rice, Beans (Red Beans, Black Beans or Pigeon Peas) or Mixed Rice & Beans.",
      "price": 1200
     },
     {
-     "id": "ded1f98f-b5b4-4a03-ae8c-3debc51e6673",
+     "id": "6dd6dd92-dd28-45bc-9576-56ecdbeac177",
      "name": "Res Guisada/ Beef Stew",
      "description": "Servido: Arroz Blanco, Habichuelas (Rojas, Negras o Gandules) o Moro. Served: White Rice, Beans (Red Beans, Black Beans or Pigeon Peas) or Mixed Rice & Beans.",
      "price": 1200
     },
     {
-     "id": "3a01ba2a-6f40-4a88-9bc7-da44fa52d5b5",
-     "name": "Patitas de Cerdo Guisada/ Pig Feet Stew",
+     "id": "81506244-c525-47a7-b58e-09ff29604a0a",
+     "name": "Pernil Horneado/ Roasted Pork",
      "description": "Servido: Arroz Blanco, Habichuelas (Rojas, Negras o Gandules) o Moro. Served: White Rice, Beans (Red Beans, Black Beans or Pigeon Peas) or Mixed Rice & Beans.",
      "price": 1200
     },
     {
-     "id": "29d7d692-de5a-4c8c-8985-d871c7972e75",
-     "name": "Costillas de Cerdo Guisada/ Pork Ribs Stew",
+     "id": "69a0440e-51dd-4731-93c3-69a61a2d3a09",
+     "name": "Chivo Guisado/ Goat Stew",
      "description": "Servido: Arroz Blanco, Habichuelas (Rojas, Negras o Gandules) o Moro. Served: White Rice, Beans (Red Beans, Black Beans or Pigeon Peas) or Mixed Rice & Beans.",
-     "price": 1200
+     "price": 1700
     },
     {
-     "id": "47c9c3a6-5c29-42ab-9d3c-03c4d371fcb7",
+     "id": "6775b8d1-850b-44ef-bfba-bb0c67327509",
      "name": "Bacalao Guisado/ Cod Fish Stew",
      "description": "Servido: Arroz Blanco, Habichuelas (Rojas, Negras o Gandules) o Moro. Served: White Rice, Beans (Red Beans, Black Beans or Pigeon Peas) or Mixed Rice & Beans.",
      "price": 1200
     },
     {
-     "id": "f007f1c5-57c4-40f3-8c4b-b91fd44ace43",
-     "name": "Locrio de Cerdo/ Yellow Rice & Pork",
+     "id": "447455d3-c865-429b-9d0e-8597e47930a8",
+     "name": "Patitas de Cerdo/ Pig Feet Stew",
      "price": 1200
     },
     {
-     "id": "563e3a47-707f-4c8c-8180-1bc1cbc727d2",
+     "id": "84e326ef-85ef-45a2-9c77-636e97a82498",
      "name": "Pollo BBQ/ BBQ Chicken",
      "price": 1200
+    }
+   ]
+  },
+  {
+   "name": "Sopa del Dia",
+   "items": [
+    {
+     "id": "d508d9ef-dc2a-4788-93fe-7e32ee3452c8",
+     "name": "Cocido de Pata de Vaca/ Cow Feet Soup",
+     "description": "Cocido de Pata de Vaca; Conciste de un Deliciose Caldo de Res con Vegetales (Papas, Zanahorias, Cilantro, Apio , Garbanzos & Coditos). Servido con Una Porcion de Arroz Blanco. Cow Feet Soup; Consist on a Delicious Beef Broth With Mixed Vegetables (Potatoes, Carrot, Cilantro, Celery, Garbanzos Beans & Elbows) Served With a Portion of White Rice.",
+     "price": 1500
     },
     {
-     "id": "0d2a3083-eb92-41fa-96e6-951e2825aa43",
-     "name": "Spaghetti & Meatballs/ Spaghetti & Albondigas",
+     "id": "267ef1c5-6e3b-486a-a1d3-680f5cf6ebc7",
+     "name": "Sopa de Pollo/ Chicken Soup",
+     "price": 1500
+    },
+    {
+     "id": "a6ab9b50-1295-4b6a-a43e-e273b710041a",
+     "name": "Sopa de Mondongo/ Beef Tripe Soup",
+     "description": "Sopa de Mondongo; Pansa de Res Cocida en Caldo de Tomate con Cilantro & Apio. Servida con Una Porcion de Arroz Blanco. Beef Tripe Soup; Cow's Belly Cooked in a Delicious Tomato Broth with Cilantro and Celery. Served with a Portion of White Rice.",
      "price": 1500
     }
    ]

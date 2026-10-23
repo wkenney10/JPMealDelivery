@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "doordash",
  "sourceUrl": "https://bbqchicken.order.online/business/82085/store/bb-q-chicken-jamaica-plain-ma-30177017?pickup=true",
- "fetchedAt": "2026-10-20T17:59:54.687Z",
+ "fetchedAt": "2026-10-23T17:53:35.829Z",
  "categories": [
   {
    "name": "Value Meal",
@@ -225,11 +225,6 @@
      "id": "37148502092",
      "name": "Crystal Geyser Water [Bottle]",
      "price": 175
-    },
-    {
-     "id": "37148502094",
-     "name": "Coke [Bottle]",
-     "price": 350
     },
     {
      "id": "37148502095",

@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "doordash",
  "sourceUrl": "https://order.online/business/marios-12648169",
- "fetchedAt": "2026-10-17T16:32:42.502Z",
+ "fetchedAt": "2026-10-23T18:01:35.207Z",
  "categories": [
   {
    "name": "CREATE YOUR OWN PIZZA",
@@ -126,12 +126,6 @@
   {
    "name": "VEGETARIAN PIZZAS",
    "items": [
-    {
-     "id": "11610486082",
-     "name": "Sicilian Pizza One Size",
-     "description": "Square Pizza, Thick Dough, Red Sauce, Mozzarella, Parmigiana, Fresh Mozzarella, fresh basil * Additional Cook time & Limited Daily Supply",
-     "price": 2800
-    },
     {
      "id": "12192003357",
      "name": "Vegan Cheese Pizza - Large",
