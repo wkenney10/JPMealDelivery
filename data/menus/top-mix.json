@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "doordash",
  "sourceUrl": "https://order.online/store/top-mix-bar-&-kitchen-boston-522906/?pickup=true",
- "fetchedAt": "2026-10-20T18:10:00.095Z",
+ "fetchedAt": "2026-10-24T16:46:19.748Z",
  "categories": [
   {
    "name": "Sandwiches/Burgers (Lunch Menu)",
@@ -183,12 +183,6 @@
      "name": "Chicharron De Cerdo",
      "description": "Crispy fried pork skin typically seasoned with house spices.",
      "price": 1275
-    },
-    {
-     "id": "24063134388",
-     "name": "Chili Lime Grilled Shrimp",
-     "description": "Chili and lime marinated shrimp grilled to perfection. served atop crispy red cabbage.",
-     "price": 1730
     }
    ]
   },
@@ -476,12 +470,6 @@
      "id": "23925691948",
      "name": "Bottle Water",
      "description": "Pure and refreshing bottled water.",
-     "price": 185
-    },
-    {
-     "id": "23925691949",
-     "name": "Sprite",
-     "description": "Classic, cool, crisp lemon-lime flavored taste that's caffeine free",
      "price": 185
     },
     {
