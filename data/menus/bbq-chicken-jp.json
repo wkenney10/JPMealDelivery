@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "doordash",
  "sourceUrl": "https://bbqchicken.order.online/business/82085/store/bb-q-chicken-jamaica-plain-ma-30177017?pickup=true",
- "fetchedAt": "2026-10-24T16:36:15.086Z",
+ "fetchedAt": "2026-10-25T17:05:09.168Z",
  "categories": [
   {
    "name": "Value Meal",
@@ -142,6 +142,11 @@
      "price": 800
     },
     {
+     "id": "37148502077",
+     "name": "Fried Dumplings",
+     "price": 900
+    },
+    {
      "id": "37148502078",
      "name": "Takoyaki",
      "price": 1000
@@ -228,6 +233,11 @@
      "price": 175
     },
     {
+     "id": "37148502094",
+     "name": "Coke [Bottle]",
+     "price": 350
+    },
+    {
      "id": "37148502095",
      "name": "Coke Diet [Bottle]",
      "price": 350
@@ -280,6 +290,11 @@
     {
      "id": "37148502105",
      "name": "Peace Tea Caddy Shack [Can]",
+     "price": 325
+    },
+    {
+     "id": "37148502106",
+     "name": "Peace Tea Just Peachy [Can]",
      "price": 325
     },
     {
@@ -368,12 +383,6 @@
      "name": "Half & Half Boneless",
      "description": "Choose 2 Flavors (16pcs total – 8pcs per flavor)",
      "price": 2400
-    },
-    {
-     "id": "39780407422",
-     "name": "Half & Half Wings",
-     "description": "Choose 2 Flavors (16pcs total – 8pcs per flavor)",
-     "price": 2800
     }
    ]
   }

@@ -3,100 +3,8 @@
  "source": "scraped",
  "platform": "doordash",
  "sourceUrl": "https://order.online/store/top-mix-bar-&-kitchen-boston-522906/?pickup=true",
- "fetchedAt": "2026-10-24T16:46:19.748Z",
+ "fetchedAt": "2026-10-25T17:15:36.358Z",
  "categories": [
-  {
-   "name": "Sandwiches/Burgers (Lunch Menu)",
-   "items": [
-    {
-     "id": "24893732884",
-     "name": "Steak & Cheese (Lunch)",
-     "description": "Grilled steak, sautéed onions, green peppers, and provolone cheese, typically served on a toasted roll.",
-     "price": 1455
-    },
-    {
-     "id": "24893732885",
-     "name": "Ham & Cheese  (Lunch)",
-     "description": "Mallorca Panini: Soft, sweet bread typically filled with ham, cheese, and a light dusting of powdered sugar, pressed to a warm, crispy finish.",
-     "price": 1275
-    },
-    {
-     "id": "24893732886",
-     "name": "Grilled Chicken Club (Lunch)",
-     "description": "Grilled chicken breast, bacon, lettuce, tomato, avocado, swiss cheese, and mayo on a bun.",
-     "price": 1275
-    },
-    {
-     "id": "24893732887",
-     "name": "Top Mix Chop Cheese (Lunch)",
-     "description": "Chopped beef, American cheese, caramelized onions, bell peppers, mayo, and ketchup on a hoagie roll.",
-     "price": 1455
-    },
-    {
-     "id": "24893732888",
-     "name": "Cubano (Lunch)",
-     "price": 1275
-    },
-    {
-     "id": "24893732889",
-     "name": "Fried Chicken Chimi (Lunch)",
-     "description": "Fried chicken chimi: Fried chicken, pickled onions, cabbage, tomato, and house pink sauce on a bun.",
-     "price": 1275
-    },
-    {
-     "id": "24893732890",
-     "name": "BBQ Smash Burger (Lunch)",
-     "description": "Smashed beef patties topped with pepper jack cheese, an onion ring, and house-made BBQ sauce on a brioche bun.",
-     "price": 1455
-    },
-    {
-     "id": "24893732891",
-     "name": "Mixi-Cali Smash Burger (Lunch)",
-     "description": "Two beef patties smashed with avocado, bacon, cheddar cheese, and chipotle aioli on a brioche bun.",
-     "price": 1275
-    }
-   ]
-  },
-  {
-   "name": "Salads (Lunch Menu)",
-   "items": [
-    {
-     "id": "24893677749",
-     "name": "Grilled Chicken BBQ Ranch Salad (Lunch)",
-     "description": "Grilled chicken with BBQ sauce, romaine lettuce, tomatoes, corn, black beans, red onions, cheddar cheese, tortilla strips, and ranch dressing.",
-     "price": 1455
-    },
-    {
-     "id": "24893677750",
-     "name": "Chicken Caesar Salad (Lunch)",
-     "description": "Grilled chicken breast, romaine lettuce, parmesan cheese, croutons, and caesar dressing.",
-     "price": 1275
-    },
-    {
-     "id": "24893677751",
-     "name": "Grilled Chicken Chipotle Salad (Lunch)",
-     "description": "Grilled chicken chipotle salad: Mixed greens, tomatoes, onions, avocado, cheddar cheese, and grilled chicken tossed in chipotle sauce.",
-     "price": 1455
-    }
-   ]
-  },
-  {
-   "name": "Bowls (Lunch Menu)",
-   "items": [
-    {
-     "id": "24893582026",
-     "name": "Chicken Tropical Bowl (Lunch)",
-     "description": "Grilled chicken, mango, avocado, cucumber, tomato, and red onion over brown rice, typically garnished with cilantro.",
-     "price": 1275
-    },
-    {
-     "id": "24893582027",
-     "name": "Grilled Shrimp & Plantain Bowl (Lunch)",
-     "description": "Grilled shrimp & plantain bowl: Grilled shrimp, plantains, rice, black beans, and pico de gallo.",
-     "price": 1455
-    }
-   ]
-  },
   {
    "name": "Starters",
    "items": [
@@ -134,12 +42,6 @@
      "id": "23925645180",
      "name": "Plantian Chips w/ Fried Cheese",
      "description": "Plantain chips typically served with fried cheese.",
-     "price": 1275
-    },
-    {
-     "id": "24057913895",
-     "name": "Steak & Cheese Eggrolls",
-     "description": "Shaved steak, peppers, onions, and American cheese, wrapped in a crispy egg roll. Typically served with a tangy dipping sauce.",
      "price": 1275
     },
     {
@@ -183,6 +85,12 @@
      "name": "Chicharron De Cerdo",
      "description": "Crispy fried pork skin typically seasoned with house spices.",
      "price": 1275
+    },
+    {
+     "id": "24063134388",
+     "name": "Chili Lime Grilled Shrimp",
+     "description": "Chili and lime marinated shrimp grilled to perfection. served atop crispy red cabbage.",
+     "price": 1730
     }
    ]
   },
@@ -470,6 +378,12 @@
      "id": "23925691948",
      "name": "Bottle Water",
      "description": "Pure and refreshing bottled water.",
+     "price": 185
+    },
+    {
+     "id": "23925691949",
+     "name": "Sprite",
+     "description": "Classic, cool, crisp lemon-lime flavored taste that's caffeine free",
      "price": 185
     },
     {

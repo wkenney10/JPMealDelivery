@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "menuapp",
  "sourceUrl": "https://order.lifealive.com/venue/?id=1691&order-type=6",
- "fetchedAt": "2026-10-20T18:06:19.298Z",
+ "fetchedAt": "2026-10-25T17:11:34.253Z",
  "categories": [
   {
    "name": "New & Seasonal",
@@ -322,12 +322,6 @@
      "name": "Romantic",
      "description": "Melted white cheddar, avocado, broccoli, garlic, Braggs & nutritional yeast in a whole wheat tortilla. Cannot be made wheat free. Contains milk, wheat, allium and soy. NF.",
      "price": 1350
-    },
-    {
-     "id": "d3764f95-7349-4873-83cc-b510f0c6c6ab",
-     "name": "L.A. Caesar Wrap",
-     "description": "Kale and romaine hearts with whole grain croutons, chickpea parmesan and caesar dressing in a whole wheat tortilla. Contains milk, wheat, allium and soy. NF",
-     "price": 1195
     }
    ]
   },

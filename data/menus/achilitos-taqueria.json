@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "square",
  "sourceUrl": "https://www.achilitos.com/s/order?location=LDMMH2FDVBG7V",
- "fetchedAt": "2026-10-20T17:59:46.369Z",
+ "fetchedAt": "2026-10-25T17:04:55.720Z",
  "categories": [
   {
    "name": "Bowls",
@@ -2310,6 +2310,11 @@
        "min": 1,
        "max": 1,
        "options": [
+        {
+         "id": "3VYCJBZB343SIUGVPCEY5D55",
+         "name": "No Protein",
+         "price": 0
+        },
         {
          "id": "35PAYKVT4T7RRVIC3RU64HRG",
          "name": "Grill Chicken (Halal,GFI)",
@@ -6098,6 +6103,11 @@
        "min": 1,
        "max": 1,
        "options": [
+        {
+         "id": "3VYCJBZB343SIUGVPCEY5D55",
+         "name": "No Protein",
+         "price": 0
+        },
         {
          "id": "35PAYKVT4T7RRVIC3RU64HRG",
          "name": "Grill Chicken (Halal,GFI)",
@@ -11877,6 +11887,11 @@
        "max": 1,
        "options": [
         {
+         "id": "3VYCJBZB343SIUGVPCEY5D55",
+         "name": "No Protein",
+         "price": 0
+        },
+        {
          "id": "35PAYKVT4T7RRVIC3RU64HRG",
          "name": "Grill Chicken (Halal,GFI)",
          "price": 0
@@ -16059,6 +16074,11 @@
        "max": 1,
        "options": [
         {
+         "id": "3VYCJBZB343SIUGVPCEY5D55",
+         "name": "No Protein",
+         "price": 0
+        },
+        {
          "id": "35PAYKVT4T7RRVIC3RU64HRG",
          "name": "Grill Chicken (Halal,GFI)",
          "price": 0
@@ -16739,6 +16759,11 @@
        "max": 1,
        "options": [
         {
+         "id": "3VYCJBZB343SIUGVPCEY5D55",
+         "name": "No Protein",
+         "price": 0
+        },
+        {
          "id": "35PAYKVT4T7RRVIC3RU64HRG",
          "name": "Grill Chicken (Halal,GFI)",
          "price": 0
@@ -17094,6 +17119,11 @@
        "min": 1,
        "max": 1,
        "options": [
+        {
+         "id": "3VYCJBZB343SIUGVPCEY5D55",
+         "name": "No Protein",
+         "price": 0
+        },
         {
          "id": "35PAYKVT4T7RRVIC3RU64HRG",
          "name": "Grill Chicken (Halal,GFI)",
@@ -17664,6 +17694,11 @@
        "max": 1,
        "options": [
         {
+         "id": "3VYCJBZB343SIUGVPCEY5D55",
+         "name": "No Protein",
+         "price": 0
+        },
+        {
          "id": "35PAYKVT4T7RRVIC3RU64HRG",
          "name": "Grill Chicken (Halal,GFI)",
          "price": 0
@@ -18134,6 +18169,11 @@
        "min": 1,
        "max": 1,
        "options": [
+        {
+         "id": "3VYCJBZB343SIUGVPCEY5D55",
+         "name": "No Protein",
+         "price": 0
+        },
         {
          "id": "35PAYKVT4T7RRVIC3RU64HRG",
          "name": "Grill Chicken (Halal,GFI)",
@@ -19353,6 +19393,11 @@
        "min": 1,
        "max": 1,
        "options": [
+        {
+         "id": "3VYCJBZB343SIUGVPCEY5D55",
+         "name": "No Protein",
+         "price": 0
+        },
         {
          "id": "35PAYKVT4T7RRVIC3RU64HRG",
          "name": "Grill Chicken (Halal,GFI)",
@@ -21791,6 +21836,11 @@
        "max": 1,
        "options": [
         {
+         "id": "3VYCJBZB343SIUGVPCEY5D55",
+         "name": "No Protein",
+         "price": 0
+        },
+        {
          "id": "35PAYKVT4T7RRVIC3RU64HRG",
          "name": "Grill Chicken (Halal,GFI)",
          "price": 0
@@ -22274,6 +22324,11 @@
        "min": 1,
        "max": 1,
        "options": [
+        {
+         "id": "3VYCJBZB343SIUGVPCEY5D55",
+         "name": "No Protein",
+         "price": 0
+        },
         {
          "id": "35PAYKVT4T7RRVIC3RU64HRG",
          "name": "Grill Chicken (Halal,GFI)",
