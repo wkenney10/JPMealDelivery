@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "clover",
  "sourceUrl": "https://don-tequeno-y-dona-arepa-boston.cloveronline.com/menu/all",
- "fetchedAt": "2026-10-12T21:44:59.056Z",
+ "fetchedAt": "2026-10-26T19:32:24.600Z",
  "dinnerAvailable": true,
  "categories": [
   {
@@ -1627,6 +1627,36 @@
          "id": "8M25F33NJ2NSJ",
          "name": "Hamburger",
          "price": 500
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Venezuelan Hallacas",
+   "items": [
+    {
+     "id": "QC0MXN1MJAW76",
+     "name": "Hallaca",
+     "price": 1200,
+     "optionGroups": [
+      {
+       "id": "QC0MXN1MJAW76:8WJ3310DS0VA6",
+       "name": "Preparation",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "id": "1FJWBG15VQPMG",
+         "name": "Ready to eat (Hot)",
+         "price": 0
+        },
+        {
+         "id": "WDS5TDP4W4P1R",
+         "name": "Frozen",
+         "price": 0
         }
        ]
       }
@@ -10746,13 +10776,23 @@
    "name": "Natural Drinks",
    "items": [
     {
+     "id": "G2M20HARNHBX6",
+     "name": "Tamarind (Tamarindo) 16 OZ",
+     "price": 550
+    },
+    {
+     "id": "N0HREZ2C5GY7Y",
+     "name": "Tamarind (Tamarindo) 24 OZ",
+     "price": 750
+    },
+    {
      "id": "7CED77YDCDD0E",
-     "name": "Parchita (Chinola) 16 OZ",
+     "name": "Passion Fruit (Parchita) 16 OZ",
      "price": 550
     },
     {
      "id": "CWDRFXBSP6CT6",
-     "name": "Parchita (Chinola) 24 OZ",
+     "name": "Passion Fruit (Parchita) 24 OZ",
      "price": 750
     },
     {
@@ -10861,6 +10901,11 @@
      "id": "X0TXE6SAQMZER",
      "name": "Fanta Grape Can",
      "price": 250
+    },
+    {
+     "id": "EAVHJ4989GFET",
+     "name": "Frescolita can 12 OZ",
+     "price": 300
     }
    ]
   },
@@ -10926,6 +10971,11 @@
      "id": "VG6767DEGBZ7Y",
      "name": "Flan (Quesillo)",
      "price": 600
+    },
+    {
+     "id": "31MDG2DQNQG02",
+     "name": "Chocoflan",
+     "price": 650
     },
     {
      "id": "TYM4K73676DT0",
