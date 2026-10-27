@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "slice",
  "sourceUrl": "https://slicelife.com/restaurants/ma/jamaica-plain/02130/the-amantinos-restaurant/menu",
- "fetchedAt": "2026-10-05T17:00:33.896Z",
+ "fetchedAt": "2026-10-27T18:42:31.171Z",
  "dinnerAvailable": true,
  "categories": [
   {
@@ -589,62 +589,62 @@
     {
      "id": "slice-12257290",
      "name": "Two Cheese Pizza Slices & Can Soda",
-     "price": 775
+     "price": 915
     },
     {
      "id": "slice-12257291",
      "name": "Two Pepperoni Pizza Slices & Can Soda",
-     "price": 875
+     "price": 1025
     },
     {
      "id": "slice-12257292",
      "name": "Cheese Pizza Slice",
-     "price": 325
+     "price": 395
     },
     {
      "id": "slice-12257293",
      "name": "Pepperoni Pizza Slice",
-     "price": 400
+     "price": 495
     },
     {
      "id": "slice-12257294",
      "name": "Buffalo Chicken Pizza Slice",
-     "price": 475
+     "price": 595
     },
     {
      "id": "slice-12257295",
      "name": "Veggie Pizza Slice",
-     "price": 475
+     "price": 595
     },
     {
      "id": "slice-12257296",
      "name": "Sausage Pizza Slice",
-     "price": 400
+     "price": 495
     },
     {
      "id": "slice-12257297",
      "name": "Ham Pizza Slice",
-     "price": 400
+     "price": 495
     },
     {
      "id": "slice-12257298",
      "name": "Bacon Pizza Slice",
-     "price": 475
+     "price": 495
     },
     {
      "id": "slice-12257299",
      "name": "Sausage & Green Peppers Pizza Slice",
-     "price": 475
+     "price": 595
     },
     {
      "id": "slice-12257300",
      "name": "Hamburger & Green Peppers Pizza Slice",
-     "price": 475
+     "price": 595
     },
     {
      "id": "slice-12257301",
      "name": "Mushrooms & Green Peppers Pizza Slice",
-     "price": 475
+     "price": 595
     }
    ]
   },
@@ -2875,7 +2875,7 @@
      "id": "slice-12257561",
      "name": "Soda",
      "description": "Nothing like a cold soda to go with your pizza.",
-     "price": 175,
+     "price": 195,
      "optionGroups": [
       {
        "id": "slice-12257561-size",
@@ -2891,12 +2891,12 @@
         {
          "id": "slice-type-15239895",
          "name": "20 oz. Bottled",
-         "price": 119
+         "price": 100
         },
         {
          "id": "slice-type-15239896",
          "name": "2 Liter Bottled",
-         "price": 238
+         "price": 220
         }
        ]
       }

@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "menuapp",
  "sourceUrl": "https://order.lifealive.com/venue/?id=1691&order-type=6",
- "fetchedAt": "2026-10-26T19:40:04.579Z",
+ "fetchedAt": "2026-10-27T18:49:02.013Z",
  "categories": [
   {
    "name": "New & Seasonal",
@@ -73,6 +73,12 @@
      "name": "Greek Yogurt Parfait",
      "description": "Greek yogurt layered with strawberries, blueberries, house granola and housemade strawberry syrup. Contains milk. GF, NF, SF",
      "price": 895
+    },
+    {
+     "id": "4e368464-07ed-489d-9a7e-e6d79ee2b4d3",
+     "name": "Organic Fruit Cup",
+     "description": "Fresh-cut strawberries, watermelon, pineapple and blueberries. VG, GF, DF, NF, SF.",
+     "price": 795
     },
     {
      "id": "0555121e-5d82-4c28-aab6-ee0b12ef0112",
@@ -903,6 +909,12 @@
   {
    "name": "Desserts",
    "items": [
+    {
+     "id": "9d7cdd9e-7394-4e9a-8deb-bfcece49332e",
+     "name": "Avocado Chocolate Mousse",
+     "description": "Decadent, smooth, rich chocolate mousse made with avocado, raw cacao, agave, coconut cream, vanilla, cinnamon & sea salt. Contains coconut. VG, DF, GF, SF",
+     "price": 895
+    },
     {
      "id": "6283f26e-9c7f-47a0-925e-f67936978530",
      "name": "Strawberries & Cream Power Chia",

@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "toast",
  "sourceUrl": "https://order.toasttab.com/online/evergreen-eatery",
- "fetchedAt": "2026-10-23T17:58:01.145Z",
+ "fetchedAt": "2026-10-27T18:45:58.109Z",
  "categories": [
   {
    "name": "HOT COFFEE",
@@ -648,7 +648,7 @@
     },
     {
      "id": "faf870f6-6152-46f0-9de1-89381bb290a3",
-     "name": "Cheese Burger Sliders",
+     "name": "Beef Stew",
      "price": 800
     }
    ]
@@ -808,8 +808,8 @@
     },
     {
      "id": "eebd6f27-5f3e-4e87-8f1d-0597ba35835e",
-     "name": "Bolognese",
-     "price": 2300
+     "name": "Bolognese Quesadilla",
+     "price": 1700
     },
     {
      "id": "f46ea7a9-c242-42de-a1a8-9d3ec776aef2",

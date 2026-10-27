@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "clover",
  "sourceUrl": "https://don-tequeno-y-dona-arepa-boston.cloveronline.com/menu/all",
- "fetchedAt": "2026-10-26T19:32:24.600Z",
+ "fetchedAt": "2026-10-27T18:42:31.882Z",
  "dinnerAvailable": true,
  "categories": [
   {
@@ -10966,16 +10966,6 @@
      "id": "RQSYFMEB1HKN0",
      "name": "3 Leches",
      "price": 600
-    },
-    {
-     "id": "VG6767DEGBZ7Y",
-     "name": "Flan (Quesillo)",
-     "price": 600
-    },
-    {
-     "id": "31MDG2DQNQG02",
-     "name": "Chocoflan",
-     "price": 650
     },
     {
      "id": "TYM4K73676DT0",
