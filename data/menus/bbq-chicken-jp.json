@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "doordash",
  "sourceUrl": "https://bbqchicken.order.online/business/82085/store/bb-q-chicken-jamaica-plain-ma-30177017?pickup=true",
- "fetchedAt": "2026-10-27T18:42:42.970Z",
+ "fetchedAt": "2026-10-28T18:52:47.776Z",
  "categories": [
   {
    "name": "Value Meal",
@@ -98,6 +98,18 @@
   {
    "name": "Side",
    "items": [
+    {
+     "id": "44239679904",
+     "name": "bb.q Cheese Ball",
+     "description": "A crispy, golden appetizer of cheese-filled balls, warm and melty inside.",
+     "price": 900
+    },
+    {
+     "id": "44239679905",
+     "name": "Cheesling Cheese Ball",
+     "description": "A crispy, golden appetizer of cheese-filled balls, warm and melty inside, dusted in a rich medley of sweet cheeses.",
+     "price": 1000
+    },
     {
      "id": "37148502071",
      "name": "French Fries",

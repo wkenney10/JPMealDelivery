@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "square",
  "sourceUrl": "https://www.achilitos.com/s/order?location=LDMMH2FDVBG7V",
- "fetchedAt": "2026-10-26T19:32:23.906Z",
+ "fetchedAt": "2026-10-28T18:52:20.317Z",
  "categories": [
   {
    "name": "Bowls",
@@ -24120,7 +24120,7 @@
     {
      "id": "R6P32BGJUEDMJMQ3TSYU52AK",
      "name": "Sweets",
-     "price": 100
+     "price": 135
     }
    ]
   },
