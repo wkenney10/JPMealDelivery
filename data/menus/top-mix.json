@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "doordash",
  "sourceUrl": "https://order.online/store/top-mix-bar-&-kitchen-boston-522906/?pickup=true",
- "fetchedAt": "2026-10-28T19:03:52.572Z",
+ "fetchedAt": "2026-10-29T19:08:37.559Z",
  "categories": [
   {
    "name": "Starters",
@@ -430,25 +430,25 @@
     {
      "id": "44702026386",
      "name": "Chicken Wings",
-     "description": "Serves 10+. 40+ Wings. With your choice of sauce.",
+     "description": "Serves 10+. Pan. 40+ Wings. With your choice of sauce.",
      "price": 8640
     },
     {
      "id": "44702026387",
      "name": "Chicken Tenders",
-     "description": "Serves 10+. Crispy chicken tenders with a choice of seven sauces: Whiskey BBQ, Honey Hot, Sweet Chili, Garlic Parmesan Herb, Mango Buffalo, Buffalo, or Plain.",
+     "description": "Serves 10+. Pan or Tray packaging. Crispy chicken tenders with a choice of seven sauces: Whiskey BBQ, Honey Hot, Sweet Chili, Garlic Parmesan Herb, Mango Buffalo, Buffalo, or Plain.",
      "price": 7730
     },
     {
      "id": "44702026388",
      "name": "Fried Pork (Carnita)",
-     "description": "Serves 10+.",
+     "description": "Serves 10+. Pan.",
      "price": 5910
     },
     {
      "id": "44702026389",
      "name": "Fried Pork Belly (Chicharron De Cerdo)",
-     "description": "Serves 10+. Crispy fried pork skin typically seasoned with house spices.",
+     "description": "Serves 10+. Pan. Crispy fried pork skin typically seasoned with house spices.",
      "price": 10455
     }
    ]

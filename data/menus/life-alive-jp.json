@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "menuapp",
  "sourceUrl": "https://order.lifealive.com/venue/?id=1691&order-type=6",
- "fetchedAt": "2026-10-27T18:49:02.013Z",
+ "fetchedAt": "2026-10-29T19:04:55.934Z",
  "categories": [
   {
    "name": "New & Seasonal",
@@ -87,34 +87,16 @@
      "price": 650
     },
     {
-     "id": "4ad4afae-7acd-4055-aa96-8b3b8557179c",
-     "name": "Iced Butternut Spice Latte",
-     "description": "Espresso, roasted butternut squash, cinnamon, nutmeg, ginger, agave & oat milk. VG, DF, GF, NF, SF",
-     "price": 675
-    },
-    {
      "id": "cd836b57-1631-4a77-aa3c-5db66056fe1d",
      "name": "Iced Cherry Blossom Matcha",
      "description": "Iced matcha, raspberry rose syrup & oat milk topped with dried rose petals. VG, DF, GF, NF, SF.",
      "price": 685
     },
     {
-     "id": "22dbf4bb-7595-46db-bbd7-e52416561c5f",
-     "name": "Hot Butternut Spice Latte",
-     "description": "Espresso, roasted butternut squash, cinnamon, nutmeg, ginger, agave & oat milk. VG, DF, GF, NF, SF",
-     "price": 675
-    },
-    {
      "id": "369ac4fd-5808-4160-af27-05843395915e",
      "name": "Winter Herbal Tea",
      "description": "Hot tea with rosemary, lemon, turmeric, cinnamon & maple. VG, DF, GF, NF, SF",
      "price": 445
-    },
-    {
-     "id": "1afd8e77-3e74-4e98-93e5-6046637e36d4",
-     "name": "Banana Bread Matcha",
-     "description": "Iced matcha, banana, cinnamon, maple and vanilla with oat milk. VG, GF, DF, NF, SF.",
-     "price": 725
     }
    ]
   },
