@@ -1,0 +1,518 @@
+{
+ "restaurant": "alexs-chimis",
+ "source": "scraped",
+ "platform": "chownow",
+ "sourceUrl": "https://order.chownow.com/order/23612/locations/34573",
+ "fetchedAt": "2026-11-03T20:07:42.768Z",
+ "categories": [
+  {
+   "name": "*Postres y Picaderas | Desserts & Appetizers",
+   "items": [
+    {
+     "id": "16552057_17921840",
+     "name": "Flan",
+     "price": 450
+    },
+    {
+     "id": "16552058_17921841",
+     "name": "Tres Leches",
+     "price": 499
+    },
+    {
+     "id": "16552059_17921842",
+     "name": "Pastelitos de queso",
+     "price": 175
+    },
+    {
+     "id": "16552060_17921843",
+     "name": "Pastelitos de Beef",
+     "price": 175
+    },
+    {
+     "id": "16552061_17921844",
+     "name": "Pastelitos de Chicken",
+     "price": 175
+    },
+    {
+     "id": "16552062_17921845",
+     "name": "Papa Rellena",
+     "price": 375
+    },
+    {
+     "id": "16552063_17921846",
+     "name": "Relleno de Yuca",
+     "price": 375
+    }
+   ]
+  },
+  {
+   "name": "*Sandwich Combos",
+   "items": [
+    {
+     "id": "16552064_17921847",
+     "name": "Chimi Super Sandwich | Beef Chimis",
+     "price": 1075
+    },
+    {
+     "id": "16552065_17921848",
+     "name": "Rico Sandwich | Pork Chimi",
+     "price": 1075
+    },
+    {
+     "id": "16552066_17921849",
+     "name": "Sandwich de Jamon y Queso | Ham & Cheese",
+     "price": 875
+    },
+    {
+     "id": "16552067_17921850",
+     "name": "Sandwich de Queso | Grilled Cheese",
+     "price": 875
+    },
+    {
+     "id": "16552068_17921851",
+     "name": "Suave Sandwich | Chicken Sandwich",
+     "price": 1075
+    },
+    {
+     "id": "23681798_25439349",
+     "name": "Completo",
+     "price": 1125
+    }
+   ]
+  },
+  {
+   "name": "*Platos Combinados | Combo Plates",
+   "items": [
+    {
+     "id": "16552069_17921852",
+     "name": "Combo La Gran Familia",
+     "description": "Two rotisserie chickens with 2 sides.",
+     "price": 5500
+    },
+    {
+     "id": "16552070_17921853",
+     "name": "Combo Dominicano",
+     "description": "Half rotisserie chicken with 2 sides.",
+     "price": 1850
+    },
+    {
+     "id": "16552071_17921854",
+     "name": "Combo Capitaleno | Regular",
+     "description": "Fried chicken with 2 sides.",
+     "price": 1599
+    },
+    {
+     "id": "16552072_17921855",
+     "name": "Combo Capitaleno | Large",
+     "description": "Fried chicken with 2 sides.",
+     "price": 1950
+    },
+    {
+     "id": "16552073_17921856",
+     "name": "Combo Sabrosura | Regular",
+     "description": "Fried pork with 2 sides.",
+     "price": 1599
+    },
+    {
+     "id": "16552074_17921857",
+     "name": "Combo Sabrosura | Large",
+     "description": "Fried pork with 2 sides.",
+     "price": 1950
+    },
+    {
+     "id": "16552075_17921858",
+     "name": "Combo Villa Mella | Regular",
+     "description": "Pork rind with 2 sides.",
+     "price": 1599
+    },
+    {
+     "id": "16552076_17921859",
+     "name": "Combo Villa Mella | Large",
+     "description": "Pork rind with 2 sides.",
+     "price": 1950
+    },
+    {
+     "id": "16552077_17921860",
+     "name": "Combo Caribeno",
+     "description": "One rotisserie chicken with 2 sides.",
+     "price": 2899
+    }
+   ]
+  },
+  {
+   "name": "*Carnes | Meat Platters",
+   "items": [
+    {
+     "id": "16552078_17921861",
+     "name": "Half Pollo | Half Chicken",
+     "price": 999
+    },
+    {
+     "id": "16552079_17921862",
+     "name": "Pollo Entero | Whole Chicken",
+     "price": 1999
+    },
+    {
+     "id": "16552080_17921863",
+     "name": "Carne Frita | Stripped Fried Pork | Small",
+     "price": 1416
+    },
+    {
+     "id": "16552081_17921864",
+     "name": "Carne Frita | Stripped Fried Pork | Medium",
+     "price": 1922
+    },
+    {
+     "id": "16552082_17921865",
+     "name": "Carne Frita | Stripped Fried Pork | Large",
+     "price": 3845
+    },
+    {
+     "id": "16552083_17921866",
+     "name": "Chicharron | Pork Rind | Small",
+     "price": 1416
+    },
+    {
+     "id": "16552084_17921867",
+     "name": "Chicharron | Pork Rind | Medium",
+     "price": 1922
+    },
+    {
+     "id": "16552085_17921868",
+     "name": "Chicharron | Pork Rind | Large",
+     "price": 3845
+    },
+    {
+     "id": "16552086_17921869",
+     "name": "1 de Pollo Frito | 1 Fried Chicken",
+     "price": 358
+    },
+    {
+     "id": "16552087_17921870",
+     "name": "Orejitas",
+     "price": 380
+    }
+   ]
+  },
+  {
+   "name": "*Side Orders",
+   "items": [
+    {
+     "id": "16552088_17921871",
+     "name": "1 Platano Maduro | Sweet Plantain",
+     "price": 425
+    },
+    {
+     "id": "16552089_17921872",
+     "name": "Yuca | Cassava | Small",
+     "price": 850
+    },
+    {
+     "id": "16552090_17921873",
+     "name": "Cho Fan | Fried Rice | Small",
+     "price": 850
+    },
+    {
+     "id": "16552091_17921874",
+     "name": "Papa Fritas | French Fries | Small",
+     "price": 799
+    },
+    {
+     "id": "16552092_17921875",
+     "name": "Tostones | Fried Green Plantain | Small",
+     "price": 850
+    },
+    {
+     "id": "16552093_17921876",
+     "name": "Batata | Sweet Potatoes | Small",
+     "price": 850
+    },
+    {
+     "id": "16552094_17921877",
+     "name": "Guineos Verdes | Green Bananas | Small",
+     "price": 850
+    },
+    {
+     "id": "16552095_17921878",
+     "name": "Moro de Guandules | Rice with Green Pigeon Peas | Small",
+     "price": 850
+    },
+    {
+     "id": "16552096_17921879",
+     "name": "Cebolla | Onions | Small",
+     "price": 850
+    },
+    {
+     "id": "16552097_17921880",
+     "name": "Yuca | Cassava | Regular",
+     "price": 1199
+    },
+    {
+     "id": "16552098_17921881",
+     "name": "Cho Fan | Fried Rice | Regular",
+     "price": 1199
+    },
+    {
+     "id": "16552099_17921882",
+     "name": "Papa Fritas | French Fries | Regular",
+     "price": 1100
+    },
+    {
+     "id": "16552100_17921883",
+     "name": "Tostones | Fried Green Plantain | Regular",
+     "price": 1199
+    },
+    {
+     "id": "16552101_17921884",
+     "name": "Batata | Sweet Potatoes | Regular",
+     "price": 1199
+    },
+    {
+     "id": "16552102_17921885",
+     "name": "Guineos Verdes | Green Bananas | Regular",
+     "price": 1199
+    },
+    {
+     "id": "16552103_17921886",
+     "name": "Moro de Guandules | Rice with Green Pigeon Peas | Regular",
+     "price": 1199
+    },
+    {
+     "id": "16552104_17921887",
+     "name": "Cebolla | Onions | Regular",
+     "price": 1050
+    },
+    {
+     "id": "16552105_17921888",
+     "name": "Yuca | Cassava | Large",
+     "price": 1699
+    },
+    {
+     "id": "16552106_17921889",
+     "name": "Cho Fan | Fried Rice | Large",
+     "price": 1699
+    },
+    {
+     "id": "16552107_17921890",
+     "name": "Papa Fritas | French Fries | Large",
+     "price": 1699
+    },
+    {
+     "id": "16552108_17921891",
+     "name": "Tostones | Fried Green Plantain | Large",
+     "price": 1699
+    },
+    {
+     "id": "16552109_17921892",
+     "name": "Batata | Sweet Potatoes | Large",
+     "price": 1699
+    },
+    {
+     "id": "16552110_17921893",
+     "name": "Guineos Verdes | Green Bananas | Large",
+     "price": 1699
+    },
+    {
+     "id": "16552111_17921894",
+     "name": "Moro de Guandules | Rice with Green Pigeon Peas | Large",
+     "price": 1699
+    },
+    {
+     "id": "16552112_17921895",
+     "name": "Cebolla | Onions | Large",
+     "price": 1450
+    }
+   ]
+  },
+  {
+   "name": "*Jugos Naturales | Batidos",
+   "items": [
+    {
+     "id": "16552113_17921896",
+     "name": "Chinola | Passion Fruit",
+     "price": 575
+    },
+    {
+     "id": "16552114_17921897",
+     "name": "Coco | Coconut",
+     "price": 575
+    },
+    {
+     "id": "16552115_17921898",
+     "name": "Fresa | Strawberry",
+     "price": 575
+    },
+    {
+     "id": "16552116_17921899",
+     "name": "Guanabana | Soursop",
+     "price": 575
+    },
+    {
+     "id": "16552117_17921900",
+     "name": "Lechosa | Papaya",
+     "price": 575
+    },
+    {
+     "id": "16552118_17921901",
+     "name": "Lemonada | Lemonade",
+     "price": 575
+    },
+    {
+     "id": "16552119_17921902",
+     "name": "Mango",
+     "price": 575
+    },
+    {
+     "id": "16552120_17921903",
+     "name": "Morir Sonando | Orange Juice with Milk",
+     "price": 575
+    },
+    {
+     "id": "16552121_17921904",
+     "name": "Naranja | Freshly Squeezed Orange Juice",
+     "price": 575
+    },
+    {
+     "id": "16552122_17921905",
+     "name": "Piña | Pineapple",
+     "price": 575
+    },
+    {
+     "id": "16552123_17921906",
+     "name": "Tamarindo | Tamarind",
+     "price": 575
+    },
+    {
+     "id": "16552124_17921907",
+     "name": "Zapote | Mamey",
+     "price": 575
+    }
+   ]
+  },
+  {
+   "name": "*Bebidas | Beverages",
+   "items": [
+    {
+     "id": "16552125_17921908",
+     "name": "Jugos Enlatados | Canned Juice",
+     "price": 303
+    },
+    {
+     "id": "16552126_17921909",
+     "name": "Soda Can",
+     "price": 193
+    },
+    {
+     "id": "16552127_17921910",
+     "name": "Bottled Water",
+     "price": 193
+    },
+    {
+     "id": "16552128_17921911",
+     "name": "Bottled Soda",
+     "price": 303
+    }
+   ]
+  },
+  {
+   "name": "*Catering",
+   "items": [
+    {
+     "id": "16552129_17921912",
+     "name": "Pollo | Rotisserrie Chicken",
+     "price": 1999
+    },
+    {
+     "id": "16552130_17921913",
+     "name": "Moro | Rice with Peas | Small",
+     "price": 4899
+    },
+    {
+     "id": "16552132_17921915",
+     "name": "Carnitas | Fried Pork | Small",
+     "price": 7299
+    },
+    {
+     "id": "16552133_17921916",
+     "name": "Chicharron | Fried Pork | Small",
+     "price": 7299
+    },
+    {
+     "id": "16552134_17921917",
+     "name": "Yucca | Cassava | Small",
+     "price": 4899
+    },
+    {
+     "id": "16552135_17921918",
+     "name": "Batata | Sweet Potato | Small",
+     "price": 4899
+    },
+    {
+     "id": "16552136_17921919",
+     "name": "Guineitos Verdes | Green Banana | Small",
+     "price": 4899
+    },
+    {
+     "id": "16552137_17921920",
+     "name": "Moro | Rice with Peas | Medium",
+     "price": 7299
+    },
+    {
+     "id": "16552138_17921921",
+     "name": "Chofan | Medium",
+     "price": 7299
+    },
+    {
+     "id": "16552139_17921922",
+     "name": "Yucca | Cassava | Medium",
+     "price": 7299
+    },
+    {
+     "id": "16552140_17921923",
+     "name": "Batata | Sweet Potato | Medium",
+     "price": 7299
+    },
+    {
+     "id": "16552141_17921924",
+     "name": "Guineitos Verdes | Green Banana | Medium",
+     "price": 7299
+    },
+    {
+     "id": "16552142_17921925",
+     "name": "Moro | Rice with Peas | Large",
+     "price": 10199
+    },
+    {
+     "id": "16552143_17921926",
+     "name": "Chofan | Large",
+     "price": 10199
+    },
+    {
+     "id": "16552144_17921927",
+     "name": "Carnitas | Fried Pork | Large",
+     "price": 11699
+    },
+    {
+     "id": "16552145_17921928",
+     "name": "Chicharron | Fried Pork | Large",
+     "price": 11699
+    },
+    {
+     "id": "16552146_17921929",
+     "name": "Yucca | Cassava | Large",
+     "price": 10199
+    },
+    {
+     "id": "16552147_17921930",
+     "name": "Batata | Sweet Potato | Large",
+     "price": 10199
+    },
+    {
+     "id": "16552148_17921931",
+     "name": "Guineitos Verdes | Green Banana | Large",
+     "price": 10199
+    }
+   ]
+  }
+ ]
+}
