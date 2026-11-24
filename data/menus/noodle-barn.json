@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "doordash",
  "sourceUrl": "https://order.online/store/-2464/",
- "fetchedAt": "2026-10-12T21:52:23.684Z",
+ "fetchedAt": "2026-11-24T23:09:10.505Z",
  "categories": [
   {
    "name": "Appetizers",
@@ -11,7 +11,7 @@
     {
      "id": "1146416700",
      "name": "Edamame",
-     "description": "New. Soybean in pod lightly salted. Dish can be made with tofu and vegetables.",
+     "description": "New. Soybeans in pods, lightly salted.",
      "price": 800
     },
     {
@@ -393,7 +393,7 @@
     {
      "id": "110186748",
      "name": "Vietnamese Fried Rice",
-     "description": "Fried rice with chicken. shrimp, string bean, egg. onion, carrot, and scallion.",
+     "description": "Fried rice with chicken, shrimp, string bean, egg, onion, carrot, and scallion.",
      "price": 1900
     },
     {
@@ -428,7 +428,7 @@
     {
      "id": "110186763",
      "name": "Pad See-ew",
-     "description": "Dish can be made with tofu and vegetables.. Chicken stir-fried with flat rice noodle, egg and broccoli in sweet black soy sauce with chicken.",
+     "description": "Dish can be made with tofu and vegetables. Chicken stir-fried with flat rice noodle, egg and broccoli in sweet black soy sauce.",
      "price": 1800
     },
     {

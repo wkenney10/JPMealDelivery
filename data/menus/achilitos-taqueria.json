@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "square",
  "sourceUrl": "https://www.achilitos.com/s/order?location=LDMMH2FDVBG7V",
- "fetchedAt": "2026-10-28T18:52:20.317Z",
+ "fetchedAt": "2026-11-24T23:02:35.061Z",
  "categories": [
   {
    "name": "Bowls",
@@ -117,7 +117,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -220,7 +220,7 @@
         },
         {
          "id": "EIV7BJHQKZYKQN6QBN45LZD4",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -391,6 +391,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -559,64 +564,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "2VGF23PU7PF3C24RS2JYXNFZ:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     },
@@ -729,7 +676,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -832,7 +779,7 @@
         },
         {
          "id": "EIV7BJHQKZYKQN6QBN45LZD4",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -1016,6 +963,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -1181,64 +1133,6 @@
         {
          "id": "QWYTA6YBRZLGSNCUFH2ALK6K",
          "name": "Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
-      },
-      {
-       "id": "52Y2ZROZEBDG7IW6J26QMLVD:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
          "price": 75
         }
        ]
@@ -1447,6 +1341,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -1615,64 +1514,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "54DIODWY2R5UKVL5TZMNOI2P:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     },
@@ -1785,7 +1626,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -1888,7 +1729,7 @@
         },
         {
          "id": "EIV7BJHQKZYKQN6QBN45LZD4",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -2069,6 +1910,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -2237,64 +2083,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "D737MDC3I6RPBELPIBFWT3OK:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     },
@@ -2397,7 +2185,7 @@
         },
         {
          "id": "TZGSEMVVTLBJ66OSWILHZJRR",
-         "name": "ChorizoCrumble(V)",
+         "name": "Vegan Chorizo (V)",
          "price": 300
         }
        ]
@@ -2500,7 +2288,7 @@
         },
         {
          "id": "EIV7BJHQKZYKQN6QBN45LZD4",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -2701,6 +2489,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -2869,64 +2662,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "H4IYGMEXUPZ6X2XJRMXXPIX5:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     },
@@ -3039,7 +2774,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -3142,7 +2877,7 @@
         },
         {
          "id": "EIV7BJHQKZYKQN6QBN45LZD4",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -3328,6 +3063,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -3496,64 +3236,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "LPXBEPNPOHJA4NV3WJP3FCST:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     },
@@ -3666,7 +3348,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -3769,7 +3451,7 @@
         },
         {
          "id": "EIV7BJHQKZYKQN6QBN45LZD4",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -3955,6 +3637,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -4123,64 +3810,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "PYBFRORO6UR3R53RJNFYDQEY:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     },
@@ -4293,7 +3922,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -4396,7 +4025,7 @@
         },
         {
          "id": "EIV7BJHQKZYKQN6QBN45LZD4",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -4582,6 +4211,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -4750,64 +4384,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "QG5CS3X3OZT3FOAIBRDUTIS3:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     },
@@ -4920,7 +4496,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -5023,7 +4599,7 @@
         },
         {
          "id": "EIV7BJHQKZYKQN6QBN45LZD4",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -5222,6 +4798,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -5390,64 +4971,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "WZTL5L4D2SPSNQVHWTXHXAG2:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     }
@@ -5565,7 +5088,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -5668,7 +5191,7 @@
         },
         {
          "id": "EIV7BJHQKZYKQN6QBN45LZD4",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -5862,6 +5385,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -6030,70 +5558,12 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "37UPKNCZMDLXHJHKSLE6ZFXT:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     },
     {
      "id": "3HCKYWG6DVXQDQXHAEBGQRYQ",
-     "name": "Build Your Own Burrito",
+     "name": "Build Your Own Burrito - Regular",
      "description": "Your choice of protein, rice, beans, cheese, pico de gallo, lettuce, salsa. Add PROTEIN to any Burrito. Please select all toppings you want included, we will only add if selected.",
      "price": 1000,
      "optionGroups": [
@@ -6190,7 +5660,7 @@
         },
         {
          "id": "TZGSEMVVTLBJ66OSWILHZJRR",
-         "name": "ChorizoCrumble(V)",
+         "name": "Vegan Chorizo (V)",
          "price": 300
         }
        ]
@@ -6414,6 +5884,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -6582,64 +6057,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "3HCKYWG6DVXQDQXHAEBGQRYQ:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     },
@@ -6752,7 +6169,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -6855,7 +6272,7 @@
         },
         {
          "id": "EIV7BJHQKZYKQN6QBN45LZD4",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -7064,6 +6481,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -7229,64 +6651,6 @@
         {
          "id": "QWYTA6YBRZLGSNCUFH2ALK6K",
          "name": "Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
-      },
-      {
-       "id": "4WFC6IGWZDUK3DXSZURFWKQ6:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
          "price": 75
         }
        ]
@@ -7518,6 +6882,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -7686,64 +7055,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "5ZO5AROVWBUNCQMVHKMYY5QD:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     },
@@ -7856,7 +7167,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -8063,6 +7374,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -8231,64 +7547,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "6WZERZJ3BUC35W2UT3LCGKAB:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     },
@@ -8401,7 +7659,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -8504,7 +7762,7 @@
         },
         {
          "id": "EIV7BJHQKZYKQN6QBN45LZD4",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -8711,6 +7969,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -8879,64 +8142,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "AME5QAZ3FUXLXBU6S5FR55M2:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     },
@@ -9049,7 +8254,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -9152,7 +8357,7 @@
         },
         {
          "id": "EIV7BJHQKZYKQN6QBN45LZD4",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -9361,6 +8566,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -9529,64 +8739,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "DSDCE4VC6ABFN6EJSTGOJGJH:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     },
@@ -9699,7 +8851,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -9921,6 +9073,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -10089,64 +9246,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "G5BEO3GVW5VYTS2FU3VMCTZI:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     },
@@ -10259,7 +9358,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -10453,6 +9552,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -10621,64 +9725,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "I7VTYHYMH6F4WKM5S3AJZZCF:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     },
@@ -10791,7 +9837,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -10894,7 +9940,7 @@
         },
         {
          "id": "EIV7BJHQKZYKQN6QBN45LZD4",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -11098,6 +10144,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -11266,64 +10317,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "JA5FUSH4OBOQDJRK3XA5X3KI:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     },
@@ -11436,7 +10429,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -11645,6 +10638,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -11813,64 +10811,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "LIC6UVO7AIBWHWPJMDWDN4PZ:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     },
@@ -11973,7 +10913,7 @@
         },
         {
          "id": "TZGSEMVVTLBJ66OSWILHZJRR",
-         "name": "ChorizoCrumble(V)",
+         "name": "Vegan Chorizo (V)",
          "price": 300
         }
        ]
@@ -12076,7 +11016,7 @@
         },
         {
          "id": "EIV7BJHQKZYKQN6QBN45LZD4",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -12300,6 +11240,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -12468,64 +11413,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "LTUC3I5KEUWAVNQW7V67RMG5:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     },
@@ -12638,7 +11525,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -12847,6 +11734,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -13015,64 +11907,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "MSH7OKTYCW4DNQI32Y23ECVW:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     },
@@ -13185,7 +12019,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -13394,6 +12228,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -13562,64 +12401,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "PDWKTTZFKLE3ODCXZCBSESXV:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     },
@@ -13732,7 +12513,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -13936,6 +12717,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -14104,64 +12890,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "RPFDVB6MPH2YIHCD7HJCLUOF:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     },
@@ -14274,7 +13002,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -14377,7 +13105,7 @@
         },
         {
          "id": "EIV7BJHQKZYKQN6QBN45LZD4",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -14586,6 +13314,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -14754,64 +13487,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "TUJZLEKDAVIRISTVY7BT737C:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     },
@@ -14924,7 +13599,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -15027,7 +13702,7 @@
         },
         {
          "id": "EIV7BJHQKZYKQN6QBN45LZD4",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -15249,6 +13924,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -15414,64 +14094,6 @@
         {
          "id": "QWYTA6YBRZLGSNCUFH2ALK6K",
          "name": "Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
-      },
-      {
-       "id": "W2Z3SUIGZHN5VFMCOE2XV47J:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
          "price": 75
         }
        ]
@@ -15703,6 +14325,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -15871,64 +14498,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "ZAT45QGT2MZWRZFGENYAMIKF:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     }
@@ -15940,7 +14509,7 @@
     {
      "id": "3RSVOJYQ6YLS7WORXRVBNVT5",
      "name": "Birria Quesadilla",
-     "description": "Crispy birria quesadilla served with pico de gallo, guacamole and sour cream. Please select all toppings you want included, we will only add if selected.",
+     "description": "Crispy birria quesadilla served with birria sauce. Please select all toppings you want included, we will only add if selected.",
      "price": 1450,
      "optionGroups": [
       {
@@ -15961,7 +14530,7 @@
         },
         {
          "id": "K3ZAUMWC4EXHYT2VNSRAUVO2",
-         "name": "+ChorizoCrumble (V)",
+         "name": "+Vegan Chorizo (V)",
          "price": 400
         },
         {
@@ -16064,7 +14633,7 @@
     {
      "id": "4NUCJ7ITCXN4Q44NQCMFC6GM",
      "name": "Quesadilla Large",
-     "description": "Crispy cheese quesadilla served with pico de gallo, guacamole and sour cream. Add protein to any quesadilla. Please select all toppings you want included, we will only add if selected.",
+     "description": "Crispy cheese quesadilla served with pico de gallo, guacamole and sour cream. QUESADILLAS NOT HALAL. Add protein to any quesadilla. Please select all toppings you want included, we will only add if selected.",
      "price": 1250,
      "optionGroups": [
       {
@@ -16160,7 +14729,7 @@
         },
         {
          "id": "TZGSEMVVTLBJ66OSWILHZJRR",
-         "name": "ChorizoCrumble(V)",
+         "name": "Vegan Chorizo (V)",
          "price": 300
         }
        ]
@@ -16263,7 +14832,7 @@
         },
         {
          "id": "EIV7BJHQKZYKQN6QBN45LZD4",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -16311,6 +14880,11 @@
          "id": "5W6INFYU7CYZEJDZ6JVMEIQO",
          "name": "None",
          "price": 0
+        },
+        {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
         },
         {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
@@ -16574,7 +15148,7 @@
     {
      "id": "OYAPIJAPAF5SRJPCGVJG4Z3A",
      "name": "Birria Quesadilla - Large",
-     "description": "Crispy birria quesadilla served with pico de gallo, guacamole and sour cream. Please select all toppings you want included, we will only add if selected.",
+     "description": "Crispy birria quesadilla served with birria sauce. Please select all toppings you want included, we will only add if selected.",
      "price": 1650,
      "optionGroups": [
       {
@@ -16595,7 +15169,7 @@
         },
         {
          "id": "K3ZAUMWC4EXHYT2VNSRAUVO2",
-         "name": "+ChorizoCrumble (V)",
+         "name": "+Vegan Chorizo (V)",
          "price": 400
         },
         {
@@ -16698,7 +15272,7 @@
     {
      "id": "XNYTZ7MIZC5BKY5NTYJKLUTS",
      "name": "Cheese Quesadilla",
-     "description": "Crispy cheese quesadilla served with pico de gallo, guacamole and sour cream. Please select all toppings you want included, we will only add if selected.",
+     "description": "Crispy cheese quesadilla served with pico de gallo, guacamole and sour cream. QUESADILLAS NOT HALAL. Please select all toppings you want included, we will only add if selected.",
      "price": 800,
      "optionGroups": [
       {
@@ -16749,7 +15323,7 @@
     {
      "id": "Z2GTUD65HTMR4BWRPQ7TERP5",
      "name": "Quesadilla",
-     "description": "Crispy cheese quesadilla served with pico de gallo, guacamole and sour cream. Add protein to any quesadilla. Please select all toppings you want included, we will only add if selected.",
+     "description": "Crispy cheese quesadilla served with pico de gallo, guacamole and sour cream. Add protein to any quesadilla. QUESADILLAS NOT HALAL. Please select all toppings you want included, we will only add if selected.",
      "price": 1050,
      "optionGroups": [
       {
@@ -16845,7 +15419,7 @@
         },
         {
          "id": "TZGSEMVVTLBJ66OSWILHZJRR",
-         "name": "ChorizoCrumble(V)",
+         "name": "Vegan Chorizo (V)",
          "price": 300
         }
        ]
@@ -16893,6 +15467,11 @@
          "id": "5W6INFYU7CYZEJDZ6JVMEIQO",
          "name": "None",
          "price": 0
+        },
+        {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
         },
         {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
@@ -17054,7 +15633,7 @@
     {
      "id": "Z7Q4ROEB2NLRT7HAPM2CSCRX",
      "name": "Cheese Quesadilla Large",
-     "description": "Crispy cheese quesadilla served with pico de gallo, guacamole and sour cream. Please select all toppings you want included, we will only add if selected.",
+     "description": "Crispy cheese quesadilla served with pico de gallo, guacamole and sour cream. QUESADILLAS NOT HALAL. Please select all toppings you want included, we will only add if selected.",
      "price": 1000,
      "optionGroups": [
       {
@@ -17110,7 +15689,7 @@
     {
      "id": "J6LK22EEDUIUELAHWAM2OYEY",
      "name": "QuesaWrap - Large",
-     "description": "A quesadilla stuffed and wrapped like a burrito. Your choice of protein, rice, beans, cheese, pico de gallo, lettuce, salsa. Add PROTEIN to any Quesawrap. Please select all toppings you want included, we will only add if selected.",
+     "description": "A quesadilla stuffed and wrapped like a burrito. Your choice of protein, rice, beans, cheese, pico de gallo, lettuce, salsa. NOT HALAL. Add PROTEIN to any Quesawrap. Please select all toppings you want included, we will only add if selected.",
      "price": 1250,
      "optionGroups": [
       {
@@ -17206,7 +15785,7 @@
         },
         {
          "id": "TZGSEMVVTLBJ66OSWILHZJRR",
-         "name": "ChorizoCrumble(V)",
+         "name": "Vegan Chorizo (V)",
          "price": 300
         }
        ]
@@ -17309,7 +15888,7 @@
         },
         {
          "id": "EIV7BJHQKZYKQN6QBN45LZD4",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -17510,6 +16089,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -17684,7 +16268,7 @@
     {
      "id": "KML447AOPM7VXMTSLZ4SK2L5",
      "name": "QuesaWrap - Regular",
-     "description": "A quesadilla stuffed and wrapped like a burrito. Your choice of protein, rice, beans, cheese, pico de gallo, lettuce, salsa. Add PROTEIN to any Quesawrap. Please select all toppings you want included, we will only add if selected.",
+     "description": "A quesadilla stuffed and wrapped like a burrito. Your choice of protein, rice, beans, cheese, pico de gallo, lettuce, salsa. NOT HALAL. Add PROTEIN to any Quesawrap. Please select all toppings you want included, we will only add if selected.",
      "price": 1050,
      "optionGroups": [
       {
@@ -17780,7 +16364,7 @@
         },
         {
          "id": "TZGSEMVVTLBJ66OSWILHZJRR",
-         "name": "ChorizoCrumble(V)",
+         "name": "Vegan Chorizo (V)",
          "price": 300
         }
        ]
@@ -17981,6 +16565,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -18160,7 +16749,7 @@
     {
      "id": "AFYWSLILIIKIBQQTQIXVR62I",
      "name": "QuesaCrunch",
-     "description": "Handheld quesadilla filled with crunchy tostada, queso, cheese, lettuce, pico. sour cream on the side. Add Protein to any Quesacrunch. Please select all toppings you want included, we will only add if selected.",
+     "description": "Handheld quesadilla filled with crunchy tostada, queso, cheese, lettuce, pico. sour cream on the side. Add Protein to any Quesacrunch. NOT HALAL. Please select all toppings you want included, we will only add if selected.",
      "price": 950,
      "optionGroups": [
       {
@@ -18256,7 +16845,7 @@
         },
         {
          "id": "TZGSEMVVTLBJ66OSWILHZJRR",
-         "name": "ChorizoCrumble(V)",
+         "name": "Vegan Chorizo (V)",
          "price": 300
         }
        ]
@@ -18319,6 +16908,11 @@
          "id": "5W6INFYU7CYZEJDZ6JVMEIQO",
          "name": "None",
          "price": 0
+        },
+        {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
         },
         {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
@@ -18548,7 +17142,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -18651,7 +17245,7 @@
         },
         {
          "id": "EIV7BJHQKZYKQN6QBN45LZD4",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -18792,6 +17386,11 @@
          "id": "5W6INFYU7CYZEJDZ6JVMEIQO",
          "name": "None",
          "price": 0
+        },
+        {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
         },
         {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
@@ -18962,64 +17561,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "Z3PJRZ2F6FDRGAND2YLUO5M5:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     }
@@ -19031,7 +17572,7 @@
     {
      "id": "2GXFA6UDZHP6ZAM6CYYFFIRG",
      "name": "Birria Taco Plate",
-     "description": "Two (2) birria taco of your choice topped with cilantro & onion, cheese served with rice and beans. Please select all toppings you want included, we will only add if selected.",
+     "description": "Two (2) birria taco of your choice topped with cilantro & onion, cheese served with rice and beans. Please select all toppings you want included, we will only add if selected. NOT HALAL.",
      "price": 1650,
      "optionGroups": [
       {
@@ -19210,6 +17751,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -19384,7 +17930,7 @@
     {
      "id": "5LFTIB4CCJPASYNH2LVYJMBI",
      "name": "Taco Plate",
-     "description": "Two (2) taco of your choice topped with lettuce, pico de gallo, cheese served with rice and beans. Please select all toppings you want included, we will only add if selected.",
+     "description": "Two (2) taco of your choice topped with lettuce, pico de gallo, cheese served with rice and beans. Please select all toppings you want included, we will only add if selected. For Halal Tacos, please select steamed tortilla.",
      "price": 1150,
      "optionGroups": [
       {
@@ -19480,7 +18026,7 @@
         },
         {
          "id": "TZGSEMVVTLBJ66OSWILHZJRR",
-         "name": "ChorizoCrumble(V)",
+         "name": "Vegan Chorizo (V)",
          "price": 300
         }
        ]
@@ -19493,7 +18039,7 @@
        "options": [
         {
          "id": "XQQ4K2727TIGQMKJKCUFKZWI",
-         "name": "Corn Tortilla Steamed (V,GFI)",
+         "name": "Corn Tortilla Steamed (V,GFI,Halal)",
          "price": 0
         },
         {
@@ -19714,6 +18260,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -19917,7 +18468,7 @@
        "options": [
         {
          "id": "XQQ4K2727TIGQMKJKCUFKZWI",
-         "name": "Corn Tortilla Steamed (V,GFI)",
+         "name": "Corn Tortilla Steamed (V,GFI,Halal)",
          "price": 0
         },
         {
@@ -20188,7 +18739,7 @@
        "options": [
         {
          "id": "XQQ4K2727TIGQMKJKCUFKZWI",
-         "name": "Corn Tortilla Steamed (V,GFI)",
+         "name": "Corn Tortilla Steamed (V,GFI,Halal)",
          "price": 0
         },
         {
@@ -20435,7 +18986,7 @@
     {
      "id": "4DVHWQJYBOPKPXGQPMXKJAT4",
      "name": "Birria Taco x3",
-     "description": "Three (3) Birria taco topped with cilantro and onion, side consume Please select all toppings you want included, we will only add if selected.",
+     "description": "Three (3) Birria taco topped with cilantro and onion, side consume Please select all toppings you want included, we will only add if selected. NOT HALAL.",
      "price": 1600,
      "optionGroups": [
       {
@@ -20491,6 +19042,11 @@
          "id": "5W6INFYU7CYZEJDZ6JVMEIQO",
          "name": "None",
          "price": 0
+        },
+        {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
         },
         {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
@@ -20667,7 +19223,7 @@
     {
      "id": "HSJNG7YCOAP5CUEQJKNKD2NL",
      "name": "Tacos",
-     "description": "Taco of your choice topped with lettuce, pico de gallo, cheese. Please select all toppings you want included, we will only add if selected.",
+     "description": "Taco of your choice topped with lettuce, pico de gallo, cheese. Please select all toppings you want included, we will only add if selected. For Halal Tacos, please select steamed tortilla.",
      "price": 400,
      "optionGroups": [
       {
@@ -20696,7 +19252,7 @@
        "options": [
         {
          "id": "XQQ4K2727TIGQMKJKCUFKZWI",
-         "name": "Corn Tortilla Steamed (V,GFI)",
+         "name": "Corn Tortilla Steamed (V,GFI,Halal)",
          "price": 0
         },
         {
@@ -20867,6 +19423,11 @@
          "id": "5W6INFYU7CYZEJDZ6JVMEIQO",
          "name": "None",
          "price": 0
+        },
+        {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
         },
         {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
@@ -21072,7 +19633,7 @@
        "options": [
         {
          "id": "XQQ4K2727TIGQMKJKCUFKZWI",
-         "name": "Corn Tortilla Steamed (V,GFI)",
+         "name": "Corn Tortilla Steamed (V,GFI,Halal)",
          "price": 0
         },
         {
@@ -21140,6 +19701,11 @@
          "id": "5W6INFYU7CYZEJDZ6JVMEIQO",
          "name": "None",
          "price": 0
+        },
+        {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
         },
         {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
@@ -21345,7 +19911,7 @@
        "options": [
         {
          "id": "XQQ4K2727TIGQMKJKCUFKZWI",
-         "name": "Corn Tortilla Steamed (V,GFI)",
+         "name": "Corn Tortilla Steamed (V,GFI,Halal)",
          "price": 0
         },
         {
@@ -21413,6 +19979,11 @@
          "id": "5W6INFYU7CYZEJDZ6JVMEIQO",
          "name": "None",
          "price": 0
+        },
+        {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
         },
         {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
@@ -21589,7 +20160,7 @@
     {
      "id": "XWDZU6PBN6CLMDJOG45VCK4I",
      "name": "Birria Taco",
-     "description": "Birria taco topped with cilantro and onion, side consume Please select all toppings you want included, we will only add if selected.",
+     "description": "Birria taco topped with cilantro and onion, side consume Please select all toppings you want included, we will only add if selected. NOT HALAL.",
      "price": 600,
      "optionGroups": [
       {
@@ -21645,6 +20216,11 @@
          "id": "5W6INFYU7CYZEJDZ6JVMEIQO",
          "name": "None",
          "price": 0
+        },
+        {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
         },
         {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
@@ -21922,7 +20498,7 @@
         },
         {
          "id": "TZGSEMVVTLBJ66OSWILHZJRR",
-         "name": "ChorizoCrumble(V)",
+         "name": "Vegan Chorizo (V)",
          "price": 300
         }
        ]
@@ -22030,7 +20606,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -22111,6 +20687,11 @@
          "id": "5W6INFYU7CYZEJDZ6JVMEIQO",
          "name": "None",
          "price": 0
+        },
+        {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
         },
         {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
@@ -22411,7 +20992,7 @@
         },
         {
          "id": "TZGSEMVVTLBJ66OSWILHZJRR",
-         "name": "ChorizoCrumble(V)",
+         "name": "Vegan Chorizo (V)",
          "price": 300
         }
        ]
@@ -22519,7 +21100,7 @@
         },
         {
          "id": "W34ZVJIDEKJF3FVBDH6FGXNN",
-         "name": "ChorizoCrumble (V)",
+         "name": "Vegan Chorizo (V)",
          "price": 400
         }
        ]
@@ -22610,6 +21191,11 @@
          "id": "5W6INFYU7CYZEJDZ6JVMEIQO",
          "name": "None",
          "price": 0
+        },
+        {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
         },
         {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
@@ -22808,64 +21394,6 @@
          "price": 75
         }
        ]
-      },
-      {
-       "id": "ZH4Z5P477HSZ7FFECGESU6TB:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     }
@@ -22922,6 +21450,11 @@
          "id": "5W6INFYU7CYZEJDZ6JVMEIQO",
          "name": "None",
          "price": 0
+        },
+        {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
         },
         {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
@@ -23203,6 +21736,11 @@
          "id": "5W6INFYU7CYZEJDZ6JVMEIQO",
          "name": "None",
          "price": 0
+        },
+        {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
         },
         {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
@@ -23571,6 +22109,11 @@
          "price": 0
         },
         {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
+        },
+        {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
          "name": "Guacamole (V,GFI)",
          "price": 200
@@ -23790,6 +22333,11 @@
          "id": "5W6INFYU7CYZEJDZ6JVMEIQO",
          "name": "None",
          "price": 0
+        },
+        {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
         },
         {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
@@ -24309,64 +22857,6 @@
          "price": 0
         }
        ]
-      },
-      {
-       "id": "6D2UFUNHRZYKAIQ4L7DVB4EO:QGEDTMZOAUQUD2MTQFZ2BM5X",
-       "name": "Add Sides (optional)",
-       "min": 0,
-       "max": 1,
-       "options": [
-        {
-         "id": "RB3LEX45CTR4UTRNDQ6FI6HN",
-         "name": "No Sides",
-         "price": 0
-        },
-        {
-         "id": "2UZY57I4MBSFEOH6O2ELGBSJ",
-         "name": "SIDE**Spicy Ranch (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "P4ACS3AGSHDOVAKV3FWNJYJV",
-         "name": "SIDE**Jalapeno Lime Cream (GFI)",
-         "price": 50
-        },
-        {
-         "id": "7SZNXLTXR4RAZLJN4UF5ZJZG",
-         "name": "SIDE**Cilantro Crema (D,GFI)",
-         "price": 50
-        },
-        {
-         "id": "EOKMVXW4GG2H4267AXRPHNTT",
-         "name": "SIDE**Salsa Verde (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "DF4MCMI2ITVDWA52QVE2ENF2",
-         "name": "SIDE**Sweet Chipotle (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "SSTN44YGIEQI6GUXXPFEKITB",
-         "name": "SIDE**Chipotle Mayo (GFI)",
-         "price": 50
-        },
-        {
-         "id": "H4E75KEUAKAGYQ2OFQ73GUGT",
-         "name": "SIDE**Chipotle Vegan Mayo (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "56UM5QT53HP3I7COLY337JSU",
-         "name": "SIDE**Habanero (HOT) (V,GFI)",
-         "price": 50
-        },
-        {
-         "id": "ARQVZ5CFZV73DOMTFOIBA7DG",
-         "name": "SIDE**Mole (sesame, peanut) JP ONLY",
-         "price": 75
-        }
-       ]
       }
      ]
     },
@@ -24654,6 +23144,11 @@
          "id": "5W6INFYU7CYZEJDZ6JVMEIQO",
          "name": "None",
          "price": 0
+        },
+        {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
         },
         {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",
@@ -25048,6 +23543,11 @@
          "id": "5W6INFYU7CYZEJDZ6JVMEIQO",
          "name": "None",
          "price": 0
+        },
+        {
+         "id": "G6JGBMFLA2B6667FNDLGBPJT",
+         "name": "Lime Squeezed",
+         "price": 65
         },
         {
          "id": "26LRHMN3MNHQ3IPD7ZVWOSCE",

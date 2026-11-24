@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "slice",
  "sourceUrl": "https://slicelife.com/restaurants/ma/jamaica-plain/02130/mike-patty-s-jamaica-plain/menu",
- "fetchedAt": "2026-10-05T17:00:35.547Z",
+ "fetchedAt": "2026-11-24T23:02:36.844Z",
  "dinnerAvailable": false,
  "categories": [
   {
@@ -26,12 +26,6 @@
      "name": "Breakfast Grilled Crack",
      "description": "Vital Farms pasture-raised fried egg, extra bacon, American, cheddar, swiss, and gruyere on our buttered Flourhouse sourdough",
      "price": 1663
-    },
-    {
-     "id": "slice-16200710",
-     "name": "Baller",
-     "description": "acorn-fed Ibérico de Bellota bacon imported from Spain, Vital Farms pasture-raised fried egg and Vermont cheddar aged 24 months on our house-made english muffin.",
-     "price": 1463
     },
     {
      "id": "slice-16200709",

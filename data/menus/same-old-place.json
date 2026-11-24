@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "slice",
  "sourceUrl": "https://slicelife.com/restaurants/ma/jamaica-plain/02130/same-old-place/menu",
- "fetchedAt": "2026-10-05T17:00:36.217Z",
+ "fetchedAt": "2026-11-24T23:02:37.439Z",
  "dinnerAvailable": true,
  "categories": [
   {
@@ -1976,12 +1976,6 @@
      "id": "slice-1000291232",
      "name": "Fudge Brownies",
      "price": 350
-    },
-    {
-     "id": "slice-1000291238",
-     "name": "Cheesecake",
-     "description": "Strawberry or Caramel",
-     "price": 799
     }
    ]
   },

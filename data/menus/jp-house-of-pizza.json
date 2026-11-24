@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "slice",
  "sourceUrl": "https://slicelife.com/restaurants/ma/jamaica-plain/02130/j-p-house-of-pizza/menu",
- "fetchedAt": "2026-10-31T17:44:41.460Z",
+ "fetchedAt": "2026-11-24T23:02:36.558Z",
  "dinnerAvailable": true,
  "categories": [
   {
@@ -13,7 +13,7 @@
      "id": "slice-1001029282",
      "name": "Cheese Pizza",
      "description": "Classic cheese or creat your own pizza.",
-     "price": 1199,
+     "price": 1299,
      "optionGroups": [
       {
        "id": "slice-1001029282-size",
@@ -29,7 +29,7 @@
         {
          "id": "slice-type-1001587695",
          "name": "Large",
-         "price": 380
+         "price": 381
         }
        ]
       }
@@ -60,7 +60,7 @@
         {
          "id": "slice-type-1001587700",
          "name": "Large",
-         "price": 620
+         "price": 720
         }
        ]
       }
@@ -70,7 +70,7 @@
      "id": "slice-1001029289",
      "name": "Vegetarian Pizza",
      "description": "Onions, peppers, mushrooms, eggplant, broccoli and tomatoes.",
-     "price": 1549,
+     "price": 1649,
      "optionGroups": [
       {
        "id": "slice-1001029289-size",
@@ -96,7 +96,7 @@
      "id": "slice-1001029290",
      "name": "Greco Pizza",
      "description": "Feta cheese, fresh garlic, olive, tomatoes.",
-     "price": 1549,
+     "price": 1649,
      "optionGroups": [
       {
        "id": "slice-1001029290-size",
@@ -122,7 +122,7 @@
      "id": "slice-1001029292",
      "name": "Athens Pizza",
      "description": "rilled chicken, spinach, feta cheese.",
-     "price": 1549,
+     "price": 1649,
      "optionGroups": [
       {
        "id": "slice-1001029292-size",
@@ -148,7 +148,7 @@
      "id": "slice-1001029294",
      "name": "Zesty Feta Pizza",
      "description": "Bacon, pepper rings, feta cheese.",
-     "price": 1549,
+     "price": 1649,
      "optionGroups": [
       {
        "id": "slice-1001029294-size",
@@ -174,7 +174,7 @@
      "id": "slice-1001029295",
      "name": "Buffalo Chicken Pizza",
      "description": "Crispy chicken topped with hot sauce or barbecue sauce.",
-     "price": 1549,
+     "price": 1649,
      "optionGroups": [
       {
        "id": "slice-1001029295-size",
@@ -200,7 +200,7 @@
      "id": "slice-1001029296",
      "name": "Barbecue Chicken Pizza",
      "description": "Crispy chicken topped with hot sauce or barbecue sauce.",
-     "price": 1549,
+     "price": 1649,
      "optionGroups": [
       {
        "id": "slice-1001029296-size",
@@ -226,7 +226,7 @@
      "id": "slice-1001029297",
      "name": "Texas Barbecue Pizza",
      "description": "Grilled chicken, grilled onions, barbecue sauce.",
-     "price": 1549,
+     "price": 1649,
      "optionGroups": [
       {
        "id": "slice-1001029297-size",
@@ -252,7 +252,7 @@
      "id": "slice-1001029298",
      "name": "Meat Lovers Pizza",
      "description": "Pepperoni, sausage, ham, salami, bacon and meatballs.",
-     "price": 1549,
+     "price": 1649,
      "optionGroups": [
       {
        "id": "slice-1001029298-size",
@@ -278,7 +278,7 @@
      "id": "slice-1001029300",
      "name": "Chicken Bacon Ranch Pizza",
      "description": "Ranch sauce, grilled chicken, bacon.",
-     "price": 1549,
+     "price": 1649,
      "optionGroups": [
       {
        "id": "slice-1001029300-size",
@@ -304,7 +304,7 @@
      "id": "slice-1001029301",
      "name": "Pollo Pizza",
      "description": "Grilled chicken, broccoli, garlic and Alfredo sauce.",
-     "price": 1549,
+     "price": 1649,
      "optionGroups": [
       {
        "id": "slice-1001029301-size",
@@ -330,7 +330,7 @@
      "id": "slice-1001029303",
      "name": "White Pizza",
      "description": "We use ricotta cheese as a sauce with olives, tomatoes and artichokes.",
-     "price": 1549,
+     "price": 1649,
      "optionGroups": [
       {
        "id": "slice-1001029303-size",
@@ -356,7 +356,7 @@
      "id": "slice-1001029304",
      "name": "Hawaiian Pizza",
      "description": "Ham and pineapple.",
-     "price": 1449,
+     "price": 1549,
      "optionGroups": [
       {
        "id": "slice-1001029304-size",
@@ -372,7 +372,7 @@
         {
          "id": "slice-type-1001587735",
          "name": "Large",
-         "price": 480
+         "price": 620
         }
        ]
       }
@@ -386,7 +386,7 @@
     {
      "id": "slice-1001029307",
      "name": "Cheese Calzone",
-     "price": 1549,
+     "price": 1649,
      "optionGroups": [
       {
        "id": "slice-1001029307-size",
@@ -436,7 +436,7 @@
     {
      "id": "slice-1001029312",
      "name": "Spinach & Feta Calzone",
-     "price": 1494,
+     "price": 1594,
      "optionGroups": [
       {
        "id": "slice-1001029312-size",
@@ -461,7 +461,7 @@
     {
      "id": "slice-1001029314",
      "name": "Italian Cold Cut Calzone",
-     "price": 1499,
+     "price": 1599,
      "optionGroups": [
       {
        "id": "slice-1001029314-size",
@@ -486,7 +486,7 @@
     {
      "id": "slice-1001029317",
      "name": "Chicken Parmesan Calzone",
-     "price": 1499,
+     "price": 1599,
      "optionGroups": [
       {
        "id": "slice-1001029317-size",
@@ -511,7 +511,7 @@
     {
      "id": "slice-1001029320",
      "name": "Meatball Parmesan Calzone",
-     "price": 1499,
+     "price": 1599,
      "optionGroups": [
       {
        "id": "slice-1001029320-size",
@@ -536,7 +536,7 @@
     {
      "id": "slice-1001029322",
      "name": "Sausage & Meatball Parmesan Calzone",
-     "price": 1499,
+     "price": 1599,
      "optionGroups": [
       {
        "id": "slice-1001029322-size",
@@ -562,7 +562,7 @@
      "id": "slice-1001029323",
      "name": "Greco Calzone",
      "description": "Feta cheese, olives, garlic, tomatoes.",
-     "price": 1499,
+     "price": 1599,
      "optionGroups": [
       {
        "id": "slice-1001029323-size",
@@ -588,7 +588,7 @@
      "id": "slice-1001029324",
      "name": "Mexican Calzone",
      "description": "Grilled chicken, onions, peppers and hot sauce.",
-     "price": 1499,
+     "price": 1599,
      "optionGroups": [
       {
        "id": "slice-1001029324-size",
@@ -614,7 +614,7 @@
      "id": "slice-1001029326",
      "name": "Chicken Broccoli Calzone",
      "description": "Grilled chicken with broccoli.",
-     "price": 1499,
+     "price": 1599,
      "optionGroups": [
       {
        "id": "slice-1001029326-size",
@@ -640,7 +640,7 @@
      "id": "slice-1001029328",
      "name": "JP Special Calzone",
      "description": "Ham, pepperoni, sausage, bacon, peppers, onions and mushrooms.",
-     "price": 1549,
+     "price": 1649,
      "optionGroups": [
       {
        "id": "slice-1001029328-size",
@@ -666,7 +666,7 @@
      "id": "slice-1001029329",
      "name": "Veggie Calzone",
      "description": "Peppers, onions, mushrooms, broccoli, tomatoes and olives.",
-     "price": 1549,
+     "price": 1649,
      "optionGroups": [
       {
        "id": "slice-1001029329-size",
@@ -697,7 +697,7 @@
      "id": "slice-1001029333",
      "name": "Steak & Cheese Sub",
      "description": "With onions, peppers or mushrooms.",
-     "price": 1107,
+     "price": 1207,
      "optionGroups": [
       {
        "id": "slice-1001029333-size",
@@ -723,7 +723,7 @@
      "id": "slice-1001030309",
      "name": "Steak & Cheese Sub With 2 Toppings",
      "description": "With 2 Toppings. Onions or peppers or mushrooms.",
-     "price": 1137,
+     "price": 1237,
      "optionGroups": [
       {
        "id": "slice-1001030309-size",
@@ -749,7 +749,7 @@
      "id": "slice-1001030310",
      "name": "Steak Bomb Sub",
      "description": "Onions, peppers, mushrooms, and cheese",
-     "price": 1257,
+     "price": 1357,
      "optionGroups": [
       {
        "id": "slice-1001030310-size",
@@ -780,7 +780,7 @@
      "id": "slice-1001030313",
      "name": "Veggie Sub",
      "description": "Cold or grilled.",
-     "price": 1007,
+     "price": 1107,
      "optionGroups": [
       {
        "id": "slice-1001030313-size",
@@ -805,7 +805,7 @@
     {
      "id": "slice-1001030315",
      "name": "Italian Sub",
-     "price": 1107,
+     "price": 1207,
      "optionGroups": [
       {
        "id": "slice-1001030315-size",
@@ -830,7 +830,7 @@
     {
      "id": "slice-1001030316",
      "name": "American Sub",
-     "price": 1107,
+     "price": 1207,
      "optionGroups": [
       {
        "id": "slice-1001030316-size",
@@ -853,34 +853,9 @@
      ]
     },
     {
-     "id": "slice-1001030317",
-     "name": "Roast Beef Sub",
-     "price": 1137,
-     "optionGroups": [
-      {
-       "id": "slice-1001030317-size",
-       "name": "Size",
-       "min": 1,
-       "max": 1,
-       "options": [
-        {
-         "id": "slice-type-1001589370",
-         "name": "Small",
-         "price": 0
-        },
-        {
-         "id": "slice-type-1001589369",
-         "name": "Large",
-         "price": 100
-        }
-       ]
-      }
-     ]
-    },
-    {
      "id": "slice-1001030318",
      "name": "Turkey Sub",
-     "price": 1137,
+     "price": 1237,
      "optionGroups": [
       {
        "id": "slice-1001030318-size",
@@ -906,7 +881,7 @@
      "id": "slice-1001030319",
      "name": "Turkey Club Sub",
      "description": "Bacon, lettuce, tomatoes and mayo.",
-     "price": 1207,
+     "price": 1307,
      "optionGroups": [
       {
        "id": "slice-1001030319-size",
@@ -931,7 +906,7 @@
     {
      "id": "slice-1001030320",
      "name": "Ham & Cheese Sub",
-     "price": 1107,
+     "price": 1207,
      "optionGroups": [
       {
        "id": "slice-1001030320-size",
@@ -956,7 +931,7 @@
     {
      "id": "slice-1001030321",
      "name": "Pepper & Egg Sub",
-     "price": 1107,
+     "price": 1207,
      "optionGroups": [
       {
        "id": "slice-1001030321-size",
@@ -981,7 +956,7 @@
     {
      "id": "slice-1001030322",
      "name": "B.L.T. Sub",
-     "price": 1107,
+     "price": 1207,
      "optionGroups": [
       {
        "id": "slice-1001030322-size",
@@ -1006,7 +981,7 @@
     {
      "id": "slice-1001030323",
      "name": "Tuna Sub",
-     "price": 1107,
+     "price": 1207,
      "optionGroups": [
       {
        "id": "slice-1001030323-size",
@@ -1031,7 +1006,7 @@
     {
      "id": "slice-1001030324",
      "name": "Grilled Chicken Sub",
-     "price": 1137,
+     "price": 1237,
      "optionGroups": [
       {
        "id": "slice-1001030324-size",
@@ -1056,7 +1031,7 @@
     {
      "id": "slice-1001030325",
      "name": "Grilled Chicken Greek Sub",
-     "price": 1157,
+     "price": 1257,
      "optionGroups": [
       {
        "id": "slice-1001030325-size",
@@ -1081,7 +1056,7 @@
     {
      "id": "slice-1001030326",
      "name": "Chicken Cutlet Sub",
-     "price": 1107,
+     "price": 1207,
      "optionGroups": [
       {
        "id": "slice-1001030326-size",
@@ -1106,7 +1081,7 @@
     {
      "id": "slice-1001030327",
      "name": "Chicken Finger Sub",
-     "price": 1107,
+     "price": 1207,
      "optionGroups": [
       {
        "id": "slice-1001030327-size",
@@ -1131,7 +1106,7 @@
     {
      "id": "slice-1001030328",
      "name": "Buffalo Chicken Finger Sub",
-     "price": 1157,
+     "price": 1257,
      "optionGroups": [
       {
        "id": "slice-1001030328-size",
@@ -1157,7 +1132,7 @@
      "id": "slice-1001030329",
      "name": "Chicken Stir Fry Sub",
      "description": "Grilled chicken, onions, peppers, broccoli, mushrooms, teriyaki and cheese.",
-     "price": 1157,
+     "price": 1257,
      "optionGroups": [
       {
        "id": "slice-1001030329-size",
@@ -1182,7 +1157,7 @@
     {
      "id": "slice-1001030330",
      "name": "Pastrami Sub",
-     "price": 1107,
+     "price": 1207,
      "optionGroups": [
       {
        "id": "slice-1001030330-size",
@@ -1207,7 +1182,7 @@
     {
      "id": "slice-1001030331",
      "name": "Steak Tip Sub",
-     "price": 1257,
+     "price": 1357,
      "optionGroups": [
       {
        "id": "slice-1001030331-size",
@@ -1232,7 +1207,7 @@
     {
      "id": "slice-1001030332",
      "name": "Cheeseburger Sub",
-     "price": 1107,
+     "price": 1207,
      "optionGroups": [
       {
        "id": "slice-1001030332-size",
@@ -1257,7 +1232,7 @@
     {
      "id": "slice-1001030333",
      "name": "Gyro Lamb Sub",
-     "price": 1107,
+     "price": 1207,
      "optionGroups": [
       {
        "id": "slice-1001030333-size",
@@ -1282,7 +1257,7 @@
     {
      "id": "slice-1001030334",
      "name": "Gyro Chicken Sub",
-     "price": 1107,
+     "price": 1207,
      "optionGroups": [
       {
        "id": "slice-1001030334-size",
@@ -1307,7 +1282,7 @@
     {
      "id": "slice-1001030335",
      "name": "Gyro Steak Tip Sub",
-     "price": 1157,
+     "price": 1257,
      "optionGroups": [
       {
        "id": "slice-1001030335-size",
@@ -1337,7 +1312,7 @@
     {
      "id": "slice-1001030337",
      "name": "Meatball Sub",
-     "price": 1107,
+     "price": 1207,
      "optionGroups": [
       {
        "id": "slice-1001030337-size",
@@ -1362,7 +1337,7 @@
     {
      "id": "slice-1001030678",
      "name": "Sausage Sub",
-     "price": 1107,
+     "price": 1207,
      "optionGroups": [
       {
        "id": "slice-1001030678-size",
@@ -1385,34 +1360,9 @@
      ]
     },
     {
-     "id": "slice-1001030679",
-     "name": "Veal Sub",
-     "price": 1048,
-     "optionGroups": [
-      {
-       "id": "slice-1001030679-size",
-       "name": "Size",
-       "min": 1,
-       "max": 1,
-       "options": [
-        {
-         "id": "slice-type-1001589899",
-         "name": "Small",
-         "price": 0
-        },
-        {
-         "id": "slice-type-1001589898",
-         "name": "Large",
-         "price": 100
-        }
-       ]
-      }
-     ]
-    },
-    {
      "id": "slice-1001030680",
      "name": "Eggplant Sub",
-     "price": 1107,
+     "price": 1207,
      "optionGroups": [
       {
        "id": "slice-1001030680-size",
@@ -1437,7 +1387,7 @@
     {
      "id": "slice-1001030681",
      "name": "Chicken Sub",
-     "price": 1107,
+     "price": 1207,
      "optionGroups": [
       {
        "id": "slice-1001030681-size",
@@ -1462,7 +1412,7 @@
     {
      "id": "slice-1001030682",
      "name": "Meatball & Sausage Combo Sub",
-     "price": 1207,
+     "price": 1307,
      "optionGroups": [
       {
        "id": "slice-1001030682-size",
@@ -1493,85 +1443,85 @@
      "id": "slice-1001030683",
      "name": "Grilled Veggie Wrap",
      "description": "Grilled peppers, onions, mushrooms, broccoli, tomatoes and American cheese.",
-     "price": 1037
+     "price": 1137
     },
     {
      "id": "slice-1001030684",
      "name": "Greek Wrap",
      "description": "Lettuce, tomatoes, olives, green peppers, feta cheese, and our homemade Greek dressing.",
-     "price": 1087
+     "price": 1187
     },
     {
      "id": "slice-1001030685",
      "name": "Tuna Wrap",
      "description": "Lettuce, tomatoes, onions & pickles.",
-     "price": 1207
+     "price": 1307
     },
     {
      "id": "slice-1001030686",
      "name": "Turkey Wrap",
      "description": "Turkey breast, provolone cheese, mayo, lettuce and tomatoes.",
-     "price": 1207
+     "price": 1307
     },
     {
      "id": "slice-1001030687",
      "name": "Turkey Bacon Wrap",
      "description": "Lettuce, tomatoes, bacon and ranch dressing.",
-     "price": 1207
+     "price": 1307
     },
     {
      "id": "slice-1001030688",
      "name": "Italian Wrap",
      "description": "Lettuce, tomatoes, pickles, onions, pepper rings, our homemade house dressing.",
-     "price": 1207
+     "price": 1307
     },
     {
      "id": "slice-1001030689",
      "name": "Grilled Chicken Greek",
      "description": "Grilled chicken, lettuce, tomatoes, feta cheese, and our homemade Greek dressing.",
-     "price": 1207
+     "price": 1307
     },
     {
      "id": "slice-1001030690",
      "name": "Grilled Chicken Caesar",
      "description": "Grilled Chicken, romaine lettuce, croutons, parmesan cheese and Caesar dressing.",
-     "price": 1207
+     "price": 1307
     },
     {
      "id": "slice-1001030691",
      "name": "Steak Tip Wrap",
      "description": "Grilled steak tips, pepper, onions, and American cheese.",
-     "price": 1307
+     "price": 1407
     },
     {
      "id": "slice-1001030692",
      "name": "Cheese Steak Wrap",
      "description": "Shaved steak, lettuce, tomatoes, mayo, and American cheese.",
-     "price": 1207
+     "price": 1307
     },
     {
      "id": "slice-1001030693",
      "name": "The Texan Wrap",
      "description": "Honey barbecue crispy chicken, bacon, lettuce, tomatoes and American cheese.",
-     "price": 1207
+     "price": 1307
     },
     {
      "id": "slice-1001030694",
      "name": "Buffalo Chicken Wrap",
      "description": "Buffalo crispy chicken with blue cheese, lettuce and tomatoes.",
-     "price": 1207
+     "price": 1307
     },
     {
      "id": "slice-1001030695",
      "name": "Chicken Ranch BLT Wrap",
      "description": "Crispy chicken, bacon, lettuce, tomatoes and ranch dressing.",
-     "price": 1207
+     "price": 1307
     },
     {
      "id": "slice-1001030696",
      "name": "Chicken Stir Fry Wrap",
      "description": "Grilled chicken, onions, peppers, broccoli, mushrooms, teriyaki and cheese.",
-     "price": 1207
+     "price": 1307
     }
    ]
   },
@@ -1581,22 +1531,22 @@
     {
      "id": "slice-1001030697",
      "name": "Grilled Chicken Salad",
-     "price": 1299
+     "price": 1399
     },
     {
      "id": "slice-1001030698",
      "name": "Grilled Chicken Greek Salad",
-     "price": 1399
+     "price": 1499
     },
     {
      "id": "slice-1001030699",
      "name": "Grilled Chicken Caesar Salad",
-     "price": 1299
+     "price": 1399
     },
     {
      "id": "slice-1001030700",
      "name": "Steak Tip Salad",
-     "price": 1349
+     "price": 1449
     },
     {
      "id": "slice-1001030701",
@@ -1606,49 +1556,49 @@
     {
      "id": "slice-1001030702",
      "name": "Buffalo Crispy Chicken Salad",
-     "price": 1299
+     "price": 1399
     },
     {
      "id": "slice-1001030703",
      "name": "Crispy Chicken Salad",
-     "price": 1299
+     "price": 1399
     },
     {
      "id": "slice-1001030704",
      "name": "Gyro Salad",
-     "price": 1299
+     "price": 1399
     },
     {
      "id": "slice-1001030705",
      "name": "Chef Salad",
      "description": "Turkey, ham, roast beef, and American cheese. Made fresh-to-order.",
-     "price": 1299
+     "price": 1399
     },
     {
      "id": "slice-1001030706",
      "name": "Antipasto",
      "description": "Italian cold cuts, provolone cheese. Made fresh-to-order.",
-     "price": 1299
+     "price": 1399
     },
     {
      "id": "slice-1001030707",
      "name": "Tuna Salad",
-     "price": 1199
+     "price": 1299
     },
     {
      "id": "slice-1001030708",
      "name": "Garden Salad",
-     "price": 1029
+     "price": 1129
     },
     {
      "id": "slice-1001030709",
      "name": "Greek Salad",
-     "price": 1200
+     "price": 1300
     },
     {
      "id": "slice-1001030728",
      "name": "Caesar Salad",
-     "price": 1200
+     "price": 1300
     }
    ]
   },
@@ -1658,7 +1608,7 @@
     {
      "id": "slice-1001030710",
      "name": "Chicken Wings Dinner",
-     "price": 1399,
+     "price": 1499,
      "optionGroups": [
       {
        "id": "slice-1001030710-size",
@@ -1683,7 +1633,7 @@
     {
      "id": "slice-1001030711",
      "name": "Buffalo Wings Dinner",
-     "price": 1399,
+     "price": 1499,
      "optionGroups": [
       {
        "id": "slice-1001030711-size",
@@ -1758,17 +1708,17 @@
     {
      "id": "slice-1001030715",
      "name": "Steak Tip Dinner",
-     "price": 1699
+     "price": 1799
     },
     {
      "id": "slice-1001030716",
      "name": "Grilled Chicken Dinner",
-     "price": 1599
+     "price": 1699
     },
     {
      "id": "slice-1001030717",
      "name": "Gyro Dinner",
-     "price": 1499
+     "price": 1599
     }
    ]
   },
@@ -1779,43 +1729,37 @@
      "id": "slice-1001030720",
      "name": "Ziti with Sauce & Cheese",
      "description": "Served with garlic bread, sauce and topped with cheese.",
-     "price": 1099
+     "price": 1199
     },
     {
      "id": "slice-1001030721",
      "name": "Ziti with Meatball",
      "description": "Served with garlic bread, sauce and topped with cheese.",
-     "price": 1299
+     "price": 1399
     },
     {
      "id": "slice-1001030722",
      "name": "Ziti with Sausage",
      "description": "Served with garlic bread, sauce and topped with cheese.",
-     "price": 1299
-    },
-    {
-     "id": "slice-1001030723",
-     "name": "Ziti with Veal Parmesan",
-     "description": "Served with garlic bread, sauce and topped with cheese.",
-     "price": 1299
+     "price": 1399
     },
     {
      "id": "slice-1001030724",
      "name": "Ziti with Chicken Parmesan",
      "description": "Served with garlic bread, sauce and topped with cheese.",
-     "price": 1299
+     "price": 1399
     },
     {
      "id": "slice-1001030725",
      "name": "Ziti with Eggplant Parmesan",
      "description": "Served with garlic bread, sauce and topped with cheese.",
-     "price": 1299
+     "price": 1399
     },
     {
      "id": "slice-1001030727",
      "name": "Chicken Broccoli Alfredo",
      "description": "Served with garlic bread, sauce and topped with cheese.",
-     "price": 1449
+     "price": 1549
     }
    ]
   },
@@ -1825,7 +1769,7 @@
     {
      "id": "slice-1001030729",
      "name": "Chicken Wings",
-     "price": 1129,
+     "price": 1229,
      "optionGroups": [
       {
        "id": "slice-1001030729-size",
@@ -1850,7 +1794,7 @@
     {
      "id": "slice-1001030730",
      "name": "Buffalo Wings",
-     "price": 1189,
+     "price": 1289,
      "optionGroups": [
       {
        "id": "slice-1001030730-size",
@@ -1925,27 +1869,27 @@
     {
      "id": "slice-1001030733",
      "name": "French Fries",
-     "price": 579
+     "price": 679
     },
     {
      "id": "slice-1001030734",
      "name": "Cheese Fries",
-     "price": 699
+     "price": 799
     },
     {
      "id": "slice-1001030735",
      "name": "Onion Rings",
-     "price": 699
+     "price": 799
     },
     {
      "id": "slice-1001030736",
      "name": "Mozzarella Sticks",
-     "price": 849
+     "price": 949
     },
     {
      "id": "slice-1001030737",
      "name": "Potato Skins with Sour Cream",
-     "price": 849
+     "price": 949
     },
     {
      "id": "slice-1001030739",
@@ -1955,7 +1899,7 @@
     {
      "id": "slice-1001030740",
      "name": "Garlic Bread with Cheese",
-     "price": 599
+     "price": 699
     },
     {
      "id": "slice-1001030741",
@@ -1970,22 +1914,22 @@
     {
      "id": "slice-1001030742",
      "name": "Hamburger",
-     "price": 799
+     "price": 899
     },
     {
      "id": "slice-1001030743",
      "name": "Cheeseburger",
-     "price": 849
+     "price": 949
     },
     {
      "id": "slice-1001030744",
      "name": "Bacon Cheeseburger",
-     "price": 899
+     "price": 999
     },
     {
      "id": "slice-1001030745",
      "name": "Chicken Cutlet",
-     "price": 849
+     "price": 949
     }
    ]
   },
@@ -1993,29 +1937,24 @@
    "name": "Desserts",
    "items": [
     {
-     "id": "slice-1001030747",
-     "name": "Baklava",
-     "price": 499
-    },
-    {
      "id": "slice-1001030748",
      "name": "Cheesecake",
-     "price": 599
+     "price": 699
     },
     {
      "id": "slice-1001030749",
      "name": "Oreo Cake",
-     "price": 599
+     "price": 699
     },
     {
      "id": "slice-1001030750",
      "name": "Red Velvet",
-     "price": 649
+     "price": 749
     },
     {
      "id": "slice-1001030751",
      "name": "Tres Leche",
-     "price": 649
+     "price": 749
     }
    ]
   },

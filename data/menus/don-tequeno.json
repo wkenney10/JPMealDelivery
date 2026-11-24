@@ -3,8 +3,11 @@
  "source": "scraped",
  "platform": "clover",
  "sourceUrl": "https://don-tequeno-y-dona-arepa-boston.cloveronline.com/menu/all",
- "fetchedAt": "2026-10-27T18:42:31.882Z",
+ "fetchedAt": "2026-11-24T23:02:35.849Z",
  "dinnerAvailable": true,
+ "closedDays": [
+  4
+ ],
  "categories": [
   {
    "name": "Breakfast Specials",
@@ -1313,41 +1316,6 @@
        ]
       }
      ]
-    },
-    {
-     "id": "S8599CJF91QRG",
-     "name": "Chicken Soup",
-     "price": 1500,
-     "optionGroups": [
-      {
-       "id": "S8599CJF91QRG:WSZJ3A3PQKGRJ",
-       "name": "Pick a side",
-       "min": 1,
-       "max": 1,
-       "options": [
-        {
-         "id": "58KZRY0CP724W",
-         "name": "Arepa Viuda Asada",
-         "price": 0
-        },
-        {
-         "id": "NYZCJKQJVBXHC",
-         "name": "White Rice",
-         "price": 0
-        },
-        {
-         "id": "DJQTKJBSEYX3Y",
-         "name": "Arepa Viuda Frita",
-         "price": 0
-        },
-        {
-         "id": "NH0EH93Y4NE2W",
-         "name": "Tostones",
-         "price": 0
-        }
-       ]
-      }
-     ]
     }
    ]
   },
@@ -1695,6 +1663,12 @@
      "id": "MT5Q3Z112ZKXM",
      "name": "Fried Cheese",
      "price": 600
+    },
+    {
+     "id": "2DVDGABKXH82G",
+     "name": "Mandoca (GF) (Veg)",
+     "description": "1 Unit per order",
+     "price": 225
     },
     {
      "id": "95ZPJAGGBBCWG",
@@ -10966,6 +10940,16 @@
      "id": "RQSYFMEB1HKN0",
      "name": "3 Leches",
      "price": 600
+    },
+    {
+     "id": "VG6767DEGBZ7Y",
+     "name": "Flan (Quesillo)",
+     "price": 600
+    },
+    {
+     "id": "31MDG2DQNQG02",
+     "name": "Chocoflan",
+     "price": 650
     },
     {
      "id": "TYM4K73676DT0",

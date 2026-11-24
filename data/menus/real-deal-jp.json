@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "slice",
  "sourceUrl": "https://slicelife.com/restaurants/ma/jamaica-plain/02130/the-real-deal/menu",
- "fetchedAt": "2026-10-19T19:21:04.996Z",
+ "fetchedAt": "2026-11-24T23:02:37.146Z",
  "dinnerAvailable": true,
  "categories": [
   {
@@ -63,65 +63,59 @@
    "name": "Starters",
    "items": [
     {
-     "id": "slice-21652502",
+     "id": "slice-29076002",
      "name": "Mozzarella Sticks",
      "description": "Served with house marinara.",
      "price": 1187
     },
     {
-     "id": "slice-21652503",
+     "id": "slice-29076003",
      "name": "Boneless Buffalo Wings",
      "description": "Served with bleu cheese and celery. Choose: hot, mild, honey hot, spicy BBQ or honey BBQ, or seasonal sauce.",
      "price": 1727
     },
     {
-     "id": "slice-21652504",
+     "id": "slice-29076004",
      "name": "Parmesan Truffle Tots",
      "description": "Vegetarian, seasonal specials. Golden fried tater tots, truffle oil, Parmesan cheese, fresh parsley served with garlic aioli.",
      "price": 1458
     },
     {
-     "id": "slice-21652505",
+     "id": "slice-29076005",
      "name": "French Fries",
      "description": "Gluten-free.",
      "price": 918
     },
     {
-     "id": "slice-21652506",
+     "id": "slice-29076006",
      "name": "Spicy Curly Fries",
      "price": 971
     },
     {
-     "id": "slice-21652507",
+     "id": "slice-29076007",
      "name": "Onion Rings",
      "description": "Thick cut served with kick'n bayou sauce.",
      "price": 1187
     },
     {
-     "id": "slice-21652508",
+     "id": "slice-29076008",
      "name": "Chili Cheese Fries",
      "price": 1566
     },
     {
-     "id": "slice-21652509",
+     "id": "slice-29076009",
      "name": "Clam Chowder",
      "description": "Cape cod's own award winning captain Parker's clam chowder.",
      "price": 755
     },
     {
-     "id": "slice-21652510",
+     "id": "slice-29076010",
      "name": "Chicken Fingers",
      "description": "6 Jumbo fresh tenders With honey ginger sauce.",
      "price": 1619
     },
     {
-     "id": "slice-21652511",
-     "name": "Chili",
-     "description": "House recipe with beef and beans.",
-     "price": 755
-    },
-    {
-     "id": "slice-22843645",
+     "id": "slice-29076012",
      "name": "Street Corn Tots",
      "description": "golden fried tater tots, roasted corn, lime crema aioli, cotija cheese, smoked paprika & parsley",
      "price": 1458
@@ -196,43 +190,43 @@
    "name": "Pizzas",
    "items": [
     {
-     "id": "slice-27319845",
+     "id": "slice-29076013",
      "name": "The Real Deal",
      "description": "Pepperoni, bacon, prosciutto, hamburg, sausage.",
      "price": 2915
     },
     {
-     "id": "slice-27319846",
+     "id": "slice-29076014",
      "name": "Margherita",
      "description": "Vegetarian. Fresh mozzarella, roasted tomatoes, fresh basil, EVOO.",
      "price": 2430
     },
     {
-     "id": "slice-27319847",
+     "id": "slice-29076015",
      "name": "Pulled Pork",
      "description": "Slow roasted pulled pork, caramelized onions, roasted tomato, BBQ sauce, mozzarella.",
      "price": 2591
     },
     {
-     "id": "slice-27319848",
+     "id": "slice-29076016",
      "name": "Buffalo Chicken Pizza",
      "description": "Our buffalo chicken, bleu cheese dressing, mozzarella.",
      "price": 2699
     },
     {
-     "id": "slice-27319849",
+     "id": "slice-29076017",
      "name": "Classico",
      "description": "Vegetarian. Breaded eggplant, ricotta, roasted red peppers, baby arugula, mozzarella.",
      "price": 2591
     },
     {
-     "id": "slice-27319850",
+     "id": "slice-29076018",
      "name": "Chicken Ranch Pizza",
      "description": "Chicken cutlet, bacon, tomato, ranch dressing, mozzarella, chopped parsley.",
      "price": 2699
     },
     {
-     "id": "slice-27319851",
+     "id": "slice-29076019",
      "name": "Al Fresco",
      "description": "Sausage, ricotta, roasted red peppers, mozzarella, red sauce.",
      "price": 2591
