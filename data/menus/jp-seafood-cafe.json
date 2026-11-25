@@ -3,73 +3,8 @@
  "source": "scraped",
  "platform": "toast",
  "sourceUrl": "https://order.toasttab.com/online/jp-seafood-cafe",
- "fetchedAt": "2026-10-16T17:31:10.321Z",
+ "fetchedAt": "2026-11-25T22:38:48.589Z",
  "categories": [
-  {
-   "name": "Lunch Specials",
-   "items": [
-    {
-     "id": "d45e8b53-88e9-4174-b3ac-7c8e7b44922d",
-     "name": "Bulgoki Box",
-     "description": "marinated (contains soy sauce, sesame oil, onion) sliced beef with koroke, fried white fish, rice and salad",
-     "price": 2000
-    },
-    {
-     "id": "cb256e38-7614-4226-aa4f-3a15f12fa897",
-     "name": "Catch Box",
-     "description": "lightly fried white fish with koroke, dumpling, rice and salad",
-     "price": 1900
-    },
-    {
-     "id": "ccc36821-e5ae-4a84-a24e-33d5005f54db",
-     "name": "Chicken Box",
-     "description": "teriyaki chicken with koroke, fried white fish, rice and salad",
-     "price": 1800
-    },
-    {
-     "id": "d84768e3-9138-4903-8a21-bdc1b487003f",
-     "name": "Salmon Box",
-     "description": "teriyaki salmon with koroke, fried white fish, rice and salad",
-     "price": 2000
-    },
-    {
-     "id": "72cc4abe-bf9d-47a1-8cd5-f24b9b6447c6",
-     "name": "Tempura Box",
-     "description": "lightly fried shrimps and vegetables with koroke, fried white fish, rice and salad",
-     "price": 2000
-    },
-    {
-     "id": "8d11a33c-498a-4177-89da-db829fb56cee",
-     "name": "Tofu Box",
-     "description": "teriyaki tofu with koroke, vegetable dumpling, rice and salad",
-     "price": 1700
-    },
-    {
-     "id": "ec7da2f6-48ea-46f4-abbc-679dcaffc76d",
-     "name": "Cafe Special Box",
-     "description": "Chef's choice of 6 pieces of Sashimi with koroke, fried fish, rice and salad",
-     "price": 2100
-    },
-    {
-     "id": "34b05c0d-cb6f-438b-ae27-78314958c2e1",
-     "name": "Sushi Lunch",
-     "description": "5 pcs. nigiri sushi and sake maki",
-     "price": 1700
-    },
-    {
-     "id": "97bd6fab-e9d3-4c66-99b3-b41155b141aa",
-     "name": "Sashimi Lunch",
-     "description": "12 pcs. Chef's choice Sashimi served with rice",
-     "price": 2000
-    },
-    {
-     "id": "f95f4f05-d886-43d9-b642-748be152be94",
-     "name": "Cali Lunch",
-     "description": "12 pieces of California maki",
-     "price": 1500
-    }
-   ]
-  },
   {
    "name": "APPETIZERS",
    "items": [
@@ -824,7 +759,7 @@
     {
      "id": "6288c220-0c73-495f-8fe3-161c200f3a53",
      "name": "Hotate Spec Maki",
-     "description": "Fresh Scallop, Spicy Mayo, Masago",
+     "description": "Fresh Scallop, Spicy Mayo, Masago, Scallion, Cucumber",
      "price": 1400
     },
     {
@@ -913,6 +848,7 @@
     {
      "id": "3c8c4c9e-6172-4072-98a9-c9be3f579d0e",
      "name": "Asp Maki",
+     "description": "Asparagus and Avocado",
      "price": 700
     },
     {
@@ -1221,19 +1157,34 @@
      "price": 1100
     },
     {
-     "id": "ca7097f6-6170-49fe-bda5-d1caf73ae720",
-     "name": "Fat Orange Cat IPA",
-     "price": 1000
-    },
-    {
      "id": "0878cffa-8a5e-4ca0-ac2d-cc7127af5142",
      "name": "Mango Goseface",
-     "price": 1100
+     "price": 800
     },
     {
      "id": "ed5fbcf3-dabd-4e86-a6ea-48bbfd9d98a4",
      "name": "Von Trapp Cs Jack's Abby",
      "price": 1000
+    },
+    {
+     "id": "8a9bc078-ade5-4e59-99d2-ef3848f942b3",
+     "name": "Oxbow Farmhouse Ale",
+     "price": 800
+    },
+    {
+     "id": "45a9d56c-1b54-4e0a-b208-35f6a754bfd8",
+     "name": "Green Mountain IPA",
+     "price": 1000
+    },
+    {
+     "id": "5b878c92-e5f6-4828-b33a-b10626266b1f",
+     "name": "Rockport Sour Ale",
+     "price": 1000
+    },
+    {
+     "id": "332f1b34-10ce-48da-ad5b-b39c08e7969b",
+     "name": "Ghostfish Hazy IPA",
+     "price": 1100
     }
    ]
   },
@@ -1293,7 +1244,7 @@
     {
      "id": "da20710c-bffc-4279-9abb-1a88b50763b7",
      "name": "Kikkoman Plum (750ml)",
-     "price": 3000
+     "price": 3400
     },
     {
      "id": "723f2d07-a5e8-45c7-848b-149e1620444c",
@@ -1454,6 +1405,11 @@
      "id": "3ae66c00-36ca-4eb2-847e-ca60ca5b6c7f",
      "name": "BTL Veuve Du Vernay",
      "price": 1000
+    },
+    {
+     "id": "66d799a4-692b-45e3-b3ba-0eb538edd803",
+     "name": "Frosted cranberry spritz",
+     "price": 3800
     }
    ]
   }

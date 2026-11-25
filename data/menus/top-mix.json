@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "doordash",
  "sourceUrl": "https://order.online/store/top-mix-bar-&-kitchen-boston-522906/?pickup=true",
- "fetchedAt": "2026-11-24T23:12:19.499Z",
+ "fetchedAt": "2026-11-25T22:45:13.770Z",
  "categories": [
   {
    "name": "Starters",
@@ -42,6 +42,12 @@
      "id": "23925645180",
      "name": "Plantian Chips w/ Fried Cheese",
      "description": "Plantain chips typically served with fried cheese.",
+     "price": 1275
+    },
+    {
+     "id": "24057913895",
+     "name": "Steak & Cheese Eggrolls",
+     "description": "Shaved steak, peppers, onions, and American cheese, wrapped in a crispy egg roll. Typically served with a tangy dipping sauce.",
      "price": 1275
     },
     {
