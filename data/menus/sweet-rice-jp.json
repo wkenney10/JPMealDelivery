@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "toast",
  "sourceUrl": "https://order.toasttab.com/online/sweet-rice-jp",
- "fetchedAt": "2026-11-01T18:33:52.329Z",
+ "fetchedAt": "2026-11-26T22:32:14.351Z",
  "categories": [
   {
    "name": "Japanese Hot Appetizers",
@@ -413,6 +413,16 @@
      "id": "0b1bec08-e96f-49d9-bd3a-94ec457a4c10",
      "name": "Vegetable Sushi Roll",
      "price": 1000
+    },
+    {
+     "id": "cd6a3700-0d3b-46ea-b6d6-4f4009ca52fc",
+     "name": "Mango Avo",
+     "price": 900
+    },
+    {
+     "id": "649729ad-884e-457a-960c-c86c5b9e9da2",
+     "name": "Mango Cucumber",
+     "price": 900
     }
    ]
   },

@@ -3,43 +3,43 @@
  "source": "scraped",
  "platform": "chownow",
  "sourceUrl": "https://order.chownow.com/order/23612/locations/34573",
- "fetchedAt": "2026-11-03T20:07:42.768Z",
+ "fetchedAt": "2026-11-26T22:22:44.205Z",
  "categories": [
   {
    "name": "*Postres y Picaderas | Desserts & Appetizers",
    "items": [
     {
-     "id": "16552057_17921840",
+     "id": "TOAST+ff0f11d7-c4d4-4da8-a406-fca34daba53e",
      "name": "Flan",
      "price": 450
     },
     {
-     "id": "16552058_17921841",
+     "id": "TOAST+fad3798d-a070-42e2-975e-878647f69e33",
      "name": "Tres Leches",
      "price": 499
     },
     {
-     "id": "16552059_17921842",
+     "id": "TOAST+47684af2-9ef4-4203-a961-1436ec051fbe",
      "name": "Pastelitos de queso",
      "price": 175
     },
     {
-     "id": "16552060_17921843",
+     "id": "TOAST+02e3575b-6571-46a6-a5cd-7c4bacceb4d0",
      "name": "Pastelitos de Beef",
      "price": 175
     },
     {
-     "id": "16552061_17921844",
+     "id": "TOAST+2867457b-0499-49f9-a580-49034d68fb6b",
      "name": "Pastelitos de Chicken",
      "price": 175
     },
     {
-     "id": "16552062_17921845",
+     "id": "TOAST+5a7d8db4-a332-4441-b8ee-194ea3f24d54",
      "name": "Papa Rellena",
      "price": 375
     },
     {
-     "id": "16552063_17921846",
+     "id": "TOAST+d61e7ed7-ef57-4e4a-bb0d-822ed5df303a",
      "name": "Relleno de Yuca",
      "price": 375
     }
@@ -49,32 +49,32 @@
    "name": "*Sandwich Combos",
    "items": [
     {
-     "id": "16552064_17921847",
+     "id": "TOAST+dc274a8f-3e01-483a-9891-9409a33dee8f",
      "name": "Chimi Super Sandwich | Beef Chimis",
      "price": 1075
     },
     {
-     "id": "16552065_17921848",
+     "id": "TOAST+d319606f-3c4d-4c78-ac41-c84049dee066",
      "name": "Rico Sandwich | Pork Chimi",
      "price": 1075
     },
     {
-     "id": "16552066_17921849",
+     "id": "TOAST+603de669-2725-4729-905e-a3b33acdd25a",
      "name": "Sandwich de Jamon y Queso | Ham & Cheese",
      "price": 875
     },
     {
-     "id": "16552067_17921850",
+     "id": "TOAST+fa1255a9-da90-4d6c-b302-cdd72bb7eece",
      "name": "Sandwich de Queso | Grilled Cheese",
      "price": 875
     },
     {
-     "id": "16552068_17921851",
+     "id": "TOAST+d70450f2-2400-4a73-92e9-b98ffe27645d",
      "name": "Suave Sandwich | Chicken Sandwich",
      "price": 1075
     },
     {
-     "id": "23681798_25439349",
+     "id": "TOAST+8fc8a76a-2055-491c-9bfc-896c92dfacd9",
      "name": "Completo",
      "price": 1125
     }
@@ -84,55 +84,55 @@
    "name": "*Platos Combinados | Combo Plates",
    "items": [
     {
-     "id": "16552069_17921852",
+     "id": "TOAST+b45a3b4a-a533-497a-8f9e-e405eee12a7a",
      "name": "Combo La Gran Familia",
      "description": "Two rotisserie chickens with 2 sides.",
      "price": 5500
     },
     {
-     "id": "16552070_17921853",
+     "id": "TOAST+a68eee67-b3ba-430d-bc86-c5b7e296e9da",
      "name": "Combo Dominicano",
      "description": "Half rotisserie chicken with 2 sides.",
      "price": 1850
     },
     {
-     "id": "16552071_17921854",
+     "id": "TOAST+b8395f83-0b5e-4030-a156-2defde3eca5a",
      "name": "Combo Capitaleno | Regular",
      "description": "Fried chicken with 2 sides.",
      "price": 1599
     },
     {
-     "id": "16552072_17921855",
+     "id": "TOAST+607a4f0e-01eb-4c87-b56e-96ab615597a1",
      "name": "Combo Capitaleno | Large",
      "description": "Fried chicken with 2 sides.",
      "price": 1950
     },
     {
-     "id": "16552073_17921856",
+     "id": "TOAST+2e7543c2-8d07-4677-922f-002e93be7e1f",
      "name": "Combo Sabrosura | Regular",
      "description": "Fried pork with 2 sides.",
      "price": 1599
     },
     {
-     "id": "16552074_17921857",
+     "id": "TOAST+d447d2a7-c716-404a-ab76-42197e700768",
      "name": "Combo Sabrosura | Large",
      "description": "Fried pork with 2 sides.",
      "price": 1950
     },
     {
-     "id": "16552075_17921858",
+     "id": "TOAST+bee1755d-e261-41a6-a062-b16e0d975958",
      "name": "Combo Villa Mella | Regular",
      "description": "Pork rind with 2 sides.",
      "price": 1599
     },
     {
-     "id": "16552076_17921859",
+     "id": "TOAST+eb1a47c6-1f16-47c7-beb5-42f23610a691",
      "name": "Combo Villa Mella | Large",
      "description": "Pork rind with 2 sides.",
      "price": 1950
     },
     {
-     "id": "16552077_17921860",
+     "id": "TOAST+684148c9-1383-48a0-87de-07cbbd9296e6",
      "name": "Combo Caribeno",
      "description": "One rotisserie chicken with 2 sides.",
      "price": 2899
@@ -143,52 +143,52 @@
    "name": "*Carnes | Meat Platters",
    "items": [
     {
-     "id": "16552078_17921861",
+     "id": "TOAST+5ca7879a-7124-4ac8-bc62-4daabb089db1",
      "name": "Half Pollo | Half Chicken",
      "price": 999
     },
     {
-     "id": "16552079_17921862",
+     "id": "TOAST+b31adc10-be24-4e9f-870e-aa835b84f474",
      "name": "Pollo Entero | Whole Chicken",
      "price": 1999
     },
     {
-     "id": "16552080_17921863",
+     "id": "TOAST+adc4b75b-4224-47be-b2e5-89a0a793489d",
      "name": "Carne Frita | Stripped Fried Pork | Small",
      "price": 1416
     },
     {
-     "id": "16552081_17921864",
+     "id": "TOAST+b2a5da20-2807-418f-8b7d-2998e60f45a8",
      "name": "Carne Frita | Stripped Fried Pork | Medium",
      "price": 1922
     },
     {
-     "id": "16552082_17921865",
+     "id": "TOAST+3e18429d-4f5a-4d02-9feb-67e6a4382854",
      "name": "Carne Frita | Stripped Fried Pork | Large",
      "price": 3845
     },
     {
-     "id": "16552083_17921866",
+     "id": "TOAST+2cc78d19-49fa-4317-98f1-8323dc8db47a",
      "name": "Chicharron | Pork Rind | Small",
      "price": 1416
     },
     {
-     "id": "16552084_17921867",
+     "id": "TOAST+a02450a6-bf68-4f4f-a440-06a091957124",
      "name": "Chicharron | Pork Rind | Medium",
      "price": 1922
     },
     {
-     "id": "16552085_17921868",
+     "id": "TOAST+b1ad2ac8-a518-4d29-83b6-0c0a857f355f",
      "name": "Chicharron | Pork Rind | Large",
      "price": 3845
     },
     {
-     "id": "16552086_17921869",
+     "id": "TOAST+dfaa95a6-21a5-4e67-bfcf-348bdded84bd",
      "name": "1 de Pollo Frito | 1 Fried Chicken",
      "price": 358
     },
     {
-     "id": "16552087_17921870",
+     "id": "TOAST+09ce68a7-e8ed-4586-b3a9-db5cb88fc24e",
      "name": "Orejitas",
      "price": 380
     }
@@ -198,127 +198,127 @@
    "name": "*Side Orders",
    "items": [
     {
-     "id": "16552088_17921871",
+     "id": "TOAST+b5f02712-be3d-4556-8e00-5b71f8615629",
      "name": "1 Platano Maduro | Sweet Plantain",
      "price": 425
     },
     {
-     "id": "16552089_17921872",
+     "id": "TOAST+a9bd8f7b-0e56-48c8-ad3f-1ceed509baa1",
      "name": "Yuca | Cassava | Small",
      "price": 850
     },
     {
-     "id": "16552090_17921873",
+     "id": "TOAST+ef8e29bf-00fb-465e-9a04-c46030436ce3",
      "name": "Cho Fan | Fried Rice | Small",
      "price": 850
     },
     {
-     "id": "16552091_17921874",
+     "id": "TOAST+7a7dce62-faec-4e21-9b38-257cf424a8d7",
      "name": "Papa Fritas | French Fries | Small",
      "price": 799
     },
     {
-     "id": "16552092_17921875",
+     "id": "TOAST+e149fe89-31c4-44a1-aa62-b4ecaef1ce33",
      "name": "Tostones | Fried Green Plantain | Small",
      "price": 850
     },
     {
-     "id": "16552093_17921876",
+     "id": "TOAST+5df8fc8d-8050-4f0c-8e89-c92a095eff37",
      "name": "Batata | Sweet Potatoes | Small",
      "price": 850
     },
     {
-     "id": "16552094_17921877",
+     "id": "TOAST+f655d911-7dca-43db-a563-c8dd7f81ad67",
      "name": "Guineos Verdes | Green Bananas | Small",
      "price": 850
     },
     {
-     "id": "16552095_17921878",
+     "id": "TOAST+4ae97e1f-61aa-464b-a2eb-7a1005d45bc4",
      "name": "Moro de Guandules | Rice with Green Pigeon Peas | Small",
      "price": 850
     },
     {
-     "id": "16552096_17921879",
+     "id": "TOAST+7eba9af4-4dc6-4112-a70d-9de1776f1509",
      "name": "Cebolla | Onions | Small",
      "price": 850
     },
     {
-     "id": "16552097_17921880",
+     "id": "TOAST+08aa712f-ea79-4a16-9dd3-8f9bbbd6b8fb",
      "name": "Yuca | Cassava | Regular",
      "price": 1199
     },
     {
-     "id": "16552098_17921881",
+     "id": "TOAST+eb13f84e-ed6c-44e8-9c07-9dd645538608",
      "name": "Cho Fan | Fried Rice | Regular",
      "price": 1199
     },
     {
-     "id": "16552099_17921882",
+     "id": "TOAST+e75aa54a-3c65-4ccc-9ebe-0668c146e074",
      "name": "Papa Fritas | French Fries | Regular",
      "price": 1100
     },
     {
-     "id": "16552100_17921883",
+     "id": "TOAST+f72fa011-026d-49f7-9e00-0f4cb0954863",
      "name": "Tostones | Fried Green Plantain | Regular",
      "price": 1199
     },
     {
-     "id": "16552101_17921884",
+     "id": "TOAST+abcee855-d467-46b2-8ed5-580e8a77ff6e",
      "name": "Batata | Sweet Potatoes | Regular",
      "price": 1199
     },
     {
-     "id": "16552102_17921885",
+     "id": "TOAST+fb15304d-b532-48d2-8dc5-14240ff9f63f",
      "name": "Guineos Verdes | Green Bananas | Regular",
      "price": 1199
     },
     {
-     "id": "16552103_17921886",
+     "id": "TOAST+a43151bc-3f16-47b7-b4e0-b6599007db9d",
      "name": "Moro de Guandules | Rice with Green Pigeon Peas | Regular",
      "price": 1199
     },
     {
-     "id": "16552104_17921887",
+     "id": "TOAST+f4dc05d0-cd28-4ff8-98cf-20b9aee1e6a4",
      "name": "Cebolla | Onions | Regular",
      "price": 1050
     },
     {
-     "id": "16552105_17921888",
+     "id": "TOAST+a8363c75-512d-4ba2-a011-21046e282142",
      "name": "Yuca | Cassava | Large",
      "price": 1699
     },
     {
-     "id": "16552106_17921889",
+     "id": "TOAST+d7d12617-f93d-4a88-bab8-9ba2f6fa0bf4",
      "name": "Cho Fan | Fried Rice | Large",
      "price": 1699
     },
     {
-     "id": "16552107_17921890",
+     "id": "TOAST+efed6f43-2186-4bbe-a9dc-9caa195a94ac",
      "name": "Papa Fritas | French Fries | Large",
      "price": 1699
     },
     {
-     "id": "16552108_17921891",
+     "id": "TOAST+08fa8b4c-46d7-4e92-a70d-f0b07dc9e616",
      "name": "Tostones | Fried Green Plantain | Large",
      "price": 1699
     },
     {
-     "id": "16552109_17921892",
+     "id": "TOAST+3e4119a1-e3ad-4922-bb6c-1bcd4f922094",
      "name": "Batata | Sweet Potatoes | Large",
      "price": 1699
     },
     {
-     "id": "16552110_17921893",
+     "id": "TOAST+64e421fb-cbcd-40a6-8cf8-014f5b6f0e81",
      "name": "Guineos Verdes | Green Bananas | Large",
      "price": 1699
     },
     {
-     "id": "16552111_17921894",
+     "id": "TOAST+4619122e-55c7-42e7-8114-257a0291db5b",
      "name": "Moro de Guandules | Rice with Green Pigeon Peas | Large",
      "price": 1699
     },
     {
-     "id": "16552112_17921895",
+     "id": "TOAST+135c2bbd-a1b8-42cd-80da-432ed7a08877",
      "name": "Cebolla | Onions | Large",
      "price": 1450
     }
@@ -328,62 +328,62 @@
    "name": "*Jugos Naturales | Batidos",
    "items": [
     {
-     "id": "16552113_17921896",
+     "id": "TOAST+ec4bb6b7-72f7-4cbc-a683-8bf0ad67c2e0",
      "name": "Chinola | Passion Fruit",
      "price": 575
     },
     {
-     "id": "16552114_17921897",
+     "id": "TOAST+07294879-f56b-4e11-88c4-a9e1287c8b52",
      "name": "Coco | Coconut",
      "price": 575
     },
     {
-     "id": "16552115_17921898",
+     "id": "TOAST+4c9dd079-755d-496d-bbe7-8c5c96abb19b",
      "name": "Fresa | Strawberry",
      "price": 575
     },
     {
-     "id": "16552116_17921899",
+     "id": "TOAST+42e5e31f-5353-4965-bf0a-6a7d752120ed",
      "name": "Guanabana | Soursop",
      "price": 575
     },
     {
-     "id": "16552117_17921900",
+     "id": "TOAST+d6f2e544-c797-4d47-b8ed-601d5fd0ef5b",
      "name": "Lechosa | Papaya",
      "price": 575
     },
     {
-     "id": "16552118_17921901",
+     "id": "TOAST+d9eba477-88e1-4eac-861f-7a4b16f73e53",
      "name": "Lemonada | Lemonade",
      "price": 575
     },
     {
-     "id": "16552119_17921902",
+     "id": "TOAST+2de98e4c-8b41-4074-b61c-442abe56ce83",
      "name": "Mango",
      "price": 575
     },
     {
-     "id": "16552120_17921903",
+     "id": "TOAST+b4ff33eb-a98a-4690-a542-0add1aa9c22f",
      "name": "Morir Sonando | Orange Juice with Milk",
      "price": 575
     },
     {
-     "id": "16552121_17921904",
+     "id": "TOAST+aca76d9c-dfc7-49cb-84f6-7d37608c95b4",
      "name": "Naranja | Freshly Squeezed Orange Juice",
      "price": 575
     },
     {
-     "id": "16552122_17921905",
+     "id": "TOAST+45ba04ad-1383-4a69-8ecb-e4e1dd42c081",
      "name": "Piña | Pineapple",
      "price": 575
     },
     {
-     "id": "16552123_17921906",
+     "id": "TOAST+4a9508ed-5723-45a3-b5ce-17c0db8a63c9",
      "name": "Tamarindo | Tamarind",
      "price": 575
     },
     {
-     "id": "16552124_17921907",
+     "id": "TOAST+6214db8b-a1cb-465b-89e3-a797699a5284",
      "name": "Zapote | Mamey",
      "price": 575
     }
@@ -393,22 +393,22 @@
    "name": "*Bebidas | Beverages",
    "items": [
     {
-     "id": "16552125_17921908",
+     "id": "TOAST+6fefaea8-a37c-4a5c-9904-283dd30ad401",
      "name": "Jugos Enlatados | Canned Juice",
      "price": 303
     },
     {
-     "id": "16552126_17921909",
+     "id": "TOAST+448eb4f2-1e1a-41a5-9dfa-d99786c63b39",
      "name": "Soda Can",
      "price": 193
     },
     {
-     "id": "16552127_17921910",
+     "id": "TOAST+e8a2256a-3097-4dd4-bbc7-d49bcfbb3c12",
      "name": "Bottled Water",
      "price": 193
     },
     {
-     "id": "16552128_17921911",
+     "id": "TOAST+3cea71cf-b876-41f4-ae93-06278621675b",
      "name": "Bottled Soda",
      "price": 303
     }
@@ -418,97 +418,97 @@
    "name": "*Catering",
    "items": [
     {
-     "id": "16552129_17921912",
+     "id": "TOAST+58914c16-8244-434d-9ffa-0103485beb90",
      "name": "Pollo | Rotisserrie Chicken",
      "price": 1999
     },
     {
-     "id": "16552130_17921913",
+     "id": "TOAST+4c265a08-37d3-4cec-85c7-bc374ba9fcf7",
      "name": "Moro | Rice with Peas | Small",
      "price": 4899
     },
     {
-     "id": "16552132_17921915",
+     "id": "TOAST+04e918b3-cb66-40b5-8668-a978f9095f35",
      "name": "Carnitas | Fried Pork | Small",
      "price": 7299
     },
     {
-     "id": "16552133_17921916",
+     "id": "TOAST+2cb57b8f-02b9-4eb2-b68d-ad852be161dc",
      "name": "Chicharron | Fried Pork | Small",
      "price": 7299
     },
     {
-     "id": "16552134_17921917",
+     "id": "TOAST+ccfede2a-b131-4504-aa07-b0a6a4933d81",
      "name": "Yucca | Cassava | Small",
      "price": 4899
     },
     {
-     "id": "16552135_17921918",
+     "id": "TOAST+57c56611-a472-4aad-a7b6-74378aa56cdd",
      "name": "Batata | Sweet Potato | Small",
      "price": 4899
     },
     {
-     "id": "16552136_17921919",
+     "id": "TOAST+e71a1095-751d-44c7-a91b-ae082532ccef",
      "name": "Guineitos Verdes | Green Banana | Small",
      "price": 4899
     },
     {
-     "id": "16552137_17921920",
+     "id": "TOAST+3890203e-2ec4-4f93-9ecf-dace853b669f",
      "name": "Moro | Rice with Peas | Medium",
      "price": 7299
     },
     {
-     "id": "16552138_17921921",
+     "id": "TOAST+dddf3fe9-dfc1-4a1b-b0c1-da914719b1f5",
      "name": "Chofan | Medium",
      "price": 7299
     },
     {
-     "id": "16552139_17921922",
+     "id": "TOAST+3f2881f9-3be7-4f92-b376-dd8249fa97f0",
      "name": "Yucca | Cassava | Medium",
      "price": 7299
     },
     {
-     "id": "16552140_17921923",
+     "id": "TOAST+369ad341-49a9-4f5d-a555-f0ea8fe5f1b6",
      "name": "Batata | Sweet Potato | Medium",
      "price": 7299
     },
     {
-     "id": "16552141_17921924",
+     "id": "TOAST+73ce42c0-ca5a-48dd-b050-5439d1b654db",
      "name": "Guineitos Verdes | Green Banana | Medium",
      "price": 7299
     },
     {
-     "id": "16552142_17921925",
+     "id": "TOAST+358026a6-0e42-475f-9097-0cd3d030e286",
      "name": "Moro | Rice with Peas | Large",
      "price": 10199
     },
     {
-     "id": "16552143_17921926",
+     "id": "TOAST+18e5abf1-8ae3-41db-8ad8-33bbf187381a",
      "name": "Chofan | Large",
      "price": 10199
     },
     {
-     "id": "16552144_17921927",
+     "id": "TOAST+783ca661-c3e1-4159-86fc-fa4b3dccf4f4",
      "name": "Carnitas | Fried Pork | Large",
      "price": 11699
     },
     {
-     "id": "16552145_17921928",
+     "id": "TOAST+77e03650-1402-4f75-b82c-a57203649b7e",
      "name": "Chicharron | Fried Pork | Large",
      "price": 11699
     },
     {
-     "id": "16552146_17921929",
+     "id": "TOAST+de3ffe33-cf7c-480a-bb5f-55654f6ef0b2",
      "name": "Yucca | Cassava | Large",
      "price": 10199
     },
     {
-     "id": "16552147_17921930",
+     "id": "TOAST+500701e6-9118-4140-8143-4e050d6e4672",
      "name": "Batata | Sweet Potato | Large",
      "price": 10199
     },
     {
-     "id": "16552148_17921931",
+     "id": "TOAST+eec53828-cb47-4fc6-a7e5-8652b02ede9a",
      "name": "Guineitos Verdes | Green Banana | Large",
      "price": 10199
     }

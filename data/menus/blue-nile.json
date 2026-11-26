@@ -3,11 +3,7 @@
  "source": "scraped",
  "platform": "clover",
  "sourceUrl": "https://www.clover.com/online-ordering/bluenileboston",
- "fetchedAt": "2026-10-06T02:50:20.684Z",
- "dinnerAvailable": true,
- "closedDays": [
-  1
- ],
+ "fetchedAt": "2026-11-26T22:22:44.201Z",
  "categories": [
   {
    "name": "Beverage List",

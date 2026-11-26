@@ -1,39 +1,41 @@
 {
- "generatedAt": "2026-11-25T22:47:15.108Z",
+ "generatedAt": "2026-11-26T22:37:46.034Z",
  "restaurants": {
   "achilitos-taqueria": {
    "slug": "achilitos-taqueria",
-   "status": "unchanged",
-   "checkedAt": "2026-11-25T22:34:04.128Z",
+   "status": "failed",
+   "checkedAt": "2026-11-26T22:22:44.189Z",
    "lastSuccessAt": "2026-11-25T22:34:04.128Z",
-   "itemCount": 91
+   "itemCount": 91,
+   "error": "Scrape returned no items"
   },
   "alexs-chimis": {
    "slug": "alexs-chimis",
-   "status": "failed",
-   "checkedAt": "2026-11-25T22:34:04.149Z",
-   "lastSuccessAt": "2026-11-03T20:07:42.768Z",
+   "status": "ok",
+   "checkedAt": "2026-11-26T22:22:44.205Z",
+   "lastSuccessAt": "2026-11-26T22:22:44.205Z",
    "itemCount": 92,
-   "error": "Blocked by bot protection at https://order.chownow.com/order/23612/locations/34573"
+   "changes": []
   },
   "bbq-chicken-jp": {
    "slug": "bbq-chicken-jp",
    "status": "unchanged",
-   "checkedAt": "2026-11-25T22:34:11.487Z",
-   "lastSuccessAt": "2026-11-25T22:34:11.487Z",
+   "checkedAt": "2026-11-26T22:23:41.941Z",
+   "lastSuccessAt": "2026-11-26T22:23:41.941Z",
    "itemCount": 67
   },
   "blue-nile": {
    "slug": "blue-nile",
-   "status": "unchanged",
-   "checkedAt": "2026-11-25T22:34:04.144Z",
-   "lastSuccessAt": "2026-11-25T22:34:04.144Z",
-   "itemCount": 41
+   "status": "ok",
+   "checkedAt": "2026-11-26T22:22:44.201Z",
+   "lastSuccessAt": "2026-11-26T22:22:44.201Z",
+   "itemCount": 41,
+   "changes": []
   },
   "brassica-kitchen": {
    "slug": "brassica-kitchen",
    "status": "failed",
-   "checkedAt": "2026-11-25T22:34:47.259Z",
+   "checkedAt": "2026-11-26T22:24:14.984Z",
    "lastSuccessAt": "2026-10-23T17:54:38.935Z",
    "itemCount": 5,
    "error": "Blocked by bot protection at https://order.toasttab.com/online/brassica-kitchen-cafe-new-3712-washington-street"
@@ -41,21 +43,21 @@
   "burritos-pizzeria": {
    "slug": "burritos-pizzeria",
    "status": "unchanged",
-   "checkedAt": "2026-11-25T22:34:04.146Z",
-   "lastSuccessAt": "2026-11-25T22:34:04.146Z",
+   "checkedAt": "2026-11-26T22:22:44.202Z",
+   "lastSuccessAt": "2026-11-26T22:22:44.202Z",
    "itemCount": 197
   },
   "cappys-pizza": {
    "slug": "cappys-pizza",
    "status": "unchanged",
-   "checkedAt": "2026-11-25T22:34:04.148Z",
-   "lastSuccessAt": "2026-11-25T22:34:04.148Z",
+   "checkedAt": "2026-11-26T22:22:44.204Z",
+   "lastSuccessAt": "2026-11-26T22:22:44.204Z",
    "itemCount": 268
   },
   "casa-verde": {
    "slug": "casa-verde",
    "status": "failed",
-   "checkedAt": "2026-11-25T22:35:27.494Z",
+   "checkedAt": "2026-11-26T22:24:55.147Z",
    "lastSuccessAt": "2026-10-16T17:27:30.194Z",
    "itemCount": 45,
    "error": "Blocked by bot protection at https://order.toasttab.com/online/casa-verde"
@@ -63,7 +65,7 @@
   "chilacates-amory": {
    "slug": "chilacates-amory",
    "status": "failed",
-   "checkedAt": "2026-11-25T22:36:07.694Z",
+   "checkedAt": "2026-11-26T22:25:35.285Z",
    "lastSuccessAt": "2026-10-05T22:32:13.592Z",
    "itemCount": 407,
    "error": "Blocked by bot protection at https://order.toasttab.com/online/chilacates-amory-street-jamaica-plain-ma-224-amory-st"
@@ -71,7 +73,7 @@
   "costellos-tavern": {
    "slug": "costellos-tavern",
    "status": "failed",
-   "checkedAt": "2026-11-25T22:36:47.954Z",
+   "checkedAt": "2026-11-26T22:26:15.417Z",
    "lastSuccessAt": "2026-10-26T19:35:38.859Z",
    "itemCount": 200,
    "error": "Blocked by bot protection at https://order.toasttab.com/online/costellos-tavern-723-centre-st"
@@ -79,14 +81,14 @@
   "don-tequeno": {
    "slug": "don-tequeno",
    "status": "unchanged",
-   "checkedAt": "2026-11-25T22:34:04.976Z",
-   "lastSuccessAt": "2026-11-25T22:34:04.976Z",
+   "checkedAt": "2026-11-26T22:22:44.852Z",
+   "lastSuccessAt": "2026-11-26T22:22:44.852Z",
    "itemCount": 158
   },
   "evergreen-eatery": {
    "slug": "evergreen-eatery",
    "status": "failed",
-   "checkedAt": "2026-11-25T22:37:28.161Z",
+   "checkedAt": "2026-11-26T22:26:55.559Z",
    "lastSuccessAt": "2026-10-27T18:45:58.109Z",
    "itemCount": 204,
    "error": "Blocked by bot protection at https://order.toasttab.com/online/evergreen-eatery"
@@ -94,7 +96,7 @@
   "gangnam-spice": {
    "slug": "gangnam-spice",
    "status": "failed",
-   "checkedAt": "2026-11-25T22:38:08.390Z",
+   "checkedAt": "2026-11-26T22:27:35.711Z",
    "lastSuccessAt": "2026-11-02T22:24:49.350Z",
    "itemCount": 46,
    "error": "Blocked by bot protection at https://order.toasttab.com/online/gangnam-spice-jackson-square"
@@ -108,323 +110,157 @@
   "italian-pizza-and-subs": {
    "slug": "italian-pizza-and-subs",
    "status": "unchanged",
-   "checkedAt": "2026-11-25T22:34:04.989Z",
-   "lastSuccessAt": "2026-11-25T22:34:04.989Z",
+   "checkedAt": "2026-11-26T22:22:44.866Z",
+   "lastSuccessAt": "2026-11-26T22:22:44.866Z",
    "itemCount": 132
   },
   "joseph-s-sub-shop": {
    "slug": "joseph-s-sub-shop",
    "status": "unchanged",
-   "checkedAt": "2026-11-25T22:34:05.003Z",
-   "lastSuccessAt": "2026-11-25T22:34:05.003Z",
+   "checkedAt": "2026-11-26T22:22:44.868Z",
+   "lastSuccessAt": "2026-11-26T22:22:44.868Z",
    "itemCount": 126
   },
   "jp-house-of-pizza": {
    "slug": "jp-house-of-pizza",
    "status": "unchanged",
-   "checkedAt": "2026-11-25T22:34:05.433Z",
-   "lastSuccessAt": "2026-11-25T22:34:05.433Z",
+   "checkedAt": "2026-11-26T22:22:45.179Z",
+   "lastSuccessAt": "2026-11-26T22:22:45.179Z",
    "itemCount": 130
   },
   "jp-seafood-cafe": {
    "slug": "jp-seafood-cafe",
-   "status": "ok",
-   "checkedAt": "2026-11-25T22:38:48.589Z",
+   "status": "failed",
+   "checkedAt": "2026-11-26T22:28:15.853Z",
    "lastSuccessAt": "2026-11-25T22:38:48.589Z",
    "itemCount": 248,
-   "changes": [
-    "Mango Goseface: $11.00 → $8.00",
-    "Added Oxbow Farmhouse Ale ($8.00)",
-    "Added Green Mountain IPA ($10.00)",
-    "Added Rockport Sour Ale ($10.00)",
-    "Added Ghostfish Hazy IPA ($11.00)",
-    "Kikkoman Plum (750ml): $30.00 → $34.00",
-    "Added Frosted cranberry spritz ($38.00)",
-    "Removed Bulgoki Box",
-    "Removed Catch Box",
-    "Removed Chicken Box",
-    "Removed Salmon Box",
-    "Removed Tempura Box",
-    "Removed Tofu Box",
-    "Removed Cafe Special Box",
-    "Removed Sushi Lunch",
-    "Removed Sashimi Lunch",
-    "Removed Cali Lunch",
-    "Removed Fat Orange Cat IPA"
-   ]
+   "error": "Blocked by bot protection at https://order.toasttab.com/online/jp-seafood-cafe"
   },
   "latino-restaurant": {
    "slug": "latino-restaurant",
-   "status": "ok",
-   "checkedAt": "2026-11-25T22:39:51.083Z",
+   "status": "failed",
+   "checkedAt": "2026-11-26T22:28:55.992Z",
    "lastSuccessAt": "2026-11-25T22:39:51.083Z",
    "itemCount": 175,
-   "changes": [
-    "Rabo Guisado Extra/ Extra Oxtails Stew: $15.00 → $17.00",
-    "Spaghetti & Meatballs/ Spaghetti & Albondigas: $8.00 → $15.00",
-    "Added Heineken Zero ($5.35)",
-    "Added Blue Moon ($5.35)",
-    "Added Michelob ULTRA ($5.35)",
-    "Added Presidente ($5.35)",
-    "Added Budweiser ($5.35)",
-    "Added Red Bull ($5.00)",
-    "Added Clamato ($3.00)",
-    "Added BUZZBALLZ Choco Chiller ($10.00)",
-    "Added BUZZBALLZ Lime Rita Chiller ($10.00)",
-    "Added BUZZBALLZ Strawberry Rita ($10.00)",
-    "Added Bucket ($22.88)",
-    "Added Costillas de Cerdo Guisada/ Pork Ribs Stew ($12.00)",
-    "Added Locrio de Cerdo/ Yellow Rice & Pork ($12.00)",
-    "Removed Rabo De Vaca Guisado/ Oxtail Stew",
-    "Removed Pernil Guisado/ Pork Stew",
-    "Removed Sancocho de Res/ Tropical Beef Soup"
-   ]
+   "error": "Blocked by bot protection at https://order.toasttab.com/online/latino-restaurant-302-centre-st"
   },
   "life-alive-jp": {
    "slug": "life-alive-jp",
-   "status": "ok",
-   "checkedAt": "2026-11-25T22:40:54.394Z",
-   "lastSuccessAt": "2026-11-25T22:40:54.394Z",
-   "itemCount": 142,
-   "changes": [
-    "Added Greens, Eggs And Cheese ($9.45)",
-    "Added Chocolate Banana Protein Pancakes ($8.75)",
-    "Added Blueberry Superfood Waffles ($9.25)",
-    "Added Breakfast Hash ($9.25)",
-    "Added Sunrise Breakfast Sandwich ($7.95)",
-    "Added Shakshuka Breakfast Sando ($7.25)",
-    "Added Crispy Breakfast Taco ($3.75)",
-    "Added By the Sea Matcha ($0.00)",
-    "Removed Iced Cherry Blossom Matcha",
-    "Removed BlissBerry Kombucha",
-    "Removed Avocado Chocolate Mousse",
-    "Removed Strawberries & Cream Power Chia"
-   ]
+   "status": "unchanged",
+   "checkedAt": "2026-11-26T22:29:36.135Z",
+   "lastSuccessAt": "2026-11-26T22:29:36.135Z",
+   "itemCount": 142
   },
   "marios-pizza": {
    "slug": "marios-pizza",
    "status": "unchanged",
-   "checkedAt": "2026-11-25T22:41:11.868Z",
-   "lastSuccessAt": "2026-11-25T22:41:11.868Z",
+   "checkedAt": "2026-11-26T22:29:52.773Z",
+   "lastSuccessAt": "2026-11-26T22:29:52.773Z",
    "itemCount": 42
   },
   "mike-pattys-jp": {
    "slug": "mike-pattys-jp",
    "status": "unchanged",
-   "checkedAt": "2026-11-25T22:34:06.018Z",
-   "lastSuccessAt": "2026-11-25T22:34:06.018Z",
+   "checkedAt": "2026-11-26T22:22:45.237Z",
+   "lastSuccessAt": "2026-11-26T22:22:45.237Z",
    "itemCount": 44
   },
   "noodle-barn": {
    "slug": "noodle-barn",
    "status": "unchanged",
-   "checkedAt": "2026-11-25T22:41:26.216Z",
-   "lastSuccessAt": "2026-11-25T22:41:26.216Z",
+   "checkedAt": "2026-11-26T22:30:06.850Z",
+   "lastSuccessAt": "2026-11-26T22:30:06.850Z",
    "itemCount": 118
   },
   "real-deal-jp": {
    "slug": "real-deal-jp",
    "status": "unchanged",
-   "checkedAt": "2026-11-25T22:34:06.350Z",
-   "lastSuccessAt": "2026-11-25T22:34:06.350Z",
+   "checkedAt": "2026-11-26T22:22:45.290Z",
+   "lastSuccessAt": "2026-11-26T22:22:45.290Z",
    "itemCount": 112
   },
   "round-two-pizza": {
    "slug": "round-two-pizza",
    "status": "unchanged",
-   "checkedAt": "2026-11-25T22:34:06.365Z",
-   "lastSuccessAt": "2026-11-25T22:34:06.365Z",
+   "checkedAt": "2026-11-26T22:22:45.565Z",
+   "lastSuccessAt": "2026-11-26T22:22:45.565Z",
    "itemCount": 215
   },
   "same-old-place": {
    "slug": "same-old-place",
    "status": "unchanged",
-   "checkedAt": "2026-11-25T22:34:06.704Z",
-   "lastSuccessAt": "2026-11-25T22:34:06.704Z",
+   "checkedAt": "2026-11-26T22:22:45.650Z",
+   "lastSuccessAt": "2026-11-26T22:22:45.650Z",
    "itemCount": 127
   },
   "soup-shack-jp": {
    "slug": "soup-shack-jp",
-   "status": "failed",
-   "checkedAt": "2026-11-25T22:41:44.111Z",
-   "lastSuccessAt": "2026-11-03T20:15:30.617Z",
-   "itemCount": 72,
-   "error": "Blocked by bot protection at https://order.chownow.com/order/12742/locations"
+   "status": "ok",
+   "checkedAt": "2026-11-26T22:30:29.654Z",
+   "lastSuccessAt": "2026-11-26T22:30:29.654Z",
+   "itemCount": 71,
+   "changes": [
+    "Removed Fresh Homemade Limeade"
+   ]
   },
   "sweet-rice-jp": {
    "slug": "sweet-rice-jp",
-   "status": "failed",
-   "checkedAt": "2026-11-25T22:41:49.976Z",
-   "lastSuccessAt": "2026-11-01T18:33:52.329Z",
-   "itemCount": 246,
-   "error": "Blocked by bot protection at https://order.toasttab.com/online/sweet-rice-jp"
+   "status": "ok",
+   "checkedAt": "2026-11-26T22:32:14.351Z",
+   "lastSuccessAt": "2026-11-26T22:32:14.351Z",
+   "itemCount": 248,
+   "changes": [
+    "Added Mango Avo ($9.00)",
+    "Added Mango Cucumber ($9.00)"
+   ]
   },
   "the-haven": {
    "slug": "the-haven",
-   "status": "ok",
-   "checkedAt": "2026-11-25T22:42:30.180Z",
+   "status": "failed",
+   "checkedAt": "2026-11-26T22:33:19.004Z",
    "lastSuccessAt": "2026-11-25T22:42:30.180Z",
    "itemCount": 48,
-   "changes": [
-    "Bar STEAK: $36.00 → $37.00",
-    "SLIDERS: $18.00 → $19.00",
-    "VEGETABLE CURRY: $24.00 → $24.25",
-    "Added CHICKEN CURRY ($29.00)",
-    "H Salad w/Chicken: $24.00 → $21.00",
-    "H Salad w/Salmon: $25.25 → $25.00",
-    "Added Scotch Egg D ($13.25)",
-    "Added Haddie Croquettes ($13.25)",
-    "House Salad: $13.25 → $15.00",
-    "Added Beet Salad ($16.00)",
-    "Added Beet Salad No Cheese ($16.00)",
-    "Added Wild Boar Sausage Roll ($13.00)",
-    "Added WINGS- Buffalo ($14.00)",
-    "WINGS: $13.00 → $14.00",
-    "Added Mac and Cheese ($16.00)",
-    "Added Mac and Cheese WITH BACON ($18.25)",
-    "Haven Hot Dog w/ skinny fries: $16.00 → $16.25",
-    "Added Cheese Bridie ($13.00)",
-    "Added Lamb Bridie ($13.00)",
-    "Added Haven Burger. 2GO ($23.25)",
-    "Added Haven Burger NO CHEESE ($22.25)",
-    "Added Veggie Burger. 2GO ($20.25)",
-    "Added Pepperoni PIZZA ($20.25)",
-    "Added Sausage and Pepper PIZZA ($21.25)",
-    "Added Lamb PIZZA ($22.75)",
-    "Added 5-Cheese Garlic PIZZA ($22.25)",
-    "Added Buffalo Chicken PIZZA ($21.25)",
-    "Added Broccolini PIZZA ($22.00)",
-    "Added VEGAN PIZZA ($23.00)",
-    "Added Plain Cheese PIZZA ($18.25)",
-    "Added Deep Fried Mars Bar ($10.25)",
-    "Added Sticky Toffee Pudding ($12.25)",
-    "Removed Sheperds Pie",
-    "Removed Scotch Egg b",
-    "Removed House Salad Lunch",
-    "Removed Beet Salad Lunch",
-    "Removed Cullen Skink",
-    "Removed Haddie Croquettes Lunch",
-    "Removed Cheese Bridies Lunch",
-    "Removed Lamb Bridies Lunch",
-    "Removed Sausage Roll",
-    "Removed Cheese Plate Lunch",
-    "Removed Skinny Fries L",
-    "Removed veggie burger",
-    "Removed Seafood Pate",
-    "Removed Deep Fried Mars Bar (Brunch)",
-    "Removed Sticky Toffee Pudding .b",
-    "Removed Grilled Cheese Solo Lunch",
-    "Removed House Salad /Chicken Lunch",
-    "Removed House Salad /Salmon Lunch",
-    "Removed Beet Salad /Chicken Lunch",
-    "Removed Beet Salad/ Salmon Lunch",
-    "Removed House Olives Lunch",
-    "Removed Oatcakes",
-    "Removed Pickled Veggies",
-    "Removed Cheese Bridies. b",
-    "Removed Lamb Bridies. b",
-    "Removed Chix WINGS w/Buffalo",
-    "Removed Cheese Plate L",
-    "Removed Seafood Plate L",
-    "Removed Chicken Wings Plain",
-    "Removed House Salad w Chicken"
-   ]
+   "error": "Blocked by bot protection at https://order.toasttab.com/online/the-haven-jp"
   },
   "the-joint": {
    "slug": "the-joint",
-   "status": "ok",
-   "checkedAt": "2026-11-25T22:43:30.422Z",
-   "lastSuccessAt": "2026-11-25T22:43:30.422Z",
-   "itemCount": 165,
-   "changes": [
-    "Added Mussels ($16.00)",
-    "Added Chicken Marsala ($26.00)",
-    "Added Salmon ($28.00)",
-    "Added Ribeye Steak ($33.00)",
-    "Added Shrimp Scampi ($25.00)",
-    "Added Macaroni & Cheese ($17.00)",
-    "Added Eggplant Parm ($19.00)",
-    "Added pesto alfredo w chicken ($25.00)",
-    "Added Buffalo Mac and Cheese ($22.00)",
-    "Added MONDAY ONLY Pulled Pork Sandwich ($19.00)",
-    "Added SATURDAY ONLY Fried Diablo ($35.00)",
-    "Added THURSDAY ONLY Chicken Piccata ($23.00)",
-    "Added WEDNESDAY ONLY Chicken Parm ($23.00)",
-    "Removed Belgian Waffle",
-    "Removed Breakfast Burrito",
-    "Removed Breakfast Pizza",
-    "Removed BYO Omelette",
-    "Removed Crab Cake Benny",
-    "Removed Egg White Omelette",
-    "Removed Eggs Any Style",
-    "Removed Eggs Benedict",
-    "Removed French Toast",
-    "Removed Fried Egg Sandwich",
-    "Removed Kids Pancakes",
-    "Removed Meat Lovers Omelette",
-    "Removed Pancakes",
-    "Removed The Farmers Omelette",
-    "Removed Huevos Rancheros",
-    "Removed Truffle Scrambled Eggs",
-    "Removed Belgian Waffles & Eggs",
-    "Removed French Toast & Eggs",
-    "Removed Pancake & Eggs",
-    "Removed Steak & Eggs",
-    "Removed Avocado",
-    "Removed Bacon",
-    "Removed Bagel",
-    "Removed Bagel With Cream Cheese",
-    "Removed Breakfast Potatoes",
-    "Removed Chicken",
-    "Removed Fruit Cup",
-    "Removed Ham",
-    "Removed Sausage",
-    "Removed Side Eggs",
-    "Removed Side Pancake",
-    "Removed Side Waffles",
-    "Removed Sides French Toast",
-    "Removed Toast",
-    "Removed Turkey Sausage",
-    "Removed Sweet Plantain",
-    "Removed Yogurt Bowl",
-    "Removed Avo Toast"
-   ]
+   "status": "unchanged",
+   "checkedAt": "2026-11-26T22:33:59.152Z",
+   "lastSuccessAt": "2026-11-26T22:33:59.152Z",
+   "itemCount": 165
   },
   "tonino": {
    "slug": "tonino",
    "status": "failed",
-   "checkedAt": "2026-11-25T22:44:33.538Z",
+   "checkedAt": "2026-11-26T22:35:04.219Z",
    "lastSuccessAt": "2026-10-26T19:44:10.023Z",
    "itemCount": 16,
    "error": "Blocked by bot protection at https://order.toasttab.com/online/toninojp"
   },
   "top-mix": {
    "slug": "top-mix",
-   "status": "ok",
-   "checkedAt": "2026-11-25T22:45:13.770Z",
-   "lastSuccessAt": "2026-11-25T22:45:13.770Z",
-   "itemCount": 68,
-   "changes": [
-    "Added Steak & Cheese Eggrolls ($12.75)"
-   ]
+   "status": "unchanged",
+   "checkedAt": "2026-11-26T22:35:44.353Z",
+   "lastSuccessAt": "2026-11-26T22:35:44.353Z",
+   "itemCount": 68
   },
   "tres-gatos": {
    "slug": "tres-gatos",
    "status": "failed",
-   "checkedAt": "2026-11-25T22:45:33.386Z",
+   "checkedAt": "2026-11-26T22:36:04.529Z",
    "error": "Blocked by bot protection at https://order.toasttab.com/online/tres-gatos"
   },
   "young-kong": {
    "slug": "young-kong",
    "status": "failed",
-   "checkedAt": "2026-11-25T22:46:13.589Z",
-   "error": "No menu found in 73 API responses"
+   "checkedAt": "2026-11-26T22:36:44.672Z",
+   "error": "No menu found in 74 API responses"
   },
   "zestos-pizza": {
    "slug": "zestos-pizza",
    "status": "unchanged",
-   "checkedAt": "2026-11-25T22:34:07.339Z",
-   "lastSuccessAt": "2026-11-25T22:34:07.339Z",
+   "checkedAt": "2026-11-26T22:22:45.983Z",
+   "lastSuccessAt": "2026-11-26T22:22:45.983Z",
    "itemCount": 148
   }
  }
