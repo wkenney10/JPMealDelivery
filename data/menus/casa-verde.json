@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "toast",
  "sourceUrl": "https://order.toasttab.com/online/casa-verde",
- "fetchedAt": "2026-10-05T22:31:14.030Z",
+ "fetchedAt": "2026-11-27T22:00:52.924Z",
  "categories": [
   {
    "name": "Chips & Salsa & Dip",
@@ -195,16 +195,15 @@
      "price": 1790
     },
     {
-     "id": "9c8b3413-8567-4fa1-b382-86ef67d3d9ef",
-     "name": "Casa Caesar",
-     "description": "romaine, tortilla crisps, scallion, cotija",
-     "price": 1190
-    },
-    {
      "id": "267d9034-86b6-4409-8296-4208d201641c",
      "name": "Happy Meal Tray",
      "description": "two cheeseburgers, griddled onion, house pickles, chipotle ranch, & side of patatas bravas",
      "price": 2190
+    },
+    {
+     "id": "9fe89804-ea61-4ccb-af20-233c567ed161",
+     "name": "Veggie Chili",
+     "price": 1090
     }
    ]
   },

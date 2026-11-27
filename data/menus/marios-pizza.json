@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "doordash",
  "sourceUrl": "https://order.online/business/marios-12648169",
- "fetchedAt": "2026-11-24T23:08:53.882Z",
+ "fetchedAt": "2026-11-27T22:06:12.105Z",
  "categories": [
   {
    "name": "CREATE YOUR OWN PIZZA",
@@ -214,33 +214,6 @@
      "name": "Create Your Own Calzone - Small",
      "description": "Mozzarella, Ricotta, Parmigiana and Red Sauce on the side",
      "price": 1400
-    }
-   ]
-  },
-  {
-   "name": "Slices",
-   "items": [
-    {
-     "id": "11610476402",
-     "name": "2 Slices of Cheese and Can Drink",
-     "description": "2 Slices of Cheese Pizza and a Can of Soda",
-     "price": 900
-    },
-    {
-     "id": "11610476403",
-     "name": "2 Slices of Pepperoni and Can Drink",
-     "description": "2 Pepperoni Slices and a Can of Soda",
-     "price": 1000
-    },
-    {
-     "id": "11610476404",
-     "name": "Slice of Cheese",
-     "price": 400
-    },
-    {
-     "id": "11610476405",
-     "name": "Slice of Pepperoni",
-     "price": 425
     }
    ]
   },

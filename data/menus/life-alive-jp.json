@@ -3,7 +3,7 @@
  "source": "scraped",
  "platform": "menuapp",
  "sourceUrl": "https://order.lifealive.com/venue/?id=1691&order-type=6",
- "fetchedAt": "2026-11-25T22:40:54.394Z",
+ "fetchedAt": "2026-11-27T22:05:54.902Z",
  "categories": [
   {
    "name": "New & Seasonal",
@@ -93,6 +93,12 @@
      "price": 675
     },
     {
+     "id": "cd836b57-1631-4a77-aa3c-5db66056fe1d",
+     "name": "Iced Cherry Blossom Matcha",
+     "description": "Iced matcha, raspberry rose syrup & oat milk topped with dried rose petals. VG, DF, GF, NF, SF.",
+     "price": 685
+    },
+    {
      "id": "22dbf4bb-7595-46db-bbd7-e52416561c5f",
      "name": "Hot Butternut Spice Latte",
      "description": "Espresso, roasted butternut squash, cinnamon, nutmeg, ginger, agave & oat milk. VG, DF, GF, NF, SF",
@@ -109,71 +115,6 @@
      "name": "Banana Bread Matcha",
      "description": "Iced matcha, banana, cinnamon, maple and vanilla with oat milk. VG, GF, DF, NF, SF.",
      "price": 725
-    }
-   ]
-  },
-  {
-   "name": "Breakfast Menu",
-   "items": [
-    {
-     "id": "fca7e14a-5b24-495f-b16c-17b710f29597",
-     "name": "Greens, Eggs And Cheese",
-     "description": "Melted white cheddar, hard boiled egg, broccoli, kale, Braggs & nutritional yeast in a whole wheat tortilla Cannot be made wheat free. Contains egg, milk, wheat and soy. NF",
-     "price": 945
-    },
-    {
-     "id": "08e31fdd-c76e-4de3-bca6-a2ee091e92fc",
-     "name": "Chocolate Banana Protein Pancakes",
-     "description": "Five mini banana protein pancakes with chocolate hazelnut drizzle, hemp seeds, cacao nibs and coconut. Contains eggs, milk, hazelnuts and coconut. GF, SF.",
-     "price": 875
-    },
-    {
-     "id": "1de3e26a-4211-4d9e-abfa-8205941f68f1",
-     "name": "Blueberry Superfood Waffles",
-     "description": "Wheat-free with hemp seeds, cacao nibs, coconut and blueberries with Vermont maple syrup (contains eggs). Contains eggs and coconut. DF, GF, SF",
-     "price": 925
-    },
-    {
-     "id": "a940b06f-96fd-449b-b1ef-6c8afba8d22b",
-     "name": "Avocado Toast",
-     "description": "Avocado with lemon, chili flakes, sea salt & alfalfa sprouts on a whole grain muffin Cannot be made wheat free. Contains wheat and soy. VG, DF, NF",
-     "price": 925
-    },
-    {
-     "id": "c8924278-affb-4a1e-adbc-6acc9d78c3fd",
-     "name": "Breakfast Hash",
-     "description": "Sweet potato quinoa hash with peppers, onion, red beets, salsa verde, roasted egg & feta. Contains egg, milk, allium and soy. NF, GF.",
-     "price": 925
-    },
-    {
-     "id": "29877d3e-1c76-4f8b-918b-ef0abc70e7f3",
-     "name": "Sunrise Breakfast Sandwich",
-     "description": "Roasted egg, white cheddar & alfalfa sprouts, on a whole grain muffin with salsa verde Cannot be made wheat free. Contains milk, egg, wheat, soy and allium. NF",
-     "price": 795
-    },
-    {
-     "id": "f36208ba-019c-486d-bf4e-4147b5a6e9ea",
-     "name": "Shakshuka Breakfast Sando",
-     "description": "Roasted egg with harissa sauce, feta, fresh herbs and lemon tahini in a whole grain pita. Contains egg, milk, wheat, sesame and allium. NF, SF",
-     "price": 725
-    },
-    {
-     "id": "c9d9bef2-ba42-4e2e-b468-8839dd04fd8a",
-     "name": "Crispy Breakfast Taco",
-     "description": "Roasted egg & white cheddar, fresh corn, cilantro & corn tortilla with salsa verde. Contains milk, egg and allium. NF, GF, SF.",
-     "price": 375
-    },
-    {
-     "id": "d537ffdb-ce1d-46bb-bc71-ba9732c7281c",
-     "name": "Hot & Healthy Bachelor",
-     "description": "Melted white cheddar, hard boiled egg, broccoli, kale, Braggs & nutritional yeast in a whole wheat tortilla. Cannot be made wheat free. Contains egg, milk, wheat and soy. NF",
-     "price": 1350
-    },
-    {
-     "id": "d9a2e1c5-68b2-4f58-b355-227331632a77",
-     "name": "Romantic",
-     "description": "Melted white cheddar, avocado, broccoli, garlic, Braggs & nutritional yeast in a whole wheat tortilla. Cannot be made wheat free. Contains milk, wheat, allium and soy. NF.",
-     "price": 1350
     }
    ]
   },
@@ -371,6 +312,18 @@
      "price": 1395
     },
     {
+     "id": "d537ffdb-ce1d-46bb-bc71-ba9732c7281c",
+     "name": "Hot & Healthy Bachelor",
+     "description": "Melted white cheddar, hard boiled egg, broccoli, kale, Braggs & nutritional yeast in a whole wheat tortilla. Cannot be made wheat free. Contains egg, milk, wheat and soy. NF",
+     "price": 1350
+    },
+    {
+     "id": "d9a2e1c5-68b2-4f58-b355-227331632a77",
+     "name": "Romantic",
+     "description": "Melted white cheddar, avocado, broccoli, garlic, Braggs & nutritional yeast in a whole wheat tortilla. Cannot be made wheat free. Contains milk, wheat, allium and soy. NF.",
+     "price": 1350
+    },
+    {
      "id": "d3764f95-7349-4873-83cc-b510f0c6c6ab",
      "name": "L.A. Caesar Wrap",
      "description": "Kale and romaine hearts with whole grain croutons, chickpea parmesan and caesar dressing in a whole wheat tortilla. Contains milk, wheat, allium and soy. NF",
@@ -438,6 +391,12 @@
      "name": "Hummus & Pita Plate",
      "description": "Hummus with lemon tahini, cucumber, kalamata olives, fresh herbs, crispy chickpeas and warm whole grain pita. Make it wheat free by removing the pita. Contains wheat, sesame and allium. VG, DF, NF, SF",
      "price": 895
+    },
+    {
+     "id": "a940b06f-96fd-449b-b1ef-6c8afba8d22b",
+     "name": "Avocado Toast",
+     "description": "Avocado with lemon, chili flakes, sea salt & alfalfa sprouts on a whole grain muffin Cannot be made wheat free. Contains wheat and soy. VG, DF, NF",
+     "price": 925
     },
     {
      "id": "22b4aea0-4530-42cc-b10e-53be031258e5",
@@ -694,12 +653,6 @@
      "name": "Strawberry Dream Matcha",
      "description": "Iced matcha, strawberries, housemade strawberry syrup, oat milk. VG, GF, DF, NF, SF",
      "price": 725
-    },
-    {
-     "id": "ad5b6d29-5a68-4005-bfd5-450aeb10efca",
-     "name": "By the Sea Matcha",
-     "description": "Iced matcha, blue spirulina, maca, vanilla, sea salt and oat milk topped with maple vanilla cold foam. Contains coconut. VG, DF, GF, SF.",
-     "price": 0
     },
     {
      "id": "e92b91bc-476d-48d4-9aa6-916f951bf34e",
